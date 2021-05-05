@@ -95,6 +95,26 @@
         },
         "Demoralize": "士気をくじく",
         "Disarm": "武器落とし",
+         "EncouragingWords": {
+                  "Title": "激励の言葉",
+                  "ContentMain": "対象のDCを選んで下さい。自分の習熟度より上の回復を試みることは出来ません。 習熟度より上の回復を試みると、回復量とDCはあなたが行うことの出来る最高レベルへとダウングレードされます。",
+                  "ContentLabel1": "交渉 DC:",
+                  "ContentLabel2": "DC 修正値:",
+                  "ContentOption1": "修得 DC 15",
+                  "ContentOption2": "熟練 DC 20, +5 スタミナ",
+                  "ContentOption3": "達人 DC 30, +15 スタミナ",
+                  "ContentOption4": "伝説 DC 40, +25 スタミナ",
+                  "BadArgs": "このアクションは正確に一人のキャラクターあるいはNPCに行わなければなりません。",
+                  "NotTrained": "{name} は〈交渉〉に修得しておらず、激励の言葉の使い方を知りません",
+                  "StaminaNotEnabled": "スタミナのヴァリアントは有効になっていません",
+                  "CritSuccess": "クリティカル",
+                  "Success": "成功",
+                  "Failure": "失敗",
+                  "CritFailure": "ファンブル",
+                  "Recovery": "スタミナ 回復",
+                  "Damage": "ダメージ",
+                  "Cancel": "キャンセル"
+              },
         "Feint": "フェイント",
         "ForceOpen": "こじあける",
         "GatherInformation": "情報収集",
@@ -251,6 +271,7 @@
   "ArmorGreaterResilientRune": "レジリエント（グレーター）",
   "ArmorGreaterStrikingRune": "ストライキング（グレーター）",
   "ArmorGroupChain": "鎖帷子",
+  "ArmorGroupCloth": "衣類",
   "ArmorGroupComposite": "多層",
   "ArmorGroupLabel": "グループ",
   "ArmorGroupLeather": "皮革",
@@ -376,6 +397,7 @@
   "BrowserFilterSizes": "サイズ",
   "BrowserFilterSkills": "技能",
   "BrowserFilterSource": "出展",
+  "BrowserFilterSpellCategories": "カテゴリ",
   "BrowserFilterTraditions": "体系",
   "BrowserFilterTraits": "特性",
   "BrowserFilterWeaponFilters": "武器フィルタ",
@@ -392,7 +414,7 @@
   "BulkShortLabel": "バルク",
   "BulkTypeLight": "軽重量",
   "CapacityBarLabel": "キャパシティ",
-  "CastLabel": "キャスト",
+  "CastLabel": "発動",
   "CharacterDetails": "キャラクター詳細",
   "CharacterLevelLabel": "レベル",
   "CharacterNamePlaceholder": "キャラクターの名前",
@@ -503,7 +525,6 @@
   "ConsumableHeading": "消耗品",
   "ConsumableNoChargesLabel": "チャージなし",
   "ConsumableTypeAmmo": "矢弾",
-  "ConsumableTypeBomb": "爆弾",
   "ConsumableTypeDrug": "薬品",
   "ConsumableTypeElixir": "エリクサー",
   "ConsumableTypeLabel": "消耗品種別",
@@ -555,6 +576,7 @@
   "CurrentStaminaPointsShortLabel": "現在SP",
   "CurrentStaminaTitle": "君が持つスタミナの量",
   "DCLabel": "DC",
+  "DCWithValue": "DC {dc} {text}",
   "DamageDieD10": "d10",
   "DamageDieD12": "d12",
   "DamageDieD4": "d4",
@@ -599,6 +621,8 @@
   "DefencesLabel": "防御",
   "Deity": "神格",
   "DeityTitle": "君の神格",
+  "DeleteConditionQuestion": "本当に状態 {condition}を削除しますか?",
+          "DeleteConditionTitle": "状態の削除",
   "DeleteItemQuestion": "本当に削除しますか？",
   "DeleteItemTitle": "アイテム削除",
   "DeleteShortLabel": "削除",
@@ -695,6 +719,7 @@
   "FeatTypeSkill": "技能特技",
   "FeaturesAncestryHeader": "祖先特徴",
   "FeaturesClassHeader": "クラス特徴",
+  "FeatVariantRule": "ヴァリアント・ルール",
           "Feet": "フィート",
   "FlatBonusHP": "定数のボーナスHP",
   "FlatBonusHPTitle": "HPに加わる定数を追加する",
@@ -704,14 +729,15 @@
   "FlatBonusSPperLevel": "ボーナスSP/レベル",
   "Focus": {
   "label": "集中点",
+   "NotEnoughFocusPointsError": "この呪文を発動するために必要な集中点がありません",
   "pointLabel": "点",
   "pointTitle": "残りの集中点",
   "poolLabel": "蓄積",
   "poolTitle": "集中蓄積の大きさ"
   },
   "FormulaPlaceholder": "ここに式を入れる",
-  "Gender": "性別",
-  "GenderTitle": "君の性別",
+  "GenderPronoun": "性別/呼称",
+  "GenderPronounTitle": "性別/呼称",
           "GeneralFeatLevels": "一般特技レベル",
           "GreaterWeaponSpecialization": "上級武器開眼",
   "HazardDescriptionLabel": "描写",
@@ -770,6 +796,9 @@
               "ABC": {
                   "InvalidDrop": "{badType}はここにドロップできない ({goodType}でなくてはならない)"
               },
+              "Effect": {
+                  "ShowTokenIcon": "トークン・アイコンを表示しますか?"
+              },
               "Plural": "アイテム"
           },
   "ItemBonus0": "0",
@@ -781,6 +810,8 @@
   "ItemBonusShortLabel": "アイテム",
   "ItemDescription": "描写",
   "ItemDetails": "詳細",
+  "ItemMystified": "未識別化",
+  "ItemMystify": "未識別",
   "ItemNamePlaceholder": "名称",
          "ItemNotSupportedOnActor": "アクターにサポートされていないアイテム",
           "ItemRules": "ルール",
@@ -874,6 +905,7 @@
   "Languages": "言語",
           "LanguagesAdditional": "追加の言語",
   "LevelLabel": "レベル",
+  "LevelN": "レベル {level}",
   "Level1": "レベル1",
           "Level2": "レベル2",
           "Level3": "レベル3",
@@ -948,6 +980,7 @@
   "proficiency": "習熟",
   "circumstance": "状況",
   "item": "アイテム",
+  "potency": "発現",
   "status": "ステータス",
   "untyped": "無名"
   },
@@ -1031,6 +1064,9 @@
               }
           },
           "PickAType": "Pick a type",
+          "Playlist": {
+              "Plural": "プレイリスト"
+          },
   "PotencyRuneLabel": "発現ルーン",
   "PreciousMaterialAdamantine": "アダマンティン",
   "PreciousMaterialColdIron": "冷たい鉄",
@@ -1096,22 +1132,26 @@
   },
           "RemoveCoinsByValueLabel": "種別を特定せずに硬貨を減らす",
           "RemoveCoinsTitle": "硬貨を減らす",
+  "RemoveCombatProficiency": {
+              "Title": "戦闘用の習熟の削除",
+              "Message": "{proficiency} の習熟を削除しますか？"
+          },
   "RemoveSpellcastingEntryTitle": "呪文発動の項目を削除する",
   "ResiliencyRuneLabel": "レジリエンシィ・ルーン",
   "RerollMenu": {
-              "ErrorNoActor": "No actor is associated to the roll",
-              "ErrorCantDelete": "You are unable to delete the original roll.",
-              "HeroPoint": "Reroll using a Hero Point",
-              "KeepBest": "Reroll and keep the better result",
-              "KeepNew": "Reroll and keep the new result",
-              "KeepWorst": "Reroll and keep the worse result",
+              "ErrorNoActor": "そのロールに関連するアクターがいません",
+              "ErrorCantDelete": "オリジナルのロールを削除することは出来ません",
+              "HeroPoint": "ヒーロー・ポイントを使って再ロールします",
+              "KeepBest": "再ロールして良い方の結果を残す",
+              "KeepNew": "再ロールして新しい結果を残す",
+              "KeepWorst": "再ロールして悪い方の結果を残す",
               "MessageKeep": {
-                  "new": "Rerolled and kept the new result",
-                  "best": "Rerolled and kept the better result",
-                  "worst": "Rerolled and kept the worse result"
+                  "new": "再ロールして新しい結果を残しました",
+                  "best": "再ロールして良い方の結果を残しました",
+                  "worst": "再ロールして悪い方の結果を残しました"
               },
-              "MessageHeroPoint": "Rerolled using a Hero Point",
-              "WarnNoHeroPoint": "{name} has no Hero Points"
+              "MessageHeroPoint": "ヒーロー・ポイントを使って再ロールしました",
+              "WarnNoHeroPoint": "{name} のヒーロー・ポイントはゼロです"
           },
   "ResistanceTypeAll": "全て",
   "ResistanceTypePhysical": "物理",
@@ -1121,9 +1161,9 @@
   "ResistancesLabel": "抵抗",
   "ResolvePointsShortLabel": "決意",
   "ResolveTitle": "君の決意ポイントの量",
-  "ResultLabel": "Result",
+  "ResultLabel": "結果",
           "RollTable": {
-              "Plural": "Rollable Tables"
+              "Plural": "ロール表"
           },
   "RollBonusPlaceholder": "e.g. +3 or +1d4",
   "RollModeLabel": "ロール・モード",
@@ -1151,8 +1191,17 @@
               "Unrecognized": "未知のルール要素",
               "WeaponPotency": "武器発現"
           },
+          "Scene": {
+              "Plural": "シーン"
+          },
   "SETTINGS": {
    "Settings": "設定",
+               "Automation": {
+                  "LootableNPCs": {
+                      "Name": "NPCからの略奪",
+                      "Hint": "死亡時、プレイヤーがNPCを略奪可能になる"
+                  }
+              },
               "critFumbleCards": {
                   "hint": "適切なロールにおいて自動的にクリティカル・ヒットカードやファンブル・カードを引く",
                   "name": "クリティカル・ヒット＆ファンブル・カード"
@@ -1178,7 +1227,13 @@
   },
    "Player": {
                   "QuickRolls": {
-                      "DialogHint": "ロールするためにShiftをクリックした場合にのみこの窓を表示する"
+                      "DialogHint": "判定を試みる前に常にこの窓を表示する"
+                  }
+              },
+              "User": {
+                  "EffectPanel": {
+                      "Name": "エフェクト・パネルの表示",
+                      "Hint": "トークンが選ばれた際にエフェクト・パネルを表示する"
                   }
               },
               "WorldSchemaVersion": {
@@ -1199,7 +1254,7 @@
               },
               "IgnoreCoinBulk": {
                   "Name": "コインの重さを無視する",
-                  "Hint": "現在の重量を無視するならオンにする"
+                  "Hint": "硬貨の重量を無視するならオンにする"
               },
               "IgnoreContainerOverflow": {
                   "Name": "バルク計算時に異なる容れ物の重さを累積させない",
@@ -1227,14 +1282,57 @@
                   "Name": "辞典ブラウザのパックC",
                   "Hint": "ロード時にパックを除くための設定"
               },
-              "PFSSheetTab": {
-                  "Name": "パスファインダー協会シートのタブb",
-                  "Hint": "パスファインダー協会のタブをキャラクター・シートに表示する"
-              },
               "EnabledRulesUI": {
                   "Name": "アドヴァンスド・ルール要素UI",
                   "Hint": "有効時、アイテムの上にアドヴァンスド・ルール要素を表示する。何をしているか分かっていない場合や間違ってしまった場合、アクターやアイテムを壊すかもしれないので注意すること。 "
               },
+               "Homebrew": {
+                  "Name": "自家ルール設定",
+                  "Label": "自家ルールの設定を行う",
+                  "Hint": "カスタム特性、言語、そして自家ルールのその他の要素を設定する",
+                  "Instructions": "GMが特性、言語、その他の要素を追加することが出来るようになる。要素を追加するには、適切な欄に望む単語をカンマやタブで分けながら入力すること。そうすると、アクターやアイテム・シートの適切な場所に表示されるようになる。単語のアップデートをするには、クリックして望むように変化させること。",
+                  "ConfirmDelete": {
+                      "Title": "自家ルール要素を削除しますか?",
+                      "Message": "自家ルール要素 <strong>{element}</strong>を削除しますか?"
+                  },
+                  "CreatureTraits": {
+                      "Name": "クリーチャー特性",
+                      "Hint": "この特性はあらゆるクリーチャー及び幾つかのアイテム種別に適用可能（例：ドラゴン、ノーム）"
+                  },
+                  "FeatTraits": {
+                      "Name": "特技特性",
+                      "Hint": "この特性は特技に適用可能（例：血統、モンク）"
+                  },
+                  "Languages": {
+                      "Name": "言語",
+                      "Hint": "キャラクターが知っている、あるいは学ぶ言語(例：竜語、ノーム語）"
+                  },
+                  "MagicSchools": {
+                      "Name": "魔法系統",
+                      "Hint": "全ての呪文が所属することになる魔法の系統（例：召喚術、力術）"
+                  },
+                  "SpellTraits": {
+                      "Name": "呪文特性",
+                      "Hint": " この特性はあらゆる呪文に適用可能（例：カースバウンド、治癒）"
+                  },
+                  "WeaponCategories": {
+                      "Name": "武器のカテゴリ",
+                      "Hint": "Pathfinder2eの武器タクソノミーの最上位 (例：単純、軍用)"
+                  },
+                  "WeaponGroups": {
+                      "Name": "武器のグループ",
+                      "Hint": "Pathfinder2eの武器タクソノミーの真ん中 (例：剣、クロスボウ)"
+                  },
+                  "BaseWeapons": {
+                      "Name": "基本武器",
+                      "Hint": "Pathfinder2eの武器タクソノミーの最下位 (例：ヘヴィ・クロスボウ、ロングソード) "
+                  }
+              },
+              "PFSSheetTab": {
+                  "Name": "パスファインダー協会シートのタブ",
+                  "Hint": "キャラクターシートにパスファインダー協会タブを表示"
+              },
+              "ResetChanges": "変更をリセット",
               "WorldClock": {
                   "Name": "ワールド・クロック設定",
                   "Label": "ワールド・クロックの設定変更",
@@ -1304,6 +1402,16 @@
                       "Name": "フリー・アーキタイプのヴァリアント・ルール",
                       "Hint": "Gamemastery Guide p.194のフリー・アーキタイプのヴァリアントによる追加の特技スロットを使う"
                   },
+                   "AutomaticBonus": {
+                      "Title": "自動的なボーナス成長",
+                      "Name": "自動的なボーナスぼヴァリアント・ルール",
+                      "Hint": "再起動が必要：自動的なボーナス成長のヴァリアント・ルールのサポート、ただし技能／極致能力を除く",
+                      "Choices": {
+                          "noABP": "デフォルト・ルールを使用",
+                          "ABPRulesAsWritten": "ルルブ通りののヴァリアント・ルールを使用",
+                          "ABPFundamentalPotency": "ボーナス成長を基礎ルーンとして扱う"
+                      }
+                  },
                   "Proficiency": {
                       "Title": "レベルに伴わない習熟",
                       "Name": "レベルに伴わない習熟のヴァリアント・ルール",
@@ -1364,23 +1472,25 @@
   "SensesGreaterDarkvision": "優れた暗視",
   "SensesLowLightVision": "夜目",
   "SensesLifesense": "生命感知",
+  "SensesMotionsense": "動作感知",
   "SensesScent": "鋭敏嗅覚",
   "SensesTitle": "君のキャラクターの感覚",
   "SensesTremorsense": "振動感知",
   "SensesWavesense": "波感知",
   "SettingsColorBlue": "ブルーグレー",
-  "SettingsColorLabel": "色相",
-  "SettingsColorNotes": "君はここで、シートで主に使われているシステムの色相を設定出来る",
+  "SettingsColorLabel": "UIテーマ",
+  "SettingsColorNotes": "UIテーマはサイドバーやチャットカードで表示される",
   "SettingsColorOriginal": "オリジナル",
   "SettingsColorRed": "ダークレッド",
   "SettingsColorFoundry-UI": "開発中",
-  "SettingsQuickRollsLabel": "ロール高速化",
-  "SettingsQuickRollsNotes": "有効化すると、シートからダイスをロールする際、SHIFTを押しているときにロールをその場で修正するポップアップだけが出る",
+  "SettingsQuickRollsLabel": "ロールのダイアログ表示",
+  "SettingsQuickRollsNotes": "無効化すると、ロールボタンをSHIFTで押しているときにだけ後でd20の修正値が表示される",
   "SettingsDataUriHighlightLabel": "data: URIを使っている画像をハイライトする",
           "SettingsDataUriHighlightNotes": "data: URIを使っている画像はキャラクター・シートに埋め込まれる。これはキャラクターのパフォーマンスに負の影響がある。有効時、このような画像は赤い境界線でハイライトされるため、発見して取り除くのが簡単になる。<br>この設定は現在のセッションでのみ有効になる",
-          "SheetLabel": "{type}シート",
-          "SheetLabelNew": "{type}シート（プレビュー）",
-          "SheetLabelOld": "{type}シート(レガシー)",
+          "SheetLabel": "{type} シート",
+          "SheetLabelDataEntry": "{type} Sheet (データ項目)",
+          "SheetLabelNew": "{type} シート（プレビュー）",
+          "SheetLabelOld": "{type} シート(レガシー)",
   "ShieldACBonusTitle": "君の盾のACボーナス（盾を掲げるのアクションを使った際に適用）",
   "ShieldBTLabel": "破損",
   "ShieldBrokenThresholdLabel": "破損閾値",
@@ -1433,6 +1543,7 @@
   "SkillThi": "窃盗",
   "SkillThievery": "窃盗",
   "SkillsLabel": "技能",
+  "SkillPotencyHeader": "技能 発現",
    "SkillFeatLevels": "技能特技を得るレベル",
           "SkillIncreaseLevels": "技能増加を得るレベル",
   "SpecialLabel": "特殊",
@@ -1457,7 +1568,8 @@
               "arcane": "秘術呪文攻撃",
               "divine": "信仰呪文攻撃",
               "occult": "霊妙呪文攻撃",
-              "primal": "始原呪文攻撃"
+              "primal": "始原呪文攻撃",
+              "focus": "集中呪文攻撃"
           },
   "SpellAttackLabel": "呪文攻撃",
   "SpellBasicSaveOption": "基本",
@@ -1471,6 +1583,7 @@
           "SpellComponentShortS": "S",
           "SpellComponentShortV": "V",
   "SpellComponentsLabel": "構成要素",
+  "SpellSlotEmpty": "空きスロット (ここに呪文をドラッグ)",
           "SpellPrimaryCheckLabel": "主要判定",
           "SpellSecondaryChecksLabel": "二次判定",
           "SpellSecondaryCasters": "二次術者",
@@ -1515,16 +1628,8 @@
   "SpellScalingModeLeveltenth": "増強 (10レベル)",
   "SpellScalingModeLevelthird": "増強 (3レベル)",
   "SpellScalingModeNone": "なし",
-  "SpellSchoolAbj": "防御術",
-  "SpellSchoolCon": "召喚術",
-  "SpellSchoolDiv": "占術",
-  "SpellSchoolEnc": "心術",
-  "SpellSchoolEvo": "力術",
-  "SpellSchoolIll": "幻術",
   "SpellSchoolLabel": "呪文系統",
-  "SpellSchoolNec": "死霊術",
-  "SpellSchoolTrs": "変成術",
-  "SpellSummary": "呪文の要約",
+  "SpellSummary": "呪文の概要",
   "SpellTargetLabel": "対象",
   "SpellTimeLabel": "発動時間",
   "SpellTraditionArcane": "秘術",
@@ -1555,7 +1660,7 @@
   "StackGroupRations": "保存食",
   "StackGroupSacks": "袋",
   "StackGroupSlingBullets": "スリングの弾",
-         "StackGroupTaws": "タウ",
+  "StackGroupWoodenTaws": "タウ",
   "StaminaPointsHeader": "スタミナ・ポイント",
   "StatusBonusShortLabel": "ステータス",
   "StatusBonusTitle": "ステータス・ボーナス",
@@ -1614,8 +1719,9 @@
           "ToggleWithName": "表示切替: {property}",
   "ToolHeading": "用具の概要",
    "TotalTreasure": "宝飾品の合計",
+   "TotalCoinage": "硬貨の合計",
           "TotalWealth": "富の合計",
-          "TrainedSkillsLabel": "修得の技能",
+          "TrainedSkillsLabel": "修得済みの技能",
   "Traits": "特性",
   "TraitAasimar": "アアシマール",
   "TraitAberration": "異形",
@@ -1702,6 +1808,10 @@
   "TraitDeadlyD6": "致命的 d6",
   "TraitDeadlyD8": "致命的 d8",
   "TraitDeadly2D8": "致命的 2d8",
+  "TraitDeadly2D10": "致命的 2d10",
+          "TraitDeadly2D12": "致命的 2d12",
+          "TraitDeadly3D10": "致命的 3d10",
+          "TraitDeadly3D12": "致命的 3d12",
   "TraitDeath": "即死",
   "TraitDedication": "専念",
   "TraitDemon": "デーモン",
@@ -1752,6 +1862,11 @@
   "TraitDescriptionDeadlyD12": ": クリティカル・ヒット時に、この武器は記載された大きさの武器ダメージ・ダイス1つを加える。これを、その武器のダメージを2倍にした後でこれをロールする。もしその武器にグレーター・ストライキングのルーンがあるなら2個のダイスに、その武器がメジャー・ストライキング・ルーンがあるなら3個のダイスに増やす。例えば、グレーター・ストライキングのルーンがあるレイピアはクリティカル・ヒットで2d8の追加の刺突ダメージを与える。武器の通常のダメージ・ダイスの大きさを変更する能力は、致命的のダイスの大きさを変更しない。",
   "TraitDescriptionDeadlyD6": ": クリティカル・ヒット時に、この武器は記載された大きさの武器ダメージ・ダイス1つを加える。これを、その武器のダメージを2倍にした後でこれをロールする。もしその武器にグレーター・ストライキングのルーンがあるなら2個のダイスに、その武器がメジャー・ストライキング・ルーンがあるなら3個のダイスに増やす。例えば、グレーター・ストライキングのルーンがあるレイピアはクリティカル・ヒットで2d8の追加の刺突ダメージを与える。武器の通常のダメージ・ダイスの大きさを変更する能力は、致命的のダイスの大きさを変更しない。",
   "TraitDescriptionDeadlyD8": ": クリティカル・ヒット時に、この武器は記載された大きさの武器ダメージ・ダイス1つを加える。これを、その武器のダメージを2倍にした後でこれをロールする。もしその武器にグレーター・ストライキングのルーンがあるなら2個のダイスに、その武器がメジャー・ストライキング・ルーンがあるなら3個のダイスに増やす。例えば、グレーター・ストライキングのルーンがあるレイピアはクリティカル・ヒットで2d8の追加の刺突ダメージを与える。武器の通常のダメージ・ダイスの大きさを変更する能力は、致命的のダイスの大きさを変更しない。",
+  "TraitDescriptionDeadly2d8": ": クリティカル・ヒット時に、この武器は記載された大きさの武器ダメージ・ダイス1つを加える。これを、その武器のダメージを2倍にした後でこれをロールする。もしその武器にグレーター・ストライキングのルーンがあるなら2個のダイスに、その武器がメジャー・ストライキング・ルーンがあるなら3個のダイスに増やす。例えば、グレーター・ストライキングのルーンがあるレイピアはクリティカル・ヒットで2d8の追加の刺突ダメージを与える。武器の通常のダメージ・ダイスの大きさを変更する能力は、致命的のダイスの大きさを変更しない。",
+  "TraitDescriptionDeadly2d10": ": クリティカル・ヒット時に、この武器は記載された大きさの武器ダメージ・ダイス1つを加える。これを、その武器のダメージを2倍にした後でこれをロールする。もしその武器にグレーター・ストライキングのルーンがあるなら2個のダイスに、その武器がメジャー・ストライキング・ルーンがあるなら3個のダイスに増やす。例えば、グレーター・ストライキングのルーンがあるレイピアはクリティカル・ヒットで2d8の追加の刺突ダメージを与える。武器の通常のダメージ・ダイスの大きさを変更する能力は、致命的のダイスの大きさを変更しない。",
+  "TraitDescriptionDeadly2d12": ": クリティカル・ヒット時に、この武器は記載された大きさの武器ダメージ・ダイス1つを加える。これを、その武器のダメージを2倍にした後でこれをロールする。もしその武器にグレーター・ストライキングのルーンがあるなら2個のダイスに、その武器がメジャー・ストライキング・ルーンがあるなら3個のダイスに増やす。例えば、グレーター・ストライキングのルーンがあるレイピアはクリティカル・ヒットで2d8の追加の刺突ダメージを与える。武器の通常のダメージ・ダイスの大きさを変更する能力は、致命的のダイスの大きさを変更しない。",
+  "TraitDescriptionDeadly3d10": ": クリティカル・ヒット時に、この武器は記載された大きさの武器ダメージ・ダイス1つを加える。これを、その武器のダメージを2倍にした後でこれをロールする。もしその武器にグレーター・ストライキングのルーンがあるなら2個のダイスに、その武器がメジャー・ストライキング・ルーンがあるなら3個のダイスに増やす。例えば、グレーター・ストライキングのルーンがあるレイピアはクリティカル・ヒットで2d8の追加の刺突ダメージを与える。武器の通常のダメージ・ダイスの大きさを変更する能力は、致命的のダイスの大きさを変更しない。",
+  "TraitDescriptionDeadly3d12": ": クリティカル・ヒット時に、この武器は記載された大きさの武器ダメージ・ダイス1つを加える。これを、その武器のダメージを2倍にした後でこれをロールする。もしその武器にグレーター・ストライキングのルーンがあるなら2個のダイスに、その武器がメジャー・ストライキング・ルーンがあるなら3個のダイスに増やす。例えば、グレーター・ストライキングのルーンがあるレイピアはクリティカル・ヒットで2d8の追加の刺突ダメージを与える。武器の通常のダメージ・ダイスの大きさを変更する能力は、致命的のダイスの大きさを変更しない。",
   "TraitDescriptionDeath": "即死の特性を持つ効果は、0ヒットポイントにしたなら君を即座に殺す。即死効果には、0ヒットポイントにすることなく君を死に近づけるか、殺す効果もある。",
   "TraitDescriptionDedication": "君はキャラクターにアーキタイプを適用するために、この特性を持つ特技を選ばなくてはならない。",
   "TraitDescriptionDetection": "この特性を持つ効果は人物、物体、あるいはオーラの存在を判断しようと試みる。",
@@ -1781,7 +1896,7 @@
   "TraitDescriptionFear": "恐怖効果は恐怖の感情を引き起こす。この特性を持つ効果は常に精神と感情の特性をも持つ。",
   "TraitDescriptionFighter": "これはファイター・クラスに由来する能力を示す。",
   "TraitDescriptionFinesse": "君はこの近接武器を用いた攻撃ロールに【筋力】修正値の代わりに【敏捷力】修正を用いることが出来る。君はなおも、ダメージ計算する際、【筋力】修正値を使う。",
-  "TraitDescriptionFinisher": "トドメは君の心意気を使った劇的なトドメの動きである。君は心意気を持っている場合にのみトドメを使うことが出来る。そして君はトドメを行った直後に心意気を失う。一度トドメを使ったなら、君はその手番の残りに、攻撃の特性を持つアクションを使うことが出来ない。トドメの特性を持つアクションの中には、失敗時に効果を与えるものもある。失敗時に加えられる効果はファンブル時には加えられない。もし、君のトドメアクションが成功したとしても、代わりに失敗効果の適用を選ぶことが出来る。",
+  "TraitDescriptionFinisher": "終撃は君の心意気を使った劇的な終わりの一打の動きである。君は心意気を持っている場合にのみ終撃を使うことが出来る。そして君は終撃を行った直後に心意気を失う。一度終撃を使ったなら、君はその手番の残りに、攻撃の特性を持つアクションを使うことが出来ない。終撃の特性を持つアクションの中には、失敗時に効果を与えるものもある。失敗時に加えられる効果はファンブル時には加えられない。もし、君の終撃アクションが成功したとしても、代わりに失敗効果の適用を選ぶことが出来る。",
   "TraitDescriptionFire": "火炎特性を持つ効果は火炎ダメージを与えるか、火炎の操作あるいは召喚を行う。火炎の操作を行う効果は炎のない範囲には何の効果もない。この特性を持つクリーチャーは主に炎で構成され、そのエレメントに魔法的な繋がりを持つ。",
   "TraitDescriptionFlexible": "この防具はほとんどのアクションの邪魔にならないほど柔軟性がある。君は判定ペナルティを〈軽業〉と〈運動〉に適用しない。",
   "TraitDescriptionFlourish": "この特性を持つアクションは、頻繁に行うにはあまりに苦労が必要である。君は1手番に独占の特性を持つアクションを1度しか使うことが出来ない。",
@@ -1809,13 +1924,12 @@
   "TraitDescriptionIngested": "この毒は飲むか食べるかした時に運ばれる。",
   "TraitDescriptionInhaled": "この毒は吸い込んだ時に運ばれる。",
   "TraitDescriptionInjury": "この毒は受け手にダメージを与えることによって運ばれる。",
-  "TraitDescriptionInstinct": "本能能力は特殊な本能を必要とする；君は本能に対する破門行為を行えば本能能力を使えなくなる。",
   "TraitDescriptionInvestigator": "これはインヴェスティゲーター・クラスに由来する能力を示す。",
   "TraitDescriptionJoustingD6": "この武器は手綱か似たような方法を用いた騎乗戦闘に適している。騎乗している際、もし君が、攻撃する前のアクションで10フィート以上移動しているのなら、その武器のダメージ・ダイスの数に等しい状況ボーナスを、その攻撃のダメージに追加する。加えて、騎乗している間、君は記載された値にダメージ・ダイスを変更し、その武器を片手で使うことが出来る。",
   "TraitDescriptionKobold": "この特性を持つクリーチャーはコボルドの祖先を持つ。",
   "TraitDescriptionLawful": "秩序の効果は、しばしば、秩序属性の外方次元界由来のエネルギーを操作し、混沌属性の信仰の僕や混沌の神格の聖なる僕の倫理に反する行いである。この特性を持つクリーチャーの属性は秩序である。この特性を持つ能力は秩序のクリーチャーにのみが使うことができ、選ぶことができる。",
   "TraitDescriptionLeshy": "この特性を持つクリーチャーはレーシィの祖先を持つ。",
-  "TraitDescriptionLight": "光硬化は範囲内の魔法のものでない暗闇を克服し、魔法の暗闇を無効化する可能性がある。大抵の場合、君は暗闇を無効化するために、直接、光魔法で暗闇魔法を対象としなければならない。だが、光呪文の中には自動的に暗闇を無効化しようとするものもある。",
+  "TraitDescriptionLight": "光効果は範囲内の魔法のものでない暗闇を克服し、魔法の暗闇を無効化する可能性がある。大抵の場合、君は暗闇を無効化するために、直接、光魔法で暗闇魔法を対象としなければならない。だが、光呪文の中には自動的に暗闇を無効化しようとするものもある。",
   "TraitDescriptionLinguistic": "この特性を持つ効果は言語を理解されることに依存する。クリーチャーを対象とする言語効果は、対象が、君が使っている言語を理解している場合にのみ効果を与える。",
   "TraitDescriptionLitany": "祈りは特殊な帰依呪文で、一般的にはチャンピオンによって使われ、単発アクションを必要とし、さらなる祈りへの一時的な完全耐性を与えることが多い。",
   "TraitDescriptionMagical": "魔法の特性を持つものは、得手の魔法体系に結びつけられていない魔法のエネルギーが吹き込まれている。魔法のアイテムはその主要な魔法系統を帯びた魔法のオーラを放っている。特定の魔法体系に密接に結びついたアイテムや効果もある。こういった場合、そのアイテムは魔法という特性ではなく、秘術、信仰、霊妙、始原の特性を持つ。これらの特性は全て、そのアイテムが魔法のものであることを示している。",
@@ -1836,6 +1950,7 @@
   "TraitDescriptionNonlethal": "この武器での攻撃は非致傷であり、クリーチャーを殺すのではなく、気絶させるために使われる。君は非致傷武器を使って、－2の状況ペナルティを受けて致傷攻撃を行うことが出来る。",
   "TraitDescriptionOath": " 誓約は君に追加の信条を加える。君は大抵の場合、この特性を持つ特技を1つしか持つことが出来ない。",
   "TraitDescriptionOccult": "この魔法は霊妙体系に由来する。霊妙呪文は奇妙な、そしてつかの間の神秘を利用するものである。この特性を持つものは全て魔法のものである。",
+  "TraitDescriptionOlfactory": "嗅覚効果は臭いを嗅ぐことが出来るクリーチャーにのみ影響を与える可能性がある。これはGMの裁量にしたがって、その効果の嗅覚の部分にのみ適用される。",
   "TraitDescriptionOpen": "これらの動作は君が手番に行う最初の動作でのみ機能する。君はこの手番に攻撃の特性を持つアクションか、初動の特性を持つアクションをまだ使っていない場合にのみ、初動の特性を持つアクションを使うことが出来る。",
   "TraitDescriptionOracle": "この特性を持つ能力はオラクル・クラスに由来する。",
   "TraitDescriptionOrc": "オークはこれらの武器を作り、用いる。",
@@ -1862,12 +1977,13 @@
   "TraitDescriptionReach25": "この特性を持つ肉体攻撃は隣接しているクリーチャーのみではなく、記載された距離までのクリーチャーに攻撃するために使うことが出来る。",
   "TraitDescriptionReach30": "この特性を持つ肉体攻撃は隣接しているクリーチャーのみではなく、記載された距離までのクリーチャーに攻撃するために使うことが出来る。",
   "TraitDescriptionReload": "全ての武器が、構えるのに一定の時間が必要であるが、多くの遠隔武器は装填や再装填も必要である。この項目はこのような武器の装填のために何アクション必要かを示している。もし、矢玉を抜いて武器を発射することが同じアクションの一部であるなら、これは0であることもある。もし、あるアイテムを装填するのに2アクション以上がかかるのなら、GMは連続行動として一連で行わなければならないと判断するかもしれず、あるいは、君はこのようなアクションのいくらかを一つの手番で消費し、残りを次の手番で消費することが出来るかもしれない。",
+  "TraitDescriptionRepeating": "リピーティング武器は一般的に、再装填時間が短いクロスボウの種別である。こういった武器はその他のクロスボウのように個々のボルトで装填することが出来ない；代わりに、特殊なスロットに装填するための特化した矢弾のマガジンを必要とするのである。ひとたびマガジンが入ったなら、矢弾は武器が発射されるごとに自動的に装填され、再装填の項目にある数字まで再装填時間が減る（一般的には0）。矢弾が切れたなら、新しいマガジンを再装填しなくてはならず、それには一本の自由な手と3回の使用アクションが必要である（古いマガジンを取り除き、新しいマガジンを取り出し、新しいマガジンをスロットに入れる）。これらのアクションは連続している必要はない。",
   "TraitDescriptionRevelation": "この特性を持つ効果は、真実の姿をあらわにする。",
   "TraitDescriptionRogue": "これはローグ・クラスの能力を示す。",
   "TraitDescriptionScrying": "念視効果によって、君は自分の目や耳ではなく、感覚器官や機械を使って遠くから見聞き、あるいはその他の感覚的情報を得ることが出来る。",
   "TraitDescriptionSecret": "GMはこの能力の判定を秘密裏にロールする。",
   "TraitDescriptionShadow": "この魔法は影あるいは影界のエネルギーに関連している。",
-  "TraitDescriptionShoony": "A creature with this trait is a member of the shoony ancestry.",
+  "TraitDescriptionShoony": "この特性を持つクリーチャーはシューニィの祖先を持つ。",
   "TraitDescriptionShove": "君はたとえ君の片手が自由でなくとも、〈運動〉技能で「押しやり」するためにこの武器を用いることが出来る。これには、武器の間合いを用いて（もし君自身のものと違うなら）、〈運動〉判定にアイテム・ボーナスを加えるように、その武器のアイテム・ボーナスを攻撃ロールに加える。もし君がこの武器を使って「押しやり」にファンブルしたなら、ファンブルの効果を受ける代わりに失敗効果を受けるため、この武器を落とすことが出来る。",
   "TraitDescriptionSkill": "技能の特性を持つ一般特技は君の技能とそのアクションを発展させたり、ある技能の新しいアクションを使用可能にしてくれる。この特性を持つ特技は、あるクラスが技能特技や一般特技を与える際に選ぶことが出来る。技能の特性を持つアーキタイプ特技は、もし君がそのアーキタイプの専心特技を持っているなら、技能特技として選ぶことが出来る。",
   "TraitDescriptionSleep": "この効果はクリーチャーを眠らせるか、眠たくさせる。",
@@ -1947,7 +2063,7 @@
   "TraitFighter": "ファイター",
   "TraitFinesse": "巧技",
   "TraitFire": "火炎",
-  "TraitFinisher": "トドメ",
+  "TraitFinisher": "終撃",
   "TraitFleshwarp": "フレッシュワープ",
   "TraitFlexible": "軽快",
   "TraitFlourish": "独占",
@@ -1999,7 +2115,6 @@
   "TraitIngested": "摂取毒",
   "TraitInhaled": "吸入毒",
   "TraitInjury": "致傷毒",
-  "TraitInstinct": "本能",
   "TraitIntelligent": "知性あるアイテム",
   "TraitInteract": "使用",
   "TraitInvested": "運用",
@@ -2126,6 +2241,7 @@
   "TraitReload0": "再装填 0",
   "TraitReload1": "再装填 1",
   "TraitReload2": "再装填 2",
+   "TraitRepeating": "リピーティング",
   "TraitRitual": "儀式",
   "TraitRogue": "ローグ",
   "TraitSaggorak": "サッゴラク",
@@ -2141,6 +2257,7 @@
   "TraitShadow": "影界",
   "TraitShoony": "シューニィ",
   "TraitShove": "押しやり",
+  "TraitSiktempora": "シクテンポラ",
   "TraitSimple": "単純",
   "TraitSkeleton": "スケルトン",
   "TraitSkelm": "スケルム",
@@ -2296,8 +2413,9 @@
               }
           },
           "TrickMagicItemPopup": {
-              "Label": "魔法のアイテム強制起動に使う技能を選ぶ",
-              "Title": "魔法のアイテム強制起動"
+              "Label": "「魔法のアイテム強制起動」に使う技能を選ぶ",
+              "Title": "魔法のアイテム強制起動",
+              "InvalidActor": "キャラクターあるいはNPCだけが「魔法のアイテム強制起動」を使うことが出来ます"
           },
   "UI": {
   "applyDamage": {
@@ -2305,7 +2423,7 @@
   "damaged": "ダメージ",
   "healed": "回復",
   "shieldActive": "{shield}が受けるダメージ",
-  "shieldInActive": "gets"
+  "shieldInActive": "受ける"
   },
   "errorTargetToken": "少なくとも一つのトークンを選んで下さい",
   "noDamageInfoForOutcome": "結果{outcome}のダメージ情報がありません",
@@ -2356,6 +2474,7 @@
                   "bolts": "ボルト",
                   "buugeng": "武幻",
                   "clan-dagger": "クラン・ダガー",
+                  "claw": "爪",
                   "claw-blade": "クロー・ブレード",
                   "club": "クラブ",
                   "combat-grapnel": "コンバット・グラップネル",
@@ -2373,10 +2492,10 @@
                   "falchion": "ファルシオン",
                   "fangwire": "ファングワイヤ",
                   "fauchard": "フォシャード",
-                  "fighting-fan": "ファイテインゥ・ファン",
+                  "fighting-fan": "ファイテイング・ファン",
                   "filchers-fork": "フィルシャーズ・フォーク",
                   "fire-poi": "ファイヤー・ポイ",
-                  "fist": "フィスト",
+                  "fist": "こぶし",
                   "flail": "フレイル",
                   "gaff": "ガフ",
                   "gauntlet": "ガントレット",
@@ -2397,6 +2516,7 @@
                   "heavy-crossbow": "ヘヴィ・クロスボウ",
                   "horsechopper": "ホースチョッパー",
                   "javelin": "ジャヴェリン",
+                  "jaws": "顎",
                   "juggling-club": "ジャグリング・クラブ",
                   "kama": "カマ",
                   "katana": "カタナ",
@@ -2458,7 +2578,7 @@
                   "stiletto-pen": "スティレット・ペン",
                   "sword-cane": "ソ―ド・ケイン",
                   "tamchal-chakram": "タムカル・チャクラム",
-                  "taw-launcher": "タウ・ランチャーTaw Launcher",
+                  "taw-launcher": "タウ・ランチャー",
                   "tekko-kagi": "テッコーカギ",
                   "temple-sword": "テンプル・ソード",
                   "tengu-gale-blade": "テング・ゲイル・ブレード",
@@ -2504,6 +2624,7 @@
   "WeaponDescriptionSling": "クリティカル特化効果：対象は君のクラスDCに対して頑健セーヴに成功しなければ、朦朧1になる。",
   "WeaponDescriptionSpear": "クリティカル特化効果：この武器は対象を貫き、その攻撃を弱める。対象は君の次の手番の開始時まで、もたつき1となる。",
   "WeaponDescriptionSword": "クリティカル特化効果：対象は君の攻撃によってバランスを崩し、きいの次の手番の開始時まで立ちすくみとなる。",
+  "WeaponGroups": "武器グループ",
   "WeaponGroupAxe": "斧",
   "WeaponGroupBomb": "爆弾",
   "WeaponGroupBow": "弓",
@@ -2729,7 +2850,7 @@
   "summary": "君は運ぶことの出来ない重量を持っている。"
   },
   "enfeebled": {
-  "name": "Enfeebled",
+  "name": "衰弱",
   "rules": "<p>君は肉体的に衰弱している。衰弱は常に数字を伴う。衰弱状態なら、君は、筋力に基づく近接攻撃ロール、筋力に基づくダメージロール、そして運動のような筋力に基づいたロールとDCに、状態値に等しいステータス・ペナルティを受ける。</p>",
   "summary": "君の筋力は搾り取られている。"
   },
@@ -2754,7 +2875,7 @@
   "summary": "君は逃げなくてはならない。"
   },
   "friendly": {
-  "name": "Friendly",
+  "name": "友好的",
   "rules": "<p>この状態は、あるクリーチャーの特定のクリーチャーに対しての気持ちを反映しており、プレイヤー・キャラクターではないクリーチャーにも影響する。あるキャラクターに対して友好的であるクリーチャーは、そのキャラクターが好きである。そのキャラクターは友好的なクリーチャーに「要求」をすることが出来て、友好的なクリーチャーはその要求を満たすのに代償がそこまで大きくないような単純で素朴なものなら、合意する可能性が高い。もし、そのキャラクターやその味方の誰かがそのクリーチャーに対して敵対的なアクションを行ったのなら、敵対的なアクションの深刻度によってクリーチャーの態度は悪化する。これはGMが判断をする。</p>",
   "summary": "この状態のNPCは君に好意的な態度を取る。"
   },
@@ -2819,7 +2940,7 @@
   "summary": "君は石になっている。"
   },
   "prone": {
-  "name": "Prone",
+  "name": "伏せ",
   "rules": "<p>君は地面に横たわっている。君は立ちすくみ状態で、攻撃ロールに－2状況ペナルティを受ける。君が伏せ状態の間に使用出来る唯一の移動アクションは「這い進む」と「立ち上がる」である。立ち上がると、伏せ状態は終了する。君は身を潜めるために伏せ状態になっている間に「遮蔽を取る」ことが出来て、たとえ隠れる物体がなかったとしても、遠隔攻撃に対する遮蔽を得て、遠隔攻撃に対するACに+4状況ボーナスを得る事が出来る（だが、君は立ちすくみのままである）。</p><p>もし、君が「登攀」か「飛行」中に伏せ状態になったなら、君は落下する（落下のルールについては463－464ページ参照）。君は「水泳」中には伏せ状態にはならない。</p>",
   "summary": "君は地面に伏せており、簡単に攻撃される。"
   },
@@ -2880,83 +3001,63 @@
   }
   },
   "ui": {
-              "equipmentInvested": "装備の運用を切替る",
-              "armorEquipped": "装備の着用を切替る",
+              "equipmentInvested": "装備の運用を切替",
+              "armorEquipped": "装備の着用を切替",
               "sell": "売却"
           },
           "identification": {
               "Identify": "アイテムの識別",
+              "Misidentify": "アイテムを誤識別する",
               "Mystify": "アイテムを未識別にする",
               "IsIdentified": "識別にしますか?",
+              "IdentifiedItem": "識別済みのアイテム",
+               "MisidentifiedItem": "誤識別されたアイテム",
               "UnidentifiedItem": "未識別のアイテム",
               "IdentifyMagicDCs": "魔法の識別のDC",
               "IdentifyAlchemyDCs": "錬金術の識別DC",
               "IdentifyGenericDCs": "汎用アイテムの識別DC",
-              "ItemType": {
-                  "armor": "未識別の防具",
-                  "ArmorType": {
-                      "heavy": "未識別の重装鎧",
-                      "light": "未識別の軽装鎧",
-                      "medium": "未識別の中装鎧",
-                      "shield": "未識別の盾"
-                  },
-                  "backpack": "未識別の入れ物",
-                  "consumable": "未識別の消耗品",
-                  "equipment": "未識別の装備",
-                  "kit": "未識別の用具",
-                  "treasure": "未識別の宝飾品",
-                  "weapon": "未識別の武器",
-                  "WeaponType": {
-                      "axe": "未識別の斧",
-                      "bomb": "未識別の爆弾",
-                      "bow": "未識別の弓",
-                      "club": "未識別の棍棒",
-                      "dart": "未識別のダーツ",
-                      "flail": "未識別のフレイル",
-                      "hammer": "未識別のハンマー",
-                      "knife": "未識別のナイフ",
-                      "pick": "未識別のピック",
-                      "polearm": "未識別のポールアーム",
-                      "shield": "未識別の盾",
-                      "sling": "未識別のスリング",
-                      "spear": "未識別のスピア",
-                      "sword": "未識別のソード"
-                  }
-              }
+               "unidentified": "未識別の {itemtype}",
+              "misidentified": "誤識別された {itemtype}"
           },
           "loot": {
-              "EditLootLabel": "略奪品の設定をしますか?",
+              "EditLootLabel": "戦利品の設定をしますか?",
               "GMSettings": "GMの設定",
-              "PermissionError": "GMはアイテムをルートするにもアイテムを入れるにもオンラインでなくてはなりません。",
+              "PermissionError": "GMはアイテムを分配するにもアイテムを入れるにもオンラインでなくてはなりません。",
               "InsufficientCurrencyError": "{buyer}から購入するにはお金が足りません",
               "LootDescription": "硬貨をプレイヤーに分配許可する",
-              "LootLabel": "略奪品",
-              "LootNamePlaceholder": "略奪品",
-              "LootNPCsPopupHeader": "略奪品を与えるトークンを選ぶ",
-              "LootNPCsLabel": "選んだトークンをルート",
+              "LootLabel": "戦利品",
+              "LootNamePlaceholder": "戦利品",
+              "LootNPCsPopupHeader": "戦利品を与えるトークンを選ぶ",
+              "LootNPCsLabel": "選択トークンに分配",
               "MerchantDescription": "プレイヤーがシートから直接、アイテムを購入出来るようにする",
               "MerchantLabel": "商人",
               "MoveLoot": "アイテムの移動",
               "MoveLootMessage": "いくつのアイテムを移動させますか？",
-              "MoveLootPopupTitle": "略奪品の移動",
+              "MoveLootPopupTitle": "戦利品の移動",
               "TakeSubtitle": "アイテムを取る",
               "DepositSubtitle": "アイテムを廃棄する",
               "TransferSubtitle": "アイテムを移動させる",
+              "LootSubtitle": "アイテムを略奪する",
+              "PlantSubtitle": "アイテムを持たせる",
+              "BuySubtitle": "アイテムを購入する",
               "SellSubtitle": "アイテムを売却する",
               "GiveSubtitle": "アイテムを渡す",
               "TakeMessage": "{taker} は {container} から {quantity}個の {item} を取りました。",
               "DepositMessage": "{depositor} は {container} にある {quantity} 個の {item} を捨てました",
               "TransferMessage": "{transferrer} は {fromContainer} から {toContainer} へと {quantity} 個の {item} を移動させました。",
               "SellMessage": "{seller} は {buyer} に {quantity} 個の {item} を売却しました。",
+               "LootMessage": "{looter} は {quantity} 個の {item} を {corpse} の死体から略奪しました。",
+              "PlantMessage": "{planter} は {quantity} 個の {item}  を  {corpse} の死体に持たせました。",
               "GiveMessage": "{giver} は {recipient} に {quantity} 個の {item} を渡しました。",
               "InsufficientFundsMessage": "{buyer} は支払いをしようとしましたが、お金が足りませんでした！",
               "GMSupervisionError": "GMは {loot} を操作するのにオンラインでなくてはなりません。.",
               "Quantity": "数量",
+               "SheetType": "シートの種別",
               "SplitCoinsLabel": "硬貨の分配",
               "SplitCoinsPopupHeader": "分配されるアクターを選んで下さい"
           },
           "vehicle": {
-              "ItemTypeError": "乗り物でサポートされているのは現在、インヴェントリのアイテムとアクションのみです。",
+              "ItemTypeError": "乗り物でサポートされているのは現在、インベントリのアイテムとアクションのみです。",
               "VehicleString": "乗り物",
               "NamePlaceholder": "乗り物",
               "VehicleLevelLabel": "乗り物",
@@ -2986,6 +3087,7 @@
               "EditTraits": "特性の編集",
               "AddTrait": "特性を追加",
               "AddSkill": "技能を追加",
+              "Dead": "死亡",
               "EditLanguages": "言語の編集",
               "EditSenses": "感覚の編集",
               "EditSkills": "技能の編集",
