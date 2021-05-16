@@ -12,7 +12,7 @@
 			"path": "lang/ja.json"
 		}
 	],
-	"scripts": [],
+	"scripts": ["register-babele.js"],
   "styles" : [],
   "packs": [],
   "dependencies": [],
