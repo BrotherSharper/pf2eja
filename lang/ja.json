@@ -66,7 +66,6 @@
       },
   "AbilityTitle": "能力値",
   "AbilityWis": "判断力",
-  "ActionActionSummary": "アクションの概要",
   "ActionActionTypeLabel": "アクション種別",
   "ActionActionsLabel": "アクション",
   "ActionBrowserSearchHint": "君は名称での検索やアトリビュートのカスタムが出来る。検索可能になりうるアトリビュートは：<br>ソース、レベル、系統、構成要素、素材、対象、距離、時間、持続時間、ダメージ、ダメージ種別、セーヴ、精神集中、儀式、能力値及びクラスである。<br>例：’ファイア、ダメージ：d6’でファイアを名前に含み、ダメージにd6を含む全ての呪文が表示される",
@@ -85,16 +84,46 @@
   "ActionTypeReaction": "リアクション",
   "ActionWeaponLabel": "関連武器",
   "Actions": {
-        "Balance": "バランスを取る",
-        "Climb": "登攀",
-        "Coerce": "強制",
-        "CreateADiversion": {
-          "DistractingWords": "気をそらす - 言葉",
-          "Gesture": "気をそらす - ジェスチャー",
-          "Trick": "気をそらす - 小技"
-        },
-        "Demoralize": "士気をくじく",
-        "Disarm": "武器落とし",
+    "Balance":{
+        "Notes":{
+            "criticalSuccess":"<b>クリティカル</b> 君は自分の速度まで移動する",
+            "success":"<b>成功</b> 君は自分の速度まで移動するが、移動困難な地形として扱う（5フィートの移動ごとに10フィートの移動のコストを払う）",
+            "failure":"<b>失敗</b>君はバランスを保つためにそのままでいる（アクションを失う）か、落下する。もし落下したなら、君の手番は終了する",
+            "criticalFailure":"<b>ファンブル</b> 君は落下して手番が終了する"
+         },
+         "Title":"バランスを取る"
+          },
+          "Climb":{
+            "Notes":{
+               "criticalSuccess":"<b>クリティカル</b> 君は自分の地上速度20フィートごとに5フィート、そしてさらに5フィート、安全に斜面を上下移動や横断することが出来る（ほとんどのPCにとっては合計で10フィートである）",
+               "success":"<b>成功</b> 君は自分の地上速度20フィートごとに5フィート、安全に斜面を上下移動や横断することが出来る（ほとんどのPCにとっては合計で5フィートであるが、もし君の速度が20フィート未満であるなら最小値は5フィートである）",
+               "criticalFailure":"<b>ファンブル</b> 君は落下する。もし君が安定した地面で登攀を始めたのなら、君は落下して@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{伏せ}状態で着地する."
+            },
+            "Title":"登攀"
+         },
+         "Coerce":{
+            "Title":"強制"
+         },
+         "CreateADiversion":{
+            "DistractingWords":"気をそらす - 言葉",
+            "Gesture":"気をそらす - ジェスチャー",
+            "Notes":{
+               "success":"<b>成功</b> 君は自分の結果以下の知覚DCであるそれぞれのクリーチャーに対して、@Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{隠れた状態}になる（隠れた状態によって君は@Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{「忍び歩き」}することが出来る）。これは君の次の手番の終了時か、君がステップ、〈隠密〉技能を使って@Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]{「隠れる」} か@Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{「忍び歩き」} 以外の行動をする時まで続く。もし君がクリーチャーを「打撃」したなら、そのクリーチャーはその攻撃に対して@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{立ちすくみ状態} のままで、それから、君は@Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{可視状態}になる。もし君が他のことをするなら、君はGMがそうでないと判断しない限り、行動するちょうど前に可視状態になる。",
+               "failure":"<b>失敗</b> 君は結果を超えた知覚DCを持つ全てのクリーチャーの気をそらすことが出来ず、そういったクリーチャーは君が自分達を騙そうとしていたことに気付いている。"
+            },
+            "Trick":"気をそらす - 小技"
+         },
+         "Demoralize":{
+            "Title":"士気をくじく"
+         },
+         "Disarm":{
+            "Notes":{
+               "criticalSuccess":"<b>クリティカル</b> 君は相手の手からそのアイテムを落とす。それは相手の接敵面の地面に落下する",
+               "success":"<b>成功</b> 君は相手の手の中のアイテムを弱める。そのクリーチャーの手番の開始時まで、そのアイテムを対象から「武器落とし」する試みは+2状況ボーナスを得て、対象はそのアイテムでの攻撃や、そのアイテムをしっかり握っていなくてはならない判定に-2状況ペナルティを受ける",
+               "criticalFailure":"<b>ファンブル</b> 君はバランスを失い、君の次の手番の開始時まで@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{立ちすくみ状態} になる"
+            },
+            "Title":"武器落とし"
+         },
          "EncouragingWords": {
                   "Title": "激励の言葉",
                   "ContentMain": "対象のDCを選んで下さい。自分の習熟度より上の回復を試みることは出来ません。 習熟度より上の回復を試みると、回復量とDCはあなたが行うことの出来る最高レベルへとダウングレードされます。",
@@ -115,30 +144,123 @@
                   "Damage": "ダメージ",
                   "Cancel": "キャンセル"
               },
-        "Feint": "フェイント",
-        "ForceOpen": "こじあける",
-        "GatherInformation": "情報収集",
-        "Grapple": "組み付き",
-        "HighJump": "高飛び",
-        "Impersonate": "なりすます",
-        "Lie": "騙す",
-        "LongJump": "幅跳び",
-        "MakeAnImpression": "懐柔する",
-        "ManeuverInFlight": "機動飛行",
-        "RaiseAShield": {
-          "Title": "盾を掲げる",
-          "Content": "{actor} は盾を掲げる.",
-          "BadArgs": "このアクションは正確に一人のキャラクタ－あるいはNPCによって実行されなければならない",
-          "NoShieldEquipped": "{actor}は盾を装備していなければなりません",
-          "ShieldIsBroken": "{actor}の{shield}は破損しています"
-        },
-        "Request": "要求する",
-        "Seek": "捜す",
-              "ShieldBlock": {
-                  "SelectAShield": "盾を選んでください"
-              },
-        "Shove": "押しやる",
-        "Squeeze": "無理やり入り込む",
+              "Feint":{
+                "Title":"フェイント"
+             },
+             "ForceOpen":{
+                "Notes":{
+                   "criticalSuccess":"<b>クリティカル</b> 君は扉、窓、箱や門を開けて、その過程で損傷を与えることを回避する",
+                   "success":"<b>成功</b> 君は扉、窓、箱や門をこじあけて、扉、窓、箱や門は破損状態になる。もしそれが特に堅固なものであるなら、GMはダメージを受けさせるが、破壊されないかもしれない",
+                   "criticalFailure":"<b>ファンブル</b> 君は扉、窓、箱、あるいは門を閉じて壊してしまい、更にそれを「こじあける」ための未来の判定に-2状況ペナルティを適用する"
+                },
+                "Title":"こじあける"
+             },
+             "GatherInformation":{
+                "Title":"情報収集"
+             },
+             "Grapple":{
+                "Notes":{
+                   "criticalSuccess":"<b>クリティカル</b> 君の相手は、君が移動するか、相手が@Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{「脱出」}するのでない限り、次の君の手番の終了時まで@Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{拘束状態}である",
+                   "success":"<b>成功</b> 君の相手は、君が移動するか、相手が@Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{「脱出」}するのでない限り、次の君の手番の終了時まで@Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{組みつかれた状態}である",
+                   "failure":"<b>失敗</b> 君は相手に組みつくのに失敗した。もし君が既に相手を@Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{組みつかれた状態}にしているか、@Compendium[pf2e.actionspf2e.PMbdMWc2QroouFGD]{「組みつき」}で@Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{拘束状態}にしているのなら、そのクリーチャーのそれらの状態は終了する",
+                   "criticalFailure":"<b>ファンブル</b> もし君が既に相手を@Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{組みつかれた状態}か@Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{拘束状態}にしているなら、相手は自由になる。君の対象は、君に対しての@Compendium[pf2e.actionspf2e.PMbdMWc2QroouFGD]{「組みつき」} アクションを使うのに成功したかのように君をつかむか、君を落として@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{伏せ状態}で着地させる"
+                },
+                "Title":"組みつき"
+             },
+             "Hide":{
+                "Title":"隠れる"
+             },
+             "HighJump":{
+                "Notes":{
+                   "criticalSuccess":"<b>クリティカル</b> 最大垂直距離を8フィートまで上昇させるか、最大垂直距離を5フィートに、最大水平距離を10フィートに上昇させる",
+                   "success":"<b>成功</b> 最大垂直距離を5フィートに増加させる",
+                   "failure":"<b>失敗</b> 君は通常通りに@Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{「跳躍」}する",
+                   "criticalFailure":"<b>ファンブル</b> 君は全く@Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{「跳躍」}しておらず、君の接敵面に@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{伏せ状態}で落下する"
+                },
+                "Title":"高跳び"
+             },
+             "Impersonate":{
+                "Title":"なりすます"
+             },
+             "Lie":{
+                "Title":"騙す"
+             },
+             "LongJump":{
+                "Notes":{
+                   "success":"<b>成功</b> 君が@Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{「跳躍」}する最大水平距離を望みの距離まで上昇させる",
+                   "failure":"<b>失敗</b>君は通常通りに@Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{「跳躍」}する",
+                   "criticalFailure":"<b>ファンブル</b> 君は通常通りに@Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{「跳躍」}するが、それから落下して@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{伏せ状態}で着地する"
+                },
+                "Title":"幅跳び"
+             },
+             "MakeAnImpression":{
+                "Title":"懐柔する"
+             },
+             "ManeuverInFlight":{
+                "Notes":{
+                   "success":"<b>成功</b> 君はその機動に成功する",
+                   "failure":"<b>失敗</b> 君の機動は失敗する。GMは単純に移動出来なかったのか何らかの破滅的な効果が発生するのかを決定する。結果は君が試みた機動に適切なものであるべきである（例えば、君が強風に逆らって飛行しようとしていたのなら、コースを外れて吹き飛ばされるなど）",
+                   "criticalFailure":"<b>ファンブル</b> 失敗と同じだが、結果はもっと悲惨である"
+                },
+                "Title":"飛行機動"
+             },
+             "PickALock":{
+                "Notes":{
+                   "criticalSuccess":"<b>クリティカル</b> 君はその錠前を開錠するか、複雑な錠前の開錠のため2回分の成功を達成する。君は自分がいじったことの痕跡を残さない。",
+                   "success":"<b>成功</b> 君はその錠前を開錠するか、複雑な錠前の開錠のための成功1回分を達成する。",
+                   "criticalFailure":"<b>ファンブル</b> 君は用具を壊してしまう。それらを修理するには、「修理」のための〈製作〉か、あるいは代替の錠前に取り換えなければならない（3spか、潜入者用盗賊用具なら3gpかかる）。"
+                },
+                "Title":"解錠"
+             },
+             "RaiseAShield":{
+                "SingleActionTitle":"盾を掲げる",
+                "ReactionTitle":"盾即応",
+                "Content":"{actor} は盾を掲げる",
+                "BadArgs":"このアクションは正確に、一人のキャラクターないしＮＰＣによって実行されなければならない",
+                "NoShieldEquipped":"{actor} は盾を装備していなくてはならない",
+                "ShieldIsBroken":"{actor} の {shield} は破損している"
+             },
+             "Request":{
+                "Title":"要求する"
+             },
+             "Seek":{
+                "Notes":{
+                   "criticalSuccess":"<b>クリティカル</b> クリーチャーを捜索していたのなら、君がクリティカルした、あらゆる@Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{未探知}あるいは@Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{隠れた状態}のクリーチャーは君にとって@Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{可視状態}となる。もし物体を捜索していたのなら、君はその場所を知る",
+                   "success":"<b>成功</b> 君がクリーチャーを捜索していたのなら、君が成功した、あらゆる@Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{未探知}のクリーチャーは未探知ではなく@Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{隠れた状態}となり、君が成功した、あらゆる隠れた状態のクリーチャーは君にとって@Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{可視状態}となる。もし君が物体を捜索していたのなら、GMの判断によって君はその場所を知るか、それがどこにあるかの手がかりを得る"
+                },
+                "Title":"捜す"
+             },
+             "SenseMotive":{
+                "Notes":{
+                   "criticalSuccess":"<b>クリティカル</b> 君はそのクリーチャーの本当の意図を判断し、そのクリーチャーに影響を与えているあらゆる精神魔法についてしっかりとした考えを得る。",
+                   "success":"<b>成功</b>君はそのクリーチャーが通常通りに振る舞っているかどうかが分かるが、正確な意図や、どの魔法が影響を与えているかもしれないかまでは分からない。",
+                   "failure":"<b>失敗</b> 君は偽りを行っているクリーチャーが君に信じさせたいことを知る。もし偽りを行っていないなら、君はそのクリーチャーが通常通りの振る舞いをしていると信じる。",
+                   "criticalFailure":"<b>ファンブル</b> 君はそのクリーチャーの意図を間違って受け取る。"
+                },
+                "Title":"真意看破"
+             },
+             "ShieldBlock":{
+                "SelectAShield":"盾を選んでください"
+             },
+             "Shove":{
+                "Notes":{
+                   "criticalSuccess":"<b>クリティカル</b> 　君は自分から10フィートまで相手を押しやる。君はその後、「歩行」することが出来るが、同じ距離を同じ方角に移動しなければならない",
+                   "success":"<b>成功</b> 君は相手を5フィート押し返す。君はその後、「歩行」することが出来るが、同じ距離を同じ方角に移動しなければならない",
+                   "criticalFailure":"<b>ファンブル</b> 君はバランスを失い、落下して@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{伏せ状態}で着地する"
+                },
+                "Title":"押しやり"
+             },
+             "Sneak":{
+                "Title":"忍び歩き"
+             },
+             "Squeeze":{
+                "Notes":{
+                   "criticalSuccess":"<b>クリティカル</b> 君は狭い空間を、1分間に10フィート、無理やり入り込む",
+                   "success":"<b>成功</b> 君は1分間に5フィート、無理やり入り込む",
+                   "criticalFailure":"<b>ファンブル</b> 君は狭い空間でつまってしまう。君が詰まっている間、同じDCで新たな〈軽業〉をするのに1分間を費やすことが出来る。ファンブル以外の結果なら、君は詰まりを解消する"
+                },
+                "Title":"無理やり入り込む"
+             },
         "SteelYourResolve": {
                   "Title": "決意を固める",
                   "Content": "決意ポイントを費やし、スタミナを回復しますか？",
@@ -147,9 +269,29 @@
                   "NoStamina":"{name} は疲労しており、寝る必要がある！ 決意ポイントは残っていない",
                   "RecoverStamina":"{name} は {ratio} SP を所持しており、1決意ポイントを費やしてスタミナ最大値の半分を回復します。"
               },
-        "Swim": "水泳",
-        "Trip": "足払い",
-        "TumbleThrough": "軽業移動"
+              "Swim":{
+                "Notes":{
+                   "criticalSuccess":"<b>クリティカル</b> 君は水中を10フィートと、更に地上速度20フィートにつき5フィート移動する（ほとんどのPCにとっては合計15フィート）",
+                   "success":"<b>成功</b> 君は水中を5フィートと、更に地上速度20フィートにつき5フィート移動する（ほとんどのPCにとっては合計10フィート）",
+                   "criticalFailure":"<b>ファンブル</b> 君は進まない。もし息を止めているなら、1ラウンド分の空気を失う"
+                },
+                "Title":"水泳"
+             },
+             "Trip":{
+                "Notes":{
+                   "criticalSuccess":"<b>クリティカル</b> 対象は落下し、@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{伏せ状態}で着地して[[/r 1d6[殴打] # 殴打ダメージ]]{1d6}の殴打ダメージを受ける",
+                   "success":"<b>成功</b> 対象は落下し、@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{伏せ状態}で着地する",
+                   "criticalFailure":"<b>ファンブル</b> 君はバランスを失い、@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{伏せ状態}で着地する"
+                },
+                "Title":"足払い"
+             },
+             "TumbleThrough":{
+                "Notes":{
+                   "success":"<b>成功</b> 君は接敵面にあるマス目を移動困難な地形（5フィートの移動ごとに10フィートのコストを支払う）として扱い、その敵の接敵面を移動することが出来る。もし君がその接敵面全てを移動するのに十分な速度を持っていない場合、君は失敗と同じ効果を得る",
+                   "failure":"<b>失敗</b> 君の移動は終了し、君が入ろうとするのを開始したマス目から外へ移動したかのように、リアクションのトリガーとなる"
+                },
+                "Title":"軽業移動"
+             }
       },
       "ActionsCheck": {
         "Acrobatics": "軽業技能判定",
@@ -240,10 +382,7 @@
   "AncestryHP": "祖先HP",
   "AncestryFeatures": "祖先特徴",
   "AncestryTitle": "キャラクターの祖先",
-  "AncestryItem": {
-        "Summary": "祖先の概要"
-      },
-      "AncestryFeatLevels": "祖先特技レベル",
+  "AncestryFeatLevels": "祖先特技レベル",
   "AreaSize10": "10フィート",
   "AreaSize100": "100 フィート",
   "AreaSize120": "120フィート",
@@ -251,16 +390,19 @@
   "AreaSize20": "20フィート",
   "AreaSize30": "30フィート",
   "AreaSize40": "40フィート",
+  "AreaSize45":"45フィート",
   "AreaSize5": "5フィート",
   "AreaSize50": "50フィート",
   "AreaSize60": "60フィート",
+  "AreaSize75":"75フィート",
+  "AreaSize90":"90フィート",
   "AreaTypeBurst": "爆発",
   "AreaTypeCone": "円錐",
   "AreaTypeEmanation": "拡散",
   "AreaTypeLine": "直線",
   "ArmorArmorLabel": "ACボーナス",
-  "ArmorArmorSummary": "防具の概要",
-  "ArmorArmorTypeLabel": "防具の種別",
+  "ArmorArmorTypeLabel":"分類",
+  "ArmorBaseLabel":"基本",
   "ArmorCheckLabel": "判定ペナルティ",
   "ArmorCheckPenalty": "防具判定ペナルティ",
   "ArmorClassBase": "基本AC10",
@@ -353,10 +495,7 @@
           },
   "Background": "背景",
   "BackgroundSkillFeats": "技能特技",
-      "BackgroundTitle": "キャラクターの背景",
-      "BackgroundItem": {
-        "Summary": "背景の要約"
-      },
+  "BackgroundTitle": "キャラクターの背景",
   "BaseModifier": "基本修正値",
   "BaseWeapons": "基本武器",
   "BestiaryBrowserSearchHint": "君は名称での検索やアトリビュートのカスタムが出来る。検索可能になりうるアトリビュートは：<br>ソース、レベル、系統、構成要素、素材、対象、距離、時間、持続時間、ダメージ、ダメージ種別、セーヴ、精神集中、儀式、能力値及びクラスである。<br>例：’ファイア、ダメージ：d6’でファイアを名前に含み、ダメージにd6を含む全ての呪文が表示される",
@@ -383,7 +522,7 @@
   "BonusSPperLevelTitle": "レベルごとに一度ずつ適用（これと別に耐久力修正が加わる）",
   "BrowserClearFilters": "フィルタのクリア",
   "BrowserFilterAlignments": "属性",
-      "BrowserFilterAncestries": "祖先",
+  "BrowserFilterAncestries": "祖先",
   "BrowserFilterArmorFilters": "防具フィルタ",
   "BrowserFilterCastingTime": "発動時間",
   "BrowserFilterCategory": "特技種別",
@@ -406,6 +545,7 @@
   "BrowserSearchTitle": "右クリックでガイド表示",
   "BrowserSortyByLabel": "ソート",
   "BrowserSortyByLevelLabel": "レベル",
+  "BrowserSortyByPriceLabel":"価格",
   "BrowserSortyByNameLabel": "名称",
   "BulkCapacityLabel": "収納可能バルク",
   "BulkLabel": "携行バルク",
@@ -435,7 +575,6 @@
       "ClassFeatLevels": "クラス特技レベル",
       "ClassFeatures": "クラス特徴",
   "ClassHP": "クラスHP",
-   "ClassSummary": "クラスの概要",
   "ClassTitle": "君のキャラクターのクラス",
   "ClickToSetInitiative": "クリックして選んだトークンにイニシアチブをセット",
   "CompendiumDirectory": {
@@ -453,7 +592,12 @@
               }
           },
       "CompendiumBrowser": {
-        "Title": "辞典ブラウザ",
+        "AddedItem":"{item} を選択中のアクターに追加しました.",
+        "AddedItemToCharacter":"{item} を {character} に追加しました",
+        "ProgressBar":{
+           "LoadingPack":"{pack}をロード中",
+           "LoadingComplete":"ロード完了"
+        },
         "TabAction": "アクション",
         "TabBestiary": "ベスティアリ",
         "TabEquipment": "アイテム",
@@ -461,10 +605,10 @@
         "TabHazard": "障害",
         "TabSpell": "呪文",
         "TabSettings": "データパック",
-        "TakeLabel": "Take"
+        "TakeLabel": "アイテムを取る",
+        "Title": "辞典ブラウザ"
       },
       "Condition": {
-        "Summary": "状態の概要",
         "ActiveLabel": "有効",
         "RemovableLabel": "除去可能",
         "PerpetualLabel": "この状態は永続する",
@@ -473,7 +617,7 @@
         "HasValueLabel": "状態値",
         "ValueLabel": "値",
         "ImmutableLabel": "不変",
-        "ImmutableTitle": "状態値を減少できない."
+        "ImmutableTitle": "状態値を減少できません."
       },
   "ConditionsLabel": "状態",
   "ConditionTypeBlinded": "盲目",
@@ -541,6 +685,7 @@
   "ConsumableUseLabel": "使用法",
   "CoreSkillsHeader": "コア技能",
    "Counteract": "無効化",
+   "Counteractable":"無効化できる",
       "CounteractDescription": {
         "Hint": "もし、君がある苦難を無効化しようとしているのなら、DCは苦難のステータスブロックに記載されている。それが呪文なら、術者のDCを用いる。GMはまた、対象となる効果のレベルに基づいてDCを計算することが出来る。 ",
         "CritSuccess": "目標の無効化レベルが {level} 以下なら対象を無効化する",
@@ -549,13 +694,21 @@
         "CritFailure": "君は目標の無効化に失敗する"
       },
   "CreateActionTitle": "アクション作成",
-  "CreatureArmorClass": "{creature} AC",
   "CreateAttackTitle": "攻撃作成",
   "CreateFeatTitle": "特技作成",
   "CreateItemTitle": "アイテム作成",
   "CreateLabelUniversal": "作成",
   "CreateSkillTitle": "技能作成",
   "CreateSpellTitle": "呪文作成",
+  "CreatureStatisticDC":{
+    "ac":"{creature} AC: {dc}",
+    "deception":"{creature} 欺瞞 DC: {dc}",
+    "fortitude":"{creature} 頑健 DC: {dc}",
+    "perception":"{creature} 知覚 DC: {dc}",
+    "reflex":"{creature} 反応 DC: {dc}",
+    "stealth":"{creature} 隠密 DC: {dc}",
+    "will":"{creature} 意志 DC: {dc}"
+ },
   "CritFailure": "<strong>ファンブル</strong>",
   "CritSuccess": "<strong>クリティカル</strong>",
   "CriticalDamageLabel": "クリティカル",
@@ -630,22 +783,16 @@
   "DeleteSpellcastEntryWarning": "警告: この呪文発動の項目の全ての項目も共に削除されます",
   "DenominationLabel": "デノミネーション",
   "DetailsHeading": "詳細",
-  "DoomedLabel": "危篤",
-  "DoomedTitle": "君が死亡することになる値、最大瀕死値は危篤値だけ減少する。コアルルブP459-460を参照すること",
-  "DragDropFeats": "ドラッグ＆ドロップして特技を追加する",
-  "Dying": {
-  "label": "瀕死",
-  "title": "君が瀕死である間、君は気絶している。もし、最大値に達したなら、君は死亡する。手番ごとに回復判定をロールすること。コアルルブp459-460を参照すること"
-  },
+  "DragDropFeats":"ドラッグ＆ドロップして特技を追加する",
   "EditHazardLabel": "障害の編集",
   "EditItemTitle": "アイテムの編集",
-  "EditLabel": "編集",
-  "EditNPCLabel": "NPCの編集",
-     "EffectsLabel": "効果",
-      "EffectPanel": {
-        "AppliedBy": "{condition-list}によって適用",
-        "Expired": "期限切れ",
-        "RemainingDuration": {
+  "EditLabel": "編集しますか？",
+  "EditNPCLabel": "NPCの編集をしますか？",
+  "EffectsLabel": "効果",
+  "EffectPanel": {
+      "AppliedBy": "{condition-list}によって適用",
+      "Expired": "期限切れ",
+      "RemainingDuration": {
           "MultipleYears": "あと{years}年",
           "SingleYear": "あと1年",
           "MultipleWeeks": "あと{weeks}週",
@@ -660,13 +807,11 @@
           "ZeroRoundsExpireTurnEnd": "あと0ラウンド、イニシアチブ{initiative}の終了時に無効になる",
           "ZeroRoundsExpireTurnStart": "あと0ラウンド、イニシアチブ{initiative}の開始時に無効になる"
         },
-        "Sustained": "維持",
+        "Sustained": "維持しますか？",
         "UnlimitedDuration": "持続時間無制限"
       },
-      "EffectSummary": "効果の概要",
       "EmptySlot": "空きスロット",
   "EquipmentEquippedLabel": "装備済",
-  "EquipmentSummary": "装備の概要",
   "EquippedBulkLabel": "着用時バルク",
   "EquippedSameBulkValue": "運搬時と同じ",
   "ErrorMessage": {
@@ -694,8 +839,7 @@
   "FeatBonusHeader": "ボーナス特技",
   "FeatBrowserSearchHint": "君は名称での検索やアトリビュートのカスタムが出来る。検索可能になりうるアトリビュートは：<br>ソース、レベル、系統、構成要素、素材、対象、距離、時間、持続時間、ダメージ、ダメージ種別、セーヴ、精神集中、儀式、能力値及びクラスである。<br>例：’ファイア、ダメージ：d6’でファイアを名前に含み、ダメージにd6を含む全ての呪文が表示される",
   "FeatClassHeader": "クラス特技",
-  "FeatFeatSummary": "特技の要約",
-  "FeatGeneralHeader": "一般特技",
+  "FeatGeneralHeader":"一般特技",
           "FeatPFSBoonHeader": "社会の恩恵",
           "FeatDeityBoonHeader": "神格の恩恵",
           "FeatDeityboonHeader": "神格の恩恵",
@@ -727,6 +871,7 @@
   "FlatBonusSP": "定数のボーナスSP",
   "FlatBonusSPTitle": "SPに加わる定数を追加する",
   "FlatBonusSPperLevel": "ボーナスSP/レベル",
+  "FlatCheck":"平目判定",
   "Focus": {
   "label": "集中点",
    "NotEnoughFocusPointsError": "この呪文を発動するために必要な集中点がありません",
@@ -796,11 +941,71 @@
               "ABC": {
                   "InvalidDrop": "{badType}はここにドロップできない ({goodType}でなくてはならない)"
               },
+              "Armor":{
+                "Base":{
+                   "explorers-clothing":"探検家の衣服",
+                   "padded-armor":"パデッド・アーマー",
+                   "leather-armor":"レザー・アーマー",
+                   "studded-leather-armor":"スタデッド・レザー・アーマー",
+                   "chain-shirt":"チェイン・シャツ",
+                   "hide-armor":"ハイド・アーマー",
+                   "scale-mail":"スケイル・メイル",
+                   "chain-mail":"チェイン・メイル",
+                   "breastplate":"ブレストプレート",
+                   "splint-mail":"スプリント・メイル",
+                   "half-plate":"ハーフ・プレート",
+                   "full-plate":"フル・プレート",
+                   "hellknight-plate":"ヘルナイト・プレート"
+                }
+             },
               "Effect": {
                   "ShowTokenIcon": "トークン・アイコンを表示しますか?"
               },
-              "Plural": "アイテム"
+              "NameLabel":"名称",
+          "IconLabel":"アイコン",
+          "SidebarSummary":"{type} の概要",
+          "Physical":{
+             "LevelLabel":"アイテム {level}",
+             "PriceLabel":"価格: {price}"
           },
+        "Plural": "アイテム",
+          "Weapon":{
+            "FromMaterialAndRunes":"素材とルーン: {value}",
+            "GeneratedName":{
+               "Hint":"これは基本武器の名称である。ほとんどの武器では、この基本は、構成する素材やルーンの名前を入れた完全な名称の生成に使われる。この武器にカスタム名称を与えたり、\"特殊\" なものにすることによって、生成された名称は表示されなくなる",
+               "Potency":"+{potency} {base}",
+               "PotencyOneProperty":"+{potency} {property1}・{base}",
+               "PotencyTwoProperties":"+{potency} {property1}・{property2}・{base}",
+               "PotencyThreeProperties":"+{potency} {property1}・{property2}・{base}",
+               "PotencyFourProperties":"+{potency} {property1}・{property2}・{property3}・{property4}・{base}",
+               "Material":"{material}製 {base}",
+               "PotencyMaterial":"{material}製 +{potency} {base}",
+               "PotencyOnePropertyMaterial":"{material}製 +{potency} {property1}・{base}",
+               "PotencyTwoPropertiesMaterial":"{material}製 +{potency} {property1}・{property2}・{base}",
+               "PotencyThreePropertiesMaterial":"{material}製 +{potency} {property1}・{property2}・{property3}・{base}",
+               "PotencyFourPropertiesMaterial":"{material}製 +{potency} {property1}・{property2}・{property3}・{property4}・{base}",
+               "PotencyStriking":"+{potency} {striking}・{base}",
+               "PotencyStrikingMaterial":"{material}製 +{potency} {striking}・{base}",
+               "PotencyStrikingOneProperty":"+{potency} {striking}・{property1}・{base}",
+               "PotencyStrikingOnePropertyMaterial":"{material}製 +{potency} {striking}・{property1}・{base}",
+               "PotencyStrikingTwoProperties":"+{potency} {striking}・{property1}・{property2}・{base}",
+               "PotencyStrikingTwoPropertiesMaterial":"{material}製 +{potency} {striking}・{property1}・{property2}・{base}",
+               "PotencyStrikingThreeProperties":"+{potency} {striking}・{property1}・{property2}・{property3}・{base}",
+               "PotencyStrikingThreePropertiesMaterial":"{material}製 +{potency}・{striking}・{property1}・{property2}・{property3}・{base}",
+               "PotencyStrikingFourProperties":"+{potency} {striking}・{property1}・{property2}・{property3}・{property4}・{base}",
+               "PotencyStrikingFourPropertiesMaterial":"{material}製 +{potency} {striking}・{property1}・{property2}・{property3}・{property4} ・{base}"
+            },
+            "MaterialAndRunes":{
+               "MaterialOption":"{type} ({grade})",
+               "Title":"素材とルーン",
+               "Hint":"稀少素材とルーンによって奥深い武器のカスタマイズが出来るようになる。敵を害する能力を伸ばすほかに、武器のレベル、レアリティ、価格、名称にも影響を与えるのである。武器のリネームをやめるには、 カスタム名称を与えるか、<i>特定の魔法の武器</i>にすること"
+            },
+            "SpecificMagicWeapon":{
+               "Label":"特定の魔法の武器",
+               "Hint":"この武器を<i>特定の魔法の武器</i>にすることによって、 素材とルーンが特殊である以上に個の武器が特殊であると示すことが出来る。名称、レベル、レアリティ、価格はもはや、稀少素材やルーンによって上書きされなくなる。しかしながら、素材とルーンはそれ以上のアップグレードによるレベル、レアリティ、価格調整の最低ラインになる"
+            }
+         }
+      },
   "ItemBonus0": "0",
   "ItemBonus1": "+1 武器発現",
   "ItemBonus2": "+2 武器発現",
@@ -811,14 +1016,13 @@
   "ItemDescription": "描写",
   "ItemDetails": "詳細",
   "ItemMystified": "未識別化",
-  "ItemMystify": "未識別",
+  "ItemMystification": "未識別",
   "ItemNamePlaceholder": "名称",
          "ItemNotSupportedOnActor": "アクターにサポートされていないアイテム",
           "ItemRules": "ルール",
           "ItemNewRuleElement": "新たなルール要素",
           "ItemNewSkillVariant": "新たな技能ヴァリアント",
           "ItemRemoveRuleElement": "ルール要素の削除",
-  "ItemSummary": "アイテムの概要",
   "ItemTitle": "アイテム",
   "ItemsLabel": "アイテム",
           "JournalEntry": {
@@ -830,17 +1034,20 @@
           "KitWorldItem": "このアイテムは辞典にないもので、他のワールドでは機能しない",
           "LackCastConsumableCapability": "君は{name}を使うための習熟を満たしておらず、《魔法のアイテム強制起動》の特技を持っていない",
   "LanguageAbyssal": "奈落語",
-          "LanguageAdlet": "アドレッド語",
+          "LanguageAdlet": "アドレット語",
   "LanguageAklo": "アクロ語",
   "LanguageAlghollthu": "アルゴールトゥ語",
   "LanguageAmurrun": "アミュラン語",
   "LanguageAnadi": "アナディ語",
   "LanguageAndroffan": "アンドロファン語",
+  "LanguageAnugobu":"アヌゴブ語",
   "LanguageAquan": "水界語",
   "LanguageArboreal": "樹木語",
+  "LanguageArcadian":"アルカディア語",
   "LanguageAuran": "風界語",
   "LanguageAzlanti": "アズラント語",
   "LanguageBoggard": "ボガード語",
+  "LanguageCalda":"カルダ語",
   "LanguageCaligni": "カリグニ語",
   "LanguageCelestial": "天上語",
    "LanguageDestrachan": "デストラカン語",
@@ -851,6 +1058,7 @@
   "LanguageDruidic": "ドルイド語",
   "LanguageDwarven": "ドワーフ語",
    "LanguageDziriak": "ド＝ジリラク語",
+   "LanguageEkujae":"エクジャエ象形文字",
   "LanguageElven": "エルフ語",
   "LanguageErutaki": "エルタキ語",
   "LanguageGarundi": "ガルーンド語",
@@ -859,6 +1067,7 @@
   "LanguageGnoll": "ノール語",
   "LanguageGnomish": "ノーム語",
   "LanguageGoblin": "ゴブリン語",
+  "LanguageGoloma":"ゴロマ語",
   "LanguageGrioth": "グライオス語",
   "LanguageGrippli": "グリプリー語",
   "LanguageHalfling": "ハーフリング語",
@@ -870,25 +1079,36 @@
   "LanguageJotun": "ヨトゥン語",
           "LanguageJyoti": "イヨティ語",
   "LanguageKelish": "ケリシュ語",
+  "LanguageKibwani":"キブワニ語",
+  "LanguageKitsune":"キツネ語",
           "LanguageKovintal": "コヴィンタル語",
+          "LanguageLirgeni":"リルジニ語",
           "LanguageMiGo": "ミ＝ゴ語",
+          "LanguageMinaten":"ミナテン語",
           "LanguageMunavri": "ムナヴリ語",
   "LanguageMwangi": "ムワンギ語",
+  "LanguageMzunu":"ムズヌ語",
+  "LanguageNagaji":"ナガジ語",
   "LanguageNecril": "ネクリル語",
+  "LanguageOcotan":"オコタン語",
   "LanguageOrcish": "オーク語",
   "LanguageOsirian": "オシーリオン語",
   "LanguageProtean": "プロティアン語",
+  "LanguageRasu":"ラス語",
   "LanguageRequian": "鎮魂者語",
           "LanguageSamsaran": "サンサーラン語",
           "LanguageSasquatch": "サスカッチ語",
+          "LanguageSenzar":"センザール語",
   "LanguageShadowtongue": "影語",
           "LanguageShae": "シェイ語",
+          "LanguageShisk":"シスク語",
   "LanguageShoanti": "ショアンティ語",
   "LanguageShoony": "シューニィ語",
   "LanguageSkald": "スカルド語",
   "LanguageSphinx": "スフィンクス語",
   "LanguageStrix": "ストリクス語",
   "LanguageSylvan": "森語",
+  "LanguageTaldane":"タルドール語（共通語）",
   "LanguageTengu": "テング語",
   "LanguageTerran": "地界語",
   "LanguageThassilonian": "サーシロン語",
@@ -900,6 +1120,8 @@
   "LanguageVarki": "ヴァルキ語",
           "LanguageVishkanyan": "ヴィシュカニヤ語",
   "LanguageVudrani": "ヴードラ語",
+  "LanguageWyrwood":"ウィルウッド語",
+       "LanguageXanmba":"ザンバ語",
           "LanguageYithian": "イス語",
           "LanguageYsoki": "イソキ語",
   "Languages": "言語",
@@ -927,7 +1149,6 @@
           "Level19": "レベル19",
           "Level20": "レベル20",
           "Lore": "伝承",
-  "LoreLoreSummary": "技能の概要",
    "LoreProficiencyDisclaimer": "情報のみ。技能修正値を変更しない",
   "LoreSkillsHeader": "伝承技能",
   "LoreSkillFormat": "伝承：{name}",
@@ -973,6 +1194,13 @@
   "MaxStaminaTitle": "君の最大スタミナポイント",
   "MaxHitPointsHeader": "最大ヒットポイント",
   "MetalStrikes": "金属による打撃",
+  "Migrations":{
+    "Finished":"PF2E version {version} への移行が完了しました！",
+    "Starting":"PF2E のシステムをversion {version}に移行しています. ゲームを閉じたり、サーバーを落とさずにお待ちください",
+    "OnlyGMCanUse":"ゲームマスターだけがこのツールを使うことが出来ます",
+    "WorldNotReady":"ゲームワールドの準備が出来ていません：数秒後に再度、お試しください",
+    "OutsideSchemaRange":"本システムのスキーマ・バージョン範囲(最小値 {minimum} 最大値 {maximum})の範囲外です"
+ },
   "ModifierTitle": "修正値",
   "ModifiersTitle": "修正値",
   "ModifierType": {
@@ -985,7 +1213,7 @@
   "untyped": "無名"
   },
           "MultipleAttackPenalty": "複数回攻撃ペナルティ",
-          "MysticStrikes": "精神による打撃",
+          "MysticStrikes": "神秘の打撃",
   "Nationality": "国籍",
           "NPCAttackMelee": "近接",
           "NPCAttackRanged": "遠隔",
@@ -1003,32 +1231,41 @@
               "Ancestry": "新しい祖先",
               "Armor": "新しい防具",
               "Background": "新しい背景",
-              "Backpack": "新しい背負い袋",
+              "Backpack": "新しい収納用具",
               "Condition": "新しい状態",
               "Consumable": "新しい消耗品",
               "Equipment": "新しい装備",
               "Feat": "新しい特技",
               "Kit": "新しい用具",
               "Lore": "新しい伝承",
-              "Martial": "新しい武具",
               "Melee": "新しい近接",
               "Spell": "新しい呪文",
               "SpellcastingEntry": "新しい呪文発動の項目",
               "Skill": "新しい技能",
-              "Status": "新しいステータス",
               "Treasure": "新しい宝飾品",
               "Weapon": "新しい武器"
           },
   "NoAmmoLabel": "弾切れ",
-  "NoStackGroup": "加算しない",
+  "NoStackGroup": "累積しない",
   "NoneOption": "なし",
           "OneDegreeBetter": "1段階上げる",
           "OneDegreeWorse": "1段階下げる",
+          "TwoDegreesBetter":"2段階上げる",
+          "TwoDegreesWorse":"2段階下げる",
   "OpenActionBrowserTitle": "アクションの窓を開く",
   "OpenFeatBrowserTitle": "特技の窓を開く",
   "OpenInventoryBrowser": "インベントリの窓を開く",
-  "OpenItemTitle": "中身を表示",
+  "OpenItemTitle": "収納の中身を表示",
   "OpenSpellBrowserTitle": "呪文の窓を開く",
+  "OrdinalNumber":"{value}{suffix}",
+       "OrdinalSuffixes":{
+          "zero":"th",
+          "one":"st",
+          "two":"nd",
+          "few":"rd",
+          "other":"th",
+          "many":"th"
+       },
   "OrphanedSpellsHeader": "Orphaned Spells (上の呪文発動項目に移動する)",
   "PenaltyLabel": {
   "ability": "能力値ペナルティ",
@@ -1063,7 +1300,7 @@
                   "Swords": "剣"
               }
           },
-          "PickAType": "Pick a type",
+          "PickAType": "種別を選ぶ",
           "Playlist": {
               "Plural": "プレイリスト"
           },
@@ -1072,9 +1309,9 @@
   "PreciousMaterialColdIron": "冷たい鉄",
   "PreciousMaterialDarkwood": "ダークウッド",
   "PreciousMaterialDragonhide": "ドラゴンハイド",
-  "PreciousMaterialGradeLabel": "希少素材のグレード",
+  "PreciousMaterialGradeLabel": "稀少素材のグレード",
   "PreciousMaterialHighGrade": "高級クラス",
-  "PreciousMaterialLabel": "希少素材",
+  "PreciousMaterialLabel": "稀少素材",
   "PreciousMaterialLowGrade": "低級クラス",
   "PreciousMaterialMithral": "ミスラル",
   "PreciousMaterialOrichalcum": "オリハルコン",
@@ -1137,7 +1374,6 @@
               "Message": "{proficiency} の習熟を削除しますか？"
           },
   "RemoveSpellcastingEntryTitle": "呪文発動の項目を削除する",
-  "ResiliencyRuneLabel": "レジリエンシィ・ルーン",
   "RerollMenu": {
               "ErrorNoActor": "そのロールに関連するアクターがいません",
               "ErrorCantDelete": "オリジナルのロールを削除することは出来ません",
@@ -1153,6 +1389,7 @@
               "MessageHeroPoint": "ヒーロー・ポイントを使って再ロールしました",
               "WarnNoHeroPoint": "{name} のヒーロー・ポイントはゼロです"
           },
+          "ResiliencyRuneLabel": "レジリエンシィ・ルーン",
   "ResistanceTypeAll": "全て",
   "ResistanceTypePhysical": "物理",
   "ResistanceTypeWeapon": "Weapons",
