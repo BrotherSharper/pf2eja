@@ -1053,8 +1053,8 @@
 		},
 		{
 			"id": "Master Strike",
-			"name": "達人の打撃",
-			"description": "<p><strong>トリガー</strong> 君の「打撃」が@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{立ちすくみ}状態のクリーチャーに命中し、ダメージを与える</p>\n<hr />\n<p>T対象は君のクラスDCに対して頑健セーヴを試みる。対象はそれから、1日間、君の「達人の打撃」に対して一時的に完全耐性を持つ。</p>\n<hr />\n<p><strong>クリティカル</strong> 対象は効果を受けない。</p>\n<p><strong>成功</strong> 対象は君の次の手番の終了時まで@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱2} になる。 </p>\n<p><strong>失敗</strong> 対象は4ラウンド、@Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{麻痺} になる</p>\n<p><strong>ファンブル</strong> 対象は4ラウンド、麻痺状態となり、2時間 @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{気絶} するか、死ぬ（君の選択による</p>"
+			"name": "匠の打撃",
+			"description": "<p><strong>トリガー</strong> 君の「打撃」が@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{立ちすくみ}状態のクリーチャーに命中し、ダメージを与える</p>\n<hr />\n<p>T対象は君のクラスDCに対して頑健セーヴを試みる。対象はそれから、1日間、君の「達人の打撃」に対して一時的に完全耐性を持つ。</p>\n<hr />\n<p><strong>クリティカル</strong> 対象は効果を受けない。</p>\n<p><strong>成功</strong> 対象は君の次の手番の終了時まで@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱2} になる。 </p>\n<p><strong>失敗</strong> 対象は4ラウンド、@Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{麻痺} になる</p>\n<p><strong>ファンブル</strong> 対象は4ラウンド、麻痺状態となり、2時間 @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{気絶} するか、死ぬ（君の選択による）</p>"
 		},
 		{
 			"id": "Take Cover",
