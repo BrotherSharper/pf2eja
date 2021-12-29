@@ -2,59 +2,34 @@
 	"label": "アクション",
 	"entries": [
 		{
-			"id": "Act Together",
-			"name": "同時行動",
-			"description": "<p><strong>頻度</strong> 1ラウンドに1回</p>\n<p>君と幻獣は一体となって行動する。君か幻獣は、「同時行動」と同じ数のアクションを使ってアクションあるいは連続行動を行い、もう片方は単発アクションを行う。</p>\n<p>たとえば、もし君が2アクションを使って「同時行動」するなら、君が<em>@Compendium[pf2e.spells-srd.y6rAdMK6EFlV6U0t]{バーニング・ハンズ}</em>を発動し（2アクション）、幻獣が「打撃」を行う（1アクション）することが出来る。または、幻獣がブレス武器（2アクション）を使い、君が「打撃」を行う（1アクション）ことも出来る。</p>\n<p>これによって、君達は旅行時にそれぞれが@Compendium[pf2e.actionspf2e.IE2nThCmoyhQA0Jn]{「隠密行動」}のような独立した連続行動を取ることが出来る。</p>"
+			"id": "Accidental Shot",
+			"name": "Accidental Shot",
+			"description": "<p><strong>Frequency</strong> once per day;</p>\n<p><strong>Effect</strong> You make a Strike with a ranged weapon, rolling the attack and damage twice and using the better results for each. The attack ignores circumstance penalties to the attack roll and any flat check required due to the target being @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} or @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden}.</p>"
 		},
 		{
-			"id": "Affix a Fulu",
-			"name": "呪符の取付け",
-			"description": "<p>君は自分と同じマス目あるいは背後にいる防具、武器、盾、クリーチャーあるいは構造物に呪符を取りつける。クリーチャーは間合い内にある、自分自身や誰のものでもない呪符を単発アクションで取り除くことが出来る。</p>"
+			"id": "Airy Step",
+			"name": "Airy Step",
+			"description": "<p><strong>Frequency</strong> Once per day</p>\n<p><strong>Trigger</strong> A creature targets you with an attack or other targeted effect, and you can see the attacker.</p>\n<hr />\n<p>You create a blanket of fog in a 5–foot burst centered on one corner of your space. All creatures within that area are concealed, and all others are concealed to them. This concealment applies to the triggering effect, and the fog lasts for 1 minute or until dispersed by a strong wind. After resolving the triggering effect, you Step. If an effect prevents you from Stepping, you attempt to @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escape} the effect and Step if you succeed.</p>"
 		},
 		{
-			"id": "Arcane Cascade",
-			"name": "秘術の怒濤",
-			"description": "<p><strong>条件</strong> 君が使った直近のアクションが「呪文の発動」か「呪文撃」である</p>\n<hr />\n<p>君は、呪文の魔力の一部を流用し、特殊なフォーム、呼吸法、フットワークを使って肉体と武器にそれを循環させる。この構えでいる間、君の近接「打撃」は追加で[[/r 1 #ダメージ]]（1点のダメージ）を与える。このダメージは、君が武器開眼を持っているなら2点に、上級武器開眼を持っているなら3点に増える。このダメージによって利益を受ける「打撃」は全て、秘術の特性を持ち、魔法のものになる。</p>\n<p>もし、君が日前に入る直前の呪文がダメージを与えることが出来るものであったなら、構えによるダメージは、呪文が与えることが出来るダメージと同じ種別（あるいは、もしその呪文が複数のダメージ種別を与えるのなら、君が選んだ種別1つ）である。もし、この呪文がダメージを与えられないものであるなら、この構えのボーナス・ダメージはその呪文の系統によって異なる。</p>\n<ul>\n<li><strong>防御術</strong> あるいは <strong>力術</strong> 力場</li>\n<li><strong>召喚術</strong> あるいは <strong>変成術</strong> 君の武器あるいは素手打撃と同じ種別</li>\n<li><strong>占術</strong>、<strong>心術</strong>あるいは <strong>幻術</strong> 精神</li>\n<li><strong>死霊術y</strong> 負のエネルギー</li>\n</ul>"
+			"id": "Automaton Aim",
+			"name": "Automaton Aim",
+			"description": "<p>You steady your body and observe the events of the battlefield to maximize the range of your next shot. You reduce the penalty for firing into your weapon's second range increment from -2 to 0 for the next ranged attack you make this turn. You can use this action a second time in the same turn to reduce the penalty from firing into your weapon's third range increment from -4 to 0 for the next ranged attack you make this turn.</p>"
 		},
 		{
-			"id": "Armor Up!",
-			"name": "装着！",
-			"description": "<p><strong>効果</strong> 君は指を鳴らす。防具が君の肉体に戻ってくる。</p>"
-		},
-		{
-			"id": "Beast's Charge",
-			"name": "獣の突撃",
-			"description": "<p>Y幻獣は前方に突進し、その勢いを使って攻撃の力を増す。幻獣は2回、「歩行」してから「打撃」する。もし、幻獣が開始時の位置から少なくとも20フィート移動をしていて、完全に直線移動をしているなら、幻獣は攻撃ロールに+1状況ボーナスを得る。</p>"
-		},
-		{
-			"id": "Bend Time",
-			"name": "時を曲げる",
-			"description": "<p><strong>頻度</strong> 1日に1回</p>\n<p><strong>トリガー</strong> 君の手番が開始する</p>\n<p><strong>効果</strong> 君はこの手番、 @Compendium[pf2e.conditionitems.nlCjDvLMf2EkV2dl]{高速化}状態になる。君はこの追加アクションを「歩行」に使うことが出来る</p>"
-		},
-		{
-			"id": "Breath Weapon",
-			"name": "ブレス武器",
-			"description": "<p>幻獣は破壊的なエネルギーの爆発を吐き出す。幻獣は範囲内の全てのクリーチャーに[[/r 1d6 #ダメージ]]{1d6点のダメージ}を与えるが、これには君の呪文DCに対する基本反応セーヴがある。「ブレス武器」の範囲とダメージ種別は、この能力を幻獣が得た際に選ぶ。</p>\n<p>幻獣は次の[[/r 1d4 #ラウンド]]{1d4 ラウンド}、「ブレス武器」を再使用することが出来ない。</p>\n<p>3レベル時点とその後の2レベルごとに、このダメージは1d6点増える。[[/r (floor(@details.level.value/2))d6]]{現在レベルのダメージ}</p>"
-		},
-		{
-			"id": "Breath Weapon (Acid) (Cone)",
-			"name": "ブレス武器（強酸）（円錐）",
-			"description": "<p>幻獣は破壊的なエネルギーの爆発を吐き出す。幻獣は <span data-pf2-effect-area=\"cone\" data-pf2-distance=\"30\">30フィート円錐内</span>の全てのクリーチャーに [[/r 1d6 #強酸]]{1d6点の強酸ダメージ}を与えるが、これには君の呪文DCに対する基本反応セーヴがある。</p>\n<p>幻獣は次の[[/r 1d4 #ラウンド]]{1d4 ラウンド}、「ブレス武器」を再使用することが出来ない。</p>\n<p>3レベル時点とその後の2レベルごとに、このダメージは1d6点増える。[[/r (floor(@details.level.value/2))d6 #強酸]]{現在レベルのダメージ}</p>"
-		},
-		{
-			"id": "Breath Weapon (Acid) (Line)",
-			"name": "ブレス武器 (強酸) (直線)",
-			"description": "<p>幻獣は破壊的なエネルギーの爆発を吐き出す。幻獣は<span data-pf2-effect-area=\"line\" data-pf2-distance=\"60\">60フィート直線</span>の全てのクリーチャーに [[/r 1d6 #強酸]]{1d6点の強酸ダメージ}を与えるが、これには君の呪文DCに対する基本反応セーヴがある。</p>\n<p>幻獣は次の[[/r 1d4 #ラウンド]]{1d4 ラウンド}、「ブレス武器」を再使用することが出来ない。</p>\n<p>3レベル時点とその後の2レベルごとに、このダメージは1d6点増える。 [[/r (floor(@details.level.value/2))d6 #強酸]]{現在レベルのダメージ}</p>"
+			"id": "Banshee Cry",
+			"name": "Banshee Cry",
+			"description": "<p><strong>Trigger</strong> A creature within 30 feet Casts a Spell that has a verbal component or Activates an Item using a command Activation;</p>\n<p><strong>Effect</strong> You set off a firework to explode with a loud screech near the creature. The creature must attempt a Will save.</p>\n<hr />\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature must use an additional action on the triggering action or activity, or it's disrupted.</p>\n<p><strong>Critical Failure</strong> The triggering action is disrupted.</p>"
 		},
 		{
 			"id": "Breath Weapon (Cold) (Cone)",
-			"name": "Breath Weapon (Cold) (Cone)",
+			"name": "ブレス武器 (氷雪) (円錐)",
 			"description": "<p>幻獣は破壊的なエネルギーの爆発を吐き出す。幻獣は <span data-pf2-effect-area=\"cone\" data-pf2-distance=\"30\">30フィート円錐内</span>の全てのクリーチャーに [[/r 1d6 #氷雪]]{1d6点の氷雪ダメージ}を与えるが、これには君の呪文DCに対する基本反応セーヴがある。</p>\n<p>幻獣は次の[[/r 1d4 #ラウンド]]{1d4 ラウンド}、「ブレス武器」を再使用することが出来ない。</p>\n<p>3レベル時点とその後の2レベルごとに、このダメージは1d6点増える。[[/r (floor(@details.level.value/2))d6 #氷雪]]{現在レベルのダメージ}</p>"
 		},
 		{
 			"id": "Breath Weapon (Cold) (Line)",
-			"name": "Breath Weapon (Cold) (Line)",
-			"description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r 1d6 #cold]]{1d6 cold damage} to all creatures in a <span data-pf2-effect-area=\"line\" data-pf2-distance=\"60\">60-foot line</span>, with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r (floor(@details.level.value/2))d6 #cold]]{Levelled Damage}</p>"
+			"name": "ブレス武器 (氷雪) (直線)",
+			"description": "<p>幻獣は破壊的なエネルギーの爆発を吐き出す。幻獣は<span data-pf2-effect-area=\"line\" data-pf2-distance=\"60\">60フィート直線</span>の全てのクリーチャーに [[/r 1d6 #氷雪]]{1d6点の氷雪ダメージ}を与えるが、これには君の呪文DCに対する基本反応セーヴがある。</p>\n<p>幻獣は次の[[/r 1d4 #ラウンド]]{1d4 ラウンド}、「ブレス武器」を再使用することが出来ない。</p>\n<p>3レベル時点とその後の2レベルごとに、このダメージは1d6点増える。[[/r (floor(@details.level.value/2))d6 #氷雪]]{現在レベルのダメージ}</p>"
 		},
 		{
 			"id": "Breath Weapon (Electricity) (Cone)",
@@ -107,14 +82,49 @@
 			"description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r 1d6 #poison]]{1d6 poison damage} to all creatures in a <span data-pf2-effect-area=\"line\" data-pf2-distance=\"60\">60-foot line</span>, with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r (floor(@details.level.value/2))d6 #poison]]{Levelled Damage}</p>"
 		},
 		{
+			"id": "Bullet Dancer Stance",
+			"name": "Bullet Dancer Stance",
+			"description": "<p><strong>Requirements</strong> You're unarmored and wielding a simple firearm, bayonet, or reinforced stock;</p>\n<p><strong>Effect</strong> You enter a specialized stance for a unique martial art centered around the use of simple firearms. While in this stance, the only Strikes you can make are those using bayonets, reinforced stocks, and simple firearms. You can use Flurry of Blows with these weapons. You can use your other monk feats or monk abilities that normally require unarmed attacks with bayonets and reinforced stocks, so long as the feat or ability doesn't require a single, specific Strike. You can also use them with simple firearms when attacking within half the first range increment.</p>"
+		},
+		{
+			"id": "Call Gun",
+			"name": "Call Gun",
+			"description": "<p><strong>Effect</strong> You hold aloft a free hand and call the firearm or crossbow you chose during your daily preparations into your hand. As long as the weapon you chose is on the same plane, it appears in your hand.</p>"
+		},
+		{
 			"id": "Catharsis",
 			"name": "Catharsis",
 			"description": "<p><strong>Trigger</strong> determined by your catharsis emotion;</p>\n<p><strong>Effect</strong> You gain the catharsis activation effects listed for your catharsis emotion. You gain that emotion's emotional fervor benefits for 3 rounds. When your emotional fervor ends, you suffer the listed emotional fallout. After using Catharsis, you can't use it again until you use the @Compendium[pf2e.actionspf2e.EhLvRWFKhZ3HtrZO]{Settle Emotions} activity.</p>"
 		},
 		{
+			"id": "Chassis Deflection",
+			"name": "Chassis Deflection",
+			"description": "<p><strong>Trigger</strong> A critical hit deals physical damage to you.</p>\n<hr />\n<p>Attempt a DC 17 flat check. If you are successful, the attack becomes a normal hit.</p>"
+		},
+		{
 			"id": "Cleanse Soul Path",
 			"name": "Cleanse Soul Path",
 			"description": "<p>You meditate, pray, or otherwise try to reinforce your soul's connection to your soulforged armament. This takes 10 minutes. Attempt a counteract check against your <em>soulforged corruption</em>. The counteract level is half your level rounded up, and the counteract check modifier is your Religion modifier. If successful, reduce the stage of your <em>soulforged corruption</em> by 1 (to a minimum of Stage 1).</p>"
+		},
+		{
+			"id": "Clear a Path",
+			"name": "経路一掃",
+			"description": "<p><strong>条件</strong> 君が両手火器あるいは両手クロスボウを使っている</p>\n<hr />\n<p>君は新しいラウンドを素早く再装填する前に、武器を外側に押し出して空間を空けようとする。武器を使って、間合い内にいる敵1体を@Compendium[pf2e.actionspf2e.7blmbDrQFNfdT731]{「押しやり」}するために〈運動〉判定を行い、それから再装填のための「使用」をする。この「押しやり」について、君は自由な手を持つ必要はなく、〈運動〉判定に、武器の攻撃ロールへのアイテム・ボーナス（どんな値でも）を加える。もし、君の最後のアクションがその武器での遠隔「打撃」だったなら、君は「押しやり」にその「打撃」と同じ複数回攻撃ペナルティを使うこと。この「押しやり」は通常通り、その後の攻撃について君の複数回攻撃ペナルティにカウントされる。.</p>"
+		},
+		{
+			"id": "Conjure Bullet",
+			"name": "Conjure Bullet",
+			"description": "<p><strong>Frequency</strong> once per round;</p>\n<p><strong>Effect</strong> You conjure an ordinary level-0 bolt or bullet out of thin air and then immediately Interact to load it into your weapon. If the bolt or bullet isn't fired before the end of your turn, the effect is wasted.</p>"
+		},
+		{
+			"id": "Coughing Dragon",
+			"name": "Coughing Dragon",
+			"description": "<p><strong>Cost</strong> 2 batches of infused reagents;</p>\n<p><strong>Effect</strong> Choose either auditory or visual effects. The display gains that trait, and you attempt to counteract one or more effects within 60 feet that have this trait. On a success, the effect is suppressed until the start of your next turn, rather than ending entirely. Use your Fireworks Lore modifier as your counteract modifier, and your counteract level is equal to half your advanced alchemy level (rounded up). A coughing dragon costs 2 batches of infused reagents rather than 1, but you can increase the cost to 3 batches and spend an additional action to create an even bigger coughing dragon display that attempts to counteract both auditory and visual effects at the same time.</p>"
+		},
+		{
+			"id": "Covered Reload",
+			"name": "物陰の再装填",
+			"description": "<p>君は、次の攻撃をするために再装填をする際に、安全な場所に身を隠すか、身の丈を最小限に縮める。@Compendium[pf2e.actionspf2e.ust1jJSCZQUhBZIz]{「遮蔽を取る」}か、@Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]{「隠れる」}試みをしてから、再装填のための「使用」をすること。通常通り、君は「遮蔽を取る」や「隠れる」の条件を満たしていなくてはならない。君は@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{伏せ状態}で、遮蔽から利益を得ているか、「遮蔽を取る」をさせてくれるような地形の近くにいなければならず、そのクリーチャーから「隠れる」ために遮蔽から利益を得ているか、クリーチャーから@Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{視認困難}である必要がある。</p>"
 		},
 		{
 			"id": "Cram",
@@ -137,14 +147,14 @@
 			"description": "<p><strong>Trigger</strong> The target takes damage;</p>\n<p><strong>Requirements</strong> You're within 1 mile of the target;</p>\n<p><strong>Effect</strong> After calculating the amount of damage the target would take (applying weaknesses, resistances, and the like), you lose an equal number of Hit Points, and the target doesn't take any of the damage. You can't reduce the amount of Hit Points you lose in this way. The target still takes any effects that would come with the damage, however, such as the venom on a viper's fangs Strike.</p>"
 		},
 		{
+			"id": "Dispelling Bullet",
+			"name": "解呪弾",
+			"description": "<p>君は、弾丸に自分の魔法の書名を基にした防御術のフィールドを刻印し、当たった相手の魔法を妨害する。君が目視できる敵に対して、火器かクロスボウで「打撃」を行う。命中した場合、対象に作用している呪文の効果を無効化しようとすること（君が選択したものか、選択しない場合は最高レベルの効果が対象になる）。君の無効化レベルは君のレベルの半分（切り上げ）に等しく、無効化判定の修正値は君のクラスDC-10に等しい。</p>"
+		},
+		{
 			"id": "Divert Lightning",
 			"name": "Divert Lightning",
 			"description": "<p><strong>Requirements</strong> You aren't immune to electricity;</p>\n<p><strong>Trigger</strong> A creature within 30 feet of you is targeted by an electricity effect or is in the area of an electricity effect.</p>\n<p><strong>Effect</strong> You draw the electricity to yourself like a lightning rod in order to shield the target. If the triggering effect was targeted, it targets you instead of the triggering creature. If it was an area effect, it leaps from the triggering creature's space to fill your space instead. This doesn't divert lightning from any other creatures targeted by or in the area of the lightning. You're automatically hit by or automatically fail your save against the effect. You then can't Divert Lightning for [[/r 1d4 #rounds]]{1d4 rounds}.</p>"
-		},
-		{
-			"id": "Draconic Frenzy",
-			"name": "竜の狂乱",
-			"description": "<p>幻獣は主要素手打撃で「打撃」1回を行い、二次素手打撃で2回の「打撃」を行う（順番はいずれでもよい）。もし、これらの攻撃のどれかが敵にクリティカル・ヒットしたなら、、幻獣は即座に「ブレス武器」の使用が出来るようになる。</p>"
 		},
 		{
 			"id": "Dream Research",
@@ -152,9 +162,9 @@
 			"description": "<p><strong>Trigger</strong> You fall asleep within 5 miles of Xarwin Manor.</p>\n<p><strong>Frequency</strong> once per 12 hours</p>\n<hr />\n<p>While you sleep, you experience dreams that verge on nightmares. In these dreams, your mind drifts from your soul, and everything you know feels like it’s being drawn up into the dark places between the stars to be devoured. During the dream, you can concentrate on one research topic you’ve unlocked that you haven’t fully investigated. If you choose a topic for which the party has already discovered all research thresholds, you can immediately switch to a different topic.</p>\n<p>The skill you use and the DC for the check depend on the topic, as detailed in that topic’s Dreams venue. If you’re not dreaming within the manor grounds, the spiritual link to the malevolence is lessened and you take a –2 status penalty to the check.</p>\n<hr />\n<p><strong>Critical Success</strong> You gain 2 RP.</p>\n<p><strong>Success</strong> You gain 1 RP.</p>\n<p><strong>Critical Failure</strong> You peer too far into the malevolence, which notices your attempt. You manage to break the mental link just before you lose some memories to its ravenous appetite. Increase your malevolence condition value by 1.</p>"
 		},
 		{
-			"id": "Dutiful Retaliation",
-			"name": "忠実なる報復",
-			"description": "<p><strong>トリガー</strong> 君の15フィート以内にいる敵が君に「打撃」を命中させ、君にダメージを与える</p>\n<p><strong>条件</strong> の幻獣が君の15フィート以内にいる</p>\n<p>幻獣は本能的にエクトプラズムのエネルギーを輝かせ、君に危害を加えた敵に反撃を行うことが出来るようにする。幻獣は、トリガーとなった敵が、たとえ幻獣の間合いにいないとしても、その敵に近接素手「打撃」を行う。</p>"
+			"id": "Drifter's Wake",
+			"name": "放浪者の余波",
+			"description": "<p>君は戦場を放浪して回り、行く先々で敵を打ち倒す。君は「歩行」し、移動の最中の任意の地点で3回まで「打撃」することが出来る。それぞれの攻撃は別の敵を対象にしなければならず、片手の火器、クロスボウ、近接武器あるいは素手打撃で行わなければならない。それぞれの攻撃が複数回攻撃ペナルティにカウントされるが、君の複数回攻撃ペナルティは攻撃すべてが終わるまで増加しない。君の移動はリアクションのトリガーとならない。</p>"
 		},
 		{
 			"id": "Eldritch Shot",
@@ -167,19 +177,19 @@
 			"description": "<p><span><strong>Prerequisites</strong>: Trained in Diplomacy<br /><strong>Requirements</strong>: The target ally lost Stamina Points within the last round<br /></span></p>\n<hr />\n<p>You give an ally within 30 feet a quick pep talk, helping them recover. Attempt a Diplomacy check. The DC is usually 15, though the GM might adjust it based on the circumstances. If you have expert proficiency in Diplomacy, you can instead attempt a DC 20 check to increase the Stamina Points recovered by 5; if you have master proficiency, you can attempt a DC 30 check to increase the Stamina Points by 15; if you have legendary proficiency, you can attempt a DC 40 check to increase the Stamina Points by 25. No matter the result, the ally is temporarily immune to Encouraging Words until they either @Compendium[pf2e.actionspf2e.qc0VsZ0UesnurUUB]{Take a Breather} or rest for the day.</p>\n<hr />\n<p><strong>Critical Success</strong>: The ally recovers <a class=\"inline-roll roll\" title=\"2d8\" data-mode=\"roll\" data-flavor=\"\" data-formula=\"2d8\"> 2d8</a> Stamina Points.</p>\n<p><strong>Success</strong> The ally recovers <a class=\"inline-roll roll\" title=\"1d8\" data-mode=\"roll\" data-flavor=\"\" data-formula=\"1d8\"> 1d8</a> Stamina Points.</p>\n<p><strong>Critical Failure</strong> The ally takes <a class=\"inline-roll roll\" title=\"mental\" data-mode=\"roll\" data-flavor=\"mental\" data-formula=\"1d8\"> 1d8</a> mental damage, but this can reduce only Stamina Points, never Hit Points.</p>"
 		},
 		{
+			"id": "Energy Shot",
+			"name": "エネルギー射撃",
+			"description": "<p><strong>トリガー</strong> 君がイニシアチブをロールする</p>\n<hr />\n<p>君は武器に魔法のエネルギーの小さな活性を解き放ち、敵の弱点を突くエネルギー・ダメージを与える能力を与えるように、潜在的なエネルギーで弾丸を覆う。君は遠隔武器を抜くために「使用」を行うことが出来る。この遭遇での火器あるいはクロスボウによる最初の3回の「打撃」について、君は1点、追加で強酸、氷雪、火炎あるいは電撃ダメージを与える。君はそれぞれの「打撃」を行う一部として、どのダメージ種別を与えるかを選ぶ。</p>"
+		},
+		{
 			"id": "Exhale Poison",
 			"name": "Exhale Poison",
 			"description": "<p><strong>Frequency</strong> once per hour<br /><strong>Requirements</strong> You were within the area of an inhaled poison within the last minute; @Compendium[pf2e.feats-srd.8PMxl8o5YXET58Pn]{Iron Lung}</p>\n<hr />\n<p>You sharply exhale the poison that previously surrounded you in a 15-foot cone. Creatures in the area are affected by the poison; the poison's DC and effects are unchanged.</p>"
 		},
 		{
-			"id": "Field of Roots",
-			"name": "一面の根",
-			"description": "<p>幻獣は根を地下に拡げ、近くに居る全ての敵をからめとり、ダメージを与えることもあるかもしれない。君の幻獣の間合い内にいる全ての敵は、反応セーヴに基づき、幻獣の最もダメージが高い「打撃」と同じダメージを受ける。セーヴがもたらすあらゆる持続的効果は、敵が「脱出」するか、幻獣の間合いから去るかするまで続く。</p>\n<p> 「一面の根」これによって、「一面の根」によってまだ効果を受けているあらゆる敵の効果も終了する。</p>\n<hr />\n<p><strong>クリティカル</strong> 敵は影響を受けない</p>\n<p><strong>成功</strong> 敵はダメージを受けず、速度に－10フィートの状況ペナルティを受ける</p>\n<p><strong>失敗</strong> 敵は半分のダメージを受け、速度に－10フィート状況ペナルティをウケ、手番の終了時ごとに再び半分のダメージを受ける</p>\n<p><strong>ファンブル</strong> 敵は動けない状態になり、完全なダメージを受け、その手番の終了時ごとに再び完全なダメージを受ける</p>"
-		},
-		{
-			"id": "Fight with Fear",
-			"name": "畏怖の反撃",
-			"description": "<p><strong>トリガー</strong> 君が目視できるクリーチャーが君に対する精神効果を使う</p>\n<p><strong>効果</strong> トリガーとなったクリーチャーは意志セーヴを試みなくてはならず、それには以下の効果がある</p>\n<hr />\n<p><strong>成功</strong> クリーチャーは影響を受けない</p>\n<p><strong>失敗</strong> クリーチャーは @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{恐れ2}になり、君はトリガーとなった精神効果に対して、セーヴィング・スローやその他の防御能力に+2ステータス・ボーナスを得る</p>\n<p><strong>ファンブル</strong> クリーチャーは恐れ2になり、君はトリガーとなった精神効果に影響を受けない</p>"
+			"id": "Explode",
+			"name": "爆発",
+			"description": "<p>君は、意図的に自分の発明の安全装置を外し、爆発をさせ、その発明にダメージを与えること泣く近隣のクリーチャーにダメージを与える……ことが出来たらいいのだが。この爆発は君か（君が発明を着用しているか手に持っているなら）、君の発明（君の発明が手下なら）の周囲<span data-pf2-effect-area=\"emanation\" data-pf2-distance=\"5\">5フィート拡散</span>にいる全てのクリーチャーに、基本反応セーヴを伴う[[/r {2d6}[火炎]]]{2d6点の火炎ダメージ}を与える。</p>\n<p>3レベル時点とその後の毎レベルごとに、爆発のダメージは1d6点、増える。</p>\n<p>君がブレイクスルー発明のクラス特徴を持っているなら、「爆発」を使った際に、範囲を5フィートと10フィートから選ぶことが出来る；革新的発明のクラス特徴を持っているなら、5フィート、10フィート、15フィート拡散から選ぶことが出来る。</p>"
 		},
 		{
 			"id": "Final Surge",
@@ -187,19 +197,34 @@
 			"description": "<p>You @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Stride} twice. The @Compendium[pf2e.equipment-srd.GS4YvQieBS11JNYR]{Drakeheart Mutagen}'s duration ends.</p>"
 		},
 		{
+			"id": "Finish The Job",
+			"name": "二の手",
+			"description": "<p><strong>条件</strong> 君の最後のアクションで、君が一本の手で持っていた火器あるいはクロスボウでの「打撃」に失敗（ファンブルではない）し、もう一本の手が近接武器を使っているか、空っぽである</p>\n<hr />\n<p>君の最後の攻撃は失敗したが、新しい攻撃を君は準備している。もう一本の手で、片手近接武器か素手打撃を用いて「打撃」を行うこと。この「打撃」は最後のアクションで失敗した「打撃」と同じ複数回攻撃ペナルティを使う。その後、君は通常通りに複数回攻撃ペナルティを増やす。</p>"
+		},
+		{
 			"id": "Fire in the Hole",
 			"name": "Fire in the Hole",
 			"description": "<p><strong>Trigger</strong> A creature moves into the hazard's space</p>\n<hr />\n<p><strong>Effect</strong> The hazard explodes, dealing the bombs' damage and splash damage to the inanimate object. Combine this damage for the purpose of resistances and weaknesses, and this damage ignores an amount of the object's Hardness equal to your level. Any creatures adjacent to the hazard take the bombs' splash damage, similarly combined for the purpose of resistances and weaknesses. As a reminder, since you didn't throw the bombs, @Compendium[pf2e.feats-srd.UjWLK86BgHxz3Itd]{Calculated Splash} and similar effects don't apply.</p>"
 		},
 		{
-			"id": "Furious Strike",
-			"name": "怒りの打撃",
-			"description": "<p>幻獣は猛攻撃に怒りを込める。近接「打撃」を行う。これは、複数回攻撃ペナルティを計算する際に2回の攻撃として扱う。もしこの「打撃」が命中したなら、幻獣は武器ダメージダイスを1つ追加で与え、ダメージ・ロールに+1状況ボーナスを得る。</p>\n<p>もし、君が少なくとも10レベルなら、この追加ダメージダイスを2つに、そして状況ボーナスを+2状況ボーナスに上昇させる。そして、もし君が少なくとも18レベルなら、追加ダメージダイスを3つに、状況ボーナスを+3状況ボーナスに増やす。</p>"
+			"id": "Ghost Shot",
+			"name": "亡霊の一撃",
+			"description": "<p>火器あるいはクロスボウで「打撃」を行う。もし、君がその対象から@Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{隠れた状態}か未探知であるなら、その「打撃」は「一撃必殺」の追加の精密性ダメージを与える；もし、君が既にその「打撃」に追加ダメージを受けているのなら、その効果は累積しない。もし、君が何らかのクリーチャーから未探知あるいは未察知であったのなら、攻撃の起点が明らかであるため、君は今や相手から隠れた状態である。</p>"
 		},
 		{
-			"id": "Instinctive Obfuscation",
-			"name": "本能としての惑わし",
-			"description": "<p><strong>前提条件</strong>: ノームの遺産あるいはノームの祖先特技から得た生来の秘術呪文あるいは霊妙呪文が少なくとも1つある<br /><strong>頻度</strong>: 1日に1回<br /><strong>トリガー</strong>: 君が敵に攻撃される</p>\n<hr />\n<p>君の内なる魔法は、脅威に対する自然の反応として現れる。君は@Compendium[pf2e.spells-srd.j8vIoIEWElvpwkcI]{ミラー・イメージ} の効果を得るが、2つの幻影ではなく、3つの幻影を得る。このアクションの体系は、君のノームの祖先のオプションの体系と合致する。</p>"
+			"id": "Goblin Jubilee",
+			"name": "Goblin Jubilee",
+			"description": "<p><strong>Cost</strong> 3 batches of infused reagents;</p>\n<p><strong>Effect</strong> Chaos fills a <span data-pf2-effect-area=\"burst\" data-pf2-distance=\"20\" data-pf2-traits=\"fire, sonic, visual\">20-foot burst</span> within 120 feet. All creatures in the area takes [[/r {3d6}[fire] + {3d6}[sonic]]]{3d6 fire damage and 3d6 sonic damage} and must attempt a Fortitude save. A goblin jubilee display costs 3 batches of infused reagents, rather than 1.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Dazzled} and @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Deafened} until the end of its next turn and takes half damage.</p>\n<p><strong>Failure</strong> The creature is dazzled and deafened for 1 minute and takes full damage.</p>\n<p><strong>Critical Failure</strong> The creature is @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded} for 1 round, dazzled and deafened for 1 minute, and takes double damage.</p>"
+		},
+		{
+			"id": "Grim Swagger",
+			"name": "残虐なる威容",
+			"description": "<p><strong>条件</strong> 君が片手火器か片手クロスボウを、目に見えるように着用しているか、使っている</p>\n<hr />\n<p>君は自分の言うとおりのことを素早く行わない者に残虐な運命を約束することによって、その空間を一掃しようとする。味方を除いた、30フィート以内のそれぞれのクリーチャーの意志DCに対する〈欺瞞〉あるいは〈威圧〉を試みる。君が成功したか失敗したかに関わらず、それぞれの対象は10分間、「残虐なる威容」に一時的耐性を得る。</p>\n<p>たとえば、もし君が〈欺瞞〉を試みるなら、君は大量の友人達が応援にやってくるだとか、自分の武力について嘘をついて大げさに言う。もし君が〈威圧〉を試みるなら、その空間の全員にとって、君が最後に出会ったものになると保証するだろう。</p>\n<hr />\n<p><strong>クリティカル</strong> クリーチャーは@Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{恐れ3}になる。君よりもレベルが低いなら、1ラウンド、@Compendium[pf2e.conditionitems.sDPxOjQ9kx2RZE8D]{逃亡}になる</p>\n<p><strong>成功</strong> クリーチャーは@Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{恐れ2}になるT</p>"
+		},
+		{
+			"id": "Into the Fray",
+			"name": "放浪者の参戦",
+			"description": "<p><strong>トリガー</strong> 君がイニシアチブをロールする</p>\n<hr />\n<p>君は、あらゆる場所にトラブルが潜むことを知っており、手をホルスターから決して放すことはない。君は片手遠隔武器1本を抜くために「使用」を行い、それから片手近接武器1本を抜くための「使用」をすることが出来る。君の最初の手番の最初のアクションとして、君は知覚できる敵1体に向かってフリー・アクションとして「歩行」することが出来る。もし、君が敵を知覚していないか、その敵に近づいたところで移動を終了できないなら、君はこの「歩行」を使うことが出来ない。</p>"
 		},
 		{
 			"id": "Invigorating Fear",
@@ -212,19 +237,24 @@
 			"description": "<p><strong>Trigger</strong> You attempt a saving throw against a divine effect, but you haven窶冲 rolled yet.</p>\n<hr />\n<p>You rise above the triggering effect, refusing to be harmed by it. You gain a +1 circumstance bonus to the triggering saving throw and to any other saving throws you attempt against divine effects until the start of your next turn.</p>"
 		},
 		{
+			"id": "Jumping Jenny",
+			"name": "Jumping Jenny",
+			"description": "<p><strong>Cost</strong> 2 batches of infused reagents;</p>\n<p><strong>Effect</strong> Target a flying creature within 60 feet. Until the start of your next turn, each time that creature attempts to Fly, they must succeed at an Acrobatics check to Maneuver in Flight against the DC of your fireworks display, or the Fly action is disrupted. If all the creature's attempts to Fly are disrupted, at the end of its turn, it falls harmlessly to the ground below. A jumping jenny costs 2 batches of infused reagents, rather than 1.</p>"
+		},
+		{
+			"id": "Launch Fireworks Display",
+			"name": "Launch Fireworks Display",
+			"description": "<p><strong>Cost</strong> 1 or more batches of infused reagents;</p>\n<p><strong>Requirements</strong> You have a free hand;</p>\n<p><strong>Effect</strong> You set off a fireworks display. You can launch a normal firework to simply create a visual or audible signal within 20 feet or you can choose one of the following special effects. A firework display has the listed traits, and if it costs more than 1 batch of infused reagents, it is noted in its Cost entry.</p>\n<p><strong>Comet</strong> <span class=\"pf2-icon\">1</span> (visual) You shoot a streak of shining light in a <span data-pf2-effect-area=\"line\" data-pf2-distance=\"60\" data-pf2-traits=\"visual\">60-foot line</span>. All spaces in that line are lit with bright light until the start of your next turn. As part of this action, you can also Point Out a single creature in the line, and your allies do not need to hear or understand you.</p>\n<p><strong>Flower</strong> <span class=\"pf2-icon\">1</span> (visual) You ignite a ring of sparks, creating a shape that might be reminiscent of a flower blooming in the sky. Each enemy with 20 feet of you must attempt a Fortitude save. On a failure, the enemy is @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round, and on a critical failure they are dazzled for 2 rounds.</p>\n<p><strong>Salute</strong> <span class=\"pf2-icon\">1</span> (auditory) You create a startling bang or whistle, adding an auditory component to your fireworks display. When you launch a salute display, you can choose a @Compendium[pf2e.conditionitems.yblD8fOR1J8rDwEQ]{Confused} or @Compendium[pf2e.conditionitems.AdPVz7rbaVSRxHFg]{Fascinated} ally within 60 feet. If the ally you chose is fascinated, the noise is so violent that it acts as a hostile effect for the purpose of their fascinated condition (though it has no negative repercussions) automatically ending most applications of the fascinated condition. If they're confused, the sound is so loud and violent that it might snap the ally out of confusion. They can immediately attempt the flat check to remove the confused condition which normally occurs when a creature is damaged. If the confused condition has special rules that remove the flat check when taking damage or make the flat check harder, those rules also apply to the salute.</p>"
+		},
+		{
 			"id": "Learn Name",
 			"name": "Learn Name",
 			"description": "<p>You spend a week trying to discover and learn a creature's name. The exact form of your effort varies depending on the skill you use, the resources you have available, and other circumstances. Decide if you are searching for the name of a specific individual or for names in general. If you're looking for the name of an individual, you must be able to clearly identify that individual; for example, \"the general leading the invasion\" is enough, but \"the person who killed the duchess\" isn't, if you don't know who killed the duchess. If you're searching for names more generally, name one creature type.</p>\n<p>The GM chooses a DC, typically based on the level of the creature in question. If you're seeking names more generally, the DC is typically based on the level of the creature whose name the GM decides to provide, usually a creature from the chosen type of your level or lower. The GM might modify the DC of the task based on the resources you have available, or on using an unusually appropriate or inappropriate skill, or on other circumstances. Attempt a check with a skill that could be used to Recall Knowledge about the creature's type. After attempting to Learn a Name, you typically can't try to learn the name of the same individual again unless you gain access to a substantial new source of information, as determined by the GM.</p>\n<hr />\n<p><strong>Critical Success</strong> You find one or more private names of the specific individual you chose, or the private name of a creature with the type you chose and a level equal to the task level. You also find hidden fragments of their true name and, at the GM's discretion, you might find a clue leading to an adventure where you can learn the rest of the true name.</p>\n<p><strong>Success</strong> As critical success, except you find only one private name and don't find hidden fragments of their true name.</p>\n<p><strong>Critical Failure</strong> If you were searching for the name of a specific individual, you find no new information and that individual becomes aware of your efforts. If you were searching for a general name of a specific type, you find a creature's name or names likely to get you in trouble, possibly the names of a different type of creature entirely.</p>"
 		},
 		{
-			"id": "Life Block",
-			"name": "Life Block",
-			"description": "<p><strong>Trigger</strong> The spell's target would take damage;</p>\n<p><strong>Effect</strong> Reduce the triggering damage by 10, but you lose 5 Hit Points. Even if this reduces the damage to 0, the target still takes any effects that would come with the damage, such as the poison on a viper's fangs Strike.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The reaction reduces the damage by another 10, and you lose 5 more Hit Points. If you want to lose fewer Hit Points, you can choose to lower the damage reduction and HP lost to what any lower-level version of the spell could do without lowering the spell's actual level.</p>"
-		},
-		{
-			"id": "Manifest Eidolon",
-			"name": "幻獣顕現",
-			"description": "<p>幻獣が君に隣接する空いた空間に現れ、それから1回のアクションを取ることが出来る。もし、幻獣は既に顕現しているのなら、代わりにそれを消す。</p>\n<p>幻獣を顕現させてくれる導管は、君たちの間の手綱でもある。幻獣は常に君から100フィート以内にとどまらなければならず、進んでその制限より外に進もうとはしない。この距離以上に離れることを強いられるか、君が0ヒットポイントになるかすると、幻獣の肉体的な姿は融解する；幻獣は消え失せ、再び顕現させるのに「幻獣顕現」を使う必要がある。</p>\n<hr />\n<p><strong>特殊</strong> この連続行動は、君の幻獣の体系に合致する特性を持つ（秘術、信仰、霊妙、始原）</p>"
+			"id": "Living Fortification",
+			"name": "生きる砦",
+			"description": "<p><strong>トリガー</strong> 君がイニシアチブをロールする</p>\n<hr />\n<p>君は火器あるいはクロスボウを防御的に構えることが出来て、歩く砦のような役割を持つ。火器あるいはクロスボウを抜くために「使用」をする。それから、君はその武器で護りを固め、最初の手番の開始時までACに+1状況ボーナスを得るか、その武器が受け流しの特性を持つなら+2状況ボーナスを得る。</p>"
 		},
 		{
 			"id": "Manifest Soulforged Armament",
@@ -247,19 +277,29 @@
 			"description": "<p><strong>Trigger</strong> A creature attempts a flat check to target you because you窶决e @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} or @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} due to fog, haze, mist, or smoke;</p>\n<hr />\n<p><strong>Effect</strong> You shroud yourself in mist, making it harder for your foe to hit you. If you窶决e concealed, the DC of the flat check increases from 5 to 7; if you窶决e hidden, it increases from 11 to 13.</p>"
 		},
 		{
+			"id": "One Shot, One Kill",
+			"name": "一撃必殺",
+			"description": "<p><strong>トリガー</strong>君がイニシアチブのための〈隠密〉をロールする</p>\n<hr />\n<p>君の最初の一射は最も命取りである。火器かクロスボウを抜くための「使用」を行うこと。最初の手番に、君がその武器で最初に行う「打撃」は1d6点の追加の精密性ダメージを与える。この精密性ダメージは、9レベル時点で2d6点に、15レベル時点で3d6点に増える。</p>"
+		},
+		{
+			"id": "Overdrive",
+			"name": "オーバードライブ",
+			"description": "<p><strong>頻度</strong> 1ラウンドに1回</p>\n<hr />\n<p>一時的に体の装置をオーバードライブさせ、君は攻撃に大きな力を加えようとする。君のレベルの標準DCに対して<span data-pf2-check=\"crafting\" data-pf2-dc=\"@self.level\" data-dc-visibility=\"all\">〈製作〉判定</span>を試みること。</p>\n<hr />\n<p><strong>クリティカル</strong> 君の装置はクリティカル・オーバードライブと呼ばれる驚異的な効率を持つ状態となり、君の攻撃に大きな力を与える。1分間、君の「打撃」は知力修正値に等しい追加ダメージを与える。「オーバードライブ」終了後、装置はクールダウンあるいはリセットをするため、利用不可能状態になり、1分間、「オーバードライブ」を使うことは出来ない。</p>\n<p>@Compendium[pf2e.feat-effects.1XlJ9xLzL19GHoOL]{効果: オーバードライブ (クリティカル)}</p>\n<p><strong>成功</strong> 君の装置はオーバードライブになり、攻撃に力を与える。クリティカルと同じだが、追加ダメージは知力修正値の半分である。</p>\n<p>@Compendium[pf2e.feat-effects.MZDh3170EFIfOwTO]{効果: オーバードライブ (成功)}</p>\n<p><strong>失敗</strong> 君は計算ミスし、何も起きない</p>\n<p><strong>ファンブル</strong> おっと！　何かが爆発する。君はレベルに等しい火炎ダメージを受け、装置がクールダウンし、リセットするので、1分間の間、「オーバードライブ」することが出来ない。</p>\n<hr />\n<p><strong>特殊</strong> @Compendium[pf2e.actionspf2e.3D9kGfwg4LUZBR9A]{「オーバードライブ」}の効果がある際、君はなおも「オーバードライブ」を使うことが出来る。この方法で君は「オーバードライブ」の持続時間を延ばすことが出来るし、クリティカルしたなら、オーバードライブをクリティカル・オーバードライブにすることが出来る。失敗は現在の「オーバードライブ」に影響を与えないが、ファンブルすれば「オーバードライブ」は終了する。</p>"
+		},
+		{
 			"id": "Overload Vision",
 			"name": "Overload Vision",
 			"description": "<p><strong>Trigger</strong> A creature within 60 feet would make an attack roll against you;</p>\n<p><strong>Effect</strong> The triggering creature must attempt a Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Dazzled} until the end of the current turn.</p>\n<p><strong>Failure</strong> The target is @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded} until the end of the current turn.</p>\n<p><strong>Critical Failure</strong> The target is blinded until the end of the current turn and dazzled for 1 minute.</p>"
 		},
 		{
+			"id": "Pistolero's Retort",
+			"name": "ピストル使いの応酬",
+			"description": "<p><strong>条件</strong> 君が片手火器か片手クロスボウを使っている</p>\n<p><strong>トリガー</strong> 君が使っている片手火器か片手クロスボウの最初の射程単位内の敵が、君に対する攻撃にファンブルする</p>\n<hr />\n<p>君は敵の失敗に射撃で報いる。片手火器か片手クロスボウでトリガーとなった敵に対して「打撃」を行う。</p>"
+		},
+		{
 			"id": "Practical Research",
 			"name": "Practical Research",
 			"description": "<p><strong>Requirement</strong> You are a conversant or lore-speaker.</p>\n<hr />\n<p>You identify something interesting in the field and perform special research on it. This requires an appropriate check, which the GM will describe when the opportunity arises. The results of the check vary. While they typically include all the benefits of the Study activity, some opportunities for Practical Research also offer unique benefits, such as access to new character options.</p>"
-		},
-		{
-			"id": "Primal Roar",
-			"name": "始原のうなり",
-			"description": "<p>幻獣はその形態にふさわしい、原始的な唸りや恐怖を与える騒音を解き放つ。幻獣は、このうなりを耳にすることが出来るそれぞれの敵に対して @Compendium[pf2e.actionspf2e.2u915NdUyQan6uKF]{「士気をくじく」} ための〈威圧〉判定を試みる；この「士気をくじく」の試みは、言語を共有しない琴によるペナルティを受けない。</p>"
 		},
 		{
 			"id": "Prophecy's Pawn",
@@ -272,14 +312,24 @@
 			"description": "<p><strong>Requirements</strong> You know the conflict that created a specific siege shard, and the siege shard is @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized}.</p>\n<hr />\n<p>You touch the siege shard, establish a mental connection, and relay facts of the conflict’s resolution.</p>\n<p>Attempt a check to @Compendium[pf2e.actionspf2e.B0Eu3EfwIa9kyDEA]{Recall Knowledge} about the conflict that created the shard, using the siege shard’s Will DC. If you succeed, you prove the conflict’s end, and the siege shard reverts to ordinary stone. On a critical failure, images of the past conflict overwhelm you, and you are @Compendium[pf2e.conditionitems.yblD8fOR1J8rDwEQ]{Confused} until the end of your next turn.</p>"
 		},
 		{
+			"id": "Raconteur's Reload",
+			"name": "舌先三寸の再装填",
+			"description": "<p>君は、別の弾丸をチャンバーに装填するのに十分な間、手元から敵を注意をそらすような素早い、あるいは強烈な言葉を放つ。再装填のための「使用」を行い、それから、「気をそらす」ための〈欺瞞〉判定か「士気をくじく」ための〈威圧〉判定を試みること。</p>"
+		},
+		{
 			"id": "Rally",
 			"name": "Rally",
 			"description": "<p><strong>Prerequisites</strong>: trained in Diplomacy, Intimidation, or Performance</p>\n<hr />\n<p>You spend 1 minute encouraging your ally. Though this action typically has the auditory and linguistic traits, if you're using the Performance skill, the GM might adjust the traits for this action to match the traits for your type of performance.<br /><br />Attempt a DC 15 skill check. The GM might adjust this DC based on the circumstances, such as attempting to Rally an ally who just suffered a humiliating defeat.</p>\n<hr />\n<p><strong>Critical Success</strong> The ally can spend 1 Resolve Point to regain all their Stamina Points.</p>\n<p><strong>Success</strong> You can continue encouraging your ally for a total of 10 minutes. If you do, they can spend 1 Resolve Point to regain all their Stamina Points.</p>\n<p><strong>Critical Failure</strong> The ally takes <a class=\"inline-roll roll\" title=\"mental\" data-mode=\"roll\" data-flavor=\"mental\" data-formula=\"1d8\"> 1d8</a> mental damage, but this can reduce only Stamina Points, never Hit Points.</p>"
 		},
 		{
-			"id": "Rampaging Ferocity",
-			"name": "暴れ回る凶暴性",
-			"description": "<p><strong>トリガー</strong>: 君が @Compendium[pf2e.feats-srd.PlhPpdwIV0rIAJ8K]{《オークの凶暴性》}を使う</p>\n<hr />\n<p>君は、死を避ける際ですら、悪意に満ちた攻撃を行う。近接@Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{「打撃」}を行う。もし、その「打撃」が敵を0ヒットポイントにするなら、この「オークの凶暴性」の起動によってその使用回数が減ることはない。</p>"
+			"id": "Recall Ammunition",
+			"name": "想起する銃弾",
+			"description": "<p><strong>トリガー</strong> 君が通常のレベル0のボルトあるいはバレットを使って、火器あるいはクロスボウでミスする</p>\n<hr />\n<p>君は銃弾と火器の間の繋がりを強化し、ミスした一撃を銃に呼び戻す。君が発射した矢弾は銃に足装填され、即座に発射する準備が出来ている。</p>"
+		},
+		{
+			"id": "Reloading Strike",
+			"name": "再装填打撃",
+			"description": "<p><strong>条件</strong> 君が一本の手で火器やクロスボウを使っていて、もう一本の手が片手近接武器を使っているか、何も持っていない</p>\n<hr />\n<p>君は1つの動きの流れの中で近接攻撃を1回行い、それから銃を再装填する。片手近接武器（もしくは、君のもう一本の手が空っぽなら、素手打撃）で間合い内の敵を「打撃」し、それから、再装填のための「使用」を行う。君はこの方法で争点をするのに自由な手が一本ある必要はない。</p>"
 		},
 		{
 			"id": "Resist Elf Magic",
@@ -287,9 +337,9 @@
 			"description": "<p><strong>Trigger</strong> You attempt a saving throw against a magical effect but haven't rolled yet</p>\n<hr />\n<p>Your ancestral resistance to magic protects you. You gain a +1 circumstance bonus to the triggering saving throw. If the triggering effect is arcane, you gain a +2 circumstance bonus instead.</p>"
 		},
 		{
-			"id": "Run Over",
-			"name": "突貫",
-			"description": "<p><strong>条件</strong> 君が乗り物の操縦をしている</p>\n<p>(reckless) 君はクリーチャー立ちを乗り物でひこうとして、場合によっては1体の大きなクリーチャーや物体に突っ込む。もし、君が乗り物の制御をイジしているのなら、乗り物は現在の方向に直線で、速度の2倍まで移動する。君は乗り物よりも2サイズ以上、サイズが小さいあらゆるクリーチャーをひき、乗り物よりも1サイズ小さいサイズ以上の1体の対象となるクリーチャーあるいは物体に突っ込もうとすることが出来る。</p>\n<p>君の経路にいたそれぞれのクリーチャー（突貫される対象を含む）は乗り物の衝突ダメージを受ける（乗り物の衝突DCに対する基本反応セーヴ）。もし突貫された対象が乗り物であるなら、その操縦者は反応セーヴの代わりに操縦判定をして、同じ結果を用いることが出来る。もし、突貫の対象がダメージを受けたなら、君と君の乗り物はそれぞれ衝突ダメージを受け（セーヴなし）、君の移動は終了する。</p>"
+			"id": "Resist Magic",
+			"name": "Resist Magic",
+			"description": "<p><strong>Trigger</strong> You attempt a saving throw against a harmful magical effect but haven't rolled yet.</p>\n<hr />\n<p>Your innate magic protects you. You gain a +1 circumstance bonus to the triggering saving throw. Additionally, if the triggering effect is arcane, if you roll a success, you get a critical success instead.</p>"
 		},
 		{
 			"id": "Salt Wound",
@@ -297,9 +347,9 @@
 			"description": "<p><strong>Frequency</strong> once per day;</p>\n<p><strong>Trigger</strong> A creature that has blood and is not at its maximum Hit Points hits you with a melee Strike;</p>\n<hr />\n<p><strong>Effect</strong> You channel salt and brine from your blood into the creature wounds. The creature must attempt a Fortitude save using your class DC or spell DC, whichever is higher. On a failure, the creature takes [[/r 1d6 #persistent acid]] persistent acid damage and is @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1} by the pain. On a critical failure, it instead takes [[/r 2d6 #persistent acid]] persistent acid damage and is @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 2}.</p>"
 		},
 		{
-			"id": "Seething Frenzy",
-			"name": "沸き立つ狂乱",
-			"description": "<p>幻獣の怒りは向こう見ずで制御不能な狂乱にまでに沸騰する。狂乱になっている間、幻獣は幻獣増幅の影響を受け、君のレベルに等しい一時的ヒットポイントを得るが、ACに－2ペナルティを受ける。幻獣は自発的に狂乱を終えることや、狂乱中に別の狂乱を開始することは出来ない。</p>\n<p>乱は1分間、持続し，その後、1分間、幻獣は @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{疲労}状態になり、1分間は新しい狂乱を始めることが出来ない。</p>"
+			"id": "Set Explosives",
+			"name": "Set Explosives",
+			"description": "<p><strong>Requirements</strong> You have 1 or 2 bombs in hand;</p>\n<p><strong>Effect</strong> You attach the bombs to an inanimate object within your reach, such as a door, wall, or column, and rig them to detonate at a set time. The bombs explode at a specific time you determine (such as after your next action or at the start of your next turn, to a maximum of 1 minute), dealing their damage and splash damage to the inanimate object. Combine this damage for the purpose of resistances and weaknesses, and this damage ignores an amount of the object's Hardness equal to your level. Any creatures adjacent to the hazard take the bombs' splash damage, also combined for the purpose of resistances and weaknesses. As a reminder, since you didn't throw the bombs, Calculated Splash and similar effects don't apply. Making sure your timing is correct requires concentration, so you can't Set Explosives again while you're waiting for a previously set bomb to detonate.</p>"
 		},
 		{
 			"id": "Settle Emotions",
@@ -317,14 +367,14 @@
 			"description": "<p><strong>Trigger</strong> Your linked ally takes damage and is within 60 feet;</p>\n<p><strong>Effect</strong> The ally takes half damage from the triggering effect (rounded down), and you lose a number of Hit Points equal to the remainder of the damage. You can't trigger this reaction to share damage caused by your ally using this reaction.</p>"
 		},
 		{
-			"id": "Share Senses",
-			"name": "感覚共有",
-			"description": "<p><strong>条件</strong> 君の幻獣が顕現している</p>\n<p>君は、自分の感覚を幻獣に投影し、幻獣を通じてものを感じることが出来る。そうするなら、君は自分の肉体の感覚情報の全てを失うが、1分間、幻獣を通じて感じることが出来る。君はこの効果を@Compendium[pf2e.actionspf2e.AjLSHZSWQ90exdLo]{「解除」} することが出来る</p>\n<hr />\n<p><strong>特殊</strong>このアクションは、幻獣の体系に合致する特性を得る（秘術、信仰、霊妙、始原）。幻獣もこの能力を使うことが出来る。そうした際に、幻獣は感覚を君の肉体に投影する。</p>"
-		},
-		{
 			"id": "Shootist's Draw",
 			"name": "Shootist's Draw",
 			"description": "<p><strong>Frequency</strong> once per round;</p>\n<p><strong>Effect</strong> You Interact to draw a @Compendium[pf2e.equipment-srd.XyA6PKV46aNlLXOd]{Hand Crossbow} and Strike with it, or you Strike with a loaded hand crossbow you are already holding and then Interact to stow it.</p>"
+		},
+		{
+			"id": "Siegebreaker",
+			"name": "Siegebreaker",
+			"description": "<p><strong>包囲破壊</strong> 君が、反動か散布の特性を持つ火器か両手クロスボウを使っている</p>\n<hr />\n<p>君は、信じられないほどの力で突進し、対象に武器をぶつけた後、踵を止める前に引き金を引く。「跳躍」あるいは「歩行」し、隣接する対象に対して、条件となっている火器またはクロスボウで「打撃」を行う。この「打撃」はさらに[[/r {3d8}[殴打]]]{3d8点の殴打ダメージ}を与え、ターゲットの対象を10ポイント（あれば）、あるいは「盾防御」を使用している場合は盾の硬度を無視する。</p>\n<p>「打撃」の後、君は@Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{動けない状態}になり、条件となっている武器で身を固め、ACに+1状況ボーナスを得るか、その選んだ武器が受け流しの特性を持つなら+2状況ボーナスを得る。療法の効果は君の次の手番の開始時まで続く。もし、この方法で君が動けない状態でいる間にある力が君を動かそうとするなら、君のクラスDCに対して適切な判定に成功しなければならない。</p>"
 		},
 		{
 			"id": "Smoke Blending",
@@ -337,9 +387,9 @@
 			"description": "<p><strong>Frequency</strong> Once per day</p>\n<hr />\n<p>To be a tengu is to be unburdened by the concerns of the world below. You grow a pair of magical wings or expand your existing ones. For 5 minutes, you gain a @Compendium[pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Fly} Speed equal to your land Speed or 20 feet, whichever is greater.</p>"
 		},
 		{
-			"id": "Spellstrike",
-			"name": "呪文撃",
-			"description": "<p><strong>頻度</strong> リチャージするまで（下記参照）</p>\n<hr />\n<p>君は、複合攻撃をするためにパンチや剣の一突きに呪文を込める。発動に1アクションあるいは2アクションかかり、呪文攻撃ロールを必要とする「呪文の発動」を行う。その呪文の効果は、即座には発生せず、代わりに君の攻撃に込められる。武器あるいは素手打撃の近接「打撃」を行うこと。君の呪文は攻撃を組み合わせられ、「打撃」と呪文両方の効果を決定するために、攻撃ロールの結果を使う。この「呪文撃」は複数回攻撃ペナルティに対しては2回分の攻撃と数えるが、「呪文撃」を完了するまでこのペナルティは適用されない。呪文エネルギーを注ぐことによって「打撃」は秘術の特性を得て、魔法のものになる。</p>\n<p>「呪文撃」を使った後、君は精神集中の特性を持つ単発アクションとして「呪文撃」のリチャージをするまで、再使用することが出来ない。君はまた、少なくとも発動に1アクションかかる混成呪文を発動した際にも「呪文撃」をリチャージすることが出来る；別の種類の集中呪文の発動は君の「呪文撃」をリチャージしない。</p>"
+			"id": "Spellsling",
+			"name": "Spellsling",
+			"description": "<p><strong>Requirements</strong> You're wielding your bonded beast gun;</p>\n<p><strong>Effect</strong> You Cast a Spell that takes 1 or 2 actions to cast and requires a spell attack roll. The effects of the spell do not occur immediately but are imbued into the beast gun you're wielding. Make a Strike with that beast gun. Your spell flies with the ammunition, using your attack roll result to determine the effects of both the Strike and the spell. This counts as two attacks for the purposes of determining your multiple attack penalty, but you don't apply the penalty until after you've completed resolving the attack and spell.</p>"
 		},
 		{
 			"id": "Spin Tale",
@@ -347,9 +397,9 @@
 			"description": "<p><strong>Frequency</strong> once every 10 minutes;</p>\n<p><strong>Effect</strong> You tell a story, designating one of your allies (but not yourself) as the hero of the story, and one enemy as the villain; both must be within 60 feet. The hero gains a +1 status bonus to attack rolls and saving throws against the villain until the start of your next turn. If you Spin a Tale on your next turn, the story continues for another round, for a maximum of 10 rounds. While the tale continues, minor, crude illusions spring into being in your space; these are arcane illusion effects that have no mechanical impact other than illustrating your tale.</p>\n<p>@Compendium[pf2e.feat-effects.UzIamWcEJTOjwfoA]{Effect: Spin Tale}</p>"
 		},
 		{
-			"id": "Steel your Resolve",
-			"name": "決意を固める",
-			"description": "<p><strong>コスト</strong> 1 決意点</p>\n<hr />\n<p>スタミナ・ポイントを最大値の半分に等しい数、回復する</p>"
+			"id": "Spinning Crush",
+			"name": "回転粉砕",
+			"description": "<p><strong>条件</strong> 君が装填済みの火器あるいは装填済みのクロスボウを使っている</p>\n<hr />\n<p>君は猛烈なスピンをして、武器を近くに居るものにぶつけ、発射することで勢いを増すことが出来る。君に隣接している全てのクリーチャーは1d6点＋君の筋力修正値の殴打ダメージを受ける；これは、君の火器がストライキング・ルーンを持つなら2d6点、グレーター・ストライキング・ルーンを持つなら3d6点、メジャー・ストライキング・ルーンを持つなら4d6点に増加する。この能力は、武器開眼のように火器の「打撃」のダメージを増やす効果を適用しない。この攻撃によって影響を受けたクリーチャーは基本反応セーヴを試みなくてはならない。セーヴに失敗したクリーチャーは5フィート、君からはねのけられる。</p>"
 		},
 		{
 			"id": "Study",
@@ -362,29 +412,19 @@
 			"description": "<p><strong>Frequency</strong> once per day<br /><strong>Requirements</strong> You are wielding a piercing or slashing weapon</p>\n<hr />\n<p>You apply your tail's venom to a piercing or slashing weapon. If your next @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strike} with that weapon before the end of your next turn hits and deals damage, you deal @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Poison Damage} equal to your level to the target.</p>"
 		},
 		{
-			"id": "Take Control",
-			"name": "舵を取る",
-			"description": "<p><strong>条件</strong> 君が乗り物に搭乗しており、その操作部に隣接している</p>\n<p>君は手綱や舵など、乗り物を捜査するための部位を手にする。操作判定を行うこと；成功すれば君が乗り物の操縦者になり、乗り物が制御されていない状態だったなら、制御を得る。乗り物によっては複雑な操作が必要なため、このアクションは複数のアクションを伴う連続行動になる。</p>"
-		},
-		{
-			"id": "Take a Breather",
-			"name": "息抜き",
-			"description": "<p><span><strong>コスト</strong> 1決意点</span></p>\n<hr />\n<p>君は10分の休息を取り、スタミナを回復する。この連続行動を完了した後、君は全てのスタミナ・ポイントを回復する。</p>"
-		},
-		{
 			"id": "Tap Ley Line",
 			"name": "Tap Ley Line",
 			"description": "<p>You attempt to manipulate the magical essence of a ley line that you're aware of within 30 feet. The GM determines the DC based on the hard DC for the ley line's level.</p>\n<hr />\n<p><strong>Critical Success</strong> You gain the ley line's benefits until the end of your next turn.</p>\n<p><strong>Success</strong> You gain the ley line's benefits until the end of your turn.</p>\n<p><strong>Failure</strong> You take mental damage equal to 1d6 × the ley line's level. You can't Tap the Ley Line again for 1 hour.</p>\n<p><strong>Critical Failure</strong> As failure, and you're subject to the ley line's backlash effect. You can't Tap the Ley Line again for 24 hours.</p>"
 		},
 		{
-			"id": "Tendril Strike",
-			"name": "つるの打撃",
-			"description": "<p>限界まで肉体を伸ばすことで、幻獣は通常は間合いの外に居る敵を攻撃することが出来る。幻獣は近接素手「打撃」を行う。この間合いは、その「打撃」の間合いよりも5フィート多い。</p>\n<p>もし、その素手打撃に武器落とし、押しやり、足払いの特性があるなら、「打撃」の代わりに対応したアクションを使うことが出来る。</p>"
+			"id": "Ten Paces",
+			"name": "スリンガーの十歩",
+			"description": "<p><strong>トリガー</strong> 君がイニシアチブをロールする</p>\n<hr />\n<p>君は光のような素早さでトラブルに対処し、ちょうどいい位置取りをする。君はイニシアチブ・ロールに+2状況ボーナスを得て、片手火器あるいは片手クロスボウを抜くための「使用」をすることが出来る。最初の手番の最初のアクションとして、君はフリー・アクションで10フィートまで「ステップ」することが出来る。</p>"
 		},
 		{
-			"id": "That's My Number",
-			"name": "ラッキー・ナンバー",
-			"description": "<p><strong>トリガー</strong> 君が非公開判定ではない攻撃ロール、セーヴィング・スロー、あるいは技能判定でラッキー・ナンバーをロールする;</p>\n<p><strong>効果</strong> 君はラッキー・ナンバー内に蓄積された幸運を頼みにし、トリガーとなった判定を再ロールする。しかしながら、幸運を追い求めることには対価がある：再ロールの結果、同じ数字が再び出たなら、元々、受け取るはずだった結果とは無関係にファンブルする</p>"
+			"id": "Thoughtful Reload",
+			"name": "思慮深い再装填",
+			"description": "<p>分析を行う際の冷静な状態に深く沈み込み、目の前の敵に集中していると、君の手は本能的に弾丸を再装填する。君が目視することが出来る敵に対して「知識を思い出す」判定を試み、それから再装填のための「使用」をする。</p>"
 		},
 		{
 			"id": "Threatening Approach",
@@ -407,24 +447,14 @@
 			"description": "<p><strong>Trigger</strong> A foe attempts a skill check and doesn't get a critical success</p>\n<hr />\n<p>After your foe has tried their best, you show everyone how it's really done. Attempt a check using the same skill that triggered this reaction.</p>\n<hr />\n<p><strong>Critical Success</strong> You gain a +1 status bonus to attack rolls, Perception checks, saving throws, and skill checks until the end of your next turn.</p>\n<p><strong>Success</strong> As critical success, except you gain the benefits only if the triggering creature failed their skill check.</p>"
 		},
 		{
-			"id": "Visions of Sin",
-			"name": "罪のビジョン",
-			"description": "<p><strong>頻度</strong> 10分に1回</p>\n<p>幻獣はその罪のイメージを30フィート以内の対象クリーチャー1体の精神に呼び出し、その対象を苦しめ、混乱させる。対象は下記の効果に対して、君の呪文DCを目標に意志セーヴを試みなくてはならない。この効果は君の次の手番の終了時まで続くが、幻獣は精神手中の特性を持つ単発アクションを使い、その効果を君の次の手番の終了時まで延長することが出来る（「呪文の維持」のように）。この最大持続時間は1分である。</p>\n<p>対象が悪であるなら、このセーヴに－２状況ペナルティを受ける。成功したかどうかに関わらず、対象は1日間、一時的完全耐性を得る。</p>\n<hr />\n<p><strong>クリティカル</strong> 対象は影響を受けない</p>\n<p><strong>成功</strong> 対象はリアクションを使うことが出来ない</p>\n<p><strong>失敗</strong> 対象は@Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{減速化1}となり、リアクションを使うことが出来ない</p>\n<p><strong>Critical Failure</strong> 失敗と同じだが、対象は1ラウンド、 @Compendium[pf2e.conditionitems.yblD8fOR1J8rDwEQ]{混乱状態}になる。混乱状態は延長できないが、その他の効果は延長することが出来る。</p>"
-		},
-		{
-			"id": "Whirlwind Maul",
-			"name": "竜巻の陣",
-			"description": "<p>獣は全方向に向かって飛び出す。間合い内に居る最大4体までの敵に対して、近接素手「打撃」を行う。それぞれの敵ごとに、異なる素手打撃を選ぶことが出来る。それぞれの攻撃は、複数回攻撃ペナルティにカウントされるが、幻獣が全ての攻撃を行うまでペナルティは増えない。</p>"
+			"id": "Vital Shot",
+			"name": "命を奪う一撃",
+			"description": "<p>無防備な相手に対して放った君の注意深い一撃は、致命的な動脈や臓器を貫く。君は、遠隔「打撃」を行う。もし、対象は@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{立ちすくみ}状態であるなら、その「打撃」は武器ダメージ・ダイス1つが追加され、その敵は君の「一撃必殺」のダメージに等しい継続出血ダメージを受ける。</p>"
 		},
 		{
 			"id": "Wish for Luck",
 			"name": "Wish for Luck",
 			"description": "<p><strong>Frequency</strong> once per day;</p>\n<p><strong>Trigger</strong> You are about to roll an attack roll, saving throw, or skill check;</p>\n<p><strong>Effect</strong> You wish aloud for success. Roll the check twice and take the higher result.</p>"
-		},
-		{
-			"id": "Wyrm's Breath",
-			"name": "長命竜のブレス",
-			"description": "<p><strong>頻度</strong> 1分に1回</p>\n<p>幻獣は強力な長命竜の力を集め、その魔法のブレスを更に劇的なものにする。もし、君の幻獣の次のアクションが「ブレス武器」なら、ダメージ・ダイスの数と「ブレス武器」の範囲の両方を2倍にする。</p>"
 		},
 		{
 			"id": "Glimpse of Redemption",
@@ -440,6 +470,11 @@
 			"id": "Force Open",
 			"name": "こじあける",
 			"description": "<p>肉体やレバー、何らかの他の道具などを使って、君は扉、窓、箱や重い門などを無理矢理にこじあける。十分に高い結果によって、君は壁を壊すことすら出来るだろう。バールなしでは、「こじあける」ための <span data-pf2-action=\"forceOpen\" data-pf2-glyph=\"A\">〈運動〉</span> には-2のペナルティがつく。 </p>\n<hr />\n<p><strong>クリティカル</strong> 君は扉、窓、箱や門を開けて、その過程で損傷を与えることを回避する</p>\n<p><strong>成功</strong> 君は扉、窓、箱や門をこじあけて、扉、窓、箱や門は @Compendium[pf2e.conditionitems.6dNUvdb1dhToNDj3]{破損} 状態になる。もしそれが特に堅固なものであるなら、GMはダメージを受けさせるが、破壊されないかもしれない。</p>\n<p><strong>ファンブル</strong> 君は扉、窓、箱を壊すか、あるいは門を閉じてしまい、更にそれを「こじあける」ための未来の判定に-2状況ペナルティを適用する。</p>\n<h2>こじあける作業の例</h2>\n<ul>\n<li><strong>未修得</strong> 布、薄いガラス</li>\n<li><strong>修得</strong> 氷、堅固なガラス</li>\n<li><strong>熟練</strong> 薄い木製の扉、木製の落とし格子</li>\n<li><strong>達人</strong> 堅固な木製の扉、鉄の落とし格子、金属の格子</li>\n<li><strong>伝説</strong> 石や鉄の扉</li>\n</ul>"
+		},
+		{
+			"id": "Tendril Strike",
+			"name": "つるの打撃",
+			"description": "<p>限界まで肉体を伸ばすことで、幻獣は通常は間合いの外に居る敵を攻撃することが出来る。幻獣は近接素手「打撃」を行う。この間合いは、その「打撃」の間合いよりも5フィート多い。</p>\n<p>もし、その素手打撃に武器落とし、押しやり、足払いの特性があるなら、「打撃」の代わりに対応したアクションを使うことが出来る。</p>"
 		},
 		{
 			"id": "Impersonate",
@@ -507,6 +542,31 @@
 			"description": "<p><strong>トリガー</strong>  <em>フォアサイト</em> の対象が敵対的なクリーチャーあるいはその他の危険に対して身を守る</p>\n<p><strong>効果</strong> もし、敵対的なクリーチャーや危険が対象にダイスロールをさせるなら（例えば、セーヴィングスロー）、対象は2度ロールしてより高い結果を用いる。そして、この呪文は幸運の特性を得る。しかし、もし敵対的なクリーチャーあるいは危険が対象に対してロールを行うのなら（例えば、攻撃ロールや技能判定）その敵対的なクリーチャーあるいは危険は2度ロールして低い方の結果をとり、この呪文は不運の特性を得る。</p>"
 		},
 		{
+			"id": "Breath Weapon",
+			"name": "ブレス武器",
+			"description": "<p>幻獣は破壊的なエネルギーの爆発を吐き出す。幻獣は範囲内の全てのクリーチャーに[[/r 1d6 #ダメージ]]{1d6点のダメージ}を与えるが、これには君の呪文DCに対する基本反応セーヴがある。「ブレス武器」の範囲とダメージ種別は、この能力を幻獣が得た際に選ぶ。</p>\n<p>幻獣は次の[[/r 1d4 #ラウンド]]{1d4 ラウンド}、「ブレス武器」を再使用することが出来ない。</p>\n<p>3レベル時点とその後の2レベルごとに、このダメージは1d6点増える。[[/r (floor(@details.level.value/2))d6]]{現在レベルのダメージ}</p>"
+		},
+		{
+			"id": "Breath Weapon (Acid) (Line)",
+			"name": "ブレス武器 (強酸) (直線)",
+			"description": "<p>幻獣は破壊的なエネルギーの爆発を吐き出す。幻獣は<span data-pf2-effect-area=\"line\" data-pf2-distance=\"60\">60フィート直線</span>の全てのクリーチャーに [[/r 1d6 #強酸]]{1d6点の強酸ダメージ}を与えるが、これには君の呪文DCに対する基本反応セーヴがある。</p>\n<p>幻獣は次の[[/r 1d4 #ラウンド]]{1d4 ラウンド}、「ブレス武器」を再使用することが出来ない。</p>\n<p>3レベル時点とその後の2レベルごとに、このダメージは1d6点増える。 [[/r (floor(@details.level.value/2))d6 #強酸]]{現在レベルのダメージ}</p>"
+		},
+		{
+			"id": "Breath Weapon (Acid) (Cone)",
+			"name": "ブレス武器（強酸）（円錐）",
+			"description": "<p>幻獣は破壊的なエネルギーの爆発を吐き出す。幻獣は <span data-pf2-effect-area=\"cone\" data-pf2-distance=\"30\">30フィート円錐内</span>の全てのクリーチャーに [[/r 1d6 #強酸]]{1d6点の強酸ダメージ}を与えるが、これには君の呪文DCに対する基本反応セーヴがある。</p>\n<p>幻獣は次の[[/r 1d4 #ラウンド]]{1d4 ラウンド}、「ブレス武器」を再使用することが出来ない。</p>\n<p>3レベル時点とその後の2レベルごとに、このダメージは1d6点増える。[[/r (floor(@details.level.value/2))d6 #強酸]]{現在レベルのダメージ}</p>"
+		},
+		{
+			"id": "That's My Number",
+			"name": "ラッキー・ナンバー",
+			"description": "<p><strong>トリガー</strong> 君が非公開判定ではない攻撃ロール、セーヴィング・スロー、あるいは技能判定でラッキー・ナンバーをロールする;</p>\n<p><strong>効果</strong> 君はラッキー・ナンバー内に蓄積された幸運を頼みにし、トリガーとなった判定を再ロールする。しかしながら、幸運を追い求めることには対価がある：再ロールの結果、同じ数字が再び出たなら、元々、受け取るはずだった結果とは無関係にファンブルする</p>"
+		},
+		{
+			"id": "Field of Roots",
+			"name": "一面の根",
+			"description": "<p>幻獣は根を地下に拡げ、近くに居る全ての敵をからめとり、ダメージを与えることもあるかもしれない。君の幻獣の間合い内にいる全ての敵は、反応セーヴに基づき、幻獣の最もダメージが高い「打撃」と同じダメージを受ける。セーヴがもたらすあらゆる持続的効果は、敵が「脱出」するか、幻獣の間合いから去るかするまで続く。</p>\n<p> 「一面の根」これによって、「一面の根」によってまだ効果を受けているあらゆる敵の効果も終了する。</p>\n<hr />\n<p><strong>クリティカル</strong> 敵は影響を受けない</p>\n<p><strong>成功</strong> 敵はダメージを受けず、速度に－10フィートの状況ペナルティを受ける</p>\n<p><strong>失敗</strong> 敵は半分のダメージを受け、速度に－10フィート状況ペナルティをウケ、手番の終了時ごとに再び半分のダメージを受ける</p>\n<p><strong>ファンブル</strong> 敵は動けない状態になり、完全なダメージを受け、その手番の終了時ごとに再び完全なダメージを受ける</p>"
+		},
+		{
 			"id": "Boarding Assault",
 			"name": "乗り込み強襲",
 			"description": "<p>ロープを2倍の速度まで移動する @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{歩行} のために一回ないしは二回、〈軽業〉判定をする（DCはGMが判断するが、通常はDC20である）</p>\n<p>もし、君がこの移動の間、舟あるいは似たような乗り物に搭乗するか降りるなら、君は追加の武器ダメージ・ダイス1個を追加することの出来る近接「打撃」を1回行う。</p>"
@@ -557,6 +617,11 @@
 			"description": "<p>君は動物に命令をする。動物の意志DCに対して〈自然〉判定を試みること。GMは、その動物が君に対して良い態度を取っている、君がそれを駆り立てるための一連の行動を提案する、君がご褒美を申し出るなどの場合、このDCを調整するかもしれない。</p>\n<p>君は、もしその動物が君に敵対的であるか非友好的であるなら自動的に失敗する。もしその動物が君に協力的であるなら、成功度を1段階、上昇させる。君は@Compendium[pf2e.feats-srd.Rq5wkA8DtsmbzoGV]{騎乗}のような特技によって、「動物使い」をもっと簡単に使うことが出来るかもしれない。</p>\n<p>ほとんどの動物は、「跳躍」「捜す」「立ち上がる」「歩行」「打撃」の基本アクションを知っている。もし、ある動物が、ホースの「ギャロップ」のような連続行動を知っているのなら、君はその連続行動を行うように「動物使い」を行うことが出来るが、その連続行動のアクション数と同じだけ、「動物使い」をするためにアクションを消費しなくてはならない。君はまた、動物の次の手番に複数の基本アクションを行わせるために、「動物使い」に複数のアクションを費やすことが出来る；例えば、君は3回、@Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{「歩行」}させるか、2回の「歩行」をさせてから@Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{「打撃」}をさせるために、「動物使い」に3回のアクションを消費することが出来る。</p>\n<hr />\n<p><strong>成功</strong> 動物はその次の手番に君の命令した通りのことをする。</p>\n<p><strong>失敗</strong> その動物はためらうか抵抗をしており、何もしない。</p>\n<p><strong>Critical Failure</strong> その動物は素行を悪くするか誤解をして、GMによって決められた何か他のアクションを取る。</p>"
 		},
 		{
+			"id": "Master Strike",
+			"name": "匠の打撃",
+			"description": "<p><strong>トリガー</strong> 君の「打撃」が@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{立ちすくみ}状態のクリーチャーに命中し、ダメージを与える</p>\n<hr />\n<p>T対象は君のクラスDCに対して頑健セーヴを試みる。対象はそれから、1日間、君の「達人の打撃」に対して一時的に完全耐性を持つ。</p>\n<hr />\n<p><strong>クリティカル</strong> 対象は効果を受けない。</p>\n<p><strong>成功</strong> 対象は君の次の手番の終了時まで@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱2} になる。 </p>\n<p><strong>失敗</strong> 対象は4ラウンド、@Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{麻痺} になる</p>\n<p><strong>ファンブル</strong> 対象は4ラウンド、麻痺状態となり、2時間 @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{気絶} するか、死ぬ（君の選択による）</p>"
+		},
+		{
 			"id": "Devise a Stratagem",
 			"name": "即興戦術",
 			"description": "<p><strong>頻度</strong> 1ラウンドに1回</p>\n<hr />\n<p>君は戦闘中に敵の弱点を推定し、自分の敵に対しての攻撃を計画する方程式にそれを用いる。君が目にすることが出来るクリーチャーを選び、d20をロールすること。もし、君が以後、このラウンドに選んだクリーチャーを @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{「打撃」}するなら、君はその攻撃ロールの出目をロールするのではなく、「即興戦術」のロール結果を使わなくてはならない。君はこの出目の代替を、このラウンドで最初にそのクリーチャーに対して行う「打撃」にしか使うことが出来ない。続く他の攻撃には使うことが出来ない。</p>\n<p>君がこの出目の代替を行う際、君の「打撃」が機敏agileあるいは巧技finesseの特性を持つ近接武器、肉体武器、遠隔武器（投擲の特性を持つ近接武器ならば機敏あるいは巧技の特性を持っていなければならない）もしくは@Compendium[pf2e.equipment-srd.TLQErnOpM9Luy7rL]{サップ}なら、君は筋力あるいは敏捷力修正値ではなく、知力修正値を攻撃ロールの出目に加えて良い。もし君が、自分の選んだクリーチャーが君の追跡する手がかりの主題だと知っているなら、君はこの能力をフリー・アクションで使用することが出来る。</p>"
@@ -577,6 +642,11 @@
 			"description": "<p><strong>トリガー</strong> 君が魔法の効果に対してセーヴィング・スローを試みるが、まだロールしていない</p>\n<hr />\n<p>君の祖先が持つ魔法の活性に対する生来の抵抗が行われ、ゆっくりと落ち着いていく。君はトリガーを引き起こしたセーヴィング・スロー及びこの手番の終了まで、+1状況ボーナスを得る。</p>"
 		},
 		{
+			"id": "Act Together",
+			"name": "同時行動",
+			"description": "<p><strong>頻度</strong> 1ラウンドに1回</p>\n<p>君と幻獣は一体となって行動する。君か幻獣は、「同時行動」と同じ数のアクションを使ってアクションあるいは連続行動を行い、もう片方は単発アクションを行う。</p>\n<p>たとえば、もし君が2アクションを使って「同時行動」するなら、君が<em>@Compendium[pf2e.spells-srd.y6rAdMK6EFlV6U0t]{バーニング・ハンズ}</em>を発動し（2アクション）、幻獣が「打撃」を行う（1アクション）することが出来る。または、幻獣がブレス武器（2アクション）を使い、君が「打撃」を行う（1アクション）ことも出来る。</p>\n<p>これによって、君達は旅行時にそれぞれが@Compendium[pf2e.actionspf2e.IE2nThCmoyhQA0Jn]{「隠密行動」}のような独立した連続行動を取ることが出来る。</p>"
+		},
+		{
 			"id": "Learn a Spell",
 			"name": "呪文の学習",
 			"description": "<p><strong>条件</strong>君が呪文のクラス特徴を持っていて、君が学びたがっている呪文が君の魔法体系の呪文リストにある</p>\n<hr />\n<p>君はその呪文を知っている誰かや、呪文書や巻物といった魔法の書物から、自分の体系の新しい呪文を手に入れることが出来る。もし君が複数の体系の呪文を発動することが出来るのなら、君はそれらのどの体系の「呪文の学習」をすることも出来るが、そうするには対応した技能を使わなくてはならない。例えば、君がバードのマルチクラス・アーキタイプを持つクレリックであるなら、君はバードの呪文レパートリーに霊妙呪文を加えるため、〈宗教〉を使うことは出来ない。 <br /><br />呪文を学ぶために、君は下記のことをしなければならない：</p>\n<ul>\n<li>呪文のレベルごとに1時間を費やす。この間、君はその呪文を知っている人物と会話をしたままでいるか、その呪文が書かれた魔法の書物を所有していなくてはならない。</li>\n<li>表4-3に示された価格の素材を持っている</li>\n<li>君の体系に対応した技能の技能判定を試みる（表4-3のDCに近しいが、GMがDCを決定する）。アンコモンやレアの呪文はより高いDCを持つ</li>\n</ul>\n<p>もし君が呪文書を持っているのなら、「呪文の学習」によって君はその呪文を呪文書に加えることが出来る；もし君がリストから呪文を準備するなら、呪文は君のリストに加えられる；もし君が呪文レパートリーを持っているのなら、君は呪文を付け加えるか、交換する際にその呪文を選ぶことが出来る</p>\n<hr />\n<p><strong>クリティカル</strong> 君は素材の半分を消費して呪文を学ぶ</p>\n<p><strong>成功</strong> 君は素材を消費して呪文を学ぶ</p>\n<p><strong>失敗</strong> 君は呪文を学ぶのに失敗したが、レベルが上がれば再挑戦可能である。素材は消費されない</p>\n<p><strong>ファンブル</strong> 失敗と同じだが、君は素材の半分を失う</p>"
@@ -595,6 +665,16 @@
 			"id": "Repeat a Spell",
 			"name": "呪文反復",
 			"description": "<p>君は半分の速度で移動する間、繰り返して同じ呪文を発動する。一般的には、この呪文は戦闘が発生した場合に備えて君が効果を発揮させておきたいキャントリップで、君が2アクション以下で発動することの出来るものでなくてはならない。呪文を繰り返すことの疲労を起こさないため、君が積極的にこれを使うのは、何か異常なことが発生している時だけだという可能性が高い。</p>\n<p>君は代わりに、この連続行動を使って、継続した持続時間で@Compendium[pf2e.actionspf2e.3f5DMFu8fPiqHpRg]{「呪文の維持」}や@Compendium[pf2e.actionspf2e.XSGlLjI80LDCimAP]{「起動の維持」}が出来る。ほとんどのこのような呪文やアイテムの効果は10分間継続するが、維持可能なものの中には、異なった持続時間を持つものもあるだろう</p>"
+		},
+		{
+			"id": "Spellstrike",
+			"name": "呪文撃",
+			"description": "<p><strong>頻度</strong> リチャージするまで（下記参照）</p>\n<hr />\n<p>君は、複合攻撃をするためにパンチや剣の一突きに呪文を込める。発動に1アクションあるいは2アクションかかり、呪文攻撃ロールを必要とする「呪文の発動」を行う。その呪文の効果は、即座には発生せず、代わりに君の攻撃に込められる。武器あるいは素手打撃の近接「打撃」を行うこと。君の呪文は攻撃を組み合わせられ、「打撃」と呪文両方の効果を決定するために、攻撃ロールの結果を使う。この「呪文撃」は複数回攻撃ペナルティに対しては2回分の攻撃と数えるが、「呪文撃」を完了するまでこのペナルティは適用されない。呪文エネルギーを注ぐことによって「打撃」は秘術の特性を得て、魔法のものになる。</p>\n<p>「呪文撃」を使った後、君は精神集中の特性を持つ単発アクションとして「呪文撃」のリチャージをするまで、再使用することが出来ない。君はまた、少なくとも発動に1アクションかかる混成呪文を発動した際にも「呪文撃」をリチャージすることが出来る；別の種類の集中呪文の発動は君の「呪文撃」をリチャージしない。</p>"
+		},
+		{
+			"id": "Affix a Fulu",
+			"name": "呪符の接着",
+			"description": "<p>君は自分と同じマス目あるいは背後にいる防具、武器、盾、クリーチャーあるいは構造物に呪符を取りつける。クリーチャーは間合い内にある、自分自身や誰のものでもない呪符を単発アクションで取り除くことが出来る。</p>"
 		},
 		{
 			"id": "Basic Finisher",
@@ -637,6 +717,11 @@
 			"description": "<p>君は、自分の人型生物形態かハイブリッド形態に変身する。それぞれの姿には、特定の、継続的な外見があり、ほとんどのビーストキンはデフォルトではハイブリッド形態になる。ハイブリッド形態時、君は自分の祖先と固有の動物が混じりあった見た目をしている。ハイブリッド形態でいる間、君は固有の動物の特徴に似た顎の素手打撃を得る（こうもりなら牙、鷲ならくちばし、ハチならおおあごといった風である）。君の顎は1d4点の刺突ダメージを与え、機敏、巧技、素手の特性を持ち、格闘武器グループに属する。人型形態でいる際、君は元々の祖先の見た目を保持する。</p>"
 		},
 		{
+			"id": "Primal Roar",
+			"name": "始原のうなり",
+			"description": "<p>幻獣はその形態にふさわしい、原始的な唸りや恐怖を与える騒音を解き放つ。幻獣は、このうなりを耳にすることが出来るそれぞれの敵に対して @Compendium[pf2e.actionspf2e.2u915NdUyQan6uKF]{「士気をくじく」} ための〈威圧〉判定を試みる；この「士気をくじく」の試みは、言語を共有しない琴によるペナルティを受けない。</p>"
+		},
+		{
 			"id": "Follow the Expert",
 			"name": "専門家にならう",
 			"description": "<p>登攀、技能判定を要する異なる探索戦術を行う（「隠密移動」のような）などといった、探索中に要求される技能判定を試みている味方を1人選ぶこと。その味方は少なくともその技能に熟練でなければならず、助けを与えることに同意していなければならない。「専門家にならう」をしている間、君はその人物の戦術通りであるか、似たような技能判定を試みていなくてはならない。君の味方の助力のおかげで、たとえ未修得でも、君は関連する技能判定に習熟ボーナスとして君のレベルを加えることが出来る。更に、君は君の味方の習熟（熟練なら+2、達人なら+3、伝説なら+4）に基づく状況ボーナスを技能判定に加えることが出来る。</p>"
@@ -645,6 +730,11 @@
 			"id": "Long Jump",
 			"name": "幅跳び",
 			"description": "<p>君は「歩行」し、それから水平に「跳躍」してジャンプの長さを上昇させるために <span data-pf2-action=\"longJump\" data-pf2-glyph=\"D\">〈運動〉</span> 判定を試みる。〈運動〉判定のDCは、君が「跳躍」中に移動しようとしているフィートでの合計距離に等しい（このため、君は20フィートの「跳躍」をするためにDC20の判定に成功する必要がある）。君は速度よりも遠くに「跳躍」することは出来ない。</p>\n<p>もし君が少なくとも10フィート「歩行」していないか、君が「歩行」した方角と別方向にジャンプしようとしているのなら、君は自動的に判定に失敗する。このDCはGMが決定する通りに、状況によって増加したり減少したりする。</p>\n<hr />\n<p><strong>成功</strong> 君が @Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{「跳躍」} する最大水平距離を望みの距離まで上昇させる</p>\n<p><strong>Failure</strong> 君は通常通りに「跳躍」する</p>\n<p><strong>ファンブル</strong> 君は通常通りに「跳躍」するが、それから落下して @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{伏せ}状態で着地する .</p>"
+		},
+		{
+			"id": "Manifest Eidolon",
+			"name": "幻獣顕現",
+			"description": "<p>幻獣が君に隣接する空いた空間に現れ、それから1回のアクションを取ることが出来る。もし、幻獣は既に顕現しているのなら、代わりにそれを消す。</p>\n<p>幻獣を顕現させてくれる導管は、君たちの間の手綱でもある。幻獣は常に君から100フィート以内にとどまらなければならず、進んでその制限より外に進もうとはしない。この距離以上に離れることを強いられるか、君が0ヒットポイントになるかすると、幻獣の肉体的な姿は融解する；幻獣は消え失せ、再び顕現させるのに「幻獣顕現」を使う必要がある。</p>\n<hr />\n<p><strong>特殊</strong> この連続行動は、君の幻獣の体系に合致する特性を持つ（秘術、信仰、霊妙、始原）</p>"
 		},
 		{
 			"id": "Debilitating Strike",
@@ -682,6 +772,21 @@
 			"description": "<p><strong>条件</strong> 君が @Compendium[pf2e.equipment-srd.s1vB3HdXjMigYAnY]{治療用具} を持っているか着用している</p>\n<hr />\n<p>君は@Compendium[pf2e.conditionitems.yZRUzMqrMmfLu0V1]{瀕死} か @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{出血}中の隣接しているクリーチャーに応急手当てをする。もしクリーチャーが瀕死と出血の両方だったなら、ロールする前に君が治療しようとしている苦難を選ぶこと。君はもう一つの効果を癒すために「応急手当」を再び試みることが出来る。</p>\n<ul>\n<li><strong>安定化</strong>: 0ヒット・ポイントで瀕死状態のクリーチャーに〈医学〉判定を試みること。そのDCは、5＋そのクリーチャーの回復ロールDC（一般的には15＋その瀕死値）である。</li>\n<li><strong>出血を止める</strong>: 継続出血ダメージを受けているクリーチャーに〈医学〉判定を試みて、継続ダメージを取り除くための再度の平目判定を行う機会を与える。このDCは通常、出血を引き起こした効果のDCである。</li>\n</ul>\n<hr />\n<p><strong>成功</strong> もし安定化を試みているのなら、そのクリーチャーは瀕死状態ではなくなる（気絶したままである）。もし出血を止めようとしているのなら、そのクリーチャーは出血を止めるための平目判定を行う。</p>\n<p><strong>ファンブル</strong>もし安定化を試みているのなら、そのクリーチャーの瀕死値が1上昇する。もし出血を止めようとしているのなら、そのクリーチャーは継続出血ダメージに等しい量のダメージを受ける。</p>"
 		},
 		{
+			"id": "Dutiful Retaliation",
+			"name": "忠実なる報復",
+			"description": "<p><strong>トリガー</strong> 君の15フィート以内にいる敵が君に「打撃」を命中させ、君にダメージを与える</p>\n<p><strong>条件</strong> の幻獣が君の15フィート以内にいる</p>\n<p>幻獣は本能的にエクトプラズムのエネルギーを輝かせ、君に危害を加えた敵に反撃を行うことが出来るようにする。幻獣は、トリガーとなった敵が、たとえ幻獣の間合いにいないとしても、その敵に近接素手「打撃」を行う。</p>"
+		},
+		{
+			"id": "Furious Strike",
+			"name": "怒りの打撃",
+			"description": "<p>幻獣は猛攻撃に怒りを込める。近接「打撃」を行う。これは、複数回攻撃ペナルティを計算する際に2回の攻撃として扱う。もしこの「打撃」が命中したなら、幻獣は武器ダメージダイスを1つ追加で与え、ダメージ・ロールに+1状況ボーナスを得る。</p>\n<p>もし、君が少なくとも10レベルなら、この追加ダメージダイスを2つに、そして状況ボーナスを+2状況ボーナスに上昇させる。そして、もし君が少なくとも18レベルなら、追加ダメージダイスを3つに、状況ボーナスを+3状況ボーナスに増やす。</p>"
+		},
+		{
+			"id": "Take a Breather",
+			"name": "息抜き",
+			"description": "<p><span><strong>コスト</strong> 1決意点</span></p>\n<hr />\n<p>君は10分の休息を取り、スタミナを回復する。この連続行動を完了した後、君は全てのスタミナ・ポイントを回復する。</p>"
+		},
+		{
 			"id": "Gather Information",
 			"name": "情報の収集",
 			"description": "<p>君は地元の市場、酒場、そして人の集まる場所をうろつき、特定の個人や話題について学ぼうとする。GMは <span data-pf2-action=\"gatherInformation\">〈交渉〉</span> 判定のDCと、それにかかる時間（一般的には2時間だが、時としてそれ以上）、そしてコイン、賄賂、飲み物、贈り物で君が得るかもしれない利益について決定する。</p>\n<hr />\n<p><strong>成功</strong> 君は個人や話題についての情報を集める。GMが詳細を決定する。</p>\n<p><strong>ファンブル</strong> 君は個人や話題についての不正確な情報を集める。</p><h2 class=\"title\">情報の収集の作業例</h2>\n<ul>\n<li><strong>未修得</strong> 町の噂</li>\n<li><strong>修得</strong> 一般的な噂</li>\n<li><strong>熟練</strong> あいまいな噂、あまり守られていない秘密</li>\n<li><strong>達人</strong> よく守られているか、とても古い情報</li>\n<li><strong>伝説</strong> 信じがたいくらい厳密に選ばれた、唯一かほとんど数人だけの存在にのみ知られた情報 </li>\n</ul>"
@@ -690,6 +795,11 @@
 			"id": "Clue In",
 			"name": "情報提供",
 			"description": "<p><strong>頻度</strong> 10分間に1回</p>\n<p><strong>トリガー</strong> 別のクリーチャーが、君が追っている糸口を調査するための判定を試みる</p>\n<hr />\n<p>君はトリガーとなったクリーチャーと情報を共有する。クリーチャーは君が @Compendium[pf2e.actionspf2e.xTK2zsWFyxSJvYbX]{手がかり追跡} から得ている状況ボーナスに等しい状況ボーナスを自分の判定に得る。GMは、もし君が情報を言葉で伝えているなら聴覚や言語を加えるなど、状況に応じてこのリアクションに関連する特性を加えてよい。</p>\n<p>@Compendium[pf2e.feat-effects.vhSYlQiAQMLuXqoc]{効果: 情報提供}</p>"
+		},
+		{
+			"id": "Share Senses",
+			"name": "感覚共有",
+			"description": "<p><strong>条件</strong> 君の幻獣が顕現している</p>\n<p>君は、自分の感覚を幻獣に投影し、幻獣を通じてものを感じることが出来る。そうするなら、君は自分の肉体の感覚情報の全てを失うが、1分間、幻獣を通じて感じることが出来る。君はこの効果を@Compendium[pf2e.actionspf2e.AjLSHZSWQ90exdLo]{「解除」} することが出来る</p>\n<hr />\n<p><strong>特殊</strong>このアクションは、幻獣の体系に合致する特性を得る（秘術、信仰、霊妙、始原）。幻獣もこの能力を使うことが出来る。そうした際に、幻獣は感覚を君の肉体に投影する。</p>"
 		},
 		{
 			"id": "Make an Impression",
@@ -757,9 +867,24 @@
 			"description": "<p>星、太陽の位置、地理や植生の特徴、動物の振る舞いといったものを使って、君は荒野でも方向が分かる。一般的には、君は1日に1回だけ〈生存〉を試みることが出来るが、環境や変化によってもっとしばしばロールが可能になることもある。GMがDCとどの程度長くこの連続行動がかかるかを決定する（たいていは1分間程度である）。もっと異常な場所や、君が見慣れぬ場所では、「方向感覚」をするのに、最低習熟ランクが要求されることもある。@Compendium[pf2e.equipment-srd.wob6DB1FFdWs0mbp]{コンパス}なしなら、君は「方向感覚」のための判定に-2アイテム・ペナルティを受ける。 </p>\n<hr />\n<p><strong>クリティカル</strong> 君は自分がどこにいるか、最高の感覚を得る。もし君が極めて重要な方角のある環境にいるなら、その方角を正確に君は知っている。</p>\n<p><strong>成功</strong> 君は希望なく迷うことを避けられるだけの十分な導きを得る。もし君が極めて重要な方角のある環境にいるなら、その方角を君は感覚的に分かる。</p><h2 class=\"title\">方向感覚の作業例</h2>\n<ul>\n<li><strong>未修得</strong> 太陽を使って重要な方角を判断する</li>\n<li><strong>修得</strong> 森で植物のはびこる小道を見つける</li>\n<li><strong>熟練</strong> 生垣の迷宮を進む</li>\n<li><strong>達人</strong> 入り組んだ迷宮や比較的、特徴のない砂漠を進む</li>\n<li><strong>伝説</strong> 変わり続ける夢の領土を進む</li>\n</ul>"
 		},
 		{
+			"id": "Bend Time",
+			"name": "時を曲げる",
+			"description": "<p><strong>頻度</strong> 1日に1回</p>\n<p><strong>トリガー</strong> 君の手番が開始する</p>\n<p><strong>効果</strong> 君はこの手番、 @Compendium[pf2e.conditionitems.nlCjDvLMf2EkV2dl]{高速化}状態になる。君はこの追加アクションを「歩行」に使うことが出来る</p>"
+		},
+		{
 			"id": "Decipher Writing",
 			"name": "暗号の解読",
 			"description": "<p>君は、分かりづらい話題についての、複雑な書物や文字を解読しようとする。これには通常、文書の1ページごとに1分かかるが、もっと長い時間がかかることもある（一般的には、暗号などの解読には1ページごとに1時間）。この文書は、君が読むことの出来る言語でなければならないが、GMは代わりに〈社会〉を使って、見慣れない言語で書かれた文書を解読しようとすることを許可するかもしれない。<br />DCは書類の状態や複雑さに基づいて、GMによって決定される。GMは短い文書について1回のロールをさせるか、もっと大きな文書については、それぞれのセクションごとに判定をさせるかもしれない。</p>\n<hr />\n<p><strong>クリティカル</strong>君は文書の本当の意味を理解する</p>\n<p><strong>成功</strong> 君は文書の本当の意味を理解する。もしそれが暗号化された文書であるなら、君は一般的な意味を知るが、逐語訳をすることはない。</p>\n<p><strong>失敗</strong> 君は文書を理解できず、解読をするためのそれ以後の判定に-2状況ペナルティを受ける</p>\n<p><strong>ファンブル</strong> 君はそのページの文書を理解したと思ったが、実際にはメッセージを組み立て間違えている</p><h2 class=\"title\">解読作業の例</h2>\n<ul>\n<li><strong>修得</strong> 入門レベルの哲学論文</li>\n<li><strong>熟練</strong> 複雑な暗号</li>\n<li><strong>達人</strong> 諜報のリーダーの暗号や上級の研究メモ</li>\n<li><strong>伝説</strong> 古の天上語で、暗喩で書かれた難解な次元界の文書</li>\n</ul>"
+		},
+		{
+			"id": "Rampaging Ferocity",
+			"name": "暴れ回る凶暴性",
+			"description": "<p><strong>トリガー</strong>: 君が @Compendium[pf2e.feats-srd.PlhPpdwIV0rIAJ8K]{《オークの凶暴性》}を使う</p>\n<hr />\n<p>君は、死を避ける際ですら、悪意に満ちた攻撃を行う。近接@Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{「打撃」}を行う。もし、その「打撃」が敵を0ヒットポイントにするなら、この「オークの凶暴性」の起動によってその使用回数が減ることはない。</p>"
+		},
+		{
+			"id": "Instinctive Obfuscation",
+			"name": "本能としての惑わし",
+			"description": "<p><strong>前提条件</strong>: ノームの遺産あるいはノームの祖先特技から得た生来の秘術呪文あるいは霊妙呪文が少なくとも1つある<br /><strong>頻度</strong>: 1日に1回<br /><strong>トリガー</strong>: 君が敵に攻撃される</p>\n<hr />\n<p>君の内なる魔法は、脅威に対する自然の反応として現れる。君は@Compendium[pf2e.spells-srd.j8vIoIEWElvpwkcI]{ミラー・イメージ} の効果を得るが、2つの幻影ではなく、3つの幻影を得る。このアクションの体系は、君のノームの祖先のオプションの体系と合致する。</p>"
 		},
 		{
 			"id": "Anchor",
@@ -792,6 +917,16 @@
 			"description": "<p>君は水の中を突き進む。ほとんどの静かな水面では、君は判定を試みることなく、アクションに成功する。もし君が呼吸をしなければならず、潜水しているのなら、君は毎ラウンド、息を止めなくてはならない。もし君が息を止めるのに失敗したのなら、君は溺れ始める。もし君が泳いでいる水が激しいか、危険であるなら、君は「水泳」のための <span data-pf2-action=\"swim\" data-pf2-glyph=\"A\">〈運動〉</span> 判定を試みなくてはならない。</p>\n<p>もし君が水中で手番を終了し、その手番に「水泳」アクションに成功していなかったなら、GMの決定する通りに、君は10フィート沈むか、流れによって移動させられる。しかしながら、もし君の手番の最後のアクションが水に入ることだったのなら、君は沈まず、その手番には流れによって移動させられない。</p>\n<hr />\n<p><strong>クリティカル</strong> 君は水中を10フィートと、更に地上速度20フィートにつき5フィート移動する（ほとんどのPCにとっては合計15フィート）</p>\n<p><strong>成功</strong> 君は水中を5フィートと、更に地上速度20フィートにつき5フィート移動する（ほとんどのPCにとっては合計10フィート）</p>\n<p><strong>ファンブル</strong> 君は進まず、もし息を止めているなら、1ラウンド分の空気を失う</p>\n<h2>水泳作業の例</h2>\n<ul>\n<li><strong>未修得</strong> 湖や他の静かな水面</li>\n<li><strong>修得</strong> 川のような流水</li>\n<li><strong>熟練</strong> 素早く流れる川</li>\n<li><strong>達人</strong> 嵐の海</li>\n<li><strong>伝説</strong> 大潮、滝</li>\n</ul>"
 		},
 		{
+			"id": "Steel your Resolve",
+			"name": "決意を固める",
+			"description": "<p><strong>コスト</strong> 1 決意点</p>\n<hr />\n<p>スタミナ・ポイントを最大値の半分に等しい数、回復する</p>"
+		},
+		{
+			"id": "Seething Frenzy",
+			"name": "沸き立つ狂乱",
+			"description": "<p>幻獣の怒りは向こう見ずで制御不能な狂乱にまでに沸騰する。狂乱になっている間、幻獣は幻獣増幅の影響を受け、君のレベルに等しい一時的ヒットポイントを得るが、ACに－2ペナルティを受ける。幻獣は自発的に狂乱を終えることや、狂乱中に別の狂乱を開始することは出来ない。</p>\n<p>乱は1分間、持続し，その後、1分間、幻獣は @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{疲労}状態になり、1分間は新しい狂乱を始めることが出来ない。</p>"
+		},
+		{
 			"id": "Rage",
 			"name": "激怒",
 			"description": "<p><strong>条件</strong> 君が@Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{疲労}状態か激怒中でないこ</p>\n<hr />\n<p>君は内なる激情に触れ、激怒を開始する。君はレベル＋耐久力修正値に等しい一時的ヒット・ポイントを得る。この逆上は1分間経つか、君が認識している敵がいなくなるか、君が@Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{気絶}するかするまで続く。君は自発的に激怒を止めることは出来ない。激怒している間、君は：</p>\n<ul>\n<li>君は近接武器と素手打撃で２点の追加ダメージを与える。このダメージは、君の武器か素手打撃が機敏の特性を持つなら、半減する。</li>\n<li>君はACに-1ペナルティを受ける。</li>\n<li>君は激怒の特性を持たず、かつ、精神集中の特性を持つアクションを使うことができない。君は激怒中も@Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{「捜す」}ことができる。</li>\n</ul>\n<p>激怒を止めた後、君は「激怒」から得た全ての残っている一時ヒット・ポイントを失い、１分間、再び「激怒」することができない。</p>"
@@ -807,9 +942,24 @@
 			"description": "<p>君は自分の体に小さな物体を隠す（軽重量のバルクの武器のような）。君が、物体に気付くかもしれない誰かから物体を隠そうとする際、GMは君の〈隠密〉判定をロールし、それを受動的な観察者の知覚DCと比較する。ひとたびGMが隠した物体のために判定をロールしたなら、何人の目をごまかそうとしたとしても、同じ結果を使う。もしあるクリーチャーが特に、アイテムがないか君を探すなら、君の〈隠密〉DCに対して知覚判定を試みる（成功で物体を発見する）ことが出来る。</p>\n<p>君はまた、自分の体以外の、たとえば下生えの間や家具の中の秘密の仕切りなどに物体を隠すことも出来る。この場合、範囲に“捜す”を行っているキャラクター達は物体を発見するかどうかを決めるため、君の〈隠密〉DCに対して知覚判定を行う。</p>\n<hr />\n<p><strong>成功</strong> 物体は未探知のままである</p>\n<p><strong>失敗</strong> 捜している者は物体を発見する</p>"
 		},
 		{
+			"id": "Beast's Charge",
+			"name": "獣の突撃",
+			"description": "<p>Y幻獣は前方に突進し、その勢いを使って攻撃の力を増す。幻獣は2回、「歩行」してから「打撃」する。もし、幻獣が開始時の位置から少なくとも20フィート移動をしていて、完全に直線移動をしているなら、幻獣は攻撃ロールに+1状況ボーナスを得る。</p>"
+		},
+		{
 			"id": "Hunt Prey",
 			"name": "獲物を狩る",
 			"description": "<p>君は一体のクリーチャーを君の獲物として指定し、そのクリーチャーに対する攻撃に集中する。君はその獲物を目視し、耳にすることが出来るか、探索中にその獲物を追跡しなくてはならない。</p>\n<p>君は獲物を「捜す」際に〈知覚〉判定に+2状況ボーナスを、君が獲物を@Compendium[pf2e.actionspf2e.EA5vuSgJfiHH7plD]{「追跡」} する際の〈生存〉判定に+2状況ボーナスを得る。君はまた、君が狩猟している獲物に対して、二つ目の射程単位以内にいる際の遠隔攻撃のペナルティを無視する。</p>\n<p>君は同時に一体のクリーチャーにしか獲物として指定することが出来ない。もし君が、既に指定しているクリーチャーがいる時に「獲物を狩る」でクリーチャーを指定したなら、先に指定したクリーチャーは指定されなくなり、新しい獲物が指定を受ける。君の指定は、次の日々の準備まで持続する</p>"
+		},
+		{
+			"id": "Life Block",
+			"name": "生命防御",
+			"description": "<p><strong>トリガー</strong> 呪文の対象がダメージを受けるところである</p>\n<p><strong>効果</strong> トリガーとなったダメージを10点減らすが、君は5点のヒットポイントを失う。たとえダメージが0にあんったとしても、ヴァイパーの牙の「打撃」における毒のように、対象はダメージに伴うはずだった全ての効果を受ける。</p>\n<hr />\n<p><strong>増強（+2）</strong> リアクションはダメージを更に10点減らし、君は5点、更にヒット・ポイントにダメージを受ける。もし、ヒット・ポイント減少を減らしたいのなら、君は実際の呪文レベルを下げることなく、低レベルバージョンの呪文のヒット・ポイント減少とダメージ減少へと変更することが出来る。</p>"
+		},
+		{
+			"id": "Fight with Fear",
+			"name": "畏怖の反撃",
+			"description": "<p><strong>トリガー</strong> 君が目視できるクリーチャーが君に対する精神効果を使う</p>\n<p><strong>効果</strong> トリガーとなったクリーチャーは意志セーヴを試みなくてはならず、それには以下の効果がある</p>\n<hr />\n<p><strong>成功</strong> クリーチャーは影響を受けない</p>\n<p><strong>失敗</strong> クリーチャーは @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{恐れ2}になり、君はトリガーとなった精神効果に対して、セーヴィング・スローやその他の防御能力に+2ステータス・ボーナスを得る</p>\n<p><strong>ファンブル</strong> クリーチャーは恐れ2になり、君はトリガーとなった精神効果に影響を受けない</p>"
 		},
 		{
 			"id": "Treat Disease",
@@ -902,14 +1052,34 @@
 			"description": "<p><strong>トリガー</strong> 敵が君あるいは君の15フィート以内にいる味方一人を対象とした呪文を発動する</p>\n<hr />\n<p>君は呪文に対して盾の防護を割り込ませる。君の〈宗教〉修正値を無効化修正値として用いた無効化判定を試みること。成功したなら、その呪文は無効化され、君の盾はその魔法エネルギーを吸収し、発散させるので、呪文レベルの4倍に等しいダメージを受ける。失敗したなら、盾は呪文レベルの2倍に等しいダメージを受ける。</p>"
 		},
 		{
+			"id": "Arcane Cascade",
+			"name": "秘術の怒濤",
+			"description": "<p><strong>条件</strong> 君が使った直近のアクションが「呪文の発動」か「呪文撃」である</p>\n<hr />\n<p>君は、呪文の魔力の一部を流用し、特殊なフォーム、呼吸法、フットワークを使って肉体と武器にそれを循環させる。この構えでいる間、君の近接「打撃」は追加で[[/r 1 #ダメージ]]（1点のダメージ）を与える。このダメージは、君が武器開眼を持っているなら2点に、上級武器開眼を持っているなら3点に増える。このダメージによって利益を受ける「打撃」は全て、秘術の特性を持ち、魔法のものになる。</p>\n<p>もし、君が日前に入る直前の呪文がダメージを与えることが出来るものであったなら、構えによるダメージは、呪文が与えることが出来るダメージと同じ種別（あるいは、もしその呪文が複数のダメージ種別を与えるのなら、君が選んだ種別1つ）である。もし、この呪文がダメージを与えられないものであるなら、この構えのボーナス・ダメージはその呪文の系統によって異なる。</p>\n<ul>\n<li><strong>防御術</strong> あるいは <strong>力術</strong> 力場</li>\n<li><strong>召喚術</strong> あるいは <strong>変成術</strong> 君の武器あるいは素手打撃と同じ種別</li>\n<li><strong>占術</strong>、<strong>心術</strong>あるいは <strong>幻術</strong> 精神</li>\n<li><strong>死霊術y</strong> 負のエネルギー</li>\n</ul>"
+		},
+		{
 			"id": "Borrow an Arcane Spell",
 			"name": "秘術呪文の借用",
 			"description": "<p>もし、君が呪文書から準備をする秘術の術者であるなら、君は誰か他の人間の呪文書から呪文の準備を試みることが出来る。GMは呪文レベルとレアリティに基づいてDCを設定する；それは一般的には、 @Compendium[pf2e.actionspf2e.Q5iIYCFdqJFM31GW]{呪文の学習} よりも少し、簡単である。 .</p>\n<hr />\n<p><strong>成功</strong> 君は通常の呪文準備の一部として借用した呪文を準備する</p>\n<p><strong>失敗</strong>君はその呪文の準備に失敗するが、別の呪文を準備できるように、呪文スロットは空いたままである。君は次に呪文を準備するときまでこの呪文の準備を試みることが出来ない。</p>"
 		},
 		{
+			"id": "Run Over",
+			"name": "突貫",
+			"description": "<p><strong>条件</strong> 君が乗り物の操縦をしている</p>\n<p>(reckless) 君はクリーチャー立ちを乗り物でひこうとして、場合によっては1体の大きなクリーチャーや物体に突っ込む。もし、君が乗り物の制御をイジしているのなら、乗り物は現在の方向に直線で、速度の2倍まで移動する。君は乗り物よりも2サイズ以上、サイズが小さいあらゆるクリーチャーをひき、乗り物よりも1サイズ小さいサイズ以上の1体の対象となるクリーチャーあるいは物体に突っ込もうとすることが出来る。</p>\n<p>君の経路にいたそれぞれのクリーチャー（突貫される対象を含む）は乗り物の衝突ダメージを受ける（乗り物の衝突DCに対する基本反応セーヴ）。もし突貫された対象が乗り物であるなら、その操縦者は反応セーヴの代わりに操縦判定をして、同じ結果を用いることが出来る。もし、突貫の対象がダメージを受けたなら、君と君の乗り物はそれぞれ衝突ダメージを受け（セーヴなし）、君の移動は終了する。</p>"
+		},
+		{
 			"id": "Stand",
 			"name": "立ち上がる",
 			"description": "<p>君は @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{伏せ} 状態から立ち上がる。</p>"
+		},
+		{
+			"id": "Draconic Frenzy",
+			"name": "竜の狂乱",
+			"description": "<p>幻獣は主要素手打撃で「打撃」1回を行い、二次素手打撃で2回の「打撃」を行う（順番はいずれでもよい）。もし、これらの攻撃のどれかが敵にクリティカル・ヒットしたなら、、幻獣は即座に「ブレス武器」の使用が出来るようになる。</p>"
+		},
+		{
+			"id": "Whirlwind Maul",
+			"name": "竜巻の陣",
+			"description": "<p>獣は全方向に向かって飛び出す。間合い内に居る最大4体までの敵に対して、近接素手「打撃」を行う。それぞれの敵ごとに、異なる素手打撃を選ぶことが出来る。それぞれの攻撃は、複数回攻撃ペナルティにカウントされるが、幻獣が全ての攻撃を行うまでペナルティは増えない。</p>"
 		},
 		{
 			"id": "Grapple",
@@ -920,6 +1090,11 @@
 			"id": "Drain Bonded Item",
 			"name": "絆の品の吸収",
 			"description": "<p><strong>頻度</strong> 1日に1回</p>\n<hr />\n<p>君は絆の品に保管された力を消費する。君の手番の間、君は今日、呪文スロットを消費することなく、準備していて既に発動した1つの呪文を発動する能力を得る。君はなおも「呪文発動」をしなければならず、その呪文の他の条件を満たしていなくてはならない。</p>"
+		},
+		{
+			"id": "Visions of Sin",
+			"name": "罪のビジョン",
+			"description": "<p><strong>頻度</strong> 10分に1回</p>\n<p>幻獣はその罪のイメージを30フィート以内の対象クリーチャー1体の精神に呼び出し、その対象を苦しめ、混乱させる。対象は下記の効果に対して、君の呪文DCを目標に意志セーヴを試みなくてはならない。この効果は君の次の手番の終了時まで続くが、幻獣は精神手中の特性を持つ単発アクションを使い、その効果を君の次の手番の終了時まで延長することが出来る（「呪文の維持」のように）。この最大持続時間は1分である。</p>\n<p>対象が悪であるなら、このセーヴに－２状況ペナルティを受ける。成功したかどうかに関わらず、対象は1日間、一時的完全耐性を得る。</p>\n<hr />\n<p><strong>クリティカル</strong> 対象は影響を受けない</p>\n<p><strong>成功</strong> 対象はリアクションを使うことが出来ない</p>\n<p><strong>失敗</strong> 対象は@Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{減速化1}となり、リアクションを使うことが出来ない</p>\n<p><strong>Critical Failure</strong> 失敗と同じだが、対象は1ラウンド、 @Compendium[pf2e.conditionitems.yblD8fOR1J8rDwEQ]{混乱状態}になる。混乱状態は延長できないが、その他の効果は延長することが出来る。</p>"
 		},
 		{
 			"id": "Escape",
@@ -942,6 +1117,11 @@
 			"description": "<p><strong>トリガー</strong> 敵が君の味方にダメージを与えるか、@Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{「つかみ」}か @Compendium[pf2e.actionspf2e.PMbdMWc2QroouFGD]{「組みつき」}を行っており、双方が君の15フィート以内にいる</p>\n<hr />\n<p>君は味方を拘束状態から解き放つ。</p>\n<p>もしそのトリガーが、ダメージを受けている味方であるなら、その味方はトリガーとなったダメージに、全てのダメージに対する、君のレベル+2に等しい抵抗を持つ。</p>\n<p>その味方はつかみ、拘束、@Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{動けない状態}、 @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{麻痺}の効果から自由になることを試みることが出来る。その味方はセーヴの可能なそのような効果1つに対する新しいセーヴを試みるか、1つの効果からフリー・アクションとして @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{「脱出」} を試みることが出来る。</p>\n<p>もしその味方が移動できるのなら、その味方は逃亡する必要がなかったとしても、フリー・アクションとして「ステップ」が出来る</p>"
 		},
 		{
+			"id": "Take Control",
+			"name": "舵を取る",
+			"description": "<p><strong>条件</strong> 君が乗り物に搭乗しており、その操作部に隣接している</p>\n<p>君は手綱や舵など、乗り物を捜査するための部位を手にする。操作判定を行うこと；成功すれば君が乗り物の操縦者になり、乗り物が制御されていない状態だったなら、制御を得る。乗り物によっては複雑な操作が必要なため、このアクションは複数のアクションを伴う連続行動になる。</p>"
+		},
+		{
 			"id": "Perform",
 			"name": "芸能",
 			"description": "<p>短い芸能ー1つの歌、素早いダンス、いくつかのジョークーを行う際に、君は「芸能」のアクションを使う。このアクションは、君が自分の有能さを証明するか、誰かに素早く印象付ける際に最も有用である。めったに芸能を行わないことは、それ自体がインパクトを与えるが、もしGMが適切だと思うなら、観客への続いての〈交渉〉DCに影響を与えるかもしれず、彼らの態度すら変えるかもしれない。</p>\n<hr />\n<p><strong>クリティカル</strong> 君の芸能は観客に心に印象を与える。そして彼らは君の有能さについての話を分かち合う可能性が高い。</p>\n<p><strong>成功</strong> 君は自分の価値を証明し、観客は君の芸能の質に感謝する。/p>\n<p><strong>失敗</strong> 君の芸能は平凡な出来である。</p>\n<p><strong>ファンブル</strong> 君は無能さを示しただけである。</p><h2 class=\"title\">芸能の作業例</h2>\n<ul>\n<li><strong>未修得</strong> 一般人の聴衆</li>\n<li><strong>修得</strong> 職人の聴衆</li>\n<li><strong>熟練</strong> 商人や高名でない貴族の聴衆</li>\n<li><strong>達人</strong> 高名な貴族か高名でない王族の聴衆</li>\n<li><strong>伝説</strong> 高名な王族や異世界の存在の聴衆</li>\n</ul>"
@@ -955,6 +1135,11 @@
 			"id": "Delay",
 			"name": "行動遅延",
 			"description": "<p><strong>トリガー</strong> 君の手番の開始</p>\n<hr />\n<p>君はアクションを行う正しい時機を待っている。君の手番の残りはまだ発生しない。代わりに、君はイニシアチブ順から取り除かれる。他のクリーチャーの手番終了をトリガーとするフリー・アクションとして、君はイニシアチブ順に戻ることが出来る。これは君のイニシアチブを恒久的に新しい位置へと変更する。君はイニシアチブ順に戻るまでリアクションを使うことが出来ない。もし君がイニシアチブ順に戻ることなく1ラウンド全体を「行動遅延」したのなら、「行動遅延」した手番のアクションは失われ、イニシアチブは変更されず、次の手番はイニシアチブ順の元々の位置で発生する。</p>\n<p>「行動遅延」した際には、通常、君の手番の開始時あるいは終了時に発生する @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続ダメージ} やその他の負の効果は、君が「行動遅延」アクションを使った時に即座に発生する。君の手番のどの時点で終了する有利な効果もまた、終了する。GMは「行動遅延」の際に終わるその他の効果を判断するかもしれない。本質的に、君は手番に発生するはずの望ましくない結末を回避するためや、手番に終了するはずの有利な効果を延長するために「行動遅延」することは出来ない。</p>"
+		},
+		{
+			"id": "Armor Up!",
+			"name": "装着！",
+			"description": "<p><strong>効果</strong> 君は指を鳴らす。防具が君の肉体に戻ってくる。</p>"
 		},
 		{
 			"id": "Disable Device",
@@ -993,7 +1178,7 @@
 		},
 		{
 			"id": "Affix a Talisman",
-			"name": "護符の取付",
+			"name": "護符の接着",
 			"description": "<p><strong>条件:</strong> 君は@Compendium[pf2e.equipment-srd.vLGDUFrg4yGzpTQX]{修理用具}を使わなくてはならない</p>\n<hr />\n<p>君は両手で修理用具を用いて、あるアイテムに護符を取付け、安定した表面に配置するために10分間を費やす。君はまた、この連続行動を使って護符を取り除くことも出来る。もしアイテムに2つ以上の護符が取り付けられているなら、護符は抑制される；つまり、どれも起動出来ない。</p>"
 		},
 		{
@@ -1052,11 +1237,6 @@
 			"description": "<p><strong>条件</strong> 君が乗り物を操縦している。君が乗り物を移動させるために操縦している</p>\n<p>「運転」を開始する前に、君が消費するアクションの数を決める。この効果は、君が消費するアクション数によって異なる。君は、たとえそれが味方だとしても、クリーチャーに占拠されているマス目を「運転」して通り過ぎることは出来ない。</p>\n<p><span class=\"pf2-icon\">1</span> 操縦判定を試みる。成功時、乗り物は速度まで移動し、通常通りに曲がることが出来る。失敗したなら、乗り物は直線で速度分、移動する。ファンブルしたなら、乗り物は直線で速度分、移動し、未制御状態になる</p>\n<p><span class=\"pf2-icon\">2 </span>(無謀) 乗り物は現在の方向に速度の2倍まで移動する</p>\n<p><span class=\"pf2-icon\">3</span> (無謀) 君は乗り物のコントロールを維持するための操縦判定に－5ペナルティを受ける。乗り物は現在の乗り物の方向に、速度の3倍まで移動する</p>"
 		},
 		{
-			"id": "Master Strike",
-			"name": "匠の打撃",
-			"description": "<p><strong>トリガー</strong> 君の「打撃」が@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{立ちすくみ}状態のクリーチャーに命中し、ダメージを与える</p>\n<hr />\n<p>T対象は君のクラスDCに対して頑健セーヴを試みる。対象はそれから、1日間、君の「達人の打撃」に対して一時的に完全耐性を持つ。</p>\n<hr />\n<p><strong>クリティカル</strong> 対象は効果を受けない。</p>\n<p><strong>成功</strong> 対象は君の次の手番の終了時まで@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱2} になる。 </p>\n<p><strong>失敗</strong> 対象は4ラウンド、@Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{麻痺} になる</p>\n<p><strong>ファンブル</strong> 対象は4ラウンド、麻痺状態となり、2時間 @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{気絶} するか、死ぬ（君の選択による）</p>"
-		},
-		{
 			"id": "Take Cover",
 			"name": "遮蔽を取る",
 			"description": "<p><strong>条件</strong> 遮蔽から利益を得ているか、遮蔽を取ることが出来るような何かの近くにいるか、@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{伏せ} 状態である </p>\n<hr />\n<p>君は遮蔽をもっと有利に使うため、壁に張り付くか、障害物の後ろに隠れる。もし君が標準的な遮蔽を得ているなら、君は代わりに優れた遮蔽を得る。優れた遮蔽はAC、範囲効果に対する反応セーヴ、@Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]{「隠れる」}、 @Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{「忍び歩き」}、あるいはその他の探知を避ける判定への+4状況ボーナスを与える。そうでなければ、君は標準的な遮蔽の利益（代わりに+2状況ボーナス）を得る。これは、君が現在の場所から移動する、攻撃アクションを使う、@Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{気絶} する、あるいはフリー・アクションとしてこの効果を終わらせるまで持続する。</p>"
@@ -1077,6 +1257,11 @@
 			"description": "<p><strong>条件</strong> 君が @Compendium[pf2e.equipment-srd.4ftXXUCBHcf4b0MH]{錬金術用具} を持っていること</p>\n<hr />\n<p>君は錬金術用具を用いた10分間の試験によって、錬金術アイテムの本質を識別することが出来る。何らかの方法で君の試みが中断されたなら、君は最初から始めなくてはならない。</p>\n<hr />\n<p><strong>成功</strong> 君はそのアイテムと、その起動方法を識別する</p>\n<p><strong>失敗</strong> 君はそのアイテムの識別に失敗するが、再挑戦可能である</p>\n<p><strong>ファンブル</strong> 君はGMの選んだ別のアイテムであると間違って識別する</p>"
 		},
 		{
+			"id": "Wyrm's Breath",
+			"name": "長命竜のブレス",
+			"description": "<p><strong>頻度</strong> 1分に1回</p>\n<p>幻獣は強力な長命竜の力を集め、その魔法のブレスを更に劇的なものにする。もし、君の幻獣の次のアクションが「ブレス武器」なら、ダメージ・ダイスの数と「ブレス武器」の範囲の両方を2倍にする。</p>"
+		},
+		{
 			"id": "Long Term Rest",
 			"name": "長期間の休息",
 			"description": "<p>君は余暇の間、一昼夜全体を休息に費やして、【耐久力】修正値☓君のレベルの2倍に等しいヒットポイントを回復することが出来る。</p>"
@@ -1094,7 +1279,7 @@
 		{
 			"id": "Hide",
 			"name": "隠れる",
-			"description": "<p>君は@Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{可視}状態ではなく @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{隠れた}状態になるため、遮蔽、優れた遮蔽、あるいは視認困難の奥深くに身をひそめる。GMが非公開で君の〈隠密〉判定をロールし、君を見ているが、君が遮蔽あるいは優れた遮蔽を持っているか、君を視認困難としているそれぞれのクリーチャーの知覚DCと結果を比較する。君は判定に、遮蔽あるいは優れた遮蔽の状況ボーナスを得る。</p>\n<hr />\n<p><strong>成功</strong> もしそのクリーチャーが君を目視することが出来るとしても、君は今や、可視状態ではなく、隠れた状態である。もし君がそのクリーチャーから隠れた状態か@Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{未探知}だったなら、その状態を保持する。.</p>\n<p>Iもし君があるクリーチャーから隠れた状態になるのに成功したが、それから、そのクリーチャーに対して優れた遮蔽か遮蔽を得られなくなったか、視認困難でなくなったなら、君は再び可視状態になる。君は、「隠れる」@Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{忍び歩き}「ステップ」以外のことをしたなら、隠れた状態ではなくなる。もし君があるクリーチャーを「打撃」したなら、そのクリーチャーはその攻撃に対して@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{立ちすくみ}状態のままで、それから君は可視状態になる。もし君が他のことをしたなら、君はGMがそうでないと判断しない限り、行動の直前に可視状態になる。GMは、別の〈隠密〉判定をさせるなどして、君が気づかれることなく、目立たないアクションをすることが出来ることにするかもしれない。</p>\n<p>もしあるクリーチャーが君を自分にとって可視状態にするために@Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{「捜す」}を使うなら、君は再びそのクリーチャーから隠れた状態になるために「隠れる」に成功しなくてはならない</p>"
+			"description": "<p>君は@Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{可視}状態ではなく @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{隠れた}状態になるため、遮蔽、優れた遮蔽、あるいは視認困難の奥深くに身をひそめる。GMが非公開で君の〈隠密〉判定をロールし、君を見ているが、君が遮蔽あるいは優れた遮蔽を持っているか、君を視認困難としているそれぞれのクリーチャーの知覚DCと結果を比較する。君は判定に、遮蔽あるいは優れた遮蔽の状況ボーナスを得る。</p>\n<hr />\n<p><strong>成功</strong> もしそのクリーチャーが君を目視することが出来るとしても、君は今や、可視状態ではなく、隠れた状態である。もし君がそのクリーチャーから隠れた状態か@Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{未探知}だったなら、その状態を保持する。</p>\n<p>もし君があるクリーチャーから隠れた状態になるのに成功したが、それから、そのクリーチャーに対して優れた遮蔽か遮蔽を得られなくなったか、視認困難でなくなったなら、君は再び可視状態になる。君は、「隠れる」@Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{忍び歩き}「ステップ」以外のことをしたなら、隠れた状態ではなくなる。もし君があるクリーチャーを「打撃」したなら、そのクリーチャーはその攻撃に対して@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{立ちすくみ}状態のままで、それから君は可視状態になる。もし君が他のことをしたなら、君はGMがそうでないと判断しない限り、行動の直前に可視状態になる。GMは、別の〈隠密〉判定をさせるなどして、君が気づかれることなく、目立たないアクションをすることが出来ることにするかもしれない。</p>\n<p>もしあるクリーチャーが君を自分にとって可視状態にするために@Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{「捜す」}を使うなら、君は再びそのクリーチャーから隠れた状態になるために「隠れる」に成功しなくてはならない</p>"
 		},
 		{
 			"id": "Avoid Notice",

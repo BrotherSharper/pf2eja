@@ -388,8 +388,8 @@
 		},
 		{
 			"id": "Keen Eyes",
-			"name": "Keen Eyes",
-			"description": "<p>Your eyes are sharp, allowing you to make out small details about concealed or even invisible creatures that others might miss. You gain a +2 circumstance bonus when using the @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Seek} action to find @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} or @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Undetected} creatures within 30 feet of you. When you target an opponent that is @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} from you or hidden from you, reduce the DC of the flat check to 3 for a concealed target or 9 for a hidden one.</p>"
+			"name": "鋭い目",
+			"description": "<p>君の目は鋭敏で、他の者が見逃すかもしれない視認困難や、不可視のクリーチャーについてすら、細部を理解することが出来る。君は自分の30フィート以内にいる@Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{未探知}や@Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{隠れた状態}のクリーチャーを探すための@Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{「捜す」}アクションを使う時、+2状況ボーナスを得る。君が自分から@Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{視認困難}であるか、隠れている敵を標的とする時、視認困難な相手のための平目判定のDCを3に、隠れている相手のための平目判定のDCを9に減少させる。</p>"
 		},
 		{
 			"id": "Laborer Android",
@@ -494,7 +494,7 @@
 		{
 			"id": "Observant Halfling",
 			"name": "観察好きのハーフリング",
-			"description": "<p>君の研ぎ澄まされた感覚は、危険や策略を素早く察知する。知覚DCに+a状況ボーナスを得るが、知覚判定にはボーナスを得ない。</p>"
+			"description": "<p>君の研ぎ澄まされた感覚は、危険や策略を素早く察知する。知覚DCに+1状況ボーナスを得るが、知覚判定にはボーナスを得ない。</p>"
 		},
 		{
 			"id": "Oread",
