@@ -1,0 +1,243 @@
+{
+    "PF2E": {
+        "NPCAbility": {
+            "IncreasedCriticalChance": "もし、攻撃が命中し、クリーチャーが出目19をロールしていたなら、クリティカル・ヒットになる。出目19で命中しないなら何の効果もない。"
+        },
+        "RuleElement": {
+            "ActiveEffectLike": "起動中効果の類",
+            "ActorTraits": "アクターの特性",
+            "AdjustDegreeOfSuccess": "成功度の調整",
+            "BaseSpeed": "基本速度",
+            "BattleForm": "戦闘形態",
+            "ChoiceSet": "選択セット",
+            "CraftingFormula": "製作の処方",
+            "CreatureSize": "サイズ",
+            "EffectTarget": "効果の対象",
+            "DamageDice": "ダメージ・ダイス",
+            "DexterityModifierCap": "敏捷修正値上限",
+            "FlatModifier": "平目の修正値",
+            "FixedProficiency": "習熟の固定",
+            "GrantItem": "アイテム授受",
+            "Immunity": "完全耐性",
+            "LinkedProficiency": "リンクした習熟",
+            "LoseHitPoints": "ヒット・ポイント減少",
+            "MultipleAttackPenalty": "複数回攻撃ペナルティ",
+            "Note": "注釈",
+            "Sense": "感覚",
+            "SetProperty": "属性",
+            "Strike": "打撃",
+            "Striking": "ストライキング",
+            "TempHP": "一時ヒット・ポイント",
+            "TempHPShortLabel": "一時HP",
+            "ToggleProperty": "属性の切り替え",
+            "TokenEffectIcon": "トークン効果アイコン",
+            "TokenImage": "トークン画像",
+            "TokenSize": "トークンサイズ",
+            "RecoveryCheckDC": "回復判定DC",
+            "Resistance": "抵抗",
+            "RollOption": "ロール・オプション",
+            "Weakness": "弱点",
+            "WeaponPotency": "武器発現",
+          "NewRuleElement": "新しいルール要素",
+          "Unrecognized": "非公式のルール要素"
+        },
+        "SkillVariant": {
+            "AboutCaves": "洞窟について",
+            "Blacksmithing": "鍛冶",
+            "Climb": "「登攀」に",
+            "ClimbOrSwim": "「登攀」あるいは「水泳」に",
+            "CraftTrapSnare": "トラップと罠作成に",
+            "Darkness": "暗闇で",
+            "Deserts": "砂漠で",
+            "Disarm": "武器落とし",
+            "DisarmMetal": "金属製アイテムの「武器落とし」に",
+            "DisarmStoneMetal": "石あるいは金属製アイテムの「武器落とし」に",
+            "Escape": "「脱出」に",
+            "Forests": "森林で",
+            "ForestsOrSwamps": "森林あるいは沼地で",
+            "Grapple": "「組みつき」に",
+            "Hide": "「隠れる」に",
+            "HighJumpOrLongJump": "「高跳び」あるいは「幅跳び」に",
+            "ImitateStone": "「石の模倣」に",
+            "Impersonate": "「なりすます」に",
+            "ImpersonateCloakSheetRay": "外套、シート、エイに「なりすます」",
+            "Jungles": "ジャングルで",
+            "Lair": "ねぐらで",
+            "Mountains": "山地で",
+            "Navigate": "道案内に",
+            "Paint": "絵を描くことに",
+            "Sand": "砂地で",
+            "Sewers": "下水道で",
+            "Shove": "「押しやる」に",
+            "Singing": "歌うときに",
+            "Snow": "雪の中で",
+            "Steal": "「盗む」に",
+            "StonyOrIcyAreas": "嵐や雪の範囲で",
+            "Squeeze": "「無理矢理はいりこむ」に",
+            "Swamps": "沼地で",
+            "Swim": "「水泳」に",
+            "TrackBleedingCreature": "出血しているクリーチャーの「追跡」に",
+            "Track": "「追跡」に",
+            "Traps": "トラップ",
+            "TrashAndRubbish": "ゴミと廃棄物の中で",
+            "Trip": "「足払い」に",
+            "Underground": "地下",
+            "Undergrowth": "下生えで",
+            "Vegetation": "草地で",
+            "VsArthropods": "節足動物に対して",
+            "VsControlled": "支配効果に対して",
+            "VsDiseases": "病気効果に対して",
+            "VsProne": "伏せ効果に対して",
+            "VsShoveOrTrip": "「押しやり」、「足払い」に対して",
+            "Water": "水中で",
+            "Weave": "織り上げるのに"
+        },
+        "SpecificRule": {
+            "AdvancedGeneralTraining": {
+                "AllowedDrops": "７レベル以下の一般特技",
+                "Prompt": "７レベル以下の一般特技を選んで下さい"
+            },
+            "ClanWeapon": {
+                "Label": "クラン武器",
+                "Prompt": "クラン武器を選んで下さい。"
+            },
+            "Cover": {
+                "Prompt": "遮蔽の段階を選んで下さい。",
+                "Lesser": "劣った遮蔽",
+                "Standard": "標準の遮蔽",
+                "Greater": "優れた遮蔽"
+            },
+            "FighterWeaponMasteryLegend": {
+                "Advanced": {
+                    "axe": "上級斧",
+                    "bomb": "上級爆弾",
+                    "bow": "上級弓",
+                    "brawling": "上級格闘",
+                    "club": "上級棍棒",
+                    "dart": "上級ダーツ",
+                    "firearm": "上級火器",
+                    "flail": "上級フレイル",
+                    "hammer": "上級ハンマー",
+                    "knife": "上級ナイフ",
+                    "pick": "上級ピック",
+                    "polearm": "上級ポールアーム",
+                    "shield": "上級盾",
+                    "sling": "上級スリング",
+                    "spear": "上級槍",
+                    "sword": "上級剣"
+                },
+                "SimpleMartial": {
+                    "axe": "単純 & 軍用 斧",
+                    "bomb": "単純 & 軍用 爆弾",
+                    "bow": "単純 & 軍用 弓",
+                    "brawling": "単純 & 軍用 格闘",
+                    "club": "単純 & 軍用 棍棒",
+                    "dart": "単純 & 軍用 ダーツ",
+                    "firearm": "単純 & 軍用 火器",
+                    "flail": "単純 & 軍用 フレイル",
+                    "hammer": "単純 & 軍用 ハンマー",
+                    "knife": "単純 & 軍用 ナイフ",
+                    "pick": "単純 & 軍用 ピック",
+                    "polearm": "単純 & 軍用 ポールアーム",
+                    "shield": "単純 & 軍用 盾",
+                    "sling": "単純 & 軍用 スリング",
+                    "spear": "単純 & 軍用 槍",
+                    "sword": "単純 & 軍用 剣"
+                }
+            },
+            "GeneralTraining": {
+                "AllowedDrops": "１レベルの一般特技",
+                "Prompt": "１レベルの一般特技を選んで下さい"
+            },
+            "MartialProficiency": {
+                "AdvancedAzarketiWeapons": "上級アザールケティ武器",
+                "AdvancedCatfolkWeapons": "上級キャットフォーク武器",
+                "AdvancedConrasuWeapons": "上級コンラス武器",
+                "AdvancedDwarfWeapons": "上級ドワーフ武器",
+                "AdvancedElfWeapons": "上級エルフ武器",
+                "AdvancedFirearmsCrossbows": "上級火器・クロスボウ",
+                "AdvancedGeniekinWeapons": "上級ジーニーキン武器",
+                "AdvancedGnollWeapons": "上級ノール武器",
+                "AdvancedGnomeWeapons": "上級ノーム武器",
+                "AdvancedGoblinWeapons": "上級ゴブリン武器",
+                "AdvancedGrippliWeapons": "上級グリプリー武器",
+                "AdvancedHalflingWeapons": "上級ハーフリング武器",
+                "AdvancedHobgoblinWeapons": "上級ホブゴブリン武器",
+                "AdvancedKoboldWeapons": "上級コボルド武器",
+                "AdvancedOrcWeapons": "上級オーク武器",
+                "AdvancedTenguWeapons": "上級テング武器",
+                "MartialAzarketiWeapons": "軍用アザールケティ武器",
+                "MartialCatfolkWeapons": "軍用キャットフォーク武器",
+                "MartialConrasuWeapons": "軍用コンラス武器",
+                "MartialDwarfWeapons": "軍用ドワーフ武器",
+                "MartialElfWeapons": "軍用エルフ武器",
+                "MartialFirearmsCrossbows": "軍用火器・クロスボウ",
+                "MartialGeniekinWeapons": "軍用ジーニーキン武器",
+                "MartialGnollWeapons": "軍用ノール武器",
+                "MartialGnomeWeapons": "軍用ノーム武器",
+                "MartialGoblinWeapons": "軍用ゴブリン武器",
+                "MartialGrippliWeapons": "軍用グリプリー武器",
+                "MartialHalflingWeapons": "軍用ハーフリング武器",
+                "MartialHobgoblinWeapons": "軍用ホブゴブリン武器",
+                "MartialKoboldWeapons": "軍用コボルド武器",
+                "MartialOrcWeapons": "軍用オーク武器",
+                "MartialTenguWeapons": "軍用テング武器",
+                "MonasticArchery": "寺院の弓術",
+                "SimpleFirearmsCrossbows": "単純火器・クロスボウ"
+            },
+            "SpecialtyCrafting": {
+                "Alchemy": "錬金術",
+                "Artistry": "美術品",
+                "Blacksmithing": "鍛冶",
+                "Bookmaking": "製本",
+                "Glassmaking": "ガラス作り",
+                "Leatherworking": "革なめし",
+                "Pottery": "磁器",
+                "Prompt": "専門分野を選んでください",
+                "Shipbuilding": "造船",
+                "Stonemasonry": "石工",
+                "Tailoring": "仕立屋",
+                "Weaving": "織物",
+                "Woodworking": "木工"
+            },
+            "Multitalented": {
+                "AllowedDrops": "２レベルのマルチクラス専心特技",
+                "Prompt": "マルチクラス専心特技を選んで下さい"
+            },
+            "Prompt": {
+                "CreatureSize": "クリーチャーのサイズを選んで下さい",
+                "Lesson": "教えを選んで下さい",
+                "LevelOneClassFeat": "１レベルのクラスと区議を選んで下さい",
+                "PathToPerfection": "完全への道を選んで下さい",
+                "Skill": "技能を選んで下さい",
+                "WeaponGroup": "武器グループを選んで下さい"
+            },
+            "TwoHanded": {
+                "BastardSword": "バスタード・ソードを両手持ちする",
+                "Broom": "ブルームを両手持ちする",
+                "Cane": "ケーンを両手持ちする",
+                "Katana": "カタナを両手持ちする",
+                "Khakkhara": "カーッカーラを両手持ちする",
+                "RhokaSword": "ローカ・ソードを両手持ちする",
+                "Staff": "スタッフを両手持ちする"
+            }
+        },
+        "UI": {
+            "RuleElements": {
+                "ChoiceSet": {
+                    "HomebrewItem": "自家ルール・アイテム",
+                    "DragHomebrewItem": "上記のオプションの代わりに使っているものがあるなら、自家ルール・アイテムをここにドラッグする",
+                    "Prompt": "選択をすること",
+                    "SaveLabel": "セーヴ"
+                },
+                "EffectTarget": {
+                    "Prompt": "この効果の対象を選んで下さい"
+                },
+                "Prompt": {
+                    "NoSelectionMade": "選択されていません {item}は起動していません",
+                    "NoValidOptions": "{actor}に有効な{item}の選択肢がありません"
+                }
+            }
+        }
+    }
+}

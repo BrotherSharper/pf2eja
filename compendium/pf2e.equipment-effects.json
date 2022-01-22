@@ -18,28 +18,28 @@
 		},
 		{
 			"id": "Effect: Ablative Armor Plating (Greater)",
-			"name": "Effect: Ablative Armor Plating (Greater)",
-			"description": "<p>The plating grants the wearer of the armor the 20 Hit Points for 1 hour or until lost. Removing the plating early destroys it.</p>"
+			"name": "効果：アブリティヴ・アーマー・プレーティング（グレーター）",
+			"description": "<p>プレーティングは1時間か、失われるまで、20点の一時的ヒット・ポイントを与える。プレーティングを取り除くと、予定時間より早く破壊される。</p>"
 		},
 		{
 			"id": "Effect: Ablative Armor Plating (Lesser)",
-			"name": "Effect: Ablative Armor Plating (Lesser)",
-			"description": "<p>The plating grants the wearer of the armor the 5 Hit Points for 1 minute or until lost. Removing the plating early destroys it.</p>"
+			"name": "効果：アブリティヴ・アーマー・プレーティング（レッサー）",
+			"description": "<p>プレーティングは1分か、失われるまで、5点の一時的ヒット・ポイントを与える。プレーティングを取り除くと、予定時間より早く破壊される。</p>"
 		},
 		{
 			"id": "Effect: Ablative Armor Plating (Major)",
-			"name": "Effect: Ablative Armor Plating (Major)",
-			"description": "<p>The plating grants the wearer of the armor the 30 Hit Points for 1 hour or until lost. Removing the plating early destroys it.</p>"
+			"name": "効果：アブリティヴ・アーマー・プレーティング（メジャー）",
+			"description": "<p>プレーティングは1時間か、失われるまで、30点の一時的ヒット・ポイントを与える。プレーティングを取り除くと、予定時間より早く破壊される。</p>"
 		},
 		{
 			"id": "Effect: Ablative Armor Plating (Moderate)",
-			"name": "Effect: Ablative Armor Plating (Moderate)",
-			"description": "<p>The plating grants the wearer of the armor the 10 Hit Points for 1 minutes or until lost. Removing the plating early destroys it.</p>"
+			"name": "効果：アブリティヴ・アーマー・プレーティング（モデレート）",
+			"description": "<p>プレーティングは1時間か、失われるまで、10点の一時的ヒット・ポイントを与える。プレーティングを取り除くと、予定時間より早く破壊される。</p>"
 		},
 		{
 			"id": "Effect: Ablative Armor Plating (True)",
-			"name": "Effect: Ablative Armor Plating (True)",
-			"description": "<p>The plating grants the wearer of the armor the 40 Hit Points for 1 hour or until lost. Removing the plating early destroys it.</p>"
+			"name": "効果：アブリティヴ・アーマー・プレーティング（トゥルー）",
+			"description": "<p>プレーティングは1時間か、失われるまで、40点の一時的ヒット・ポイントを与える。プレーティングを取り除くと、予定時間より早く破壊される。</p>"
 		},
 		{
 			"id": "Effect: Aeon Stone (Black Pearl)",

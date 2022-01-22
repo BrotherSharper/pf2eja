@@ -2,34 +2,84 @@
 	"label": "クラス特徴",
 	"entries": [
 		{
-			"id": "Advanced Deed",
-			"name": "身構え強化",
-			"description": "<p>君は選んだ道の強力な新しい技術を学んだ。君は、1レベル時点で選んだ道の身構え強化を得る。</p>"
+			"id": "Abjuration",
+			"name": "秘術系統：防御術",
+			"description": "<p>防御術士である君は防御の技を体得し、守りを強化し、攻撃を妨げ、魔法そのものを向け直すことすらする。君は1オンスの妨害が1ポンドの回復に値することを理解している。君は1レベルの防御術呪文（<em>@Compendium[pf2e.spells-srd.TTwOKGqmZeKSyNMH]{フェザー・フォール}</em>のような）1つを、君の呪文書に加える。君は<em>@Compendium[pf2e.spells-srd.lY9fOk1qBDDhBT8s]{守りの壁}</em>の系統呪文を学ぶ。</p>"
 		},
 		{
-			"id": "Alertness (Level 13)",
-			"name": "鋭敏感覚 (Level 13)",
-			"description": "<p>経験によって君は周囲の脅威にますます気づくようになり、危険にもっと素早く反応する。君の知覚への習熟ランクは熟練になる。</p>"
+			"id": "Alchemy",
+			"name": "錬金術",
+			"description": "<p>君は自然物質と人工物質の複雑な相互作用を理解し、自分の目的に合わせた錬金術アイテムを調合することが出来る。君は錬金術を、通常の試薬と「製作」の連続行動を使うかコストなしで迅速に一時的アイテムを製作することが出来る特殊な注入試薬を用いるかして、行うことが出来る。時間が経つにつれて、君は無料でより多くの錬金術アイテムを作ることが出来るようになる。また、錬金術アイテムのそれぞれがもっと強力になっていくため、君は劇的に力を強め、奇妙な科学を理解しない者達を置き去りにするだろう。</p>\n<p>君は、たとえ前提条件を満たしていなかったとしても、@Compendium[pf2e.feats-srd.is3Oz9wt11lNq62K]{《錬金術製作》}特技を得る。また、君はこの特技によって与えられる1レベルの錬金術処方を得る。君は処方書に処方が記載されている限り、錬金術アイテムを作るためにこの特技を使うことが出来る。</p>"
 		},
 		{
-			"id": "Arcane Spellcasting (Magus)",
-			"name": "秘術呪文 (メイガス)",
-			"description": "<p>君は呪文を研究しているので、攻撃と呪文を組み合わせたり、腕力だけで取り扱うことが出来ない問題を解決することが出来る。君は@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{「呪文の発動」}の連続行動で秘術呪文を発動し、呪文を発動する際に物質、動作、音声要素を供給することが出来る。</p>\n<p>君はメイガスであるため、物質要素を必要とする呪文に、武器の先端や自由な手で代わりの印を描き、物質構成要素ポーチを必要とすることがないように動作要素と入れ替えることが出来る。</p>\n<p>1レベル時点で、君は毎朝、呪文書にある呪文（下記参照）から1つの1レベル呪文と5つのキャントリップを準備することが出来る。準備済み呪文は、それを発動するか、再び呪文を準備するまで使える状態のままである。君が準備することが出来る呪文の数を、呪文スロットと呼ぶ。</p>\n<p>君がメイガスとしてのレベルをあげていくにつれ、君の呪文スロットの数と、君が呪文スロットから発動することが出来る呪文の最高レベルは増えていき、表2-2：1日のメイガス呪文に提示されている通りになる。君は肉体的な訓練と魔術の探求の両方に集中するため、最高レベルには1つしか呪文スロットを持つことはなく、もし、2レベル以上の呪文を発動することが出来るなら、最高の呪文レベルよりも1つ低い呪文レベルに、2つの呪文スロットを持つ。</p>\n<p>君の呪文には、その効果を確かめるために呪文攻撃ロールを試みるものや、敵に君の呪文DCに対してのロールをさせるものがある（一般的にはセーヴィング・スローをさせる）。君の呪文攻撃ロールと呪文DCは知力修正値を用いる。これらのステータス圭さんの詳細は呪文攻撃ロールを参照すること。</p>"
+			"id": "Alertness",
+			"name": "鋭敏感覚",
+			"description": "<p>君は周囲の脅威に警戒心を抱いており、危険に素早く反応できる。君の知覚の習熟ランクは熟練になる。</p>"
 		},
 		{
-			"id": "Arcane Spellcasting (Wizard)",
-			"name": "秘術呪文 (ウィザード)",
-			"description": "<p>研究と実践への専念を通じて、君は呪文発動のための秘術の力を制御することが出来る。君は@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{「呪文の発動」}の連続活動を使って秘術呪文を発動することが出来る。そして、君は呪文発動の際に物質、動作、そして音声要素を与えることが出来る。</p>\n<p>1レベル時点で、君は2つまでの1レベル呪文と5つまでのキャントリップを君の呪文書（下記参照）の呪文から毎朝、準備することが出来る。それに加えて、君が専門家ウィザードならば、1レベルごとに1つと、キャントリップ1つの、追加の君の選んだ系統の呪文を準備することが出来る。準備済呪文は君がそれを発動するか、再び呪文を準備する時まで使用可能なままである。君が準備することが出来る呪文の数を、呪文スロットと呼ぶ。</p>\n<p>君のウィザード・レベルが上がるにつれて、君の呪文スロットの数と、君が呪文スロットから発動することが出来る最高レベルの呪文は増えていく。</p>"
+			"id": "Ancestors",
+			"name": "神秘：先祖",
+			"description": "<p>過去の世代の声が君に呼びかける。君は彼らの言葉を聞くのである。君は常に妨害されることに憤っているのかもしれないし、以前にやってきた霊魂を尊敬しているのかもしれない。恐らく、君はショアンティのスコアン＝クア（頭蓋の氏族）のような、強力な先祖の伝統を持つ文化や、トラグの家族の万神殿を信仰する伝統的なドワーフの共同体、あるいはエラスティルやファラズマを尊崇するグループの出身なのかもしれない。君は魂を死後に案内する強力なサイコポンプや魂の川そのもの、あるいは魂の再生という大いなる周期の外側に弾き出されてしまった霊魂に馴染みがあるのかもしれない。君はその囁きや記憶の断片から学びを得るが、精神を彼らの知識と経験に開くことは、彼らが君の世俗的な問題に鑑賞することを可能にしてしまう。</p>\n<p><strong>神秘の恵み</strong></p>\n<p>　先祖の囁きは君に追加の知識をもたらす。1レベル時点で君は追加の祖先特技一つを得て、11レベル時点で更に追加の祖先特技一つを得る。これらの特技は追加の感覚や素手打撃のような肉体的な効果であってはならない。</p>\n<p><strong>修得技能</strong>　〈社会〉</p>\n<p><strong>キャントリップ</strong>　@Compendium[pf2e.spells-srd.izcxFQFwf3woCnFs]{ガイダンス}</p>\n<p><strong>啓示呪文</strong></p>\n<ul>\n<li>初期 @Compendium[pf2e.spells-srd.d2pi7laQkzlr3wrS]{先祖の接触};</li>\n<li>上級 @Compendium[pf2e.spells-srd.J5KrjQKCg2PrF1vz]{先祖の守り};</li>\n<li>最上級 @Compendium[pf2e.spells-srd.xEjGEBvTfDJECSki]{先祖の姿}</li>\n</ul>\n<p><strong>関連領域</strong> 死、家族</p>\n<h3>先祖の擾乱</h3>\n<p>君が交流している先祖の霊魂は、君を脅かし、君の振る舞いや行動に干渉する。その理由は君を手助けするための善意（究極的には悪影響だが）で、君が伝統的な信仰の力の成長方法を上手に迂回している厚かましさへの罰なのかもしれないし、先祖自身の楽しみのためであるか、上記の混合であるのかもしれない。君の髪型、衣類、所有物は常に変化し、落ち着かず、それはまるで君自身の意志であるかのように見える。</p>\n<p><strong>下級の呪い</strong></p>\n<p>先祖の一人が干渉に優位になる。君が一日の内、最初にこの効果を得た際、下記の表：2-4：先祖の影響を使って、どのタイプの先祖が優位になるか、[[/r 1d4]]をロールして決める。この優位になった先祖は好むタイプのアクションを使うように君を導く。君がその他の先祖のところに記載されたアクションを使おうとする際、DC4の平目判定に成功しなくてはならない。失敗したなら、君はアクションを消費するが効果を得ない（君が「呪文の発動」をしていたとして、君はその呪文を失わない）。もし君のアクションが1分以上かかるものであるなら、君がこの干渉を克服するには十分であるため、平目判定を試みる必要はない。</p>\n<p>戦闘や、ラウンドからラウンドずつ管理をする遭遇といった別の緊張する状況では、その他の先祖達は君のアクションを支配しようとして取っ組み合う。君がイニシアチブをロールする際、遭遇の間、手番の終了時ごとに [[/r 1d4]]をロールして君の中で優位な先祖を適切に変更すること。遭遇が終了したなら、一日の間、君は最初にロールした先祖の影響下に戻る。</p>\n<p>@Compendium[pf2e.feature-effects.IrMgMRXf258bdIDo]{効果: 下級の将軍の先祖の呪い}, @Compendium[pf2e.feature-effects.2uZfgqV279rxX4NK]{効果: 下級の技巧者の先祖の呪い}, @Compendium[pf2e.feature-effects.iZHqhBHIZ0TB5Dbn]{効果: 下級の術者の先祖の呪い}</p>\n<p><strong>中級の呪い</strong></p>\n<p>Tの他のアクションを使用するための平目判定DCは6になり、君は君の中で優位に立っている先祖に記載されている中級の呪いの恵みを受ける。</p>\n<p>@Compendium[pf2e.feature-effects.XhOBnOBCju9GJ8Ts]{効果: 中級の将軍の先祖の呪い}, @Compendium[pf2e.feature-effects.UTI8IkzXGlOHxrzc]{効果: 中級の技巧者の先祖の呪い}, @Compendium[pf2e.feature-effects.FClOlGn44lFLqmbA]{効果: 中級の術者の先祖の呪い}</p>\n<p><strong>上級の呪い (11レベル)</strong></p>\n<p>平目判定のDCは8になり、君は中級の呪いの代わりに、君の中で優位に立っている先祖に記載されている上級の呪いの恵みを受ける。</p>\n<p>@Compendium[pf2e.feature-effects.OzA7pUzYe2ZIprYJ]{効果: 上級の将軍の先祖の呪い}, @Compendium[pf2e.feature-effects.0H4WuqjCxpXX67eK]{効果: 上級の技巧者の先祖の呪い}, @Compendium[pf2e.feature-effects.gVzPZm12KujYWxMb]{効果: 上級の術者の先祖の呪い}</p>\n<hr />\n<h4>祖先の影響</h4>\n<ol>\n<li>将軍\n<ul>\n<li><strong>好むアクション</strong> 「打撃」</li>\n<li><strong>中級の呪いの恵み</strong> 君の「打撃」は攻撃ロールに+1ステータス・ボーナス、ダメージに+2ステータス・ボーナスを得る</li>\n<li><strong>上級の呪いの恵み</strong> 君の「打撃」は攻撃ロールに+1ステータス・ボーナス、ダメージに+6ステータス・ボーナスを得る</li>\n</ul>\n</li>\n<li>技巧者\n<ul>\n<li><strong>好むアクション</strong> 知覚と技能アクション</li>\n<li><strong>中級の呪いの恵み</strong> 技能判定と知覚判定に+1ステータス・ボーナスを得る</li>\n<li><strong>上級の呪いの恵み</strong> 技能判定と知覚判定に+2ステータス・ボーナスを得る</li>\n</ul>\n</li>\n<li>術者\n<ul>\n<li><strong>好むアクション</strong> 「呪文の発動」</li>\n<li><strong>中級の呪いの利益</strong> 持続時間なしのキャントリップでない呪文はダメージと治癒に呪文レベルに等しいステータス・ボーナスを得る。</li>\n<li><strong上級の呪いの利益</strong> 持続時間なしのキャントリップでない呪文はダメージと治癒に呪文レベル+3に等しいステータス・ボーナスを得る。</li>\n</ul>\n</li>\n<li>どの祖先がアクションを導いてくれるのか君が選ぶ</li>\n</ol>"
 		},
 		{
-			"id": "Breakthrough Innovation",
-			"name": "ブレイクスルーの発明",
-			"description": "<p>君は研究分野にブレイクスルーをもたらし、発明を強化する強力な新しい方法を発見した。発明に適用するブレイクスルー改造を、君の発明の種別のものから選ぶこと。君は、もし望むなら自分の発明種別の初期改造を選んでもよい。</p>\n<h3>ブレイクスルー防具改造</h3>\n<ul>\n<li><strong>反魔法装甲:</strong> 君は、魔法を無効化するスカイメタルとして知られるノークォルを巧みに利用したり、自分独自の設計による魔法への護りを作り出すなどして、魔法に対して防具を強化した。この防具を着用している間、君は呪文に対する全てのセーヴィング・スローと呪文に対するACに+1状況ボーナスを得る。直接的に防具を対象とする呪文に対して（ヒート・メタルなど）、君は代わりに全てのセーヴィング・スローとACに対して+4状況ボーナスを得る。</li>\n<li><strong>迷彩色（サブターフュージ・スーツのみ）:</strong> 君は、静止している限り、簡単に環境に馴染むことが出来るように防具の外装を修正する。この防具を着用している間、君は遮蔽や視認困難がなくても「隠れる」ことが出来る。色合いが周囲に馴染むように変化するのである。</li>\n<li><strong>密集装甲:</strong> 君は自分の防具を頑丈な装甲で覆っている。この防具を着用している間、君はレベルの半分に等しい、斬撃への抵抗を得る。</li>\n<li><strong>抵抗強化:</strong> 君は、初期修正で得たダメージへの抵抗を改良した。初期修正による防具の抵抗は、レベルの半分ではなく、完全なレベルになる（例えば、燃焼調節器の抵抗は君のレベルに等しくなる）。もし、抵抗を与える初期改造を2つ以上持っているなら、どれに適用するかを選ぶこと。</li>\n<li><strong>重層構造（パワースーツのみ）:</strong> 君は発明を重厚で堅牢なものへと進化させ、画期的な設計によってそういった重装備の欠点を受けないようになった。君の発明は重装鎧となり、君の発明防具に対する習熟（ただし他の重装鎧には適用されない）は中装鎧に対する習熟度を等しくなる。もし、君の筋力が16以上なら、-5フィートに減らす代わりに、速度ペナルティを完全に取り除く。防具の調整後のステータスは以下の通りである：ACボーナス+5；敏捷力修正上限+1；判定ペナルティ-2；速度ペナルティ-10フィート；筋力16；バルク 3：グループ　多層；防具特性　堅牢</li>\n<li><strong>強化ブースター:</strong> 君は、爆発のリスクなしにエネルギーの流れを大きく増加させるブレイクスルーを通じて、速度増幅装置を改良した。君は、速度に+10フィートのステータス・ボーナスを得るが、「オーバードライブ」している間、このボーナスは+20フィートに増える。君が〈製作〉に伝説であるなら、「オーバードライブ」している間、+30フィートに増える。君はこの修正を選ぶために速度増幅器の改造を持っていなくてはならない。</li>\n<li><strong>多層メッシュ:</strong> 君は、驚異的なほど強力な網目状のメッシュを防具に張り巡らせており、それが貫通する攻撃を捉えて拡散させる。この防具を着用している間、君はレベルの半分に等しい刺突ダメージへの抵抗を得る。</li>\n<li><strong>伸張吸収:</strong> 君は防具の伸張力を強化し、叩きつけるような攻撃を受けた際に屈曲するようにした。この防具を着用している間、君はレベルの半分に等しい殴打ダメージへの抵抗を得る。</li>\n</ul>\n<h3>ブレイクスルー人造改造</h3>\n<ul>\n<li><strong>上級武装:</strong> 君は人造の武器を強力なものにする。人造の素手打撃を一つ選び、任意の初期武器改造を得る。この初期武器改造は、この本に記載されているものか、君が入手手段を持つその他の初期武器改造から選ぶこと。素手打撃は、選んだ特性のあらゆる条件を満たしていなくてはならない（絡みつく武器ならば、近接攻撃でなければならないなど）。また、これは素手打撃であるため、単純武器の複雑化のように単純武器でなければならないといった特定の条件を満たすことは決してない。</li>\n<li><strong>反魔法の被造物:</strong> 君は、魔法を無効化するスカイメタルとして知られるノークォルを巧みに利用したり、自分独自の設計による魔法への護りを作り出すなどして、魔法に対して自分の人造を強化した。君の人造の発明は呪文に対する全てのセーヴィング・スローとACに+2状況ボーナスを得る。</li>\n<li><strong>登攀用の四肢:</strong> 爪をたてたり、吸着力を作り出すことが出来る付属肢でもって、君の人造は有能な登攀家となる。君の発明は地上速度の半分に等しい登攀速度を得る。</li>\n<li><strong>丈夫な被造物:</strong> 君の発明はしっかりと作られている；人造は破壊されることなく重大な懲罰を受けることが出来る。最大ヒット・ポイントを君のレベルだけ増やす。</li>\n<li><strong>最高の装備:</strong> 君の発明は、〈威圧〉、〈隠密〉、〈生存〉に熟練の習熟度を得る。これらのうち、既に熟練である技能については（例えば、強化された人造の相棒になったためなど）、代わりに達人の習熟度を得る。もし、君が革新的発明のクラス特徴を得たなら、これらの習熟は達人に改善するか、既に君の人造の発明が熟練なら、伝説になる。君は、この改造を選ぶために驚異的装備を持っていなくてはならない。</li>\n<li><strong>砲塔形態:</strong> 君の発明は移動可能な人造から、固定された砲塔に姿を変えることが出来る。君の人造の相棒は操作の特性を持つ単発アクションで変身することが出来る。相棒はその接敵面で砲塔に変身する（あるいは、砲塔から通常の構成に戻る）。砲塔でいる間、君の発明は動けない状態だが、その発射装置のダメージ・ダイスは1d6に上昇し、射程単位は60フィートまで増える。君はこの改造を選ぶために、発射装置の改造を持っていなくてはならない。</li>\n</ul>\n<h3>ブレイクスルー武器改造</h3>\n<ul>\n<li><strong>照準器強化(遠隔のみ):</strong> 注意深く調整されたスコープや照準用装置によって君の武器は特に弱点を狙いやすい。君の発明は急所打ちの特性を得て、射程単位を10フィート増加させる。</li>\n<li><strong>空気力学の構造 （近接のみ）:</strong> 君は注意深く、連続した対象に対する攻撃に勢いを維持するよう、武器の形状を設計する。君の発明は一掃と、可変（斬撃）の特性を得る。</li>\n<li><strong>目立たない外見(近接のみ):</strong> 君の発明は簡単に隠すことができるように、そして奇襲攻撃が出来るように作られている。発明は急所打ちと可変（刺突）の特性を得る。この武器が軽重量のバルクなら、隠匿可能の特性を持つ。</li>\n<li><strong>一体化したガントレット (片手武器のみ：両手の特性を持つことが出来ない）:</strong> ガントレットと武器を組み合わせることで、君は武器での攻撃と手を使った作業の切替を素早くする。君の発明は無手の特性を得る</li>\n<li><strong>多様な合金:</strong> 君は、様々な金属の有用な属性を持った幾つかの合金を考案し、こういった合金で、武器のパーツや矢弾を入れ替えた。君の武器の発明は冷たい鉄かつ錬金術銀である。つまり、君はデーモン、デヴィル、フェイのような様々な超自然のクリーチャーに多くのダメージを与えられるようになる。</li>\n<li><strong>ロープ・ショット(遠隔のみ):</strong> 君の武器は、敵の脚周辺に単純なロープやネットを吐き出すことが出来て、それらは対象に足払いをする。また、君は武器に組み込まれたグラップリング・フックを使って登攀することが出来る。君の武器の発明は登攀と遠隔足払いの特性を得る。</li>\n<li><strong>もつれる紐 (投擲のみ):</strong> 君の武器は、的をノックダウンし、素早く手に武器を戻すための伸縮可能な紐がついている。君の発明は遠隔足払いと紐付きの特性を得る。</li>\n</ul>"
+			"id": "Armor Expertise",
+			"name": "防具の専門知識",
+			"description": "<p>君はその防具でどう身を守るかのほとんどを知っている鎧を着用して多くの時間を過ごした。軽装鎧、中装鎧、重装鎧と生身への君の習熟ランクは熟練になる。君は中装鎧と重装鎧の特化効果を得る。</p>"
 		},
 		{
-			"id": "Complete Reconfiguration",
-			"name": "完全なる再設定",
-			"description": "<p>モノづくりや鍛冶となると、君は発明の機能を調整するための改造に信じがたいほど熟達している。君が発明の再設定に余暇を費やし、〈製作〉判定に成功した際、改造を1つではなく、幾つでも入れ替え、攻撃力増幅を入れ替え、あるいは任意の数の改造特技を再訓練することが出来る。君はそれでも、同じ種別の改造とのみ入れ替えなければならない（初期、ブレイクスルー、革新から）。</p>"
+			"id": "Armor Mastery",
+			"name": "防具体得",
+			"description": "<p>君の防具の技能は発展し、攻撃を妨げる能力が上昇した。軽装鎧、中装鎧、重装鎧、そして生身への君の習熟ランクは達人になる。</p>"
+		},
+		{
+			"id": "Battle",
+			"name": "神秘：争い",
+			"description": "<p>戦争に似た力が君を肉体的な強さと戦術知識で満たし、君に戦場の栄光を持たせ、世界を広げるために戦い、避けられぬ争いに対しての準備をさせ、不可避の戦争に耐えさせようとする。君はゴルム、アイオーメディ、ロヴァガグ、戦のホースマン・スツリエル、夜の女王エイセス、ヴードラ人の神ディオマスル、あるいはその他の神々の力を利用するか、君はヘヴンとヘル、エレメンタル界、外なる神の軍勢、あるいは時代を通じて戦を行ってきた集合的な霊魂の終わらぬ闘争から力を得る方法を発見した。</p>\n<p><strong>神秘の恵み</strong></p>\n<p>君は戦の象徴になじみ深い。君は中装鎧と重装鎧に修得である。13レベル時点で、君は軽装鎧の専門知識のクラス特徴と、そしてこれらの防具に熟練の習熟を得る。</p>\n<p>君の神秘を実体化する一つの武器グループを選ぶ。11レベル時点で、もし君が武器の専門知識のクラス特徴を得たなら、選んだグループの軍用武器に熟練の習熟を得て、そのグループの上級武器に修得となる。</p>\n<p><strong>修得技能</strong> 〈運動〉</p>\n<p><strong>授与キャントリップ</strong> @Compendium[pf2e.spells-srd.TVKNbcgTee19PXZR]{シールド}</p>\n<p><strong>啓示呪文</strong></p>\n<ul>\n<li>初期 @Compendium[pf2e.spells-srd.dqaCLzINHBiKjh4J]{軍勢への呼び声};</li>\n<li>上級 @Compendium[pf2e.spells-srd.2jWVNdVlbJq84dfT]{戦場の不屈};</li>\n<li>最上級 @Compendium[pf2e.spells-srd.4j0FQ1mkidBAXuQV]{英雄の業}</li>\n</ul>\n<p><strong>関連領域</strong> 力、熱狂</p>\n<h3>英雄という重荷</h3>\n<p>君はアドレナリンが巡る間、力強くなり、君の命は自分の力のみに依存しているが、各種の年代における網羅的な戦の武威を内包することによって、戦いの後、君の肉体は弱体化する。君はどんなに匂いを取り除こうと、あるいは隠そうとしても微かに血と鉄の匂いがする。君は実際よりも筋肉質に見え、常に遠くからの微かな衝突や戦闘の騒ぎを聞きつける。</p>\n<h4>下級の呪い</h4>\n<p>君の肉体は、君が敵に害を与えていない時にやつれる。君がACとセーヴィング・スローに-2のステータス・ペナルティを受けるが、「打撃」をするごとに、君はこのペナルティを次の手番の開始時まで抑制することが出来る。</p>\n<p>@Compendium[pf2e.feature-effects.922SDayUnipK4wlx]{効果：下級の争いの呪い}</p>\n<h4>中級の呪い</h4>\n<p>たとえそれから力を得ているとしても、相克のひずみが君の肉体に現れる。完全に抑制するのではなく、「打撃」を行うことによる下級の呪いの軽減効果は、完全になくなるという効果ではなく、-1のペナルティになる。君は武器と素手打撃のダメージ・ロールに+2のステータス・ボーナスを得る。君はまた、些末ではない戦闘遭遇の間、レベルの半分に等しい高速治癒をも得る。</p>\n<p>@Compendium[pf2e.feature-effects.5q4JYkYlqOK2kXWy]{効果：中級の争いの呪い}</p>\n<h4>上級の呪い (11th)</h4>\n<p>君の肉体は真の英雄の偉業に耐えられることを証明するが、そうすることは君の精神の集中を乱す。中級の呪いによる高速治癒は君のレベルに等しくなり、ダメージ・ボーナスは+6になる。君は武器と素手打撃の攻撃ロールに+1ステータス・ボーナスを得るが、君は @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{知性低下2}である。 </p>\n<p>@Compendium[pf2e.feature-effects.JGNnron2gnYI1P78]{効果：上級の争いの呪い}</p>"
+		},
+		{
+			"id": "Battledancer",
+			"name": "スワッシュバックラーのスタイル：戦の舞手",
+			"description": "<p>君にとって、戦いとはある種の芸術である。君は敵の注意を、暗示的な動作で操作することが出来る。</p>\n<p>君は〈芸能〉に修得であり、 @Compendium[pf2e.feats-srd.7LB00jkh6JaJr3vS]{《魅力的な演芸》} （コアルールブックp261）の技能特技を得る。たとえ敵が恍惚状態でないとしても、君は遭遇の間、「芸能」のための〈芸能〉判定の結果が、見ている敵の意志DCを越えている際、 @Compendium[pf2e.classfeatures.LzYi0OuOoypNb6jd]{心意気} を得る。</p>"
+		},
+		{
+			"id": "Bones",
+			"name": "神秘：骨",
+			"description": "<p>君の神秘は死と死なないものへの理解を、全ての死を表す複雑な表象のうちに授ける。君は自分自身の死そのものを経験したことがあるのかもしれない（もしかしたら、死んでから生あるものに戻ったのかもしれない）し、血の中に死なないものに接触した形跡があるのかもしれない。もし、君が神格と交流したことがあるのなら、君はファラズマやサイコポンプの案内人（死後の魂を導くクリーチャーのうち、最も強力な生き物）のような死の守護者、カマキリの神アチャケクやアポカリプス・カロンのホースマンといった死をもたらす者、あるいはウルガソーアのような死なずの伝令者と話したことがあるのかもしれない。.</p>\n<p><strong>神秘の恵み</strong></p>\n<p>君は賢明にも生と死の繊細な機微を自らの恵みへと還元する。毎日、一日の準備をする間、君は負のエネルギー治癒を得るために自分自身を正と負の合流点とすることが出来る。つまり、君はアンデッドであるかのように正のエネルギーによってダメージを受け、負のエネルギー効果によって治癒を受ける。</p>\n<p>もし君が既に負のエネルギー治癒を得ているなら、代わりに君の回復判定のDCは9+現在の瀕死値になる。</p>\n<p><strong>修得技能</strong> 〈医学〉</p>\n<p><strong>授与キャントリップ</strong> @Compendium[pf2e.spells-srd.mAMEt4FFbdqoRnkN]{チル・タッチ}</p>\n<p><strong>啓示呪文</strong></p>\n<ul>\n<li>初期 @Compendium[pf2e.spells-srd.D6T17BdazhNy3KPm]{魂のサイフォン};</li>\n<li>強化 @Compendium[pf2e.spells-srd.pSNLufPPsReKQtJR]{骨の鎧};</li>\n<li>上級 @Compendium[pf2e.spells-srd.GzN9bG6cKZ96YC6l]{不死者への呼びかけ}</li>\n</ul>\n<p><strong>関連領域</strong> 死、不死</p>\n<h3>生ける死者の呪い</h3>\n<p>君の肉体は生きている時ですら、ゆっくりと衰退していく。そして君は力を使うことによって、この不自然な生ける死者の状態を強めてしまう。君の体はまるで墓場に触れたような感触である。それは血色の悪さ、ほのかな大地の匂い、死人のような冷たい肌に表れる。</p>\n<h4>下級の呪い</h4>\n<p>君の皮膚は骨が浮いていて、肉は腐敗しており、腐敗の悪臭と地上のものではない寒気が組み合わさっている。ヒットポイントを回復させる魔法のものでない効果は通常の半分しか君にヒットポイントを与えない。</p>\n<p>@Compendium[pf2e.feature-effects.whf92aQ6aMwByjFn]{効果: 骨の呪い（下級）}</p>\n<h4>中級の呪い</h4>\n<p>君の死せる肉体は腐敗を続け、君の健康に影響を及ぼす。君は@Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{吸精1}になり、この吸精状態は君が得る全ての他の吸精状態と累積する。この吸精状態は、君が「再集中」した際にのみ取り除かれる：通常、吸精状態を取り除くであろう効果は、君の吸精状態を1まで軽減するにとどまる。</p>\n<p>更に、君はレベルの半分に等しい毒への抵抗を持つ。君は病気、毒、即死効果に対するセーヴに+4ステータス・ボーナスを得て、もしそういったセーヴに成功したなら、代わりにクリティカルする。</p>\n<p>@Compendium[pf2e.feature-effects.74K4QxDp37huY8dm]{効果: 骨の呪い（中級）}</p>\n<h4>上級の呪い (11th)</h4>\n<p>Y君は墓場から数歩のところにいる。君は@Compendium[pf2e.conditionitems.Yl48xTdMh3aeQYL2]{負傷1}になる。 この負傷状態は「再集中」によってのみ、取り除くことが出来る：通常なら負傷状態を取り除くような効果は、君の負傷状態を負傷1まで軽減するにとどまる。.</p>\n<p>回復判定を試みるような場合は、君はロールするのではなく自動成功を選んでもよい。また、君が病気、毒、即死効果に対するセーヴにファンブルした際、代わりに失敗となる。</p>\n<p>@Compendium[pf2e.feature-effects.Osr01ZmGZNdArXyT]{効果: 骨の呪い（上級）}</p>"
+		},
+		{
+			"id": "Braggart",
+			"name": "スワッシュバックラーのスタイル：狂犬",
+			"description": "<p>君はホラを吹き、威圧し、心理的に敵に釘を刺す。</p>\n<p>君は〈威圧〉に修得である。君は遭遇の間、敵の@Compendium[pf2e.actionspf2e.2u915NdUyQan6uKF]{「士気をくじく」}に成功した際にいつでも、@Compendium[pf2e.classfeatures.LzYi0OuOoypNb6jd]{心意気}を得る。</p>"
+		},
+		{
+			"id": "Conjuration",
+			"name": "秘術系統：召喚術",
+			"description": "<p>召喚術士である君は、彼方の場所からクリーチャーや物体を召喚し、遠くの場所へと転送するために魔法を使う。君は勝利への本物の鍵は数の有利だと理解している。君は、1レベルの召喚術呪文（@Compendium[pf2e.spells-srd.4YnON9JHYqtLzccu]{「サモン・アニマル」})のような）1つを、君の呪文書に加える。君は@Compendium[pf2e.spells-srd.tWzxuJdbXqvskdIo]{招来強化}の系統呪文を学ぶ</p>"
+		},
+		{
+			"id": "Cosmos",
+			"name": "神秘：宇宙",
+			"description": "<p>大きなものから小さなものまで、天体は君に影響力を持ち、崇高な宇宙の力を与える。君は瞬く星々を聖なる祝福とみなしているのかもしれないし、その合間に無限に広がる暗闇に引き込まれるのかもしれない。君はデズナ、サーレンレイ、あるいはシズルとツキヨという太陽と月の象徴である反発し合う恋人達といった神格を支持しているのかもしれないし、特定の外なる神やゾン＝クーソンのような破壊的な夜の神、ネズミの神ラオ・シュゥ・ポーのような星々の彼方にいる神格から力を与えられているのかもしれない。</p>\n<p><strong>神秘の恵み</strong></p>\n<p>君の肉体は物理的なものであると同時に、天文学的なものでもある。君は全ての物理ダメージに対して、2+レベルの半分に等しい抵抗を得る。</p>\n<p><strong>修得技能</strong> 〈自然〉</p>\n<p><strong>授与キャントリップ</strong> @Compendium[pf2e.spells-srd.kl2q6JvBZwed4B6v]{ダンシング・ライツ}</p>\n<p><strong>啓示呪文</strong></p>\n<ul>\n<li>初期 @Compendium[pf2e.spells-srd.mlNYROcFrUF8nFgk]{星々の飛沫};</li>\n<li>強化 @Compendium[pf2e.spells-srd.L37RTc7K79OUpZ7X]{星間の虚無};</li>\n<li>上級 @Compendium[pf2e.spells-srd.In2A7GCyxxaqZdPI]{月光の架け橋}</li>\n</ul>\n<p><strong>関連領域</strong> 暗闇、月</p>\n<h3>空の呼び声の呪い</h3>\n<p>君の頭の中には、雲がある――単に比喩的な意味というだけでなく。君の肉体は天に引きつけられており、本来よりも軽く、そして非物質的である。君の瞳は星の明かりで輝いており、君の髪の毛と衣類は浮かんで君の周囲をさまよう。</p>\n<h4>下級の呪い</h4>\n<p>君の自然のものではない輝きは、君が足場を保つことや、他の物理的な物体と干渉するのを難しくする。君は@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱1}になり、@Compendium[pf2e.actionspf2e.PMbdMWc2QroouFGD]{「組みつき」}、 @Compendium[pf2e.actionspf2e.7blmbDrQFNfdT731]{「押しやり」}、その他の形の強制移動に対するセーヴとDCに-2のペナルティを受ける。</p>\n<p>@Compendium[pf2e.feature-effects.usi1qa95gK4WnFIg]{効果: 宇宙の呪い（下級）}</p>\n<h4>中級の呪い</h4>\n<p>君の肉体は更に空に引きつけられている。君は@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱2}になり、下級の呪いによるペナルティは-3に増える。</p>\n<p>君は風の効果に対して、1サイズ小さいように扱われる。君は@Compendium[pf2e.actionspf2e.ge56Lu1xXVFYUnLP]{「足払い」} の試みに対して+2ステータス・ボーナスを得て、落下からのダメージを半分しか受けず、技能特技@Compendium[pf2e.feats-srd.HJYQlmGTdtyGWr6a]{《力強き跳躍》}と@Compendium[pf2e.feats-srd.ZBhvJ9O8MvBFAlhq]{《跳躍高速化》}の効果を得る。君は半分しか体重がない。君のバルク、つまり、君を運ぶために必要なバルクもまた、半分になる。</p>\n<p>@Compendium[pf2e.feature-effects.GaTJBSkIaDEG36Ot]{効果: 宇宙の呪い（中級）}</p>\n<h4>上級の呪い (11th)</h4>\n<p>君の肉体は浮遊していき、地面のすぐ上に浮くようになる。君は @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱4}になり、下級の呪いによるペナルティは-4に増える。</p>\n<p>君はそれが固体であるかのように液体の上を歩くことが出来る；君は@Compendium[pf2e.feats-srd.TVFfTP9fHRidwBlW]{《雲のごとき跳躍》} の技能特技の効果を得る；君は痕跡を残さず、重さを感知する圧力板のトリガーになることがなく、地面に君を繋ぎとめる効果を受けない。</p>\n<p>@Compendium[pf2e.feature-effects.cCouACwRwxjEgy7u]{効果: 宇宙の呪い（上級）}</p>"
+		},
+		{
+			"id": "Defensive Robes",
+			"name": "守りのローブ",
+			"description": "<p>魔力の流れと君の訓練が組み合わさったことに助けられ、君は攻撃を避けることが出来る。生身への君の習熟ランクは熟練になる。</p>"
+		},
+		{
+			"id": "Deny Advantage",
+			"name": "常在戦場",
+			"description": "<p><strong>バーバリアン</strong>: 敵は君の防御を抜くのに苦労する。君は自分のレベル以下の隠れた状態、未探知、あるいは挟撃しているクリーチャーに対して、そして自分のレベル以下の不意打ちを使っているクリーチャーに対して立ちすくみではない。しかし、それでもそういったクリーチャーはそのクリーチャーの味方の挟撃を助ける。</p>\n<hr />\n<p><strong>ローグ</strong>: 他人の護りを利用しようとする者である君は、そのような隙を自分に残さない。君は、自分のレベル以下の隠れた状態、未探知。あるいは挟撃しているクリーチャー、そして自分のレベル以下の不意打ちを使っているクリーチャーに対して立ちすくみではない。しかし、それでもそういったクリーチャーはそのクリーチャーの味方の挟撃を助ける。</p>"
+		},
+		{
+			"id": "Divination",
+			"name": "秘術系統：占術",
+			"description": "<p>占術士である君は探索、調査、戦闘の戦略を変更しうる情報を学び、千里眼と先見を体得している。君は、知識が力であると理解している。君は、1レベルの占術呪文（@Compendium[pf2e.spells-srd.Gb7SeieEvd0pL2Eh]{「トゥルー・ストライク」}のような）1つを、君の呪文書に加える。君は@Compendium[pf2e.spells-srd.oFwmdb6LlRrh9AUT]{占術の先見}の系統呪文を学ぶ</p>"
+		},
+		{
+			"id": "Eldritch Trickster",
+			"name": "裏稼業：見習い魔法使い",
+			"description": "<p>大規模な強盗事件ともなると、名だたるローグの誰もが、難解な決壊にせよ、厄介な占いにせよ、魔法が綿密な計画を混乱させる可能性があるということを知っている。</p>\n<p>君はこのような問題を解決するために一時しのぎの呪文を使える程度に魔法を学び、魔法と共にその混乱に身を投じる。君は技術だけでは説明のできない強盗を働く孤高の泥棒や、魔法の防御手段をどうにかするために他のローグに呼ばれる専門家かもしれない。君は魔法の防護を試すためか、自分自身でそれを作る、信頼できる人間であるかもしれない。</p>\n<p>基本、熟練、達人の呪文発動特技を持つマルチクラス・アーキタイプを選ぶ。君はそのアーキタイプの専心特技を、たとえそのレベルの前提条件を満たしていないとしても、ボーナス特技として得るが、その他の前提条件は満たしていなくてはならない。君にとって、@Compendium[pf2e.feats-srd.mxO7u59ms58q7zyj]{《魔法のトリックスター》} のローグ特技は4レベルではなく、2レベルの前提条件を持つ。君は自分が主要能力値として選んだ能力を、マルチクラス・アーキタイプの呪文発動能力値として選ぶことが出来る。</p>"
 		},
 		{
 			"id": "Elemental Magic",
@@ -37,19 +87,34 @@
 			"description": "<p>You're a spellcaster that's specialized in harnessing the four elements. Though you might feel a stronger kinship for one element over the others, you're capable of shaping all of them. Due to your specialization in elemental magic, you have a smaller, more focused spell list than other spellcasters, though your magic is drawn from multiple traditions. If you choose this class archetype, you must select the @Compendium[pf2e.feats-srd.tx9pkrpmtqe4FnvS]{Elementalist Dedication} as your 2nd-level class feat.</p>\n<p><strong>Prerequisites</strong>: You must have a spellcasting class feature that chooses spells from the arcane or primal spell list.</p>\n<p><strong>Elementalist Adjustments</strong>: Replace your spell list with the elemental spell list. Your actual magical tradition is unchanged, but you choose your spells from the elemental list instead.</p>\n<p>If you're a sorcerer with the elemental bloodline, you can replace your initial bloodline spell with an initial elemental focus spell, and your advanced bloodline spell with an advanced elemental focus spell. The initial and advanced elemental focus spells you select must have the same trait as your elemental bloodline.</p>\n<p><strong>Druid Elementalist Adjustments</strong>: If you're a druid of the storm order, you can choose to replace your starting order spell, <em>@Compendium[pf2e.spells-srd.ho1jSoYKrHUNnM90]{Tempest Surge}</em>, with <em>@Compendium[pf2e.spells-srd.QozxgBbcmktLKdBs]{Updraft}</em>.</p>\n<p><strong>Wizard Elementalist Adjustments</strong>: If you're a wizard with an arcane school, instead of specializing in a school of magic, you specialize in one of the four elements: air, earth, fire, or water. Any benefits your arcane school would grant you that are associated with a selected spell school, you instead apply to your selected element. For example, if you select air as your element, you can prepare only spells that have the air trait in your extra arcane school slots, you can prepare an extra air cantrip, and you add an extra air spell from the elemental spell list to your spellbook. Additionally, in place of your arcane school spell, you learn the initial elemental focus spell of your selected element from the elemental focus spells. In all other ways, your arcane school functions as written in the Core Rulebook. If you later select the Advanced School Spell wizard feat, instead of gaining the listed school spell, you gain the advanced elemental focus spell of your selected element from the advanced elemental focus spells.</p>\n<p><strong>Additional Feats</strong>: 4th @Compendium[pf2e.feats-srd.bcxIg7wi8ZAhvhOD]{Familiar}, 6th @Compendium[pf2e.feats-srd.N7dTFxpjXGn4ddq8]{Enhanced Familiar}, 8th @Compendium[pf2e.feats-srd.ajesR7y0jWzqjAgc]{Current Spell}, @Compendium[pf2e.feats-srd.6gLWr3xghsHSFwxc]{Water Step}.</p>\n<hr />\n<h3>Elementalist Focus Spells</h3>\n<ul>\n<li><em>@Compendium[pf2e.spells-srd.Z3kJty995FkrsZRb]{Combustion}</em>,</li>\n<li><em>@Compendium[pf2e.spells-srd.AiWtiVmyasyL42J8]{Crushing Ground}</em>,</li>\n<li><em>@Compendium[pf2e.spells-srd.v4QHuVOhFD1JMAqu]{Powerful Inhalation}</em>,</li>\n<li><em>@Compendium[pf2e.spells-srd.E80SrXuBdZViPGiH]{Pulverizing Cascade}</em>,</li>\n<li><em>@Compendium[pf2e.spells-srd.zTN6zuruDUKOea6h]{Rising Surf}</em>,</li>\n<li><em>@Compendium[pf2e.spells-srd.ECApRjIIxD0JogOa]{Stone Lance}</em>,</li>\n<li><em>Updraft,</em></li>\n<li><em>@Compendium[pf2e.spells-srd.jks2h5pMsm8pCi8e]{Wildfire}</em></li>\n</ul>\n<hr />\n<h3>Elemental Spell List</h3>\n<ul>\n<li><strong>Cantrips</strong> <em>@Compendium[pf2e.spells-srd.kl2q6JvBZwed4B6v]{Dancing Lights}</em>, <em>@Compendium[pf2e.spells-srd.gpzpAAAJ1Lza2JVl]{Detect Magic}</em>, <em>@Compendium[pf2e.spells-srd.dDiOnjcsBFbAvP6t]{Gale Blast}</em>, <em>@Compendium[pf2e.spells-srd.m5QS8q5M6K0euKcT]{Healing Plaster}</em>, <em>@Compendium[pf2e.spells-srd.WBmvzNDfpwka3qT4]{Light}</em>, <em>@Compendium[pf2e.spells-srd.pwzdSlJgYqN7bs2w]{Mage Hand}</em>, <em>@Compendium[pf2e.spells-srd.Qw3fnUlaUbnn7ipC]{Prestidigitation}</em>, <em>@Compendium[pf2e.spells-srd.O9w7r4BKgPogYDDe]{Produce Flame}</em>, <em>@Compendium[pf2e.spells-srd.OhD2Z6rIGGD5ocZA]{Read Aura}</em>, <em>@Compendium[pf2e.spells-srd.zA0jNIBRgLsyTpbm]{Scatter Scree}</em>, <em>@Compendium[pf2e.spells-srd.TVKNbcgTee19PXZR]{Shield}</em>, <em>@Compendium[pf2e.spells-srd.AUctDF2fqPZN2w4W]{Sigil}</em>, <em>@Compendium[pf2e.spells-srd.eSL5hVT9gXrnRLtd]{Spout}</em></li>\n<li><strong>1st</strong> <em>@Compendium[pf2e.spells-srd.W69zswpj0Trdy5rj]{Air Bubble}</em>, <em>@Compendium[pf2e.spells-srd.PGVhjDbzC4lf6aXF]{Breadcrumbs}</em>, <em>@Compendium[pf2e.spells-srd.y6rAdMK6EFlV6U0t]{Burning Hands}</em>, <em>@Compendium[pf2e.spells-srd.WzLKjSw6hsBhuklC]{Create Water}</em>, <em>@Compendium[pf2e.spells-srd.TTwOKGqmZeKSyNMH]{Feather Fall}</em>, <em>@Compendium[pf2e.spells-srd.g8QqHpv2CWDwmIm1]{Gust of Wind}</em>, <em>@Compendium[pf2e.spells-srd.jfVCuOpzC6mUrf6f]{Hydraulic Push}</em>, <em>@Compendium[pf2e.spells-srd.aAbfKn8maGjJjk2W]{Mage Armor}</em>, <em>@Compendium[pf2e.spells-srd.9u6X9ykhzG11NK1n]{Magic Stone}</em>, <em>@Compendium[pf2e.spells-srd.TFitdEOpQC4SzKQQ]{Magic Weapon}</em>, <em>@Compendium[pf2e.spells-srd.dINQzhqGmIsqGMUY]{Mending}</em>, <em>@Compendium[pf2e.spells-srd.yAiSNmz39qXOIlco]{Mud Pit}</em>, <em>@Compendium[pf2e.spells-srd.F1nlmqOIucch3Cmt]{Pet Cache}</em>, <em>@Compendium[pf2e.spells-srd.Rn2LkoSq1XhLsODV]{Pummeling Rubble}</em>, <em>@Compendium[pf2e.spells-srd.0uRpypf1Hi7ahvTl]{Shattering Gem}</em>, <em>@Compendium[pf2e.spells-srd.dgCH2E0gMLMUgyFl]{Shockwave}</em>, <em>@Compendium[pf2e.spells-srd.W6QlRwQLPoBSw6PZ]{Snowball}</em>, <em>@Compendium[pf2e.spells-srd.yV7Ouzaoe7DHLESI]{Ventriloquism}</em></li>\n<li><strong>2nd</strong> <em>@Compendium[pf2e.spells-srd.23cv1p49NFd0Onng]{Ash Cloud}</em>, <em>@Compendium[pf2e.spells-srd.hoR6w8BqX2F35Tdx]{Blistering Invective}</em>, <em>@Compendium[pf2e.spells-srd.ynm8JIU3sc3qUMpa]{Continual Flame}</em>, <em>@Compendium[pf2e.spells-srd.pZTqGY1MLRjgKasV]{Darkvision}</em>, <em>@Compendium[pf2e.spells-srd.9HpwDN4MYQJnW0LG]{Dispel Magic}</em>, <em>@Compendium[pf2e.spells-srd.kMffb6SvhCBMMI4k]{Elemental Zone}</em>, <em>@Compendium[pf2e.spells-srd.5esP2GVzvxWsMgaX]{Endure Elements}</em>, <em>@Compendium[pf2e.spells-srd.aXoh6OQAL57lgh0a]{Expeditious Excavation}</em>, <em>@Compendium[pf2e.spells-srd.HRb2doyaLtaoCfi3]{Faerie Fire}</em>, <em>@Compendium[pf2e.spells-srd.x0rWq0wS06dns4G2]{Final Sacrifice}</em>, <em>@Compendium[pf2e.spells-srd.3q9tBMWsWQKlXPPJ]{Flame Wisp}</em>, <em>@Compendium[pf2e.spells-srd.2ZdHjnpEQJuqOYSG]{Flaming Sphere}</em>, <em>@Compendium[pf2e.spells-srd.xRgU9rrhmGAgG4Rc]{Gentle Repose}</em>, <em>@Compendium[pf2e.spells-srd.v4KzRPol5XQOOmk0]{Heat Metal}</em>, <em>@Compendium[pf2e.spells-srd.3GXU3ugrwLv0P7AH]{Ignite Fireworks}</em>, <em>@Compendium[pf2e.spells-srd.9XHmC2JgTUIQ1CCm]{Obscuring Mist}</em>, <em>@Compendium[pf2e.spells-srd.02J0rDTk37KN2sjt]{Quench}</em>, <em>@Compendium[pf2e.spells-srd.Fr58LDSrbndgld9n]{Resist Energy}</em>, <em>@Compendium[pf2e.spells-srd.ZxHC7V7HtjUsB8zH]{Scorching Ray}</em>, <em>@Compendium[pf2e.spells-srd.lpT6LotUaQPfinjj]{Summon Elemental}</em>, <em>@Compendium[pf2e.spells-srd.MZGkMsPBztFN0pUO]{Water Breathing}</em>, <em>@Compendium[pf2e.spells-srd.Seaah9amXg70RKw2]{Water Walk}</em></li>\n<li><strong>3rd</strong> <em>@Compendium[pf2e.spells-srd.oUDNCArkQTdhllxD]{Aqueous Orb}</em>, <em>@Compendium[pf2e.spells-srd.KEkPxx7Sm6Xf4W3s]{Blazing Dive}</em>, <em>@Compendium[pf2e.spells-srd.T4QKmtYPeCgYxVGe]{Crashing Wave}</em>, <em>@Compendium[pf2e.spells-srd.10siFBMF4pIDhVmf]{Cup of Dust}</em>, <em>@Compendium[pf2e.spells-srd.gPvtmKMRpg9I9D7H]{Earthbind}</em>, <em>@Compendium[pf2e.spells-srd.9TauMFkIsmvKJNzZ]{Elemental Absorption}</em>, <em>@Compendium[pf2e.spells-srd.RvBlSIJmxiqfCpR9]{Feet to Fins}</em>, <em>@Compendium[pf2e.spells-srd.sxQZ6yqTn0czJxVd]{Fireball}</em>, <em>@Compendium[pf2e.spells-srd.o0l57UfBm9ScEUMW]{Glyph of Warding}</em>, <em>@Compendium[pf2e.spells-srd.fI20AVwOzJMHXRdo]{Levitate}</em>, <em>@Compendium[pf2e.spells-srd.vh1RpbWfqdNC4L3P]{Meld into Stone}</em>, <em>@Compendium[pf2e.spells-srd.IFuEzfmmWyNwVbhY]{Safe Passage}</em>, <em>@Compendium[pf2e.spells-srd.DyiD239dNS7RIxZE]{Searing Light}</em>, <em>@Compendium[pf2e.spells-srd.HcIAQZjNXHemoXSU]{Shifting Sand}</em>, <em>@Compendium[pf2e.spells-srd.LNOwaJAkCfsgTKgV]{Wall of Water}</em>, <em>@Compendium[pf2e.spells-srd.it4ZsAi6XgvGcodc]{Wall of Wind}</em></li>\n<li><strong>4th</strong> <em>@Compendium[pf2e.spells-srd.b5sGjGlBf58f8jn0]{Air Walk}</em>, <em>@Compendium[pf2e.spells-srd.e36Z2t6tLdW3RUzZ]{Elemental Gift}</em>, <em>@Compendium[pf2e.spells-srd.YrzBLPLd3r9m6t1p]{Fire Shield}</em>, <em>@Compendium[pf2e.spells-srd.A2JfEKe6BZcTG1S8]{Fly}</em>, <em>@Compendium[pf2e.spells-srd.V8wXOsoejQhe6CyG]{Gaseous Form}</em>, <em>@Compendium[pf2e.spells-srd.DZ9bzXYqMjAK9TzC]{Holy Cascade}</em>, <em>@Compendium[pf2e.spells-srd.Y3G6Y6EDgCY0s3fq]{Hydraulic Torrent}</em>, <em>@Compendium[pf2e.spells-srd.D31YX7zvRBvenTAz]{Petal Storm}</em>, <em>@Compendium[pf2e.spells-srd.McnPlLFvKtQVXNcG]{Shape Stone}</em>, <em>@Compendium[pf2e.spells-srd.piMJO6aYeDJbrhEo]{Solid Fog}</em>, <em>@Compendium[pf2e.spells-srd.fH08MI4KP0KH2EQ9]{Soothing Spring}</em>, <em>@Compendium[pf2e.spells-srd.tgIhRUFtgDSELpJE]{Spell Immunity}</em>, <em>@Compendium[pf2e.spells-srd.3xD8DYrr8YDVYGg7]{Spike Stones}</em>, <em>@Compendium[pf2e.spells-srd.2BV2yYPfVJ5zirZt]{Stoneskin}</em>, <em>@Compendium[pf2e.spells-srd.IarZrgCeaiUqOuRu]{Wall of Fire}</em></li>\n<li><strong>5th</strong> <em>@Compendium[pf2e.spells-srd.bay4AfSu2iIozNNW]{Banishment}</em>, <em>@Compendium[pf2e.spells-srd.OYOCWWefZPEfp8Nl]{Blazing Fissure}</em>, <em>@Compendium[pf2e.spells-srd.zfn5RqAdF63neqpP]{Control Water}</em>, <em>@Compendium[pf2e.spells-srd.1K6AYGisvo9gqdhs]{Elemental Form}</em>, <em>@Compendium[pf2e.spells-srd.E3X2RbzWHCdz7gsk]{Flame Strike}</em>, <em>@Compendium[pf2e.spells-srd.6AqH5SGchbdhOJxA]{Flammable Fumes}</em>, <em>@Compendium[pf2e.spells-srd.zCLyETFoPqCQXLVy]{Flowing Strike}</em>, <em>@Compendium[pf2e.spells-srd.i88Vi47PDDoP6gQv]{Geyser}</em>, <em>@Compendium[pf2e.spells-srd.CcXtbTxtdV9MKQfu]{Mantle of the Frozen Heart}</em>, <em>@Compendium[pf2e.spells-srd.j2kfNBFpLa0JjVr8]{Mantle of the Magma Heart}</em>, <em>@Compendium[pf2e.spells-srd.z2mfh3oPnfYqXflY]{Mariner's Curse}</em>, <em>@Compendium[pf2e.spells-srd.115Xp9E38CJENhNS]{Passwall}</em>, <em>@Compendium[pf2e.spells-srd.e9UJoVYUd5kJWUpi]{Summon Giant}</em>, <em>@Compendium[pf2e.spells-srd.YWuyjhWbdoTiA1pw]{Temporary Glyph}</em>, <em>@Compendium[pf2e.spells-srd.LzfrBDxxPTiuN7uL]{Transmute Rock And Mud}</em>, <em>@Compendium[pf2e.spells-srd.R5FHRv7VqyRnxg2t]{Wall of Ice}</em>, <em>@Compendium[pf2e.spells-srd.kOa055FIrO9Smnya]{Wall of Stone}</em></li>\n<li><strong>6th</strong> <em>@Compendium[pf2e.spells-srd.Cpj05laa7ogqGwS3]{Elemental Confluence}</em>, <em>@Compendium[pf2e.spells-srd.kuoYff1csM5eAcAP]{Fire Seeds}</em>, <em>@Compendium[pf2e.spells-srd.Gn5deIoobHpd3SiR]{Flame Vortex}</em>, <em>@Compendium[pf2e.spells-srd.znv4ECL7ZtuiagtA]{Flesh to Stone}</em>, <em>@Compendium[pf2e.spells-srd.9W2Qv0wXLg6tQg3y]{Scintillating Safeguard}</em>, <em>@Compendium[pf2e.spells-srd.YIMampGpij4Y30yE]{Stone Tell}</em>, <em>@Compendium[pf2e.spells-srd.Pr1ruNTbzGn3H9w5]{Stone to Flesh}</em>, <em>@Compendium[pf2e.spells-srd.69L70wKfGDY66Mk9]{Teleport}</em>, <em>@Compendium[pf2e.spells-srd.uqlxMQQeSGWEVjki]{True Seeing}</em></li>\n<li><strong>7th</strong> <em>@Compendium[pf2e.spells-srd.XZE4BawIlTf88Yl9]{Dimensional Lock}</em>, <em>@Compendium[pf2e.spells-srd.m2xFMNyQiUKQDRaj]{Energy Aegis}</em>, <em>@Compendium[pf2e.spells-srd.XS7Wyh5YC0NWeWyB]{Fiery Body}</em>, <em>@Compendium[pf2e.spells-srd.vFkz0gVBUT2gGnm1]{Frigid Flurry}</em>, <em>@Compendium[pf2e.spells-srd.5bTt2CvYHPvaR7QQ]{Plane Shift}</em>, <em>@Compendium[pf2e.spells-srd.a3aQxCpoj1q1NQxC]{Sunburst}</em>, <em>@Compendium[pf2e.spells-srd.bVtkBJvGLP69qVGI]{Unfettered Pack}</em>, <em>@Compendium[pf2e.spells-srd.O7ZEqWjwdKyo2CUv]{Volcanic Eruption}</em></li>\n<li><strong>8th</strong> <em>@Compendium[pf2e.spells-srd.fBoiPXmcIO50OFFR]{Boil Blood}</em>, <em>@Compendium[pf2e.spells-srd.kWDt0JcKPgX6MvdD]{Burning Blossoms}</em>, <em>@Compendium[pf2e.spells-srd.x7SPrsRxGb2Vy2nu]{Earthquake}</em>, <em>@Compendium[pf2e.spells-srd.M0jQlpQYUr0pp2Sv]{Horrid Wilting}</em>, <em>@Compendium[pf2e.spells-srd.wi405lBjPcbF1DeR]{Punishing Winds}</em>, <em>@Compendium[pf2e.spells-srd.8hKW4mWQyLnkHVta]{Whirlwind}</em>, <em>@Compendium[pf2e.spells-srd.U0hL0LLaprcnAyzC]{Wind Walk}</em></li>\n<li><strong>9th</strong> <em>@Compendium[pf2e.spells-srd.jrBa9deU2ULFWvSl]{Meteor Swarm}</em>, <em>@Compendium[pf2e.spells-srd.r4HLQcYwB62bTayl]{Storm of Vengeance}</em></li>\n<li><strong>10th</strong> <em>@Compendium[pf2e.spells-srd.wLIvH0AT1u7oa64N]{Cataclysm}</em>, <em>@Compendium[pf2e.spells-srd.vQMAdnIwnV9prPiG]{Element Embodied}</em>, <em>@Compendium[pf2e.spells-srd.U13bC0tNgrlHoeTK]{Gate}</em>, <em>@Compendium[pf2e.spells-srd.UG0SmRYSdbrx2rTA]{Indestructibility}</em>, <em>@Compendium[pf2e.spells-srd.KRcccPeNZOZ5Nweh]{Nullify}</em>, <em>@Compendium[pf2e.spells-srd.dMKP4fkWx8V2cqAy]{Remake}</em></li>\n</ul>"
 		},
 		{
-			"id": "Evasion (Level 11)",
-			"name": "身かわし (Level 11)",
+			"id": "Enchantment",
+			"name": "秘術系統：心術",
+			"description": "<p>心術士である君は、他人の心を操作するために魔法を使う。君は密かに他人に影響を与え、他人を制御するために能力を使うかもしれない。君は精神が物質を凌駕することを理解している。君は、1レベルの心術呪文（@Compendium[pf2e.spells-srd.vLA0q0WOK2YPuJs6]{「チャーム」}のような）1つを、君の呪文書に加える。君は@Compendium[pf2e.spells-srd.KMFRKzNCq7hVNH7H]{魅惑の言葉}の系統呪文を学ぶ</p>"
+		},
+		{
+			"id": "Enigma",
+			"name": "ミューズ：エニグマ",
+			"description": "<p>君のミューズは、多次元宇宙に隠された秘密を暴くように君を駆り立てる謎である。もし君のミューズがクリーチャーであるなら、それはドラゴンや、異世界の存在であるかもしれない；もし神格であるなら、それは、イローリやネティスであるかもしれない。君は@Compendium[pf2e.feats-srd.uVXEZblPRuCyPRua]{《バードの伝承》}の特技を得て、呪文レパートリーに@Compendium[pf2e.spells-srd.Gb7SeieEvd0pL2Eh]{トゥルー・ストライク}を加える。</p>"
+		},
+		{
+			"id": "Evasion",
+			"name": "身かわし",
 			"description": "<p>君は爆発やドラゴンのブレス、もっと悪いものを避けるために素早く移動することを学んでいる。反応セーヴへの君の習熟ランクは達人になる。君が反応セーヴに成功した際、代わりにクリティカルする。</p>"
 		},
 		{
-			"id": "Expert Overdrive",
-			"name": "熟練のオーバードライブ",
-			"description": "<p>君は製作の腕前を上げ、装置をもっと強力にオーバードライブさせることが出来るようになった。君は〈製作〉に熟練になり、「オーバードライブ」に成功したなら、追加ダメージを1点、増やす。</p>"
+			"id": "Evocation",
+			"name": "秘術系統: 力術",
+			"description": "<p>力術士である君は、未加工の魔法の力を楽しみ、それを用いて簡単に創造と破壊を行う。君は四元素、力場、エネルギーを、君の敵を破壊するか、他の方法で君を助けるために呼び出す。君は最も直接的なアプローチこそが最も優雅であると理解している。君は、1レベルの力術呪文（@Compendium[pf2e.spells-srd.r3NeUnsgt9mS03Sn]{ショッキング・グラスプ}のような）1つを、君の呪文書に加える。君は@Compendium[pf2e.spells-srd.Hu38hoAUSYeFpkVa]{力場の矢}の系統呪文を学ぶ</p>"
 		},
 		{
-			"id": "Explode",
-			"name": "爆発",
-			"description": "<p>君の発明は、君自身の工学技術によって辛うじて維持されている被造物であり、常に完全に崩壊する寸前の状態である。リスクは伴うが、これは、特殊な不安定アクションを使うことによって設計を遥かに超える性能を引き出すことが出来るということである。</p>\n<p>インヴェンターはキャリアを通じて様々な不安定アクションを学ぶことが出来るが、全員が、少なくとも自分の発明を@Compendium[pf2e.actionspf2e.naKVqd8POxcnGclz]{「爆発」}させる方法を知っている。</p>"
+			"id": "Expert Spellcaster",
+			"name": "熟練の術者",
+			"description": "<p><strong>バード</strong>: 霊妙呪文攻撃ロールと呪文DCへの君の習熟ランクは熟練になる。</p>\n<hr />\n<p><strong>ドルイド</strong>: 君の始原の力への支配は深まり、呪文を強化する。始原呪文攻撃ロールと始原呪文DCは熟練になる。</p>\n<hr />\n<p><strong>オラクル</strong>: 時間を重ねることで、君の信仰の力の複雑さは明瞭になってきている。信仰呪文攻撃ロールと呪文DCについての君の習熟ランクは熟練になる。</p>\n<hr />\n<p><strong>ソーサラー</strong>: 君の生来の魔術は簡単で強力に君の命令に従う。君の血脈の体系の呪文攻撃ロールと呪文DCへの君の習熟ランクは熟練になる。</p>\n<hr />\n<p><strong>ウィッチ</strong>: 君は守護霊から与えられる力をよりよく支配する術を学んだ。君のウィッチの呪文発動の呪文攻撃ロールと呪文DCは熟練になる。</p>\n<hr />\n<p><strong>ウィザード</strong>: 裾野の広い秘術の実践は君の能力を発展させている。秘術呪文攻撃ロールと秘術呪文DCへの君の習熟ランクは熟練になる。</p>\n<hr />\n<strong>メイガス</strong>: 君の基本的な魔法への理解は深まり、呪文を抗いがたいものにする。君の秘術呪文攻撃ロールと秘術呪文DCは熟練になる。</p>\n<hr />\n<p><strong>サモナー</strong>: 君と幻獣の繋がりが深まったため、君の呪文の力は強まる。幻獣の体系の呪文についての呪文攻撃ロールと呪文DCは熟練になる。</p>"
+		},
+		{
+			"id": "Fencer",
+			"name": "スワッシュバックラーのスタイル：剣士",
+			"description": "<p>君は注意深く移動し、フェイントを行ったり、偽の隙を作って不適切な攻撃に敵を誘い込む。君は〈欺瞞〉に修得である。君は遭遇の際、@Compendium[pf2e.actionspf2e.QNAVeNKtHA0EUw4X]{「フェイント」}に成功するか、敵に対して @Compendium[pf2e.actionspf2e.GkmbTGfg8KcgynOA]{「気を逸らす」} に成功したなら@Compendium[pf2e.classfeatures.LzYi0OuOoypNb6jd]{心意気} を得る。</p>"
 		},
 		{
 			"id": "Flame Order",
@@ -57,99 +122,144 @@
 			"description": "<p>You feel a kinship with flames and can use them for succor and destruction. You're trained in Acrobatics. You also gain the @Compendium[pf2e.feats-srd.yOloZIGkulrrPYG4]{Fire Lung} druid feat. You gain the @Compendium[pf2e.spells-srd.jks2h5pMsm8pCi8e]{Wildfire} order spell. Allowing unnatural fires to spread or preventing natural fires from occurring in a way that harms the environment are 破戒 to your order (this doesn't prevent you from using fire destructively or force you to combat a controlled or natural fire).</p>"
 		},
 		{
+			"id": "Flames",
+			"name": "神秘：炎",
+			"description": "<p>炎は世界の中心、太陽の中心、そして文明の中心で生きている。君はこのエレメンタルの力を崇拝しているのかもしれないし、火のエレメンタルの次元界から力を吸い上げているのかもしれないし、アスモデウス、サーレンレイ、ティアンの災害と火山の女神であるレディ・ナンビョーや炎のエレメンタル・ロードであるイメリといった神格の集合を尊敬しているのかもしれない。</p>\n<p><strong>神秘の恵み</strong></p>\n<p>炎そのもののように、君は揺らめきながら踊っていて、君の体力を消火しようとする効果を避ける。君は反応セーヴに熟練の習熟を持つ。13レベル辞典で、もし君が神速の反応のクラス特徴を持っているなら、君の反応セーヴへの習熟ランクは達人になり、反応セーヴで成功したなら、代わりにクリティカルする。</p>\n<p><strong>修得技能</strong> 〈軽業〉</p>\n<p><strong>授与キャントリップ</strong> @Compendium[pf2e.spells-srd.O9w7r4BKgPogYDDe]{プロデュース・フレイム}</p>\n<p><strong>啓示呪文</strong></p>\n<ul>\n<li>初期 @Compendium[pf2e.spells-srd.AspA30tzKCHFWRf0]{発火のオーラ};</li>\n<li>強化 @Compendium[pf2e.spells-srd.Wi2HcreCfujKiCvW]{渦巻く炎};</li>\n<li>上級 @Compendium[pf2e.spells-srd.bynT1UKaDqr8dLNM]{炎の一斉射撃}</li>\n</ul>\n<p><strong>関連領域</strong> 火、太陽</p>\n<h3>呑み込む炎の呪い</h3>\n<p>視線を向けたところ全てに、君は炎と煙を目にする。これらの炎は想像のものかもしれないし、多次元宇宙全体に力をもたらす隠喩的な炎の並外れた一瞬の風景なのかもしれないーーしかし、君は常にそれを見ているのだ。炎は君という存在の中に確実に（しかし危険なく）燃え上がっており、君は時々、かすかに煙を立てることがあり、君の肉体は熱いものに触れてもほとんど痛みを感じない。</p>\n<h4>下級の呪い</h4>\n<p>君の呪いによる煙、熱、パチパチと音を立てる炎は君の視覚や全ての感覚を満たす。</p>\n<p>30フィートより遠くにいるクリーチャーは君にとって@Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{視認困難} である。君はこの視認困難を無視するか、あるいは補填するような全ての効果から利益を得ることが出来ない。これはオラクルの呪いに対する通常の効果通りである</p>\n<p>@Compendium[pf2e.feature-effects.T6En6oEDwSycRyAG]{効果: 炎の呪い（下級）}</p>\n<h4>M中級の呪い</h4>\n<p>煙と瞬く炎が見えることによって、君は感覚は完全に満たされ、害のない炎の瞬きによる妨害は君のいる空間を満たす。</p>\n<p>君は他のクリーチャーから視認困難であるが、他のクリーチャー達自身は呪われていないため、視認困難を無視するか、あるいは補填する効果を通常通りに得ることが出来る。全ての他のクリーチャーと物体は、距離にかかわらず君から視認困難であるが、火炎呪文を発動する際、君は30フィート以内の対象に対する視認困難状態に由来する平目判定に自動的に成功する。</p>\n<p>君の全ての感覚は30フィートより先では不明瞭である。つまい、30フィートより先にある全ての、君が普通は見ることが出来るものは君にとって@Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{隠れた状態}である。</p>\n<p>@Compendium[pf2e.feature-effects.d0fXbhu8qH1TQwXE]{効果: 炎の呪い（中級）}</p>\n<h4>上級の呪い (11th)</h4>\n<p>君を取り囲む炎はもはや、ただ目に見えるだけではない。</p>\n<p>のオーラが君の10フィート拡散以内を取り囲み、君の手番の終了ごとに、オーラ内の全ての他のクリーチャーに [[/r 4d6 #火炎]]点の火炎ダメージ（基本反応せーヴ）を与える。君は毎ラウンド、[[/r 1d6]]点のヒットポイントをセーヴなしで失う；もし君が火炎に弱点を持つなら、弱点の数だけ君が失うヒットポイントの数を増やす。</p>\n<p>君は精神集中の特性を持つ単発アクションを消費することによって、次の手番の開始時までオーラを抑制することが出来る。炎を消せば、君やオーラ内にいるクリーチャーはダメージを受けずに済む。呪いを軽減するために「再集中」している間、君はずっと炎を消しているため、ヒットポイントを失わない。君が@Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{気絶}したなら、炎は鎮火する。だが、君が呪いをリセットするのに十分な休息を取ったのでない限り、目覚めた際に再び燃え上がる。オラクルの呪いの常だが、君はいかなる方法によっても失ったヒットポイントを補填することも軽減することも出来ないが、失われたヒットポイントを通常通り、事後に治癒することが出来る。</p>\n<p>@Compendium[pf2e.feature-effects.GRX2p4ddGnoqihYC]{効果: 炎の呪い（上級）}</p></p>"
+		},
+		{
 			"id": "Flexible Spell Preparation",
 			"name": "Flexible Spell Preparation",
 			"description": "<p>This class feature alters your spellcasting class feature (such as Arcane Spellcasting for the wizard or Divine Spellcasting for the cleric). If you choose this class archetype, you must select @Compendium[pf2e.feats-srd.CrS0iDwHmjKqvKti]{Flexible Spellcaster Dedication} as your 2nd-level class feat.</p>\n<p><strong>Prerequisites</strong>: You must have a class, such as clerics, druids, witches, and wizards, that prepares spells in spell slots using the same number of prepared spells per day.</p>\n<p><strong>Flexible Spellcaster Adjustments</strong>: You learn spells as normal for your class (a wizard uses a spellbook, a witch teaches spells to their familiar, and so on), but change your spellcasting from your class as follows.</p>\n<ul>\n<li>You can cast fewer spells each day. Your number of spell slots per day don't advance from 2 to 3 spells at even levels.</li>\n<li>Reduce the number of cantrips you gain from your class by 2. This archetype doesn't change the way you prepare cantrips.</li>\n<li>During your daily preparations, you prepare a spell collection rather than preparing spells into each spell slot individually. The number of spells in your spell collection each day equals the total number of spell slots you get each day from your class spells. Select these spells from the same source as normal, such as from a spellbook for a wizard.</li>\n<li>You can cast any of the spells in your collection by using a spell slot of an appropriate level. For instance, if you were level 1 and had <em>@Compendium[pf2e.spells-srd.TTwOKGqmZeKSyNMH]{Feather Fall}</em> and <em>@Compendium[pf2e.spells-srd.gKKqvLohtrSJj3BM]{Magic Missile}</em> in your spell collection, you could cast <em>feather fall</em> twice that day, <em>magic missile</em> twice, or each spell once.</li>\n<li>Extra spell slots you gain that have additional restrictions, like the wizard's specialist school spells or the cleric's divine font spells, don't change due to this archetype, nor do such spells count toward the number of spells you place in your spell collection.</li>\n</ul>\n<h3>RESTRICTED SPELL SLOTS</h3>\n<p>When applying this archetype to a class that grants additional spell slots with restrictions, such as the specialist wizard's specialist school spells or the cleric's divine bond, you still gain those additional slots, but they work as normal for your class, and they don't add more spells to your spell collection. A healing font grants you additional spell slots to cast <em>@Compendium[pf2e.spells-srd.rfZpqmj0AIIdkVIs]{Heal}</em> spells of the highest level you can cast, but doesn't add <em>heal</em> to your spell collection. A harming font does the same for the <em>@Compendium[pf2e.spells-srd.wdA52JJnsuQWeyqz]{Harm}</em> spell. As a specialist wizard, you prepare one spell per level from your specialty school, which also aren't added to your spell collection.</p>\n<h3>HEIGHTENING SPELLS</h3>\n<p>Once you gain 2nd-level spells, you can heighten any spell in your spell collection to any level you can cast,similar to a spontaneous spellcaster's signature spells. The only restriction is that you must select at least one 1st-level spell for your collection each time you prepare, ensuring that you can use all your spell slots each day.</p>\n<h3>ADJUDICATING CLASS FEATS AND FEATURES</h3>\n<p>Some of your class feats or features might rely on the fact that you prepare spells in spell slots. While some class feats might no longer work or be necessary with the flexible spellcaster archetype, in many cases you can make a simple replacement and continue using the class feat. The following class feats simply require replacing \"a spell you have prepared\" or \"a prepared spell\" for \"a spell in your collection\" or \"a spell slot.\" For example, in @Compendium[pf2e.feats-srd.EpBG4CFMNSZQx7vI]{Counterspell}, you'd replace \"a spell you have prepared\" in the trigger for \"a spell in your collection\" and \"expend a prepared spell\" for \"expend a spell slot.\" Similarly, in @Compendium[pf2e.classfeatures.au0lwQ1nAcNQwcGh]{Arcane Bond}, you'd replace \"cast one spell you prepared today and already cast\" with \"cast one spell in your collection you've already cast today.\"</p>\n<p>The Counterspell and @Compendium[pf2e.feats-srd.BQkk7qSSRTFc5jNG]{Leyline Conduit} feats in the Core Rulebook need these substitutions, as does @Compendium[pf2e.feats-srd.l8KQgN8icNrzYIav]{Form Retention} from the Advanced Player's Guide. @Compendium[pf2e.feats-srd.xhiwito5kneP4sjV]{Spell Mastery} provides additional restricted spells, like divine font or specialist spells; you can take it, but it doesn't add to your collection and works like normal prepared spells.</p>\n<h3>DISALLOWED FEATS</h3>\n<p>The following feats from the Core Rulebook aren't available for a flexible spellcaster: @Compendium[pf2e.feats-srd.ZvPgibovxwiN8Wse]{Call of the Wild}, @Compendium[pf2e.feats-srd.IMPP5pa8AmvCby4W]{Clever Counterspell}, @Compendium[pf2e.feats-srd.LAHiW98iPJKplFyK]{Infinite Possibilities}, @Compendium[pf2e.feats-srd.a1TSGGsA6b5gjP3H]{Reprepare Spell}, and @Compendium[pf2e.feats-srd.dJ1ZviNMpt4ID7lc]{Spell Combination}. The disallowed feats from the Advanced Player's Guide are as follows: @Compendium[pf2e.feats-srd.011wnYpjIwCEzFtl]{Elemental Summons}, @Compendium[pf2e.feats-srd.7mGMHb7irGKZ0eQo]{Miraculous Possibility}, @Compendium[pf2e.feats-srd.j01dM0ZAC7KzShx0]{Rites Of Convocation}, and @Compendium[pf2e.feats-srd.wa9ZGBTlFuwOjPpH]{Rites Of Transfiguration}.</p>\n<hr />\n<h3><strong>Flexible Spellcaster Spells Per Day</strong></h3>\n<table class=\"pf2-table\" style=\"width: 651px;\">\n<thead>\n<tr>\n<th>Your Level</th>\n<th>Cantrips</th>\n<th>1st</th>\n<th>2nd</th>\n<th>3rd</th>\n<th>4th</th>\n<th>5th</th>\n<th>6th</th>\n<th>7th</th>\n<th>8th</th>\n<th>9th</th>\n<th>10th</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>2</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>3</td>\n<td>4</td>\n<td>2</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>4</td>\n<td>5</td>\n<td>2</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>5</td>\n<td>5</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>6</td>\n<td>5</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>7</td>\n<td>5</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>8</td>\n<td>5</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>9</td>\n<td>5</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>10</td>\n<td>5</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>11</td>\n<td>5</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>12</td>\n<td>5</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>13</td>\n<td>5</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>14</td>\n<td>5</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>15</td>\n<td>5</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>16</td>\n<td>5</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>17</td>\n<td>5</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>-</td>\n</tr>\n<tr>\n<td>18</td>\n<td>5</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>-</td>\n</tr>\n<tr>\n<td>19</td>\n<td>5</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>*</td>\n</tr>\n<tr>\n<td>20</td>\n<td>5</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>*</td>\n</tr>\n<tr>\n<td style=\"color: white; width: 120px; background-color: #522e2c; text-align: center; height: 25px;\" colspan=\"12\">* Your class most likely has a class feature that gives you a single 10th level spell that works a bit differently from other slots. If so, flexible spellcaster doesn't change the way that spell works.</td>\n</tr>\n</tbody>\n</table>"
 		},
 		{
-			"id": "Greater Deed",
-			"name": "上級の身構え",
-			"description": "<p>君は、選んだ道の頂たる技術を体得している。君は、1レベル時点で選んだ道の上級の身構え能力を得る。</p>"
+			"id": "Flurry",
+			"name": "狩人の刃: 突風",
+			"description": "<p>君は獲物に破壊的な突風を解き放つ訓練をしている。</p>\n<p>君の獲物に対する複数回攻撃ペナルティは2回目の攻撃で－5ではなく-3（機敏の武器で-2）となり、3回目以降の攻撃については、－10ではなく－6（機敏の武器で-4）となる。</p>"
 		},
 		{
-			"id": "Gunslinger Expertise",
-			"name": "ガンスリンガーの専門知識",
-			"description": "<p>君の特別な射撃は、予期することも抵抗することも難しくなる。君のガンスリンガー・クラスDCへの習熟は熟練になる。</p>"
+			"id": "Great Fortitude",
+			"name": "頑健無比",
+			"description": "<p>君の肉体は信じがたいほど頑丈である。頑健セーヴへの君の習熟ランクは熟練になる。</p>"
 		},
 		{
-			"id": "Gunslinger Weapon Mastery",
-			"name": "ガンスリンガーの武器体得",
-			"description": "<p>君は、固有の武器を最大限に活用する方法を完全に理解している。簡単な火器とクロスボウ、軍用火器とクロスボウの習熟度が達人になる。上級火器とクロスボウ、単純武器、軍用武器、素手打撃の習熟度が熟練になる。火器とクロスボウのクリティカル特化効果を利用できるようになる。</p>"
+			"id": "Greater Resolve",
+			"name": "上級決意",
+			"description": "<p>信じがたき訓練によって、君は精神的な抵抗性を得た。意志セーヴへの君の習熟ランクは伝説になる。</p>\n<p>君が意志セーヴに成功したなら、君はクリティカルする。君が意志セーヴにファンブルしたなら、君は代わりに失敗する。君がダメージ効果に対する意志セーヴに失敗をロールしたなら、君は半分のダメージを受ける。</p>"
 		},
 		{
-			"id": "Gunslinger's Way",
-			"name": "ガンスリンガーの道",
-			"description": "<p>全てのガンスリンガーには従うべき道がある。道とは、彼らの戦い方と扱いに長けた武器の双方を定義する、哲学と戦闘スタイルの複合したものである。1レベル時点で、未知は君に初期の身構えを与える。これは、スリンガーの再装填と呼ばれる独特な再装填アクションと、特定の技能の習熟である。君はまた、後のレベルで身構え強化と上級の身構え、そして道に独特の特技の入手手段を得る。</p>\n<p><strong>@Compendium[pf2e.classfeatures.a3pSIKkDVTvvNSRO]{放浪者の道}:</strong> 君は銃と近接武器を仲間として、土地から土地へと旅する放浪者である。</p>\n<p><strong>@Compendium[pf2e.classfeatures.qRLRrHf0kzaJ7xt0]{ピストレロの道}:</strong> 君は手にピストルを握りながら決闘者の十歩を注意深く保つ</p>\n<p><strong>@Compendium[pf2e.classfeatures.QWXvksGJhOjXbBqi]{狙撃手の道}:</strong> 君は遠くから攻撃を行い、射撃の方法論的スタイルを訓練する</p>\n<p><strong>@Compendium[pf2e.classfeatures.vB0yVFxJVZwalt2g]{ヴァンガードの道}:</strong> 君は重い武器と爆発物の攻撃を用いる残虐な戦闘スタイルに頼る</p>"
+			"id": "Greater Weapon Specialization",
+			"name": "上級武器開眼",
+			"description": "<p>武器開眼による君のダメージは君が熟練である武器と素手打撃については4点上昇し、達人ならば6点、伝説ならば8点上昇する。</p>"
 		},
 		{
-			"id": "Gunslinging Legend",
-			"name": "ガンスリンガーの伝説",
-			"description": "<p>君は火器とクロスボウについての独特な技術を学び、比類の無い技能を身につけた。単純と軍用の火器およびクロスボウについて君の習熟は伝説になり、上級火器とクロスボウについては達人になる。単純武器、軍用武器、素手打撃への習熟は熟練になる。</p>"
+			"id": "Gymnast",
+			"name": "スワッシュバックラーのスタイル：軽業剣士",
+			"description": "<p>君は大胆な物理的な技によって敵の位置を変え、技をかけ、当惑させる。君は〈運動〉に修得である。君は遭遇の際、敵に@Compendium[pf2e.actionspf2e.PMbdMWc2QroouFGD]{「組みつき」}@Compendium[pf2e.actionspf2e.7blmbDrQFNfdT731]{「押しやり」}@Compendium[pf2e.actionspf2e.ge56Lu1xXVFYUnLP]{「足払い」}に成功したなら@Compendium[pf2e.classfeatures.LzYi0OuOoypNb6jd]{心意気}を得る。</p>"
 		},
 		{
-			"id": "Incredible Senses (Level 19)",
-			"name": "驚くべき感覚 (Level 19)",
-			"description": "<p>君は通常の人間が探知することがほとんど不可能なものを察知する。知覚への君の習熟ランクは伝説になる。/p>"
+			"id": "Illusion",
+			"name": "秘術系統：幻術",
+			"description": "<p>幻術士である君は、敵と戦うために画像、虚構、幻影を作り出すための魔法を使う。君は知覚したことが真実になると理解している。君は、1レベルの力術呪文（@Compendium[pf2e.spells-srd.2oH5IufzdESuYxat]{イリュージョリィ・オブジェクト}のような）1つを、君の呪文書に加える。君は@Compendium[pf2e.spells-srd.fXdADBwxmBsU9xPk]{地形歪曲} の系統呪文を学ぶ</p>"
 		},
 		{
-			"id": "Infinite Invention",
-			"name": "無限の発明 ",
-			"description": "<p>君の、発明を調整する能力は有り得ざる高みにまで極まり、君は余った時間で大きな調整をするためにこの技能を使うことが出来る。一日の準備の間、君は自動的に、発明の破壊や破損を修繕し、かつ、異なる発明に変更して（防具、人造、武器あるいはその他の君が入手手段を持つ他の種別の発明）改造と攻撃力増幅を変更することが出来る。</p>\n<p>もし、君が以前の発明を前提条件とする特技を持っていたのなら、通常通り、その特技を再訓練するまで使うことは出来ない。しかしながら、そのような特技を新しい発明を前提条件とした特技に再訓練するには、1週間ではなく、1日しかかからない。</p>"
+			"id": "Improved Evasion",
+			"name": "身かわし強化",
+			"description": "<p>君の危険を回避する能力は比類ないものである。反応セーヴへの君の習熟ランクは伝説になる。君が反応セーヴにファンブルした際、君は代わりに失敗する。君がダメージを与える効果に対する反応セーヴに失敗をロールした際、君はダメージの半分を受ける。</p>"
 		},
 		{
-			"id": "Innovation",
-			"name": "発明",
-			"description": "<p>君は常に発明を作り出しているが、代表作と言えるようなものがあり、それは君がその洗練さで世界を変えることが出来ればと願っているものである。下記の発明から1つを選ぶこと。君の発明レベルは、君のレベルに等しい。もし、発明が破壊されたなら、1日の余暇を費やし、君のレベルの高いDCを目標に〈製作〉判定を行う；成功したなら、君はそれを再構築することが出来る。発明は君の絶え間ない維持管理と鍛冶によってのみ機能するため、市場での価格はない。</p>\n<p>君がこの本で選ぶことが出来る発明は以下の通りである。</p>\n<h3>防具</h3>\n<p>君の発明は、様々な仕掛けや装置が取り付けられた、最先端の中装鎧である。表2-2：発明防具のステータスから1セットを選び、それを君が発明した防具のステータスとする（あるいは、君が入手可能な別の発明防具のステータスを選ぶ）。</p>\n<p>君の発明防具は通常の防具と同じや伊方で基礎及び属性ルーンを追加することが出来る。発明の独特な特徴により、たとえ通常は中装鎧に修得（あるいはそれ以上）だったとしても、君以外の者はこの防具に未修得である。</p>\n<p>君の発明に適用する初期防具改造を、書きから、あるいは君が入手手段を持つ他の初期防具改造から1つ、選ぶこと。</p>\n<ul>\n<li><strong>調和発振器:</strong> 君は防具が力場や音波に干渉を起こすのにちょうどよい周波数で、耳に聞こえない音を出すように設計した。君は力場と音波のダメージに対して、3+レベルの半分に等しい抵抗を得る。「オーバードライブ」の効果がある間、この抵抗は2点、上昇する。</li>\n<li><strong>金属の誘導抵抗:</strong> 防具に使われている金属は電気を遮断し、賛成の化学反応から保護するため、慎重に合金化されている。君は強酸と電撃に対して3+レベルの半分に等しい抵抗を得る。「オーバードライブ」の効果がある間、この抵抗は2点、上昇する。</li>\n<li><strong>外骨格による筋肉補助（パワースーツのみ）:</strong> 君の防具は、慎重に製作された外骨格で君の筋肉を支える。防具をオーバードライブさせると、外骨格は運動能力をも高めてくれる。「オーバードライブ」の効果がある間、君は〈運動〉判定に+1状況ボーナスを得る；もし〈製作〉に達人なら、これは+2状況ボーナスに増加する。</li>\n<li><strong>異世界の防御機能:</strong> 科学を使っているということによって、ただちに君が、慎重に選ばれた素材や装置で防具を作り上げて異世界の攻撃から身を守ることが出来なくなる、というわけではない。君は3+レベルの半分に等しい負のエネルギーダメージへの抵抗か、あるいは君が負のエネルギー治癒を持っているなら正のエネルギーダメージへの抵抗（例えば、君がダンピールなら）を持つ。君は自分にダメージを与えることが出来る全ての種別の属性ダメージ（善、悪、混沌、秩序）に同じ量の抵抗を得る（クリーチャーは逆の属性を持たなければ、ある種別の属性ダメージを受けることはない。例えば、君は属性が善である場合にのみ悪属性のダメージを受ける）</li>\n<li><strong>燃焼調節器:</strong> 防具の中に仕込まれた断熱層が君を急速な温度変化から守ってくれる。君はレベルの半分に等しい氷雪と火炎ダメージへの抵抗を得る。「オーバードライブ」の効果がある間、この抵抗は2点、上昇する。</li>\n<li><strong>速度増幅器:</strong> 防具の中に君は増幅器を仕込んでおり、それが速度を上昇させてくれる。君は速度に+5フィートのステータス・ボーナスを得る。「オーバードライブ」の効果がある間、この速度は+10フィートのステータス・ボーナスに上昇する。</li>\n<li><strong>迷彩機能(サブターヒュージ・スーツのみ):</strong> 君は防具を、自分が溶け込み、騒音をかすかなものへと抑えるのを手伝ってくれるように設計している。君が防具をオーバードライブする際、迷彩機能はその効果を増し、〈隠密〉を改善する。「オーバードライブ」の効果がある間、君は〈隠密〉に+1状況ボーナスを得る。君が〈製作〉に達人なら、このボーナスは+2状況ボーナスに上昇する。</li>\n</ul>\n<table class=\"pf2-table\">\n<thead>\n<tr>\n<th>中装鎧</th>\n<th>ACボーナス</th>\n<th>敏捷力修正上限</th>\n<th>判定ペナルティ</th>\n<th>速度ペナルティ</th>\n<th>筋力</th>\n<th>バルク</th>\n<th>グループ</th>\n<th>防具特性</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>パワー・スーツ</td>\n<td>+4</td>\n<td>+1</td>\n<td>-2</td>\n<td>-5フィート</td>\n<td>16</td>\n<td>2</td>\n<td>多層</td>\n<td>-</td>\n</tr>\n<tr>\n<td>サブターフュージ・スーツ</td>\n<td>+1</td>\n<td>+4</td>\n<td>-1</td>\n<td>-</td>\n<td>10</td>\n<td>1</td>\n<td>多層</td>\n<td>-</td>\n</tr>\n</tbody>\n</table>\n<h3>人造</h3>\n<p>君の発明は、歯車やギアで作られたクロックワークのような機械のクリーチャーである。これはプロトタイプの人造の相棒で、君はその基本ステータスのほとんどを、《相棒強化》のような高レベルの特技を取得することによって調整することが出来る。もし、君が「オーバードライブ」アクションを使うなら、人造は君と同じ「オーバードライブ」の利益を得る。また、ファンブルの際には同じ量の火炎ダメージを受ける。</p>\n<p>君は、もっと複雑な行動計画をするために、人造の発明を指示し、制御し、プログラムする追加の時間をどう費やすべきかを知っている。君は人造の相棒に命令する際、2アクションではなく1アクションで「命令」することが出来る。そして、君の人造の相棒はそれを受けて追加のアクションを行うことが出来る（通常、2アクションではなく3アクションである）</p>\n<p>君の発明に適用する初期の人造改造を1つ選ぶこと。これは、下記の中か、君が入手手段を持つ人造改造のどちらかから選ぶ。これらの修正は、人造の能力や外観を変更する。</p>\n<ul>\n<li><strong>加速する機動力:</strong> 車輪やタイヤに仕込まれた動力を持つ脚部や効率的なギア、または追加のブースターといったものが、君の人造をより速くする。君の発明のスピードは40フィートに増加する。</li>\n<li><strong>水陸両棲の人造:</strong> 浮力、方向舵、かぎのついた尾や強力なプロペラといった推進の手段を得ることによって、君の人造は水中移動が出来るようになる。君の発明は25フィートの水泳速度を得る。</li>\n<li><strong>サイズ強化:</strong> 君は人造の発明をほとんどのそれより大きく作り上げる。君の人造は大型である。もし、この習性を持っており、人造の発明が強化された人造の相棒やその他の手段で大型になる能力を得たなら、即座に君は、別の初期人造修正を得るためにサイズ強化を変更することが出来る</li>\n<li><strong>器用な手:</strong> 君の人造の発明は、間接のある手や、明らかな手先の器用さを備えた同様の付属肢を持っている。人造の発明は、四肢の内、2本までを使って操作アクションをすることが出来る。相棒の通常のルール通り、人造の発明は武器を持つことや相棒の特性を持たないアイテムをテニ持つことは出来ず、アイテムの起動も出来ない。</li>\n<li><strong>発射装置:</strong> 君の人造には、ダーツ・ランチャー、埋め込み式のキャノンあるいは同様の武装が搭載されている。君の人造は、1d4点の殴打あるいは刺突ダメージ（この修正を選んだ際に選ぶ）を与える遠隔素手打撃を得る。この攻撃は投射の特性を持ち、射程単位は30フィートである</li>\n<li><strong>感覚器官配列:</strong> 追加の感覚装置が君の発明に夜目と暗視、そして距離30フィートの不明瞭な振動感知を与える。</li>\n<li><strong>驚異的装備:</strong> 君は、人造の粗雑な知能に特殊な技能をマッピングする。君の発明は〈威圧〉、〈隠密〉、〈生存〉に修得になる</li>\n</ul>\n<h3>武器</h3>\n<p>君の発明は、数々の変わった機構で強化された、ありえないように見える武器である。この武器は、任意のレベル0のコモンの単純武器あるいは軍用武器、もしくは、君が入手手段を持つレベル0の単純あるいは軍用武器と同じステータスで開始する。君は代わりに、任意の1レベルのコモンの単純あるいは軍用武器、もしくは君が入手手段を持つ別の1レベルの単純武器あるいは軍用武器のステータスを使ってもよいが、その武器の金銭的な価格を支払わなくてはならない。発明武器は通常の武器と同じやり方で基礎及び属性ルーンを追加することが出来る。発明は独特な特徴を持つため、たとえ通常は単純武器あるいは軍用武器に修得（あるいはそれ以上）だったとしても、君以外の者はこの武器に未修得である。もし、君が「オーバードライブ」アクションを使ったなら、君は「オーバードライブ」による追加ダメージを火炎ダメージに変更することを選んでも良い。</p>\n<p>発明に適用する初期武器改造を1つ、下記から、あるいは君が入手手段を持つ他の初期武器改造から選ぶこと。これらの改造は追加の武器特性や、時々、追加能力を与えることがある。改造は君の武器に、既にその武器が与えられるダメージ種別（基本のダメージ種別かもしれないし、既存の可変特性かもしれない）の可変特性を与えるかもしれない。その場合、君がその改造を選ぶなら、代わりに別のダメージ種別の可変特性を与えること：殴打、刺突、斬撃から選ぶ。</p>\n<ul>\n<li><strong>非致傷射撃（遠隔のみ）:</strong> 君は武器の発明によって矢弾の端をヤスリで絵k刷り、必要に応じて殴打攻撃を行うために、また、致命的な射撃で致命傷を負わせるのを避けるため、射撃の貫通力を調整する。君の発明は非致傷と可変（殴打）の特性を得る。君は、発明で行う攻撃それぞれについて、非致傷の特性を適用するかどうかを選ぶことが出来る</li>\n<li><strong>単純武器の複雑化（単純武器のみ） :</strong> 発明の武器ダメージダイスを1段階、増やす（d4をd6に、d6をd8に、d8をd10に、d10をd12に）。更に、下記から任意の特性1つを与える：可変（殴打）、可変（刺突）、可変（斬撃）</li>\n<li><strong>変動する重量（片手近接武器のみ；機敏、取付、無手の特性を持っていてはならない）:</strong> 君の武器の重量は修正され、使うのに必要な手が増える代わりに力を増すことが出来る。君の発明は両手の特性を得て、ダメージ・ダイスはその武器の通常のダメージ・ダイスの大きさより1段階、大きくなる（例えば、ロングソードは両手d10の特性を得る）。君の発明はまた、可変（殴打）の特性を得る。</li>\n<li><strong>絡みつく武器（近接のみ）:</strong> 君は自分の武器を、絡みつくワイヤやストラップのついたものにしたり、柔軟な構造を持つように変える。君の発明は組み付きと足払いの特性を得る。</li>\n<li><strong>阻害するトゲ（近接のみ）:</strong> 君は長く、引っかかるようなトゲを武器に追加し、それを使って敵の移動を阻害できるようにする。君の発明は移動阻害hamperingと可変（刺突）の特性を得る。</li>\n<li><strong>剛い構造（近接のみ）:</strong> 滑らかな表面と堅固な構造によって君の武器は重く、メイスのようになる。君の発明は押しやりと可変（殴打）の特性を得る。</li>\n<li><strong>選択式頭部:</strong> 君は自分の武器のために、多目的で調整可能な打撃面や素早く変更できる特別な矢弾を作った。君の発明は、殴打、刺突、斬撃の組替の特性を得る。君は、現在、持っていないのなら、その武器に非致傷の特性を与えることも、現在、非致傷の特性を持っているならそれを取り除くことも出来る。</li>\n<li><strong>調査の道具（近接のみ）:</strong> 柔らかい素材を使うことによって、君の武器は殺すよりもノックアウトに適していて、特殊な突起物で武器を受け止め、的の武装を解除することが出来る。君の発明は武器落としと非致傷の特性を得る。君は、発明で行う攻撃ごとに非致傷の特性を与えるかどうかを選ぶことが出来る。</li>\n<li><strong>剃刀の刃（近接のみ）:</strong> 君は武器に追加された鋭く曲がった刃で、敵を倒したり、切りつけたりすることが出来る。君の発明は足払いと可変（斬撃）の特性を得る。</li>\n<li><strong>断片化された骨格:</strong> 関節、締め金、伸縮式のパーツによって君の発明は折りたたみや調節が可能になる。武器は殴打、刺突、斬撃の組替特性を得る。君は「使用」を使ってそのアイテムを軽重量のバルクに折りたたんだり、通常の形態に戻すことが出来る。軽重量に折り畳んだ場合は、武器は隠匿可能の特性を持ち、この武器を隠す、あるいは隠匿するための〈隠密〉判定とDCに+2状況ボーナスを得る。</li>\n</ul>"
+			"id": "Improved Familiar Attunement",
+			"name": "秘術の主題: 使い魔強化の調律",
+			"description": "<p>君は長らく、ウィザードと使い魔を繋ぐ、よく調律された魔法を長期間に渡って維持しており、ほとんどのウィザードが現在使っている生来の、そして安全な絆に比べて神秘的な繋がりを発展させることが出来る。君はそのような絆を君の使い魔と作り出し、ほとんどのウィザードよりもそこからより多くの有益なものを得る。君はボーナス特技として @Compendium[pf2e.feats-srd.bcxIg7wi8ZAhvhOD]{《使い魔》} のウィザード特技を得る。君の使い魔は1つの追加能力を得て、更に君が6レベル、12レベル、そして18レベルに到達する際に更に1つの追加能力を得る。使い魔と君の絆は、君が所有する品ではなく、使い魔に魔法のエネルギーを貯蔵できるように、秘術の絆のクラス特徴を変更する；君はまた、「絆の品の吸収」ではなく、「使い魔吸収」のフリー・アクションを得る。「使い魔吸収」は君がアイテムの代わりに使い魔から魔法を引き出すということを除けば、君に「絆の品の吸収」を使わせ、同等に機能する能力をいつでも使うことが出来るようにする。</p>"
 		},
 		{
-			"id": "Inventive Expertise",
-			"name": "インヴェンターの専門知識",
-			"description": "<p>発明と実験を通じて、君は発明をより効率的で信頼できるものにした。君のインヴェンター・クラスDCへの習熟ランクは熟練となる。</p>"
+			"id": "Incredible Senses",
+			"name": "驚くべき感覚",
+			"description": "<p>君は通常の人間が探知することがほとんど不可能なものを察知する。知覚への君の習熟ランクは伝説になる。</p>"
 		},
 		{
-			"id": "Inventive Mastery",
-			"name": "インヴェンターの体得",
-			"description": "<p>君の発明は信じがたいほど効率的である。君のインヴェンター・クラスDCに対する習熟度は達人になる。</p>"
+			"id": "Iron Will",
+			"name": "鋼の意志",
+			"description": "<p><strong>アルケミスト</strong> 君の精神的な防御は鉄の要塞である。意志セーヴへの君の習熟ランクは熟練になる。</p>\n<p><strong>レンジャー</strong> 訓練によって君の決意は強固になった。意志セーヴへの君の習熟ランクは熟練になる。</p>"
 		},
 		{
-			"id": "Inventor Weapon Expertise",
-			"name": "インヴェンターの武器専門知識",
-			"description": "<p>君は武器をもっと効率的に使うための小技を改良してきた。君の単純武器、軍用武器そして素手打撃の習熟度は熟練になる。</p>\n<p>もし、君が武器の@Compendium[pf2e.classfeatures.jIAgXe2FetAKBwt7]{発明}を持っているのなら、発明のクリティカル特化効果を入手する。</p>"
+			"id": "Juggernaut",
+			"name": "圧倒する肉体",
+			"description": "<p><strong>バーバリアン、チャンピオン、ファイター、インヴェンター、レンジャー</strong> 君の肉体は物理的な災厄に慣れ、病気に耐性がある。君の頑健セーヴの習熟ランクは達人になる。君が頑健セーヴに成功した時、代わりにクリティカルする。</p>\n<p><strong>アルケミスト</strong> 君の肉体は物理的な障害に慣れ、病原体や病気に耐性がある。君の頑健セーヴの習熟ランクは達人になる。君が頑健セーヴに成功した時、代わりにクリティカルする。</p>\n<p><strong>メイガス</strong> 君の肉体は物理的な災厄に慣れ、幅広い病気に耐性がある。君の頑健セーヴの習熟ランクは達人になる。君が頑健セーヴに成功した時、代わりにクリティカルする。</p>\n<p><strong>ガンスリンガー</strong>  君の肉体は物理的な障害に慣れ、病気に耐性がある。君の頑健セーヴの習熟ランクは達人になる。君が頑健セーヴに成功した時、代わりにクリティカルする。</p>"
 		},
 		{
-			"id": "Inventor Weapon Mastery",
-			"name": "インヴェンターの武器体得",
-			"description": "<p>君は完全に武器のことを理解した。単純お呼び軍用武器、素手打撃についての君の習熟ランクは達人になる</p>"
+			"id": "Legendary Spellcaster",
+			"name": "伝説の術者",
+			"description": "<p><strong>バード</strong>: 君は伝説的なほど、霊妙魔法を自由に操る。霊妙呪文攻撃ロールと呪文DCへの君の習熟ランクは伝説になる。</p>\n<hr />\n<p><strong>ドルイド</strong>:君は魔法の本質との間に、比類のない関係を作り上げている。君の始原呪文攻撃ロールと始原呪文DCへの習熟ランクは伝説になる。</p>\n<hr />\n<p><strong>オラクル:</strong> 君はほとんど並び立つものがないほどの度合いで信仰の力を思い通りに操ることが出来る。信仰呪文攻撃ロールと呪文DCへの君の習熟ランクは伝説になる。</p>\n<hr />\n<p><strong>ソーサラー</strong>: 君は呪文発動に桁外れの才能を示す。君の血脈の体系の呪文攻撃ロールと呪文DCへの君の習熟ランクは伝説になる。</p>\n<hr />\n<p><strong>ウィッチ</strong>: 君は守護霊のもたらす呪文を完璧に制御する。君のウィッチの呪文発動の呪文攻撃ロールと呪文DCへの習熟ランクは伝説になる。</p>\n<hr />\n<p><strong>ウィザード:</strong> 君は秘術の理論と実践的な呪文の両方に包括的な理解をした、極みに至った術者である。秘術呪文攻撃ロールと秘術呪文DCへの君の習熟ランクは伝説になる。</p>"
 		},
 		{
-			"id": "Juggernaut (Level 17)",
-			"name": "圧倒する肉体 (Level 17)",
-			"description": "<p>君の肉体は物理的な災厄に慣れ、病原体や病気に耐性がある。君の頑健セーヴの習熟ランクは達人になる。君が頑健セーヴに成功した時、変わりにクリティカルする。</p>"
+			"id": "Life",
+			"name": "神秘：生命",
+			"description": "<p>生者の内にある正のエネルギーの、尽きることのない流れを、君は、はっきりと感じることが出来る。君は生命の尊さを支持しているか、もしかしたら、生命の尊さを覆すために探索をしているのかもしれない。君は世界の生きているクリーチャーの集合的な生命力から力を引き出し、正のエネルギー界と何らかの繋がりを持っているか、あるいはイローリ、ファラズマ、サーレンレイ、そして医学の神ジ・ツォンを含む神々の集まりを崇拝しているのかもしれない。</p>\n<p><strong>神秘の恵み</strong></p>\n<p>君のに肉体は生命のエネルギーの深い集積である。レベルごとに、君はオラクル・クラスから8+耐久力修正ではなく、10＋耐久力修正に等しいヒットポイントを得る。</p>\n<p><strong>修得技能</strong> 〈医学〉</p>\n<p><strong>授与キャントリップ</strong> @Compendium[pf2e.spells-srd.SnjhtQYexDtNDdEg]{スタビライズ}</p>\n<p><strong>啓示呪文</strong></p>\n<ul>\n<li>初期 @Compendium[pf2e.spells-srd.2gQYrCPwBmwau26O]{命の繋がり};</li>\n<li>上級 @Compendium[pf2e.spells-srd.ziHDISWkFSwz3pmn]{災厄遅延};</li>\n<li>強化 @Compendium[pf2e.spells-srd.9kOI14Jep97TzGO7]{治癒の姿}</li>\n</ul>\n<p><strong>関連領域</strong> 死、治癒</p>\n<h3>溢れ出す生命の呪い</h3>\n<p>生命のエネルギーが君から溢れ、全ての生き物と繋がりを作る。だが、君はそうするために自分の生命の精髄を消費しているのである。君の存在は病や怪我を和らげ、少しずつ九オフを消していき、植物に新しい成長をもたらし、そうでなくとも君の周囲に生命力を与える。</p>\n<h4>下級の呪い</h4>\n<p>君の生命力が外部へと流れ出すにつれて、君の肉体を機能させ続けるのは難しくなる。君のヒットポイントを回復する効果は、君が回復するヒットポイントに、君のレベルの半分に等しいステータス・ペナルティ（最低１）を受ける。</p>\n<p>@Compendium[pf2e.feature-effects.yR4XFhh3irGBgPmJ]{効果: 生命の呪い（下級）}</p>\n<h4>中級の呪い</h4>\n<p>君から流れ出ていく生命の流れは不可逆である。</p>\n<p>下級の呪いの効果に加えて、君は他のクリーチャーから発される魔法の効果によって治療されることが出来ない。しかしながら、君が気絶しているなら、魔法の効果は君を１ヒットポイント（それ以上にはならない）まで回復させることが出来る。君は通常通り、エリクサー、ポーション、その他のアイテムに影響を受けることが出来る。</p>\n<p>君が@Compendium[pf2e.spells-srd.rfZpqmj0AIIdkVIs]{ヒール}を発動し、全ての対象が生きたクリーチャーである際、君は回復量を決定するのにd8ではなくd12をロールする。</p>\n<p>君がキャントリップではない呪文の発動を終えた際、いつでも、君は呪文のレベルに等しいヒットポイントを、呪文の対象の一体か、君に一番近いクリーチャー一体を選んで回復させる。君はこの方法で自分を癒やすことは出来ない。この治癒は、治癒、死霊術、正のエネルギー及びその呪文の体系の特性を持つ。</p>\n<p>@Compendium[pf2e.feature-effects.9GIlMB09zKCsnuBP]{効果:生命の呪い（中級）}</p>\n<h4>上級の呪い (11th)</h4>\n<p>生命力は君の魔法を強化するために流れ出していく。君の呪文の中には、正のエネルギーを携えるものがある。</p>\n<p>君が5レベル以上の呪文かつ発動に2アクション以上かかる呪文を発動するために呪文スロットを使うごとに、君は30フィート爆発内に、君が発動した呪文より4レベル以上低い@Compendium[pf2e.spells-srd.rfZpqmj0AIIdkVIs]{ヒール}呪文を3アクションで使った際の効果を与える。この治癒は君が「呪文の発動」を終えた直後に発生する。君はこの治癒から利益を得ることはなく、代わりにこの治癒呪文でロールされたヒットポイントの2倍を失う。</p>\n<p>@Compendium[pf2e.feature-effects.KTNjMlO3WZFx7Suj]{効果: 生命の呪い（上級）}</p>"
 		},
 		{
-			"id": "Legendary Overdrive",
-			"name": "伝説のオーバードライブ",
-			"description": "<p>君の並外れた発明と「製作」能力は「オーバードライブ」をみなぎらせる。君は〈製作〉に伝説となり、「オーバードライブ」成功時、君の追加ダメージは合計で3点となる。これは、達人のオーバードライブの追加ダメージを置き換える。</p>"
+			"id": "Light Armor Expertise",
+			"name": "軽装鎧の専門知識",
+			"description": "<p>君は、中装鎧、軽装鎧、あるいは鎧を着用していない時に攻撃を回避する方法を学んだ。中装鎧、軽装鎧と生身への君の習熟ランクは熟練になる。</p>"
 		},
 		{
-			"id": "Lightning Reflexes (Level 7)",
-			"name": "神速の反応 (Level 7)",
+			"id": "Light Armor Mastery",
+			"name": "軽装鎧体得",
+			"description": "<p>君の中装鎧と軽装鎧の技能は発展し、拳をかわす能力が向上する。君の中装鎧、軽装鎧、生身の習熟ランクは達人になる。</p>"
+		},
+		{
+			"id": "Lightning Reflexes",
+			"name": "神速の反応",
 			"description": "<p>君の反応は雷光のごとく素早い。君の反応セーヴへの習熟ランクは熟練になる。</p>"
 		},
 		{
-			"id": "Master Overdrive",
-			"name": "オーバードライブの達人",
-			"description": "<p>発明と製作技術を体得したことによって、君の「オーバードライブ」は更に強化される。君は〈製作〉に達人となり、「オーバードライブ」成功時に追加ダメージの合計を2点増やす。これは熟練のオーバードライブによる増加を置き換える。</p>"
+			"id": "Lore",
+			"name": "神秘：伝承",
+			"description": "<p>知識と情報は君のもとへ進んでやってくる。君はこの伝承を使って多次元宇宙の神の謎を理解するための力を得ているのかもしれない。君は名高きアカシック・レコードと繋がっているのかもしれないし、生けるもの全ての集合的無意識とかすかなテレパシーの繋がりを持っているのかもしれないし、アーバダー、イローリ、ネサス、イローリの学問上の甥であるグローハスタ、フェイの三位一体の運命の女神マグダ、あるいは秩序のアイオーンの神像モナドのような神格の足跡を追っているのかもしれない。</p>\n<p><strong>神秘の恵み</strong></p>\n<p>君は殆どの人々よりも多い神秘の知識を蓄えている。君は発動出来るレベルごとに呪文レパートリーに一つの追加呪文を持つ。</p>\n<p><strong>修得技能</strong> 〈霊妙学〉と君の選んだ〈伝承〉一つ。</p>\n<p><strong>授与キャントリップ</strong> @Compendium[pf2e.spells-srd.OhD2Z6rIGGD5ocZA]{リード・オーラ}</p>\n<p><strong>啓示呪文</strong></p>\n<ul>\n<li>初期 @Compendium[pf2e.spells-srd.k2QrUk7jWMAWozMh]{頭脳吸収};</li>\n<li>強化 @Compendium[pf2e.spells-srd.LbPLNWlLCxKCo5gF]{伝承との接続};</li>\n<li>上級 @Compendium[pf2e.spells-srd.XULNb8ItUsfupxqH]{恐るべき秘密}</li>\n</ul>\n<p><strong>関連領域</strong> 知識、真実</p>\n<h3>知識の激流の呪い</h3>\n<p>君は真の神の知識に繋がりを持っているが、君の定命の者としての精神は君が知っていることを処理し、行動することに苦しむ。君の周りにある自由な素材、塵、穀物、水滴といったものは緩やかに、奇妙なルーンやかすかで解読不可能な書き物を形作るように変化する。君は時折、知覚不可能な真実を話し、未知の言語での証言を、それを理解することなしに行う。</p>\n<h4>下級の呪い</h4>\n<p>君は周囲で起こっている物事の情報に関する集合体を処理しようとし、対応能力が緩やかになるため、イニシアチブに-4ペナルティを受ける。</p>\n<p>@Compendium[pf2e.feature-effects.zYKkObDPVRQOtwPh]{効果: 伝承の呪い（下級）}</p>\n<h4>中級の呪い</h4>\n<p>君の精神を貫く情報の流れは大きくなる。この巨大な情報の流れを処理するために君の注意が逸らされるということは、君が常に@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{立ちすくみ}状態であることを意味している。</p>\n<p>手番の開始時ごとに、君は自動的にフリー・アクションとして@Compendium[pf2e.actionspf2e.KygTSeDvsFoSO6HW]{「知識を思い出す」}判定を一度、行う。これは君が選んだ、「知識を思い出す」アクションを持つ技能を使った判定で、その技能に（他のボーナス、ペナルティ、修正値なしで）10+君の習熟ボーナスに等しい結果を用いる。</p>\n<p>@Compendium[pf2e.feature-effects.MrLjJVltBpvMMD8Q]{効果: 伝承の呪い（中級）}</p>\n<h4>上級の呪い (11th)</h4>\n<p>大量の情報流れが他者と交流する君の能力を阻害し、圧倒する。君は全ての言語を理解することが出来るが、発話、言語効果の使用、君の味方との交流をすることが出来ない。</p>\n<p>もし君が言語要素を持つ「呪文の発動」を行ったなら、君はDC5の平目判定に成功しなければ呪文を失う。</p>\n<p>君は言語効果に対するセーヴィング・スローに+4ステータス・ボーナスを得る。</p>\n<p>@Compendium[pf2e.feature-effects.rhG0ZcTBxfxGve5k]{効果: 伝承の呪い（上級）}</p>"
 		},
 		{
-			"id": "Medium Armor Mastery (Level 19)",
-			"name": "中装鎧体得 (Level 19)",
-			"description": "<p>君の軽装鎧と中装鎧の技術は進展し、攻撃を避ける能力を上昇させる。君の軽装鎧と中装鎧の習熟ランクと生身の習熟ランクは、達人になる。</p>"
+			"id": "Maestro",
+			"name": "ミューズ：マエストロ",
+			"description": "<p>君のミューズは、遥かなる高見へと君を鼓舞する傑作である。もしそれがクリーチャーであるなら、コーラル・エンジェルやリレンド・アザータといったパフォーマンスを愛するクリーチャーかもしれない；神格であるなら、@Compendium[pf2e.deities.gxwmzxUWBOhdgFSN]{シェーリン}かもしれない。マエストロのミューズを持つバードである君は、味方を鼓舞する存在であり、音楽と朗唱能力に自信がある。君は@Compendium[pf2e.feats-srd.sVjATEo8eqkAosNp]{《持続する創意》}の特技を得て、@Compendium[pf2e.spells-srd.szIyEsvihc5e1w8n]{スーズ}を呪文レパートリーに加える。</p>"
 		},
 		{
-			"id": "Offensive Boost",
-			"name": "攻撃力増幅",
-			"description": "<p>君は、発明に自分の攻撃能力をアップグレードさせる機能を追加した。君の改良によって、発明に依存するあらゆる「打撃」は、君が選んだ増幅によって決まる種別の追加ダメージ1d6点を与える。もし、君の発明が防具なら、増幅は君の近接素手「打撃」と、君が一日の準備の間に選んだ一つの武器による近接「打撃」に適用される。もし、君の発明が人造であるなら、増幅は君の人造の相棒の「打撃」に適用される。もし、君の発明が武器であるなら、増幅は発明を使って行う君の「打撃」に適用される。君は、余暇を費やして改造を切り替えるのと同じ方法で異なる増幅に切り替えることが出来る。下記の増幅から1つを選ぶこと。ダメージ種別は括弧書きの中に書かれている。</p>\n<ul>\n<li><strong>冷凍（氷雪）:</strong> 君の発明は急速に熱を吸収し、強烈な冷気を作り出す</li>\n<li><strong>発火（火炎）:</strong> 君の発明は輝く炎を噴射する</li>\n<li><strong>感電（電撃）:</strong> 君の発明は充電された電気で敵を感電させる</li>\n<li><strong>余勢（殴打）:</strong> 君の発明は勢いを増して敵に叩きつける</li>\n<li><strong>切断（斬撃）:</strong> 君の発明は攻撃の間、切断用の刃が回転する</li>\n<li><strong>棘状突起（刺突）:</strong> 君の発明は攻撃の間、悪辣な棘をあらわにする</li>\n<li><strong>硫酸（強酸）:</strong> 君の発明は腐食性の酸を噴出する</li>\n</ul>"
+			"id": "Magical Fortitude",
+			"name": "魔法の肉体強化",
+			"description": "<p><strong>オラクル、ソーサラー、ウィザード</strong>: 魔法の力が君の肉体の回復力を発展させている。頑健セーヴへの君の習熟ランクは熟練になる。</p>\n<hr />\n<p><strong>ウィッチ</strong>: 君の守護霊が君の肉体の回復力を発展させている。頑健セーヴへの君の習熟ランクは熟練になる。</p>"
+		},
+		{
+			"id": "Master Spellcaster",
+			"name": "達人の術者",
+			"description": "<p><strong>バード</strong>: 君は霊妙の達人である。霊妙呪文攻撃ロールと呪文DCへの君の習熟ランクは達人になる。</p>\n<hr />\n<p><strong>ドルイド</strong>: 始原魔法は君の命令に答える。始原呪文攻撃ロールと始原呪文DCへの君の習熟ランクは達人になる。</p>\n<hr />\n<p><strong>オラクル</strong>: 君は真実、神秘の内にある深遠で複雑な信仰の力を理解している。信仰呪文攻撃ロールと呪文DCへの君の習熟ランクは達人になる。</p>\n<hr />\n<p><strong>ソーサラー</strong>: 君は血の中の魔法への体得を遂げている。血脈に対応する体系の呪文攻撃ロールと呪文DCへの君の習熟ランクは達人になる。</p>\n<hr />\n<p><strong>ウィッチ</strong>: 君は守護霊の魔法への体得を遂げている。血脈に対応する体系の呪文攻撃ロールと呪文DCへの君の習熟ランクは達人になる。</p>\n<hr />\n<p><strong>ウィザード</strong>: 君は最高の呪文発動能力を意のままにする。君の秘術呪文攻撃ロールと秘術呪文DCへの習熟ランクは達人になる。<strong>メイガス</strong>: 君は最高の呪文発動能力を意のままにする。君の秘術呪文攻撃ロールと秘術呪文DCへの習熟ランクは達人になる。</p>\n<hr />\n<p><strong>サモナー</strong>: 幻獣との繋がりは、関連する呪文を君に体得させるほどに強い。君の、幻獣の体系についての呪文の呪文攻撃ロールと呪文DCは達人になる。</p>"
+		},
+		{
+			"id": "Mastermind",
+			"name": "裏稼業：黒幕",
+			"description": "<p>自分の目的を遂げるために他人が手先の早業や雄弁さを用いるような場面で、君は知性を頼りに複雑な計画を立てる。君はチェスのゲームのように自分の作戦を見ており、常に他人が3歩先を計画する際に10歩先を計画している。君は犯罪を解決しようとする探偵や、強力な一家あるいは国家に仕えるスパイのリーダーかもしれない。もし、君が法律に反したことをしているのなら、君は、犯罪王や情報ブローカーを目指しているのかもしれないし、他人を適切な仕事に導くことに長けているのかもしれない。</p>\n<p>もし、君が@Compendium[pf2e.actionspf2e.KygTSeDvsFoSO6HW]{「知識を思い出す」}を使ってクリーチャーの識別に成功したのなら、そのクリーチャーは君の次の手番の開始時まで君の攻撃に対して立ちすくみ状態である；もし、君がクリティカルしたのなら、君の攻撃に対して対象は1分間、@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{立ちすくみ}状態になる。</p>\n<p>君は〈社会〉に修得と、君の選んだ下記の技能のどれか一つに修得である：〈神秘学〉、〈自然〉、〈霊妙学〉、〈宗教〉。君は主要能力値として知力を選ぶことが出来る。</p>"
+		},
+		{
+			"id": "Medium Armor Expertise",
+			"name": "中装鎧の専門知識",
+			"description": "<p>君は攻撃に対してもっと上手に身を守ることを学んだ。軽装鎧、中装鎧、そして生身に対する君の習熟ランクは熟練になる。</p>"
+		},
+		{
+			"id": "Medium Armor Mastery",
+			"name": "中装鎧体得",
+			"description": "<p>君の軽装鎧と中装鎧の技能は発達し、打撃を避ける能力が上がった。軽装鎧と中装鎧の君の習熟ランクと生身の習熟ランクは達人になる。</p>"
+		},
+		{
+			"id": "Metamagical Experimentation",
+			"name": "秘術の主題: 呪文修正実験",
+			"description": "<p>君は、呪文修正として知られる実践が遠い昔、ウィザード達が、他人が記録して何年間も受け継いできた呪文に頼るのではなく、自分達独自の呪文とバリエーションで作業しなければならなかった時分の遺産であることを悟っている。これによって君は様々な呪文修正効果を実質的に手に入れた。君は1レベルの呪文修正ウィザード特技をボーナス特技として得る。4レベルの開始時点で、一日の準備の間に君は君のレベルの半分未満のレベル条件を持つ、君の選んだ呪文修正ウィザード特技一つを得て、それを次の一日の準備まで使うことが出来る。</p>"
+		},
+		{
+			"id": "Mosquito Witch Patron",
+			"name": "Mosquito Witch Patron",
+			"description": "<p>Few in Shimmerford or elsewhere would be foolish enough to attempt to draw the Mosquito Witch's attention, but whether you're one of those foolish few or simply someone who attracted the Mosquito Witch's attention unwittingly or unwillingly, she grants you powers over insects and other arthropods.</p>\n<p><strong>Spell List</strong> primal</p>\n<p><strong>Patron Skill</strong> Nature</p>\n<p><strong>Hex Cantrip</strong> <em>@Compendium[pf2e.spells-srd.BItahht2hEHvR9Bt]{Buzzing Bites}</em></p>\n<p><strong>Granted Spell</strong> <em>@Compendium[pf2e.spells-srd.gfPjmG6Fe6D3MFjl]{Pest Form}</em></p>"
+		},
+		{
+			"id": "Necromancy",
+			"name": "秘術系統: 死霊術",
+			"description": "<p>死霊術士である君は生と死の力を呼び出す。君の系統はしばしばアンデッドの蘇生との関わりについて中傷を受けるが、君は、命の制御とはまた、治癒の制御でもあることを理解している。君は、1レベルの死霊術呪文（@Compendium[pf2e.spells-srd.k34hDOfIIMAxNL4a]{グリム・テンドリス}のような）1つを、君の呪文書に加える。君は @Compendium[pf2e.spells-srd.BH3sUerzMb2bWnv1]{墓地の呼び声} の系統呪文を学ぶ</p>"
 		},
 		{
 			"id": "Order of the Chain",
@@ -187,24 +297,29 @@
 			"description": "<p><strong>Favored Weapons</strong>: @Compendium[pf2e.equipment-srd.9iDqOLNFKxiTcFKE]{Mace}, @Compendium[pf2e.equipment-srd.I5DJUbAFGMwa6qCz]{Scourge}, @Compendium[pf2e.equipment-srd.f1gwoTkf3Nn0v3PN]{Whip}</p>\n<p>Hellknights of the Order of the Scourge hunt those who pervert the law for their own selfish ends. They seek to destroy corruption and those who hide behind unjust laws and bureaucracy.</p>\n<hr />\n<p><strong>Lesser Benefit</strong>: @Compendium[pf2e.feats-srd.AxjjAoU1IZaNUGGS]{Fear No Law, Fear No One}</p>\n<p><strong>Greater Benefit</strong>: @Compendium[pf2e.feats-srd.1xpqOpguTUAeFsdO]{Seek Injustice}</p>"
 		},
 		{
-			"id": "Overdrive",
-			"name": "オーバードライブ",
-			"description": "<p>君は自分で発明したたくさんの小さな装置を持っている。それは、 筋肉を刺激するものから、ピストンを動かすものまで様々である。いざという時には必要に応じて、それらを@Compendium[pf2e.actionspf2e.3D9kGfwg4LUZBR9A]{オーバードライブ}させ、戦闘を支援してくれるようにするのである。</p>"
+			"id": "Outwit",
+			"name": "狩人の刃: 奸智",
+			"description": "<p>君は獲物を出し抜き、避けることに才能がある。君は獲物についての〈欺瞞〉、〈威圧〉、〈隠密〉に＋2状況ボーナスを、君の獲物の攻撃に対してACに＋1状況ボーナスを得る。</p>"
 		},
 		{
-			"id": "Peerless Inventor",
-			"name": "無類の発明家",
-			"description": "<p>君は常に発明をしており、製作についての君の技能は素晴らしい。君は前提条件をたとえ満たしていなくとも、 @Compendium[pf2e.feats-srd.XR95taODq1sq82Du]{《発明家》} の技能特技を得る。</p>"
+			"id": "Polymath",
+			"name": "ミューズ：ポリーマス",
+			"description": "<p>君のミューズは技能から探求まで何でもこなす。それがクリーチャーであるのなら、フェイのような多岐にわたるクリーチャーかもしれない；もし神格であるならデズナかカリストリアであるかもしれない。ポリーマスのミューズを持つバードである君は、広範な話題に興味を持つが、滅多にどれかに専念するということはなく、心を決めるということは珍しい――君は何もかもを試したいのである。君は@Compendium[pf2e.feats-srd.jBp91q4uzwd4FeSX]{《万能なる芸》} の特技を得て、呪文レパートリーに@Compendium[pf2e.spells-srd.xqmHD8JIjak15lRk]{アンシーン・サーヴァント}を加える。</p>"
 		},
 		{
-			"id": "Reconfigure",
-			"name": "再設定",
-			"description": "<p>君は、あらゆる製作に専門家となり、常に発明を調整する。君は1日の余暇を費やして鍛冶作業をし、君のレベルに対する高いDCに対して〈製作〉判定を試みることで、発明の修正を試みる。成功したなら、君は、同じ種類の（初期、ブレイクスルー、革新的）、その発明の別の改造を選んで1つの改造と変更する。</p>\n<p>もし、君が何らかの修正特技を持っているなら、判定に成功した際に君は異なる修正特技へと修正特技一つを再訓練することを選んでもよい。新しい特技は、再訓練の通常の制限を満たしている必要がある。</p>"
+			"id": "Precision",
+			"name": "狩人の刃：精密",
+			"description": "<p>君は獲物の弱点を狙うように訓練している。君が獲物に、ラウンドで最初に攻撃を命中させた際、君は1d8の追加の精密ダメージを与える（精密ダメージは既に君が与えているダメージを増加させ、それと同じ種別のダメージであるが、重要な臓器あるいは弱点のないクリーチャーには効果がない）。</p>\n<p>11レベル時点で、この追加ダメージは2d8の精密ダメージに、19レベル時点で3d8の精密ダメージに増加する。</p>"
 		},
 		{
-			"id": "Revolutionary Innovation",
-			"name": "革新的発明",
-			"description": "<p>君は並ぶものない才能の持ち主で、君の選んだ分野に革命を起こすであろう技術――少なくとも、当面の間は！――を発見した。君の発明に適用する革新的改造を選ぶこと。君は望むなら、代わりに同じ種別の初期改造あるいはブレイクスルー改造を選んでもよい。</p>\n<h3>革新的防具改造</h3>\n<ul>\n<li><strong>移動阻害自動化:</strong> 君の防具は電磁場、分周波歪曲、その他の技術を用いて、君の近くに居るものが君の許しなしに移動するのを困難にする。防具を着ている間、君に隣接する全てのマス目は、君の敵にとって移動困難な地形となる。</li>\n<li><strong>エネルギー障壁:</strong> 君の防具の防御能力は、君に立ち塞がるあらゆる種類のエネルギーを取り除く。発明した防具を着ている間、君は、2+レベルの半分に等しい、あらゆるエネルギーダメージ（強酸、氷雪、電撃、火炎、力場、負のエネルギー、正のエネルギー、音波）への抵抗を得る。君はこの改造を選ぶために調和発振器、金属の誘導抵抗あるいは燃焼調節器の改造を所持していなければならない。</li>\n<li><strong>驚異的抵抗力:</strong> 君はダメージに抵抗するブレイクスルー改造能力を進化させた。君が持つ下記のブレイクスルー改造から1つを選ぶ：密集装甲、多層メッシュ、伸張吸収。その改造から君が得ている抵抗を、君のレベルの半分ではなく、君のレベルに等しい数字とする。</li>\n<li><strong>マルチセンサー・カバー (サブターフュージ・スーツのみ):</strong> 君は自分の姿をあらゆる感覚に対して歪めることによって守ってくれるマルチセンサー・カバーを作り出した。残るのは君のおぼろげな映像、くぐもった音といったものだけになる。この防具を着用している間、君は、たとえ視覚ではない明瞭な感覚、例えばバットの反響定位を用いる者相手を含めた、全てのクリーチャーに対する視認困難を得る。君の場所を明確にしたままの効果についての通常のルール通り、君はこの視認困難を「隠れる」や「忍び歩き」に使うことは出来ない。君が敵対的な行動を取った際、視認困難は、君が操作特性を持つ単発アクションによってカバーを復元するまで終了したままになる。</li>\n<li><strong>完全防御(パワースーツのみ):</strong> 君は防具に、致命的な攻撃が急所を逸らすほどの重厚な防護力増強を施す。君がこの防具を着用している間にクリティカル・ヒットされるごとに、DC13の<span data-pf2-check=\"flat\" data-pf2-dc=\"13\" data-pf2-show-dc=\"owner\">平目判定</span>を試みる。成功した際、それは通常の命中になる。これは、平目判定でクリティカル・ヒットをなくすフォーティフィケーション・ルーンやその他の能力とは累積しない。更に、君は精密ダメージに対して2＋レベルの半分に等しい抵抗を得る。</li>\n<li><strong>物理的防御:</strong> 君の防具には多くの調整箇所と予防策がされており、全ての物理ダメージから身を守ってくれる。この防具を着用している間、君は全ての物理ダメージに対して（殴打、刺突、斬撃、継続出血ダメージ）レベルの半分に等しい抵抗を得る。君は、この改造を選ぶために、密集装甲、多層メッシュあるいは伸張吸収を持っていなくてはならない。</li>\n<li><strong>ルーン適性:</strong> オリハルコン合金に手を出したにせよ、別の工学的解決方法を見いだしたにせよ、君は追加の属性ルーンを持たせるように発明を作り込んだ。君の発明はその種別の通常のアイテムに比べて1つ多くの属性ルーンを持つことが出来る（+3発現防具の場合の最大4つの属性ルーンまで）</li>\n</ul>\n<h3>革新的人造改造</h3>\n<ul>\n<li><strong>飛行機構:</strong> 君は人造に、回転翼や翼の追加、軽量化などを施し、飛行手段を備える。君の発明は25フィートの飛行速度を得る。</li>\n<li><strong>奇跡的装備:</strong> 君が発明の外層を完成させたため、人造はより知能を高めた。その知力修正値は2上昇し、君が知る言語から任意に選んだ1つの言語を学ぶ。君の人造は、「強制」や「暗号の解読」といった高い知能を必要とするアクションを使うことが出来るようになる。最後に、君の人造は2つの任意の知力あるいは魅力に基づいた技能に伝説になる。君はこの改造を選ぶために、最高の装備を持っていなくてはならない。</li>\n<li><strong>耐久装甲:</strong> 君の発明は、いかなる手段によってもダメージをあまり受けない。人造は全てのダメージに5点の抵抗を得る（アダマンティンを除く）</li>\n<li><strong>ルーン要石:</strong> 君は発明にルーンストーンに似た装置を組み込み、武器や防具ではないにも関わらず、属性ルーンを持てるようにした。防具属性ルーンは、まるで人造が防具の着用者であるかのように発明そのものに作用する。武器属性ルーンは、通常、武器に与える属性の全てを君の発明の素手打撃に当てるが、通常通りの条件に従う（例えば、ヴォーパル・ルーンは斬撃近接素手打撃にのみ適用される）。もし、ルーンが遠隔攻撃にのみ影響するのなら、君の発明に組み込まれた遠隔攻撃がなければ効果を持たない（例えば、発射装置の初期改造など）。もし、このルーンが武器や防具の物理的形状や外見そのものに影響を与えるものであれば（グラマードなど）、ルーンは人造に刻んでも何の効果も無い。</li>\n<li><strong>ウォール陣形:</strong> 君の発明は移動可能な人造から、据え置き型の戦場の砲座に変態することが出来る。操作特性を持つ2アクションの連続行動として、通常の形態から薄い、金属の直立した、高さ10フィート長さ30フィートの壁に形態を変える。この壁は君の発明の元々の接敵面を含んでいなければならない。君の人造が壁である間、元に戻るための同じ連続行動を使うこと意外にアクションを取ることは出来ず、簡単には自分を守ることはできないため、@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{立ちすくみ}状態になり、更にそのACに－2ステータス・ペナルティを受ける。この壁は、君の発明が最大ヒット・ポイントの半分以下でない限り、視線と効果線を遮る。ヒット・ポイントが半分を下回ると、壁に穴が空いてクリーチャーは見通すことが出来るようになり、遮蔽ありでの攻撃を許し、超小型のクリーチャーはそれをすり抜けることが出来る。</li>\n</ul>\n<h3>革新的武器改造</h3>\n<ul>\n<li><strong>攻撃精密化:</strong> 君の武器は攻撃に失敗するごとに綿密な再計算を行い、次の攻撃が当たるようにする。君の発明は、返し刀と押しやりの特性を得る。</li>\n<li><strong>致命的打撃:</strong> T精緻な計算を通じて、君は武器の完全な形状を未つけだし、急所に入った際に甚大なダメージを与える。君の発明は致命的d8の特性を得る。君の発明が既に致命的であれば、その致命的ダイスはd8ではなく、d12に増える。</li>\n<li><strong>ダメージ強化:</strong> 君は自分の発明を、その種別の他の武器よりも強力にする。発明の武器ダメージ・ダイスを1段階、増加させる（d4からd6、d6からd8、d8からd10、d10からd12）。通常通り、君は2段階以上、ダイスを増やすことは出来ないため、この改造は単純武器の複雑化とは累積しない。</li>\n<li><strong>伸張可能な武器(近接のみ):</strong> 君は、バランスを変えないまま伸縮するように武器を作る方法を見つけた。君の発明は間合いの特性を得る。既に間合いの特性をこの武器が持っているなら、通常の5フィートではなく、10フィート、間合いを伸ばす。</li>\n<li><strong>有り得ざる合金:</strong> 他の発明家は技術的にそれが不可能だと言っているかもしれないが、君は自分にだけ機能する幾つかの合金を作り出した。これらの合金は、7つのスカイメタルの内、どれかに脆弱な敵にダメージを与えることが出来る。君の発明は7つのスカイメタル全てであるように扱われる（アビシウム、アダマンティン、ジェゼット、イヌブリクス、ノークァル、オリハルコン、シカタイト）これはつまり、君はこういったスカイメタルで作られた武器のその他の効果は得ないものの、様々なクリーチャーに多くのダメージを与えられるようになるということを意味している。</li>\n<li><strong>打撃力強化 (近接のみ):</strong> 特殊な重りによって君の武器は攻撃時に強い勢いを保つことが出来る。君の発明は強烈と可変（殴打）の特性を得る。</li>\n<li><strong>射程延長化(遠隔のみ):</strong> 君はあらゆる距離において、自分の発明が危険で効率よくなるように改造した。君の発明に強弓の特性があるなら、それを取り除く。そうでなければ、君の発明の射程単位を50フィート、あるいは武器の基本射程単位に等しい量の、どちらか多い数量だけ増やす。</li>\n<li><strong>ルーン適性:</strong> オリハルコン合金に手を出したにせよ、別の工学的解決方法を見いだしたにせよ、君は追加の属性ルーンを持たせるように発明を作り込んだ。君の発明はその種別の通常のアイテムに比べて1つ多くの属性ルーンを持つことが出来る（+3発現武器の場合の最大4つの属性ルーンまで）</li>\n</ul>"
+			"id": "Resolve",
+			"name": "決意",
+			"description": "<p>君は決意によって己の精神を鎧う。意志セーヴへの君の習熟ランクは達人になる。君が意志セーヴに成功した時、代わりにクリティカルする。</p>"
+		},
+		{
+			"id": "Ruffian",
+			"name": "裏稼業：用心棒",
+			"description": "<p>君は技の巧みさや意匠を凝らした技に頼るよりも、腕っぷしの強さや威圧を好む。君は組織犯罪の用心棒かもしれないし、家族の力の脅威で他人を脅しつける貴族であるのかもしれない。あるいは、技能をまっとうな使い方をして、個人的な細かい警備をしたり、正当な気質をもって都市の守衛をしているのかもしれない。</p>\n<p>君は仕事をやり遂げるために、手にある道具を何であれ、利用する。君は急所攻撃のクラス特徴に記されている武器に加えて、あらゆる単純武器で急所攻撃ダメージを与えることが出来る。君が単純武器を使った攻撃ロールにクリティカルし、その対象が@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{立ちすくみ}状態（自らを守ることに集中出来ない）である際、君は自分が使っている武器のクリティカル特化効果を適用することが出来る。その武器のダメージ・ダイスがd8（ダメージ・ダイスの大きさを修正するあらゆる能力を適用した後で）より大きいなら、君はこれらの利益を得ることが出来ない。</p>\n<p>君は〈威圧〉と中装鎧に修得である。君が軽装鎧の専門知識を得た際、中装鎧への熟練の習熟ランクをも得て、軽装鎧体得を得た際には、中装鎧への達人の習熟ランクをも得る。</p>"
 		},
 		{
 			"id": "Runelord Specialization",
@@ -212,24 +327,69 @@
 			"description": "<p>You draw untold power from runes, sometimes called sin magic. You associate with one of the seven vices, also known as the seven rewards of rule: envy (abjuration), gluttony (necromancy), greed (transmutation), lust (enchantment), pride (illusion), sloth (conjuration), and wrath (evocation). Studying these techniques often tempts you with the associated sin. While leaning into it could corrupt you, it might make you more powerful. If you choose this class archetype, you must select @Compendium[pf2e.feats-srd.mz2x4HFrWT8usbEL]{Runelord Dedication} as your 2nd-level class feat.</p>\n<p><strong>Prerequisites</strong>: You must be a wizard specializing in one of the seven schools other than divination.</p>\n<p><strong>Runelord Adjustments</strong>: In addition to the normal school spell for your chosen school of magic, you learn the initial rune spell associated with your school, with its school adjusted to your chosen school of magic if it wasn't from that school already. Your pool of Focus Points increases to 2 Focus Points. At 8th level, you also learn the advanced rune spell associated with your school, also adjusting its school to match your chosen school of magic if it wasn't already, and your pool of Focus Points increases to 3 Focus Points.</p>\n<p>You can Refocus by indulging in your school's sin in lieu of studying your spellbook. As you become more powerful, your indulgence grows. At 12th level, if you indulge in your sin to @Compendium[pf2e.actionspf2e.OSefkMgojBLqmRDh]{Refocus}, if you have spent at least 2 Focus Points since the last time you Refocused, you recover 2 Focus Points when you Refocus instead of 1. At 18th level, if you indulge in your sin to Refocus, if you have spent at least 3 Focus Points since the last time you Refocused, you recover 3 Focus Points when you Refocus instead of 1.</p>\n<p>You are trained in martial polearms. At 11th level, if you gain @Compendium[pf2e.classfeatures.O99eXctsEjEpuBwe]{Weapon Expertise (Level 11)}, you become an expert in martial polearms.</p>\n<p>Finally, you lose the ability to prepare or cast any spell from your school's prohibited schools. You remove all spells of those schools from your spell list, meaning you can't even activate scrolls or wands of such spells.</p>\n<p><strong>Additional Feats</strong>: 2nd @Compendium[pf2e.feats-srd.z0HX5L7bOOrKi0dD]{Tattoo Artist}</p>"
 		},
 		{
-			"id": "Shootist's Edge",
-			"name": "射手の極み",
-			"description": "<p>君は、他人には不可能な射撃を行う。君の、ガンスリンガー・クラスDCへの習熟は達人になる。君が達人以上の習熟を持つ遠隔武器を使っている際、君はその武器の2番目と3番目の射程単位内の攻撃についてペナルティを無視する。</p>"
+			"id": "Scoundrel",
+			"name": "裏稼業：詐欺師",
+			"description": "<p>君は危険を避け、危険な状況から逃れるため、言いくるめ、お世辞、饒舌さを利用する。君は新しい物語や手口と共に場所から場所へと旅するペテン師や詐欺師かもしれない。君の裏稼業はまた、法律家、外交家、政治家といった特定の名声ある職業にとっては理想的でもある。<br /></p>\n<p>君が @Compendium[pf2e.actionspf2e.QNAVeNKtHA0EUw4X]{「フェイント」}に成功した際、その対象は、次の君の手番の終了時まで、君がその対象に試みる近接攻撃に対して立ちすくみである。クリティカルしたなら、その対象は君だけでなく、君の次の手番の終了時までの全ての近接攻撃に対して立ちすくみである。<br /></p>\n<p>君は〈欺瞞〉と〈交渉〉に修得している。君は主要能力値として魅力を選ぶことが出来る。</p>"
 		},
 		{
-			"id": "Singular Expertise",
-			"name": "ガンスリンガーの専門特化",
-			"description": "<p>君は、銃やクロスボウに特別な専門知識があるため、それらにより熟練し、大きなダメージを与えることができる。火器やクロスボウを使ったダメージ・ロールに+1の状況ボーナスを得ることができる。</p>\n<p>火器とクロスボウに集中することで、君は、他の武器で同じような高みに到達することができなくなる。素手打撃や、火器とクロスボウ以外の武器の熟練は、たとえ1つ以上の他の武器の熟練度を最高の武器熟練に合わせるような能力（多くの祖先が持っている専門知識の能力など）を得たとしても、修得より高くなることはない。ガンスリンガーの武器体得を持っている場合は熟練、ガンスリンガーの伝説を持っている場合は、達人が上限となる。</p>"
+			"id": "Shield Block",
+			"name": "盾防御",
+			"description": "<p>君は@Compendium[pf2e.feats-srd.jM72TjJ965jocBV8]{《盾防御》}の一般特技を得る。このリアクションによって君は盾でダメージを減少することが出来る。</p>"
+		},
+		{
+			"id": "Signature Spells",
+			"name": "署名呪文",
+			"description": "<p>経験によって、君はもっと柔軟に呪文を発動することが出来る。</p>\n<p>君が手に入れることのできるそれぞれの呪文レベルについて、署名呪文となるそのレベルの呪文を1つ選ぶ。君は別々に署名呪文の増強バージョンを学ぶ必要はない；代わりに、君はこれらの呪文を自由に増強することが出来る。もし、君が最小レベルよりも高いレベルで署名呪文を学んだのだとしても、君は別々に学ぶことなく、低いレベルのバージョン全てを発動することが出来る。もし署名呪文を入れ替えたなら、君は前の呪文を学んだ際に選ぶことが出来た呪文から入れ替えることが出来る（つまり、同じ呪文レベル以下の呪文）。</p>\n<p>君はまた、呪文を入れ替えるのではなく、そのレベルの別の呪文へと署名呪文を変更するために再訓練をすることも出来る；これは、通常の呪文の再訓練と同じ時間がかかる。</p>"
+		},
+		{
+			"id": "Spell Blending",
+			"name": "秘術の主題:呪文混合",
+			"description": "<p>君は、呪文スロットとは、全ての呪文発動に力を当てる、影に潜むエネルギーの記号であると理論付け、呪文スロットの階級を加工して、もっと強力な呪文に燃料を与えるためにそれらを合成する方法を発見している。日々の準備をする際、君は同じレベルの2つの呪文スロットを、犠牲にした呪文スロットよりも2レベルまで高いボーナス呪文スロットに引き換えることが出来る。君は可能な限り多くの呪文スロットを引き換えることが出来る。ボーナス呪文スロットは君が通常、発動可能なレベルでなければならず、それぞれのボーナス呪文スロットは異なる呪文レベルのものでなければならない。君はまた、あらゆる呪文スロットを2つの追加のキャントリップと引き換えることが出来るが、この方法によって一度に追加のキャントリップのために引き換えることが出来る呪文スロットは1つだけである。</p>"
 		},
 		{
 			"id": "Spell Repertoire (Summoner)",
-			"name": "Spell Repertoire (Summoner)",
-			"description": "<p>The collection of spells you can cast is called your spell repertoire. At 1st level, you learn two 1st-level spells of your choice and five cantrips of your choice. You choose these from the common spells from the tradition corresponding to your eidolon, or from other spells from that tradition to which you have access. You can cast any spell in your spell repertoire by using a spell slot of an appropriate spell level. Your spell slots and the spells in your spell repertoire are separate. If a feat or other ability adds a spell to your spell repertoire, it doesn't give you another spell slot, and vice versa.</p>\n<p>You add to this spell repertoire as you increase in level. Each time you get a spell slot (see Table 2-4: Summoner Spells per Day), you add a spell of the same level to your spell repertoire. At 2nd level, you select another 1st-level spell. At 3rd level, you add the first 2nd-level spell to your repertoire. At 4th level you gain your second and your spell repertoire reaches its maximum size of five spells.</p>\n<p>At 5th level, in addition to adding two 3rd-level spells to your repertoire, you lose your lowest level of spell slots. Any time you lose a level of spell slots, you lose two spells in your repertoire as well. These can come from spells you already know or out of the number of new spells you're learning. On levels in which you don't change your spell slots, you can swap out multiple spells, as described below.</p>\n<h3>Swapping Spells in Your Repertoire</h3>\n<p>As you gain new spells in your repertoire, you might want to replace some of the spells you previously learned. Each time you gain a level and learn new spells, you can swap out one of your old spells for a different spell of the same level. If it's a level at which you lose a set of lower-level slots, you can replace the two in either order. You can also instead swap a cantrip. You can also swap out spells by retraining during downtime.</p>\n<p>At 6th level and every even level thereafter, you can swap out any number of your spells for different spells of a level you can cast. When you do, you must keep at least one spell you can cast with your lowest level of spell slots so you don't end up with slots you can't use. For instance, at 6th level you would need to keep at least one 2nd-level spell, but all your other spells could be 3rd level.</p>"
+			"name": "呪文レパートリー (サモナー)",
+			"description": "<p>君が発動することが出来る呪文の集合を、呪文レパートリーと呼ぶ。1レベル時点で、君は選んだ1レベル呪文を2つ、そして選んだ5つのキャントリップを学ぶ。君は、それらを幻獣に対応した体系のコモン呪文か、入手手段を持つその体系の他の呪文から選ぶ。君は、適切な呪文レベルの呪文スロットを使うことによって、呪文レパートリーにある呪文をどれでも発動することが出来る。君の呪文スロットと、呪文レパートリーの呪文は独立している。もし、ある特技やその他の能力が呪文レパートリーに呪文を追加するとしても、それが新しい呪文スロットを与えることはないし、その逆もまた真である。</p>\n<p>レベルが上がる際に、君は呪文レパートリーを追加する。君が呪文スロットを得るたびに（表2-4：1日のサモナー呪文を参照）、君は呪文レパートリーに同じレベルの呪文を加える。2レベル時点で、君は別の1レベル呪文を選ぶ。3レベル時点で、君はレパートリーに最初の2レベル呪文を追加する。4レベル時点で、君は2つめの2レベル呪文を得て、呪文レパートリーは最大サイズである5つの呪文に達する。</p>\n<p>5レベル時点で、3レベルの呪文2つをレパートリーに加えた上で、君は最も低いレベルの呪文スロット2つを失う。呪文スロットのレベルを失う際、いつでも、君は呪文レパートリーから2つの呪文を失う。失う呪文は、君が既に知っている呪文でも、学んでいる新しい呪文の数を減らしてもよい。呪文スロットに変更がないレベルでは、君は下記に記したとおり、複数の呪文を入れ替えることが出来る。<h3>呪文レパートリーの入れ替え</h3>\n<p>レパートリーに新しい呪文を得る際、君はかつて学んだ呪文の幾つかを入れ替えたいと望むかもしれない。レベルを得て新しい呪文を学ぶごとに、君は古い呪文の1つを、同じレベルの異なる呪文と入れ替えることが出来る。もし、それが低レベルの、呪文スロットを失ったレベルなら、君は好きな順番で2つを入れ替えることが出来る。君はまた、キャントリップを入れ替えることも出来る。君はまた、余暇の間に再訓練によって呪文を入れ替えることも出来る。</p>\n<p>6レベル時点とその後の偶数レベルごとに、君は自分が発動出来る様々なレベルのあらゆる数の呪文を入れ替えることが出来る。そうするなら、君は最低レベルの呪文スロットで発動することが出来る呪文を最低でも1つは保持しなくてはならない。でなければ、君は使うことが出来ない呪文スロットを持つことになる。例えば、6レベル時点で君は少なくとも1つの2レベル呪文を覚えておく必要があるが、その他の呪文は全て3レベルでもよい。</p>"
 		},
 		{
-			"id": "Stubborn",
-			"name": "壮健",
-			"description": "<p>君は、指示をされることを好まず、諦めない性分である。君の意志セーヴへの習熟ランクは熟練になる。君に支配状態を与える効果に対する意志セーヴに失敗はしたがファンブルではない場合、君は次の手番の開始時にその効果に対して2回目のセーヴを試みることが出来る。2回目のセーヴに成功した際、支配状態は終了するが、その他の全ての効果は残る。通常通り、この2回目のセーヴに成功しても、君は次の手番の3回目のセーヴを試みることは出来ない。</p>"
+			"id": "Spell Substitution",
+			"name": "秘術の主題:呪文交換",
+			"description": "<p>君は一度呪文を準備したなら、それを次の日々の準備まで変えることが出来ないという事実を受け入れておらず、もともと準備していたものを新しい呪文に交換することが出来るようになる近道を発見している。君は準備済み呪文スロット1つを空にして、同じ場所に呪文書から違う呪文を準備するために10分間を費やすことが出来る。もし君がこの交換中に妨害されたなら、もともとの呪文が準備されたまま、発動可能である。君は後で呪文を交換することを再び試みることが出来るが、最初からこの過程を始めなくてはならない。</p>"
+		},
+		{
+			"id": "Staff Nexus",
+			"name": "秘術の主題: スタッフの集合体",
+			"description": "<p>君の主題は、研究を始めたばかりの頃から@Compendium[pf2e.equipment-srd.FVjTuBCIefAgloUU]{スタッフ}を熱心に使うことによって、術者とスタッフの間に共生的な絆が生まれ、素晴らしい魔法を生み出すことが出来るというものである。君は自分で作った足跡のスタッフとこういった繋がりを築き、出会ったあらゆるスタッフに更なる力を吹き込む準備をしているのである。</p>\n<p>君は、自分で作った足跡のスタッフを持ってプレイを始める。このスタッフには、1つのキャントリップと1つの1レベル呪文を封じ込めることが出来る。これは両方とも君の呪文書から選ばなくてはならないが、一日の準備の間、通常のチャージを得ることはない。君は通常のスタッフに追加のチャージを加える時にそうするように、このスタッフにチャージを与えるために呪文スロットを消費しなくてはならない。君は、新しいスタッフの通常のコストを支払うことによって、この足跡のスタッフをどんな他のタイプのスタッフにでも@Compendium[pf2e.actionspf2e.rmwa3OyhTZ2i2AHl]{「製作」}することが出来る。そうした時、君は、選んだ2つの呪文を、「製作」したスタッフに追加することが出来る。</p>\n<p>8レベル時点で、君はスタッフを準備する際に1つではなく2つの呪文を消費して、消費した呪文のレベルを合算したものに等しいチャージを追加することが出来る。16レベル時点で、君はスタッフにちゃん辞するために3つまでの呪文を消費することが出来て、3つの呪文全てのレベルの合算に等しい追加チャージを加える。</p>"
+		},
+		{
+			"id": "Tempest",
+			"name": "神秘：嵐",
+			"description": "<p>君の力が自然の嵐から流れ出てくるにせよ、風と水のエレメンタル界への導管であるにせよ、ゴズレー、テングの嵐の女神ヘイ・フェン、デモン・ロードのダゴン、風と水のエレメンタル・ロードであるにせよ、風と波の激しさが君の心臓の中で暴れている。</p>\n<p><strong>神秘の恵み</strong></p>\n<p>君は風と水の向こう側を完全に視認することが出来る。そして、君は風と水の双方を通じて電気を送り込むことが出来る。君は風、雨、霧、そのほかの天候、水を通じて見ること、あるいは水中にいることによる知覚へのペナルティを受けず、そういった状態は君から何者をも視認困難状態にすることはない。</p>\n<p>君がキャントリップではない風あるいは水呪文で物理的なダメージを与える際、君は呪文レベルごとに追加で1点の電気ダメージを与える。</p>\n<p><strong>修得技能</strong> 〈自然〉</p>\n<p><strong>授与キャントリップ</strong> @Compendium[pf2e.spells-srd.kBhaPuzLUSwS6vVf]{エレクトリック・アーク}</p>\n<p><strong>啓示呪文</strong></p>\n<ul>\n<li>初期 @Compendium[pf2e.spells-srd.EzB9i7R6aBRAtJCh]{嵐の接触};</li>\n<li>強化 @Compendium[pf2e.spells-srd.LFSwMtQVP05EzlZe]{雷の破裂};</li>\n<li>上級 @Compendium[pf2e.spells-srd.zhqnMOVPzVvWSUbC]{嵐の姿}</li>\n</ul>\n<p><strong>関連領域</strong> 風、水</p>\n<h3>消えずの嵐の呪い</h3>\n<p>君は自分自身の小さな嵐の中心であり、エレメンタルの力を利用すれば利用するほど激しくなる風と雨に囲まれている。君が穏やかで、休憩しているときですら、君の毛髪や衣類はささやかな風に吹かれている。君は微かに湿っており、君が触れるとしばしば、静電気が起こる。</p>\n<h4>下級の呪い</h4>\n<p>渦巻く嵐のオーラが君の周囲と君の居る接敵面5フィート拡散に巻き上げる。このオーラは、着火された1ラウンド後あるいはオーラに入った1ラウンド後に、魔法のものでない小さな炎を消してしまう。君の嵐の中で電気エネルギーは増幅され、君を雷光の杖とする；</p>\n<p>君は電気への弱点2点を得て、金属を着用しているか持っているクリーチャーに対して追加効果を持つ電気呪文や効果は、君を、金属を着用しているかのように扱う。</p>\n<p>@Compendium[pf2e.feature-effects.IvXLHQySVNj4qMOi]{効果: 嵐の呪い（下級）}</p>\n<h4>中級の呪い</h4>\n<p>君の下級の呪いの範囲は10フィート拡散に広がり、風で雨を運ぶようになる。渦巻く風は君を対象にする、あるいは君から放たれる物理的な矢弾を用いた遠隔攻撃ロールに－２状況ペナルティを与える。</p>\n<p>君の電気への弱点は５点あるいは君のレベルの半分のどちらか大きい方に増えるが、激流となた雨は電気への弱点に等しい火炎への抵抗を与える。</p>\n<p>@Compendium[pf2e.feature-effects.fyuZlKJ4N0zScltj]{効果: 嵐の呪い（中級）}</p>\n<h4>上級の呪い (11th)</h4>\n<p>君の下級の呪いのオーラは15フィート拡散に広がり、もっと強力になる。オーラから外側へ向かって吹き付ける強風はクリーチャーの歩みを妨害する。オーラは地上にいる大型以下のクリーチャーと飛行中の超大型以下のクリーチャーにとって移動困難な地形となる。君はこの移動困難な地形に影響を受けない。</p>\n<p>君を貫く電気の円弧は危険になる。接触呪文や近接素手打撃によるものを含む、君に触れたクリーチャーは[[/r 1d6 #電撃]]点の電気ダメージを受ける。/p>\n<p>@Compendium[pf2e.feature-effects.jB6iDPaOSWrgxsEh]{効果: 嵐の呪い（上級）}</p>"
+		},
+		{
+			"id": "Thief",
+			"name": "裏稼業：盗賊",
+			"description": "<p>他人の持ち物を盗むのに、特に完全に気付かれずにそうするスリルに勝るものはない。君は通りのスリかもしれないし、窓から忍び入って屋根から逃げる強盗や、注意深く警護された禁固に押し入る金庫破りかもしれない。君は何か貴重なものを盗もうとすることによって、クライアントの守りを試すコンサルタントとして働いていることすらあるかもしれない。<br /></p>\n<p>戦いが生じた際、君は素早い、重量の軽い武器を好み、急所に打ちつける。巧技の近接武器で攻撃する際、君は【筋力】修正値ではなくダメージ・ロールに敏捷力修正値を加えることが出来る。<br /></p>\n<p>君は〈窃盗〉に修得である。</p>"
+		},
+		{
+			"id": "Transmutation",
+			"name": "秘術系統: 変成術",
+			"description": "<p>変成術士である君は、クリーチャー、物体、自然界、そして君自身すらも己の気まぐれによって変化させ、ものの物理的な性質を変更する。君は、変化は避けられないということを理解している。君は、1レベルの変成術呪文（@Compendium[pf2e.spells-srd.TFitdEOpQC4SzKQQ]{マジック・ウェポン}のような）1つを、君の呪文書に加える。君は@Compendium[pf2e.spells-srd.1lmzILdCFENln8Cy]{肉体強化}の系統呪文を学ぶ。</p>"
+		},
+		{
+			"id": "Universalist",
+			"name": "秘術系統：総合術士",
+			"description": "<p>一つの秘術系統に狭く特化するのではなく、君は総合術士ウイザードになることが出来る―全ての系統を等しく研究することによって、君は秘術の技の全範囲を理解するために専念するのである。君が発動出来るそれぞれのレベルについて、君はそのレベルの呪文を思い出すために1日に1回、「絆の品の吸収」を使うことが出来る（合計で1日に1回ではなく）。君は追加のウィザード・クラス特技1つを得て、呪文書に君の選んだ1レベル呪文を加える。</p>"
+		},
+		{
+			"id": "Vigilant Senses",
+			"name": "警戒態勢",
+			"description": "<p>冒険を通じて、君は鋭い意識と細部への注意を発展させてきた。知覚への君の習熟ランクは達人になる。</p>"
+		},
+		{
+			"id": "Warrior",
+			"name": "ミューズ：ウォーリア",
+			"description": "<p>戦場は君の舞台で、鉄の噛み合う音は君の歌だ。戦闘に楽しみを見出すか、その必要性にやむを得ずそうしているのかに関わらず、君のミューズは無数の戦いに参加する。もし、君のミューズがクリーチャーであるなら、それはプラネター、アルコン、コルヌゴン、プロダイモンといった異世界の兵士であるかもしれない。もし、それが神格であるなら、トラグかもしれない。ウォーリアのミューズを持つバードである君は、芸能に加えて戦闘に長けており、戦の危険のために味方を準備させる。君は彼らと共に戦の真っ最中に切り込んでいくことすらあるかもしれない。T</p>\n<p>君は@Compendium[pf2e.feats-srd.q1iP3SjAF5uceI0M]{《武威の呪芸》} の特技を得て、呪文レパートリーに@Compendium[pf2e.spells-srd.4koZzrnMXhhosn0D]{フィアー}を加える。</p>"
 		},
 		{
 			"id": "Wave Order",
@@ -237,34 +397,29 @@
 			"description": "<p>Water is the source of life, and you've learned to shape how it flows. You're trained in Medicine. You also gain the @Compendium[pf2e.feats-srd.kS4wxSKrZxcOvSNK]{Shore Step} druid feat. You gain the @Compendium[pf2e.spells-srd.zTN6zuruDUKOea6h]{Rising Surf} order spell. Polluting water or allowing those who pollute water sources to go unpunished is 破戒 to your order (this doesn't force you to take action against potential water pollution or to sacrifice yourself against an obviously superior foe).</p>"
 		},
 		{
-			"id": "Way of the Drifter",
-			"name": "ガンスリンガーの道：放浪者",
-			"description": "<p>君は銃と近接武器を仲間として、土地から土地へと旅する放浪者である。もしかしたら、君は枷の島の海賊とし剣とピストルでの戦い方を学んだのかもしれないし、ミンカイでハンド・キャノンとカタナを体得したのかもしれない。あるいは、ドンガン領でハチェットとクラン・ピストルの訓練をしたのかもしれない。君は機動性と武器の柔軟な使い方によって戦闘に勝利する。</p>\n<p><strong>スリンガーの再装填</strong> 再装填打撃</p>\n<p><strong>身構え</strong> <em>初期</em> 放浪者の参戦; <em>強化</em> 二の手; <em>上級</em> 放浪者の余波</p>\n<p><strong>道の技能</strong> 〈軽業〉</p>"
+			"id": "Weapon Expertise",
+			"name": "武器の専門知識",
+			"description": "<p><strong>チャンピオン、インヴェスティゲーター、オラクル、メイガス</strong> 君は武器の複雑さを学ぶことに専念してきた。単純武器と素手打撃への君の習熟ランクは熟練になる。</p>\n<p><strong>ソーサラー:</strong> 訓練と魔法は、君の武器の技術を向上させた。君の単純武器と素手打撃への習熟ランクは熟練になる。</p>\n<hr />\n<p><strong>オラクル</strong>: 君は武器の複雑さを学ぶことに専念してきた。単純武器と素手打撃への君の習熟ランクは熟練になる。</p>\n<hr />\n<p><strong>サモナー</strong> 訓練と魔法が君の武器技術を発達させた。単純武器と素手打撃への君の習熟ランクは熟練になる(<em>メモ: これはSecret of Magicでは単純武器の専門知識と呼ばれている</em>)</p>\n<p><strong>ウィッチ</strong> 経験を積み重ねることによって、君は武器の技術を磨いている。単純武器と素手打撃の習熟ランクは熟練になる。</p>"
 		},
 		{
-			"id": "Way of the Pistolero",
-			"name": "ガンスリンガーの道：ピストレロ",
-			"description": "<p>プロの決闘者であるのか、ピストルを振り回すエンターテイナーであるのかに係わらず、君は期待を裏切らない素早い足さばきと手さばきを持ち、それと同じくらいに鋭い機智と雄弁さで敵を玩弄する。君は一本の手を空けておいたり、2つの武器を使うための両手の器用さを養うことも出来る。いずれにしても、優れた反射神経を活用するために、敵と十分な距離を保ちながら、安全に射撃するための十分なスペースを確保するのである。</p>\n<p><strong>スリンガーの再装填</strong> 舌先三寸の再装填</p>\n<p><strong>身構え</strong> <em>初期</em> スリンガーの十歩; <em>強化</em> ピストル使いの応酬; <em>上級</em> 残虐なる威容</p>\n<p><strong>道技能</strong> 〈欺瞞〉と〈威圧〉から選ぶ</p>"
+			"id": "Weapon Mastery",
+			"name": "武器体得",
+			"description": "<p>君は完全に自分の武器の複雑さを理解している。単純武器及び軍用武器、素手打撃への君の習熟ランクは達人になる。</p>"
 		},
 		{
-			"id": "Way of the Sniper",
-			"name": "ガンスリンガーの道：狙撃手",
-			"description": "<p>君は過ちのない正確性と初撃の完全な立ち位置に依存する射撃スタイルを訓練している。君は隠れた状態か遠距離におり、騒乱の外側にいながら敵に見えざる死をもたらす。</p>\n<p><strong>スリンガーの再装填</strong> 物陰の再装填</p>\n<p><strong>身構え</strong> <em>初期</em> 一撃必殺; <em>強化</em> 命を奪う一撃; <em>上級</em> 亡霊の一撃</p>\n<p><strong>道技能</strong> 〈隠密〉</p>"
-		},
-		{
-			"id": "Way of the Spellshot",
-			"name": "ガンスリンガーの道；呪文射撃",
-			"description": "<p>君は魔法と技術の複雑さを学び、その2つを融合させて殺傷力の高い結実を生み出した。君は、秘術理論の知識を、選んだ武器との強いつながりと組み合わせることで、独特の効果を現実化させることが出来るようになったが、実際の呪文発動ほどの知識はない。君は、武器にエネルギーを注ぎ込み、虚空から弾丸を出現させることが出来る。君が熟達するにつれ、最終的に、弾丸に壁を通り抜けさせたり、弾丸に沿って自分をテレポートさせることも出来るようになる。</p>\n<p>君は、2レベルのクラス特技として呪文射手のアーキタイプから《呪文射手の専心》を選ばなくてはならない。</p>\n<p><strong>前提条件:</strong> ガンスリンガーでなければならない</p>\n<p><strong>呪文射撃の調整:</strong> ガンスリンガー・クラスに記載されている道を選ぶのではなく、君は呪文射撃の道を持つことが出来る。呪文射撃の道は下記の道技能、スリンガーの再装填、身構えを持つ。君は通常通りのクラスと同じレベルでこれらの能力を得る。君はクラスDCに知力を使う。</p>\n<p><strong>道技能</strong> 〈神秘学〉</p>\n<p><strong>スリンガーの再装填</strong> 思慮深い再装填</p>\n<p><strong>身構え</strong> <em>初期</em> エネルギー射撃; <em>強化</em> 想起する銃弾; <em>上級</em> 解呪弾</p>"
-		},
-		{
-			"id": "Way of the Vanguard",
-			"name": "ガンスリンガーの道：ヴァンガード",
-			"description": "<p>君は、ドワーフの攻城兵器技師が生み出した独特の戦闘スタイルを実践し、攻撃範囲の広い重火器を使って敵陣に穴を開け、味方の隙を作り、征服した領土を守る。</p>\n<p><strong>スリンガーの再装填</strong> 経路一掃</p>\n<p><strong>身構え</strong> <em>初期</em> 生きた砦; <em>強化</em> 回転粉砕; <em>上級</em> 包囲破壊</p>\n<p><strong>道技能</strong> 〈運動〉</p>"
+			"id": "Weapon Specialization",
+			"name": "武器開眼",
+			"description": "<p><strong>チャンピオン、ファイター、ガンスリンガー、インヴェンター、メイガス、モンク、レンジャー、ローグ、スワッシュバックラー</strong>: 君は、よく知っている武器でどのようにしてより大きな傷を与えるかを学んでいる。君は熟練である武器と素手攻撃での攻撃に2点の追加ダメージを与える。このダメージは君が達人なら3点に、伝説なら4点に上昇する。</p>\n<p><strong>アルケミスト、バード、クレリック、ドルイド、オラクル、ソーサラー、ウィッチ、ウィザード</strong> 君は、最も訓練を行った武器でどのようにしてより大きな傷を与えるかを学んでいる。君は熟練である武器と素手攻撃での攻撃に2点の追加ダメージを与える。このダメージは君が達人なら3点に、伝説なら4点に上昇する。</p>\n<p><strong>バーバリアン</strong>: 激怒は君の一撃を強力なものにする。君は熟練の習熟ランクを持つ武器と素手打撃で2点に追加ダメージを与える。このダメージは君が達人なら3点に、君が伝説なら4点に上昇する。君は本能の特化効果を得る。</p>\n<p>君は本能の特化効果を得る。詳細は各本能を参照すること。</p>"
 		},
 		{
 			"id": "Wellspring Magic",
 			"name": "Wellspring Magic",
 			"description": "<p>You regain magic power quickly, but it can be difficult for you to control. You must select @Compendium[pf2e.feats-srd.Zyb3RMGyhsKfTjEG]{Wellspring Mage Dedication} as your 2nd-level class feat.</p>\n<p><strong>Prerequisites</strong>: You must have a class that casts spells with a spell repertoire.</p>\n<p><strong>Wellspring Mage Adjustments</strong>: You learn spells as normal for your class, but change your spontaneous spellcasting in the following ways.</p>\n<p>You can cast fewer spells each day unless you gain more spells thanks to your wellspring. Reduce your number of spell slots of each spell level by 1. Reduce the number of cantrips you gain from your class by 1.</p>\n<p>A wellspring of magic fills you with power that's not fully under your control. When you roll initiative for a non-trivial combat encounter, as well as in other high-stress situations of the GM's choice, magic wells up within you. Attempt a <span data-pf2-check=\"flat\" data-pf2-dc=\"6\">DC 6 flat check</span>.</p>\n<hr />\n<p><strong>Critical Success</strong> You temporarily recover an expended spell slot of any level of your choice. The temporary spell slot lasts for 1 minute, and if you don't use it by then, you experience an immediate @Compendium[pf2e.rollable-tables.N0pDFNCffTe2Du39]{Wellspring Surges}.</p>\n<p><strong>Success</strong> As critical success, except you randomly determine the level of spell slot from among your top three spell levels (or all your levels of spell slots if you have fewer than three). The slot lasts 3 rounds instead of 1 minute.</p>\n<p><strong>Failure</strong> You generate a <em>wellspring surge</em>, with a spell level chosen randomly among your top three levels of spell slots (or all your levels if you have fewer than three).</p>\n<p>You can gain a temporary spell slot no more than twice per day. If you would gain a temporary spell slot for a level that has no expended spell slots, there's no effect. If you use a temporary slot to cast a spell with a duration, the spell ends whenever you would have lost the slot if its duration hasn't yet elapsed. If you roll for <em>wellspring magic</em> while you currently have a temporary spell slot, you automatically fail the flat check.</p>\n<p><strong>Additional Feats</strong>: 8th @Compendium[pf2e.feats-srd.yUpZcrQHrz4mflKQ]{Energetic Resonance}, @Compendium[pf2e.feats-srd.zwEaXGKqnlBTllfE]{Spell Relay}, 10th @Compendium[pf2e.feats-srd.YV4X9u5Yuf0xvoCh]{Surging Might}, 16th @Compendium[pf2e.feats-srd.DSmYJvCHMvZCP0aD]{Scintillating Spell}, 18th @Compendium[pf2e.feats-srd.NvEYf0jIETEu2LtP]{Echoing Spell}</p>\n<hr />\n<h3>WELLSPRING SURGES</h3>\n<p>When your wellspring magic goes out of control, it becomes a wellspring surge. Typically, this happens when you fail the flat check from wellspring magic, but other wellspring mage feats have effects that sometimes cause you to generate a wellspring surge, or might even cause your foes to do so.</p>\n<p>Roll [[/r 1d20]]{1d20} and use the <em>@Compendium[pf2e.rollable-tables.N0pDFNCffTe2Du39]{Wellspring Surges}</em> rolltable to determine the surge's effect. If the effect calls for a damage type, the GM chooses the type based on the types of spells you know or your current location. The wellspring surge uses your spell DC. You have no control over the way your wellspring surge manifests. You are the point of origin for your wellspring surges, and you are not excluded from their effects. If you force a foe to generate a surge, they are the origin point of that surge instead.</p>\n<p>If your wellspring was granted by a being like a god or muse, the entity's intentions might sometimes alter the results of wellspring surges, or move the point of origin for an area to any point within 30 feet if the GM determines this fits the situation. For example, instead of uncontrolled damage, the entity might choose to damage only creatures opposing its plan, even if they are your allies.</p>\n<p>A wellspring surge always has the trait of your magical tradition, plus any traits that appear in parentheses at the end of the surge's effects.</p>"
+		},
+		{
+			"id": "Wit",
+			"name": "スワッシュバックラーのスタイル：洒落者",
+			"description": "<p>君は親しみやすく賢明で、ユーモアに満ちており、常にどんな状況でも何を言うべきかを知っている。君のウィットによって敵は君の攻撃の技巧と速度に対して慣れない状態になる。</p>\n<p>君は〈交渉〉に修得しており、@Compendium[pf2e.feats-srd.0GF2j54roPFIDmXf]{《箴言》}の技能特技を得る。君は遭遇の際、敵に対して《箴言》に成功したなら@Compendium[pf2e.classfeatures.LzYi0OuOoypNb6jd]{心意気}を得る。</p>"
 		},
 		{
 			"id": "Slippery Mind",
@@ -297,6 +452,26 @@
 			"description": "<p>君は卓越したレベルまで調査技術を磨いた。@Compendium[pf2e.actionspf2e.xTK2zsWFyxSJvYbX]{「手がかり追跡」}の状況ボーナスは+2に上昇する。君のインヴェスティゲーター・クラスDCの習熟ランクは達人になる。</p>\n<p>@Compendium[pf2e.feat-effects.uA1Ofqoyi0UiZIPk]{効果: 情報提供 (専門知識)}</p>\n<p>もし、君が@Compendium[pf2e.feats-srd.5cYFHKQK6OZCwavI]{《探偵の警戒術》}を持っているなら、 @Compendium[pf2e.feat-effects.z4pnE8KyUdEkJmru]{効果: 情報提供(探偵の警戒術、専門知識)}</p>"
 		},
 		{
+			"id": "Inventive Mastery",
+			"name": "インヴェンターの体得",
+			"description": "<p>君の発明は信じがたいほど効率的である。君のインヴェンター・クラスDCに対する習熟度は達人になる。</p>"
+		},
+		{
+			"id": "Inventive Expertise",
+			"name": "インヴェンターの専門知識",
+			"description": "<p>発明と実験を通じて、君は発明をより効率的で信頼できるものにした。君のインヴェンター・クラスDCへの習熟ランクは熟練となる。</p>"
+		},
+		{
+			"id": "Inventor Weapon Mastery",
+			"name": "インヴェンターの武器体得",
+			"description": "<p>君は完全に武器のことを理解した。単純お呼び軍用武器、素手打撃についての君の習熟ランクは達人になる</p>"
+		},
+		{
+			"id": "Inventor Weapon Expertise",
+			"name": "インヴェンターの武器専門知識",
+			"description": "<p>君は武器をもっと効率的に使うための小技を改良してきた。君の単純武器、軍用武器そして素手打撃の習熟度は熟練になる。</p>\n<p>もし、君が武器の@Compendium[pf2e.classfeatures.jIAgXe2FetAKBwt7]{発明}を持っているのなら、発明のクリティカル特化効果を入手する。</p>"
+		},
+		{
 			"id": "Wizard Weapon Expertise",
 			"name": "ウィザード武器の専門知識",
 			"description": "<p>魔法と訓練の組み合わせを通じて、君はウィザードの武器をより効率的に使う方法を学ぶ。クラブ、クロスボウ、ダガー、ヘヴィ・クロスボウ、スタッフへの君の習熟ランクは熟練になる。</p>"
@@ -312,6 +487,66 @@
 			"description": "<p>複数の関連性のない力の源を利用することは、否応なく君の肉体に信じがたいほどのストレスを与える。それは、超自然の呪いとして現れるのである。君が啓示呪文を発動すればするほど、呪いの効果は悪化するが、葛藤を強めていくエネルギーはまた、君に神聖な利益をも与える。</p>\n<p>君の呪いの特有の効果は君の神秘に結びつけられているが、全ての呪いは同じように進展する。呪いは絶え間なく君に穏やかに、だが、常に消えることなく、君が異界の力を帯びていることを思い出させる。君が啓示呪文を発動するとき、呪いは強まる。最初は下級効果。そして、中級効果へと。</p>\n<p>呪いは、一日の準備の後、最初に啓示呪文を発動し終えた際に下級の段階へと進展する。下級の呪いが現れたなら、それは君が8時間の休憩を取って、再び一日の準備をするまで効果を発揮し続ける。君が下級の呪いが効果を発揮している間に啓示呪文を発動したなら、「呪文の発動」が終了した直後に中級の呪いの効果へと進む。下級の効果は君に影響を及ぼし続けるが、中級の呪いの中には、下級の呪いの特定の部分を変更するものもある。より高いレベルでは、君はもっと多くの啓示呪文を発動することが出来て、呪いは上級の段階へ、それから最上級の段階へと進んでいく；これらの強力な呪いは、低い段階の効果と累積することも、それらを変更することもある。中級あるいはそれ以上の段階の呪いの効果を受けている間に「再集中」をすると、集中点を回復するだけでなく、呪いの深刻さは下級まで軽減される。</p>\n<p>呪いが最悪の状態である時に神秘を利用することによって、君と君の力の源の間に、決裂不可避な相克をもたらす。中級効果の呪いを受けている間に啓示呪文を発動した直後、君は圧倒されてしまう。圧倒されている間、君は啓示呪文を「発動」することも「維持」することも出来ないーー実質的に君はこういった呪文を使う手段を失う。それでも君は呪いの効果を軽減し、かつ、集中点を回復するための「再集中」を行うことが出来るが、「再集中」を行っても更なる啓示呪文を発動することは出来ない。これらの効果は、君が8時間の休憩を取って、一日の準備を行い、呪いが基礎状態に戻るまで続く。もっと高いレベルでは、君は呪いの上級や、更に最上級の効果に耐えられるように成長することが出来る。そうしたなら、君は圧倒されることなくより多くの啓示呪文を発動することが出来るのである。</p>\n<p>君の呪いは、呪い、信仰、死霊術の特性を持つ。君は「再集中」と8時間の休憩以外のいかなる方法によってもオラクルの呪いを移植、軽減、除去することが出来ない。例えば、もし君の呪いによって、君にとってクリーチャー達が視認困難であるなら、トゥルー・ストライクのような呪文や魔法のアイテムによってこの視認困難状態を無効化することは出来ない（それでも君はアイテムや呪文のその他の効果の利益を受けるだろう）。同じように、リムーヴ・カースや似たような呪文は君の呪いには全く影響を与えない。</p>"
 		},
 		{
+			"id": "Overdrive",
+			"name": "オーバードライブ",
+			"description": "<p>君は自分で発明したたくさんの小さな装置を持っている。それは、 筋肉を刺激するものから、ピストンを動かすものまで様々である。いざという時には必要に応じて、それらを@Compendium[pf2e.actionspf2e.3D9kGfwg4LUZBR9A]{オーバードライブ}させ、戦闘を支援してくれるようにするのである。</p>"
+		},
+		{
+			"id": "Master Overdrive",
+			"name": "オーバードライブの達人",
+			"description": "<p>発明と製作技術を体得したことによって、君の「オーバードライブ」は更に強化される。君は〈製作〉に達人となり、「オーバードライブ」成功時に追加ダメージの合計を2点増やす。これは熟練のオーバードライブによる増加を置き換える。</p>"
+		},
+		{
+			"id": "Gunslinging Legend",
+			"name": "ガンスリンガーの伝説",
+			"description": "<p>君は火器とクロスボウについての独特な技術を学び、比類の無い技能を身につけた。単純と軍用の火器およびクロスボウについて君の習熟は伝説になり、上級火器とクロスボウについては達人になる。単純武器、軍用武器、素手打撃への習熟は熟練になる。</p>"
+		},
+		{
+			"id": "Singular Expertise",
+			"name": "ガンスリンガーの専門特化",
+			"description": "<p>君は、銃やクロスボウに特別な専門知識があるため、それらにより熟練し、大きなダメージを与えることができる。火器やクロスボウを使ったダメージ・ロールに+1の状況ボーナスを得ることができる。</p>\n<p>火器とクロスボウに集中することで、君は、他の武器で同じような高みに到達することができなくなる。素手打撃や、火器とクロスボウ以外の武器の熟練は、たとえ1つ以上の他の武器の熟練度を最高の武器熟練に合わせるような能力（多くの祖先が持っている専門知識の能力など）を得たとしても、修得より高くなることはない。ガンスリンガーの武器体得を持っている場合は熟練、ガンスリンガーの伝説を持っている場合は、達人が上限となる。</p>"
+		},
+		{
+			"id": "Gunslinger Expertise",
+			"name": "ガンスリンガーの専門知識",
+			"description": "<p>君の特別な射撃は、予期することも抵抗することも難しくなる。君のガンスリンガー・クラスDCへの習熟は熟練になる。</p>"
+		},
+		{
+			"id": "Gunslinger Weapon Mastery",
+			"name": "ガンスリンガーの武器体得",
+			"description": "<p>君は、固有の武器を最大限に活用する方法を完全に理解している。簡単な火器とクロスボウ、軍用火器とクロスボウの習熟度が達人になる。上級火器とクロスボウ、単純武器、軍用武器、素手打撃の習熟度が熟練になる。火器とクロスボウのクリティカル特化効果を利用できるようになる。</p>"
+		},
+		{
+			"id": "Gunslinger's Way",
+			"name": "ガンスリンガーの道",
+			"description": "<p>全てのガンスリンガーには従うべき道がある。道とは、彼らの戦い方と扱いに長けた武器の双方を定義する、哲学と戦闘スタイルの複合したものである。1レベル時点で、未知は君に初期の身構えを与える。これは、スリンガーの再装填と呼ばれる独特な再装填アクションと、特定の技能の習熟である。君はまた、後のレベルで身構え強化と上級の身構え、そして道に独特の特技の入手手段を得る。</p>\n<p><strong>@Compendium[pf2e.classfeatures.a3pSIKkDVTvvNSRO]{放浪者の道}:</strong> 君は銃と近接武器を仲間として、土地から土地へと旅する放浪者である。</p>\n<p><strong>@Compendium[pf2e.classfeatures.qRLRrHf0kzaJ7xt0]{ピストレロの道}:</strong> 君は手にピストルを握りながら決闘者の十歩を注意深く保つ</p>\n<p><strong>@Compendium[pf2e.classfeatures.QWXvksGJhOjXbBqi]{狙撃手の道}:</strong> 君は遠くから攻撃を行い、射撃の方法論的スタイルを訓練する</p>\n<p><strong>@Compendium[pf2e.classfeatures.vB0yVFxJVZwalt2g]{ヴァンガードの道}:</strong> 君は重い武器と爆発物の攻撃を用いる残虐な戦闘スタイルに頼る</p>"
+		},
+		{
+			"id": "Way of the Pistolero",
+			"name": "ガンスリンガーの道：ピストレロ",
+			"description": "<p>プロの決闘者であるのか、ピストルを振り回すエンターテイナーであるのかに係わらず、君は期待を裏切らない素早い足さばきと手さばきを持ち、それと同じくらいに鋭い機智と雄弁さで敵を玩弄する。君は一本の手を空けておいたり、2つの武器を使うための両手の器用さを養うことも出来る。いずれにしても、優れた反射神経を活用するために、敵と十分な距離を保ちながら、安全に射撃するための十分なスペースを確保するのである。</p>\n<p><strong>スリンガーの再装填</strong> 舌先三寸の再装填</p>\n<p><strong>身構え</strong> <em>初期</em> スリンガーの十歩; <em>強化</em> ピストル使いの応酬; <em>上級</em> 残虐なる威容</p>\n<p><strong>道技能</strong> 〈欺瞞〉と〈威圧〉から選ぶ</p>"
+		},
+		{
+			"id": "Way of the Vanguard",
+			"name": "ガンスリンガーの道：ヴァンガード",
+			"description": "<p>君は、ドワーフの攻城兵器技師が生み出した独特の戦闘スタイルを実践し、攻撃範囲の広い重火器を使って敵陣に穴を開け、味方の隙を作り、征服した領土を守る。</p>\n<p><strong>スリンガーの再装填</strong> 経路一掃</p>\n<p><strong>身構え</strong> <em>初期</em> 生きた砦; <em>強化</em> 回転粉砕; <em>上級</em> 包囲破壊</p>\n<p><strong>道技能</strong> 〈運動〉</p>"
+		},
+		{
+			"id": "Way of the Drifter",
+			"name": "ガンスリンガーの道：放浪者",
+			"description": "<p>君は銃と近接武器を仲間として、土地から土地へと旅する放浪者である。もしかしたら、君は枷の島の海賊とし剣とピストルでの戦い方を学んだのかもしれないし、ミンカイでハンド・キャノンとカタナを体得したのかもしれない。あるいは、ドンガン領でハチェットとクラン・ピストルの訓練をしたのかもしれない。君は機動性と武器の柔軟な使い方によって戦闘に勝利する。</p>\n<p><strong>スリンガーの再装填</strong> 再装填打撃</p>\n<p><strong>身構え</strong> <em>初期</em> 放浪者の参戦; <em>強化</em> 二の手; <em>上級</em> 放浪者の余波</p>\n<p><strong>道の技能</strong> 〈軽業〉</p>"
+		},
+		{
+			"id": "Way of the Sniper",
+			"name": "ガンスリンガーの道：狙撃手",
+			"description": "<p>君は過ちのない正確性と初撃の完全な立ち位置に依存する射撃スタイルを訓練している。君は隠れた状態か遠距離におり、騒乱の外側にいながら敵に見えざる死をもたらす。</p>\n<p><strong>スリンガーの再装填</strong> 物陰の再装填</p>\n<p><strong>身構え</strong> <em>初期</em> 一撃必殺; <em>強化</em> 命を奪う一撃; <em>上級</em> 亡霊の一撃</p>\n<p><strong>道技能</strong> 〈隠密〉</p>"
+		},
+		{
+			"id": "Way of the Spellshot",
+			"name": "ガンスリンガーの道；呪文射撃",
+			"description": "<p>君は魔法と技術の複雑さを学び、その2つを融合させて殺傷力の高い結実を生み出した。君は、秘術理論の知識を、選んだ武器との強いつながりと組み合わせることで、独特の効果を現実化させることが出来るようになったが、実際の呪文発動ほどの知識はない。君は、武器にエネルギーを注ぎ込み、虚空から弾丸を出現させることが出来る。君が熟達するにつれ、最終的に、弾丸に壁を通り抜けさせたり、弾丸に沿って自分をテレポートさせることも出来るようになる。</p>\n<p>君は、2レベルのクラス特技として呪文射手のアーキタイプから《呪文射手の専心》を選ばなくてはならない。</p>\n<p><strong>前提条件:</strong> ガンスリンガーでなければならない</p>\n<p><strong>呪文射撃の調整:</strong> ガンスリンガー・クラスに記載されている道を選ぶのではなく、君は呪文射撃の道を持つことが出来る。呪文射撃の道は下記の道技能、スリンガーの再装填、身構えを持つ。君は通常通りのクラスと同じレベルでこれらの能力を得る。君はクラスDCに知力を使う。</p>\n<p><strong>道技能</strong> 〈神秘学〉</p>\n<p><strong>スリンガーの再装填</strong> 思慮深い再装填</p>\n<p><strong>身構え</strong> <em>初期</em> エネルギー射撃; <em>強化</em> 想起する銃弾; <em>上級</em> 解呪弾</p>"
+		},
+		{
 			"id": "Summoner Spellcasting",
 			"name": "サモナー呪文",
 			"description": "<p>幻獣との繋がりは、君に幻獣の本性との制限された魔法的繋がりを与える。君は、「呪文の発動」の連続行動を使って呪文を発動することが出来る。また、君は呪文発動に、素材、動作要素、音声要素を提供することが出来る。幻獣から引き出した魔法のため、君は通常、動作要素で物質要素を置き換えることが出来るため、物質要素ポーチを必要としない。</p>\n<p>毎日、君は1レベル呪文を1回と、5つのキャントリップを発動することが出来る。発動するために君は呪文を知っていなければならず、君は呪文レパートリーのクラス特徴を通じて呪文を学ぶことが出来る。君が毎日、発動することが出来る呪文の数は、呪文スロットと呼ばれる。</p>\n<p>サモナーのレベルが上がっていくにつれて、幻獣との魔法的な繋がりは君に追加の、もっと強力な呪文スロットを与えてくれる。呪文スロットの合計数と、君が発動することが出来る呪文の数は、表2-4：1日のサモナー呪文に示されている。幻獣との繋がりから魔法を引き出す方法のため、君は5レベルに達した際に、低レベルの呪文スロットを失い始める。君がサモナーのクラスから得られる呪文の最大数は4つで、4レベルに達した際から最大数になる。</p>\n<p>呪文の中には、どのように効率的に働くかを確認するために、呪文攻撃ロールを試みる必要があるものや、君の敵に呪文DCに対してロールを要求するもの（一般的にはセーヴィング・スローを試みることによる）がある。君の主要能力値は魅力であるため、君の呪文攻撃ロールと呪文DCは魅力修正値を使う。これらのステータスの計算方法の詳細は呪文攻撃ロールに記されている。</p>\n<h3>呪文の増強</h3>\n<p>2レベル以上の呪文スロットを得た際、君はそれらのスロットに低レベル呪文の強力なバージョンを入れることが出来る。これは呪文レベルを上昇させ、その呪文スロットにふさわしいように呪文を増強する。多くの呪文は、特定のレベルに増強された際に特殊な進展がある。</p>\n<h3>キャントリップ</h3>\n<p>キャントリップは、呪文スロットを使わない特殊な種別の呪文である。君は無制限に、1日に何度でもキャントリップを発動することが出来る。キャントリップは常に、自動的に君のレベルの半分切り上げまで増強される――これは、大抵の場合、君がサモナーとして発動する最高の呪文レベルに等しい。例えば、1レベルのサモナーである君のキャントリップは1レベル呪文だが、5レベルのサモナーなら君のキャントリップは3レベルである。</p>"
@@ -320,31 +555,6 @@
 			"id": "Swashbuckler's Style",
 			"name": "スワッシュバックラーのスタイル",
 			"description": "<p>スワッシュバックラーとして、君は、優雅に毎日の出来事と生か死かの状況を同じように扱うことを可能とさせるような、独自のスタイルを持つ。スワッシュバックラーのスアチルを選ぶこと。このスタイルは、君が心意気を得るために使う追加のアクションを決定し、そのアクションに関連した技能に君は修得になる。この本に掲載されているスタイルは下記の通りである。</p>\n<ul>\n<li>@Compendium[pf2e.classfeatures.5HoEwzLDJGTCZtFa]{スワッシュバックラーのスタイル：戦の舞手}</li>\n<li>@Compendium[pf2e.classfeatures.KBhwFjdptrKyN5EM]{スワッシュバックラーのスタイル：狂犬}</li>\n<li>@Compendium[pf2e.classfeatures.Jgid6Ja6Y879COlN]{スワッシュバックラーのスタイル：剣士}</li>\n<li>@Compendium[pf2e.classfeatures.B7RMnrHwQHlezlJT]{スワッシュバックラーのスタイル：軽業剣士}</li>\n<li>@Compendium[pf2e.classfeatures.4lGhbEjlEoGP4scl]{スワッシュバックラーのスタイル：洒落者}</li>\n</ul>"
-		},
-		{
-			"id": "Fencer Style",
-			"name": "スワッシュバックラーのスタイル：剣士",
-			"description": "<p>君は注意深く移動し、フェイントを行ったり、偽の隙を作って不適切な攻撃に敵を誘い込む。君は〈欺瞞〉に修得である。君は遭遇の際、@Compendium[pf2e.actionspf2e.QNAVeNKtHA0EUw4X]{「フェイント」}に成功するか、敵に対して @Compendium[pf2e.actionspf2e.GkmbTGfg8KcgynOA]{「気を逸らす」} に成功したなら@Compendium[pf2e.classfeatures.LzYi0OuOoypNb6jd]{心意気} を得る。</p>"
-		},
-		{
-			"id": "Battledancer Style",
-			"name": "スワッシュバックラーのスタイル：戦の舞手",
-			"description": "<p>君にとって、戦いとはある種の芸術である。君は敵の注意を、暗示的な動作で操作することが出来る。</p>\n<p>君は〈芸能〉に修得であり、 @Compendium[pf2e.feats-srd.7LB00jkh6JaJr3vS]{《魅力的な演芸》} （コアルールブックp261）の技能特技を得る。たとえ敵が恍惚状態でないとしても、君は遭遇の間、「芸能」のための〈芸能〉判定の結果が、見ている敵の意志DCを越えている際、 @Compendium[pf2e.classfeatures.LzYi0OuOoypNb6jd]{心意気} を得る。</p>"
-		},
-		{
-			"id": "Wit Style",
-			"name": "スワッシュバックラーのスタイル：洒落者",
-			"description": "<p>君は親しみやすく賢明で、ユーモアに満ちており、常にどんな状況でも何を言うべきかを知っている。君のウィットによって敵は君の攻撃の技巧と速度に対して慣れない状態になる。</p>\n<p>君は〈交渉〉に修得しており、@Compendium[pf2e.feats-srd.0GF2j54roPFIDmXf]{《箴言》}の技能特技を得る。君は遭遇の際、敵に対して《箴言》に成功したなら@Compendium[pf2e.classfeatures.LzYi0OuOoypNb6jd]{心意気}を得る。</p>"
-		},
-		{
-			"id": "Braggart Style",
-			"name": "スワッシュバックラーのスタイル：狂犬",
-			"description": "<p>君はホラを吹き、威圧し、心理的に敵に釘を刺す。</p>\n<p>君は〈威圧〉に修得である。君は遭遇の間、敵の@Compendium[pf2e.actionspf2e.2u915NdUyQan6uKF]{「士気をくじく」}に成功した際にいつでも、@Compendium[pf2e.classfeatures.LzYi0OuOoypNb6jd]{心意気}を得る。</p>"
-		},
-		{
-			"id": "Gymnast Style",
-			"name": "スワッシュバックラーのスタイル：軽業剣士",
-			"description": "<p>君は大胆な物理的な技によって敵の位置を変え、技をかけ、当惑させる。君は〈運動〉に修得である。君は遭遇の際、敵に@Compendium[pf2e.actionspf2e.PMbdMWc2QroouFGD]{「組みつき」}@Compendium[pf2e.actionspf2e.7blmbDrQFNfdT731]{「押しやり」}@Compendium[pf2e.actionspf2e.ge56Lu1xXVFYUnLP]{「足払い」}に成功したなら@Compendium[pf2e.classfeatures.LzYi0OuOoypNb6jd]{心意気}を得る。</p>"
 		},
 		{
 			"id": "Swashbuckler Expertise",
@@ -422,29 +632,14 @@
 			"description": "<p>好む武器での訓練に何時間も費やし、新しい戦闘技術を学び、向上させたことによって、君は選んだ武器で特に効果的に攻撃する。1つの武器グループを選ぶこと。そのグループの単純武器及び軍用武器への君の習熟ランクは達人に上昇し、そのグループの上級武器に対しては熟練になる。君は達人の習熟ランクを持つすべての武器のクリティカル特化効果を使う。</p>"
 		},
 		{
+			"id": "Breakthrough Innovation",
+			"name": "ブレイクスルーの発明",
+			"description": "<p>君は研究分野にブレイクスルーをもたらし、発明を強化する強力な新しい方法を発見した。発明に適用するブレイクスルー改造を、君の発明の種別のものから選ぶこと。君は、もし望むなら自分の発明種別の初期改造を選んでもよい。</p>\n<h3>ブレイクスルー防具改造</h3>\n<ul>\n<li><strong>反魔法装甲:</strong> 君は、魔法を無効化するスカイメタルとして知られるノークォルを巧みに利用したり、自分独自の設計による魔法への護りを作り出すなどして、魔法に対して防具を強化した。この防具を着用している間、君は呪文に対する全てのセーヴィング・スローと呪文に対するACに+1状況ボーナスを得る。直接的に防具を対象とする呪文に対して（ヒート・メタルなど）、君は代わりに全てのセーヴィング・スローとACに対して+4状況ボーナスを得る。</li>\n<li><strong>迷彩色（サブターフュージ・スーツのみ）:</strong> 君は、静止している限り、簡単に環境に馴染むことが出来るように防具の外装を修正する。この防具を着用している間、君は遮蔽や視認困難がなくても「隠れる」ことが出来る。色合いが周囲に馴染むように変化するのである。</li>\n<li><strong>密集装甲:</strong> 君は自分の防具を頑丈な装甲で覆っている。この防具を着用している間、君はレベルの半分に等しい、斬撃への抵抗を得る。</li>\n<li><strong>抵抗強化:</strong> 君は、初期修正で得たダメージへの抵抗を改良した。初期修正による防具の抵抗は、レベルの半分ではなく、完全なレベルになる（例えば、燃焼調節器の抵抗は君のレベルに等しくなる）。もし、抵抗を与える初期改造を2つ以上持っているなら、どれに適用するかを選ぶこと。</li>\n<li><strong>重層構造（パワースーツのみ）:</strong> 君は発明を重厚で堅牢なものへと進化させ、画期的な設計によってそういった重装備の欠点を受けないようになった。君の発明は重装鎧となり、君の発明防具に対する習熟（ただし他の重装鎧には適用されない）は中装鎧に対する習熟度を等しくなる。もし、君の筋力が16以上なら、-5フィートに減らす代わりに、速度ペナルティを完全に取り除く。防具の調整後のステータスは以下の通りである：ACボーナス+5；敏捷力修正上限+1；判定ペナルティ-2；速度ペナルティ-10フィート；筋力16；バルク 3：グループ　多層；防具特性　堅牢</li>\n<li><strong>強化ブースター:</strong> 君は、爆発のリスクなしにエネルギーの流れを大きく増加させるブレイクスルーを通じて、速度増幅装置を改良した。君は、速度に+10フィートのステータス・ボーナスを得るが、「オーバードライブ」している間、このボーナスは+20フィートに増える。君が〈製作〉に伝説であるなら、「オーバードライブ」している間、+30フィートに増える。君はこの修正を選ぶために速度増幅器の改造を持っていなくてはならない。</li>\n<li><strong>多層メッシュ:</strong> 君は、驚異的なほど強力な網目状のメッシュを防具に張り巡らせており、それが貫通する攻撃を捉えて拡散させる。この防具を着用している間、君はレベルの半分に等しい刺突ダメージへの抵抗を得る。</li>\n<li><strong>伸張吸収:</strong> 君は防具の伸張力を強化し、叩きつけるような攻撃を受けた際に屈曲するようにした。この防具を着用している間、君はレベルの半分に等しい殴打ダメージへの抵抗を得る。</li>\n</ul>\n<h3>ブレイクスルー人造改造</h3>\n<ul>\n<li><strong>上級武装:</strong> 君は人造の武器を強力なものにする。人造の素手打撃を一つ選び、任意の初期武器改造を得る。この初期武器改造は、この本に記載されているものか、君が入手手段を持つその他の初期武器改造から選ぶこと。素手打撃は、選んだ特性のあらゆる条件を満たしていなくてはならない（絡みつく武器ならば、近接攻撃でなければならないなど）。また、これは素手打撃であるため、単純武器の複雑化のように単純武器でなければならないといった特定の条件を満たすことは決してない。</li>\n<li><strong>反魔法の被造物:</strong> 君は、魔法を無効化するスカイメタルとして知られるノークォルを巧みに利用したり、自分独自の設計による魔法への護りを作り出すなどして、魔法に対して自分の人造を強化した。君の人造の発明は呪文に対する全てのセーヴィング・スローとACに+2状況ボーナスを得る。</li>\n<li><strong>登攀用の四肢:</strong> 爪をたてたり、吸着力を作り出すことが出来る付属肢でもって、君の人造は有能な登攀家となる。君の発明は地上速度の半分に等しい登攀速度を得る。</li>\n<li><strong>丈夫な被造物:</strong> 君の発明はしっかりと作られている；人造は破壊されることなく重大な懲罰を受けることが出来る。最大ヒット・ポイントを君のレベルだけ増やす。</li>\n<li><strong>最高の装備:</strong> 君の発明は、〈威圧〉、〈隠密〉、〈生存〉に熟練の習熟度を得る。これらのうち、既に熟練である技能については（例えば、強化された人造の相棒になったためなど）、代わりに達人の習熟度を得る。もし、君が革新的発明のクラス特徴を得たなら、これらの習熟は達人に改善するか、既に君の人造の発明が熟練なら、伝説になる。君は、この改造を選ぶために驚異的装備を持っていなくてはならない。</li>\n<li><strong>砲塔形態:</strong> 君の発明は移動可能な人造から、固定された砲塔に姿を変えることが出来る。君の人造の相棒は操作の特性を持つ単発アクションで変身することが出来る。相棒はその接敵面で砲塔に変身する（あるいは、砲塔から通常の構成に戻る）。砲塔でいる間、君の発明は動けない状態だが、その発射装置のダメージ・ダイスは1d6に上昇し、射程単位は60フィートまで増える。君はこの改造を選ぶために、発射装置の改造を持っていなくてはならない。</li>\n</ul>\n<h3>ブレイクスルー武器改造</h3>\n<ul>\n<li><strong>照準器強化(遠隔のみ):</strong> 注意深く調整されたスコープや照準用装置によって君の武器は特に弱点を狙いやすい。君の発明は急所打ちの特性を得て、射程単位を10フィート増加させる。</li>\n<li><strong>空気力学の構造 （近接のみ）:</strong> 君は注意深く、連続した対象に対する攻撃に勢いを維持するよう、武器の形状を設計する。君の発明は一掃と、可変（斬撃）の特性を得る。</li>\n<li><strong>目立たない外見(近接のみ):</strong> 君の発明は簡単に隠すことができるように、そして奇襲攻撃が出来るように作られている。発明は急所打ちと可変（刺突）の特性を得る。この武器が軽重量のバルクなら、隠匿可能の特性を持つ。</li>\n<li><strong>一体化したガントレット (片手武器のみ：両手の特性を持つことが出来ない）:</strong> ガントレットと武器を組み合わせることで、君は武器での攻撃と手を使った作業の切替を素早くする。君の発明は無手の特性を得る</li>\n<li><strong>多様な合金:</strong> 君は、様々な金属の有用な属性を持った幾つかの合金を考案し、こういった合金で、武器のパーツや矢弾を入れ替えた。君の武器の発明は冷たい鉄かつ錬金術銀である。つまり、君はデーモン、デヴィル、フェイのような様々な超自然のクリーチャーに多くのダメージを与えられるようになる。</li>\n<li><strong>ロープ・ショット(遠隔のみ):</strong> 君の武器は、敵の脚周辺に単純なロープやネットを吐き出すことが出来て、それらは対象に足払いをする。また、君は武器に組み込まれたグラップリング・フックを使って登攀することが出来る。君の武器の発明は登攀と遠隔足払いの特性を得る。</li>\n<li><strong>もつれる紐 (投擲のみ):</strong> 君の武器は、的をノックダウンし、素早く手に武器を戻すための伸縮可能な紐がついている。君の発明は遠隔足払いと紐付きの特性を得る。</li>\n</ul>"
+		},
+		{
 			"id": "Muses",
 			"name": "ミューズ",
 			"description": "<p>バードである君は、1レベル時点でミューズを1つ選ぶ。このミューズは君を大いなるものへと導くもので、肉体を持ったクリーチャーかもしれないし、神格かもしれないし、哲学かもしれないし、魅力的な謎であるかもしれない。</p>"
-		},
-		{
-			"id": "Warrior Muse",
-			"name": "ミューズ：ウォーリア",
-			"description": "<p>戦場は君の舞台で、鉄の噛み合う音は君の歌だ。戦闘に楽しみを見出すか、その必要性にやむを得ずそうしているのかに関わらず、君のミューズは無数の戦いに参加する。もし、君のミューズがクリーチャーであるなら、それはプラネター、アルコン、コルヌゴン、プロダイモンといった異世界の兵士であるかもしれない。もし、それが神格であるなら、トラグかもしれない。ウォーリアのミューズを持つバードである君は、芸能に加えて戦闘に長けており、戦の危険のために味方を準備させる。君は彼らと共に戦の真っ最中に切り込んでいくことすらあるかもしれない。T</p>\n<p>君は@Compendium[pf2e.feats-srd.q1iP3SjAF5uceI0M]{《武威の呪芸》} の特技を得て、呪文レパートリーに@Compendium[pf2e.spells-srd.4koZzrnMXhhosn0D]{フィアー}を加える。</p>"
-		},
-		{
-			"id": "Enigma Muse",
-			"name": "ミューズ：エニグマ",
-			"description": "<p>君のミューズは、多次元宇宙に隠された秘密を暴くように君を駆り立てる謎である。もし君のミューズがクリーチャーであるなら、それはドラゴンや、異世界の存在であるかもしれない；もし神格であるなら、それは、イローリやネティスであるかもしれない。君は@Compendium[pf2e.feats-srd.uVXEZblPRuCyPRua]{《バードの伝承》}の特技を得て、呪文レパートリーに@Compendium[pf2e.spells-srd.Gb7SeieEvd0pL2Eh]{トゥルー・ストライク}を加える。</p>"
-		},
-		{
-			"id": "Polymath Muse",
-			"name": "ミューズ：ポリーマス",
-			"description": "<p>君のミューズは技能から探求まで何でもこなす。それがクリーチャーであるのなら、フェイのような多岐にわたるクリーチャーかもしれない；もし神格であるならデズナかカリストリアであるかもしれない。ポリーマスのミューズを持つバードである君は、広範な話題に興味を持つが、滅多にどれかに専念するということはなく、心を決めるということは珍しい――君は何もかもを試したいのである。君は@Compendium[pf2e.feats-srd.jBp91q4uzwd4FeSX]{《万能なる芸》} の特技を得て、呪文レパートリーに@Compendium[pf2e.spells-srd.xqmHD8JIjak15lRk]{アンシーン・サーヴァント}を加える。</p>"
-		},
-		{
-			"id": "Maestro Muse",
-			"name": "ミューズ：マエストロ",
-			"description": "<p>君のミューズは、遥かなる高見へと君を鼓舞する傑作である。もしそれがクリーチャーであるなら、コーラル・エンジェルやリレンド・アザータといったパフォーマンスを愛するクリーチャーかもしれない；神格であるなら、@Compendium[pf2e.deities.gxwmzxUWBOhdgFSN]{シェーリン}かもしれない。マエストロのミューズを持つバードである君は、味方を鼓舞する存在であり、音楽と朗唱能力に自信がある。君は@Compendium[pf2e.feats-srd.sVjATEo8eqkAosNp]{《持続する創意》}の特技を得て、@Compendium[pf2e.spells-srd.szIyEsvihc5e1w8n]{スーズ}を呪文レパートリーに加える。</p>"
 		},
 		{
 			"id": "Monk Expertise",
@@ -502,6 +697,11 @@
 			"description": "<p>君は肉体を破壊しようとする、相克する力のバランスを上手に取る術を学んでいる。中級の呪いの影響を受けている間に啓示呪文の発動を完了した直後、君は圧倒されることなく、呪いが上級効果まで進展する。この効果は君が@Compendium[pf2e.actionspf2e.OSefkMgojBLqmRDh]{「再集中」}して呪いを下級効果に軽減させるまで続く。もし、君が上級の呪いの効果を受けている間に啓示呪文を発動したなら、君は呪いに圧倒される。</p>\n<p>更に、集中蓄積にある集中点の数は2点から3点に増加する。「再集中」する前に少なくとも2集中点を使っていたなら、君は「再集中」の際に、1点ではなく2点の集中点を回復する。</p>"
 		},
 		{
+			"id": "Greater Deed",
+			"name": "上級の身構え",
+			"description": "<p>君は、選んだ道の頂たる技術を体得している。君は、1レベル時点で選んだ道の上級の身構え能力を得る。</p>"
+		},
+		{
 			"id": "Improved Flexibility",
 			"name": "上級戦闘訓練",
 			"description": "<p>広範な経験によって、君は日々の課題に適応するために、更に大きな能力を得る。君が戦闘訓練を使用する際、1つではなく2つのファイター特技を得る。最初の特技は8レベル以下でなければならないが、二つ目の特技は14レベル以下までで、最初の特技を二つ目の特技の前提条件を満たすために使うことが出来る。君は特技の全ての前提条件を満たさなくてはならない。</p>"
@@ -512,16 +712,6 @@
 			"description": "<p>君が極めた武器を自ら使う時、それは真実、恐るべきものとなる。武器開眼に由来する君のダメージは、熟練なら4点、達人なら6点、伝説なら8点へと増加する。</p>\n<p>君は本能の特化効果から、上級の利益を得る。詳細は特定の本能を参照すること。</p>"
 		},
 		{
-			"id": "Greater Weapon Specialization (Level 15)",
-			"name": "上級武器開眼　(レベル15)",
-			"description": "<p>武器開眼による君のダメージは君が熟練である武器と素手打撃については4点上昇し、達人ならば6点、伝説ならば8点上昇する。</p>"
-		},
-		{
-			"id": "Greater Resolve (Level 17)",
-			"name": "上級決意 (レベル 17)",
-			"description": "<p>信じがたき訓練によって、君は精神的な抵抗性を得た。意志セーヴへの君の習熟ランクは伝説になる。</p>\n<p>君が意志セーヴに成功したなら、君はクリティカルする。君が意志セーヴにファンブルしたなら、君は代わりに失敗する。君がダメージ効果に対する意志セーヴに失敗をロールしたなら、君は半分のダメージを受ける。</p>"
-		},
-		{
 			"id": "Advanced Alchemy",
 			"name": "上級錬金術",
 			"description": "<p>一日の準備の間、新しい@Compendium[pf2e.classfeatures.wySB9VHOW1v3TX1L]{注入試薬}を作った後、君は注入試薬を消費して注入錬金アイテムを作ることが出来る。</p>\n<p>君はそのために〈製作〉判定をする必要はなく、アイテムを作成するために一般的に必要な日数や、あらゆる錬金試薬の前提条件を無視する。</p>\n<p>君の上級錬金術レベルは君のレベルに等しい。消費した注入試薬ごとに、処方書に記載されている君の上級錬金術レベル以下の錬金術アイテムを1つ選択し、そのアイテムを2つ作成する。</p>\n<p>これらのアイテムは注入の特徴を持ち、24時間か、君の次の一日の準備か、最初に来た方まで有効である。</p>"
@@ -530,21 +720,6 @@
 			"id": "Indomitable Will",
 			"name": "不屈の意志",
 			"description": "<p>激怒は君を支配されづらくする。意志セーヴへの君の習熟ランクは達人になる。君が意志セーヴに成功した際、代わりにクリティカルする。</p>"
-		},
-		{
-			"id": "Medium Armor Expertise (Level 11)",
-			"name": "中装鎧の専門知識 (レベル 11)",
-			"description": "<p>Y君は攻撃に対してもっと上手に身を守ることを学んだ。軽装鎧、中装鎧、そして生身に対する君の習熟ランクは熟練になる。</p>"
-		},
-		{
-			"id": "Medium Armor Mastery (Level 17)",
-			"name": "中装鎧の専門知識 (レベル 17)",
-			"description": "<p>君は攻撃に対してもっと上手に身を守ることを学んだ。軽装鎧、中装鎧、そして生身に対する君の習熟ランクは熟練になる。</p>"
-		},
-		{
-			"id": "Medium Armor Expertise (Level 13)",
-			"name": "中装鎧の専門知識(レベル 13)",
-			"description": "<p>君は攻撃に対してもっと上手に身を守ることを学んだ。軽装鎧、中装鎧、そして生身に対する君の習熟ランクは熟練になる。</p>"
 		},
 		{
 			"id": "Double Spellstrike",
@@ -562,9 +737,9 @@
 			"description": "<p>君は処方を熟知しており、2つのアイテムを1度に調合することが出来る。</p>\n<p>@Compendium[pf2e.actionspf2e.yzNJgwzV9XqEhKc6]{「高速錬金」}アクションを使うとき、1つのアイテムを作るために@Compendium[pf2e.classfeatures.wySB9VHOW1v3TX1L]{注入試薬} 1つを消費するのではなく、アクションに記載されている通り、2つまでの錬金アイテムを作るために2つまでの注入試薬を消費することが出来る。これらのアイテムは同じものである必要はない。</p>"
 		},
 		{
-			"id": "Legendary Spellcaster (Level 19)",
-			"name": "伝説の術者 (レベル 19)",
-			"description": "<p><strong>バード</strong>: 君は伝説的なほど、霊妙魔法を自由に操る。霊妙呪文攻撃ロールと呪文DCへの君の習熟ランクは伝説になる。</p>\n<hr />\n<p><strong>ドルイド</strong>:君は魔法の本質との間に、比類のない関係を作り上げている。君の始原呪文攻撃ロールと始原呪文DCへの習熟ランクは伝説になる。</p>\n<hr />\n<p><strong>オラクル:</strong> 君はほとんど並び立つものがないほどの度合いで信仰の力を思い通りに操ることが出来る。信仰呪文攻撃ロールと呪文DCへの君の習熟ランクは伝説になる。</p>\n<hr />\n<p><strong>ソーサラー</strong>: 君は呪文発動に桁外れの才能を示す。君の血脈の体系の呪文攻撃ロールと呪文DCへの君の習熟ランクは伝説になる。</p>\n<hr />\n<p><strong>ウィッチ</strong>: 君は守護霊のもたらす呪文を完璧に制御する。君のウィッチの呪文発動の呪文攻撃ロールと呪文DCへの習熟ランクは伝説になる。</p>\n<hr />\n<p><strong>ウィザード:</strong> 君は秘術の理論と実践的な呪文の両方に包括的な理解をした、極みに至った術者である。秘術呪文攻撃ロールと秘術呪文DCへの君の習熟ランクは伝説になる。</p>"
+			"id": "Legendary Overdrive",
+			"name": "伝説のオーバードライブ",
+			"description": "<p>君の並外れた発明と「製作」能力は「オーバードライブ」をみなぎらせる。君は〈製作〉に伝説となり、「オーバードライブ」成功時、君の追加ダメージは合計で3点となる。これは、達人のオーバードライブの追加ダメージを置き換える。</p>"
 		},
 		{
 			"id": "Legendary Armor",
@@ -605,6 +780,11 @@
 			"id": "Graceful Mastery",
 			"name": "優雅なる体得",
 			"description": "<p>君は戦闘において恒久的な優雅さで移動し、回避しながら攻撃をそらす。生身への君の習熟ランクは達人になる。</p>"
+		},
+		{
+			"id": "Reconfigure",
+			"name": "再設定",
+			"description": "<p>君は、あらゆる製作に専門家となり、常に発明を調整する。君は1日の余暇を費やして鍛冶作業をし、君のレベルに対する高いDCに対して〈製作〉判定を試みることで、発明の修正を試みる。成功したなら、君は、同じ種類の（初期、ブレイクスルー、革新的）、その発明の別の改造を選んで1つの改造と変更する。</p>\n<p>もし、君が何らかの修正特技を持っているなら、判定に成功した際に君は異なる修正特技へと修正特技一つを再訓練することを選んでもよい。新しい特技は、再訓練の通常の制限を満たしている必要がある。</p>"
 		},
 		{
 			"id": "Formula Book",
@@ -712,26 +892,6 @@
 			"description": "<p>全ての善属性のチャンピオンは以下の信条に従う。</p>\n<ul>\n<li>君は決して、自分の神格の破戒を行うことや、殺人、拷問、悪呪文の発動といった悪しき行いに自ら身を委ねてはならない。</li>\n<li>は決して、故意に罪なきものを傷つけることや、合理的にそれを防ぐことが出来ると知りながら、何もしないことによって罪なきものが即座に傷つけられることを許してはならない。この信条は、将来の無期限に渡って、罪なき者が傷つけられる可能性のあることに対して行動を取るように強制したり、それらを守るために命を犠牲にすることを強制するものではない。</li>\n</ul>"
 		},
 		{
-			"id": "Juggernaut (Level 11)",
-			"name": "圧倒する肉体 (レベル 11)",
-			"description": "<p><strong>アルケミスト:</strong> 君の肉体は物理的な災厄に慣れ、病原体や病気に耐性があるようになってきた。君の頑健セーヴの習熟ランクは達人になる。君が頑健セーヴに成功した時、変わりにクリティカルする。</p>\n<hr />\n<p><strong>レンジャー</strong>: 君の肉体は物理的な災厄に慣れ、病原体や病気に耐性がある。君の頑健セーヴの習熟ランクは達人になる。君が頑健セーヴに成功した時、変わりにクリティカルする。</p>"
-		},
-		{
-			"id": "Juggernaut (Level 15)",
-			"name": "圧倒する肉体 (レベル 15)",
-			"description": "<p>君の肉体は物理的な災厄に慣れ、病原体や病気に耐性がある。君の頑健セーヴの習熟ランクは達人になる。君が頑健セーヴに成功した時、変わりにクリティカルする。</p>"
-		},
-		{
-			"id": "Juggernaut (Level 7)",
-			"name": "圧倒する肉体 (レベル 7)",
-			"description": "<p>君の肉体は物理的な災厄に慣れ、病原体や病気に耐性がある。君の頑健セーヴの習熟ランクは達人になる。君が頑健セーヴに成功した時、変わりにクリティカルする。</p>"
-		},
-		{
-			"id": "Juggernaut (Level 9)",
-			"name": "圧倒する肉体 (レベル 9)",
-			"description": "<p>君の肉体は物理的な災厄に慣れ、病原体や病気に耐性がある。君の頑健セーヴの習熟ランクは達人になる。君が頑健セーヴに成功した時、変わりにクリティカルする。</p>"
-		},
-		{
 			"id": "Greater Juggernaut",
 			"name": "圧倒する肉体強化",
 			"description": "<p>君の代謝機能は安定している。頑健セーヴへの君の習熟ランクは伝説になる。君が頑健セーヴにファンブルした際、代わりに失敗する。君がダメージを与える効果に対する頑健セーヴに失敗をロールした際、君は受けるダメージを半減する。</p>"
@@ -740,6 +900,11 @@
 			"id": "Confident Finisher",
 			"name": "堂々たる終撃",
 			"description": "<p>君は心意気がある際に行うことが出来る洗練されたとどめの攻撃を得る。とどめの特性は87ページに説明されている。君は@Compendium[pf2e.actionspf2e.K878asDgf1EF0B9S]{「堂々たる終撃」} のアクションを得る。</p>\n<hr />\n<p><strong>終撃:</strong> 終撃は君の心意気を使った劇的な最後の一打の動きである。君は心意気を持っている場合にのみ終撃を使うことが出来る。そして君は終撃を行った直後に心意気を失う。一度、終撃を使ったなら、君はその手番の残りに、攻撃の特性を持つアクションを使うことが出来ない。</p>\n<p>終撃の特性を持つアクションの中には、失敗時に効果を与えるものもある。失敗時に加えられる効果はファンブル時には加えられない。もし、君の終撃アクションが成功したとしても、代わりに失敗効果の適用を選ぶことが出来る。例えば、君は、抵抗によって攻撃がダメージを与えられない場合にそうするかもしれない。</p>"
+		},
+		{
+			"id": "Stubborn",
+			"name": "壮健",
+			"description": "<p>君は、指示をされることを好まず、諦めない性分である。君の意志セーヴへの習熟ランクは熟練になる。君に支配状態を与える効果に対する意志セーヴに失敗はしたがファンブルではない場合、君は次の手番の開始時にその効果に対して2回目のセーヴを試みることが出来る。2回目のセーヴに成功した際、支配状態は終了するが、その他の全ての効果は残る。通常通り、この2回目のセーヴに成功しても、君は次の手番の3回目のセーヴを試みることは出来ない。</p>"
 		},
 		{
 			"id": "Mutagenist",
@@ -807,11 +972,6 @@
 			"description": "<p>スワッシュバックラーとしての技量が大成したため、君は全ての攻撃を自信満々で見る者に自信を感じさせるように行う。君のスワッシュバックラー・クラスのDCへの習熟ランクは達人になる。</p>\n<p>君がトドメか @Compendium[pf2e.actionspf2e.EfjoIuDmtUn4yiow]{「反撃の機会」}の一部として「打撃」する際、君はその「打撃」に「堂々たる終撃」の失敗効果を与えることが出来る。これには、君が特技を持っているなら、@Compendium[pf2e.feats-srd.qeLpqH2cMSmIrILV]{《精密なる終撃》} による増加分を含む。</p>\n<p>君は、自分が「堂々たる終撃」に使うことが出来る武器あるいは素手打撃を使っている際にのみ、これを行うことが出来る。</p>"
 		},
 		{
-			"id": "Defensive Robes (Level 13)",
-			"name": "守りのローブ (レベル 13)",
-			"description": "<p>魔力の流れと君の訓練が組み合わさったことに助けられ、君は攻撃を避けることが出来る。生身への君の習熟ランクは熟練になる。</p>"
-		},
-		{
 			"id": "Warden Spells",
 			"name": "守護者呪文",
 			"description": "<p>周囲の世界と君との関係は物理的なものから魔法のものへと広がっていった。特定の特技は君に守護者呪文を与える。これは、集中呪文の一種である。集中呪文を発動するには、1集中点（FP）が必要である。最初の守護者呪文を得た際、君は1集中点の集中蓄積を得る。君は一日の準備の間に集中蓄積を再び満たすことが出来るし、また、自然と交流するために「再集中」の連続行動を使うために10分を費やすことで1集中点を回復する。</p>\n<p>君の守護者呪文は始原呪文である。最初に守護者呪文を得た際、君は始原呪文攻撃ロールと始原呪文DCに修得になる。君の呪文発動能力は判断力である。</p>\n<p>集中呪文は自動的に君のレベルの半分切り上げに増強される。特技を取ることで、君は集中呪文をさらに得て、集中蓄積に大きさが大きくなるが、集中蓄積には4集中点以上の集中点を持つことは出来ない。</p>"
@@ -872,6 +1032,11 @@
 			"description": "<p>世界の野生の場所が君の守護霊の接触を感じる。</p>\n<p><strong>呪文リスト</strong> 始原</p>\n<p><strong>守護霊技能</strong> 〈自然〉</p>\n<p><strong>呪術キャントリップ</strong> @Compendium[pf2e.spells-srd.GdN5YQE47gd79k7X]{野生の言葉}</p>\n<p><strong>授与呪文</strong> @Compendium[pf2e.spells-srd.4YnON9JHYqtLzccu]{サモン・アニマル}か @Compendium[pf2e.spells-srd.jSRAyd57kd4WZ4yE]{サモン・プラント・オア・ファンガス}の君が選んだ方</p>"
 		},
 		{
+			"id": "Complete Reconfiguration",
+			"name": "完全なる再設定",
+			"description": "<p>モノづくりや鍛冶となると、君は発明の機能を調整するための改造に信じがたいほど熟達している。君が発明の再設定に余暇を費やし、〈製作〉判定に成功した際、改造を1つではなく、幾つでも入れ替え、攻撃力増幅を入れ替え、あるいは任意の数の改造特技を再訓練することが出来る。君はそれでも、同じ種別の改造とのみ入れ替えなければならない（初期、ブレイクスルー、革新から）。</p>"
+		},
+		{
 			"id": "Perfected Form",
 			"name": "完全なる型",
 			"description": "<p>君は技術から無駄を排除した。手番の最初の「打撃」で、もし、10未満をロールしたのなら、君はその攻撃ロールを出目10として扱うことが出来る。これは幸運効果である。</p>"
@@ -897,14 +1062,14 @@
 			"description": "<p>君は悟りへの独自の道を発展させている。</p>\n<p>頑健、反応、意志セーヴィング・スローから選ぶこと。選んだセーヴィング・スローへの君の習熟ランクは達人になる。選んだセーヴィング・スローに君が成功をロールした際、君は代わりにクリティカルする。</p>"
 		},
 		{
+			"id": "Shootist's Edge",
+			"name": "射手の極み",
+			"description": "<p>君は、他人には不可能な射撃を行う。君の、ガンスリンガー・クラスDCへの習熟は達人になる。君が達人以上の習熟を持つ遠隔武器を使っている際、君はその武器の2番目と3番目の射程単位内の攻撃についてペナルティを無視する。</p>"
+		},
+		{
 			"id": "Devotion Spells",
 			"name": "帰依呪文",
 			"description": "<p>君の神格の力は、君に帰依呪文と呼ばれる特殊な信仰呪文を与える。これらは、集中呪文の一種である。集中呪文を発動するには1集中点がかかる。そして、君は1集中点の集中蓄積から開始する。君は日々の準備の間に、集中蓄積を回復し、神格に祈るか、自分の原動力に奉仕をするために10分間の「再集中」の連続行動をするのに10分間を使うことによって、1集中点を回復する。</p>\n<p>集中呪文は、自動的に君のレベルの半分（切り上げ）まで増強される。特定の特技は君にもっと多くの集中呪文を与え、君の集中蓄積の大きさを上昇させるが、集中蓄積には3集中点までしか持つことが出来ない。君は自分の動機に基づいて異なる帰依呪文をえる。そして、君は信仰呪文攻撃ロールと信仰呪文DCに修得である。君の呪文発動能力は魅力である。</p>"
-		},
-		{
-			"id": "Deny Advantage (Level 3)",
-			"name": "常在戦場 (レベル3)",
-			"description": "<p><strong>バーバリアン</strong>: 敵は君の防御を抜くのに苦労する。君は自分のレベル以下の隠れた状態、未探知、あるいは挟撃しているクリーチャーに対して、そして自分のレベル以下の不意打ちを使っているクリーチャーに対して立ちすくみではない。しかし、それでもそういったクリーチャーはそのクリーチャーの味方の挟撃を助ける。</p>\n<hr />\n<p><strong>ローグ</strong>: 他人の護りを利用しようとする者である君は、そのような隙を自分に残さない。君は、自分のレベル以下の隠れた状態、未探知。あるいは挟撃しているクリーチャー、そして自分のレベル以下の不意打ちを使っているクリーチャーに対して立ちすくみではない。しかし、それでもそういったクリーチャーはそのクリーチャーの味方の挟撃を助ける。</p>"
 		},
 		{
 			"id": "Eidolon",
@@ -1050,6 +1215,11 @@
 			"id": "Studious Spells",
 			"name": "探求呪文",
 			"description": "<p>混成呪文研究は、君に、戦闘中の力を強化することが出来る追加呪文を与える。君は２つの特殊な2レベル探求呪文スロットを得る。これは、スパイダー・クライム、トゥルー・ストライク、ウォーター・ブリージング、そして混成呪文研究によって異なる追加呪文1つを準備するために使うことが出来る。君は、呪文書にこのクラス特徴による呪文を追加する。11レベル時点で、追加のスロットは3レベルに上昇し、君はヘイストと君の混成呪文研究によって異なる追加呪文1つを準備することが出来る。13レベル時点で、追加の呪文スロットは4レベルになり、フライと混成呪文研究によって異なる追加呪文1つを準備することが出来る。</p>\n<p><strong>微笑む影</strong> 7th: @Compendium[pf2e.spells-srd.j8vIoIEWElvpwkcI]{ミラー・イメージ}; 11th: @Compendium[pf2e.spells-srd.lONs4r14LEBZRLLw]{シフト・ブレイム}; 13th: @Compendium[pf2e.spells-srd.VlNcjmYyu95vOUe8]{ディメンジョン・ドア}</p>\n<p><strong>きらめく円盾</strong> 7th: @Compendium[pf2e.spells-srd.Fr58LDSrbndgld9n]{レジスト・エナジー}; 11th: @Compendium[pf2e.spells-srd.CIjj9CU5ekeq1oLT]{ワーディング・アグレッション}; 13th: @Compendium[pf2e.spells-srd.2BV2yYPfVJ5zirZt]{ストーンスキン}</p>\n<p><strong>星間の架け橋</strong> 7th: @Compendium[pf2e.spells-srd.pZTqGY1MLRjgKasV]{ダークヴィジョン}; 11th: @Compendium[pf2e.spells-srd.it4ZsAi6XgvGcodc]{ウォール・オヴ・ウィンド}; 13th: @Compendium[pf2e.spells-srd.aqRYNoSvxsVfqglH]{フリーダム・オヴ・ムーヴメント}</p>\n<p><strong>鋼の暴威</strong> 7th: @Compendium[pf2e.spells-srd.wzctak6BxOW8xvFV]{エンラージ}; 11th: @Compendium[pf2e.spells-srd.gPvtmKMRpg9I9D7H]{アースバインド}; 13th: @Compendium[pf2e.spells-srd.ksLCg62cLOojw3gN]{ディメンジョナル・アンカー}</p>\n<p><strong>歪みの木</strong> 7th: @Compendium[pf2e.spells-srd.eIQ86FOXK34HiNLs]{マジック・マウス}; 11th: @Compendium[pf2e.spells-srd.WsUwpfmhKrKwoIe3]{スロー}; 13th: @Compendium[pf2e.spells-srd.zR67Rt3UMHKC5evy]{ブリンク}</p>"
+		},
+		{
+			"id": "Offensive Boost",
+			"name": "攻撃力増幅",
+			"description": "<p>君は、発明に自分の攻撃能力をアップグレードさせる機能を追加した。君の改良によって、発明に依存するあらゆる「打撃」は、君が選んだ増幅によって決まる種別の追加ダメージ1d6点を与える。もし、君の発明が防具なら、増幅は君の近接素手「打撃」と、君が一日の準備の間に選んだ一つの武器による近接「打撃」に適用される。もし、君の発明が人造であるなら、増幅は君の人造の相棒の「打撃」に適用される。もし、君の発明が武器であるなら、増幅は発明を使って行う君の「打撃」に適用される。君は、余暇を費やして改造を切り替えるのと同じ方法で異なる増幅に切り替えることが出来る。下記の増幅から1つを選ぶこと。ダメージ種別は括弧書きの中に書かれている。</p>\n<ul>\n<li><strong>冷凍（氷雪）:</strong> 君の発明は急速に熱を吸収し、強烈な冷気を作り出す</li>\n<li><strong>発火（火炎）:</strong> 君の発明は輝く炎を噴射する</li>\n<li><strong>感電（電撃）:</strong> 君の発明は充電された電気で敵を感電させる</li>\n<li><strong>余勢（殴打）:</strong> 君の発明は勢いを増して敵に叩きつける</li>\n<li><strong>切断（斬撃）:</strong> 君の発明は攻撃の間、切断用の刃が回転する</li>\n<li><strong>棘状突起（刺突）:</strong> 君の発明は攻撃の間、悪辣な棘をあらわにする</li>\n<li><strong>硫酸（強酸）:</strong> 君の発明は腐食性の酸を噴出する</li>\n</ul>"
 		},
 		{
 			"id": "Doctrine",
@@ -1252,39 +1422,9 @@
 			"description": "<p>自分の武器の複雑さを学ぶために君は専念している。単純武器と軍用武器、そして素手打撃への君の習熟ランクは熟練になる。</p>\n<hr />\n<p>君は熟練の習熟度を持つ全ての武器のクリティカル特化効果を手に入れる。</p>"
 		},
 		{
-			"id": "Weapon Expertise (Level 11)",
-			"name": "武器の専門知識 (レベル 11)",
-			"description": "<p><strong>ソーサラー:</strong> 訓練と魔法は、君の武器の技術を向上させた。君の単純武器と素手打撃への習熟ランクは熟練になる。</p>\n<hr />\n<p><strong>オラクル</strong>: 君は武器の複雑さを学ぶことに専念してきた。単純武器と素手打撃への君の習熟ランクは熟練になる。</p>\n<hr />\n<p><strong>ウィッチ</strong>: 経験を積み重ねることによって、君は武器の技術を磨いている。単純武器と素手打撃の習熟ランクは熟練になる。</p>"
-		},
-		{
-			"id": "Weapon Expertise (Level 5)",
-			"name": "武器の専門知識 (レベル 5)",
-			"description": "<p>自分の武器の複雑さを学ぶために君は専念している。単純武器、素手打撃と軍用武器への君の習熟ランクは熟練になる。</p>"
-		},
-		{
 			"id": "Weapon Tricks",
 			"name": "武器の技",
 			"description": "<p>君は商売道具に徹底的に精通するようになる。</p>\n<p>君は単純武器、レイピア、サップ、ショートボウ、ショートソードに熟練の習熟ランクを得る。</p>\n<p>君は機敏あるいは巧技の単純武器あるいは上述した武器を使っている間に立ちすくみ状態のクリーチャーに攻撃ロールでクリティカルした際、君は君が使っている武器のクリティカル特化効果を適用する。</p>"
-		},
-		{
-			"id": "Weapon Mastery (Level 13)",
-			"name": "武器体得 (レベル13)",
-			"description": "<p>You fully understand your weapons. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to master.</p>"
-		},
-		{
-			"id": "Weapon Specialization (Barbarian)",
-			"name": "武器開眼 (バーバリアン)",
-			"description": "<p>激怒は君の一撃を強力なものにする。君は熟練の習熟ランクを持つ武器と素手打撃で2点に追加ダメージを与える。このダメージは君が達人なら3点に、君が伝説なら4点に上昇する。君は本能の特化効果を得る。</p>\n<p>君は本能の特化効果を得る。詳細は各本能を参照すること。</p>"
-		},
-		{
-			"id": "Weapon Specialization (Level 13)",
-			"name": "武器開眼 (レベル13)",
-			"description": "<p>君は、よく知っている武器でどのようにしてより大きな傷を与えるかを学んでいる。君は熟練である武器と素手攻撃での攻撃に2点の追加ダメージを与える。このダメージは君が達人なら3点に、伝説なら4点に上昇する。</p>"
-		},
-		{
-			"id": "Weapon Specialization (Level 7)",
-			"name": "武器開眼 (レベル7)",
-			"description": "<p>君は、よく知っている武器でどのようにしてより大きな傷を与えるかを学んでいる。君は熟練である武器と素手攻撃での攻撃に2点の追加ダメージを与える。このダメージは君が達人なら3点に、伝説なら4点に上昇する。</p>"
 		},
 		{
 			"id": "Twisting Tree",
@@ -1300,26 +1440,6 @@
 			"id": "Toxicologist",
 			"name": "毒物学者",
 			"description": "<p>君はあらゆる種類の毒素と毒液に特化している。君は処方書に、その他の処方に加えて、2つのコモンの1レベル錬金毒をもって開始する。</p>\n<p>君の研究分野は処方書に一定数の処方を加える；これらは君の署名アイテムである。@Compendium[pf2e.classfeatures.Pe0zmIqyTBc2Td0I]{「上級錬金術」}を使って署名アイテムを作り出すために@Compendium[pf2e.classfeatures.wySB9VHOW1v3TX1L]{注入試薬}を用いる際、君は2つではなく3つのアイテムを作成する。レベルを得るごとに、君は署名アイテムの一つを、処方書にある別の処方と入れ替えることが出来る。この新しい署名アイテムは、君の研究分野の、署名アイテムにすることが可能なリストに載っていなければならない。</p>\n<p>君はあらゆる種類の毒素と毒液に特化している。君は処方書に、その他の処方に加えて、2つのコモンの1レベル錬金毒をもって開始する。君は、使っている武器、手に持っている致傷毒を、2アクションの連続行動ではなく、単発アクションとして塗布することが出来て、注入された毒のDCについて、もしそちらの方が高いなら、自分のクラスDCに変更することが出来る。</p>\n<h2 class=\"title\">@Compendium[pf2e.classfeatures.6zo2PJGYoig7nFpR]{分野発見}<span style=\"float: right;\">Level 5</span></h2>\n<p>一日の準備の間に、毒を作るために上級錬金術を使う時、君は一回分の試薬を使って、2つの同じ毒を作るこではなく、3つのどんな組み合わせの毒でも作ることが出来る。</p>\n<h2 class=\"title\">@Compendium[pf2e.classfeatures.LlZ5R50z9j8jysZL]{注入永続化}<span style=\"float: right;\">Level 7</span></h2>\n<p>君は、特定の単純なアイテムをほぼ無限に供給することの出来る、永続的な錬金術の注入の作り方を学んだ。君は、注入試薬を消費せずに、@Compendium[pf2e.classfeatures.sPtl05wwTpqFI0lL]{「高速錬金」}を用いて、2つの1レベル錬金術アイテムを作る能力をる。君が選ぶことの出来るアイテムは研究分野によって異なり、かつ、処方書になければならない。</p>\n<p>錬金術毒の1レベルコモン処方から2つを選ぶこと</p>\n<h2 class=\"title\">@Compendium[pf2e.classfeatures.JOdbVu14phvdjhaY]{注入永続強化}<span style=\"float: right;\">Level 11</span></h2>\n<p>君の永続的注入は進化し、コストなしで「高速錬金」を用いてもっと強力なアイテムを作ることが出来るようになった。君が選ぶことの出来るアイテムは研究分野によって異なり、かつ、君の処方書になければならない。</p>\n<p>錬金術毒の5レベル以下のコモン処方から2つを選ぶこと</p>\n<h2 class=\"title\">@Compendium[pf2e.classfeatures.tnqyQrhrZeDtDvcO]{大いなる分野発見}<span style=\"float: right;\">Level 13</span></h2>\n<p>君は2つの異なる致傷毒を、矢弾以外の同じ武器に塗布することが出来る。この2つの毒は君のレベルの6レベル下までとなり、君は注入永続化を通じて注入試薬を消費せずに作った毒を使うことは出来ない。2つの毒を塗布するには、それぞれの毒を塗るための別々のアクションが必要である。</p>\n<p>完了したなら、君は武器に塗った2つの毒を組み合わせて、2つの毒のDCうち、低い方を用いた二重の毒にする。この二重の毒は、双方の毒が猛毒である場合にのみ猛毒となり、もし毒が違うステージ数を持つのなら、ステージの数が少ない方の毒の数値に等しいステージ数となる。対象は双方の毒の、現在のステージの効果を受ける。</p>\n<h2 class=\"title\">@Compendium[pf2e.classfeatures.3R19zS7gERhEX87F]{注入永続完全化}<span style=\"float: right;\">Level 17</span></h2>\n<p>君は永続する注入を完成させ、「高速錬金」を使って、コストなしでもっと強力なアイテムを作ることが出来るようになった。君が選ぶことの出来るアイテムは研究分野によって異なり、処方書になければならない。</p>\n<p>錬金術毒の11レベル以下のコモン処方から2つ選ぶこと</p>"
-		},
-		{
-			"id": "Resolve (Level 11)",
-			"name": "決意 (レベル 11)",
-			"description": "<p>君は決意によって己の精神を鎧う。意志セーヴへの君の習熟ランクは達人になる。君が意志セーヴに成功した時、代わりにクリティカルする。</p>"
-		},
-		{
-			"id": "Resolve (Level 17)",
-			"name": "決意 (レベル 17)",
-			"description": "<p>君は決意によって己の精神を鎧う。意志セーヴへの君の習熟ランクは達人になる。君が意志セーヴに成功した時、代わりにクリティカルする。</p>"
-		},
-		{
-			"id": "Resolve (Level 7)",
-			"name": "決意 (レベル 7)",
-			"description": "<p>君は決意によって己の精神を鎧う。意志セーヴへの君の習熟ランクは達人になる。君が意志セーヴに成功した時、代わりにクリティカルする。</p>"
-		},
-		{
-			"id": "Resolve (Level 9)",
-			"name": "決意 (レベル 9)",
-			"description": "<p>君は決意によって己の精神を鎧う。意志セーヴへの君の習熟ランクは達人になる。君が意志セーヴに成功した時、代わりにクリティカルする。</p>"
 		},
 		{
 			"id": "Shared Resolve",
@@ -1457,9 +1577,24 @@
 			"description": "<p>君は素早く「激怒」から回復し、すぐに新しくまた始める準備ができる。1回の手番を激怒することなく過ごした後、1分間、待つ必要なく再び「激怒」することが出来る。</p>"
 		},
 		{
+			"id": "Infinite Invention",
+			"name": "無限の発明",
+			"description": "<p>君の、発明を調整する能力は有り得ざる高みにまで極まり、君は余った時間で大きな調整をするためにこの技能を使うことが出来る。一日の準備の間、君は自動的に、発明の破壊や破損を修繕し、かつ、異なる発明に変更して（防具、人造、武器あるいはその他の君が入手手段を持つ他の種別の発明）改造と攻撃力増幅を変更することが出来る。</p>\n<p>もし、君が以前の発明を前提条件とする特技を持っていたのなら、通常通り、その特技を再訓練するまで使うことは出来ない。しかしながら、そのような特技を新しい発明を前提条件とした特技に再訓練するには、1週間ではなく、1日しかかからない。</p>"
+		},
+		{
 			"id": "Unlimited Signature Spells",
 			"name": "無限の署名呪文",
 			"description": "<p>君の呪文は全て、署名呪文である。つまり、君がある呪文を知っているなら、それを自由に高レベルの呪文スロットから発動することで、君が発動出来る最高の呪文レベルまで増強することが出来る。同じように、君は別々に学ぶことなくその低レベルバージョン全てを発動することが出来る。</p>"
+		},
+		{
+			"id": "Peerless Inventor",
+			"name": "無類の発明家",
+			"description": "<p>君は常に発明をしており、製作についての君の技能は素晴らしい。君は前提条件をたとえ満たしていなくとも、 @Compendium[pf2e.feats-srd.XR95taODq1sq82Du]{《発明家》} の技能特技を得る。</p>"
+		},
+		{
+			"id": "Expert Overdrive",
+			"name": "熟練のオーバードライブ",
+			"description": "<p>君は製作の腕前を上げ、装置をもっと強力にオーバードライブさせることが出来るようになった。君は〈製作〉に熟練になり、「オーバードライブ」に成功したなら、追加ダメージを1点、増やす。</p>"
 		},
 		{
 			"id": "Expert Strikes",
@@ -1467,34 +1602,14 @@
 			"description": "<p>君は武術を実践し、今やかつての自分の技能を凌いでいる。素手打撃及び単純武器への君の習熟ランクは熟練になる。</p>"
 		},
 		{
-			"id": "Expert Spellcaster (Level 7)",
-			"name": "熟練の術者 (レベル 7)",
-			"description": "<p><strong>バード</strong>: 霊妙呪文攻撃ロールと呪文DCへの君の習熟ランクは熟練になる。</p>\n<hr />\n<p><strong>ドルイド</strong>: 君の始原の力への支配は深まり、呪文を強化する。始原呪文攻撃ロールと始原呪文DCは熟練になる。</p>\n<hr />\n<p><strong>オラクル</strong>: 時間を重ねることで、君の信仰の力の複雑さは明瞭になってきている。信仰呪文攻撃ロールと呪文DCについての君の習熟ランクは熟練になる。</p>\n<hr />\n<p><strong>ソーサラー</strong>: 君の生来の魔術は簡単で強力に君の命令に従う。君の血脈の体系の呪文攻撃ロールと呪文DCへの君の習熟ランクは熟練になる。</p>\n<hr />\n<p><strong>ウィッチ</strong>: 君は守護霊から与えられる力をよりよく支配する術を学んだ。君のウィッチの呪文発動の呪文攻撃ロールと呪文DCは熟練になる。</p>\n<hr />\n<p><strong>ウィザード</strong>: 裾野の広い秘術の実践は君の能力を発展させている。秘術呪文攻撃ロールと秘術呪文DCへの君の習熟ランクは熟練になる。</p>"
-		},
-		{
-			"id": "Expert Spellcaster (Level 9)",
-			"name": "熟練の術者 (レベル 9)",
-			"description": "<p><strong>メイガス</strong>: 君の基本的な魔法への理解は深まり、呪文を抗いがたいものにする。君の秘術呪文攻撃ロールと秘術呪文DCは熟練になる。</p>\n<hr />\n<p><strong>サモナー</strong>: 君と幻獣の繋がりが深まったため、君の呪文の力は強まる。幻獣の体系の呪文についての呪文攻撃ロールと呪文DCは熟練になる。</p>"
+			"id": "Explode",
+			"name": "爆発",
+			"description": "<p>君の発明は、君自身の工学技術によって辛うじて維持されている被造物であり、常に完全に崩壊する寸前の状態である。リスクは伴うが、これは、特殊な不安定アクションを使うことによって設計を遥かに超える性能を引き出すことが出来るということである。</p>\n<p>インヴェンターはキャリアを通じて様々な不安定アクションを学ぶことが出来るが、全員が、少なくとも自分の発明を@Compendium[pf2e.actionspf2e.naKVqd8POxcnGclz]{「爆発」}させる方法を知っている。</p>"
 		},
 		{
 			"id": "Hunter's Edge",
 			"name": "狩人の刃",
 			"description": "<p>君はより熟練の狩人にして追跡者になるため、数え切れない時間を訓練に費やし、君の訓練が何に集中しているかによるが、「獲物」を使う際に追加の利益を得る。狩人の刃を選ぶこと。:</p>\n<ul>\n<li>@Compendium[pf2e.classfeatures.6v4Rj7wWfOH1882r]{狩人の刃: 突風}</li>\n<li>@Compendium[pf2e.classfeatures.NBHyoTrI8q62uDsU]{狩人の刃: 奸智}</li>\n<li>@Compendium[pf2e.classfeatures.u6cBjqz2fiRBadBt]{狩人の刃: 精密}</li>\n</ul>"
-		},
-		{
-			"id": "Hunter's Edge: Outwit",
-			"name": "狩人の刃: 奸智",
-			"description": "<p>You are talented at outwitting and evading your prey. You gain a +2 circumstance bonus to Deception checks, Intimidation checks, Stealth checks, and any checks to Recall Knowledge about the prey, and a +1 circumstance bonus to AC against your prey's attacks.</p>"
-		},
-		{
-			"id": "Hunter's Edge: Flurry",
-			"name": "狩人の刃: 突風",
-			"description": "<p>君は獲物に破壊的な突風を解き放つ訓練をしている。</p>\n<p>君の獲物に対する複数回攻撃ペナルティは2回目の攻撃で－5ではなく-3（機敏の武器で-2）となり、3回目以降の攻撃については、－10ではなく－6（機敏の武器で-4）となる。</p>"
-		},
-		{
-			"id": "Hunter's Edge: Precision",
-			"name": "狩人の刃: 精密",
-			"description": "<p>君は獲物の弱点を狙うように訓練している。君が獲物に、ラウンドで最初に攻撃を命中させた際、君は1d8の追加の精密ダメージを与える（精密ダメージは既に君が与えているダメージを増加させ、それと同じ種別のダメージであるが、重要な臓器あるいは弱点のないクリーチャーには効果がない）。</p>\n<p>11レベル時点で、この追加ダメージは2d8の精密ダメージに、19レベル時点で3d8の精密ダメージに増加する。</p>"
 		},
 		{
 			"id": "Masterful Hunter",
@@ -1557,9 +1672,9 @@
 			"description": "<p>君が自然の地形を通り抜ける際、君を追跡するのは難しい。君はそのような地形においては、速度の半分で移動することなく、常に@Compendium[pf2e.actionspf2e.SB7cMECVtE06kByk]{「痕跡隠蔽」} の利益を得る。</p>"
 		},
 		{
-			"id": "Shield Block (Level 1)",
-			"name": "盾防御 (レベル 1)",
-			"description": "<p>君は@Compendium[pf2e.feats-srd.jM72TjJ965jocBV8]{《盾防御》}の一般特技を得る。このリアクションによって君は盾でダメージを減少することが出来る。</p>"
+			"id": "Innovation",
+			"name": "発明",
+			"description": "<p>君は常に発明を作り出しているが、代表作と言えるようなものがあり、それは君がその洗練さで世界を変えることが出来ればと願っているものである。下記の発明から1つを選ぶこと。君の発明レベルは、君のレベルに等しい。もし、発明が破壊されたなら、1日の余暇を費やし、君のレベルの高いDCを目標に〈製作〉判定を行う；成功したなら、君はそれを再構築することが出来る。発明は君の絶え間ない維持管理と鍛冶によってのみ機能するため、市場での価格はない。</p>\n<p>君がこの本で選ぶことが出来る発明は以下の通りである。</p>\n<h3>防具</h3>\n<p>君の発明は、様々な仕掛けや装置が取り付けられた、最先端の中装鎧である。表2-2：発明防具のステータスから1セットを選び、それを君が発明した防具のステータスとする（あるいは、君が入手可能な別の発明防具のステータスを選ぶ）。</p>\n<p>君の発明防具は通常の防具と同じや伊方で基礎及び属性ルーンを追加することが出来る。発明の独特な特徴により、たとえ通常は中装鎧に修得（あるいはそれ以上）だったとしても、君以外の者はこの防具に未修得である。</p>\n<p>君の発明に適用する初期防具改造を、書きから、あるいは君が入手手段を持つ他の初期防具改造から1つ、選ぶこと。</p>\n<ul>\n<li><strong>調和発振器:</strong> 君は防具が力場や音波に干渉を起こすのにちょうどよい周波数で、耳に聞こえない音を出すように設計した。君は力場と音波のダメージに対して、3+レベルの半分に等しい抵抗を得る。「オーバードライブ」の効果がある間、この抵抗は2点、上昇する。</li>\n<li><strong>金属の誘導抵抗:</strong> 防具に使われている金属は電気を遮断し、賛成の化学反応から保護するため、慎重に合金化されている。君は強酸と電撃に対して3+レベルの半分に等しい抵抗を得る。「オーバードライブ」の効果がある間、この抵抗は2点、上昇する。</li>\n<li><strong>外骨格による筋肉補助（パワースーツのみ）:</strong> 君の防具は、慎重に製作された外骨格で君の筋肉を支える。防具をオーバードライブさせると、外骨格は運動能力をも高めてくれる。「オーバードライブ」の効果がある間、君は〈運動〉判定に+1状況ボーナスを得る；もし〈製作〉に達人なら、これは+2状況ボーナスに増加する。</li>\n<li><strong>異世界の防御機能:</strong> 科学を使っているということによって、ただちに君が、慎重に選ばれた素材や装置で防具を作り上げて異世界の攻撃から身を守ることが出来なくなる、というわけではない。君は3+レベルの半分に等しい負のエネルギーダメージへの抵抗か、あるいは君が負のエネルギー治癒を持っているなら正のエネルギーダメージへの抵抗（例えば、君がダンピールなら）を持つ。君は自分にダメージを与えることが出来る全ての種別の属性ダメージ（善、悪、混沌、秩序）に同じ量の抵抗を得る（クリーチャーは逆の属性を持たなければ、ある種別の属性ダメージを受けることはない。例えば、君は属性が善である場合にのみ悪属性のダメージを受ける）</li>\n<li><strong>燃焼調節器:</strong> 防具の中に仕込まれた断熱層が君を急速な温度変化から守ってくれる。君はレベルの半分に等しい氷雪と火炎ダメージへの抵抗を得る。「オーバードライブ」の効果がある間、この抵抗は2点、上昇する。</li>\n<li><strong>速度増幅器:</strong> 防具の中に君は増幅器を仕込んでおり、それが速度を上昇させてくれる。君は速度に+5フィートのステータス・ボーナスを得る。「オーバードライブ」の効果がある間、この速度は+10フィートのステータス・ボーナスに上昇する。</li>\n<li><strong>迷彩機能(サブターヒュージ・スーツのみ):</strong> 君は防具を、自分が溶け込み、騒音をかすかなものへと抑えるのを手伝ってくれるように設計している。君が防具をオーバードライブする際、迷彩機能はその効果を増し、〈隠密〉を改善する。「オーバードライブ」の効果がある間、君は〈隠密〉に+1状況ボーナスを得る。君が〈製作〉に達人なら、このボーナスは+2状況ボーナスに上昇する。</li>\n</ul>\n<table class=\"pf2-table\">\n<thead>\n<tr>\n<th>中装鎧</th>\n<th>ACボーナス</th>\n<th>敏捷力修正上限</th>\n<th>判定ペナルティ</th>\n<th>速度ペナルティ</th>\n<th>筋力</th>\n<th>バルク</th>\n<th>グループ</th>\n<th>防具特性</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>パワー・スーツ</td>\n<td>+4</td>\n<td>+1</td>\n<td>-2</td>\n<td>-5フィート</td>\n<td>16</td>\n<td>2</td>\n<td>多層</td>\n<td>-</td>\n</tr>\n<tr>\n<td>サブターフュージ・スーツ</td>\n<td>+1</td>\n<td>+4</td>\n<td>-1</td>\n<td>-</td>\n<td>10</td>\n<td>1</td>\n<td>多層</td>\n<td>-</td>\n</tr>\n</tbody>\n</table>\n<h3>人造</h3>\n<p>君の発明は、歯車やギアで作られたクロックワークのような機械のクリーチャーである。これはプロトタイプの人造の相棒で、君はその基本ステータスのほとんどを、《相棒強化》のような高レベルの特技を取得することによって調整することが出来る。もし、君が「オーバードライブ」アクションを使うなら、人造は君と同じ「オーバードライブ」の利益を得る。また、ファンブルの際には同じ量の火炎ダメージを受ける。</p>\n<p>君は、もっと複雑な行動計画をするために、人造の発明を指示し、制御し、プログラムする追加の時間をどう費やすべきかを知っている。君は人造の相棒に命令する際、2アクションではなく1アクションで「命令」することが出来る。そして、君の人造の相棒はそれを受けて追加のアクションを行うことが出来る（通常、2アクションではなく3アクションである）</p>\n<p>君の発明に適用する初期の人造改造を1つ選ぶこと。これは、下記の中か、君が入手手段を持つ人造改造のどちらかから選ぶ。これらの修正は、人造の能力や外観を変更する。</p>\n<ul>\n<li><strong>加速する機動力:</strong> 車輪やタイヤに仕込まれた動力を持つ脚部や効率的なギア、または追加のブースターといったものが、君の人造をより速くする。君の発明のスピードは40フィートに増加する。</li>\n<li><strong>水陸両棲の人造:</strong> 浮力、方向舵、かぎのついた尾や強力なプロペラといった推進の手段を得ることによって、君の人造は水中移動が出来るようになる。君の発明は25フィートの水泳速度を得る。</li>\n<li><strong>サイズ強化:</strong> 君は人造の発明をほとんどのそれより大きく作り上げる。君の人造は大型である。もし、この習性を持っており、人造の発明が強化された人造の相棒やその他の手段で大型になる能力を得たなら、即座に君は、別の初期人造修正を得るためにサイズ強化を変更することが出来る</li>\n<li><strong>器用な手:</strong> 君の人造の発明は、間接のある手や、明らかな手先の器用さを備えた同様の付属肢を持っている。人造の発明は、四肢の内、2本までを使って操作アクションをすることが出来る。相棒の通常のルール通り、人造の発明は武器を持つことや相棒の特性を持たないアイテムをテニ持つことは出来ず、アイテムの起動も出来ない。</li>\n<li><strong>発射装置:</strong> 君の人造には、ダーツ・ランチャー、埋め込み式のキャノンあるいは同様の武装が搭載されている。君の人造は、1d4点の殴打あるいは刺突ダメージ（この修正を選んだ際に選ぶ）を与える遠隔素手打撃を得る。この攻撃は投射の特性を持ち、射程単位は30フィートである</li>\n<li><strong>感覚器官配列:</strong> 追加の感覚装置が君の発明に夜目と暗視、そして距離30フィートの不明瞭な振動感知を与える。</li>\n<li><strong>驚異的装備:</strong> 君は、人造の粗雑な知能に特殊な技能をマッピングする。君の発明は〈威圧〉、〈隠密〉、〈生存〉に修得になる</li>\n</ul>\n<h3>武器</h3>\n<p>君の発明は、数々の変わった機構で強化された、ありえないように見える武器である。この武器は、任意のレベル0のコモンの単純武器あるいは軍用武器、もしくは、君が入手手段を持つレベル0の単純あるいは軍用武器と同じステータスで開始する。君は代わりに、任意の1レベルのコモンの単純あるいは軍用武器、もしくは君が入手手段を持つ別の1レベルの単純武器あるいは軍用武器のステータスを使ってもよいが、その武器の金銭的な価格を支払わなくてはならない。発明武器は通常の武器と同じやり方で基礎及び属性ルーンを追加することが出来る。発明は独特な特徴を持つため、たとえ通常は単純武器あるいは軍用武器に修得（あるいはそれ以上）だったとしても、君以外の者はこの武器に未修得である。もし、君が「オーバードライブ」アクションを使ったなら、君は「オーバードライブ」による追加ダメージを火炎ダメージに変更することを選んでも良い。</p>\n<p>発明に適用する初期武器改造を1つ、下記から、あるいは君が入手手段を持つ他の初期武器改造から選ぶこと。これらの改造は追加の武器特性や、時々、追加能力を与えることがある。改造は君の武器に、既にその武器が与えられるダメージ種別（基本のダメージ種別かもしれないし、既存の可変特性かもしれない）の可変特性を与えるかもしれない。その場合、君がその改造を選ぶなら、代わりに別のダメージ種別の可変特性を与えること：殴打、刺突、斬撃から選ぶ。</p>\n<ul>\n<li><strong>非致傷射撃（遠隔のみ）:</strong> 君は武器の発明によって矢弾の端をヤスリで絵k刷り、必要に応じて殴打攻撃を行うために、また、致命的な射撃で致命傷を負わせるのを避けるため、射撃の貫通力を調整する。君の発明は非致傷と可変（殴打）の特性を得る。君は、発明で行う攻撃それぞれについて、非致傷の特性を適用するかどうかを選ぶことが出来る</li>\n<li><strong>単純武器の複雑化（単純武器のみ） :</strong> 発明の武器ダメージダイスを1段階、増やす（d4をd6に、d6をd8に、d8をd10に、d10をd12に）。更に、下記から任意の特性1つを与える：可変（殴打）、可変（刺突）、可変（斬撃）</li>\n<li><strong>変動する重量（片手近接武器のみ；機敏、取付、無手の特性を持っていてはならない）:</strong> 君の武器の重量は修正され、使うのに必要な手が増える代わりに力を増すことが出来る。君の発明は両手の特性を得て、ダメージ・ダイスはその武器の通常のダメージ・ダイスの大きさより1段階、大きくなる（例えば、ロングソードは両手d10の特性を得る）。君の発明はまた、可変（殴打）の特性を得る。</li>\n<li><strong>絡みつく武器（近接のみ）:</strong> 君は自分の武器を、絡みつくワイヤやストラップのついたものにしたり、柔軟な構造を持つように変える。君の発明は組み付きと足払いの特性を得る。</li>\n<li><strong>阻害するトゲ（近接のみ）:</strong> 君は長く、引っかかるようなトゲを武器に追加し、それを使って敵の移動を阻害できるようにする。君の発明は移動阻害hamperingと可変（刺突）の特性を得る。</li>\n<li><strong>剛い構造（近接のみ）:</strong> 滑らかな表面と堅固な構造によって君の武器は重く、メイスのようになる。君の発明は押しやりと可変（殴打）の特性を得る。</li>\n<li><strong>選択式頭部:</strong> 君は自分の武器のために、多目的で調整可能な打撃面や素早く変更できる特別な矢弾を作った。君の発明は、殴打、刺突、斬撃の組替の特性を得る。君は、現在、持っていないのなら、その武器に非致傷の特性を与えることも、現在、非致傷の特性を持っているならそれを取り除くことも出来る。</li>\n<li><strong>調査の道具（近接のみ）:</strong> 柔らかい素材を使うことによって、君の武器は殺すよりもノックアウトに適していて、特殊な突起物で武器を受け止め、的の武装を解除することが出来る。君の発明は武器落としと非致傷の特性を得る。君は、発明で行う攻撃ごとに非致傷の特性を与えるかどうかを選ぶことが出来る。</li>\n<li><strong>剃刀の刃（近接のみ）:</strong> 君は武器に追加された鋭く曲がった刃で、敵を倒したり、切りつけたりすることが出来る。君の発明は足払いと可変（斬撃）の特性を得る。</li>\n<li><strong>断片化された骨格:</strong> 関節、締め金、伸縮式のパーツによって君の発明は折りたたみや調節が可能になる。武器は殴打、刺突、斬撃の組替特性を得る。君は「使用」を使ってそのアイテムを軽重量のバルクに折りたたんだり、通常の形態に戻すことが出来る。軽重量に折り畳んだ場合は、武器は隠匿可能の特性を持ち、この武器を隠す、あるいは隠匿するための〈隠密〉判定とDCに+2状況ボーナスを得る。</li>\n</ul>"
 		},
 		{
 			"id": "Research Field",
@@ -1612,24 +1727,9 @@
 			"description": "<p>意志を肉体の攻撃に集中させることによって、神秘的なエネルギーが注ぎ込まれる。君の素手打撃は魔法のものになり、非魔法の攻撃に対する抵抗を抜くことが出来るようになる。しかしながら、攻撃ロールへのアイテム・ボーナスを得るか、攻撃の武器ダメージ・ダイスを増加させるためには、それでも、@Compendium[pf2e.equipment-srd.FNDq4NFSN0g2HKWO]{ハンドラップス・オヴ・マイティ・ブロウズ (+1)}のようなアイテムが必要である。</p>"
 		},
 		{
-			"id": "Battle Mystery",
-			"name": "神秘：争い",
-			"description": "<p>戦争に似た力が君を肉体的な強さと戦術知識で満たし、君に戦場の栄光を持たせ、世界を広げるために戦い、避けられぬ争いに対しての準備をさせ、不可避の戦争に耐えさせようとする。君はゴルム、アイオーメディ、ロヴァガグ、戦のホースマン・スツリエル、夜の女王エイセス、ヴードラ人の神ディオマスル、あるいはその他の神々の力を利用するか、君はヘヴンとヘル、エレメンタル界、外なる神の軍勢、あるいは時代を通じて戦を行ってきた集合的な霊魂の終わらぬ闘争から力を得る方法を発見した。</p>\n<p><strong>神秘の恵み</strong></p>\n<p>君は戦の象徴になじみ深い。君は中装鎧と重装鎧に修得である。13レベル時点で、君は軽装鎧の専門知識のクラス特徴と、そしてこれらの防具に熟練の習熟を得る。</p>\n<p>君の神秘を実体化する一つの武器グループを選ぶ。11レベル時点で、もし君が武器の専門知識のクラス特徴を得たなら、選んだグループの軍用武器に熟練の習熟を得て、そのグループの上級武器に修得となる。</p>\n<p><strong>修得技能</strong> 〈運動〉</p>\n<p><strong>授与キャントリップ</strong> @Compendium[pf2e.spells-srd.TVKNbcgTee19PXZR]{シールド}</p>\n<p><strong>啓示呪文</strong></p>\n<ul>\n<li>初期 @Compendium[pf2e.spells-srd.dqaCLzINHBiKjh4J]{軍勢への呼び声};</li>\n<li>上級 @Compendium[pf2e.spells-srd.2jWVNdVlbJq84dfT]{戦場の不屈};</li>\n<li>最上級 @Compendium[pf2e.spells-srd.4j0FQ1mkidBAXuQV]{英雄の業}</li>\n</ul>\n<p><strong>関連領域</strong> 力、熱狂</p>\n<h3>英雄という重荷</h3>\n<p>君はアドレナリンが巡る間、力強くなり、君の命は自分の力のみに依存しているが、各種の年代における網羅的な戦の武威を内包することによって、戦いの後、君の肉体は弱体化する。君はどんなに匂いを取り除こうと、あるいは隠そうとしても微かに血と鉄の匂いがする。君は実際よりも筋肉質に見え、常に遠くからの微かな衝突や戦闘の騒ぎを聞きつける。</p>\n<h4>下級の呪い</h4>\n<p>君の肉体は、君が敵に害を与えていない時にやつれる。君がACとセーヴィング・スローに-2のステータス・ペナルティを受けるが、「打撃」をするごとに、君はこのペナルティを次の手番の開始時まで抑制することが出来る。</p>\n<p>@Compendium[pf2e.feature-effects.922SDayUnipK4wlx]{効果：下級の争いの呪い}</p>\n<h4>中級の呪い</h4>\n<p>たとえそれから力を得ているとしても、相克のひずみが君の肉体に現れる。完全に抑制するのではなく、「打撃」を行うことによる下級の呪いの軽減効果は、完全になくなるという効果ではなく、-1のペナルティになる。君は武器と素手打撃のダメージ・ロールに+2のステータス・ボーナスを得る。君はまた、些末ではない戦闘遭遇の間、レベルの半分に等しい高速治癒をも得る。</p>\n<p>@Compendium[pf2e.feature-effects.5q4JYkYlqOK2kXWy]{効果：中級の争いの呪い}</p>\n<h4>上級の呪い (11th)</h4>\n<p>君の肉体は真の英雄の偉業に耐えられることを証明するが、そうすることは君の精神の集中を乱す。中級の呪いによる高速治癒は君のレベルに等しくなり、ダメージ・ボーナスは+6になる。君は武器と素手打撃の攻撃ロールに+1ステータス・ボーナスを得るが、君は @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{知性低下2}である。 </p>\n<p>@Compendium[pf2e.feature-effects.JGNnron2gnYI1P78]{効果：上級の争いの呪い}</p>"
-		},
-		{
-			"id": "Lore Mystery",
-			"name": "神秘：伝承",
-			"description": "<p>知識と情報は君のもとへ進んでやってくる。君はこの伝承を使って多次元宇宙の神の謎を理解するための力を得ているのかもしれない。君は名高きアカシック・レコードと繋がっているのかもしれないし、生けるもの全ての集合的無意識とかすかなテレパシーの繋がりを持っているのかもしれないし、アーバダー、イローリ、ネサス、イローリの学問上の甥であるグローハスタ、フェイの三位一体の運命の女神マグダ、あるいは秩序のアイオーンの神像モナドのような神格の足跡を追っているのかもしれない。</p>\n<p><strong>神秘の恵み</strong></p>\n<p>君は殆どの人々よりも多い神秘の知識を蓄えている。君は発動出来るレベルごとに呪文レパートリーに一つの追加呪文を持つ。</p>\n<p><strong>修得技能</strong> 〈霊妙学〉と君の選んだ〈伝承〉一つ。</p>\n<p><strong>授与キャントリップ</strong> @Compendium[pf2e.spells-srd.OhD2Z6rIGGD5ocZA]{リード・オーラ}</p>\n<p><strong>啓示呪文</strong></p>\n<ul>\n<li>初期 @Compendium[pf2e.spells-srd.k2QrUk7jWMAWozMh]{頭脳吸収};</li>\n<li>強化 @Compendium[pf2e.spells-srd.LbPLNWlLCxKCo5gF]{伝承との接続};</li>\n<li>上級 @Compendium[pf2e.spells-srd.XULNb8ItUsfupxqH]{恐るべき秘密}</li>\n</ul>\n<p><strong>関連領域</strong> 知識、真実</p>\n<h3>知識の激流の呪い</h3>\n<p>君は真の神の知識に繋がりを持っているが、君の定命の者としての精神は君が知っていることを処理し、行動することに苦しむ。君の周りにある自由な素材、塵、穀物、水滴といったものは緩やかに、奇妙なルーンやかすかで解読不可能な書き物を形作るように変化する。君は時折、知覚不可能な真実を話し、未知の言語での証言を、それを理解することなしに行う。</p>\n<h4>下級の呪い</h4>\n<p>君は周囲で起こっている物事の情報に関する集合体を処理しようとし、対応能力が緩やかになるため、イニシアチブに-4ペナルティを受ける。</p>\n<p>@Compendium[pf2e.feature-effects.zYKkObDPVRQOtwPh]{効果: 伝承の呪い（下級）}</p>\n<h4>中級の呪い</h4>\n<p>君の精神を貫く情報の流れは大きくなる。この巨大な情報の流れを処理するために君の注意が逸らされるということは、君が常に@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{立ちすくみ}状態であることを意味している。</p>\n<p>手番の開始時ごとに、君は自動的にフリー・アクションとして@Compendium[pf2e.actionspf2e.KygTSeDvsFoSO6HW]{「知識を思い出す」}判定を一度、行う。これは君が選んだ、「知識を思い出す」アクションを持つ技能を使った判定で、その技能に（他のボーナス、ペナルティ、修正値なしで）10+君の習熟ボーナスに等しい結果を用いる。</p>\n<p>@Compendium[pf2e.feature-effects.MrLjJVltBpvMMD8Q]{効果: 伝承の呪い（中級）}</p>\n<h4>上級の呪い (11th)</h4>\n<p>大量の情報流れが他者と交流する君の能力を阻害し、圧倒する。君は全ての言語を理解することが出来るが、発話、言語効果の使用、君の味方との交流をすることが出来ない。</p>\n<p>もし君が言語要素を持つ「呪文の発動」を行ったなら、君はDC5の平目判定に成功しなければ呪文を失う。</p>\n<p>君は言語効果に対するセーヴィング・スローに+4ステータス・ボーナスを得る。</p>\n<p>@Compendium[pf2e.feature-effects.rhG0ZcTBxfxGve5k]{効果: 伝承の呪い（上級）}</p>"
-		},
-		{
 			"id": "Lore Mystery (Multiclass)",
 			"name": "神秘：伝承（マルチクラス）",
 			"description": "<p>知識と情報は君のもとへ進んでやってくる。君はこの伝承を使って多次元宇宙の神の謎を理解するための力を得ているのかもしれない。君は名高きアカシック・レコードと繋がっているのかもしれないし、生けるもの全ての集合的無意識とかすかなテレパシーの繋がりを持っているのかもしれないし、アーバダー、イローリ、ネサス、イローリの学問上の甥であるグローハスタ、フェイの三位一体の運命の女神マグダ、あるいは秩序のアイオーンの神像モナドのような神格の足跡を追っているのかもしれない。</p>\n<h3>知識の激流の呪い</h3>\n<p>君は真の神の知識に繋がりを持っているが、君の定命の者としての精神は君が知っていることを処理し、行動することに苦しむ。君の周りにある自由な素材、塵、穀物、水滴といったものは緩やかに、奇妙なルーンやかすかで解読不可能な書き物を形作るように変化する。君は時折、知覚不可能な真実を話し、未知の言語での証言を、それを理解することなしに行う。</p>"
-		},
-		{
-			"id": "Ancestors Mystery",
-			"name": "神秘：先祖",
-			"description": "<p>過去の世代の声が君に呼びかける。君は彼らの言葉を聞くのである。君は常に妨害されることに憤っているのかもしれないし、以前にやってきた霊魂を尊敬しているのかもしれない。恐らく、君はショアンティのスコアン＝クア（頭蓋の氏族）のような、強力な先祖の伝統を持つ文化や、トラグの家族の万神殿を信仰する伝統的なドワーフの共同体、あるいはエラスティルやファラズマを尊崇するグループの出身なのかもしれない。君は魂を死後に案内する強力なサイコポンプや魂の川そのもの、あるいは魂の再生という大いなる周期の外側に弾き出されてしまった霊魂に馴染みがあるのかもしれない。君はその囁きや記憶の断片から学びを得るが、精神を彼らの知識と経験に開くことは、彼らが君の世俗的な問題に鑑賞することを可能にしてしまう。</p>\n<p><strong>神秘の恵み</strong></p>\n<p>　先祖の囁きは君に追加の知識をもたらす。1レベル時点で君は追加の祖先特技一つを得て、11レベル時点で更に追加の祖先特技一つを得る。これらの特技は追加の感覚や素手打撃のような肉体的な効果であってはならない。</p>\n<p><strong>修得技能</strong>　〈社会〉</p>\n<p><strong>キャントリップ</strong>　@Compendium[pf2e.spells-srd.izcxFQFwf3woCnFs]{ガイダンス}</p>\n<p><strong>啓示呪文</strong></p>\n<ul>\n<li>初期 @Compendium[pf2e.spells-srd.d2pi7laQkzlr3wrS]{先祖の接触};</li>\n<li>上級 @Compendium[pf2e.spells-srd.J5KrjQKCg2PrF1vz]{先祖の守り};</li>\n<li>最上級 @Compendium[pf2e.spells-srd.xEjGEBvTfDJECSki]{先祖の姿}</li>\n</ul>\n<p><strong>関連領域</strong> 死、家族</p>\n<h3>先祖の擾乱</h3>\n<p>君が交流している先祖の霊魂は、君を脅かし、君の振る舞いや行動に干渉する。その理由は君を手助けするための善意（究極的には悪影響だが）で、君が伝統的な信仰の力の成長方法を上手に迂回している厚かましさへの罰なのかもしれないし、先祖自身の楽しみのためであるか、上記の混合であるのかもしれない。君の髪型、衣類、所有物は常に変化し、落ち着かず、それはまるで君自身の意志であるかのように見える。</p>\n<p><strong>下級の呪い</strong></p>\n<p>先祖の一人が干渉に優位になる。君が一日の内、最初にこの効果を得た際、下記の表：2-4：先祖の影響を使って、どのタイプの先祖が優位になるか、[[/r 1d4]]をロールして決める。この優位になった先祖は好むタイプのアクションを使うように君を導く。君がその他の先祖のところに記載されたアクションを使おうとする際、DC4の平目判定に成功しなくてはならない。失敗したなら、君はアクションを消費するが効果を得ない（君が「呪文の発動」をしていたとして、君はその呪文を失わない）。もし君のアクションが1分以上かかるものであるなら、君がこの干渉を克服するには十分であるため、平目判定を試みる必要はない。</p>\n<p>戦闘や、ラウンドからラウンドずつ管理をする遭遇といった別の緊張する状況では、その他の先祖達は君のアクションを支配しようとして取っ組み合う。君がイニシアチブをロールする際、遭遇の間、手番の終了時ごとに [[/r 1d4]]をロールして君の中で優位な先祖を適切に変更すること。遭遇が終了したなら、一日の間、君は最初にロールした先祖の影響下に戻る。</p>\n<p>@Compendium[pf2e.feature-effects.IrMgMRXf258bdIDo]{効果: 下級の将軍の先祖の呪い}, @Compendium[pf2e.feature-effects.2uZfgqV279rxX4NK]{効果: 下級の技巧者の先祖の呪い}, @Compendium[pf2e.feature-effects.iZHqhBHIZ0TB5Dbn]{効果: 下級の術者の先祖の呪い}</p>\n<p><strong>中級の呪い</strong></p>\n<p>Tの他のアクションを使用するための平目判定DCは6になり、君は君の中で優位に立っている先祖に記載されている中級の呪いの恵みを受ける。</p>\n<p>@Compendium[pf2e.feature-effects.XhOBnOBCju9GJ8Ts]{効果: 中級の将軍の先祖の呪い}, @Compendium[pf2e.feature-effects.UTI8IkzXGlOHxrzc]{効果: 中級の技巧者の先祖の呪い}, @Compendium[pf2e.feature-effects.FClOlGn44lFLqmbA]{効果: 中級の術者の先祖の呪い}</p>\n<p><strong>上級の呪い (11レベル)</strong></p>\n<p>平目判定のDCは8になり、君は中級の呪いの代わりに、君の中で優位に立っている先祖に記載されている上級の呪いの恵みを受ける。</p>\n<p>@Compendium[pf2e.feature-effects.OzA7pUzYe2ZIprYJ]{効果: 上級の将軍の先祖の呪い}, @Compendium[pf2e.feature-effects.0H4WuqjCxpXX67eK]{効果: 上級の技巧者の先祖の呪い}, @Compendium[pf2e.feature-effects.gVzPZm12KujYWxMb]{効果: 上級の術者の先祖の呪い}</p>\n<hr />\n<h4>祖先の影響</h4>\n<ol>\n<li>将軍\n<ul>\n<li><strong>好むアクション</strong> 「打撃」</li>\n<li><strong>中級の呪いの恵み</strong> 君の「打撃」は攻撃ロールに+1ステータス・ボーナス、ダメージに+2ステータス・ボーナスを得る</li>\n<li><strong>上級の呪いの恵み</strong> 君の「打撃」は攻撃ロールに+1ステータス・ボーナス、ダメージに+6ステータス・ボーナスを得る</li>\n</ul>\n</li>\n<li>技巧者\n<ul>\n<li><strong>好むアクション</strong> 知覚と技能アクション</li>\n<li><strong>中級の呪いの恵み</strong> 技能判定と知覚判定に+1ステータス・ボーナスを得る</li>\n<li><strong>上級の呪いの恵み</strong> 技能判定と知覚判定に+2ステータス・ボーナスを得る</li>\n</ul>\n</li>\n<li>術者\n<ul>\n<li><strong>好むアクション</strong> 「呪文の発動」</li>\n<li><strong>中級の呪いの利益</strong> 持続時間なしのキャントリップでない呪文はダメージと治癒に呪文レベルに等しいステータス・ボーナスを得る。</li>\n<li><strong上級の呪いの利益</strong> 持続時間なしのキャントリップでない呪文はダメージと治癒に呪文レベル+3に等しいステータス・ボーナスを得る。</li>\n</ul>\n</li>\n<li>どの祖先がアクションを導いてくれるのか君が選ぶ</li>\n</ol>"
 		},
 		{
 			"id": "Ancestors Mystery (Multiclass)",
@@ -1637,19 +1737,9 @@
 			"description": "<p>過去の世代の声が君に呼びかける。君は彼らの言葉を聞くのである。君は常に妨害されることに憤っているのかもしれないし、以前にやってきた霊魂を尊敬しているのかもしれない。恐らく、君はショアンティのスコアン＝クア（頭蓋の氏族）のような、強力な先祖の伝統を持つ文化や、トラグの家族の万神殿を信仰する伝統的なドワーフの共同体、あるいはエラスティルやファラズマを尊崇するグループの出身なのかもしれない。君は魂を死後に案内する強力なサイコポンプや魂の川そのもの、あるいは魂の再生という大いなる周期の外側に弾き出されてしまった霊魂に馴染みがあるのかもしれない。君はその囁きや記憶の断片から学びを得るが、精神を彼らの知識と経験に開くことは、彼らが君の世俗的な問題に鑑賞することを可能にしてしまう。</p>\n<h3>先祖の擾乱</h3>\n<p>君が交流している先祖の霊魂は、君を脅かし、君の振る舞いや行動に干渉する。その理由は君を手助けするための善意（究極的には悪影響だが）で、君が伝統的な信仰の力の成長方法を上手に迂回している厚かましさへの罰なのかもしれないし、先祖自身の楽しみのためであるか、上記の混合であるのかもしれない。君の髪型、衣類、所有物は常に変化し、落ち着かず、それはまるで君自身の意志であるかのように見える。</p>"
 		},
 		{
-			"id": "Cosmos Mystery",
-			"name": "神秘：宇宙",
-			"description": "<p>大きなものから小さなものまで、天体は君に影響力を持ち、崇高な宇宙の力を与える。君は瞬く星々を聖なる祝福とみなしているのかもしれないし、その合間に無限に広がる暗闇に引き込まれるのかもしれない。君はデズナ、サーレンレイ、あるいはシズルとツキヨという太陽と月の象徴である反発し合う恋人達といった神格を支持しているのかもしれないし、特定の外なる神やゾン＝クーソンのような破壊的な夜の神、ネズミの神ラオ・シュゥ・ポーのような星々の彼方にいる神格から力を与えられているのかもしれない。</p>\n<p><strong>神秘の恵み</strong></p>\n<p>君の肉体は物理的なものであると同時に、天文学的なものでもある。君は全ての物理ダメージに対して、2+レベルの半分に等しい抵抗を得る。</p>\n<p><strong>修得技能</strong> 〈自然〉</p>\n<p><strong>授与キャントリップ</strong> @Compendium[pf2e.spells-srd.kl2q6JvBZwed4B6v]{ダンシング・ライツ}</p>\n<p><strong>啓示呪文</strong></p>\n<ul>\n<li>初期 @Compendium[pf2e.spells-srd.mlNYROcFrUF8nFgk]{星々の飛沫};</li>\n<li>強化 @Compendium[pf2e.spells-srd.L37RTc7K79OUpZ7X]{星間の虚無};</li>\n<li>上級 @Compendium[pf2e.spells-srd.In2A7GCyxxaqZdPI]{月光の架け橋}</li>\n</ul>\n<p><strong>関連領域</strong> 暗闇、月</p>\n<h3>空の呼び声の呪い</h3>\n<p>君の頭の中には、雲がある――単に比喩的な意味というだけでなく。君の肉体は天に引きつけられており、本来よりも軽く、そして非物質的である。君の瞳は星の明かりで輝いており、君の髪の毛と衣類は浮かんで君の周囲をさまよう。</p>\n<h4>下級の呪い</h4>\n<p>君の自然のものではない輝きは、君が足場を保つことや、他の物理的な物体と干渉するのを難しくする。君は@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱1}になり、@Compendium[pf2e.actionspf2e.PMbdMWc2QroouFGD]{「組みつき」}、 @Compendium[pf2e.actionspf2e.7blmbDrQFNfdT731]{「押しやり」}、その他の形の強制移動に対するセーヴとDCに-2のペナルティを受ける。</p>\n<p>@Compendium[pf2e.feature-effects.usi1qa95gK4WnFIg]{効果: 宇宙の呪い（下級）}</p>\n<h4>中級の呪い</h4>\n<p>君の肉体は更に空に引きつけられている。君は@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱2}になり、下級の呪いによるペナルティは-3に増える。</p>\n<p>君は風の効果に対して、1サイズ小さいように扱われる。君は@Compendium[pf2e.actionspf2e.ge56Lu1xXVFYUnLP]{「足払い」} の試みに対して+2ステータス・ボーナスを得て、落下からのダメージを半分しか受けず、技能特技@Compendium[pf2e.feats-srd.HJYQlmGTdtyGWr6a]{《力強き跳躍》}と@Compendium[pf2e.feats-srd.ZBhvJ9O8MvBFAlhq]{《跳躍高速化》}の効果を得る。君は半分しか体重がない。君のバルク、つまり、君を運ぶために必要なバルクもまた、半分になる。</p>\n<p>@Compendium[pf2e.feature-effects.GaTJBSkIaDEG36Ot]{効果: 宇宙の呪い（中級）}</p>\n<h4>上級の呪い (11th)</h4>\n<p>君の肉体は浮遊していき、地面のすぐ上に浮くようになる。君は @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱4}になり、下級の呪いによるペナルティは-4に増える。</p>\n<p>君はそれが固体であるかのように液体の上を歩くことが出来る；君は@Compendium[pf2e.feats-srd.TVFfTP9fHRidwBlW]{《雲のごとき跳躍》} の技能特技の効果を得る；君は痕跡を残さず、重さを感知する圧力板のトリガーになることがなく、地面に君を繋ぎとめる効果を受けない。</p>\n<p>@Compendium[pf2e.feature-effects.cCouACwRwxjEgy7u]{効果: 宇宙の呪い（上級）}</p>"
-		},
-		{
 			"id": "Cosmos Mystery (Multiclass)",
 			"name": "神秘：宇宙（マルチクラス）",
 			"description": "<p>大きなものから小さなものまで、天体は君に影響力を持ち、崇高な宇宙の力を与える。君は瞬く星々を聖なる祝福とみなしているのかもしれないし、その合間に無限に広がる暗闇に引き込まれるのかもしれない。君はデズナ、サーレンレイ、あるいはシズルとツキヨという太陽と月の象徴である反発し合う恋人達といった神格を支持しているのかもしれないし、特定の外なる神やゾン＝クーソンのような破壊的な夜の神、ネズミの神ラオ・シュゥ・ポーのような星々の彼方にいる神格から力を与えられているのかもしれない。</p>\n<h3>空の呼び声の呪い</h3>\n<p>君の頭の中には、雲がある――単に比喩的な意味というだけでなく。君の肉体は天に引きつけられており、本来よりも軽く、そして非物質的である。君の瞳は星の明かりで輝いており、君の髪の毛と衣類は浮かんで君の周囲をさまよう。</p>"
-		},
-		{
-			"id": "Tempest Mystery",
-			"name": "神秘：嵐",
-			"description": "<p>君の力が自然の嵐から流れ出てくるにせよ、風と水のエレメンタル界への導管であるにせよ、ゴズレー、テングの嵐の女神ヘイ・フェン、デモン・ロードのダゴン、風と水のエレメンタル・ロードであるにせよ、風と波の激しさが君の心臓の中で暴れている。</p>\n<p><strong>神秘の恵み</strong></p>\n<p>君は風と水の向こう側を完全に視認することが出来る。そして、君は風と水の双方を通じて電気を送り込むことが出来る。君は風、雨、霧、そのほかの天候、水を通じて見ること、あるいは水中にいることによる知覚へのペナルティを受けず、そういった状態は君から何者をも視認困難状態にすることはない。</p>\n<p>君がキャントリップではない風あるいは水呪文で物理的なダメージを与える際、君は呪文レベルごとに追加で1点の電気ダメージを与える。</p>\n<p><strong>修得技能</strong> 〈自然〉</p>\n<p><strong>授与キャントリップ</strong> @Compendium[pf2e.spells-srd.kBhaPuzLUSwS6vVf]{エレクトリック・アーク}</p>\n<p><strong>啓示呪文</strong></p>\n<ul>\n<li>初期 @Compendium[pf2e.spells-srd.EzB9i7R6aBRAtJCh]{嵐の接触};</li>\n<li>強化 @Compendium[pf2e.spells-srd.LFSwMtQVP05EzlZe]{雷の破裂};</li>\n<li>上級 @Compendium[pf2e.spells-srd.zhqnMOVPzVvWSUbC]{嵐の姿}</li>\n</ul>\n<p><strong>関連領域</strong> 風、水</p>\n<h3>消えずの嵐の呪い</h3>\n<p>君は自分自身の小さな嵐の中心であり、エレメンタルの力を利用すれば利用するほど激しくなる風と雨に囲まれている。君が穏やかで、休憩しているときですら、君の毛髪や衣類はささやかな風に吹かれている。君は微かに湿っており、君が触れるとしばしば、静電気が起こる。</p>\n<h4>下級の呪い</h4>\n<p>渦巻く嵐のオーラが君の周囲と君の居る接敵面5フィート拡散に巻き上げる。このオーラは、着火された1ラウンド後あるいはオーラに入った1ラウンド後に、魔法のものでない小さな炎を消してしまう。君の嵐の中で電気エネルギーは増幅され、君を雷光の杖とする；</p>\n<p>君は電気への弱点2点を得て、金属を着用しているか持っているクリーチャーに対して追加効果を持つ電気呪文や効果は、君を、金属を着用しているかのように扱う。</p>\n<p>@Compendium[pf2e.feature-effects.IvXLHQySVNj4qMOi]{効果: 嵐の呪い（下級）}</p>\n<h4>中級の呪い</h4>\n<p>君の下級の呪いの範囲は10フィート拡散に広がり、風で雨を運ぶようになる。渦巻く風は君を対象にする、あるいは君から放たれる物理的な矢弾を用いた遠隔攻撃ロールに－２状況ペナルティを与える。</p>\n<p>君の電気への弱点は５点あるいは君のレベルの半分のどちらか大きい方に増えるが、激流となた雨は電気への弱点に等しい火炎への抵抗を与える。</p>\n<p>@Compendium[pf2e.feature-effects.fyuZlKJ4N0zScltj]{効果: 嵐の呪い（中級）}</p>\n<h4>上級の呪い (11th)</h4>\n<p>君の下級の呪いのオーラは15フィート拡散に広がり、もっと強力になる。オーラから外側へ向かって吹き付ける強風はクリーチャーの歩みを妨害する。オーラは地上にいる大型以下のクリーチャーと飛行中の超大型以下のクリーチャーにとって移動困難な地形となる。君はこの移動困難な地形に影響を受けない。</p>\n<p>君を貫く電気の円弧は危険になる。接触呪文や近接素手打撃によるものを含む、君に触れたクリーチャーは[[/r 1d6 #電撃]]点の電気ダメージを受ける。/p>\n<p>@Compendium[pf2e.feature-effects.jB6iDPaOSWrgxsEh]{効果: 嵐の呪い（上級）}</p>"
 		},
 		{
 			"id": "Tempest Mystery (Multiclass)",
@@ -1662,29 +1752,14 @@
 			"description": "<p>戦争に似た力が君を肉体的な強さと戦術知識で満たし、君に戦場の栄光を持たせ、世界を広げるために戦い、避けられぬ争いに対しての準備をさせ、不可避の戦争に耐えさせようとする。君はゴルム、アイオーメディ、ロヴァガグ、戦のホースマン・スツリエル、夜の女王エイセス、ヴードラ人の神ディオマスル、あるいはその他の神々の力を利用するか、君はヘヴンとヘル、エレメンタル界、外なる神の軍勢、あるいは時代を通じて戦を行ってきた集合的な霊魂の終わらぬ闘争から力を得る方法を発見した。</p>\n<h3>英雄という重荷</h3>\n<p>君はアドレナリンが巡る間、力強くなり、君の命は自分の力のみに依存しているが、各種の年代における網羅的な戦の武威を内包することによって、戦いの後、君の肉体は弱体化する。君はどんなに匂いを取り除こうと、あるいは隠そうとしても微かに血と鉄の匂いがする。君は実際よりも筋肉質に見え、常に遠くからの微かな衝突や戦闘の騒ぎを聞きつける。</p>"
 		},
 		{
-			"id": "Flames Mystery",
-			"name": "神秘：炎",
-			"description": "<p>炎は世界の中心、太陽の中心、そして文明の中心で生きている。君はこのエレメンタルの力を崇拝しているのかもしれないし、火のエレメンタルの次元界から力を吸い上げているのかもしれないし、アスモデウス、サーレンレイ、ティアンの災害と火山の女神であるレディ・ナンビョーや炎のエレメンタル・ロードであるイメリといった神格の集合を尊敬しているのかもしれない。</p>\n<p><strong>神秘の恵み</strong></p>\n<p>炎そのもののように、君は揺らめきながら踊っていて、君の体力を消火しようとする効果を避ける。君は反応セーヴに熟練の習熟を持つ。13レベル辞典で、もし君が神速の反応のクラス特徴を持っているなら、君の反応セーヴへの習熟ランクは達人になり、反応セーヴで成功したなら、代わりにクリティカルする。</p>\n<p><strong>修得技能</strong> 〈軽業〉</p>\n<p><strong>授与キャントリップ</strong> @Compendium[pf2e.spells-srd.O9w7r4BKgPogYDDe]{プロデュース・フレイム}</p>\n<p><strong>啓示呪文</strong></p>\n<ul>\n<li>初期 @Compendium[pf2e.spells-srd.AspA30tzKCHFWRf0]{発火のオーラ};</li>\n<li>強化 @Compendium[pf2e.spells-srd.Wi2HcreCfujKiCvW]{渦巻く炎};</li>\n<li>上級 @Compendium[pf2e.spells-srd.bynT1UKaDqr8dLNM]{炎の一斉射撃}</li>\n</ul>\n<p><strong>関連領域</strong> 火、太陽</p>\n<h3>呑み込む炎の呪い</h3>\n<p>視線を向けたところ全てに、君は炎と煙を目にする。これらの炎は想像のものかもしれないし、多次元宇宙全体に力をもたらす隠喩的な炎の並外れた一瞬の風景なのかもしれないーーしかし、君は常にそれを見ているのだ。炎は君という存在の中に確実に（しかし危険なく）燃え上がっており、君は時々、かすかに煙を立てることがあり、君の肉体は熱いものに触れてもほとんど痛みを感じない。</p>\n<h4>下級の呪い</h4>\n<p>君の呪いによる煙、熱、パチパチと音を立てる炎は君の視覚や全ての感覚を満たす。</p>\n<p>30フィートより遠くにいるクリーチャーは君にとって@Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{視認困難} である。君はこの視認困難を無視するか、あるいは補填するような全ての効果から利益を得ることが出来ない。これはオラクルの呪いに対する通常の効果通りである</p>\n<p>@Compendium[pf2e.feature-effects.T6En6oEDwSycRyAG]{効果: 炎の呪い（下級）}</p>\n<h4>M中級の呪い</h4>\n<p>煙と瞬く炎が見えることによって、君は感覚は完全に満たされ、害のない炎の瞬きによる妨害は君のいる空間を満たす。</p>\n<p>君は他のクリーチャーから視認困難であるが、他のクリーチャー達自身は呪われていないため、視認困難を無視するか、あるいは補填する効果を通常通りに得ることが出来る。全ての他のクリーチャーと物体は、距離にかかわらず君から視認困難であるが、火炎呪文を発動する際、君は30フィート以内の対象に対する視認困難状態に由来する平目判定に自動的に成功する。</p>\n<p>君の全ての感覚は30フィートより先では不明瞭である。つまい、30フィートより先にある全ての、君が普通は見ることが出来るものは君にとって@Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{隠れた状態}である。</p>\n<p>@Compendium[pf2e.feature-effects.d0fXbhu8qH1TQwXE]{効果: 炎の呪い（中級）}</p>\n<h4>上級の呪い (11th)</h4>\n<p>君を取り囲む炎はもはや、ただ目に見えるだけではない。</p>\n<p>のオーラが君の10フィート拡散以内を取り囲み、君の手番の終了ごとに、オーラ内の全ての他のクリーチャーに [[/r 4d6 #火炎]]点の火炎ダメージ（基本反応せーヴ）を与える。君は毎ラウンド、[[/r 1d6]]点のヒットポイントをセーヴなしで失う；もし君が火炎に弱点を持つなら、弱点の数だけ君が失うヒットポイントの数を増やす。</p>\n<p>君は精神集中の特性を持つ単発アクションを消費することによって、次の手番の開始時までオーラを抑制することが出来る。炎を消せば、君やオーラ内にいるクリーチャーはダメージを受けずに済む。呪いを軽減するために「再集中」している間、君はずっと炎を消しているため、ヒットポイントを失わない。君が@Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{気絶}したなら、炎は鎮火する。だが、君が呪いをリセットするのに十分な休息を取ったのでない限り、目覚めた際に再び燃え上がる。オラクルの呪いの常だが、君はいかなる方法によっても失ったヒットポイントを補填することも軽減することも出来ないが、失われたヒットポイントを通常通り、事後に治癒することが出来る。</p>\n<p>@Compendium[pf2e.feature-effects.GRX2p4ddGnoqihYC]{効果: 炎の呪い（上級）}</p>"
-		},
-		{
 			"id": "Flames Mystery (Multiclass)",
 			"name": "神秘：炎（マルチクラス）",
 			"description": "<p>炎は世界の中心、太陽の中心、そして文明の中心で生きている。君はこのエレメンタルの力を崇拝しているのかもしれないし、火のエレメンタルの次元界から力を吸い上げているのかもしれないし、アスモデウス、サーレンレイ、ティアンの災害と火山の女神であるレディ・ナンビョーや炎のエレメンタル・ロードであるイメリといった神格の集合を尊敬しているのかもしれない。</p>\n<h3>呑み込む炎の呪い</h3>\n<p>視線を向けたところ全てに、君は炎と煙を目にする。これらの炎は想像のものかもしれないし、多次元宇宙全体に力をもたらす隠喩的な炎の並外れた一瞬の風景なのかもしれないーーしかし、君は常にそれを見ているのだ。炎は君という存在の中に確実に（しかし危険なく）燃え上がっており、君は時々、かすかに煙を立てることがあり、君の肉体は熱いものに触れてもほとんど痛みを感じない。</p>"
 		},
 		{
-			"id": "Life Mystery",
-			"name": "神秘：生命",
-			"description": "<p>生者の内にある正のエネルギーの、尽きることのない流れを、君は、はっきりと感じることが出来る。君は生命の尊さを支持しているか、もしかしたら、生命の尊さを覆すために探索をしているのかもしれない。君は世界の生きているクリーチャーの集合的な生命力から力を引き出し、正のエネルギー界と何らかの繋がりを持っているか、あるいはイローリ、ファラズマ、サーレンレイ、そして医学の神ジ・ツォンを含む神々の集まりを崇拝しているのかもしれない。</p>\n<p><strong>神秘の恵み</strong></p>\n<p>君のに肉体は生命のエネルギーの深い集積である。レベルごとに、君はオラクル・クラスから8+耐久力修正ではなく、10＋耐久力修正に等しいヒットポイントを得る。</p>\n<p><strong>修得技能</strong> 〈医学〉</p>\n<p><strong>授与キャントリップ</strong> @Compendium[pf2e.spells-srd.SnjhtQYexDtNDdEg]{スタビライズ}</p>\n<p><strong>啓示呪文</strong></p>\n<ul>\n<li>初期 @Compendium[pf2e.spells-srd.2gQYrCPwBmwau26O]{命の繋がり};</li>\n<li>上級 @Compendium[pf2e.spells-srd.ziHDISWkFSwz3pmn]{災厄遅延};</li>\n<li>強化 @Compendium[pf2e.spells-srd.9kOI14Jep97TzGO7]{治癒の姿}</li>\n</ul>\n<p><strong>関連領域</strong> 死、治癒</p>\n<h3>溢れ出す生命の呪い</h3>\n<p>生命のエネルギーが君から溢れ、全ての生き物と繋がりを作る。だが、君はそうするために自分の生命の精髄を消費しているのである。君の存在は病や怪我を和らげ、少しずつ九オフを消していき、植物に新しい成長をもたらし、そうでなくとも君の周囲に生命力を与える。</p>\n<h4>下級の呪い</h4>\n<p>君の生命力が外部へと流れ出すにつれて、君の肉体を機能させ続けるのは難しくなる。君のヒットポイントを回復する効果は、君が回復するヒットポイントに、君のレベルの半分に等しいステータス・ペナルティ（最低１）を受ける。</p>\n<p>@Compendium[pf2e.feature-effects.yR4XFhh3irGBgPmJ]{効果: 生命の呪い（下級）}</p>\n<h4>中級の呪い</h4>\n<p>君から流れ出ていく生命の流れは不可逆である。</p>\n<p>下級の呪いの効果に加えて、君は他のクリーチャーから発される魔法の効果によって治療されることが出来ない。しかしながら、君が気絶しているなら、魔法の効果は君を１ヒットポイント（それ以上にはならない）まで回復させることが出来る。君は通常通り、エリクサー、ポーション、その他のアイテムに影響を受けることが出来る。</p>\n<p>君が@Compendium[pf2e.spells-srd.rfZpqmj0AIIdkVIs]{ヒール}を発動し、全ての対象が生きたクリーチャーである際、君は回復量を決定するのにd8ではなくd12をロールする。</p>\n<p>君がキャントリップではない呪文の発動を終えた際、いつでも、君は呪文のレベルに等しいヒットポイントを、呪文の対象の一体か、君に一番近いクリーチャー一体を選んで回復させる。君はこの方法で自分を癒やすことは出来ない。この治癒は、治癒、死霊術、正のエネルギー及びその呪文の体系の特性を持つ。</p>\n<p>@Compendium[pf2e.feature-effects.9GIlMB09zKCsnuBP]{効果:生命の呪い（中級）}</p>\n<h4>上級の呪い (11th)</h4>\n<p>生命力は君の魔法を強化するために流れ出していく。君の呪文の中には、正のエネルギーを携えるものがある。</p>\n<p>君が5レベル以上の呪文かつ発動に2アクション以上かかる呪文を発動するために呪文スロットを使うごとに、君は30フィート爆発内に、君が発動した呪文より4レベル以上低い@Compendium[pf2e.spells-srd.rfZpqmj0AIIdkVIs]{ヒール}呪文を3アクションで使った際の効果を与える。この治癒は君が「呪文の発動」を終えた直後に発生する。君はこの治癒から利益を得ることはなく、代わりにこの治癒呪文でロールされたヒットポイントの2倍を失う。</p>\n<p>@Compendium[pf2e.feature-effects.KTNjMlO3WZFx7Suj]{効果: 生命の呪い（上級）}</p>"
-		},
-		{
 			"id": "Life Mystery (Multiclass)",
 			"name": "神秘：生命（マルチクラス）",
 			"description": "<p>生者の内にある正のエネルギーの、尽きることのない流れを、君は、はっきりと感じることが出来る。君は生命の尊さを支持しているか、もしかしたら、生命の尊さを覆すために探索をしているのかもしれない。君は世界の生きているクリーチャーの集合的な生命力から力を引き出し、正のエネルギー界と何らかの繋がりを持っているか、あるいはイローリ、ファラズマ、サーレンレイ、そして医学の神ジ・ツォンを含む神々の集まりを崇拝しているのかもしれない。</p>\n<h3>溢れ出す生命の呪い</h3>\n<p>生命のエネルギーが君から溢れ、全ての生き物と繋がりを作る。だが、君はそうするために自分の生命の精髄を消費しているのである。君の存在は病や怪我を和らげ、少しずつ九オフを消していき、植物に新しい成長をもたらし、そうでなくとも君の周囲に生命力を与える。</p>"
-		},
-		{
-			"id": "Bones Mystery",
-			"name": "神秘：骨",
-			"description": "<p>君の神秘は死と死なないものへの理解を、全ての死を表す複雑な表象のうちに授ける。君は自分自身の死そのものを経験したことがあるのかもしれない（もしかしたら、死んでから生あるものに戻ったのかもしれない）し、血の中に死なないものに接触した形跡があるのかもしれない。もし、君が神格と交流したことがあるのなら、君はファラズマやサイコポンプの案内人（死後の魂を導くクリーチャーのうち、最も強力な生き物）のような死の守護者、カマキリの神アチャケクやアポカリプス・カロンのホースマンといった死をもたらす者、あるいはウルガソーアのような死なずの伝令者と話したことがあるのかもしれない。.</p>\n<p><strong>神秘の恵み</strong></p>\n<p>君は賢明にも生と死の繊細な機微を自らの恵みへと還元する。毎日、一日の準備をする間、君は負のエネルギー治癒を得るために自分自身を正と負の合流点とすることが出来る。つまり、君はアンデッドであるかのように正のエネルギーによってダメージを受け、負のエネルギー効果によって治癒を受ける。</p>\n<p>もし君が既に負のエネルギー治癒を得ているなら、代わりに君の回復判定のDCは9+現在の瀕死値になる。</p>\n<p><strong>修得技能</strong> 〈医学〉</p>\n<p><strong>授与キャントリップ</strong> @Compendium[pf2e.spells-srd.mAMEt4FFbdqoRnkN]{チル・タッチ}</p>\n<p><strong>啓示呪文</strong></p>\n<ul>\n<li>初期 @Compendium[pf2e.spells-srd.D6T17BdazhNy3KPm]{魂のサイフォン};</li>\n<li>強化 @Compendium[pf2e.spells-srd.pSNLufPPsReKQtJR]{骨の鎧};</li>\n<li>上級 @Compendium[pf2e.spells-srd.GzN9bG6cKZ96YC6l]{不死者への呼びかけ}</li>\n</ul>\n<p><strong>関連領域</strong> 死、不死</p>\n<h3>生ける死者の呪い</h3>\n<p>君の肉体は生きている時ですら、ゆっくりと衰退していく。そして君は力を使うことによって、この不自然な生ける死者の状態を強めてしまう。君の体はまるで墓場に触れたような感触である。それは血色の悪さ、ほのかな大地の匂い、死人のような冷たい肌に表れる。</p>\n<h4>下級の呪い</h4>\n<p>君の皮膚は骨が浮いていて、肉は腐敗しており、腐敗の悪臭と地上のものではない寒気が組み合わさっている。ヒットポイントを回復させる魔法のものでない効果は通常の半分しか君にヒットポイントを与えない。</p>\n<p>@Compendium[pf2e.feature-effects.whf92aQ6aMwByjFn]{効果: 骨の呪い（下級）}</p>\n<h4>中級の呪い</h4>\n<p>君の死せる肉体は腐敗を続け、君の健康に影響を及ぼす。君は@Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{吸精1}になり、この吸精状態は君が得る全ての他の吸精状態と累積する。この吸精状態は、君が「再集中」した際にのみ取り除かれる：通常、吸精状態を取り除くであろう効果は、君の吸精状態を1まで軽減するにとどまる。</p>\n<p>更に、君はレベルの半分に等しい毒への抵抗を持つ。君は病気、毒、即死効果に対するセーヴに+4ステータス・ボーナスを得て、もしそういったセーヴに成功したなら、代わりにクリティカルする。</p>\n<p>@Compendium[pf2e.feature-effects.74K4QxDp37huY8dm]{効果: 骨の呪い（中級）}</p>\n<h4>上級の呪い (11th)</h4>\n<p>Y君は墓場から数歩のところにいる。君は@Compendium[pf2e.conditionitems.Yl48xTdMh3aeQYL2]{負傷1}になる。 この負傷状態は「再集中」によってのみ、取り除くことが出来る：通常なら負傷状態を取り除くような効果は、君の負傷状態を負傷1まで軽減するにとどまる。.</p>\n<p>回復判定を試みるような場合は、君はロールするのではなく自動成功を選んでもよい。また、君が病気、毒、即死効果に対するセーヴにファンブルした際、代わりに失敗となる。</p>\n<p>@Compendium[pf2e.feature-effects.Osr01ZmGZNdArXyT]{効果: 骨の呪い（上級）}</p>"
 		},
 		{
 			"id": "Bones Mystery (Multiclass)",
@@ -1702,59 +1777,9 @@
 			"description": "<p>君は熱狂的に自分の神格の好む武器を持っている。もしそれがアンコモンであるなら、君はその武器の入手手段を得る。もしそれがd4ダメージである肉体武器であるか、単純武器であるなら、ダメージ・ダイスを1段階、上昇させる（d4からd6、d6からd8、d8からd10、d10からd12へ）。</p>"
 		},
 		{
-			"id": "Lightning Reflexes (Level 11)",
-			"name": "神速の反応 (レベル 11)",
-			"description": "<p>君の反応は雷光のごとく素早い。君の反応セーヴへの習熟ランクは熟練になる。</p>"
-		},
-		{
-			"id": "Lightning Reflexes (Level 13)",
-			"name": "神速の反応 (レベル 13)",
-			"description": "<p>君の反応は雷光のごとく素早い。君の反応セーヴへの習熟ランクは熟練になる。</p>"
-		},
-		{
-			"id": "Lightning Reflexes (Level 3)",
-			"name": "神速の反応 (レベル 3)",
-			"description": "<p>君の反応は雷光のごとく素早い。君の反応セーヴへの習熟ランクは熟練になる。</p>"
-		},
-		{
-			"id": "Lightning Reflexes (Level 5)",
-			"name": "神速の反応 (レベル 5)",
-			"description": "<p>君の反応は雷光のごとく素早い。君の反応セーヴへの習熟ランクは熟練になる。</p>"
-		},
-		{
-			"id": "Lightning Reflexes (Level 9)",
-			"name": "神速の反応 (レベル 9)",
-			"description": "<p>Y君の反応は雷光のごとく素早い。君の反応セーヴへの習熟ランクは熟練になる。</p>"
-		},
-		{
 			"id": "Arcane Thesis",
 			"name": "秘術の主題",
 			"description": "<p><span id=\"ctl00_MainContent_Header\">完全に一人前のウィザードになるための研究の間、君は様々な話題の中の1つを独特な魔法研究の主題として生み出した。君は主題研究の話題によって異なる特殊な利益を得る。この秘術の主題は以下の通り、この本に示されている；君の特定の主題はおそらく、 \"「魔法塊の構築の新たな理解に関する呪文補間と呪文想像の手法について」\"などといった長く、技術的なタイトルを持つだろう。</span></p>\n<h2>@Compendium[pf2e.classfeatures.SNZ46g3u7U6x0XJj]{使い魔強化の調律}</h2>\n<p>君は長らく、ウィザードと使い魔を繋ぐ、よく調律された魔法を長期間に渡って維持しており、ほとんどのウィザードが現在使っている生来の、そして安全な絆に比べて神秘的な繋がりを発展させることが出来る。君はそのような絆を君の使い魔と作り出し、ほとんどのウィザードよりもそこからより多くの有益なものを得る。君はボーナス特技として《使い魔》のウィザード特技を得る。君の使い魔は1つの追加能力を得て、更に君が6レベル、12レベル、そして18レベルに到達する際に更に1つの追加能力を得る。使い魔と君の絆は、君が所有する品ではなく、使い魔に魔法のエネルギーを貯蔵できるように、秘術の絆のクラス特徴を変更する；君はまた、「絆の品の吸収」ではなく、「使い魔吸収」のフリー・アクションを得る。「使い魔吸収」は君がアイテムの代わりに使い魔から魔法を引き出すということを除けば、君に「絆の品の吸収」を使わせ、同等に機能する能力をいつでも使うことが出来るようにする。</p>\n<h2>@Compendium[pf2e.classfeatures.89zWKD2CN7nRu2xp]{呪文修正実験}</h2>\n<p>君は、呪文修正として知られる実践が遠い昔、ウィザード達が、他人が記録して何年間も受け継いできた呪文に頼るのではなく、自分達独自の呪文とバリエーションで作業しなければならなかった時分の遺産であることを悟っている。これによって君は様々な呪文修正効果を実質的に手に入れた。君は1レベルの呪文修正ウィザード特技をボーナス特技として得る。4レベルの開始時点で、一日の準備の間に君は君のレベルの半分未満のレベル条件を持つ、君の選んだ呪文修正ウィザード特技一つを得て、それを次の一日の準備まで使うことが出来る。</p>\n<h2>@Compendium[pf2e.classfeatures.OAcxS625AXSGrQIC]{呪文混合}</h2>\n<p>君は、呪文スロットとは、全ての呪文発動に力を当てる、影に潜むエネルギーの記号であると理論付け、呪文スロットの階級を加工して、もっと強力な呪文に燃料を与えるためにそれらを合成する方法を発見している。日々の準備をする際、君は同じレベルの2つの呪文スロットを、犠牲にした呪文スロットよりも2レベルまで高いボーナス呪文スロットに引き換えることが出来る。君は可能な限り多くの呪文スロットを引き換えることが出来る。ボーナス呪文スロットは君が通常、発動可能なレベルでなければならず、それぞれのボーナス呪文スロットは異なる呪文レベルのものでなければならない。君はまた、あらゆる呪文スロットを2つの追加のキャントリップと引き換えることが出来るが、この方法によって一度に追加のキャントリップのために引き換えることが出来る呪文スロットは1つだけである。</p>\n<h2>@Compendium[pf2e.classfeatures.QzWXMCSGNfvvpYgF]{呪文交換}</h2>\n<p>君は一度呪文を準備したなら、それを次の日々の準備まで変えることが出来ないという事実を受け入れておらず、もともと準備していたものを新しい呪文に交換することが出来るようになる近道を発見している。君は準備済み呪文スロット1つを空にして、同じ場所に呪文書から違う呪文を準備するために10分間を費やすことが出来る。もし君がこの交換中に妨害されたなら、もともとの呪文が準備されたまま、発動可能である。君は後で呪文を交換することを再び試みることが出来るが、最初からこの過程を始めなくてはならない。</p>"
-		},
-		{
-			"id": "Arcane Thesis: Staff Nexus",
-			"name": "秘術の主題: スタッフの集合体",
-			"description": "<p>君の主題は、研究を始めたばかりの頃から@Compendium[pf2e.equipment-srd.FVjTuBCIefAgloUU]{スタッフ}を熱心に使うことによって、術者とスタッフの間に共生的な絆が生まれ、素晴らしい魔法を生み出すことが出来るというものである。君は自分で作った足跡のスタッフとこういった繋がりを築き、出会ったあらゆるスタッフに更なる力を吹き込む準備をしているのである。</p>\n<p>君は、自分で作った足跡のスタッフを持ってプレイを始める。このスタッフには、1つのキャントリップと1つの1レベル呪文を封じ込めることが出来る。これは両方とも君の呪文書から選ばなくてはならないが、一日の準備の間、通常のチャージを得ることはない。君は通常のスタッフに追加のチャージを加える時にそうするように、このスタッフにチャージを与えるために呪文スロットを消費しなくてはならない。君は、新しいスタッフの通常のコストを支払うことによって、この足跡のスタッフをどんな他のタイプのスタッフにでも@Compendium[pf2e.actionspf2e.rmwa3OyhTZ2i2AHl]{「製作」}することが出来る。そうした時、君は、選んだ2つの呪文を、「製作」したスタッフに追加することが出来る。</p>\n<p>8レベル時点で、君はスタッフを準備する際に1つではなく2つの呪文を消費して、消費した呪文のレベルを合算したものに等しいチャージを追加することが出来る。16レベル時点で、君はスタッフにちゃん辞するために3つまでの呪文を消費することが出来て、3つの呪文全てのレベルの合算に等しい追加チャージを加える。</p>"
-		},
-		{
-			"id": "Arcane Thesis: Improved Familiar Attunement",
-			"name": "秘術の主題: 使い魔強化の調律",
-			"description": "<p>君は長らく、ウィザードと使い魔を繋ぐ、よく調律された魔法を長期間に渡って維持しており、ほとんどのウィザードが現在使っている生来の、そして安全な絆に比べて神秘的な繋がりを発展させることが出来る。君はそのような絆を君の使い魔と作り出し、ほとんどのウィザードよりもそこからより多くの有益なものを得る。君はボーナス特技として @Compendium[pf2e.feats-srd.bcxIg7wi8ZAhvhOD]{《使い魔》} のウィザード特技を得る。君の使い魔は1つの追加能力を得て、更に君が6レベル、12レベル、そして18レベルに到達する際に更に1つの追加能力を得る。使い魔と君の絆は、君が所有する品ではなく、使い魔に魔法のエネルギーを貯蔵できるように、秘術の絆のクラス特徴を変更する；君はまた、「絆の品の吸収」ではなく、「使い魔吸収」のフリー・アクションを得る。「使い魔吸収」は君がアイテムの代わりに使い魔から魔法を引き出すということを除けば、君に「絆の品の吸収」を使わせ、同等に機能する能力をいつでも使うことが出来るようにする。</p>"
-		},
-		{
-			"id": "Arcane Thesis: Metamagical Experimentation",
-			"name": "秘術の主題: 呪文修正実験",
-			"description": "<p>君は、呪文修正として知られる実践が遠い昔、ウィザード達が、他人が記録して何年間も受け継いできた呪文に頼るのではなく、自分達独自の呪文とバリエーションで作業しなければならなかった時分の遺産であることを悟っている。これによって君は様々な呪文修正効果を実質的に手に入れた。君は1レベルの呪文修正ウィザード特技をボーナス特技として得る。4レベルの開始時点で、一日の準備の間に君は君のレベルの半分未満のレベル条件を持つ、君の選んだ呪文修正ウィザード特技一つを得て、それを次の一日の準備まで使うことが出来る。</p>"
-		},
-		{
-			"id": "Arcane Thesis: Spell Substitution",
-			"name": "秘術の主題:呪文交換",
-			"description": "<p>君は一度呪文を準備したなら、それを次の日々の準備まで変えることが出来ないという事実を受け入れておらず、もともと準備していたものを新しい呪文に交換することが出来るようになる近道を発見している。君は準備済み呪文スロット1つを空にして、同じ場所に呪文書から違う呪文を準備するために10分間を費やすことが出来る。もし君がこの交換中に妨害されたなら、もともとの呪文が準備されたまま、発動可能である。君は後で呪文を交換することを再び試みることが出来るが、最初からこの過程を始めなくてはならない。</p>"
-		},
-		{
-			"id": "Arcane Thesis: Spell Blending",
-			"name": "秘術の主題:呪文混合",
-			"description": "<p>君は、呪文スロットとは、全ての呪文発動に力を当てる、影に潜むエネルギーの記号であると理論付け、呪文スロットの階級を加工して、もっと強力な呪文に燃料を与えるためにそれらを合成する方法を発見している。日々の準備をする際、君は同じレベルの2つの呪文スロットを、犠牲にした呪文スロットよりも2レベルまで高いボーナス呪文スロットに引き換えることが出来る。君は可能な限り多くの呪文スロットを引き換えることが出来る。ボーナス呪文スロットは君が通常、発動可能なレベルでなければならず、それぞれのボーナス呪文スロットは異なる呪文レベルのものでなければならない。君はまた、あらゆる呪文スロットを2つの追加のキャントリップと引き換えることが出来るが、この方法によって一度に追加のキャントリップのために引き換えることが出来る呪文スロットは1つだけである。</p>"
 		},
 		{
 			"id": "Arcane Cascade",
@@ -1767,54 +1792,19 @@
 			"description": "<p>君は自分の魔法的な力の幾ばくかを、絆の品に入れる。毎日、君が呪文を準備する際、君は絆の品として単一のアイテムを指定することが出来る。これは一般的には呪文発動に関連する品で、たとえばワンド、指輪、スタッフだが、君は自由に武器やその他のアイテムを指定することが出来る。君は@Compendium[pf2e.actionspf2e.v82XtjAVN4ffgVVR]{「絆の品の吸収」}のフリー・アクションを得る。</p>"
 		},
 		{
+			"id": "Arcane Spellcasting (Wizard)",
+			"name": "秘術呪文 (ウィザード)",
+			"description": "<p>研究と実践への専念を通じて、君は呪文発動のための秘術の力を制御することが出来る。君は@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{「呪文の発動」}の連続活動を使って秘術呪文を発動することが出来る。そして、君は呪文発動の際に物質、動作、そして音声要素を与えることが出来る。</p>\n<p>1レベル時点で、君は2つまでの1レベル呪文と5つまでのキャントリップを君の呪文書（下記参照）の呪文から毎朝、準備することが出来る。それに加えて、君が専門家ウィザードならば、1レベルごとに1つと、キャントリップ1つの、追加の君の選んだ系統の呪文を準備することが出来る。準備済呪文は君がそれを発動するか、再び呪文を準備する時まで使用可能なままである。君が準備することが出来る呪文の数を、呪文スロットと呼ぶ。</p>\n<p>君のウィザード・レベルが上がるにつれて、君の呪文スロットの数と、君が呪文スロットから発動することが出来る最高レベルの呪文は増えていく。</p>"
+		},
+		{
+			"id": "Arcane Spellcasting (Magus)",
+			"name": "秘術呪文 (メイガス)",
+			"description": "<p>君は呪文を研究しているので、攻撃と呪文を組み合わせたり、腕力だけで取り扱うことが出来ない問題を解決することが出来る。君は@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{「呪文の発動」}の連続行動で秘術呪文を発動し、呪文を発動する際に物質、動作、音声要素を供給することが出来る。</p>\n<p>君はメイガスであるため、物質要素を必要とする呪文に、武器の先端や自由な手で代わりの印を描き、物質構成要素ポーチを必要とすることがないように動作要素と入れ替えることが出来る。</p>\n<p>1レベル時点で、君は毎朝、呪文書にある呪文（下記参照）から1つの1レベル呪文と5つのキャントリップを準備することが出来る。準備済み呪文は、それを発動するか、再び呪文を準備するまで使える状態のままである。君が準備することが出来る呪文の数を、呪文スロットと呼ぶ。</p>\n<p>君がメイガスとしてのレベルをあげていくにつれ、君の呪文スロットの数と、君が呪文スロットから発動することが出来る呪文の最高レベルは増えていき、表2-2：1日のメイガス呪文に提示されている通りになる。君は肉体的な訓練と魔術の探求の両方に集中するため、最高レベルには1つしか呪文スロットを持つことはなく、もし、2レベル以上の呪文を発動することが出来るなら、最高の呪文レベルよりも1つ低い呪文レベルに、2つの呪文スロットを持つ。</p>\n<p>君の呪文には、その効果を確かめるために呪文攻撃ロールを試みるものや、敵に君の呪文DCに対してのロールをさせるものがある（一般的にはセーヴィング・スローをさせる）。君の呪文攻撃ロールと呪文DCは知力修正値を用いる。これらのステータス圭さんの詳細は呪文攻撃ロールを参照すること。</p>"
+		},
+		{
 			"id": "Arcane School",
 			"name": "秘術系統",
 			"description": "<p>多くの秘術の術者は、その秘密を体得しようとして1つの魔法系統を深く研究する。もし、君が専門家ウィザードになりたいのなら、特化する系統を1つ、選ぶこと。君は自分の系統の追加呪文と呪文スロットを得る。秘術系統は下記に記されたとおりである。</p>\n<p>もし君が系統を選ばないのなら、君は総合術者である。総合術者は魔法の真の知識への道には、全ての八つの系統を共に機能させる複数の規律の理解が必要だと思っている。総合術者には専門家ウィザードのように特化してはいないが、彼らは大いなる柔軟性を持つ。</p>\n<ul>\n<li>@Compendium[pf2e.classfeatures.gCwcys8CnS102tji]{秘術系統:防御術}</li>\n<li>@Compendium[pf2e.classfeatures.SNeVaUBTHwvoO6kr]{秘術系統:召喚術}</li>\n<li>@Compendium[pf2e.classfeatures.yobGgrHdgjs5QW5o]{秘術系統: 占術}</li>\n<li>@Compendium[pf2e.classfeatures.ZHwGACWQEy6kTzcP]{秘術系統:心術}</li>\n<li>@Compendium[pf2e.classfeatures.ibhml5y20g5M3Vgd]{秘術系統:力術}</li>\n<li>@Compendium[pf2e.classfeatures.K6hG7nH8yjmbA0Q9]{秘術系統:幻術}</li>\n<li>@Compendium[pf2e.classfeatures.uNM7qZQokRKAEd7k]{秘術系統：死霊術}</li>\n<li>@Compendium[pf2e.classfeatures.rHxkPijLnQ9O9AGV]{秘術系統：変成術}</li>\n<li>@Compendium[pf2e.classfeatures.qczCKdg47eAmCOUD]{秘術系統：総合術士}</li>\n</ul>"
-		},
-		{
-			"id": "Arcane School: Evocation",
-			"name": "秘術系統: 力術",
-			"description": "<p>力術士である君は、未加工の魔法の力を楽しみ、それを用いて簡単に創造と破壊を行う。君は四元素、力場、エネルギーを、君の敵を破壊するか、他の方法で君を助けるために呼び出す。君は最も直接的なアプローチこそが最も優雅であると理解している。君は、1レベルの力術呪文（@Compendium[pf2e.spells-srd.r3NeUnsgt9mS03Sn]{ショッキング・グラスプ}のような）1つを、君の呪文書に加える。君は@Compendium[pf2e.spells-srd.Hu38hoAUSYeFpkVa]{力場の矢}の系統呪文を学ぶ</p>"
-		},
-		{
-			"id": "Arcane School: Transmutation",
-			"name": "秘術系統: 変成術",
-			"description": "<p>変成術士である君は、クリーチャー、物体、自然界、そして君自身すらも己の気まぐれによって変化させ、ものの物理的な性質を変更する。君は、変化は避けられないということを理解している。君は、1レベルの変成術呪文（@Compendium[pf2e.spells-srd.TFitdEOpQC4SzKQQ]{マジック・ウェポン}のような）1つを、君の呪文書に加える。君は@Compendium[pf2e.spells-srd.1lmzILdCFENln8Cy]{肉体強化}の系統呪文を学ぶ。</p>"
-		},
-		{
-			"id": "Arcane School: Necromancy",
-			"name": "秘術系統: 死霊術",
-			"description": "<p>死霊術士である君は生と死の力を呼び出す。君の系統はしばしばアンデッドの蘇生との関わりについて中傷を受けるが、君は、命の制御とはまた、治癒の制御でもあることを理解している。君は、1レベルの死霊術呪文（@Compendium[pf2e.spells-srd.k34hDOfIIMAxNL4a]{グリム・テンドリス}のような）1つを、君の呪文書に加える。君は @Compendium[pf2e.spells-srd.BH3sUerzMb2bWnv1]{墓地の呼び声} の系統呪文を学ぶ</p>"
-		},
-		{
-			"id": "Arcane School: Divination",
-			"name": "秘術系統：占術",
-			"description": "<p>占術士である君は探索、調査、戦闘の戦略を変更しうる情報を学び、千里眼と先見を体得している。君は、知識が力であると理解している。君は、1レベルの占術呪文（@Compendium[pf2e.spells-srd.Gb7SeieEvd0pL2Eh]{「トゥルー・ストライク」}のような）1つを、君の呪文書に加える。君は@Compendium[pf2e.spells-srd.oFwmdb6LlRrh9AUT]{占術の先見}の系統呪文を学ぶ</p>"
-		},
-		{
-			"id": "Arcane School: Conjuration",
-			"name": "秘術系統：召喚術",
-			"description": "<p>召喚術士である君は、彼方の場所からクリーチャーや物体を召喚し、遠くの場所へと転送するために魔法を使う。君は勝利への本物の鍵は数の有利だと理解している。君は、1レベルの召喚術呪文（@Compendium[pf2e.spells-srd.4YnON9JHYqtLzccu]{「サモン・アニマル」})のような）1つを、君の呪文書に加える。君は@Compendium[pf2e.spells-srd.tWzxuJdbXqvskdIo]{招来強化}の系統呪文を学ぶ</p>"
-		},
-		{
-			"id": "Arcane School: Illusion",
-			"name": "秘術系統：幻術",
-			"description": "<p>幻術士である君は、敵と戦うために画像、虚構、幻影を作り出すための魔法を使う。君は知覚したことが真実になると理解している。君は、1レベルの力術呪文（@Compendium[pf2e.spells-srd.2oH5IufzdESuYxat]{イリュージョリィ・オブジェクト}のような）1つを、君の呪文書に加える。君は@Compendium[pf2e.spells-srd.fXdADBwxmBsU9xPk]{地形歪曲} の系統呪文を学ぶ</p>"
-		},
-		{
-			"id": "Arcane School: Enchantment",
-			"name": "秘術系統：心術",
-			"description": "<p>心術士である君は、他人の心を操作するために魔法を使う。君は密かに他人に影響を与え、他人を制御するために能力を使うかもしれない。君は精神が物質を凌駕することを理解している。君は、1レベルの心術呪文（@Compendium[pf2e.spells-srd.vLA0q0WOK2YPuJs6]{「チャーム」}のような）1つを、君の呪文書に加える。君は@Compendium[pf2e.spells-srd.KMFRKzNCq7hVNH7H]{魅惑の言葉}の系統呪文を学ぶ</p>"
-		},
-		{
-			"id": "Arcane School: Universalist",
-			"name": "秘術系統：総合術士",
-			"description": "<p>一つの秘術系統に狭く特化するのではなく、君は総合術士ウイザードになることが出来る―全ての系統を等しく研究することによって、君は秘術の技の全範囲を理解するために専念するのである。君が発動出来るそれぞれのレベルについて、君はそのレベルの呪文を思い出すために1日に1回、「絆の品の吸収」を使うことが出来る（合計で1日に1回ではなく）。君は追加のウィザード・クラス特技1つを得て、呪文書に君の選んだ1レベル呪文を加える。</p>"
-		},
-		{
-			"id": "Arcane School: Abjuration",
-			"name": "秘術系統：防御術",
-			"description": "<p>防御術士である君は防御の技を体得し、守りを強化し、攻撃を妨げ、魔法そのものを向け直すことすらする。君は1オンスの妨害が1ポンドの回復に値することを理解している。君は1レベルの防御術呪文（@Compendium[pf2e.spells-srd.TTwOKGqmZeKSyNMH]{「フェザー・フォール」}のような）1つを、君の呪文書に加える。君は@Compendium[pf2e.spells-srd.lY9fOk1qBDDhBT8s]{「守りの壁」}の系統呪文を学ぶ。</p>"
 		},
 		{
 			"id": "Exalt",
@@ -1962,11 +1952,6 @@
 			"description": "<h2>練気呪文</h2>\n<p>気と呼ばれる超自然の内なる蓄積を利用することによって、君は魔法の効果を作り出すことが出来る。特定の特技によって君は練気呪文と呼ばれる特殊な呪文を得ることが出来る。これは集中呪文の一種である。集中呪文を発動するには1集中点がコストとなる。君が最初の練気呪文を得る際、君はまた、1集中点の集中蓄積を得る。君は日々の準備の間、集中蓄積を再充填し、内なる平和に到達するための瞑想をするために「再集中」の連続行動をするのに、10分間を費やして1集中点を回復することが出来る。</p>\n<p>君が最初の練気呪文を得た際、君の練気呪文が信仰呪文であるか、霊妙呪文であるかを決めることが出来る。君はその体系の呪文攻撃と呪文DCを修得している。君の主要呪文発動能力値は判断力である。</p>\n<p>集中呪文は自動的に君のレベルの半分（切り上げ）まで増強される。特技を取ることによって、君はより多くの集中呪文を得て、集中蓄積の大きさが増加するが、君の集中蓄積に3ポイントより多くの集中点を得ることはない。</p>"
 		},
 		{
-			"id": "Signature Spells (Level 3)",
-			"name": "署名呪文 (レベル 3)",
-			"description": "<p>経験によって、君はもっと柔軟に呪文を発動することが出来る。</p>\n<p>君が手に入れることのできるそれぞれの呪文レベルについて、署名呪文となるそのレベルの呪文を1つ選ぶ。君は別々に署名呪文の増強バージョンを学ぶ必要はない；代わりに、君はこれらの呪文を自由に増強することが出来る。もし、君が最小レベルよりも高いレベルで署名呪文を学んだのだとしても、君は別々に学ぶことなく、低いレベルのバージョン全てを発動することが出来る。もし署名呪文を入れ替えたなら、君は前の呪文を学んだ際に選ぶことが出来た呪文から入れ替えることが出来る（つまり、同じ呪文レベル以下の呪文）。</p>\n<p>君はまた、呪文を入れ替えるのではなく、そのレベルの別の呪文へと署名呪文を変更するために再訓練をすることも出来る；これは、通常の呪文の再訓練と同じ時間がかかる。</p>"
-		},
-		{
 			"id": "Divine Smite",
 			"name": "聖なる一撃",
 			"description": "<p>君の@Compendium[pf2e.classfeatures.sXVX4ARUuo8Egrz5]{チャンピオンの反射行動} は強化される。</p>"
@@ -2092,74 +2077,14 @@
 			"description": "<p>デーモンは触れたもの全てを堕落させる。君の祖先の誰かがその堕落の犠牲者であって、君はその罪を課されている。</p>\n<p><strong>呪文リスト</strong> 信仰</p>\n<p><strong>血脈技能</strong> 〈威圧〉、〈宗教〉</p>\n<p><strong>授与呪文</strong> キャントリップ @Compendium[pf2e.spells-srd.gISYsBFby1TiXfBt]{アシッド・スプラッシュ}, 1st: @Compendium[pf2e.spells-srd.4koZzrnMXhhosn0D]{フィアー}, 2nd: @Compendium[pf2e.spells-srd.wzctak6BxOW8xvFV]{エンラージ}, 3rd: @Compendium[pf2e.spells-srd.WsUwpfmhKrKwoIe3]{スロー}, 4th: @Compendium[pf2e.spells-srd.hVU9msO9yGkxKZ3J]{ディヴァイン・ラース}, 5th: @Compendium[pf2e.spells-srd.vJuaxTd6q11OjGqA]{アビサル・プレイグ}, 6th: @Compendium[pf2e.spells-srd.r7ihOgKv19eJQnik]{ディスインテグレイト}, 7th: @Compendium[pf2e.spells-srd.sX2o0HH4RjJDAZ8C]{ディヴァイン・ディクリー}, 8th: @Compendium[pf2e.spells-srd.nsQvjNyg4Whw2mek]{ディヴァイン・オーラ}, 9th: @Compendium[pf2e.spells-srd.4WS7HrFjwNvTn8T2]{インプロージョン}</p>\n<p><strong>血脈呪文</strong> 初期: @Compendium[pf2e.spells-srd.SdXFiQ4Py8761sNO]{貪欲なる顎}, 強化: @Compendium[pf2e.spells-srd.iQD8OhhkwhvD8Blw]{怠惰の沼}, 上級: @Compendium[pf2e.spells-srd.crF4g9jRN1y84MSD]{奈落の憤怒}</p>\n<p><strong>血脈魔法</strong> 罪の堕落は対象の防御を弱めるか、君の罪をより重いものにする。対象はACに1ラウンド、-1ペナルティを受けるか、君は1ラウンド、〈威圧〉判定に+1ステータス・ボーナスを得る。</p>\n<p>@Compendium[pf2e.feature-effects.aKRo5TIhUtu0kyEr]{効果: 魔鬼の血脈呪文（自分）}, @Compendium[pf2e.feature-effects.yfbP64r4a9e5oyli]{効果：魔鬼の血脈呪文（対象）}</p>"
 		},
 		{
-			"id": "Ruffian Racket",
-			"name": "裏稼業：用心棒",
-			"description": "<p>君は技の巧みさや意匠を凝らした技に頼るよりも、腕っぷしの強さや威圧を好む。君は組織犯罪の用心棒かもしれないし、家族の力の脅威で他人を脅しつける貴族であるのかもしれない。あるいは、技能をまっとうな使い方をして、個人的な細かい警備をしたり、正当な気質をもって都市の守衛をしているのかもしれない。</p>\n<p>君は仕事をやり遂げるために、手にある道具を何であれ、利用する。君は急所攻撃のクラス特徴に記されている武器に加えて、あらゆる単純武器で急所攻撃ダメージを与えることが出来る。君が単純武器を使った攻撃ロールにクリティカルし、その対象が@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{立ちすくみ}状態（自らを守ることに集中出来ない）である際、君は自分が使っている武器のクリティカル特化効果を適用することが出来る。その武器のダメージ・ダイスがd8（ダメージ・ダイスの大きさを修正するあらゆる能力を適用した後で）より大きいなら、君はこれらの利益を得ることが出来ない。</p>\n<p>君は〈威圧〉と中装鎧に修得である。君が軽装鎧の専門知識を得た際、中装鎧への熟練の習熟ランクをも得て、軽装鎧体得を得た際には、中装鎧への達人の習熟ランクをも得る。</p>"
-		},
-		{
-			"id": "Thief Racket",
-			"name": "裏稼業：盗賊",
-			"description": "<p>他人の持ち物を盗むのに、特に完全に気付かれずにそうするスリルに勝るものはない。君は通りのスリかもしれないし、窓から忍び入って屋根から逃げる強盗や、注意深く警護された禁固に押し入る金庫破りかもしれない。君は何か貴重なものを盗もうとすることによって、クライアントの守りを試すコンサルタントとして働いていることすらあるかもしれない。<br /></p>\n<p>戦いが生じた際、君は素早い、重量の軽い武器を好み、急所に打ちつける。巧技の近接武器で攻撃する際、君は【筋力】修正値ではなくダメージ・ロールに敏捷力修正値を加えることが出来る。<br /></p>\n<p>君は〈窃盗〉に修得である。</p>"
-		},
-		{
-			"id": "Eldritch Trickster Racket",
-			"name": "裏稼業：見習い魔法使い",
-			"description": "<p>大規模な強盗事件ともなると、名だたるローグの誰もが、難解な決壊にせよ、厄介な占いにせよ、魔法が綿密な計画を混乱させる可能性があるということを知っている。</p>\n<p>君はこのような問題を解決するために一時しのぎの呪文を使える程度に魔法を学び、魔法と共にその混乱に身を投じる。君は技術だけでは説明のできない強盗を働く孤高の泥棒や、魔法の防御手段をどうにかするために他のローグに呼ばれる専門家かもしれない。君は魔法の防護を試すためか、自分自身でそれを作る、信頼できる人間であるかもしれない。</p>\n<p>基本、熟練、達人の呪文発動特技を持つマルチクラス・アーキタイプを選ぶ。君はそのアーキタイプの専心特技を、たとえそのレベルの前提条件を満たしていないとしても、ボーナス特技として得るが、その他の前提条件は満たしていなくてはならない。君にとって、@Compendium[pf2e.feats-srd.mxO7u59ms58q7zyj]{《魔法のトリックスター》} のローグ特技は4レベルではなく、2レベルの前提条件を持つ。君は自分が主要能力値として選んだ能力を、マルチクラス・アーキタイプの呪文発動能力値として選ぶことが出来る。</p>"
-		},
-		{
-			"id": "Scoundrel Racket",
-			"name": "裏稼業：詐欺師",
-			"description": "<p>Y君は危険を避け、危険な状況から逃れるため、言いくるめ、お世辞、饒舌さを利用する。君は新しい物語や手口と共に場所から場所へと旅するペテン師や詐欺師かもしれない。君の裏稼業はまた、法律家、外交家、政治家といった特定の名声ある職業にとっては理想的でもある。<br /></p>\n<p>君が @Compendium[pf2e.actionspf2e.QNAVeNKtHA0EUw4X]{「フェイント」}に成功した際、その対象は、次の君の手番の終了時まで、君がその対象に試みる近接攻撃に対して立ちすくみである。クリティカルしたなら、その対象は君だけでなく、君の次の手番の終了時までの全ての近接攻撃に対して立ちすくみである。<br /></p>\n<p>君は〈欺瞞〉と〈交渉〉に修得している。君は主要能力値として魅力を選ぶことが出来る。</p>"
-		},
-		{
-			"id": "Mastermind Racket",
-			"name": "裏稼業：黒幕",
-			"description": "<p>自分の目的を遂げるために他人が手先の早業や雄弁さを用いるような場面で、君は知性を頼りに複雑な計画を立てる。君はチェスのゲームのように自分の作戦を見ており、常に他人が3歩先を計画する際に10歩先を計画している。君は犯罪を解決しようとする探偵や、強力な一家あるいは国家に仕えるスパイのリーダーかもしれない。もし、君が法律に反したことをしているのなら、君は、犯罪王や情報ブローカーを目指しているのかもしれないし、他人を適切な仕事に導くことに長けているのかもしれない。</p>\n<p>もし、君が@Compendium[pf2e.actionspf2e.KygTSeDvsFoSO6HW]{「知識を思い出す」}を使ってクリーチャーの識別に成功したのなら、そのクリーチャーは君の次の手番の開始時まで君の攻撃に対して立ちすくみ状態である；もし、君がクリティカルしたのなら、君の攻撃に対して対象は1分間、@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{立ちすくみ}状態になる。</p>\n<p>君は〈社会〉に修得と、君の選んだ下記の技能のどれか一つに修得である：〈神秘学〉、〈自然〉、〈霊妙学〉、〈宗教〉。君は主要能力値として知力を選ぶことが出来る。</p>"
-		},
-		{
-			"id": "Vigilant Senses (Level 11)",
-			"name": "警戒態勢 (レベル 11)",
-			"description": "<p>冒険を通じて、君は鋭い意識と細部への注意を発展させてきた。知覚への君の習熟ランクは達人になる。</p>"
-		},
-		{
-			"id": "Vigilant Senses (Level 7)",
-			"name": "警戒態勢 (レベル 7)",
-			"description": "<p>冒険を通じて、君は鋭い意識と細部への注意を発展させてきた。知覚への君の習熟ランクは達人になる。</p>"
-		},
-		{
 			"id": "Shared Vigilance",
 			"name": "警戒態勢共有",
 			"description": "<p>君と幻獣は、君の周囲の脅威を警戒するために協働しており、君は個人で行うよりも遙かに多くのことを知覚することが出来るようになる。君の知覚の習熟ランクと、幻獣の知覚の習熟ランクは熟練になる。</p>"
 		},
 		{
-			"id": "Evasion (Level 7)",
-			"name": "身かわし (レベル 7)",
-			"description": "<p>You've learned to move quickly to avoid exp君は爆発やドラゴンのブレス、もっと悪いものを避けるために素早く移動することを学んでいる。反応セーヴへの君の習熟ランクは達人になる。君が反応セーヴに成功した際、代わりにクリティカルする。</p>"
-		},
-		{
-			"id": "Evasion (Level 15)",
-			"name": "身かわし (レベル15)",
-			"description": "<p>君は爆発やドラゴンのブレス、もっと悪いものを避けるために素早く移動することを学んでいる。反応セーヴへの君の習熟ランクは達人になる。君が反応セーヴに成功した際、代わりにクリティカルする。</p>"
-		},
-		{
-			"id": "Improved Evasion (Level 13)",
-			"name": "身かわし強化 (レベル 13)",
-			"description": "<p>君の危険を回避する能力は比類ないものである。反応セーヴへの君の習熟ランクは伝説になる。君が反応セーヴにファンブルした際、君は代わりに失敗する。君がダメージを与える効果に対する反応セーヴに失敗をロールした際、君はダメージの半分を受ける。</p>"
-		},
-		{
-			"id": "Improved Evasion (Level 15)",
-			"name": "身かわし強化 (レベル 15)",
-			"description": "<p>君の危険を回避する能力は比類ないものである。反応セーヴへの君の習熟ランクは伝説になる。君が反応セーヴにファンブルした際、君は代わりに失敗する。君がダメージを与える効果に対する反応セーヴに失敗をロールした際、君はダメージの半分を受ける。</p>"
-		},
-		{
-			"id": "Light Armor Expertise (Level 13)",
-			"name": "軽装鎧の専門知識 (レベル 13)",
-			"description": "<p>君は、中装鎧、軽装鎧、あるいは鎧を着用していない時に攻撃を回避する方法を学んだ。中装鎧、軽装鎧と生身への君の習熟ランクは熟練になる。</p>"
-		},
-		{
-			"id": "Light Armor Mastery (Level 19)",
-			"name": "軽装鎧体得 (レベル 19)",
-			"description": "<p>君の中装鎧と軽装鎧の技能は発展し、拳をかわす能力が向上する。君の中装鎧、軽装鎧、生身の習熟ランクは達人になる。</p>"
+			"id": "Advanced Deed",
+			"name": "身構え強化",
+			"description": "<p>君は選んだ道の強力な新しい技術を学んだ。君は、1レベル時点で選んだ道の身構え強化を得る。</p>"
 		},
 		{
 			"id": "Flurry of Blows",
@@ -2182,16 +2107,6 @@
 			"description": "<p>君はローグの戦闘の動きを体得している。全ての単純武器に加えてレイピア、サップ、ショートボウ、ショートソードへの君の習熟ランクは達人になる。</p>"
 		},
 		{
-			"id": "Master Spellcaster (Level 15)",
-			"name": "達人の術者 (レベル 15)",
-			"description": "<p><strong>バード</strong>: 君は霊妙の達人である。霊妙呪文攻撃ロールと呪文DCへの君の習熟ランクは達人になる。</p>\n<hr />\n<p><strong>ドルイド</strong>: 始原魔法は君の命令に答える。始原呪文攻撃ロールと始原呪文DCへの君の習熟ランクは達人になる。</p>\n<hr />\n<p><strong>オラクル</strong>: 君は真実、神秘の内にある深遠で複雑な信仰の力を理解している。信仰呪文攻撃ロールと呪文DCへの君の習熟ランクは達人になる。</p>\n<hr />\n<p><strong>ソーサラー</strong>: 君は血の中の魔法への体得を遂げている。血脈に対応する体系の呪文攻撃ロールと呪文DCへの君の習熟ランクは達人になる。</p>\n<hr />\n<p><strong>ウィッチ</strong>: 君は守護霊の魔法への体得を遂げている。血脈に対応する体系の呪文攻撃ロールと呪文DCへの君の習熟ランクは達人になる。</p>\n<hr />\n<p><strong>ウィザード</strong>: 君は最高の呪文発動能力を意のままにする。君の秘術呪文攻撃ロールと秘術呪文DCへの習熟ランクは達人になる。</p>"
-		},
-		{
-			"id": "Master Spellcaster (Level 17)",
-			"name": "達人の術者 (レベル 17)",
-			"description": "<p><strong>メイガス</strong>: 君は最高の呪文発動能力を意のままにする。君の秘術呪文攻撃ロールと秘術呪文DCへの習熟ランクは達人になる。</p>\n<hr />\n<p><strong>サモナー</strong>: 幻獣との繋がりは、関連する呪文を君に体得させるほどに強い。君の、幻獣の体系についての呪文の呪文攻撃ロールと呪文DCは達人になる。</p>"
-		},
-		{
 			"id": "Wild Empathy",
 			"name": "野生との共感",
 			"description": "<p>君は、自然界の生き物と初歩的なレベルでの交流を行えるようなつながりを持っている。君は「懐柔」するためと、非常に単純な「要求」をするための〈交渉〉を、動物に使うことが出来る。ほとんどの場合、野生の動物は君に言い分を述べるだけの時間をくれる。</p>"
@@ -2212,36 +2127,6 @@
 			"description": "<p>君は君の専門ではない話題について関連した事実を思い出すことが出来る。@Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{「知識を思い出す」} への未修得の場合の技能判定の習熟ボーナスは、+0ではなく、君のレベルになる。</p>"
 		},
 		{
-			"id": "Alertness (Level 11)",
-			"name": "鋭敏感覚 (11レベル)",
-			"description": "<p>君は周囲の脅威に警戒心を抱いている。君の知覚の習熟ランクは熟練になる。</p>"
-		},
-		{
-			"id": "Alertness (Level 3)",
-			"name": "鋭敏感覚 (3レベル)",
-			"description": "<p>君は周囲の脅威に警戒心を抱いている。君の知覚の習熟ランクは熟練になる。</p>"
-		},
-		{
-			"id": "Alertness (Level 5)",
-			"name": "鋭敏感覚 (5レベル)",
-			"description": "<p>君は周囲の脅威に警戒心を抱いている。君の知覚の習熟ランクは熟練になる。</p>"
-		},
-		{
-			"id": "Alertness (Level 9)",
-			"name": "鋭敏感覚 (9レベル)",
-			"description": "<p>君は周囲の脅威に警戒心を抱いている。君の知覚の習熟ランクは熟練になる。</p>"
-		},
-		{
-			"id": "Iron Will (Level 3)",
-			"name": "鋼の意志 (レベル 3)",
-			"description": "<p>訓練によって君の決意は強固になった。意志セーヴへの君の習熟ランクは熟練になる。</p>"
-		},
-		{
-			"id": "Iron Will (Level 7)",
-			"name": "鋼の意志 (レベル 7)",
-			"description": "<p>君の精神的な防御は鉄の要塞である。意志セーヴへの君の習熟ランクは熟練になる。</p>"
-		},
-		{
 			"id": "Alchemical Expertise",
 			"name": "錬金術の専門知識",
 			"description": "<p>たゆまぬ実践によって君の調合の効果は上昇している。君のアルケミストのクラスDCを決定する習熟ランクは熟練になる。</p>"
@@ -2255,26 +2140,6 @@
 			"id": "Alchemical Weapon Expertise",
 			"name": "錬金術武器の専門知識",
 			"description": "<p>君は研究所で発見した武器を、もっと効果的に身につける訓練をしている。単純武器と錬金術爆弾への君の習熟ランクは熟練になる。</p>"
-		},
-		{
-			"id": "Armor Expertise (Level 11)",
-			"name": "防具の専門知識 (Level 11)",
-			"description": "<p>Y君はその防具でどう身を守るかのほとんどを知っている鎧を着用して多くの時間を過ごした。軽装鎧、中装鎧、重装鎧と生身への君の習熟ランクは熟練になる。君は中装鎧と重装鎧の特化効果を得る。</p>"
-		},
-		{
-			"id": "Armor Expertise (Level 7)",
-			"name": "防具の専門知識(Level 7)",
-			"description": "<p>君はその防具でどう身を守るかのほとんどを知っている鎧を着用して多くの時間を過ごした。軽装鎧、中装鎧、重装鎧と生身への君の習熟ランクは熟練になる。君は中装鎧と重装鎧の特化効果を得る。</p>"
-		},
-		{
-			"id": "Armor Mastery (Level 13)",
-			"name": "防具体得 (Level 13)",
-			"description": "<p>君の防具の技能は発展し、攻撃を妨げる能力が上昇した。軽装鎧、中装鎧、重装鎧、そして生身への君の習熟ランクは達人になる。</p>"
-		},
-		{
-			"id": "Armor Mastery (Level 17)",
-			"name": "防具体得 (Level 17)",
-			"description": "<p>君の防具の技能は発展し、攻撃を妨げる能力が上昇した。軽装鎧、中装鎧、重装鎧、そして生身への君の習熟ランクは達人になる。</p>"
 		},
 		{
 			"id": "Vivacious Speed",
@@ -2292,24 +2157,9 @@
 			"description": "<p>君は深遠なる知識から魔法を引き出す。君は「呪文発動」の連続行動を使って霊妙呪文を発動することが出来る。そして、君は呪文発動時に物質、音声、そして動作の構成要素を供給することが出来る。君はバードなので、大抵の場合、音声あるいは物質の構成要素を必要とする呪文のために楽器を演奏するが、それには少なくとも片手が使用状態になる。もし君が楽器を使っているのなら、呪文構成要素ポーチやもう片手が空いている必要はない。君は大抵の場合、話す代わりに音声要素を必要とする呪文のためにも楽器を演奏することが出来るのである。</p>\n<p>毎日、君は2つまでの1レベル呪文を発動することが出来る。君は呪文を発動するためにはそれを知っていなければならず、クラス特徴の呪文レパートリーを通じてそれを学ぶ。君が毎日、発動可能な呪文の数を呪文スロットと呼ぶ。</p>\n<p>レベルが上がっていくに連れて、1日の呪文数と君が発動出来る最も高い呪文レベルは増加していく。</p>\n<p>呪文の中にはどの程度、効果があるかを確認するために呪文攻撃ロールを試みる必要があるか、敵に君の呪文DCに対してロールをさせるものがある（一般的にはセーヴィング・スローを試みることになる）。君の主要能力値は魅力であるため、呪文攻撃ロールと呪文DCは魅力修正値を用いる。</p>"
 		},
 		{
-			"id": "Great Fortitude (Level 3)",
-			"name": "頑健無比 (レベル 3)",
-			"description": "<p>君の肉体は信じがたいほど頑丈である。頑健セーヴへの君の習熟ランクは熟練になる。</p>"
-		},
-		{
-			"id": "Great Fortitude (Level 9)",
-			"name": "頑健無比 (レベル 9)",
-			"description": "<p>君の肉体は信じがたいほど頑丈である。頑健セーヴへの君の習熟ランクは熟練になる。</p>"
-		},
-		{
-			"id": "Incredible Senses (Level 13)",
-			"name": "驚くべき感覚 (レベル 13)",
-			"description": "<p>君は通常の人間が探知することがほとんど不可能なものを察知する。知覚への君の習熟ランクは伝説になる。</p>"
-		},
-		{
-			"id": "Incredible Senses (Level 15)",
-			"name": "驚くべき感覚 (レベル 15)",
-			"description": "<p>君は通常の人間が探知することがほとんど不可能なものを察知する。知覚への君の習熟ランクは伝説になる。</p>"
+			"id": "Revolutionary Innovation",
+			"name": "革新的発明",
+			"description": "<p>君は並ぶものない才能の持ち主で、君の選んだ分野に革命を起こすであろう技術――少なくとも、当面の間は！――を発見した。君の発明に適用する革新的改造を選ぶこと。君は望むなら、代わりに同じ種別の初期改造あるいはブレイクスルー改造を選んでもよい。</p>\n<h3>革新的防具改造</h3>\n<ul>\n<li><strong>移動阻害自動化:</strong> 君の防具は電磁場、分周波歪曲、その他の技術を用いて、君の近くに居るものが君の許しなしに移動するのを困難にする。防具を着ている間、君に隣接する全てのマス目は、君の敵にとって移動困難な地形となる。</li>\n<li><strong>エネルギー障壁:</strong> 君の防具の防御能力は、君に立ち塞がるあらゆる種類のエネルギーを取り除く。発明した防具を着ている間、君は、2+レベルの半分に等しい、あらゆるエネルギーダメージ（強酸、氷雪、電撃、火炎、力場、負のエネルギー、正のエネルギー、音波）への抵抗を得る。君はこの改造を選ぶために調和発振器、金属の誘導抵抗あるいは燃焼調節器の改造を所持していなければならない。</li>\n<li><strong>驚異的抵抗力:</strong> 君はダメージに抵抗するブレイクスルー改造能力を進化させた。君が持つ下記のブレイクスルー改造から1つを選ぶ：密集装甲、多層メッシュ、伸張吸収。その改造から君が得ている抵抗を、君のレベルの半分ではなく、君のレベルに等しい数字とする。</li>\n<li><strong>マルチセンサー・カバー (サブターフュージ・スーツのみ):</strong> 君は自分の姿をあらゆる感覚に対して歪めることによって守ってくれるマルチセンサー・カバーを作り出した。残るのは君のおぼろげな映像、くぐもった音といったものだけになる。この防具を着用している間、君は、たとえ視覚ではない明瞭な感覚、例えばバットの反響定位を用いる者相手を含めた、全てのクリーチャーに対する視認困難を得る。君の場所を明確にしたままの効果についての通常のルール通り、君はこの視認困難を「隠れる」や「忍び歩き」に使うことは出来ない。君が敵対的な行動を取った際、視認困難は、君が操作特性を持つ単発アクションによってカバーを復元するまで終了したままになる。</li>\n<li><strong>完全防御(パワースーツのみ):</strong> 君は防具に、致命的な攻撃が急所を逸らすほどの重厚な防護力増強を施す。君がこの防具を着用している間にクリティカル・ヒットされるごとに、DC13の<span data-pf2-check=\"flat\" data-pf2-dc=\"13\" data-pf2-show-dc=\"owner\">平目判定</span>を試みる。成功した際、それは通常の命中になる。これは、平目判定でクリティカル・ヒットをなくすフォーティフィケーション・ルーンやその他の能力とは累積しない。更に、君は精密ダメージに対して2＋レベルの半分に等しい抵抗を得る。</li>\n<li><strong>物理的防御:</strong> 君の防具には多くの調整箇所と予防策がされており、全ての物理ダメージから身を守ってくれる。この防具を着用している間、君は全ての物理ダメージに対して（殴打、刺突、斬撃、継続出血ダメージ）レベルの半分に等しい抵抗を得る。君は、この改造を選ぶために、密集装甲、多層メッシュあるいは伸張吸収を持っていなくてはならない。</li>\n<li><strong>ルーン適性:</strong> オリハルコン合金に手を出したにせよ、別の工学的解決方法を見いだしたにせよ、君は追加の属性ルーンを持たせるように発明を作り込んだ。君の発明はその種別の通常のアイテムに比べて1つ多くの属性ルーンを持つことが出来る（+3発現防具の場合の最大4つの属性ルーンまで）</li>\n</ul>\n<h3>革新的人造改造</h3>\n<ul>\n<li><strong>飛行機構:</strong> 君は人造に、回転翼や翼の追加、軽量化などを施し、飛行手段を備える。君の発明は25フィートの飛行速度を得る。</li>\n<li><strong>奇跡的装備:</strong> 君が発明の外層を完成させたため、人造はより知能を高めた。その知力修正値は2上昇し、君が知る言語から任意に選んだ1つの言語を学ぶ。君の人造は、「強制」や「暗号の解読」といった高い知能を必要とするアクションを使うことが出来るようになる。最後に、君の人造は2つの任意の知力あるいは魅力に基づいた技能に伝説になる。君はこの改造を選ぶために、最高の装備を持っていなくてはならない。</li>\n<li><strong>耐久装甲:</strong> 君の発明は、いかなる手段によってもダメージをあまり受けない。人造は全てのダメージに5点の抵抗を得る（アダマンティンを除く）</li>\n<li><strong>ルーン要石:</strong> 君は発明にルーンストーンに似た装置を組み込み、武器や防具ではないにも関わらず、属性ルーンを持てるようにした。防具属性ルーンは、まるで人造が防具の着用者であるかのように発明そのものに作用する。武器属性ルーンは、通常、武器に与える属性の全てを君の発明の素手打撃に当てるが、通常通りの条件に従う（例えば、ヴォーパル・ルーンは斬撃近接素手打撃にのみ適用される）。もし、ルーンが遠隔攻撃にのみ影響するのなら、君の発明に組み込まれた遠隔攻撃がなければ効果を持たない（例えば、発射装置の初期改造など）。もし、このルーンが武器や防具の物理的形状や外見そのものに影響を与えるものであれば（グラマードなど）、ルーンは人造に刻んでも何の効果も無い。</li>\n<li><strong>ウォール陣形:</strong> 君の発明は移動可能な人造から、据え置き型の戦場の砲座に変態することが出来る。操作特性を持つ2アクションの連続行動として、通常の形態から薄い、金属の直立した、高さ10フィート長さ30フィートの壁に形態を変える。この壁は君の発明の元々の接敵面を含んでいなければならない。君の人造が壁である間、元に戻るための同じ連続行動を使うこと意外にアクションを取ることは出来ず、簡単には自分を守ることはできないため、@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{立ちすくみ}状態になり、更にそのACに－2ステータス・ペナルティを受ける。この壁は、君の発明が最大ヒット・ポイントの半分以下でない限り、視線と効果線を遮る。ヒット・ポイントが半分を下回ると、壁に穴が空いてクリーチャーは見通すことが出来るようになり、遮蔽ありでの攻撃を許し、超小型のクリーチャーはそれをすり抜けることが出来る。</li>\n</ul>\n<h3>革新的武器改造</h3>\n<ul>\n<li><strong>攻撃精密化:</strong> 君の武器は攻撃に失敗するごとに綿密な再計算を行い、次の攻撃が当たるようにする。君の発明は、返し刀と押しやりの特性を得る。</li>\n<li><strong>致命的打撃:</strong> T精緻な計算を通じて、君は武器の完全な形状を未つけだし、急所に入った際に甚大なダメージを与える。君の発明は致命的d8の特性を得る。君の発明が既に致命的であれば、その致命的ダイスはd8ではなく、d12に増える。</li>\n<li><strong>ダメージ強化:</strong> 君は自分の発明を、その種別の他の武器よりも強力にする。発明の武器ダメージ・ダイスを1段階、増加させる（d4からd6、d6からd8、d8からd10、d10からd12）。通常通り、君は2段階以上、ダイスを増やすことは出来ないため、この改造は単純武器の複雑化とは累積しない。</li>\n<li><strong>伸張可能な武器(近接のみ):</strong> 君は、バランスを変えないまま伸縮するように武器を作る方法を見つけた。君の発明は間合いの特性を得る。既に間合いの特性をこの武器が持っているなら、通常の5フィートではなく、10フィート、間合いを伸ばす。</li>\n<li><strong>有り得ざる合金:</strong> 他の発明家は技術的にそれが不可能だと言っているかもしれないが、君は自分にだけ機能する幾つかの合金を作り出した。これらの合金は、7つのスカイメタルの内、どれかに脆弱な敵にダメージを与えることが出来る。君の発明は7つのスカイメタル全てであるように扱われる（アビシウム、アダマンティン、ジェゼット、イヌブリクス、ノークァル、オリハルコン、シカタイト）これはつまり、君はこういったスカイメタルで作られた武器のその他の効果は得ないものの、様々なクリーチャーに多くのダメージを与えられるようになるということを意味している。</li>\n<li><strong>打撃力強化 (近接のみ):</strong> 特殊な重りによって君の武器は攻撃時に強い勢いを保つことが出来る。君の発明は強烈と可変（殴打）の特性を得る。</li>\n<li><strong>射程延長化(遠隔のみ):</strong> 君はあらゆる距離において、自分の発明が危険で効率よくなるように改造した。君の発明に強弓の特性があるなら、それを取り除く。そうでなければ、君の発明の射程単位を50フィート、あるいは武器の基本射程単位に等しい量の、どちらか多い数量だけ増やす。</li>\n<li><strong>ルーン適性:</strong> オリハルコン合金に手を出したにせよ、別の工学的解決方法を見いだしたにせよ、君は追加の属性ルーンを持たせるように発明を作り込んだ。君の発明はその種別の通常のアイテムに比べて1つ多くの属性ルーンを持つことが出来る（+3発現武器の場合の最大4つの属性ルーンまで）</li>\n</ul>"
 		},
 		{
 			"id": "Incredible Movement",
@@ -2325,16 +2175,6 @@
 			"id": "Witch Lessons",
 			"name": "魔女の教え",
 			"description": "<p>守護霊に由来するウィッチの知識は、教えという形になっていて、君はそれを《基本の教え》のような特技を選ぶことによって学ぶことが出来る。それぞれの教えは君に呪術を与え、使い魔に新しい呪文を教え、その新しい呪文を、君はウィッチの呪文発動を用いて準備することが出来る。君は、たとえそれが君の体系の呪文リストになかったとしても、この呪文を得る。</p>\n<p><strong>基本の教え</strong></p>\n<p>君は、特技やその他の効果によって基本の死絵を得た際に、これらの教えから選ぶことが出来る。</p>\n<p><strong>夢の教え:</strong> 君は@Compendium[pf2e.spells-srd.NNoKWiWKqJkdD2ln]{夢のとばり}の呪術を得る。使い魔は@Compendium[pf2e.spells-srd.o4lRVTwSxnOOn5vl]{スリープ}を学ぶ。</p>\n<p><strong>元素の教え:</strong> 君は@Compendium[pf2e.spells-srd.f9uqHnNBMU0774SF]{元素の裏切り}の呪術を得る。使い魔は @Compendium[pf2e.spells-srd.y6rAdMK6EFlV6U0t]{バーニング・ハンズ}、 @Compendium[pf2e.spells-srd.W69zswpj0Trdy5rj]{エア・バブル}、 @Compendium[pf2e.spells-srd.jfVCuOpzC6mUrf6f]{ハイドローリック・プッシュ}、あるいは@Compendium[pf2e.spells-srd.Rn2LkoSq1XhLsODV]{プメリング・ラブル}から君が選んだ呪文を学ぶ。</p>\n<p><strong>命の教え:</strong> 君はCompendium[pf2e.spells-srd.fAlzXtQAASaJx0mY]{生命力増幅}の呪術を得る。使い魔は@Compendium[pf2e.spells-srd.yHujiDQPdtXW797e]{スピリット・リンク}を学ぶ。</p>\n<p><strong>守りの教え:</strong> 君は@Compendium[pf2e.spells-srd.dFejDNEmVj3CwYLL]{血の障壁}の呪術を得る。使い魔は@Compendium[pf2e.spells-srd.aAbfKn8maGjJjk2W]{メイジ・アーマー}を学ぶ。</p>\n<p><strong>復讐の教え:</strong> 君は@Compendium[pf2e.spells-srd.aEitTTb9PnOyidRf]{復讐の針}の呪術を得る。使い魔は@Compendium[pf2e.spells-srd.R8bqnYiThB6MYTxD]{ファントム・ペイン}を学ぶ。</p>\n<p><strong>教え強化</strong></p>\n<p>君は、特技やその他の効果によって教え強化を得た際に、これらの教えから選ぶことが出来る。</p>\n<p><strong>戯れの教え:</strong> 君は@Compendium[pf2e.spells-srd.FrKPwgFxWIGMGgs4]{騙し手の外套}の呪術を得る。使い魔は@Compendium[pf2e.spells-srd.tFKJCPvOQZxKq6ON]{マッド・モンキーズ}を学ぶ。</p>\n<p><strong>影の教え:</strong> 君は@Compendium[pf2e.spells-srd.vhMCd15ZwNJn0zen]{悪意ある影}の呪術を得る。使い魔は@Compendium[pf2e.spells-srd.sRfSBHWHdbIa0aGc]{チリング・ダークネス}を学ぶ。</p>\n<p><strong>雪の教え:</strong> 君は@Compendium[pf2e.spells-srd.g4MAIQodRDVfNp1B]{小さな吹雪}の呪術を得る。使い魔は@Compendium[pf2e.spells-srd.it4ZsAi6XgvGcodc]{ウォール・オヴ・ウィンド}を学ぶ。</p>\n<p><strong>上級の教え</strong></p>\n<p>君は、特技やその他の効果によって上級の教えを得た際に、これらの教えから選ぶことが出来る。</p>\n<p><strong>死の教え:</strong> 君は@Compendium[pf2e.spells-srd.nQS4vPm5zprqkzFZ]{死の呪い}の呪術を得る。使い魔は @Compendium[pf2e.spells-srd.IkGYwHRLhkuoGReG]{レイズ・デッド}を学ぶ。</p>\n<p><strong>新生の教え:</strong> 君は@Compendium[pf2e.spells-srd.pCvJ4yoZJxDtgUMI]{新生の瞬間}の呪術を得る。使い魔は@Compendium[pf2e.spells-srd.x5rGOmhDRDVQPrnW]{フィールド・オヴ・ライフ}を学ぶ。</p>\n<p><strong>氷の女王の教え [レア]</strong>: 君は@Compendium[pf2e.spells-srd.ZyREiMaul0VhDYh3]{氷の心臓}の呪術を得る。使い魔は@Compendium[pf2e.spells-srd.R5FHRv7VqyRnxg2t]{ウォール・オヴ・アイス}を学ぶ。</p>"
-		},
-		{
-			"id": "Magical Fortitude (Level 5)",
-			"name": "魔法の肉体強化 (レベル 5)",
-			"description": "<p><strong>ソーサラー</strong>: 魔法の力が君の肉体の回復力を発展させている。頑健セーヴへの君の習熟ランクは熟練になる。</p>\n<hr />\n<p><strong>ウィッチ</strong>: 君の守護霊が君の肉体の回復力を発展させている。頑健セーヴへの君の習熟ランクは熟練になる。</p>"
-		},
-		{
-			"id": "Magical Fortitude (Level 9)",
-			"name": "魔法の肉体強化 (レベル 9)",
-			"description": "<p>魔法の力が君の肉体の回復力を発展させている。頑健セーヴへの君の習熟ランクは熟練になる。</p>"
 		}
 	]
 }

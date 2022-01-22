@@ -2,11 +2,6 @@
 	"label": "呪文効果",
 	"entries": [
 		{
-			"id": "Effect: Guidance Immunity",
-			"name": "効果: ガイダンスの耐性",
-			"description": "<p>誰かが<em>@Compendium[pf2e.spells-srd.izcxFQFwf3woCnFs]{ガイダンス}</em>を君にかけた際の効果で、持続時間の間、君はこの呪文の効果に一時耐性を持つ。</p>"
-		},
-		{
 			"id": "Effect: Rejuvinating Flames",
 			"name": "Effect: Rejuvinating Flames",
 			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.lZx8jZfKrMEtyGY0]{Rejuvenating Flames}</em></p>\n<p>You create a gout of flame that both heals and burns. You restore 1d4 HP to all allies in the area, and those allies gain a +1 status bonus to Fortitude saves for 1 minute. Enemies in the area take [[/r {1d4}[fire]]]{1d4 fire damage} with a basic Reflex save. Heightened (+1) You restore an additional 1d4 HP to your allies and deal an additional [[/r {1d4}[fire]]]{1d4 fire damage} to enemies.</p>"
@@ -92,19 +87,14 @@
 			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.NzXpEzcZAjuDTZjK]{Aerial Form}</em>.</p>\n<p>You harness your mastery of primal forces to reshape your body into a Medium flying animal battle form. You can decide the specific type of animal (such as an owl or eagle for bird), but this has no effect on the form's Size or statistics. While in this form, you gain the animal trait. You can Dismiss the spell.</p>\n<p>You gain the following statistics and abilities regardless of which battle form you choose:</p>\n<ul>\n<li>AC = 18 + your level. Ignore your armor's check penalty and Speed reduction.</li>\n<li>5 temporary Hit Points.</li>\n<li>Low-light vision.</li>\n<li>One or more unarmed melee attacks specific to the battle form you choose, which are the only attacks you can use. You're trained with them. Your attack modifier is +16, and your damage bonus is +5. These attacks are Dexterity based (for the purpose of the @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy} condition, for example). If your attack modifier for Dexterity-based unarmed attacks is higher, you can use it instead.</li>\n<li>Acrobatics modifier of +16, unless your own modifier is higher.</li>\n</ul>\n<p>You also gain specific abilities based on the form you choose:</p>\n<ul>\n<li><strong>Wasp</strong>\n<ul>\n<li>Speed 20 feet, fly Speed 40 feet;</li>\n<li><strong>Melee</strong> <span class=\"pf2-icon\">1</span> stinger, <strong>Damage</strong> 1d8 piercing plus [[/r 1d6 #persistent poison]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Poison Damage}.</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p><strong>Heightened (5th)</strong> Your battle form is Large and your fly Speed gains a +10-foot status bonus. You must have enough space to expand into or the spell is lost. You instead gain 10 temporary HP, attack modifier +18, damage bonus +8, and Acrobatics +20.</p>\n<p><strong>Heightened (6th)</strong> Your battle form is Huge, your fly Speed gains a +15-foot status bonus, and your attacks have 10-foot reach. You must have enough space to expand into or the spell is lost. You instead gain AC = 21 + your level, 15 temporary HP, attack modifier +21, damage bonus +4 and double damage dice (including @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Damage}), and Acrobatics +23.</p>\n<hr />\n<p><em>Note: To heighten this effect, import it into your Item Directory and edit the level before adding it to the target</em></p>"
 		},
 		{
-			"id": "Spell Effect: Agile Feet",
-			"name": "呪文効果: 俊敏なる足",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.cOjlzWerBwbPWVkX]{俊敏なる足}</em>による効果。</p>\n<p>君は移動速度に+5フィートのステータス・ボーナスを得る。</p>"
-		},
-		{
 			"id": "Spell Effect: Amplifying Touch",
 			"name": "Spell Effect: Amplifying Touch",
 			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.zNN9212H2FGfM7VS]{Lay on Hands}</em> if you have @Compendium[pf2e.feats-srd.Cy5W8U4yN9P1EvBy]{Amplifying Touch}.</p>\n<p>If the target is one of your allies, they also gain a +2 status bonus to AC, a +1 status bonus to their attack rolls and deals 1 additional good damage on all their strikes until the end of their next turn.</p>"
 		},
 		{
 			"id": "Spell Effect: Ancestral Form",
-			"name": "Spell Effect: Ancestral Form",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.xEjGEBvTfDJECSki]{Ancestral Form}</em></p>\n<p>You take the form of your ancestral spirits, becoming @Compendium[pf2e.conditionitems.zJxUflt9np0q4yML]{Invisible} and quasi‑corporeal. You gain resistance 10 to all damage (except force and damage from Strikes with the ghost touch property rune), and this resistance is doubled against non‑magical and precision damage.</p>\n<p>You gain a fly Speed equal to your land Speed; when @Compendium[pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Flying}, moving upward isn't difficult terrain for you. You can't move through solid objects, but you can float through tiny gaps.</p>\n<p>You can't Cast Spells (but you can @Compendium[pf2e.actionspf2e.3f5DMFu8fPiqHpRg]{Sustain a Spell}), activate items, or use actions that have the attack or manipulate trait.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The resistance increasse by 5.</p>"
+			"name": "呪文効果: 先祖の姿",
+			"description": "<p>君は先祖の霊魂の形をとり、@Compendium[pf2e.conditionitems.zJxUflt9np0q4yML]{不可視状態}かつ疑似的な実体となる。君は全てのダメージ（力場とゴースト・タッチの属性ルーンを持つ「打撃」以外からの）に10点の抵抗を持ち、この抵抗は魔法のものではない武器と精密ダメージに対して倍になる。</p>\n<p>君は地上速度に等しい飛行速度を得る；@Compendium[pf2e.actionspf2e.cS9nfDRGD83bNU1p]{「飛行」}している際、上方向に移動するのは君にとって移動困難な地形ではない。君は個体の物体を通り抜けて移動することが出来るが、小さな隙間に浮かび上がることが出来る。</p>\n<p>君は「呪文の発動」（@Compendium[pf2e.actionspf2e.3f5DMFu8fPiqHpRg]{「呪文の維持」}はすることが出来る）、アイテムの起動、あるいは攻撃、操作の特性を持つアクションを使うことが出来ない。</p>\n<hr />\n<p><strong>増強（+2）</strong> 抵抗は5上昇する</p>"
 		},
 		{
 			"id": "Spell Effect: Angel Form (Balisse)",
@@ -130,36 +120,6 @@
 			"id": "Spell Effect: Angelic Wings",
 			"name": "Spell Effect: Angelic Wings",
 			"description": "<p>Granted by casting <em>@Compendium[pf2e.spells-srd.kRsmUlSWhi6PJvZ7]{Angelic Wings}</em></p>"
-		},
-		{
-			"id": "Spell Effect: Animal Feature (Cat Eyes)",
-			"name": "呪文効果: 動物の特徴取得 (猫の目)",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.vGEgI8e7AW6FQ3tP]{動物の特徴取得}</em>による効果。</p>\n<p>君は夜目を得る。</p>"
-		},
-		{
-			"id": "Spell Effect: Animal Feature (Claws)",
-			"name": "呪文効果: 動物の特徴取得 (爪)",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.vGEgI8e7AW6FQ3tP]{動物の特徴取得}</em>による効果。</p>\n<p>君は[[/r {1d6}[斬撃]]]{1d6 斬撃ダメージ}を与え、機敏、巧技、そして素手の特性を持つ爪の攻撃を得る。</p>"
-		},
-		{
-			"id": "Spell Effect: Animal Feature (Fish Tail)",
-			"name": "呪文効果: 動物の特徴取得 (魚の尾)",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.vGEgI8e7AW6FQ3tP]{動物の特徴取得}</em>による効果。</p>\n<p>君は地上速度に等しい水泳速度を得る</p>"
-		},
-		{
-			"id": "Spell Effect: Animal Feature (Jaws)",
-			"name": "呪文効果: 動物の特徴取得 (顎)",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.vGEgI8e7AW6FQ3tP]{動物の特徴取得}</em>による効果。</p>\n<p>君は[[/r {1d8}[刺突]]]{1d8 刺突ダメージ}を与え、素手の特性を持つ顎の攻撃を得る。</p>"
-		},
-		{
-			"id": "Spell Effect: Animal Feature (Owl Eyes)",
-			"name": "呪文効果: 動物の特徴取得 (梟の目)",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.vGEgI8e7AW6FQ3tP]{動物の特徴取得}</em>による効果。</p>\n<p>君は暗視を得る</p>"
-		},
-		{
-			"id": "Spell Effect: Animal Feature (Wings)",
-			"name": "呪文効果: 動物の特徴取得 (翼)",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.vGEgI8e7AW6FQ3tP]{動物の特徴取得}</em>による効果。</p>\n<p>君は地上速度に等しい飛行速度を得る</p>"
 		},
 		{
 			"id": "Spell Effect: Animal Form (Ape)",
@@ -218,23 +178,13 @@
 		},
 		{
 			"id": "Spell Effect: Armor of Bones",
-			"name": "Spell Effect: Armor of Bones",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.pSNLufPPsReKQtJR]{Armor of Bones}</em></p>"
-		},
-		{
-			"id": "Spell Effect: Athletic Rush",
-			"name": "呪文効果: 軽業の匠",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.UGJzJRJDoonfWqqI]{《軽業の匠》}</em>による効果。</p>\n<p>君は移動速度に+10フィートのステータス・ボーナスと〈軽業〉判定に+2ステータス・ボーナスを得る。</p>"
+			"name": "呪文効果: 骨の鎧",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.pSNLufPPsReKQtJR]{骨の鎧}</em>による効果。</p>"
 		},
 		{
 			"id": "Spell Effect: Augment Summoning",
-			"name": "Spell Effect: Augment Summoning",
-			"description": "<p>Granted by casting <em>@Compendium[pf2e.spells-srd.tWzxuJdbXqvskdIo]{Augment Summoning}</em></p>"
-		},
-		{
-			"id": "Spell Effect: Bane",
-			"name": "呪文効果: ベイン",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.7ZinJNzxq0XF0oMx]{ベイン}</em>による効果。</p>\n<p>疑念が君の精神を満たす。君はベインの範囲にいる限り、攻撃ロールに－1ステータス・ペナルティを受ける。</p>"
+			"name": "呪文効果: 招来クリーチャー強化",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.tWzxuJdbXqvskdIo]{招来クリーチャー強化}</em>による効果。</p>"
 		},
 		{
 			"id": "Spell Effect: Barkskin",
@@ -255,11 +205,6 @@
 			"id": "Spell Effect: Bestial Curse (Failure)",
 			"name": "Spell Effect: Bestial Curse (Failure)",
 			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.VuPDHoVEPLbMfCJC]{Bestial Curse}</em></p>\n<p>The creature gains weakness 1 to silver.</p>"
-		},
-		{
-			"id": "Spell Effect: Bless",
-			"name": "呪文効果: ブレス",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.XSujb7EsSwKl19Uu]{ブレス}</em>による効果。</p>\n<p>遠くからの祝福が君の攻撃を命中させてくれる。君は攻撃ロールに+1ステータス・ボーナスを得る。</p>"
 		},
 		{
 			"id": "Spell Effect: Blessing of Defiance (2 Action Fortitude)",
@@ -303,8 +248,8 @@
 		},
 		{
 			"id": "Spell Effect: Blood Ward",
-			"name": "Spell Effect: Blood Ward",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.dFejDNEmVj3CwYLL]{Blood Ward}</em></p>"
+			"name": "呪文効果: 血の障壁",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.dFejDNEmVj3CwYLL]{血の障壁}</em>による効果。</p>"
 		},
 		{
 			"id": "Spell Effect: Blunt the Final Blade (Critical Success)",
@@ -313,23 +258,23 @@
 		},
 		{
 			"id": "Spell Effect: Boost Eidolon (1 Die)",
-			"name": "Spell Effect: Boost Eidolon (1 Die)",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.HStu2Yhw3iQER9tY]{Boost Eidolon}</em></p>\n<p>You focus deeply on the link between you and your eidolon and boost the power of your eidolon's attacks. Your eidolon gains a +2 status bonus to damage rolls with its unarmed attacks. If your eidolon's Strikes deal more than one weapon damage die, the status bonus increases to 2 per weapon damage die, to a maximum of +8 with four weapon damage dice.</p>"
+			"name": "呪文効果: 幻獣増幅 (1ダイス)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.HStu2Yhw3iQER9tY]{幻獣増幅}</em>による効果。</p>\n<p>君は自分と幻獣の間のつながりに深く集中し、幻獣の攻撃の力を増幅させる。幻獣は素手打撃でのダメージ・ロールに+2ステータス・ボーナスを得る。もし、幻獣が2つ以上の武器ダメージダイスを与えるのなら、このステータス・ボーナスは武器ダメージダイスごとに2点増え、最大で4つの武器ダメージダイスの時に+8点になる。</p>"
 		},
 		{
 			"id": "Spell Effect: Boost Eidolon (2 Dice)",
-			"name": "Spell Effect: Boost Eidolon (2 Dice)",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.HStu2Yhw3iQER9tY]{Boost Eidolon}</em></p>\n<p>You focus deeply on the link between you and your eidolon and boost the power of your eidolon's attacks. Your eidolon gains a +2 status bonus to damage rolls with its unarmed attacks. If your eidolon's Strikes deal more than one weapon damage die, the status bonus increases to 2 per weapon damage die, to a maximum of +8 with four weapon damage dice.</p>"
+			"name": "呪文効果: 幻獣増幅 (2ダイス)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.HStu2Yhw3iQER9tY]{幻獣増幅}</em>による効果。</p>\n<p>君は自分と幻獣の間のつながりに深く集中し、幻獣の攻撃の力を増幅させる。幻獣は素手打撃でのダメージ・ロールに+2ステータス・ボーナスを得る。もし、幻獣が2つ以上の武器ダメージダイスを与えるのなら、このステータス・ボーナスは武器ダメージダイスごとに2点増え、最大で4つの武器ダメージダイスの時に+8点になる。</p>"
 		},
 		{
 			"id": "Spell Effect: Boost Eidolon (3 Dice)",
-			"name": "Spell Effect: Boost Eidolon (3 Dice)",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.HStu2Yhw3iQER9tY]{Boost Eidolon}</em></p>\n<p>You focus deeply on the link between you and your eidolon and boost the power of your eidolon's attacks. Your eidolon gains a +2 status bonus to damage rolls with its unarmed attacks. If your eidolon's Strikes deal more than one weapon damage die, the status bonus increases to 2 per weapon damage die, to a maximum of +8 with four weapon damage dice.</p>"
+			"name": "呪文効果: 幻獣増幅 (3ダイス)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.HStu2Yhw3iQER9tY]{幻獣増幅}</em>による効果。</p>\n<p>君は自分と幻獣の間のつながりに深く集中し、幻獣の攻撃の力を増幅させる。幻獣は素手打撃でのダメージ・ロールに+2ステータス・ボーナスを得る。もし、幻獣が2つ以上の武器ダメージダイスを与えるのなら、このステータス・ボーナスは武器ダメージダイスごとに2点増え、最大で4つの武器ダメージダイスの時に+8点になる。</p>"
 		},
 		{
 			"id": "Spell Effect: Boost Eidolon (4 Dice)",
-			"name": "Spell Effect: Boost Eidolon (4 Dice)",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.HStu2Yhw3iQER9tY]{Boost Eidolon}</em></p>\n<p>You focus deeply on the link between you and your eidolon and boost the power of your eidolon's attacks. Your eidolon gains a +2 status bonus to damage rolls with its unarmed attacks. If your eidolon's Strikes deal more than one weapon damage die, the status bonus increases to 2 per weapon damage die, to a maximum of +8 with four weapon damage dice.</p>"
+			"name": "呪文効果: 幻獣増幅 (4ダイス)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.HStu2Yhw3iQER9tY]{幻獣増幅}</em>による効果。</p>\n<p>君は自分と幻獣の間のつながりに深く集中し、幻獣の攻撃の力を増幅させる。幻獣は素手打撃でのダメージ・ロールに+2ステータス・ボーナスを得る。もし、幻獣が2つ以上の武器ダメージダイスを与えるのなら、このステータス・ボーナスは武器ダメージダイスごとに2点増え、最大で4つの武器ダメージダイスの時に+8点になる。</p>"
 		},
 		{
 			"id": "Spell Effect: Bottle the Storm",
@@ -343,8 +288,8 @@
 		},
 		{
 			"id": "Spell Effect: Call to Arms",
-			"name": "Spell Effect: Call to Arms",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.dqaCLzINHBiKjh4J]{Call to Arms}</em>.</p>"
+			"name": "呪文効果: 軍勢への呼び声",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.dqaCLzINHBiKjh4J]{軍勢への呼び声}</em>による効果。</p>"
 		},
 		{
 			"id": "Spell Effect: Celestial Brand",
@@ -380,11 +325,6 @@
 			"id": "Spell Effect: Community Repair (Critical Success)",
 			"name": "Spell Effect: Community Repair (Critical Success)",
 			"description": "<p><strong>Critical Success</strong> The public work is restored to its prior construction, and it takes on further qualities, encouraged by the thoughts of the community. For the next week, while a caster is within 60 feet of the site of the ritual, they receive a +1 status bonus to Will saves against emotion effects and a +10-foot status bonus to their Speeds.</p>"
-		},
-		{
-			"id": "Spell Effect: Competitive Edge",
-			"name": "呪文効果: 競争心の刃",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.NOB92Wpn7jXvtyVW]{競争心の刃}</em>による効果。</p>\n<p>君は攻撃ロールと技能判定に+1ステータス・ボーナスを得る。もし20フィート以内の敵1体が攻撃ロールあるいは技能判定にクリティカルしたなら、君の攻撃ロールあるいはその特定の技能判定（敵がクリティカルしたもの）へのステータス・ボーナスは、1ラウンド、+3へと上昇する。</p>\n<hr />\n<p><strong>増強（7レベル）</strong> 基礎ボーナスを+2に増加させ、敵がクリティカルした後の上昇値を+4へと増加させる。</p>"
 		},
 		{
 			"id": "Spell Effect: Corrosive Body",
@@ -518,23 +458,18 @@
 		},
 		{
 			"id": "Spell Effect: Discern Secrets (Recall Knowledge)",
-			"name": "Spell Effect: Discern Secrets (Recall Knowledge)",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.UmXhuKrYZR3W16mQ]{Discern Secrets}</em>, if you pick Recall Knowledge.</p>"
+			"name": "呪文効果: 神秘開陳 (知識を思い出す)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.UmXhuKrYZR3W16mQ]{神秘開陳}</em>による効果。君が「知識を思い出す」を選んだ場合。</p>"
 		},
 		{
 			"id": "Spell Effect: Discern Secrets (Seek)",
-			"name": "Spell Effect: Discern Secrets (Seek)",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.UmXhuKrYZR3W16mQ]{Discern Secrets}</em>, if you pick Seek.</p>"
+			"name": "呪文効果: 神秘開陳 (捜す)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.UmXhuKrYZR3W16mQ]{神秘開陳}</em>による効果。君が「捜す」を選んだ場合。</p>"
 		},
 		{
 			"id": "Spell Effect: Discern Secrets (Sense Motive)",
-			"name": "Spell Effect: Discern Secrets (Sense Motive)",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.UmXhuKrYZR3W16mQ]{Discern Secrets}</em>, if you pick Sense Motive.</p>"
-		},
-		{
-			"id": "Spell Effect: Disrupting Weapons",
-			"name": "呪文効果: ディスラプティング・ウェポンズ",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.2iQKhCQBijhj5Rf3]{ディスラプティング・ウェポンズ}</em>による効果。</p>\n<p>君は武器に正のエネルギーを注ぎ込む。これらの武器での攻撃はアンデッドに1d4の正のエネルギーダメージを与える。</p>\n<hr />\n<p><strong>増強（3レベル）</strong> このダメージは2d4へと増加する</p>\n<p><strong>増強（5レベル）</strong> 3つまでの武器を対象として、ダメージは3d4へと増加する</p>"
+			"name": "呪文効果: 神秘開陳 (真意看破)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.UmXhuKrYZR3W16mQ]{神秘開陳}</em>による効果。君が「真意看破」を選んだ場合。</p>"
 		},
 		{
 			"id": "Spell Effect: Divine Vessel (Chaotic)",
@@ -575,11 +510,6 @@
 			"id": "Spell Effect: Divine Vessel 9th level (Lawful)",
 			"name": "Spell Effect: Divine Vessel 9th level (Lawful)",
 			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.hiVL8qsnTJtpouw0]{Divine Vessel}</em></p>\n<p>You accept otherworldly energies into your body; while you are still recognizably yourself, you gain the features of one of your deity's servitors. Choose an alignment your deity has (chaotic, evil, good, or lawful). You can't cast this spell if you don't have a deity or your deity is true neutral. This spell gains the trait of the alignment you chose.</p>\n<p>If you were Medium or smaller, you become Large, as the effects of <em>@Compendium[pf2e.spells-srd.wzctak6BxOW8xvFV]{Enlarge}</em>. You must have space to expand into, or the spell is lost. You also gain the following benefits.</p>\n<ul>\n<li>40 temporary Hit Points.</li>\n<li>A fly Speed equal to your Speed.</li>\n<li>Weakness 10 to chaotic.</li>\n<li>A +1 status bonus to saves against spells.</li>\n<li>Darkvision.</li>\n<li>Your unarmed attacks and weapons deal 1 additional lawful damage.</li>\n<li>Your fist attacks deal 2d8 damage.</li>\n</ul>\n<hr />\n<p><em>Note: The weakness to chaotic damage cannot be automated at present. Please make sure to apply the weakness manually.</em></p>"
-		},
-		{
-			"id": "Spell Effect: Downpour",
-			"name": "呪文効果:豪雨",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.K4LXpaBWrGy6jIER]{豪雨}</em>による効果。</p>"
 		},
 		{
 			"id": "Spell Effect: Dragon Claw (Acid)",
@@ -813,28 +743,28 @@
 		},
 		{
 			"id": "Spell Effect: Enduring Might",
-			"name": "Spell Effect: Enduring Might",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.eG1fBodYwolaXK98]{Enduring Might}</em></p>"
+			"name": "呪文効果: 耐え忍ぶ筋力",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.eG1fBodYwolaXK98]{耐え忍ぶ筋力}</em>による効果。</p>"
 		},
 		{
 			"id": "Spell Effect: Energy Absorption (Acid)",
-			"name": "Spell Effect: Energy Absorption (Acid)",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.LoBjvguamA12iyW0]{Energy Absorption}</em></p>"
+			"name": "呪文効果: エネルギー吸収 (強酸)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.LoBjvguamA12iyW0]{エネルギー吸収}</em>による効果。</p>"
 		},
 		{
 			"id": "Spell Effect: Energy Absorption (Cold)",
-			"name": "Spell Effect: Energy Absorption (Cold)",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.LoBjvguamA12iyW0]{Energy Absorption}</em></p>"
+			"name": "呪文効果: エネルギー吸収 (氷雪)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.LoBjvguamA12iyW0]{エネルギー吸収}</em>による効果。</p>"
 		},
 		{
 			"id": "Spell Effect: Energy Absorption (Electricity)",
-			"name": "Spell Effect: Energy Absorption (Electricity)",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.LoBjvguamA12iyW0]{Energy Absorption}</em></p>"
+			"name": "呪文効果: エネルギー吸収 (電撃)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.LoBjvguamA12iyW0]{エネルギー吸収}</em>による効果。</p>"
 		},
 		{
 			"id": "Spell Effect: Energy Absorption (Fire)",
-			"name": "Spell Effect: Energy Absorption (Fire)",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.LoBjvguamA12iyW0]{Energy Absorption}</em></p>"
+			"name": "呪文効果: エネルギー吸収 (火炎)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.LoBjvguamA12iyW0]{エネルギー吸収}</em>による効果。</p>"
 		},
 		{
 			"id": "Spell Effect: Energy Aegis",
@@ -858,43 +788,43 @@
 		},
 		{
 			"id": "Spell Effect: Evolution Surge (Amphibious)",
-			"name": "Spell Effect: Evolution Surge (Amphibious)",
-			"description": "<p>You flood your eidolon with power, creating a temporary evolution in your eidolon's capabilities. Choose one of the following effects:</p>\n<ul>\n<li>Your eidolon can breathe underwater and gains a swim Speed equal to its land Speed or 30 feet, whichever is less. Alternatively, if your eidolon is normally aquatic, it can breathe air and gains a land Speed equal to its swim Speed or 30 feet, whichever is less. Either way, it gains the amphibious trait.</li>\n</ul>"
+			"name": "呪文効果: 進化のうねり (水陸両棲)",
+			"description": "<p>君は自分の幻獣に力を溢れさせ、幻獣の能力に一時的な進化をもたらす。下記の効果から1つを選ぶこと：</p>\n<ul>\n<li>君の幻獣は水中で呼吸することが出来て、地上速度に等しいか、30フィートか、少ない方に等しい水泳速度を得る。代わりに、もし君の幻獣が通常は水棲なら、水泳速度に等しいか、30フィートか、少ない方に等しい陸上速度を得る。いずれにせよ、君の幻獣は水陸両棲の特性を得る。</li>\n</ul>"
 		},
 		{
 			"id": "Spell Effect: Evolution Surge (Climb)",
-			"name": "Spell Effect: Evolution Surge (Climb)",
-			"description": "<p>You flood your eidolon with power, creating a temporary evolution in your eidolon's capabilities. Choose one of the following effects:</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> Add the following options to the list of effects you can choose:</p>\n<ul>\n<li>Your eidolon gains a climb Speed equal to its land Speed.</li>\n</ul>"
+			"name": "呪文効果: 進化のうねり (登攀)",
+			"description": "<p>君は自分の幻獣に力を溢れさせ、幻獣の能力に一時的な進化をもたらす。下記の効果から1つを選ぶこと：</p>\n<hr />\n<p><strong>増強（3レベル）</strong> 君が選ぶことが出来る効果の選択肢に以下を加える。</p>\n<ul>\n<li>君の幻獣は地上速度に等しい登攀速度を得る。</li>\n</ul>"
 		},
 		{
 			"id": "Spell Effect: Evolution Surge (Fly)",
-			"name": "Spell Effect: Evolution Surge (Fly)",
-			"description": "<p>You flood your eidolon with power, creating a temporary evolution in your eidolon's capabilities. Choose one of the following effects:</p>\n<hr />\n<p><strong>Heightened (5th)</strong> Add the options from the 3rd-level version and the following options to the list of effects you can choose:</p>\n<ul>\n<li>Your eidolon gains a fly Speed equal to its Speed.</li>\n</ul>"
+			"name": "呪文効果: 進化のうねり (飛行)",
+			"description": "<p>君は自分の幻獣に力を溢れさせ、幻獣の能力に一時的な進化をもたらす。下記の効果から1つを選ぶこと：</p>\n<hr />\n<p><strong>増強（5レベル）</strong> 君が選ぶことが出来る効果の選択肢に、3レベルバージョンの選択肢に更に以下を加える。</p>\n<ul>\n<li>君の幻獣は速度に等しい飛行速度を得る</li>\n</ul>"
 		},
 		{
 			"id": "Spell Effect: Evolution Surge (Huge)",
-			"name": "Spell Effect: Evolution Surge (Huge)",
-			"description": "<p>You flood your eidolon with power, creating a temporary evolution in your eidolon's capabilities. Choose one of the following effects:</p>\n<hr />\n<p><strong>Heightened (5th)</strong> Add the options from the 3rd-level version and the following options to the list of effects you can choose:</p>\n<ul>\n<li>Your eidolon becomes Huge, instead of its previous size. This increases your eidolon's reach to 15 feet but doesn't change any other statistics for your eidolon. Because of the special link you share, you can ride your eidolon without getting in each other's way. If another creature tries to ride your eidolon, both you and the riding creature each regain only 2 actions at the start of your turns each round, as normal.</li>\n</ul>"
+			"name": "呪文効果: 進化のうねり (超大型)",
+			"description": "<p>君は自分の幻獣に力を溢れさせ、幻獣の能力に一時的な進化をもたらす。下記の効果から1つを選ぶこと：</p>\n<hr />\n<p><strong>増強（5レベル）</strong> 君が選ぶことが出来る効果の選択肢に、3レベルバージョンの選択肢に更に以下を加える。</p>\n<ul>\n<li>君の幻獣は以前のサイズではなく、超大型になる。これは3レベルバージョンの大型の選択肢と同じ効果だが、幻獣の間合いは15フィートになる。君達が共有している特殊な繋がりのため、君は互いに干渉せずに幻獣に騎乗することが出来る。別のクリーチャーが幻獣に騎乗しようとするなら、君と騎乗しているクリーチャーはそれぞれ、通常通り、手番の開始時に2アクションしか持つことが出来ない。</li>\n</ul>"
 		},
 		{
 			"id": "Spell Effect: Evolution Surge (Large)",
-			"name": "Spell Effect: Evolution Surge (Large)",
-			"description": "<p>You flood your eidolon with power, creating a temporary evolution in your eidolon's capabilities. Choose one of the following effects:</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> Add the following options to the list of effects you can choose:</p>\n<ul>\n<li>Your eidolon becomes Large, instead of its previous size. This increases your eidolon's reach to 10 feet but doesn't change any other statistics for your eidolon. Because of the special link you share, you can ride your eidolon without getting in each other's way. If another creature tries to ride your eidolon, both you and the riding creature each regain only 2 actions at the start of your turns each round, as normal.</li>\n</ul>"
+			"name": "呪文効果: 進化のうねり (大型)",
+			"description": "<p>君は自分の幻獣に力を溢れさせ、幻獣の能力に一時的な進化をもたらす。下記の効果から1つを選ぶこと：</p>\n<hr />\n<p><strong>増強（3レベル）</strong> 君が選ぶことが出来る効果の選択肢に以下を加える。</p>\n<ul>\n<li>幻獣はかつてのサイズではなく、大型になる。これによって幻獣の間合いは10フィートになるが、他のステータスは何も変更しない。君達が共有している特殊な繋がりのため、君は互いに干渉せずに幻獣に騎乗することが出来る。別のクリーチャーが幻獣に騎乗しようとするなら、君と騎乗しているクリーチャーはそれぞれ、通常通り、手番の開始時に2アクションしか持つことが出来ない。</li>\n</ul>"
 		},
 		{
 			"id": "Spell Effect: Evolution Surge (Scent)",
-			"name": "Spell Effect: Evolution Surge (Scent)",
-			"description": "<p>You flood your eidolon with power, creating a temporary evolution in your eidolon's capabilities. Choose one of the following effects:</p>\n<ul>\n<li>Your eidolon gains @Compendium[pf2e.bestiary-ability-glossary-srd.rqfnQ5VHT5hxm25r]{Scent} as an imprecise sense up to 30 feet.</li>\n</ul>"
+			"name": "呪文効果: 進化のうねり (嗅覚)",
+			"description": "<p>君は自分の幻獣に力を溢れさせ、幻獣の能力に一時的な進化をもたらす。下記の効果から1つを選ぶこと：</p>\n<ul>\n<li>君の幻獣は30フィートまでの不明瞭な感覚として@Compendium[pf2e.bestiary-ability-glossary-srd.rqfnQ5VHT5hxm25r]{嗅覚}を得る</li>\n</ul>"
 		},
 		{
 			"id": "Spell Effect: Evolution Surge (Sight)",
-			"name": "Spell Effect: Evolution Surge (Sight)",
-			"description": "<p>You flood your eidolon with power, creating a temporary evolution in your eidolon's capabilities. Choose one of the following effects:</p>\n<ul>\n<li>Your eidolon gains @Compendium[pf2e.ancestryfeatures.DRtaqOHXTRtGRIUT]{Low-Light Vision} and @Compendium[pf2e.ancestryfeatures.HHVQDp61ehcpdiU8]{Darkvision}.</li>\n</ul>"
+			"name": "呪文効果: 進化のうねり (視覚)",
+			"description": "<p>君は自分の幻獣に力を溢れさせ、幻獣の能力に一時的な進化をもたらす。下記の効果から1つを選ぶこと：</p>\n<ul>\n<li>君の幻獣は@Compendium[pf2e.ancestryfeatures.DRtaqOHXTRtGRIUT]{夜目}と@Compendium[pf2e.ancestryfeatures.HHVQDp61ehcpdiU8]{暗視}を得る</li>\n</ul>"
 		},
 		{
 			"id": "Spell Effect: Evolution Surge (Speed)",
-			"name": "Spell Effect: Evolution Surge (Speed)",
-			"description": "<p>You flood your eidolon with power, creating a temporary evolution in your eidolon's capabilities. Choose one of the following effects:</p>\n<ul>\n<li>Your eidolon gains a +20-foot status bonus to its Speed.</li>\n</ul>"
+			"name": "呪文効果: 進化のうねり (速度)",
+			"description": "<p>君は自分の幻獣に力を溢れさせ、幻獣の能力に一時的な進化をもたらす。下記の効果から1つを選ぶこと：</p>\n<ul>\n<li>幻獣は速度に+20フィートのステータス・ボーナスを得る</li>\n</ul>"
 		},
 		{
 			"id": "Spell Effect: Extract Poison",
@@ -903,8 +833,8 @@
 		},
 		{
 			"id": "Spell Effect: Face in the Crowd",
-			"name": "Spell Effect: Face in the Crowd",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.yH13KXUK2x093NUv]{Face in the Crowd}</em>.</p>\n<p>You gain a +2 status bonus to Deception and Stealth checks to go unnoticed among the crowd, and you ignore difficult terrain caused by the crowd.</p>"
+			"name": "呪文効果: 群衆の中の一つの顔",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.yH13KXUK2x093NUv]{群衆の中の一つの顔}</em>による効果。</p>\n<p>君は群衆の中で気付かれないための〈欺瞞〉と〈隠密〉判定に+2ステータス・ボーナスを得て、群衆による移動困難な地形を無視する。</p>"
 		},
 		{
 			"id": "Spell Effect: Fey Form (Dryad)",
@@ -948,8 +878,8 @@
 		},
 		{
 			"id": "Spell Effect: Flame Barrier",
-			"name": "Spell Effect: Flame Barrier",
-			"description": "<p>Granted by @Compendium[pf2e.spells-srd.y7Tusv3CieZktkkV]{Flame Barrier}</p>"
+			"name": "呪文効果: 炎の障壁",
+			"description": "<p>@Compendium[pf2e.spells-srd.y7Tusv3CieZktkkV]{炎の障壁}による効果。</p>"
 		},
 		{
 			"id": "Spell Effect: Flame Wisp",
@@ -957,19 +887,9 @@
 			"description": "<p>Three faintly glowing wisps of fire float around your head. Each time you hit a creature with a Strike, one of the wisps goes hurtling towards that creature, dealing 1d4 fire damage. If you Cast a Spell with the fire trait while you have fewer than three wisps, a new wisp appears.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The damage increases by 1d4.</p>"
 		},
 		{
-			"id": "Spell Effect: Fleet Step",
-			"name": "呪文効果: フリート・ステップ",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.aEM2cttJ2eYcLssW]{フリート・ステップ}</em>による効果。</p>\n<p>君は速度に+30フィートのステータス・ボーナスを得る。</p>"
-		},
-		{
 			"id": "Spell Effect: Font of Serenity",
 			"name": "Spell Effect: Font of Serenity",
 			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.yY1H5zhO5dHmD8lz]{Font of Serenity}</em>.</p>\n<p>Allies within the area gain a +1 status bonus to saving throws against emotion effects.</p>\n<hr />\n<p><strong>Heightened (+4)</strong> The bonus increases by 1.</p>"
-		},
-		{
-			"id": "Spell Effect: Forbidding Ward",
-			"name": "呪文効果: フォービディング・ワード",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.RA7VKcen3p56rVyZ]{フォービディング・ワード}</em>による効果。</p>\n<p>君は対象となった敵からの攻撃および敵対的な呪文から守られている。対象となった敵の攻撃、呪文、そのほかの効果に対してアーマー・クラスおよびセーヴィング・スローに+1ステータス・ボーナスを得る。</p>"
 		},
 		{
 			"id": "Spell Effect: Fungal Infestation (Critical Failure)",
@@ -1003,38 +923,13 @@
 		},
 		{
 			"id": "Spell Effect: Goodberry",
-			"name": "Spell Effect: Goodberry",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.vQuwLqtFFYt0K15N]{Goodberry}</em>.</p>\n<p>You are holding one or more goodberries, which remain fresh for the duration of the spell.</p>\n<p>You can consume one or more goodberries from the same casting with an Interact action to regain 1d6+4 Hit Points per goodberry.</p>"
-		},
-		{
-			"id": "Spell Effect: Gravity Weapon (1 Die)",
-			"name": "呪文効果: 重力の武器 (1ダイス）",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.IWUe32Y5k2QFd7YQ]{重力の武器}</em>による効果。君の武器が1ダイスのダメージを与える場合。</p>"
-		},
-		{
-			"id": "Spell Effect: Gravity Weapon (2 Dice)",
-			"name": "呪文効果: 重力の武器 (2ダイス）",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.IWUe32Y5k2QFd7YQ]{重力の武器}</em>による効果。君の武器が2ダイスのダメージを与える場合。</p>"
-		},
-		{
-			"id": "Spell Effect: Gravity Weapon (3 Dice)",
-			"name": "呪文効果: 重力の武器 (3ダイス）",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.IWUe32Y5k2QFd7YQ]{重力の武器}</em>による効果。君の武器が3ダイスのダメージを与える場合。</p>"
-		},
-		{
-			"id": "Spell Effect: Gravity Weapon (4 Dice)",
-			"name": "呪文効果: 重力の武器 (4ダイス）",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.IWUe32Y5k2QFd7YQ]{重力の武器}</em>による効果。君の武器が4ダイスのダメージを与える場合。</p>"
+			"name": "呪文効果: グッドベリー",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.vQuwLqtFFYt0K15N]{グッドベリー}</em>による効果</p>\n<p>君は1つ以上のグッドベリーを持っており、それは呪文の持続時間の間、新鮮である。</p>\n<p>同じ呪文の発動によって作られたグッドベリーを、1回の「使用」アクションで幾つでも食べることが出来て、グッドベリー1個ごとに1d6+4点のヒット・ポイントを回復する。</p>"
 		},
 		{
 			"id": "Spell Effect: Gray Shadow",
 			"name": "Spell Effect: Gray Shadow",
 			"description": "<p>The greater shadow's shadow hand Strike deals an additional 1d8 poison damage.</p>"
-		},
-		{
-			"id": "Spell Effect: Guidance",
-			"name": "呪文効果: ガイダンス",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.izcxFQFwf3woCnFs]{ガイダンス}</em>による効果。</p>\n<p>君は神聖な導きを与え、持続時間が終了する前に対象が試みる、1回の攻撃ロール、知覚判定、セーヴィング・スローあるいは技能判定に+1ステータス・ボーナスを与える。対象はロールする前にこのボーナスをどのロールに使うかを選ぶ。もし対象がそのボーナスを使ったなら、呪文は終了する。どちらにせよ、対象はそれから1時間、一時的耐性を得る。</p>"
 		},
 		{
 			"id": "Spell Effect: Heroism",
@@ -1045,11 +940,6 @@
 			"id": "Spell Effect: Hyperfocus",
 			"name": "Spell Effect: Hyperfocus",
 			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.XhgMx9WC6NfXd9RP]{Hyperfocus}</em>.</p>\n<p>The target gains a +1 status bonus to Perception checks attempted with any of its precise senses.</p>"
-		},
-		{
-			"id": "Spell Effect: Illusory Disguise",
-			"name": "呪文効果: イリュージョリィ・ディスガイズ",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.i35dpZFI7jZcRoBo]{イリュージョリィ・ディスガイズ}</em>による効果。</p>\n<p>君は同じ体の形をして、概ね似たような身長（6インチ以内）と体重（50ポンド以内）の別のクリーチャーのように自分を見せかける幻影を作り出す。この返送は一般的には素性を隠すのに十分であるが、特定の個人になりすますには十分ではない。この呪文は君の声、嗅覚、所作を変更することはない。君は、防具をドレスのように見せかけるなど、自分の衣類と身に着けているアイテムの見た目を変えることが出来る。持っているアイテムは影響を受けず、君が外した、身に着けていたアイテムは本当の姿に戻る。</p>\n<p>イリュージョリィ・ディスガイズを発動することは、〈欺瞞〉を使った@Compendium[pf2e.action-macros.k5nW4jGyXD0Oq9LR]{「なりすます」}には変装の準備としてみなされる；似ていないクリーチャーに自分を変装させる際の状況ペナルティを無視し、変装を見通させないための〈欺瞞〉に+4ステータス・ボーナスを与え、君は未修得でもその判定に自分のレベルを加えることが出来る。君はこの呪文を「解除」することが出来る。</p>\n<hr />\n<p><strong>増強（2レベル）</strong> この呪文はまた、君の声と匂いを変装させ、聴覚の特性を得る</p>\n<p><strong>増強（3レベル）</strong> 君は、たとえ特定の個人でも、同じサイズのあらゆるクリーチャーの見かけを取ることが出来る。君は見た目を真似するのにその個人を目にしたことがなければならない。この呪文はまた、君の声と匂いを変装させ、聴覚の特性を得る</p>"
 		},
 		{
 			"id": "Spell Effect: Impeccable Flow (2nd)",
@@ -1122,46 +1012,6 @@
 			"description": "<p>Granted by casting <em>@Compendium[pf2e.spells-srd.XI6Lzd2B5pernkPd]{Insect Form}</em>.</p>\n<p>You envision a simple bug and transform into a Medium animal battle form. When you cast this spell, choose a form.</p>\n<p>You can decide the specific type of animal (such as such as a ladybug or scarab for beetle), but this has no effect on the form's Size or statistics. While in this form, you gain the animal trait. You can Dismiss this spell.</p>\n<p>You gain the following statistics and abilities regardless of which battle form you choose:</p>\n<ul>\n<li>AC = 18 + your level. Ignore your armor's check penalty and Speed reduction.</li>\n<li>10 temporary Hit Points.</li>\n<li>Low-light vision.</li>\n<li>One or more attacks specific to the battle form you choose, which are the only attacks you can use. You're trained with them. Your attack modifier is +13, and your damage bonus is +2. These attacks are Strength based (for the purpose of the @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled} condition). If your unarmed attack modifier is higher, you can use it instead.</li>\n<li>Athletics modifier of +13, unless your own is higher.</li>\n</ul>\n<p>You also gain specific abilities based on the form you choose:</p>\n<ul>\n<li><strong>Spider</strong>\n<ul>\n<li>Speed 25 feet, climb Speed 25 feet; darkvision;</li>\n<li><strong>Melee</strong> <span class=\"pf2-icon\">1</span> fangs, <strong>Damage</strong> 1d6 piercing plus [[/r {1d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Poison Damage};</li>\n<li><strong>Ranged</strong> <span class=\"pf2-icon\">1</span> web (range increment 20 feet), <strong>Damage</strong> entangles the target for 1 round.</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p><strong>Heightened (4th)</strong> Your battle form is Large, and your attacks have 10-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 15 temporary HP, attack modifier +16, damage bonus +6, and Athletics +16.</p>\n<p><strong>Heightened (5th)</strong> Your battle form is Huge, and your attacks have 15-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 20 temporary HP, attack modifier +18, damage bonus +2 and double damage dice (including @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Damage}), and Athletics +20.</p>\n<hr />\n<p><em>Note: To heighten this effect, import it into your Item Directory and edit the level before adding it to the target</em></p>"
 		},
 		{
-			"id": "Spell Effect: Inspire Courage",
-			"name": "呪文効果: 勇気鼓舞の呪芸",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.IAjvwqgiDr3qGYxY]{《勇気鼓舞の呪芸》}</em>による効果。</p>\n<p>君は味方を激励の言葉か曲で鼓舞する。範囲内の君と全ての味方は攻撃ロール、ダメージロール、そして恐怖効果に対するセーヴに+1ステータス・ボーナスを得る。</p>"
-		},
-		{
-			"id": "Spell Effect: Inspire Defense",
-			"name": "呪文効果: I防御鼓舞の呪芸",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.bH0kPuf7UKxRvi2P]{《防御鼓舞の呪芸》}</em>による効果。</p>\n<p>君は、より効率的に防御を行うために味方を鼓舞する。範囲にいる君と君の全ての味方はACとセーヴィング・スローに+1ステータス・ボーナスと、物理的ダメージへの、呪文レベルの半分に等しい抵抗を得る。</p>\n<p><em>メモ:抵抗は自動的に追加されない。 </em></p>"
-		},
-		{
-			"id": "Spell Effect: Inspire Heroics (Courage, +2)",
-			"name": "呪文効果: 英雄譚鼓舞 (勇気鼓舞、+2)",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.kF0rs9mCPvJGfAZE]{英雄譚鼓舞}</em>の成功によって強化された<em>@Compendium[pf2e.spells-srd.IAjvwqgiDr3qGYxY]{勇気鼓舞の呪芸}</em>の効果。</p>\n<p>君は激励の言葉や音楽によってインスパイアされる。君は攻撃ロール、ダメージ・ロール恐怖効果へのセーヴに+2ステータス・ボーナスを得る。</p>"
-		},
-		{
-			"id": "Spell Effect: Inspire Heroics (Courage, +3)",
-			"name": "呪文効果: 英雄譚鼓舞 (勇気鼓舞、+3)",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.kF0rs9mCPvJGfAZE]{英雄譚鼓舞}</em>のクリティカルによって強化された<em>@Compendium[pf2e.spells-srd.IAjvwqgiDr3qGYxY]{勇気鼓舞の呪芸}</em>の効果。</p>\n<p>君は激励の言葉や音楽によってインスパイアされる。君は攻撃ロール、ダメージ・ロール恐怖効果へのセーヴに+3ステータス・ボーナスを得る。</p>"
-		},
-		{
-			"id": "Spell Effect: Inspire Heroics (Defense, +2)",
-			"name": "呪文効果: 英雄譚鼓舞 (防御鼓舞、+2)",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.kF0rs9mCPvJGfAZE]{英雄譚鼓舞}</em>の成功によって強化された<em>@Compendium[pf2e.spells-srd.IAjvwqgiDr3qGYxY]{防御鼓舞の呪芸}</em>の効果。</p>\n<p>君は自分の味方をもっと効率的に守るようにインスパイアする。君と範囲内の全ての味方はACとセーヴィング・スローに+2ステータス・ボーナス、そして呪文レベルの半分に等しい物理的ダメージへの抵抗を得る。</p>\n<p><em>メモ: 抵抗は自動的に追加されない。</em></p>"
-		},
-		{
-			"id": "Spell Effect: Inspire Heroics (Defense, +3)",
-			"name": "呪文効果: 英雄譚鼓舞 (防御鼓舞、+3)",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.kF0rs9mCPvJGfAZE]{英雄譚鼓舞}</em>のクリティカルによって強化された<em>@Compendium[pf2e.spells-srd.IAjvwqgiDr3qGYxY]{防御鼓舞の呪芸}</em>の効果。</p>\n<p>君は自分の味方をもっと効率的に守るようにインスパイアする。君と範囲内の全ての味方はACとセーヴィング・スローに+3ステータス・ボーナス、そして呪文レベルの半分に等しい物理的ダメージへの抵抗を得る。</p>\n<p><em>メモ: 抵抗は自動的に追加されない。</em></p>"
-		},
-		{
-			"id": "Spell Effect: Inspire Heroics (Strength, +2)",
-			"name": "呪文効果: 英雄譚鼓舞 (筋力の歌、+2)",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.kF0rs9mCPvJGfAZE]{英雄譚鼓舞}</em>の成功によって強化された<em>@Compendium[pf2e.spells-srd.Xxdwkt0EEDgP1LGc]{筋力の歌}</em>の効果。</em></p>\n<p>君は心のこもった激励で味方の物理的な強さを強化する。君と君の味方は、〈軽業〉判定と「武器落とし」、「押しやり」、「足払い」といった〈軽業〉技能アクションに対するDCに+2ステータス・ボーナスを得る。</p>\n<p><em>メモ: DCへのボーナスは自動的に追加されない。</em></p>"
-		},
-		{
-			"id": "Spell Effect: Inspire Heroics (Strength, +3)",
-			"name": "呪文効果: 英雄譚鼓舞 (筋力の歌、+3)",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.kF0rs9mCPvJGfAZE]{英雄譚鼓舞}</em>のクリティカルによって強化された<em>@Compendium[pf2e.spells-srd.Xxdwkt0EEDgP1LGc]{筋力の歌}</em>の効果。</em></p>\n<p>君は心のこもった激励で味方の物理的な強さを強化する。君と君の味方は、〈軽業〉判定と「武器落とし」、「押しやり」、「足払い」といった〈軽業〉技能アクションに対するDCに+2ステータス・ボーナスを得る。</p>\n<p><em>メモ: DCへのボーナスは自動的に追加されない。</em></p>"
-		},
-		{
 			"id": "Spell Effect: Juvenile Companion",
 			"name": "Spell Effect: Juvenile Companion",
 			"description": "<p>You transform your companion into its juvenile form, such as a cub, foal, kitten, puppy, or piglet, making the target appear harmless. It becomes Tiny (if it was larger), and its reach is reduced to 0 feet. All of its Speeds are halved (to a minimum Speed of 5 feet), and it gains weakness 5 to physical damage. In all other ways, its abilities and statistics are unchanged.</p>\n<p>If your companion uses a hostile action, <em>juvenile companion</em> ends. This spell has no effect on a companion that doesn't have a juvenile form.</p>\n<hr />\n<p><strong>Heightened (2nd)</strong> The duration increases to 1 hour.</p>"
@@ -1187,69 +1037,9 @@
 			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.YDMOqndvYFu3OjA6]{Ki Form}</em></p>\n<p>Drawing from deep wells of spiritual power, you take on a special ki form. In your ki form, your hair, feathers, skin, or scales change color and begin to glow.</p>\n<p>In this form you gain a Fly Speed equal to your land Speed.</p>\n<p>All your Strikes deal [[/r {1d6}[positive]]]{1d6 additional positive damage}.</p>\n<p>Your entire body is also surrounded by a glowing corona of the same color as your inner ki; this is a light effect. Your corona is a 5-foot emanation that deals [[/r {2d6}[positive]]]{2d6 positive damage} to creatures who start their turn within the emanation. If the emanation overlaps with a darkness effect, the corona's glow attempts to counteract the darkness effect. Regardless of the outcome, the corona can't attempt to counteract that effect again for 1 day. As a single action, which has the concentrate trait, you can flare your corona out to become a 30-foot emanation.</p>\n<p>In your ki form, your emotions surge to the forefront and it's difficult to moderate your attacks. Your weapons and unarmed attacks lose the nonlethal trait. You take a -2 status penalty to saves against emotion effects but gain a +2 status bonus to saves against all other mental effects.</p>"
 		},
 		{
-			"id": "Spell Effect: Ki Strike (Air)",
-			"name": "呪文効果: 気の打撃 (風)",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.ZL8NTvB22NeEWhVG]{気の打撃}</em>による効果。君が @Compendium[pf2e.feats-srd.BU4NBIBkVZxdWLLH]{《エレメンタルの拳》}を持っていて、風を選んでいる場合。 </p>"
-		},
-		{
-			"id": "Spell Effect: Ki Strike (Chaotic)",
-			"name": "呪文効果: 気の打撃 (混沌)",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.ZL8NTvB22NeEWhVG]{気の打撃}</em>による効果。君が@Compendium[pf2e.feats-srd.Ux0DSklFlIlcvnhO]{《聖なる気》} を持っていて、混沌を選んでいる場合。</p>"
-		},
-		{
-			"id": "Spell Effect: Ki Strike (Earth)",
-			"name": "呪文効果: 気の打撃 (地)",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.ZL8NTvB22NeEWhVG]{気の打撃}</em>による効果。君が@Compendium[pf2e.feats-srd.BU4NBIBkVZxdWLLH]{《エレメンタルの拳》}を持っていて、地を選んでいる場合。</p>"
-		},
-		{
-			"id": "Spell Effect: Ki Strike (Evil)",
-			"name": "呪文効果: 気の打撃 (悪)",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.ZL8NTvB22NeEWhVG]{気の打撃}</em>による効果。君が@Compendium[pf2e.feats-srd.Ux0DSklFlIlcvnhO]{《聖なる気》} を持っていて、悪を選んでいる場合。</p>"
-		},
-		{
-			"id": "Spell Effect: Ki Strike (Fire)",
-			"name": "呪文効果: 気の打撃 (火)",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.ZL8NTvB22NeEWhVG]{気の打撃}</em>による効果。君が@Compendium[pf2e.feats-srd.BU4NBIBkVZxdWLLH]{《エレメンタルの拳》}を持っていて、火を選んでいる場合。</p>"
-		},
-		{
-			"id": "Spell Effect: Ki Strike (Force)",
-			"name": "呪文効果: 気の打撃 (力場)",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.ZL8NTvB22NeEWhVG]{気の打撃}</em>による効果で、力場を選んでいる。</p>"
-		},
-		{
-			"id": "Spell Effect: Ki Strike (Good)",
-			"name": "呪文効果:気の打撃 (善)",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.ZL8NTvB22NeEWhVG]{気の打撃}</em>による効果。君が@Compendium[pf2e.feats-srd.Ux0DSklFlIlcvnhO]{《聖なる気》} を持っていて、善を選んでいる場合。</p>"
-		},
-		{
-			"id": "Spell Effect: Ki Strike (Lawful)",
-			"name": "呪文効果: 気の打撃 (秩序)",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.ZL8NTvB22NeEWhVG]{気の打撃}</em>による効果で、秩序を選んでいる（もし、君が秩序なら） a</p>\n<p>あるいは、<em>@Compendium[pf2e.spells-srd.ZL8NTvB22NeEWhVG]{気の打撃}</em>の効果で、@Compendium[pf2e.feats-srd.Ux0DSklFlIlcvnhO]{《聖なる気》}を持っていて、秩序を選んでいる場合。 </p>"
-		},
-		{
-			"id": "Spell Effect: Ki Strike (Negative)",
-			"name": "呪文効果: 気の打撃 (負のエネルギー)",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.ZL8NTvB22NeEWhVG]{気の打撃}</em>による効果。負のエネルギーを選んでいる場合。</p>"
-		},
-		{
-			"id": "Spell Effect: Ki Strike (Positive)",
-			"name": "呪文効果: 気の打撃 (正のエネルギー)",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.ZL8NTvB22NeEWhVG]{気の打撃}</em>による効果。正のエネルギーを選んでいる場合。</p>"
-		},
-		{
-			"id": "Spell Effect: Ki Strike (Water)",
-			"name": "呪文効果:気の打撃 （水）",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.ZL8NTvB22NeEWhVG]{気の打撃}</em>による効果。君が@Compendium[pf2e.feats-srd.BU4NBIBkVZxdWLLH]{《エレメンタルの拳》}を持っていて、水を選んでいる場合。</p>"
-		},
-		{
-			"id": "Spell Effect: Lay on Hands",
-			"name": "呪文効果: 癒しの手",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.zNN9212H2FGfM7VS]{癒しの手}</em>による効果。</p>\n<p>もしその対象が味方の一人であるなら、そのクリーチャーは1ラウンド、ACに+2ステータス・ボーナスを得る。</p>"
-		},
-		{
 			"id": "Spell Effect: Life-Giving Form",
-			"name": "Spell Effect: Life-Giving Form",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.9kOI14Jep97TzGO7]{Life-Giving Form}</em></p>\n<p>You transcend your physical form, becoming a beacon of healing energy. Your body exudes bright light like a torch. You gain resistance 5 to precision damage and weakness 5 to negative damage, and your unarmed Strikes deal an extra [[/r {1d4}[positive]]]{1d4 positive damage}.</p>\n<p>You can touch a living creature with an @Compendium[pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Interact} action to restore [[/r {6d8}[healing]]]{6d8 Hit Points} to it, and when a creature touches you with an Interact action you can allow it to gain the same healing; either way, the creature becomes temporarily immune to life-giving form's healing for 1 minute. This is a positive healing effect. You can't heal yourself with life-giving form. A creature harmed by positive damage (such as an undead) that touches you or damages you with an unarmed attack or non-reach melee weapon instead takes [[/r {3d4}[positive]]]{3d4 positive damage}, and it doesn't become temporarily immune.</p>\n<p>You can @Compendium[pf2e.actionspf2e.AjLSHZSWQ90exdLo]{Dismiss} this spell.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the Hit Points restored with an Interact action by [[/r 1d8]], the positive damage by 1, and the resistance and weakness by 1.</p>"
+			"name": "呪文効果: 治癒の姿",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.9kOI14Jep97TzGO7]{治癒の姿}</em>による効果。</p>\n<p>君は物理的な形態を超越し、治癒のエネルギーの道標になる。君の肉体は松明のように明るい光を放っている。君は精密ダメージに対して抵抗5を得て、負のエネルギーダメージへの弱点5点を得る。また、君の素手打撃は追加の[[/r {1d4}[正のエネルギー]]]{1d4点の正のエネルギーダメージ}を与える。</p>\n<p>君は@Compendium[pf2e.actionspf2e.pvQ5rY2zrtPI614F]{「使用」}アクションで生きているクリーチャーに触れることによって [[/r {6d8}[治癒]]]{6d8点のヒット・ポイント}を回復させることが出来て、クリーチャーが君に「使用」アクションで触れた際にも同じ治癒を与えることが出来る；いずれにせよ、そのクリーチャーは1分間、治癒の姿による治癒に一時的な完全耐性を得る。これは正のエネルギーの治癒効果である。君は自分自身を治癒の姿で癒すことは出来ない。君に触れた、正のエネルギーダメージによって傷つけられるクリーチャー（アンデッドのような）か君に素手打撃か間合いのない近接武器でダメージを与えたクリーチャーは[[/r {3d4}[正のエネルギー]]]{3d4点の正のエネルギーダメージ}を受け、一時的な完全耐性を得ない。</p>\n<p>君はこの呪文を@Compendium[pf2e.actionspf2e.AjLSHZSWQ90exdLo]{「解除」}することが出来る。</p>\n<hr />\n<p><strong>増強（+1）</strong> 使用」アクションによって回復するヒットポイントを[[/r 1d8]]点増加させ、正のエネルギーダメージを1点増やし、抵抗と弱点を1点ずつ増やす。</p>"
 		},
 		{
 			"id": "Spell Effect: Litany of Self-Interest",
@@ -1262,24 +1052,14 @@
 			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.KcLVELhCUcKXxiKE]{Longstrider}</em></p>\n<p>You gain a +10-foot status bonus to your Speed.</p>"
 		},
 		{
-			"id": "Spell Effect: Mage Armor",
-			"name": "呪文効果: メイジ・アーマー",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.aAbfKn8maGjJjk2W]{メイジ・アーマー}</em>による効果。</p>\n<p>君は自分自身を、きらめく魔法のエネルギーで守り、最大敏捷力修正値+5とACへの+1アイテム・ボーナスを得る。メイジ・アーマーを着用している間、君はACの計算のために生身への習熟を用いる。</p>"
-		},
-		{
-			"id": "Spell Effect: Magic Hide",
-			"name": "呪文効果：魔法の毛皮",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.u2uSeH6YSbK1ajTy]{魔法の毛皮}</em>による効果。</p>"
-		},
-		{
 			"id": "Spell Effect: Magic Weapon",
 			"name": "Spell Effect: Magic Weapon",
 			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.TFitdEOpQC4SzKQQ]{Magic Weapon}</em></p>\n<p>The weapon glimmers with magic and energy. The target becomes a +1 <em>striking</em> weapon, gaining a +1 item bonus to attack rolls and increasing the number of weapon damage dice to two.</p>"
 		},
 		{
 			"id": "Spell Effect: Magic's Vessel",
-			"name": "Spell Effect: Magic's Vessel",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.u4FGIUQgruLjml7J]{Magic's Vessel}</em>.</p>\n<p>The target gains a +1 status bonus to saving throws.</p>"
+			"name": "呪文効果: 魔術の器",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.u4FGIUQgruLjml7J]{魔術の器}</em>による効果。</p>\n<p>対象はセーヴィング・スローに+1ステータス・ボーナスを得る。</p>"
 		},
 		{
 			"id": "Spell Effect: Mantle of the Frozen Heart (Ice Glide)",
@@ -1358,8 +1138,8 @@
 		},
 		{
 			"id": "Spell Effect: Nudge Fate",
-			"name": "Spell Effect: Nudge Fate",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.G0T1xv1FoZ23Jxvt]{Nudge Fate}</em></p>"
+			"name": "呪文効果:運命の一押し",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.G0T1xv1FoZ23Jxvt]{運命の一押し}</em>による効果。</p>"
 		},
 		{
 			"id": "Spell Effect: Nymph's Token",
@@ -1407,14 +1187,9 @@
 			"description": "<p>You wrap the target in shadows, granting them a +1 status bonus to Stealth checks to @Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]{Hide} while in dim light or darkness.</p>\n<p>In addition, the shadows mask the creature's features. While the creature is in dim light or darkness, other creatures must succeed at a @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Seek} action against the spell's DC to discern details about the target's appearance. For example, without using Seek, other creatures can determine the target's general shape (such as humanoid), but they would need to Seek to determine the target's precise appearance or any other identifying information.</p>\n<p>Creatures with darkvision can still see the target and their features normally. The target's normal appearance is revealed in bright light.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The status bonus is +2. Creatures with darkvision can no longer discern details about the target while the target is in dim light or darkness without Seeking, though creatures with greater darkvision can still determine these details.</p>\n<p><strong>Heightened (6th)</strong> As 4th level, except the status bonus is +3 and creatures without darkvision can't determine even general details about the target while the target is in dim light or darkness unless they successfully Seek the target; these creatures see a vague shadow instead. Even on a successful Seek, they only determine general features, though they can see details on a critical success.</p>\n<p><strong>Heightened (8th)</strong> As 6th level, except the status bonus is +4 and even creatures with greater darkvision must Seek to discern details about the target while the target is in dim light or darkness.</p>"
 		},
 		{
-			"id": "Spell Effect: Pest Form",
-			"name": "呪文効果: ペスト・フォーム",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.gfPjmG6Fe6D3MFjl]{ペスト・フォーム}</em>による効果。</p>\n<p>君はキャット、インセクト、リザード、ラットのような超小型の戦闘形態に変身する。君は動物の特定の種別を決めることが出来る（ラットやプレイング・マンティスなど）が、これは形態のサイズやステータスに影響しない。この形態でいる間、君は動物の特性を得る。君はこの呪文を「解除」することが出来る。</p>\n<p>君は下記のステータスと能力を得る:</p>\n<ul>\n<li>AC=15＋君のレベル　防具判定ペナルティと速度減少を無視すること</li>\n<li>速度　10フィート</li>\n<li>弱点　物理ダメージに対して5（もし君がこの形態でいる時に物理ダメージを受けたなら、5点の追加ダメージを得る）</li>\n<li>夜目と不明瞭な嗅覚30フィート</li>\n<li>君の修正値がそれより高くない限り、〈軽業〉と〈隠密〉の修正値+10；〈運動〉修正値-4</li>\n</ul>\n<hr />\n<p><strong>増強（4レベル）</strong> 君はバードのような飛行するクリーチャーに変化することが出来て、20フィートの飛行速度を得る。</p>\n<p>@Compendium[pf2e.spell-effects.ydsLEGjY89Akc4oZ]{呪文効果: ペスト・フォーム}</p>"
-		},
-		{
 			"id": "Spell Effect: Physical Boost",
-			"name": "Spell Effect: Physical Boost",
-			"description": "<p>Granted by casting <em>@Compendium[pf2e.spells-srd.1lmzILdCFENln8Cy]{Physical Boost}</em></p>"
+			"name": "呪文効果: 肉体強化",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.1lmzILdCFENln8Cy]{肉体強化}</em>の発動による効果。</p>"
 		},
 		{
 			"id": "Spell Effect: Plant Form (Arboreal)",
@@ -1443,23 +1218,23 @@
 		},
 		{
 			"id": "Spell Effect: Primal Summons (Air)",
-			"name": "Spell Effect: Primal Summons (Air)",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.kwlKUxEuT8T15YW6]{Primal Summons}</em> when you select air.</p>\n<p>The creature gains a fly Speed of 60 feet.</p>"
+			"name": "呪文効果: 始原の招来 (風)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.kwlKUxEuT8T15YW6]{始原の招来}</em>による効果。君が風を選んだ場合。</p>\n<p>クリーチャーは飛行速度60フィートを得る。</p>"
 		},
 		{
 			"id": "Spell Effect: Primal Summons (Earth)",
-			"name": "Spell Effect: Primal Summons (Earth)",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.kwlKUxEuT8T15YW6]{Primal Summons}</em> when you select earth.</p>\n<p>The creature gains a burrow Speed of 20 feet, and reduces its land Speed by 10 feet (minimum 5 feet).</p>"
+			"name": "呪文効果: 始原の招来 (地)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.kwlKUxEuT8T15YW6]{始原の招来}</em>による効果。君が地を選んだ場合。</p>\n<p>クリーチャーは掘り進み速度20フィートを得て、地上速度を10フィート減らす。</p>"
 		},
 		{
 			"id": "Spell Effect: Primal Summons (Fire)",
-			"name": "Spell Effect: Primal Summons (Fire)",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.kwlKUxEuT8T15YW6]{Primal Summons}</em> when you select fire.</p>\n<p>The creature's attacks deal 1d6 extra fire damage.</p>"
+			"name": "呪文効果: 始原の招来 (火)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.kwlKUxEuT8T15YW6]{始原の招来}</em>による効果。君が火を選んだ場合。</p>\n<p>クリーチャーの攻撃は1d6の追加の火炎ダメージを与える。</p>"
 		},
 		{
 			"id": "Spell Effect: Primal Summons (Water)",
-			"name": "Spell Effect: Primal Summons (Water)",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.kwlKUxEuT8T15YW6]{Primal Summons}</em> when you select water.</p>\n<p>The creature gains a swim Speed of 60 feet.</p>"
+			"name": "呪文効果: 始原の招来 (水)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.kwlKUxEuT8T15YW6]{始原の招来}</em>による効果。君が水を選んだ場合。</p>\n<p>クリーチャーは水泳速度60フィートを得る。</p>"
 		},
 		{
 			"id": "Spell Effect: Prismatic Shield",
@@ -1472,29 +1247,9 @@
 			"description": "<p>The target gains a +1 circumstance bonus to AC until the start of your next turn.</p>"
 		},
 		{
-			"id": "Spell Effect: Protection from Chaotic",
-			"name": "呪文効果: プロテクション（対混沌）",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.gMODOGamz88rgHuf]{プロテクション}</em>による効果。混沌のクリーチャーに対して発動された場合。 </p>\n<p>対象は混沌属性のクリーチャー及び効果に対して、アーマー・クラスとセーヴィング・スローに+1ステータス・ボーナスを得る。</p>\n<p>このボーナスは直接的に対象を支配する効果や、選んだ属性の招来されたクリーチャーに行われる攻撃に対しては+3に増加する。</p>"
-		},
-		{
-			"id": "Spell Effect: Protection from Evil",
-			"name": "呪文効果: プロテクション（対悪）",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.gMODOGamz88rgHuf]{プロテクション}</em>による効果。悪のクリーチャーに対して発動された場合。 </p>\n<p>対象は悪属性のクリーチャー及び効果に対して、アーマー・クラスとセーヴィング・スローに+1ステータス・ボーナスを得る。</p>\n<p>このボーナスは直接的に対象を支配する効果や、選んだ属性の招来されたクリーチャーに行われる攻撃に対しては+3に増加する。</p>"
-		},
-		{
-			"id": "Spell Effect: Protection from Good",
-			"name": "呪文効果: プロテクション（対善）",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.gMODOGamz88rgHuf]{プロテクション}</em>による効果。善のクリーチャーに対して発動された場合。 </p>\n<p>対象は善属性のクリーチャー及び効果に対して、アーマー・クラスとセーヴィング・スローに+1ステータス・ボーナスを得る。</p>\n<p>このボーナスは直接的に対象を支配する効果や、選んだ属性の招来されたクリーチャーに行われる攻撃に対しては+3に増加する。</p>"
-		},
-		{
-			"id": "Spell Effect: Protection from Lawful",
-			"name": "呪文効果: プロテクション（対秩序）",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.gMODOGamz88rgHuf]{プロテクション}</em>による効果。秩序のクリーチャーに対して発動された場合。 </p>\n<p>対象は秩序属性のクリーチャー及び効果に対して、アーマー・クラスとセーヴィング・スローに+1ステータス・ボーナスを得る。</p>\n<p>このボーナスは直接的に対象を支配する効果や、選んだ属性の招来されたクリーチャーに行われる攻撃に対しては+3に増加する。</p>"
-		},
-		{
 			"id": "Spell Effect: Protective Ward",
-			"name": "Spell Effect: Protective Ward",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.lY9fOk1qBDDhBT8s]{Protective ward}</em></p>\n<p>You emanate a shimmering aura of protective magic. You and any allies in the area gain a +1 status bonus to AC. Each time you @Compendium[pf2e.actionspf2e.3f5DMFu8fPiqHpRg]{Sustain the Spell}, the emanation's radius increases by 5 feet, to a maximum of 30 feet.</p>"
+			"name": "呪文効果: 守りの壁",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.lY9fOk1qBDDhBT8s]{守りの壁}</em>による効果。</p>\n<p>君は防衛魔法による輝くオーラを放出する。君と範囲内にいる全ての味方はACに+1ステータス・ボーナスを得る。君が@Compendium[pf2e.actionspf2e.3f5DMFu8fPiqHpRg]{「呪文の維持」}を行うごとに、拡散の半径は最大で30フィートまで5フィートずつ増加する。</p>"
 		},
 		{
 			"id": "Spell Effect: Rapid Adaptation (Aquatic Base Swim Speed)",
@@ -1537,19 +1292,14 @@
 			"description": "<p>The target gains darkvision.</p>"
 		},
 		{
-			"id": "Spell Effect: Ray of Frost",
-			"name": "呪文効果: レイ・オヴ・フロスト",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.gYjPm7YwGtEa1oxh]{レイ・オヴ・フロスト}</em>による効果。</p>\n<p>この冷気は君の骨を凍てつかせ、君は1ラウンド、速度に－10フィートのステータス・ペナルティを受ける。</p>"
-		},
-		{
 			"id": "Spell Effect: Read the Air",
 			"name": "Spell Effect: Read the Air",
 			"description": "<p>You also gain a +1 status bonus on your next Diplomacy check to Make an Impression on those creatures present when you cast this spell, as long as the check occurs during the duration of the spell. You can read the air only once in a given social situation; casting it again has no effect.</p>"
 		},
 		{
 			"id": "Spell Effect: Reinforce Eidolon",
-			"name": "Spell Effect: Reinforce Eidolon",
-			"description": "<p>You focus deeply on the link between you and your eidolon and reinforce your eidolon's defenses. Your eidolon gains a +1 status bonus to AC and saving throws, plus resistance to all damage equal to half the spell's level. Your eidolon can benefit from either Boost Eidolon or Reinforce Eidolon, but not both; if you cast one of these spells during the other's duration, the newer spell replaces the older one.</p>"
+			"name": "呪文効果: 幻獣強化",
+			"description": "<p>君は自分と幻獣との繋がりに深く集中し、幻獣の防御能力を強化する。君の幻獣はACとセーヴィング・スローに+1ステータス・ボーナスと、更に、この呪文のレベルの半分に等しい、あらゆるダメージへの抵抗を得る。君の幻獣は幻獣増幅と幻獣強化のどちらかから利益を得ることが出来るが、両方から利益を得ることは出来ない；もし、君が片方の持続時間中にもう片方を発動したなら、新しい呪文が古い呪文を置き換える。</p>"
 		},
 		{
 			"id": "Spell Effect: Rejuvenating Touch",
@@ -1573,8 +1323,8 @@
 		},
 		{
 			"id": "Spell Effect: Safeguard Secret",
-			"name": "Spell Effect: Safeguard Secret",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.OsrtOeG0TvDNnEFH]{Safeguard Secret}</em>.</p>\n<p>The targets gain +4 status bonus to skill checks (typically Deception checks) to conceal this knowledge and to saving throws against spells that specifically attempt to obtain this knowledge from them and effects that would force them to reveal it.</p>"
+			"name": "呪文効果: 守られし秘密",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.OsrtOeG0TvDNnEFH]{守られし秘密}</em>による効果。</p>\n<p>知っている情報1つを術者が選ぶ。その情報を知っている者が、この知識を隠すための（一般的には〈欺瞞〉判定）判定や、その人物からこの情報を得るために特に試みられる呪文へのセーヴィング・スロー、そしてこの知識を無理矢理に明かすことを強いる効果へのセーヴィング・スローに対して+4のステータス・ボーナスを与える。</p>"
 		},
 		{
 			"id": "Spell Effect: Schadenfreude (Success)",
@@ -1582,59 +1332,39 @@
 			"description": "<p>The creature is distracted by its amusement and takes a -1 status penalty on Perception checks and Will saves for 1 round.</p>"
 		},
 		{
-			"id": "Spell Effect: Shield",
-			"name": "呪文効果: シールド",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.TVKNbcgTee19PXZR]{シールド}</em>による効果。</p>\n<p>自動的に適用される効果:</p>\n<ul>\n<li>ACに+1状況ボーナス</li>\n</ul>"
-		},
-		{
 			"id": "Spell Effect: Shifting Form (Claws)",
-			"name": "Spell Effect: Shifting Form (Claws)",
-			"description": "<p>Granted by casting <em>@Compendium[pf2e.spells-srd.SDkIFrrO1PsE02Kd]{Shifting Form}</em> and choosing to gain a pair of claws.</p>"
+			"name": "呪文効果: 形態変化 (爪)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.SDkIFrrO1PsE02Kd]{形態変化}</em>の発動による効果で、1組の爪を選んだ場合。</p>"
 		},
 		{
 			"id": "Spell Effect: Shifting Form (Climb Speed)",
-			"name": "Spell Effect: Shifting Form (Climb Speed)",
-			"description": "<p>Granted by casting <em>@Compendium[pf2e.spells-srd.SDkIFrrO1PsE02Kd]{Shifting Form}</em> and choosing to gain a climb speed equal to half your Speed.</p>"
+			"name": "呪文効果: 形態変化 (登攀速度)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.SDkIFrrO1PsE02Kd]{形態変化}</em>の発動による効果で、速度の半分に等しい登攀速度を選んだ場合。</p>"
 		},
 		{
 			"id": "Spell Effect: Shifting Form (Darkvision)",
-			"name": "Spell Effect: Shifting Form (Darkvision)",
-			"description": "<p>Granted by casting <em>@Compendium[pf2e.spells-srd.SDkIFrrO1PsE02Kd]{Shifting Form}</em> and choosing to gain darkvision.</p>"
+			"name": "呪文効果: 形態変化 (暗視)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.SDkIFrrO1PsE02Kd]{形態変化}</em>の発動による効果で、暗視を選んだ場合。</p>"
 		},
 		{
 			"id": "Spell Effect: Shifting Form (Scent)",
-			"name": "Spell Effect: Shifting Form (Scent)",
-			"description": "<p>Granted by casting <em>@Compendium[pf2e.spells-srd.SDkIFrrO1PsE02Kd]{Shifting Form}</em> and choosing to gain scent 60 feet (imprecise).</p>"
+			"name": "呪文効果: 形態変化 (嗅覚)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.SDkIFrrO1PsE02Kd]{形態変化}</em>の発動による効果で、嗅覚60フィート（不明瞭）を選んだ場合。</p>"
 		},
 		{
 			"id": "Spell Effect: Shifting Form (Speed)",
-			"name": "Spell Effect: Shifting Form (Speed)",
-			"description": "<p>Granted by casting <em>@Compendium[pf2e.spells-srd.SDkIFrrO1PsE02Kd]{Shifting Form}</em> and choosing to gain a 20-foot status bonus to your Speed.</p>"
+			"name": "呪文効果: 形態変化 (速度)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.SDkIFrrO1PsE02Kd]{形態変化}</em>の発動による効果で、速度への20フィートのステータス・ボーナスを選んだ場合。</p>"
 		},
 		{
 			"id": "Spell Effect: Shifting Form (Swim Speed)",
-			"name": "Spell Effect: Shifting Form (Swim Speed)",
-			"description": "<p>Granted by casting <em>@Compendium[pf2e.spells-srd.SDkIFrrO1PsE02Kd]{Shifting Form}</em> and choosing to gain a swim speed equal to half your Speed.</p>"
-		},
-		{
-			"id": "Spell Effect: Shillelagh",
-			"name": "呪文効果: シャレイリ",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.s3abwDbTV43pGFFW]{シャレイリ}</em>による効果。</p>\n<p>対象は蔓や葉を生長させ、始原のエネルギーで満たされる。対象は君の手に中にある間、+1ストライキング武器となり、攻撃ロールに+1アイテム・ボーナスを得て、武器ダメージ・ダイスの数は2個に増える。更に、君が故郷の次元界にいる間、君が対象を使って異形、他次元界のクリーチャー、アンデッドに攻撃を行った際、武器ダメージ・ダイスを3つにする。</p>"
+			"name": "呪文効果: 形態変化 (水泳速度)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.SDkIFrrO1PsE02Kd]{形態変化}</em>の発動による効果で、速度の半分に等しい水泳速度を選んだ場合。</p>"
 		},
 		{
 			"id": "Spell Effect: Shrink",
 			"name": "Spell Effect: Shrink",
 			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.PjhUmyKnq6K5uDby]{Shrink}</em></p>\n<p>You warp space to make a creature smaller. The target shrinks to become Tiny in size. Its equipment shrinks with it but returns to its original size if removed. The creature's reach changes to 0 feet. This spell has no effect on a Tiny creature.</p>"
-		},
-		{
-			"id": "Spell Effect: Song of Strength",
-			"name": "呪文効果: 筋力の歌",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.Xxdwkt0EEDgP1LGc]{筋力の歌}による効果。</em></p>\n<p>君は心のこもった激励で味方の物理的な強さを強化する。君と君の味方は、〈軽業〉判定と「武器落とし」、「押しやり」、「足払い」といった〈軽業〉技能アクションに対するDCに+1ステータス・ボーナスを得る。</p>\n<p>特殊 英雄譚鼓舞の創意呪文を持っている場合、勇気鼓舞の呪芸や防御鼓舞の呪芸と同じように、英雄譚鼓舞を使って筋力の歌のボーナスを向上させることが出来る。</p>\n<p><em>メモ: DCへのボーナスは自動的に追加されない。</em></p>"
-		},
-		{
-			"id": "Spell Effect: Soothe",
-			"name": "呪文効果: スーズ",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.szIyEsvihc5e1w8n]{スーズ}</em>による効果。</p>\n<p>君の精神は敵対的な効果に対してを強化される。持続時間の間、精神効果に対するセーヴに君は+2ステータス・ボーナスを得る。</p>"
 		},
 		{
 			"id": "Spell Effect: Soothing Blossoms",
@@ -1643,18 +1373,18 @@
 		},
 		{
 			"id": "Spell Effect: Soothing Words",
-			"name": "Spell Effect: Soothing Words",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.YGRpHU5yxw73mls8]{Soothing Words}</em>.</p>\n<p>The target gains a +1 status bonus to Will saving throws. This bonus increases to +2 against emotion effects</p>\n<hr />\n<p><strong>Heightened (5th)</strong> The bonus to saves increases to +2, or +3 against emotion effects.</p>"
+			"name": "呪文効果: なだめの言葉",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.YGRpHU5yxw73mls8]{なだめの言葉}</em>による効果。</p>\n<p>対象は意志セーヴに+1ステータス・ボーナスを得る。このボーナスは感情効果に対しては+2に増加する。</p>\n<hr />\n<p><strong>増強（5レベル）</strong> セーヴへのボーナスは+2に、感情効果に対しては+3になる。</p>"
 		},
 		{
 			"id": "Spell Effect: Stoke the Heart",
-			"name": "Spell Effect: Stoke the Heart",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.GeUbPvwdZ4B4l0up]{Stoke the Heart}</em></p>"
+			"name": "呪文効果: 心臓つかみ",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.GeUbPvwdZ4B4l0up]{心臓つかみ}</em>による効果。</p>"
 		},
 		{
 			"id": "Spell Effect: Stormwind Flight",
-			"name": "Spell Effect: Stormwind Flight",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.gSFg9zKwgcNZLMEs]{Stormwind Flight}</em>.</p>\n<p>You gain a fly Speed equal to your Speed.</p>"
+			"name": "呪文効果: 嵐の飛行",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.gSFg9zKwgcNZLMEs]{嵐の飛行}</em>による効果。</p>\n<p>君は速度に等しい飛行速度を得る。</p>"
 		},
 		{
 			"id": "Spell Effect: Summoner's Visage",
@@ -1673,58 +1403,48 @@
 		},
 		{
 			"id": "Spell Effect: Sweet Dream (Glamour)",
-			"name": "Spell Effect: Sweet Dream (Glamour)",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.BRtKFk0PKfWIlCAB]{Sweet Dream}</em>.</p>\n<p>You gain +1 status bonus to Charisma-based skill checks.</p>"
+			"name": "呪文効果: 甘き夢 (魅惑)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.BRtKFk0PKfWIlCAB]{甘き夢}</em>による効果。</p>\n<p>魅力に基づいた技能判定に+1ステータス・ボーナス</p>"
 		},
 		{
 			"id": "Spell Effect: Sweet Dream (Insight)",
-			"name": "Spell Effect: Sweet Dream (Insight)",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.BRtKFk0PKfWIlCAB]{Sweet Dream}</em>.</p>\n<p>You gain +1 status bonus to Intelligence-based skill checks.</p>"
+			"name": "呪文効果: 甘き夢 (洞察)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.BRtKFk0PKfWIlCAB]{甘き夢}</em>による効果。</p>\n<p>知力に基づいた技能判定に+1ステータス・ボーナス</p>"
 		},
 		{
 			"id": "Spell Effect: Sweet Dream (Voyaging)",
-			"name": "Spell Effect: Sweet Dream (Voyaging)",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.BRtKFk0PKfWIlCAB]{Sweet Dream}</em>.</p>\n<p>You gain +5 foot status bonus to your Speed.</p>"
+			"name": "呪文効果: 甘き夢 (旅)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.BRtKFk0PKfWIlCAB]{甘き夢}</em>による効果。</p>\n<p>移動速度に+5フィートのステータス・ボーナス</p>"
 		},
 		{
 			"id": "Spell Effect: Take Its Course (Affliction, Help)",
-			"name": "Spell Effect: Take Its Course (Affliction, Help)",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.ZeHeNQ5BNq6m5F1j]{Take its Course}</em>, when used to help a target against an affliction.</p>\n<p>The target gains a +2 status bonus to its saving throw against the affliction.</p>"
+			"name": "呪文効果: 苦難促進 (苦難、援護)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.ZeHeNQ5BNq6m5F1j]{苦難促進}</em>による効果、苦難に対して対象を助ける場合。</p>\n<p>対象はその苦難へのセーヴィング・スローに対して+2のステータス・ボーナスを得る。</p>"
 		},
 		{
 			"id": "Spell Effect: Take Its Course (Affliction, Hinder)",
-			"name": "Spell Effect: Take Its Course (Affliction, Hinder)",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.ZeHeNQ5BNq6m5F1j]{Take its Course}</em>, when used to hinder a target against an affliction.</p>\n<p>The target gains a -2 status bonus to its saving throw against the affliction.</p>"
-		},
-		{
-			"id": "Spell Effect: Tanglefoot",
-			"name": "呪文効果: タングルフット",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.uZK2BYzPnxUBnDjr]{タングルフット}</em>による効果。</p>\n<p>蔓が君の移動を阻害する。君は速度に－10フィート状況ペナルティを受ける。</p>\n<hr />\n<p><em>メモ: 呪文が2レベルに増強された際には持続時間を2ラウンドにし、4レベルに増強した際には1分にする必要がある。</em></p>"
+			"name": "呪文効果: 苦難促進 (苦難、妨害)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.ZeHeNQ5BNq6m5F1j]{苦難促進}</em>による効果、苦難に対して対象を助ける場合。</p>\n<p>対象はその苦難へのセーヴィング・スローに対して+2のステータス・ペナルティを受ける。</p>"
 		},
 		{
 			"id": "Spell Effect: Tempest Form (Air)",
-			"name": "Spell Effect: Tempest Form (Air)",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.zhqnMOVPzVvWSUbC]{Tempest Form}</em></p>\n<p>Your body becomes fluid to better suit your surroundings.</p>\n<p>When you cast this spell, choose whether to become air, water, or mist. The spell gains the air trait if you choose air or mist, and the water trait if you choose water or mist.</p>\n<p>You become amorphous, as does your armor. You lose any item bonus to AC and use your proficiency bonus for unarmored defense to determine your AC. You also gain resistance 10 to physical damage and become immune to precision damage. You can slip through tiny cracks and don't need to breathe. You can't cast spells, activate items, or use actions that have the attack or manipulate trait. You also gain the following effects based on your form.</p>\n<p><strong>Air</strong></p>\n<ul>\n<li>You gain a Fly Speed of 20 feet and become @Compendium[pf2e.conditionitems.zJxUflt9np0q4yML]{Invisible} while you are in the air.</li>\n<li>You can create the effects of a <em>@Compendium[pf2e.spells-srd.g8QqHpv2CWDwmIm1]{Gust of Wind}</em> from your space as a 2-action activity, which has the manipulate trait.</li>\n</ul>\n<hr />\n<p><strong>Heightened (+2)</strong> Increase the resistance by 5.</p>"
+			"name": "呪文効果: 嵐の姿 (風)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.zhqnMOVPzVvWSUbC]{嵐の姿}</em>による効果。</p>\n<p>君の肉体は周囲によりよく適合するために、流体になる。</p>\n<p>君が「呪文の発動」をした際、風、水、霧のどれになるか選ぶ。この呪文は、風か霧を選んだなら風の特性を、水か霧を選んだなら水の特性を得る。</p>\n<p>君と君の防具は不定形になる。君はACへのあらゆるアイテム・ボーナスを失い、ACを決めるのに生身の習熟ボーナスを用いる。君はまた、物理ダメージへの抵抗10を経て、精密ダメージに対して完全耐性を得る。君は小さな裂け目を通り抜けることが出来て、息をする必要がない。君は呪文の発動、アイテムの起動、攻撃あるいは操作の特性を持つアクションを使うことが出来ない。君はまた、姿に基づいた下記の効果を得る。</p>\n<p><strong>風</strong></p>\n<ul>\n<li>君は20フィートの飛行速度を得て、大気中にいる間、@Compendium[pf2e.conditionitems.zJxUflt9np0q4yML]{不可視状態}になる。</li>\n<li>君は操作の特性を持つ2アクションの連続行動として自分の接敵面から<em>@Compendium[pf2e.spells-srd.g8QqHpv2CWDwmIm1]{ガスト・オヴ・ウィンド}</em>の効果を作り出す。</li>\n</ul>\n<hr />\n<p><strong>増強（+2）</strong> 抵抗を5点増やす。</p>"
 		},
 		{
 			"id": "Spell Effect: Tempest Form (Mist)",
-			"name": "Spell Effect: Tempest Form (Mist)",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.zhqnMOVPzVvWSUbC]{Tempest Form}</em></p>\n<p>Your body becomes fluid to better suit your surroundings.</p>\n<p>When you cast this spell, choose whether to become air, water, or mist. The spell gains the air trait if you choose air or mist, and the water trait if you choose water or mist.</p>\n<p>You become amorphous, as does your armor. You lose any item bonus to AC and use your proficiency bonus for unarmored defense to determine your AC. You also gain resistance 10 to physical damage and become immune to precision damage. You can slip through tiny cracks and don't need to breathe. You can't cast spells, activate items, or use actions that have the attack or manipulate trait. You also gain the following effects based on your form.</p>\n<p><strong>Mist</strong></p>\n<ul>\n<li>You gain a Fly Speed of 20 feet, and it becomes hard to see through you.</li>\n<li>Any creature on one side of your space who is targeted by a creature on the opposite side is @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} to the targeting creature.</li>\n</ul>\n<hr />\n<p><strong>Heightened (+2)</strong> Increase the resistance by 5.</p>"
+			"name": "呪文効果: 嵐の姿 (霧)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.zhqnMOVPzVvWSUbC]{嵐の姿}</em>による効果。</p>\n<p>君の肉体は周囲によりよく適合するために、流体になる。</p>\n<p>君が「呪文の発動」をした際、風、水、霧のどれになるか選ぶ。この呪文は、風か霧を選んだなら風の特性を、水か霧を選んだなら水の特性を得る。</p>\n<p>君と君の防具は不定形になる。君はACへのあらゆるアイテム・ボーナスを失い、ACを決めるのに生身の習熟ボーナスを用いる。君はまた、物理ダメージへの抵抗10を経て、精密ダメージに対して完全耐性を得る。君は小さな裂け目を通り抜けることが出来て、息をする必要がない。君は呪文の発動、アイテムの起動、攻撃あるいは操作の特性を持つアクションを使うことが出来ない。君はまた、姿に基づいた下記の効果を得る。</p>\n<p><strong>霧</strong></p>\n<ul>\n<li>君は20フィートの飛行速度を得て、君を見通すのは難しくなる。</li>\n<li>反対側にいるクリーチャーによって対象にされた、君の接敵面の片側にいるクリーチャーは、対象にしているクリーチャーにとって@Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{視認困難}である。</li>\n</ul>\n<hr />\n<p><strong>増強（+2）</strong> 抵抗を5点増やす。</p>"
 		},
 		{
 			"id": "Spell Effect: Tempest Form (Water)",
-			"name": "Spell Effect: Tempest Form (Water)",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.zhqnMOVPzVvWSUbC]{Tempest Form}</em></p>\n<p>Your body becomes fluid to better suit your surroundings.</p>\n<p>When you cast this spell, choose whether to become air, water, or mist. The spell gains the air trait if you choose air or mist, and the water trait if you choose water or mist.</p>\n<p>You become amorphous, as does your armor. You lose any item bonus to AC and use your proficiency bonus for unarmored defense to determine your AC. You also gain resistance 10 to physical damage and become immune to precision damage. You can slip through tiny cracks and don't need to breathe. You can't cast spells, activate items, or use actions that have the attack or manipulate trait. You also gain the following effects based on your form.</p>\n<p><strong>Water</strong></p>\n<ul>\n<li>You gain a Swim Speed of 20 feet and become @Compendium[pf2e.conditionitems.zJxUflt9np0q4yML]{Invisible} while you are in the water.</li>\n<li>You can electrically charge yourself by taking a single action, which has the manipulate trait. If you do, you are no longer Invisible in the water due to electricity indicating your location, but any creature that makes a melee attack against you takes [[/r {1d6}[electricity]]]{1d6 electricity damage}; if it touches you, this is cumulative with the damage from your major curse.</li>\n</ul>\n<hr />\n<p><strong>Heightened (+2)</strong> Increase the resistance by 5 and the electricity damage from the charged water form by 1.</p>"
+			"name": "呪文効果: 嵐の姿 (水)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.zhqnMOVPzVvWSUbC]{嵐の姿}</em>による効果。</p>\n<p>君の肉体は周囲によりよく適合するために、流体になる。</p>\n<p>君が「呪文の発動」をした際、風、水、霧のどれになるか選ぶ。この呪文は、風か霧を選んだなら風の特性を、水か霧を選んだなら水の特性を得る。</p>\n<p>君と君の防具は不定形になる。君はACへのあらゆるアイテム・ボーナスを失い、ACを決めるのに生身の習熟ボーナスを用いる。君はまた、物理ダメージへの抵抗10を経て、精密ダメージに対して完全耐性を得る。君は小さな裂け目を通り抜けることが出来て、息をする必要がない。君は呪文の発動、アイテムの起動、攻撃あるいは操作の特性を持つアクションを使うことが出来ない。君はまた、姿に基づいた下記の効果を得る。</p>\n<p><strong>水</strong></p>\n<ul>\n<li>君は20フィートの水泳速度を得て、水中にいる間、@Compendium[pf2e.conditionitems.zJxUflt9np0q4yML]{不可視状態}になる。</li>\n<li>君は単発アクションで自分に電気を蓄積することが出来る。このアクションは操作の特性を持つ。そうしたなら、君は位置を示す電気によってもはや水中で不可視状態ではない。だが、君に対して近接攻撃を行うすべてのクリーチャーは[[/r {1d6}[電撃]]]{1d6点の電撃ダメージ}を受ける。もしそのクリーチャーが君に触れたなら、そのダメージは君の上級の呪いのダメージと累積する。</li>\n</ul>\n<hr />\n<p><strong>増強（+2）</strong> 抵抗を5点増やし、水形態の蓄積による電撃ダメージを1点増やす。</p>"
 		},
 		{
 			"id": "Spell Effect: Tempt Fate",
-			"name": "Spell Effect: Tempt Fate",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.GqvKSxzN7A7kuFk4]{Tempt Fate}</em>.</p>\n<p>The target gains a +1 status bonus to the triggering saving throw.</p>\n<p>If the saving throw's result is a success, it becomes a critical success. If it's a failure, it becomes a critical failure, and the critical failure can't be reduced by abilities that usually reduce critical failure, such as improved evasion.</p>\n<hr />\n<p><strong>Heightened (8th)</strong> The bonus on the saving throw is +2.</p>"
-		},
-		{
-			"id": "Spell Effect: Thicket of Knives",
-			"name": "呪文効果: シケット・オヴ・ナイヴズ",
-			"description": "<p>君は自分の武器の無数の幻影の写しを作り出し、自分の本当の動きを隠し、攻撃を予測できないようにする。君は〈欺瞞〉判定に+2ステータス・ボーナスを得る。もし、君が〈欺瞞〉に未修得であるとしても、君は「フェイント」を使うことが出来て、未修得であるにも関わらず、その判定に習熟ボーナスとして君のレベルを追加する。</p>"
+			"name": "呪文効果: 運命操作",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.GqvKSxzN7A7kuFk4]{運命操作}</em>による効果。</p>\n<p>対象はトリガーとなったセーヴィング・スローに+1ステータス・ボーナスを得る。</p>\n<p>もしそのセーヴィング・スローの結果が成功なら、クリティカルになる。もし失敗なら、ファンブルになる。そしてファンブルは、身かわし強化のような、通常、ファンブルを減少させるような能力によって減少させることが出来ない。</p>\n<hr />\n<p><strong>増強 (8レベル)</strong> セーヴィング・スローへのボーナスは+2になる。</p>"
 		},
 		{
 			"id": "Spell Effect: Thundering Dominance",
@@ -1738,23 +1458,18 @@
 		},
 		{
 			"id": "Spell Effect: Traveler's Transit (Climb)",
-			"name": "Spell Effect: Traveler's Transit (Climb)",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.LrhTFHUtSS9ahogL]{Traveler's Transit}</em>.</p>\n<p>You gain a climb speed equal to your land speed.</p>"
+			"name": "呪文効果: 旅の渡り (登攀)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.LrhTFHUtSS9ahogL]{旅の渡り}</em>による効果。</p>\n<p>君は地上速度に等しい登攀速度を得る。</p>"
 		},
 		{
 			"id": "Spell Effect: Traveler's Transit (Fly)",
-			"name": "Spell Effect: Traveler's Transit (Fly)",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.LrhTFHUtSS9ahogL]{Traveler's Transit}</em>.</p>\n<p>You gain a fly speed equal to your land speed.</p>"
+			"name": "呪文効果: 旅の渡り (飛行)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.LrhTFHUtSS9ahogL]{旅の渡り}</em>による効果。</p>\n<p>君は地上速度に等しい飛行速度を得る。</p>"
 		},
 		{
 			"id": "Spell Effect: Traveler's Transit (Swim)",
-			"name": "Spell Effect: Traveler's Transit (Swim)",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.LrhTFHUtSS9ahogL]{Traveler's Transit}</em>.</p>\n<p>You gain a swim speed equal to your land speed.</p>"
-		},
-		{
-			"id": "Spell Effect: Triple Time",
-			"name": "呪文効果: 三拍子",
-			"description": "<p><em>@Compendium[pf2e.spells-srd.c8R2fpk88fBwJ1ie]{三拍子}</em>による効果。</p>\n<p>移動速度に+10フィートのステータス・ボーナスを得る。</p>"
+			"name": "呪文効果: 旅の渡り (水泳)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.LrhTFHUtSS9ahogL]{旅の渡り}</em>による効果。</p>\n<p>君は地上速度に等しい水泳速度を得る。</p>"
 		},
 		{
 			"id": "Spell Effect: Unusual Anatomy",
@@ -1768,13 +1483,13 @@
 		},
 		{
 			"id": "Spell Effect: Veil of Dreams",
-			"name": "Spell Effect: Veil of Dreams",
-			"description": "<p>The target takes a -1 status penalty to Perception, attack rolls, and Will saves. This penalty increases to -2 for Will saves against sleep effects.</p>"
+			"name": "呪文効果: 夢のとばり",
+			"description": "<p>知覚、攻撃ロール、意志セーヴに－１ステータス・ペナルティを受ける。このペナルティは、睡眠効果に対する意志セーヴについては－2になる</p>"
 		},
 		{
 			"id": "Spell Effect: Vision of Weakness",
-			"name": "Spell Effect: Vision of Weakness",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.NhNKzq1DvFxkvTEc]{Vision of Weakness}</em></p>"
+			"name": "呪文効果: 弱点看破",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.NhNKzq1DvFxkvTEc]{弱点看破}</em>による効果。</p>"
 		},
 		{
 			"id": "Spell Effect: Warding Aggression (+1)",
@@ -1803,18 +1518,18 @@
 		},
 		{
 			"id": "Spell Effect: Wild Morph (Wild Claws)",
-			"name": "Spell Effect: Wild Morph (Wild Claws)",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.0xR9vrt6uDFl0Umo]{Wild Morph}</em>.</p>\n<p>Your hands transform into incredibly sharp claws. These claws are an unarmed attack you're trained in and deal 1d6 slashing damage each (agile, finesse).</p>"
+			"name": "呪文効果: 自然の変身 (自然の爪)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.0xR9vrt6uDFl0Umo]{自然の変身}</em>による効果。</p>\n<p>君の両手は信じがたいほど鋭い爪に変化する。これらの爪は君が修得している素手打撃で、それぞれが1d6の斬撃ダメージを与える（技巧、機敏）。</p>"
 		},
 		{
 			"id": "Spell Effect: Wild Morph (Wild Jaws)",
-			"name": "Spell Effect: Wild Morph (Wild Jaws)",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.0xR9vrt6uDFl0Umo]{Wild Morph}</em> if you have @Compendium[pf2e.feats-srd.OWedlrKGsVZVkSnT]{Insect Shape}.</p>\n<p>You transform your mouth into wild jaws, an unarmed attack you're trained in that deals 1d8 piercing damage.</p>"
+			"name": "呪文効果: 自然の変身 (自然の顎)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.0xR9vrt6uDFl0Umo]{自然の変身}</em>による効果。君が@Compendium[pf2e.feats-srd.OWedlrKGsVZVkSnT]{虫の化身}を持っている場合。</p>\n<p>君は口を自然の顎に変化させることが出来る。これは君が修得している素手打撃で、1d8の刺突ダメージを与える。</p>"
 		},
 		{
 			"id": "Spell Effect: Wild Morph (Wings)",
-			"name": "Spell Effect: Wild Morph (Wings)",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.0xR9vrt6uDFl0Umo]{Wild Morph}</em> if you have @Compendium[pf2e.feats-srd.wNHUryoRzlfDCFAd]{Soaring Shape}.</p>\n<p>You grow wings from your back. These wings allow you to fly with a fly Speed of 30 feet.</p>"
+			"name": "呪文効果: 自然の変身 (自然の翼)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.0xR9vrt6uDFl0Umo]{自然の変身}</em>による効果。@Compendium[pf2e.feats-srd.wNHUryoRzlfDCFAd]{空を舞う化身}を持っている場合。</p>\n<p>君は背中に翼を生やすことが出来る。これらの翼は君に飛行速度30フィートをでの飛行を可能にさせる。</p>"
 		},
 		{
 			"id": "Spell Effect: Wild Shape",
@@ -1823,8 +1538,8 @@
 		},
 		{
 			"id": "Spell Effect: Wind Jump",
-			"name": "Spell Effect: Wind Jump",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.kRxlkPPe6Gr7Du59]{Wind Jump}</em></p>\n<p>You gain a fly Speed equal to your Speed. You must end your turn on solid ground, or you fall.</p>"
+			"name": "呪文効果: 風の如き跳躍",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.kRxlkPPe6Gr7Du59]{風の如き跳躍}</em>による効果。</p>\n<p>君は速度に等しい飛行速度を得る。手番を固体の地面の上で終えなければ、君は落下する。</p>"
 		},
 		{
 			"id": "Spell Effect: Zealous Conviction",
@@ -1835,6 +1550,291 @@
 			"id": "Spell effect: Nudge the Odds",
 			"name": "Spell effect: Nudge the Odds",
 			"description": "<p>You bestow yourself supernaturally good luck at cards, dice, and other games of chance. You gain a +1 status bonus to Games Lore checks to gamble, and if you roll a critical failure on such a check, you get a failure instead; however, the spell is too short-lived to use for Earn Income checks from gambling.</p>\n<p>When you're under the effect of nudge the odds, one facial feature, such as a lock of hair or the iris of an eye, transforms to a distinctive golden color; the GM chooses which feature when you cast the spell. This change resists all magical efforts to conceal it, though it can be hidden or covered by mundane means. A creature noticing the feature can identify the spell using Recall Knowledge. Because it prevents losing big, gamblers consider nudge the odds a repugnant form of cheating. If you're caught using the spell, you are likely to suffer serious consequences, depending on the nature of the gamblers you cheated.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> The status bonus increases to +2, and the duration increases to last until the next time you make your daily preparations. If you continue spending your spell slot to keep the duration active, this allows you to apply the effect to a downtime check to Earn Income.</p>"
+		},
+		{
+			"id": "Effect: Guidance Immunity",
+			"name": "効果: ガイダンスの耐性",
+			"description": "<p>誰かが<em>@Compendium[pf2e.spells-srd.izcxFQFwf3woCnFs]{ガイダンス}</em>を君にかけた際の効果で、持続時間の間、君はこの呪文の効果に一時耐性を持つ。</p>"
+		},
+		{
+			"id": "Spell Effect: Inspire Defense",
+			"name": "呪文効果: I防御鼓舞の呪芸",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.bH0kPuf7UKxRvi2P]{《防御鼓舞の呪芸》}</em>による効果。</p>\n<p>君は、より効率的に防御を行うために味方を鼓舞する。範囲にいる君と君の全ての味方はACとセーヴィング・スローに+1ステータス・ボーナスと、物理的ダメージへの、呪文レベルの半分に等しい抵抗を得る。</p>\n<p><em>メモ:抵抗は自動的に追加されない。 </em></p>"
+		},
+		{
+			"id": "Spell Effect: Illusory Disguise",
+			"name": "呪文効果: イリュージョリィ・ディスガイズ",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.i35dpZFI7jZcRoBo]{イリュージョリィ・ディスガイズ}</em>による効果。</p>\n<p>君は同じ体の形をして、概ね似たような身長（6インチ以内）と体重（50ポンド以内）の別のクリーチャーのように自分を見せかける幻影を作り出す。この返送は一般的には素性を隠すのに十分であるが、特定の個人になりすますには十分ではない。この呪文は君の声、嗅覚、所作を変更することはない。君は、防具をドレスのように見せかけるなど、自分の衣類と身に着けているアイテムの見た目を変えることが出来る。持っているアイテムは影響を受けず、君が外した、身に着けていたアイテムは本当の姿に戻る。</p>\n<p>イリュージョリィ・ディスガイズを発動することは、〈欺瞞〉を使った@Compendium[pf2e.action-macros.k5nW4jGyXD0Oq9LR]{「なりすます」}には変装の準備としてみなされる；似ていないクリーチャーに自分を変装させる際の状況ペナルティを無視し、変装を見通させないための〈欺瞞〉に+4ステータス・ボーナスを与え、君は未修得でもその判定に自分のレベルを加えることが出来る。君はこの呪文を「解除」することが出来る。</p>\n<hr />\n<p><strong>増強（2レベル）</strong> この呪文はまた、君の声と匂いを変装させ、聴覚の特性を得る</p>\n<p><strong>増強（3レベル）</strong> 君は、たとえ特定の個人でも、同じサイズのあらゆるクリーチャーの見かけを取ることが出来る。君は見た目を真似するのにその個人を目にしたことがなければならない。この呪文はまた、君の声と匂いを変装させ、聴覚の特性を得る</p>"
+		},
+		{
+			"id": "Spell Effect: Guidance",
+			"name": "呪文効果: ガイダンス",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.izcxFQFwf3woCnFs]{ガイダンス}</em>による効果。</p>\n<p>君は神聖な導きを与え、持続時間が終了する前に対象が試みる、1回の攻撃ロール、知覚判定、セーヴィング・スローあるいは技能判定に+1ステータス・ボーナスを与える。対象はロールする前にこのボーナスをどのロールに使うかを選ぶ。もし対象がそのボーナスを使ったなら、呪文は終了する。どちらにせよ、対象はそれから1時間、一時的耐性を得る。</p>"
+		},
+		{
+			"id": "Spell Effect: Thicket of Knives",
+			"name": "呪文効果: シケット・オヴ・ナイヴズ",
+			"description": "<p>君は自分の武器の無数の幻影の写しを作り出し、自分の本当の動きを隠し、攻撃を予測できないようにする。君は〈欺瞞〉判定に+2ステータス・ボーナスを得る。もし、君が〈欺瞞〉に未修得であるとしても、君は「フェイント」を使うことが出来て、未修得であるにも関わらず、その判定に習熟ボーナスとして君のレベルを追加する。</p>"
+		},
+		{
+			"id": "Spell Effect: Shillelagh",
+			"name": "呪文効果: シャレイリ",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.s3abwDbTV43pGFFW]{シャレイリ}</em>による効果。</p>\n<p>対象は蔓や葉を生長させ、始原のエネルギーで満たされる。対象は君の手に中にある間、+1ストライキング武器となり、攻撃ロールに+1アイテム・ボーナスを得て、武器ダメージ・ダイスの数は2個に増える。更に、君が故郷の次元界にいる間、君が対象を使って異形、他次元界のクリーチャー、アンデッドに攻撃を行った際、武器ダメージ・ダイスを3つにする。</p>"
+		},
+		{
+			"id": "Spell Effect: Shield",
+			"name": "呪文効果: シールド",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.TVKNbcgTee19PXZR]{シールド}</em>による効果。</p>\n<p>自動的に適用される効果:</p>\n<ul>\n<li>ACに+1状況ボーナス</li>\n</ul>"
+		},
+		{
+			"id": "Spell Effect: Soothe",
+			"name": "呪文効果: スーズ",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.szIyEsvihc5e1w8n]{スーズ}</em>による効果。</p>\n<p>君の精神は敵対的な効果に対してを強化される。持続時間の間、精神効果に対するセーヴに君は+2ステータス・ボーナスを得る。</p>"
+		},
+		{
+			"id": "Spell Effect: Tanglefoot",
+			"name": "呪文効果: タングルフット",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.uZK2BYzPnxUBnDjr]{タングルフット}</em>による効果。</p>\n<p>蔓が君の移動を阻害する。君は速度に－10フィート状況ペナルティを受ける。</p>\n<hr />\n<p><em>メモ: 呪文が2レベルに増強された際には持続時間を2ラウンドにし、4レベルに増強した際には1分にする必要がある。</em></p>"
+		},
+		{
+			"id": "Spell Effect: Disrupting Weapons",
+			"name": "呪文効果: ディスラプティング・ウェポンズ",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.2iQKhCQBijhj5Rf3]{ディスラプティング・ウェポンズ}</em>による効果。</p>\n<p>君は武器に正のエネルギーを注ぎ込む。これらの武器での攻撃はアンデッドに1d4の正のエネルギーダメージを与える。</p>\n<hr />\n<p><strong>増強（3レベル）</strong> このダメージは2d4へと増加する</p>\n<p><strong>増強（5レベル）</strong> 3つまでの武器を対象として、ダメージは3d4へと増加する</p>"
+		},
+		{
+			"id": "Spell Effect: Forbidding Ward",
+			"name": "呪文効果: フォービディング・ワード",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.RA7VKcen3p56rVyZ]{フォービディング・ワード}</em>による効果。</p>\n<p>君は対象となった敵からの攻撃および敵対的な呪文から守られている。対象となった敵の攻撃、呪文、そのほかの効果に対してアーマー・クラスおよびセーヴィング・スローに+1ステータス・ボーナスを得る。</p>"
+		},
+		{
+			"id": "Spell Effect: Fleet Step",
+			"name": "呪文効果: フリート・ステップ",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.aEM2cttJ2eYcLssW]{フリート・ステップ}</em>による効果。</p>\n<p>君は速度に+30フィートのステータス・ボーナスを得る。</p>"
+		},
+		{
+			"id": "Spell Effect: Bless",
+			"name": "呪文効果: ブレス",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.XSujb7EsSwKl19Uu]{ブレス}</em>による効果。</p>\n<p>遠くからの祝福が君の攻撃を命中させてくれる。君は攻撃ロールに+1ステータス・ボーナスを得る。</p>"
+		},
+		{
+			"id": "Spell Effect: Protection from Good",
+			"name": "呪文効果: プロテクション（対善）",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.gMODOGamz88rgHuf]{プロテクション}</em>による効果。善のクリーチャーに対して発動された場合。 </p>\n<p>対象は善属性のクリーチャー及び効果に対して、アーマー・クラスとセーヴィング・スローに+1ステータス・ボーナスを得る。</p>\n<p>このボーナスは直接的に対象を支配する効果や、選んだ属性の招来されたクリーチャーに行われる攻撃に対しては+3に増加する。</p>"
+		},
+		{
+			"id": "Spell Effect: Protection from Evil",
+			"name": "呪文効果: プロテクション（対悪）",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.gMODOGamz88rgHuf]{プロテクション}</em>による効果。悪のクリーチャーに対して発動された場合。 </p>\n<p>対象は悪属性のクリーチャー及び効果に対して、アーマー・クラスとセーヴィング・スローに+1ステータス・ボーナスを得る。</p>\n<p>このボーナスは直接的に対象を支配する効果や、選んだ属性の招来されたクリーチャーに行われる攻撃に対しては+3に増加する。</p>"
+		},
+		{
+			"id": "Spell Effect: Protection from Chaotic",
+			"name": "呪文効果: プロテクション（対混沌）",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.gMODOGamz88rgHuf]{プロテクション}</em>による効果。混沌のクリーチャーに対して発動された場合。 </p>\n<p>対象は混沌属性のクリーチャー及び効果に対して、アーマー・クラスとセーヴィング・スローに+1ステータス・ボーナスを得る。</p>\n<p>このボーナスは直接的に対象を支配する効果や、選んだ属性の招来されたクリーチャーに行われる攻撃に対しては+3に増加する。</p>"
+		},
+		{
+			"id": "Spell Effect: Protection from Lawful",
+			"name": "呪文効果: プロテクション（対秩序）",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.gMODOGamz88rgHuf]{プロテクション}</em>による効果。秩序のクリーチャーに対して発動された場合。 </p>\n<p>対象は秩序属性のクリーチャー及び効果に対して、アーマー・クラスとセーヴィング・スローに+1ステータス・ボーナスを得る。</p>\n<p>このボーナスは直接的に対象を支配する効果や、選んだ属性の招来されたクリーチャーに行われる攻撃に対しては+3に増加する。</p>"
+		},
+		{
+			"id": "Spell Effect: Bane",
+			"name": "呪文効果: ベイン",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.7ZinJNzxq0XF0oMx]{ベイン}</em>による効果。</p>\n<p>疑念が君の精神を満たす。君はベインの範囲にいる限り、攻撃ロールに－1ステータス・ペナルティを受ける。</p>"
+		},
+		{
+			"id": "Spell Effect: Pest Form",
+			"name": "呪文効果: ペスト・フォーム",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.gfPjmG6Fe6D3MFjl]{ペスト・フォーム}</em>による効果。</p>\n<p>君はキャット、インセクト、リザード、ラットのような超小型の戦闘形態に変身する。君は動物の特定の種別を決めることが出来る（ラットやプレイング・マンティスなど）が、これは形態のサイズやステータスに影響しない。この形態でいる間、君は動物の特性を得る。君はこの呪文を「解除」することが出来る。</p>\n<p>君は下記のステータスと能力を得る:</p>\n<ul>\n<li>AC=15＋君のレベル　防具判定ペナルティと速度減少を無視すること</li>\n<li>速度　10フィート</li>\n<li>弱点　物理ダメージに対して5（もし君がこの形態でいる時に物理ダメージを受けたなら、5点の追加ダメージを得る）</li>\n<li>夜目と不明瞭な嗅覚30フィート</li>\n<li>君の修正値がそれより高くない限り、〈軽業〉と〈隠密〉の修正値+10；〈運動〉修正値-4</li>\n</ul>\n<hr />\n<p><strong>増強（4レベル）</strong> 君はバードのような飛行するクリーチャーに変化することが出来て、20フィートの飛行速度を得る。</p>\n<p>@Compendium[pf2e.spell-effects.ydsLEGjY89Akc4oZ]{呪文効果: ペスト・フォーム}</p>"
+		},
+		{
+			"id": "Spell Effect: Mage Armor",
+			"name": "呪文効果: メイジ・アーマー",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.aAbfKn8maGjJjk2W]{メイジ・アーマー}</em>による効果。</p>\n<p>君は自分自身を、きらめく魔法のエネルギーで守り、最大敏捷力修正値+5とACへの+1アイテム・ボーナスを得る。メイジ・アーマーを着用している間、君はACの計算のために生身への習熟を用いる。</p>"
+		},
+		{
+			"id": "Spell Effect: Ray of Frost",
+			"name": "呪文効果: レイ・オヴ・フロスト",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.gYjPm7YwGtEa1oxh]{レイ・オヴ・フロスト}</em>による効果。</p>\n<p>この冷気は君の骨を凍てつかせ、君は1ラウンド、速度に－10フィートのステータス・ペナルティを受ける。</p>"
+		},
+		{
+			"id": "Spell Effect: Triple Time",
+			"name": "呪文効果: 三拍子",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.c8R2fpk88fBwJ1ie]{三拍子}</em>による効果。</p>\n<p>移動速度に+10フィートのステータス・ボーナスを得る。</p>"
+		},
+		{
+			"id": "Spell Effect: Agile Feet",
+			"name": "呪文効果: 俊敏なる足",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.cOjlzWerBwbPWVkX]{俊敏なる足}</em>による効果。</p>\n<p>君は移動速度に+5フィートのステータス・ボーナスを得る。</p>"
+		},
+		{
+			"id": "Spell Effect: Inspire Courage",
+			"name": "呪文効果: 勇気鼓舞の呪芸",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.IAjvwqgiDr3qGYxY]{《勇気鼓舞の呪芸》}</em>による効果。</p>\n<p>君は味方を激励の言葉か曲で鼓舞する。範囲内の君と全ての味方は攻撃ロール、ダメージロール、そして恐怖効果に対するセーヴに+1ステータス・ボーナスを得る。</p>"
+		},
+		{
+			"id": "Spell Effect: Animal Feature (Owl Eyes)",
+			"name": "呪文効果: 動物の特徴取得 (梟の目)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.vGEgI8e7AW6FQ3tP]{動物の特徴取得}</em>による効果。</p>\n<p>君は暗視を得る</p>"
+		},
+		{
+			"id": "Spell Effect: Animal Feature (Claws)",
+			"name": "呪文効果: 動物の特徴取得 (爪)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.vGEgI8e7AW6FQ3tP]{動物の特徴取得}</em>による効果。</p>\n<p>君は[[/r {1d6}[斬撃]]]{1d6 斬撃ダメージ}を与え、機敏、巧技、そして素手の特性を持つ爪の攻撃を得る。</p>"
+		},
+		{
+			"id": "Spell Effect: Animal Feature (Cat Eyes)",
+			"name": "呪文効果: 動物の特徴取得 (猫の目)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.vGEgI8e7AW6FQ3tP]{動物の特徴取得}</em>による効果。</p>\n<p>君は夜目を得る。</p>"
+		},
+		{
+			"id": "Spell Effect: Animal Feature (Wings)",
+			"name": "呪文効果: 動物の特徴取得 (翼)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.vGEgI8e7AW6FQ3tP]{動物の特徴取得}</em>による効果。</p>\n<p>君は地上速度に等しい飛行速度を得る</p>"
+		},
+		{
+			"id": "Spell Effect: Animal Feature (Jaws)",
+			"name": "呪文効果: 動物の特徴取得 (顎)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.vGEgI8e7AW6FQ3tP]{動物の特徴取得}</em>による効果。</p>\n<p>君は[[/r {1d8}[刺突]]]{1d8 刺突ダメージ}を与え、素手の特性を持つ顎の攻撃を得る。</p>"
+		},
+		{
+			"id": "Spell Effect: Animal Feature (Fish Tail)",
+			"name": "呪文効果: 動物の特徴取得 (魚の尾)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.vGEgI8e7AW6FQ3tP]{動物の特徴取得}</em>による効果。</p>\n<p>君は地上速度に等しい水泳速度を得る</p>"
+		},
+		{
+			"id": "Spell Effect: Ki Strike (Force)",
+			"name": "呪文効果: 気の打撃 (力場)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.ZL8NTvB22NeEWhVG]{気の打撃}</em>による効果で、力場を選んでいる。</p>"
+		},
+		{
+			"id": "Spell Effect: Ki Strike (Earth)",
+			"name": "呪文効果: 気の打撃 (地)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.ZL8NTvB22NeEWhVG]{気の打撃}</em>による効果。君が@Compendium[pf2e.feats-srd.BU4NBIBkVZxdWLLH]{《エレメンタルの拳》}を持っていて、地を選んでいる場合。</p>"
+		},
+		{
+			"id": "Spell Effect: Ki Strike (Evil)",
+			"name": "呪文効果: 気の打撃 (悪)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.ZL8NTvB22NeEWhVG]{気の打撃}</em>による効果。君が@Compendium[pf2e.feats-srd.Ux0DSklFlIlcvnhO]{《聖なる気》} を持っていて、悪を選んでいる場合。</p>"
+		},
+		{
+			"id": "Spell Effect: Ki Strike (Positive)",
+			"name": "呪文効果: 気の打撃 (正のエネルギー)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.ZL8NTvB22NeEWhVG]{気の打撃}</em>による効果。正のエネルギーを選んでいる場合。</p>"
+		},
+		{
+			"id": "Spell Effect: Ki Strike (Chaotic)",
+			"name": "呪文効果: 気の打撃 (混沌)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.ZL8NTvB22NeEWhVG]{気の打撃}</em>による効果。君が@Compendium[pf2e.feats-srd.Ux0DSklFlIlcvnhO]{《聖なる気》} を持っていて、混沌を選んでいる場合。</p>"
+		},
+		{
+			"id": "Spell Effect: Ki Strike (Fire)",
+			"name": "呪文効果: 気の打撃 (火)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.ZL8NTvB22NeEWhVG]{気の打撃}</em>による効果。君が@Compendium[pf2e.feats-srd.BU4NBIBkVZxdWLLH]{《エレメンタルの拳》}を持っていて、火を選んでいる場合。</p>"
+		},
+		{
+			"id": "Spell Effect: Ki Strike (Lawful)",
+			"name": "呪文効果: 気の打撃 (秩序)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.ZL8NTvB22NeEWhVG]{気の打撃}</em>による効果で、秩序を選んでいる（もし、君が秩序なら） a</p>\n<p>あるいは、<em>@Compendium[pf2e.spells-srd.ZL8NTvB22NeEWhVG]{気の打撃}</em>の効果で、@Compendium[pf2e.feats-srd.Ux0DSklFlIlcvnhO]{《聖なる気》}を持っていて、秩序を選んでいる場合。 </p>"
+		},
+		{
+			"id": "Spell Effect: Ki Strike (Negative)",
+			"name": "呪文効果: 気の打撃 (負のエネルギー)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.ZL8NTvB22NeEWhVG]{気の打撃}</em>による効果。負のエネルギーを選んでいる場合。</p>"
+		},
+		{
+			"id": "Spell Effect: Ki Strike (Air)",
+			"name": "呪文効果: 気の打撃 (風)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.ZL8NTvB22NeEWhVG]{気の打撃}</em>による効果。君が @Compendium[pf2e.feats-srd.BU4NBIBkVZxdWLLH]{《エレメンタルの拳》}を持っていて、風を選んでいる場合。 </p>"
+		},
+		{
+			"id": "Spell Effect: Lay on Hands",
+			"name": "呪文効果: 癒しの手",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.zNN9212H2FGfM7VS]{癒しの手}</em>による効果。</p>\n<p>もしその対象が味方の一人であるなら、そのクリーチャーは1ラウンド、ACに+2ステータス・ボーナスを得る。</p>"
+		},
+		{
+			"id": "Spell Effect: Competitive Edge",
+			"name": "呪文効果: 競争心の刃",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.NOB92Wpn7jXvtyVW]{競争心の刃}</em>による効果。</p>\n<p>君は攻撃ロールと技能判定に+1ステータス・ボーナスを得る。もし20フィート以内の敵1体が攻撃ロールあるいは技能判定にクリティカルしたなら、君の攻撃ロールあるいはその特定の技能判定（敵がクリティカルしたもの）へのステータス・ボーナスは、1ラウンド、+3へと上昇する。</p>\n<hr />\n<p><strong>増強（7レベル）</strong> 基礎ボーナスを+2に増加させ、敵がクリティカルした後の上昇値を+4へと増加させる。</p>"
+		},
+		{
+			"id": "Spell Effect: Song of Strength",
+			"name": "呪文効果: 筋力の歌",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.Xxdwkt0EEDgP1LGc]{筋力の歌}による効果。</em></p>\n<p>君は心のこもった激励で味方の物理的な強さを強化する。君と君の味方は、〈軽業〉判定と「武器落とし」、「押しやり」、「足払い」といった〈軽業〉技能アクションに対するDCに+1ステータス・ボーナスを得る。</p>\n<p>特殊 英雄譚鼓舞の創意呪文を持っている場合、勇気鼓舞の呪芸や防御鼓舞の呪芸と同じように、英雄譚鼓舞を使って筋力の歌のボーナスを向上させることが出来る。</p>\n<p><em>メモ: DCへのボーナスは自動的に追加されない。</em></p>"
+		},
+		{
+			"id": "Spell Effect: Inspire Heroics (Courage, +2)",
+			"name": "呪文効果: 英雄譚鼓舞 (勇気鼓舞、+2)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.kF0rs9mCPvJGfAZE]{英雄譚鼓舞}</em>の成功によって強化された<em>@Compendium[pf2e.spells-srd.IAjvwqgiDr3qGYxY]{勇気鼓舞の呪芸}</em>の効果。</p>\n<p>君は激励の言葉や音楽によってインスパイアされる。君は攻撃ロール、ダメージ・ロール恐怖効果へのセーヴに+2ステータス・ボーナスを得る。</p>"
+		},
+		{
+			"id": "Spell Effect: Inspire Heroics (Courage, +3)",
+			"name": "呪文効果: 英雄譚鼓舞 (勇気鼓舞、+3)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.kF0rs9mCPvJGfAZE]{英雄譚鼓舞}</em>のクリティカルによって強化された<em>@Compendium[pf2e.spells-srd.IAjvwqgiDr3qGYxY]{勇気鼓舞の呪芸}</em>の効果。</p>\n<p>君は激励の言葉や音楽によってインスパイアされる。君は攻撃ロール、ダメージ・ロール恐怖効果へのセーヴに+3ステータス・ボーナスを得る。</p>"
+		},
+		{
+			"id": "Spell Effect: Inspire Heroics (Strength, +2)",
+			"name": "呪文効果: 英雄譚鼓舞 (筋力の歌、+2)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.kF0rs9mCPvJGfAZE]{英雄譚鼓舞}</em>の成功によって強化された<em>@Compendium[pf2e.spells-srd.Xxdwkt0EEDgP1LGc]{筋力の歌}</em>の効果。</em></p>\n<p>君は心のこもった激励で味方の物理的な強さを強化する。君と君の味方は、〈軽業〉判定と「武器落とし」、「押しやり」、「足払い」といった〈軽業〉技能アクションに対するDCに+2ステータス・ボーナスを得る。</p>\n<p><em>メモ: DCへのボーナスは自動的に追加されない。</em></p>"
+		},
+		{
+			"id": "Spell Effect: Inspire Heroics (Strength, +3)",
+			"name": "呪文効果: 英雄譚鼓舞 (筋力の歌、+3)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.kF0rs9mCPvJGfAZE]{英雄譚鼓舞}</em>のクリティカルによって強化された<em>@Compendium[pf2e.spells-srd.Xxdwkt0EEDgP1LGc]{筋力の歌}</em>の効果。</em></p>\n<p>君は心のこもった激励で味方の物理的な強さを強化する。君と君の味方は、〈軽業〉判定と「武器落とし」、「押しやり」、「足払い」といった〈軽業〉技能アクションに対するDCに+2ステータス・ボーナスを得る。</p>\n<p><em>メモ: DCへのボーナスは自動的に追加されない。</em></p>"
+		},
+		{
+			"id": "Spell Effect: Inspire Heroics (Defense, +2)",
+			"name": "呪文効果: 英雄譚鼓舞 (防御鼓舞、+2)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.kF0rs9mCPvJGfAZE]{英雄譚鼓舞}</em>の成功によって強化された<em>@Compendium[pf2e.spells-srd.IAjvwqgiDr3qGYxY]{防御鼓舞の呪芸}</em>の効果。</p>\n<p>君は自分の味方をもっと効率的に守るようにインスパイアする。君と範囲内の全ての味方はACとセーヴィング・スローに+2ステータス・ボーナス、そして呪文レベルの半分に等しい物理的ダメージへの抵抗を得る。</p>\n<p><em>メモ: 抵抗は自動的に追加されない。</em></p>"
+		},
+		{
+			"id": "Spell Effect: Inspire Heroics (Defense, +3)",
+			"name": "呪文効果: 英雄譚鼓舞 (防御鼓舞、+3)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.kF0rs9mCPvJGfAZE]{英雄譚鼓舞}</em>のクリティカルによって強化された<em>@Compendium[pf2e.spells-srd.IAjvwqgiDr3qGYxY]{防御鼓舞の呪芸}</em>の効果。</p>\n<p>君は自分の味方をもっと効率的に守るようにインスパイアする。君と範囲内の全ての味方はACとセーヴィング・スローに+3ステータス・ボーナス、そして呪文レベルの半分に等しい物理的ダメージへの抵抗を得る。</p>\n<p><em>メモ: 抵抗は自動的に追加されない。</em></p>"
+		},
+		{
+			"id": "Spell Effect: Athletic Rush",
+			"name": "呪文効果: 軽業の匠",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.UGJzJRJDoonfWqqI]{《軽業の匠》}</em>による効果。</p>\n<p>君は移動速度に+10フィートのステータス・ボーナスと〈軽業〉判定に+2ステータス・ボーナスを得る。</p>"
+		},
+		{
+			"id": "Spell Effect: Gravity Weapon (1 Die)",
+			"name": "呪文効果: 重力の武器 (1ダイス）",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.IWUe32Y5k2QFd7YQ]{重力の武器}</em>による効果。君の武器が1ダイスのダメージを与える場合。</p>"
+		},
+		{
+			"id": "Spell Effect: Gravity Weapon (2 Dice)",
+			"name": "呪文効果: 重力の武器 (2ダイス）",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.IWUe32Y5k2QFd7YQ]{重力の武器}</em>による効果。君の武器が2ダイスのダメージを与える場合。</p>"
+		},
+		{
+			"id": "Spell Effect: Gravity Weapon (3 Dice)",
+			"name": "呪文効果: 重力の武器 (3ダイス）",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.IWUe32Y5k2QFd7YQ]{重力の武器}</em>による効果。君の武器が3ダイスのダメージを与える場合。</p>"
+		},
+		{
+			"id": "Spell Effect: Gravity Weapon (4 Dice)",
+			"name": "呪文効果: 重力の武器 (4ダイス）",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.IWUe32Y5k2QFd7YQ]{重力の武器}</em>による効果。君の武器が4ダイスのダメージを与える場合。</p>"
+		},
+		{
+			"id": "Spell Effect: Ki Strike (Good)",
+			"name": "呪文効果:気の打撃 (善)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.ZL8NTvB22NeEWhVG]{気の打撃}</em>による効果。君が@Compendium[pf2e.feats-srd.Ux0DSklFlIlcvnhO]{《聖なる気》} を持っていて、善を選んでいる場合。</p>"
+		},
+		{
+			"id": "Spell Effect: Ki Strike (Water)",
+			"name": "呪文効果:気の打撃 （水）",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.ZL8NTvB22NeEWhVG]{気の打撃}</em>による効果。君が@Compendium[pf2e.feats-srd.BU4NBIBkVZxdWLLH]{《エレメンタルの拳》}を持っていて、水を選んでいる場合。</p>"
+		},
+		{
+			"id": "Spell Effect: Downpour",
+			"name": "呪文効果:豪雨",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.K4LXpaBWrGy6jIER]{豪雨}</em>による効果。</p>"
+		},
+		{
+			"id": "Spell Effect: Magic Hide",
+			"name": "呪文効果：魔法の毛皮",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.u2uSeH6YSbK1ajTy]{魔法の毛皮}</em>による効果。</p>"
 		}
 	]
 }
