@@ -3,7 +3,7 @@
 * **製作者**: Brother Sharp (ディスコード：Brother Sharp#6921)
 * **翻訳ファイル提供者**: kahlua_yohko
 * **辞典翻訳ファイル提供者**: kahlua_yohko
-* **modバージョン**: 1.2
+* **modバージョン**: 1.3
 
 ### インストール方法
 
