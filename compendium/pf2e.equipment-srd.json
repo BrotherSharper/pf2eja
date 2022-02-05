@@ -104,7 +104,7 @@
 		{
 			"id": "Acid Spitter",
 			"name": "Acid Spitter",
-			"description": "<p>This tin clockwork lizard is activated when a creature moves adjacent to it, at which point it spits out a glob of acid. The target must succeed at a <span data-pf2-check=\"reflex\" data-pf2-dc=\"20\" data-pf2-traits=\"acid,clockwork,mechanical,snare,trap\" data-pf2-label=\"Acid Spitter DC\" data-pf2-show-dc=\"gm\">Reflex</span> saving throw or take [[/r {3d6}[acid]]]{3d6 acid damage}.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes full damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and [[/r {5}[persistent,acid]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Acid Damage}.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and [[/r {10}[persistent,acid]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Acid Damage}.</p>"
+			"description": "<p>このブリキの時計仕掛けのトカゲは、クリーチャーが隣接して移動すると起動し、その時に酸の塊を吐き出す。対象者は<span data-pf2-check=\"reflex\" data-pf2-dc=\"20\" data-pf2-traits=\"acid,clockwork,mechanical,snare,trap\" data-pf2-label=\"アシッド・スピッター DC\" data-pf2-show-dc=\"gm\">反応</span>セーヴィング・スローに成功しなければ、[[/r {3d6}[強酸]]]{3d6点の強酸ダメージ}を受ける。</p>\n<hr />\n<p><strong>クリティカル</strong> クリーチャーは影響を受けない</p>\n<p><strong>成功</strong> クリーチャーは完全なダメージを受ける</p>\n<p><strong>失敗</strong> クリーチャーは完全なダメージを受け、[[/r {5}[継続、強酸]]] 点の@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続強酸ダメージ}を受ける</p>\n<p><strong>ファンブル</strong> クリーチャーは2倍のダメージを受け、[[/r {10}[継続、強酸]]] 点の@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続強酸ダメージ}を受ける</p>"
 		},
 		{
 			"id": "Acrobat's Staff",
@@ -148,23 +148,23 @@
 		},
 		{
 			"id": "Addiction Suppressant (Greater)",
-			"name": "Addiction Suppressant (Greater)",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Interact</p>\n<p>When you use a dose of addiction suppressant, it suppresses the effects of that addiction for 1 day, as if you had taken an actual dose of the drug but without any of the drug's effects, and it doesn't increase the addiction DC. You also gain a +3 item bonus against the ongoing save against the drug's addiction depending on the type of addiction suppressant.</p>\n<p>For every drug, a specific suppressant must be crafted- no generalized addiction suppressant yet exists. In order to create an addiction suppressant, you must begin with a dose of the drug to be suppressed, then use alchemical reagents to generate an elixir that can be used to fight that drug's addiction. An addiction suppressant must be a higher level than the drug it is meant to suppress in order to work.</p>"
+			"name": "アディクション・サプレサント (グレーター)",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">A</span> 使用</p>\n<p>一服のアディクション・サプレサントを使った際、これは1日間、実際に薬物を一服、服用したかのように中毒の効果を抑制するが、薬物の効果をもたらすことはなく、中毒DCを増加させることもない。君はまた、アディクション・サプレサントの種別に応じて、薬物の中毒に対する持続中のセーヴに+3アイテム・ボーナスを得る。</p>\n<p>あらゆる薬物のために、特定の抑制剤が製造されなければならない――一般化されたアディクション・サプレサントはまだ存在しない。アディクション・サプレサントを製造するためには、君はまず、抑制すべき薬物から始めなければならない。それから、その薬物の中毒と闘うのに使うことが出来るエリクサーを生成するための錬金術試薬を使う。アディクション・サプレサントが機能するためには、抑制すべき薬物よりもレベルが高くなければならない。</p>"
 		},
 		{
 			"id": "Addiction Suppressant (Lesser)",
-			"name": "Addiction Suppressant (Lesser)",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Interact</p>\n<p>When you use a dose of addiction suppressant, it suppresses the effects of that addiction for 1 day, as if you had taken an actual dose of the drug but without any of the drug's effects, and it doesn't increase the addiction DC. You also gain a +1 item bonus against the ongoing save against the drug's addiction depending on the type of addiction suppressant.</p>\n<p>For every drug, a specific suppressant must be crafted- no generalized addiction suppressant yet exists. In order to create an addiction suppressant, you must begin with a dose of the drug to be suppressed, then use alchemical reagents to generate an elixir that can be used to fight that drug's addiction. An addiction suppressant must be a higher level than the drug it is meant to suppress in order to work.</p>"
+			"name": "アディクション・サプレサント (レッサー)",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">A</span> 使用</p>\n<p>一服のアディクション・サプレサントを使った際、これは1日間、実際に薬物を一服、服用したかのように中毒の効果を抑制するが、薬物の効果をもたらすことはなく、中毒DCを増加させることもない。君はまた、アディクション・サプレサントの種別に応じて、薬物の中毒に対する持続中のセーヴに+1アイテム・ボーナスを得る。</p>\n<p>あらゆる薬物のために、特定の抑制剤が製造されなければならない――一般化されたアディクション・サプレサントはまだ存在しない。アディクション・サプレサントを製造するためには、君はまず、抑制すべき薬物から始めなければならない。それから、その薬物の中毒と闘うのに使うことが出来るエリクサーを生成するための錬金術試薬を使う。アディクション・サプレサントが機能するためには、抑制すべき薬物よりもレベルが高くなければならない。</p>"
 		},
 		{
 			"id": "Addiction Suppressant (Major)",
-			"name": "Addiction Suppressant (Major)",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Interact</p>\n<p>When you use a dose of addiction suppressant, it suppresses the effects of that addiction for 1 day, as if you had taken an actual dose of the drug but without any of the drug's effects, and it doesn't increase the addiction DC. You also gain a +4 item bonus against the ongoing save against the drug's addiction depending on the type of addiction suppressant.</p>\n<p>For every drug, a specific suppressant must be crafted- no generalized addiction suppressant yet exists. In order to create an addiction suppressant, you must begin with a dose of the drug to be suppressed, then use alchemical reagents to generate an elixir that can be used to fight that drug's addiction. An addiction suppressant must be a higher level than the drug it is meant to suppress in order to work.</p>"
+			"name": "アディクション・サプレサント (メジャー)",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">A</span> 使用</p>\n<p>一服のアディクション・サプレサントを使った際、これは1日間、実際に薬物を一服、服用したかのように中毒の効果を抑制するが、薬物の効果をもたらすことはなく、中毒DCを増加させることもない。君はまた、アディクション・サプレサントの種別に応じて、薬物の中毒に対する持続中のセーヴに+4アイテム・ボーナスを得る。</p>\n<p>あらゆる薬物のために、特定の抑制剤が製造されなければならない――一般化されたアディクション・サプレサントはまだ存在しない。アディクション・サプレサントを製造するためには、君はまず、抑制すべき薬物から始めなければならない。それから、その薬物の中毒と闘うのに使うことが出来るエリクサーを生成するための錬金術試薬を使う。アディクション・サプレサントが機能するためには、抑制すべき薬物よりもレベルが高くなければならない。</p>"
 		},
 		{
 			"id": "Addiction Suppressant (Moderate)",
-			"name": "Addiction Suppressant (Moderate)",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Interact</p>\n<p>When you use a dose of addiction suppressant, it suppresses the effects of that addiction for 1 day, as if you had taken an actual dose of the drug but without any of the drug's effects, and it doesn't increase the addiction DC. You also gain a +2 item bonus against the ongoing save against the drug's addiction depending on the type of addiction suppressant.</p>\n<p>For every drug, a specific suppressant must be crafted- no generalized addiction suppressant yet exists. In order to create an addiction suppressant, you must begin with a dose of the drug to be suppressed, then use alchemical reagents to generate an elixir that can be used to fight that drug's addiction. An addiction suppressant must be a higher level than the drug it is meant to suppress in order to work.</p>"
+			"name": "アディクション・サプレサント（モデレート）",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">A</span> 使用</p>\n<p>一服のアディクション・サプレサントを使った際、これは1日間、実際に薬物を一服、服用したかのように中毒の効果を抑制するが、薬物の効果をもたらすことはなく、中毒DCを増加させることもない。君はまた、アディクション・サプレサントの種別に応じて、薬物の中毒に対する持続中のセーヴに+2アイテム・ボーナスを得る。</p>\n<p>あらゆる薬物のために、特定の抑制剤が製造されなければならない――一般化されたアディクション・サプレサントはまだ存在しない。アディクション・サプレサントを製造するためには、君はまず、抑制すべき薬物から始めなければならない。それから、その薬物の中毒と闘うのに使うことが出来るエリクサーを生成するための錬金術試薬を使う。アディクション・サプレサントが機能するためには、抑制すべき薬物よりもレベルが高くなければならない。</p>"
 		},
 		{
 			"id": "Addlebrain",
@@ -173,8 +173,8 @@
 		},
 		{
 			"id": "Admonishing Band",
-			"name": "Admonishing Band",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">a</span> envision</p>\n<p><strong>Requirements</strong> You're trained in Intimidation.</p>\n<hr />\n<p>This wide strip of treated lizard hide is wrapped around the grip or stock of the affixed weapon, augmenting the unease that your gunshot creates. When you activate it, you fire your gun into the air with the effects of @Compendium[pf2e.feats-srd.XQEoKoFtq8n3wgA3]{Warning Shot}. If you already have the Warning Shot feat, the target doesn't become temporarily immune to your Demoralize, potentially allowing you to Demoralize them again.</p>"
+			"name": "アドモニッシング・バンド",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">a</span> 想念</p>\n<p><strong>条件</strong> 君が〈威圧〉に修得である</p>\n<hr />\n<p>この幅の広い、処理されたトカゲの革で出来た紐は持ち手の周囲や接着された武器のストック部分を包んでおり、君の銃撃が作り出す威力を強める。起動した際、君は@Compendium[pf2e.feats-srd.XQEoKoFtq8n3wgA3]{「威嚇射撃」}の効果を持つ銃撃を空中に放つ。もし、君が既に「威嚇射撃」の特技を持っているのなら、対象は君の「士気をくじく」に一時的に耐性を持ち、更に「士気をくじく」ことが出来る。</p>"
 		},
 		{
 			"id": "Advanced Book of Translation (Tien)",
@@ -183,8 +183,8 @@
 		},
 		{
 			"id": "Adze",
-			"name": "Adze",
-			"description": "<p>A common cutting tool, an adze resembles an axe—but the cutting edge is horizontal, rather than vertical. The adze's shape makes it popular among wood workers, and grippli builders often use them to construct their treetop homes. The tool also serves as an effective weapon, due in part to the immense strength required to swing it.</p>"
+			"name": "アッズ",
+			"description": "<p>一般的な伐採道具であるアッズは斧に似ている――しかし、その刃は垂直ではなく水平である。アッズはその形によって伐採業者の間では人気が高いが、グリプリーの建築家はしばしば、それを樹上の自分達の家を作るのに使う。この道具はまた、振り回すのに強い筋力が必要であることもあり、効率的な武器のように切断することが出来る。</p>"
 		},
 		{
 			"id": "Aeon Stone (Agate Ellipsoid)",
@@ -193,8 +193,8 @@
 		},
 		{
 			"id": "Aeon Stone (Azure Briolette)",
-			"name": "Aeon Stone (Azure Briolette)",
-			"description": "<p>This aeon stone must be activated to provide a benefit.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"pf2-icon\">R</span> envision;</p>\n<p><strong>Trigger</strong> An enemy fails its save against a mental spell you cast using one of your spell slots;</p>\n<p><strong>Effect</strong> You gain temporary Hit Points equal to twice the spell's level until your next turn.</p>\n<p>The resonant power grants a separate activation.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"pf2-icon\">2</span> command, Interact;</p>\n<p><strong>Frequency</strong> once per day;</p>\n<p><strong>Effect</strong> You gain the effect of a <em>@Compendium[pf2e.spells-srd.mAMEt4FFbdqoRnkN]{Chill Touch}</em> arcane cantrip.</p>"
+			"name": "アイウーン・ストーン（空色の涙型）",
+			"description": "<p>このアイウーン・ストーンは、利益を得るために起動しなければならない。</p>\n<hr />\n<p><strong>起動</strong> <span class=\"pf2-icon\">R</span> 想念;</p>\n<p><strong>トリガー</strong> 敵が、君が呪文スロットを使って発動した精神呪文に対するセーヴに失敗する;</p>\n<p><strong>効果</strong> 君は次の手番まで呪文レベルの2倍に等しい一時的ヒット・ポイントを得る</p>\n<p>共鳴パワーは違う起動方法を与える。</p>\n<hr />\n<p><strong>起動</strong> <span class=\"pf2-icon\">2</span> 合言葉、使用;</p>\n<p><strong>頻度</strong> 1日に1回;</p>\n<p><strong>効果</strong> 君は<em>@Compendium[pf2e.spells-srd.mAMEt4FFbdqoRnkN]{チル・タッチ}</em>の秘術キャントリップの効果を得る。</p>"
 		},
 		{
 			"id": "Aeon Stone (Black Pearl)",

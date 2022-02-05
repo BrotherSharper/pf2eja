@@ -481,6 +481,18 @@
         "DisableAutomation": "オート無効"
       },
       "Actor": {
+        "ApplyDamage": {
+            "AtFullHealth": "{actor}は既に全快している",
+            "DamagedForN": "{actor} は {hpDamage} 点のダメージを受けた",
+            "ShieldAbsorbsAll": "{actor} はダメージを受けず、盾は完全に{absorbedDamage}点のダメージを吸収した",
+            "DamagedForNShield": "{actor}の盾は{absorbedDamage}点のダメージを吸収し、{hpDamage}点のダメージが通り抜けた。",
+            "HealedForN": "{actor} は {hpDamage}点を回復した",
+            "ShieldDamagedForN": "キャラクターの盾は{shieldDamage}点のダメージを受けた",
+            "ShieldDamagedForNBroken": "キャラクターの盾は{shieldDamage}点のダメージを受け、破損した",
+            "ShieldDamagedForNDestroyed": "Tキャラクターの盾は{shieldDamage}点のダメージを受け、破壊された",
+            "ShieldNotRaised": "{actor} は盾を掲げていない",
+            "TakesNoDamage": "{actor} はダメージを受けなかった"
+        },
         "Character": {
             "AncestryClass": "{ancestry} {class}"
         },
@@ -685,6 +697,7 @@
         "Pseudopod": "触肢",
         "Rock": "岩",
         "Spine": "脊骨",
+        "Spikes": "棘",
         "Stinger": "針",
         "Sunbeam": "陽光",
         "Tail": "尾",
@@ -804,6 +817,7 @@
   "ClassTitle": "君のキャラクターのクラス",
   "ClickToSetInitiative": "クリックして選んだトークンにイニシアチブをセット",
   "ClickToSetInitiativeContext": "イニシアチブとしてセット",
+  "ClipboardNotification": "\"{clipText}\" をクリップボードにコピーしました",
   "ColdIronStrikes": "冷たい鉄の打撃",
   "CompendiumDirectory": {
       "Folders": {
@@ -822,6 +836,8 @@
       "CompendiumBrowser": {
         "AddedItem":"{item} を選択中のアクターに追加しました.",
         "AddedItemToCharacter":"{item} を {character} に追加しました",
+        "BestiaryBrowser": "ベスティアリ・ブラウザ",
+        "Hint": "上のタブを使って辞書を選んで下さい",
         "ProgressBar":{
            "LoadingPack":"{pack}をロード中",
            "LoadingComplete":"ロード完了"
@@ -1037,6 +1053,11 @@
             "PluralNew": "{actor} の一時HPが{newQuantity} 点になった：前は{wasAt}：{item}の効果",
             "SingleNew": "{actor} の一時HPが {newQuantity} 点になった：前は{wasAt}：{item}の効果",
             "WasAt": " (前は{oldQuantity}点だった)"
+        },
+        "FastHealing": {
+            "FastHealingLabel": "高速治癒による回復",
+            "RegenerationLabel": "再生による回復",
+            "DeactivatedBy": "{types}によって抑制"
         }
     },
     "Budget": {
@@ -1085,7 +1106,9 @@
   "EffectsLabel": "効果",
   "EffectPanel": {
       "AppliedBy": "{condition-list}によって適用",
+      "DecrementToolTip": "[右クリック] 値の減少",
       "Expired": "期限切れ",
+      "IncrementToolTip": "[左クリック] 値の増加",
       "RemainingDuration": {
           "MultipleYears": "あと{years}年",
           "SingleYear": "あと1年",
@@ -1101,6 +1124,7 @@
           "ZeroRoundsExpireTurnEnd": "あと0ラウンド、イニシアチブ{initiative}の終了時に無効になる",
           "ZeroRoundsExpireTurnStart": "あと0ラウンド、イニシアチブ{initiative}の開始時に無効になる"
         },
+        "RemoveToolTip": "[右クリック] 効果を取り除く",
         "Sustained": "維持しますか？",
         "UnlimitedDuration": "持続時間無制限",
         "UntilEncounterEnds": "遭遇が終了するまで"
@@ -1110,6 +1134,7 @@
   "EquippedBulkLabel": "着用時バルク",
   "EquippedSameBulkValue": "運搬時と同じ",
   "ErrorMessage": {
+    "WeaponQuantityZero": "君にはその武器をこれ以上、装備していない",
         "ActorMustHaveToken": "トークンのないアクターに状態を追加する機能は現在、サポートされていません",
         "CantImportTooHighVersion": "{sourceName}をインポートすることが出来ません: スキーマバージョン ({sourceSchemaVersion}) はこのワールドの ({worldSchemaVersion})よりも高い",
         "CantMoveItemSource": "君はこのキャラからアイテムを移動させる権限がない",
@@ -1229,8 +1254,7 @@
     "BasicWithSave": "基本 {save}",
     "DCWithName": "{name} DC",
     "Errors": {
-        "TypeMissing": "エラー セーヴ種別は必須です",
-        "DCMissing": "エラー DCの数値は必須です"
+        "TypeMissing": "エラー セーヴ種別は必須です"
     }
 },
   "InventoryArmorHeader": "防具",
@@ -1528,6 +1552,12 @@
             "Label": "法的情報",
             "LandingPageText": "上記のタブを使って法的な情報について閲覧すること"
         },
+        "ListPartsOr": {
+            "two": "{first} あるいは {second}",
+            "start": "{first}、{second}",
+            "middle": "{first}、 {second}",
+            "end": "{first}あるいは{second}"
+        },
           "Lore": "伝承",
    "LoreProficiencyDisclaimer": "情報のみ。技能修正値を変更しない",
   "LoreSkillsHeader": "伝承技能",
@@ -1701,20 +1731,30 @@
           },
   "PotencyRuneLabel": "発現ルーン",
   "PreciousMaterialAdamantine": "アダマンティン",
+  "PreciousMaterialAdamantineDescription": "天から降ってきた岩から採掘されたアダマンティンは、最も硬い金属の一つである。光沢のある黒い外観を持ち、驚異的な弾力性と信じられないほどの鋭さを保持する能力で珍重されている。",
   "PreciousMaterialColdIron": "冷たい鉄",
+  "PreciousMaterialColdIronDescription": "冷たい鉄で作られた武器は、デーモンやフェイには致命的である。冷たい鉄は見た目は普通の鉄だが、特に純度の高いものを採掘し、ほとんど熱を加えずに成形する。この工程は非常に困難で、特に高級クラスの冷たい鉄の鋳造は困難を極める。",
   "PreciousMaterialDarkwood": "ダークウッド",
-  "PreciousMaterialDragonhide": "ドラゴンハイド",
+  "PreciousMaterialDarkwoodDescription": "ダークウッドは、主にアヴィスタン中南部の原生林で見られる非常に軽量な木材で、黒檀のように暗い色をしているが、わずかに紫がかっている。ダークウッド製のアイテムのバルクは1減ります（通常のバルクが1の場合は軽重量になる。） ダークウッド製のアイテムの価格は、ダークウッド製であることで減少したバルクではなく、そのアイテムの通常のバルクに基づいているが、アイテムのサイズに合わせてさらにバルクを調整する前に、そのバルクを減少させる。",
+"PreciousMaterialDragonhide": "ドラゴンハイド",
+"PreciousMaterialDragonhideDescription": "ドラゴンの皮革と鱗は、通常の革や皮で作られているあらゆるアイテムの製作に使用することができる。ドラゴンハイドの色は、ドラゴンの種類によって青から金色まで様々である。鱗の弾力性を利用して、通常は金属板で作られている鎧（胸当て、ハーフプレート、フルプレートなど）に使用することができ、金属を使わずに鎧を作ることが可能である。ドラゴンハイドのアイテムは、ドラゴンの種類に応じて1つのダメージタイプに対する耐性を持つ。",
   "PreciousMaterialGradeLabel": "稀少素材のグレード",
   "PreciousMaterialHighGrade": "高級クラス",
   "PreciousMaterialLabel": "稀少素材",
   "PreciousMaterialGrisantianPelt": "グリザントの毛皮",
+  "PreciousMaterialGrisantianPeltDescription": "この超自然な耐久力を持つ動物の皮膚は黄金色で、太陽の下で輝く。衣類、皮、革で作られる、あらゆるアイテムの製作に使うことが出来る。この素材は火炎に対して耐性を持ち、刺突および斬撃ダメージに対して硬度を2倍にする。4バルクまでのグリザントの毛皮が、一体のクリーチャーから剥ぎ取ることが出来る（これは通常、標準クラスの防具4セットか高級クラスの防具2セットを製作するのに十分である）。",
   "PreciousMaterialLowGrade": "低級クラス",
   "PreciousMaterialMithral": "ミスラル",
+  "PreciousMaterialMithralDescription": "ミスラルは、その軽さと耐久性、そしてデヴィルやライカンスロープを含む様々なクリーチャーに対する有効性で有名である。銀と同じような光沢がありますが、わずかに明るい色調をしている。ミスラルの武器や防具は、銀に弱点を持つクリーチャーにダメージを与える際、銀であるかのように扱われる。ミスラル製の金属アイテムは、鉄や鋼製のアイテムよりも軽くなる。アイテムのバルクは1、減少する（通常のバルクが1の場合は軽重量に減り、通常、軽重量のアイテムには効果がない）。この素材で作られたアイテムの価格は、ミスラル製であることで減った後のバルクではなく、そのアイテムの通常のバルクに基づくが、アイテムのサイズに合わせてさらにバルクを調整する前に、そのバルクを減らす。",
   "PreciousMaterialOrichalcum": "オリハルコン",
+  "PreciousMaterialOrichalcumDescription": "最も希少で価値があるスカイメタルであるオリハルコンは、その驚くべき、時間に関連した魔法の特性のために求められている。この鈍い同の色をした金属は、物理的にはアダマンティンほど頑丈ではないが、オリハルコンの時間を操る特性によって保護されており、より高い硬度とヒットポイントを与えてくれる。オリハルコンのアイテムがダメージを受けても破壊されなかった場合、24時間後に完全に修復する。",
   "PreciousMaterialSilver": "銀",
-   "PreciousMaterialSovereignSteel": "ソヴリン鉄",
+  "PreciousMaterialSilverDescription": "銀製の武器はデヴィルからワーウルフまで幅広いクリーチャーにとって致命的である。銀製のアイテムは鋼のアイテムよりも耐久性が低く、低級クラスの銀のアイテムは通常、単に銀メッキである。",
+   "PreciousMaterialSovereignSteel": "ソヴリン鋼",
+   "PreciousMaterialSovereignSteelDescription": "黒の君主キーヴォス＝カルによって作られた、この独特な冷たい鉄とスカイメタル・ノークァルとの合金は、魔法の攻撃に対する守りを提供することが出来る。この2つの素材を低温鋳造する工程は非常に複雑で精密さを求めるものである。ソヴリン鋼の武器と防具を求めるキャラクターは、 間違いなく、この稀少な合金で作られた装備を手にするため、スターフォールに行かなければならないだろう。ソヴリン鋼製の盾を作ることが出来るという説もあるが、キーヴォス＝カルは、ある時、そのようなものは必要なないと叫び、そういったものを作ることを何人にも禁じたという。これまでのところ、彼の鍛冶師は恐怖のあまり、それが冗談だったのかどうかを確認できていない。ソヴリン鋼製のアイテムは全て（武器と防具を含む）、そのアイテムが魔法に対するセーヴに+4の状況ボーナスを持ち、所有者がそのアイテムを魔法から守るために特別に行うセーヴ（例えば、ラスティング・グラスプの呪文に対して）にもそのボーナスを与える。",
   "PreciousMaterialStandardGrade": "標準クラス",
    "PreciousMaterialWarpglass": "ワープグラス",
+   "PreciousMaterialWarpglassDescription": "この奇妙な物質は生のままの、メエルシュトロームの混沌の精髄から作られている。これは武器やアイテムに加工することができるが、その不安定さなため、有用な防具や盾に加工することは出来ない。生のワープグラスは、驚くほどの強度を持つ、不透明なガラス質の素材である。加工すると、特性ではなく外観が変化し、他の金属や石材のようなランダムな縞模様になる。",
   "PreparationTypeInnate": "生来",
   "PreparationTypePrepared": "準備",
   "PreparationTypeSpontaneous": "任意発動",
@@ -1737,6 +1777,7 @@
   "PropertyRuneLabel4": "属性ルーン（4）",
   "QuantityLabel": "数量",
   "QuantityShortLabel": "数量",
+  "RangePenalty": "射程ペナルティ",
   "Rarity": "レアリティ",
   "Usage": "使用法",
   "Reach": "間合い (フィート)",
@@ -2587,6 +2628,7 @@
   "TraitChangeling": "チェンジリング",
    "TraitChaotic": "混沌",
   "TraitCharauKa": "カラウ＝カ",
+  "TraitCharm": "魅了",
   "TraitClimbing": "クライミング",
   "TraitClockwork": "クロックワーク",
   "TraitCobbled": "がらくた",
@@ -2674,6 +2716,7 @@
   "TraitDescriptionChampion": "これはチャンピオンのクラスに由来する能力を示している。",
   "TraitDescriptionChangeling": "この特性を持つクリーチャーはチェンジリングの祖先を持つ。",
   "TraitDescriptionChaotic": "混沌効果はしばしば、混沌属性の外方次元界由来のエネルギーを操作するものであり、秩序属性の信仰を持った従僕や、秩序の神格の神聖なる従僕にとっては破門に相当する。この特性を持つクリーチャーは混沌の属性である。",
+  "TraitDescriptionCharm": "魔法の力で態度に影響を与える能力",
   "TraitDescriptionClass": "クラスの特性を持つアーキタイプは、君のクラスの専門性を離れてはいるが、君のクラスの文脈の中に存在しているような基礎的な多様性を表現している。君は、同じ名前のクラスの一員である場合にのみ、クラス・アーキタイプを選択することが出来る。クラス・アーキタイプは常にあるクラスの定められたクラス特徴の幾つかを変更、あるいは置き換え、更に、新しい特技を提供する。初期クラス特徴を変更、あるいは置き換えするようなものであれば、1レベル時点でクラス・アーキタイプを取るということも有り得る。その場合、君は2レベル時点でそのアーキタイプの専心特技を取らなくてはならず、その後は通常通りに成長していく。君は2つ以上のクラス・アーキタイプを持つことが出来ない。",
   "TraitDescriptionCleric": "これはクレリックのクラスに由来する能力を示している。",
   "TraitDescriptionClockwork": "クロックワークは生まれつきの複雑な人造で、特定の機能を果たすようにログラムすることが可能である",
@@ -2807,6 +2850,7 @@
   "TraitDescriptionLitany": "祈りは特殊な帰依呪文で、一般的にはチャンピオンによって使われ、単発アクションを必要とし、さらなる祈りへの一時的な完全耐性を与えることが多い。",
   "TraitDescriptionLizardfolk": "イラクシとしても知られる、は虫類の人型生物は極端に適応力が高く、忍耐強い",
   "TraitDescriptionMagical": "魔法の特性を持つものは、得手の魔法体系に結びつけられていない魔法のエネルギーが吹き込まれている。魔法のアイテムはその主要な魔法系統を帯びた魔法のオーラを放っている。特定の魔法体系に密接に結びついたアイテムや効果もある。こういった場合、そのアイテムは魔法という特性ではなく、秘術、信仰、霊妙、始原の特性を持つ。これらの特性は全て、そのアイテムが魔法のものであることを示している。",
+  "TraitDescriptionMagus": "これはメイガスのクラスに由来する能力であることを示している",
   "TraitDescriptionManipulate": "君はこの特性を持つアクションを使うために、物理的にあるアイテムを操作するか、ジェスチャーを行わなくてはならない。この特性のあるアクションを、適切な器官のないクリーチャーは行うことが出来ない。操作アクションはしばしば、リアクションのトリガーとなる。",
   "TraitDescriptionMechanical": "この特性を持つ障害は、実体を持つ、組み立てられた物体である。",
   "TraitDescriptionMental": "精神効果は対象の精神を変えることが出来る。物体や精神なしのクリーチャーには効果を持たない。",
@@ -2835,6 +2879,7 @@
   "TraitDescriptionOracle": "この特性を持つ能力はオラクル・クラスに由来する。",
   "TraitDescriptionOrc": "オークはこれらの武器を作り、用いる。",
   "TraitDescriptionParry": "この武器は攻撃を防ぐために防御的に使うことが出来る。この武器を使っている間、君のその武器への習熟ランクが修得以上であるなら、君は武器を防御的に構えるために単発アクションを使い、次の手番の開始時までACに+1状況ボーナスを得ることが出来る。",
+  "TraitDescriptionPlant": "草本のクリーチャーは植物の特性を持つ。これらは通常の植物とは異なっている。この特性を持つ魔法の効果は、何らかの方法で植物や植物で出来た物質の操作や召喚を行う。植物を操作するものは、植物のない範囲では何の効果もない。",
   "TraitDescriptionPoison": "この特性を持つ効果は毒を運ぶか、毒ダメージを与える。この特性を持つアイテムは有毒であり、苦難を引き起こすかもしれない。",
   "TraitDescriptionPolymorph": "これらの効果は対象を新たな姿に変身させる。対象は同時に二つ以上のポリモーフ効果の影響を受けることは出来ない。もし、二番目のポリモーフ効果の影響を受けたなら、二番目のポリモーフ効果は最初のものを無効化しようとする。それが成功したなら、二番目の効果が効果を発揮し、失敗したならその呪文は対象に影響を与えない。ポリモーフ効果によって特に可能となる「打撃」は全て魔法のものである。特記ない限り、ポリモーフ呪文は対象に特定のクリーチャーの姿をとらせることはなく、単に一般的な種別あるいは祖先の一般的な姿を与える。もし、君がポリモーフ呪文で戦闘形態を取るなら、特殊ステータスは状況ボーナス、スエｔ－タス・ボーナス、ペナルティによってのみ修正を受ける。特記ない限り、戦闘形態で呪文の発動、会話、そして手を必要とするほとんどの操作アクションは使うことが出来ない（あるアクションを使用可能かどうか分からないなら、GMが判断する）。君の装備は君の中に溶け込む；君の装備の常時能力は機能するが、君はアイテムを起動することが出来ない。",
   "TraitDescriptionPortable": "バッテリング・ラムのような可搬攻城兵器は簡単に持ち歩くことが出来て、戦争や、もっと小さな戦争や探索の双方に役割を持つ",
@@ -2887,6 +2932,7 @@
   "TraitDescriptionSylph": "風の次元界の生き物の子孫である、ジーニーキンの一種",
   "TraitDescriptionTattoo": "タトゥーはクリーチャーの皮膚に描かれるか刻まれるかしたアイテムで、大抵は画像やシンボルの形を取る",
   "TraitDescriptionTeleportation": "テレポーテーション効果によって、君はある場所から別の場所へと即座に移動することが出来る。テレポーテーションはたいていの場合、移動に基づくリアクションのトリガーとならない。",
+  "TraitDescriptionTelepathy": "テレパシーを持つクリーチャーは精神でクリーチャーと交流することが出来る。これによって思考に特殊な入手手段を得ることはなく、通常の発話で可能な以上の情報を意思疎通することも出来ない。",
   "TraitDescriptionTengu": "この特性を持つクリーチャーはテングの祖先を持つ。テングは鳥に似た人型生物である。この特性を持つ能力はテングのみが使い、選ぶことが出来る。この特性を持つアイテムはテングのみが作成し、使うことが出来る",
   "TraitDescriptionTethered": "この武器は一定の長さのロープや鎖がついており、手を離れた後にたぐり寄せることが出来るようになっている。もし、君がこの武器を使っている間に自由な手があるなら、遠隔攻撃として投擲した後や武器落としされた後（別のクリーチャーに持たれてしまった場合を除く）に使用アクションで引っ張って手の中に戻すために使用アクションを使うことが出来る",
   "TraitDescriptionThrown": "君は遠隔攻撃としてこの武器を投擲することが出来る。投擲時にこの武器は遠隔武器である。投擲武器は近接武器と同じように筋力修正をダメージに加える。この特性が近接武器に書かれているなら、射程単位も併記されている。",
@@ -3075,6 +3121,7 @@
   "TraitModular": "組替 殴打, 刺突, あるいは斬撃",
   "TraitMonitor": "モニター",
   "TraitMonk": "モンク",
+  "TraitMorlock": "モーロック",
   "TraitMorph": "モーフ",
   "TraitMortic": "モーティック",
   "TraitMounted": "据付",
@@ -3150,6 +3197,7 @@
   "TraitRange150": "距離 150 ft",
   "TraitRange180": "距離 180 ft",
   "TraitRange240": "距離 240 ft",
+  "TraitRange300": "距離 300 ft",
   "TraitRange500": "距離 500 ft",
   "TraitRangeIncrement10": "射程単位 10 ft",
   "TraitRangeIncrement100": "射程単位 100 ft",
@@ -3277,6 +3325,7 @@
   "TraitTattoo": "刺青",
   "TraitTechnological": "テクノロジー",
   "TraitTeleportation": "テレポーテーション",
+  "TraitTelepathy": "テレパシー",
   "TraitTengu": "テング",
   "TraitTethered": "紐付き",
   "TraitThrown": "投擲",
@@ -3328,6 +3377,7 @@
   "TraitVolley30": "強弓 30 ft.",
   "TraitVolley40": "強弓 40 ft.",
   "TraitVorpalFear": "首切りへの恐怖",
+  "TraitVulnerableToSunlight": "太陽光への脆弱性",
   "TraitWand": "ワンド",
   "TraitWater": "水",
   "TraitWayang": "ワヤン",

@@ -1,8 +1,37 @@
 {
     "PF2E": {
-        "NPCAbility": {
-            "IncreasedCriticalChance": "もし、攻撃が命中し、クリーチャーが出目19をロールしていたなら、クリティカル・ヒットになる。出目19で命中しないなら何の効果もない。"
-        },
+            "AttackEffects": {
+                "IgnoreConcealed": "この攻撃は@Compendium[pf2e.conditionitems.Concealed]{視認困難}状態を無視する。",
+                "IgnoreCover": "対象は劣った遮蔽から利益を受けず、標準の遮蔽によるACボーナスをこの攻撃に対して2減らす",
+                "IncreasedCriticalChance": "もし、攻撃が命中し、クリーチャーが出目19をロールしていたなら、クリティカル・ヒットになる。出目19で命中しないなら何の効果もない。",
+                "IncreasedReach5": "間合いが5フィート増える",
+                "InterruptAction": "命中時、対象のアクションは妨害される",
+                "KnockProne": "命中時、対象は@Compendium[pf2e.conditionitems.Prone]{伏せ}状態になる"
+            },
+            "NPCAbility": {
+                "BarghestFeed": "このバーゲストは何度、食事をしましたか？",
+                "DemonInfuseWeapons": "悪ダメージの代わりに混沌ダメージを与える",
+                "HobgoblinFormationArea": "範囲効果に対する陣形",
+                "MarilithDefensiveAssault": "守りに使われた武器は？",
+                "MarilithFocusedAssault": "マリリスは何本のロングソードを使っていますか？",
+                "MinotaurHuntedFear": {
+                    "Demoralize": "対象が迷宮あるいは進むのが困難な構造物にいる",
+                    "Survival": "道に迷うのを避けるための"
+                },
+                "YetiNightmareGuardianRage": "ナイトメア・ガーディアンの激怒",
+                "PoltergeistTelekineticStorm": {
+                    "MultiAttackLabel": "念動力の嵐―複数の対象",
+                    "SingleAttackLabel": "念動力の嵐 - 単体の対象",
+                    "SingleAttackEffect": "攻撃は失敗時に [[/r {1d12}]]{1d12点のダメージ}を与える"
+                },
+                "TreerazerPlantAttack": "植物を攻撃する"
+            },
+            "PersistentDamage": {
+                "Bleed1d6": {
+                    "regular": "[[/r {1d6}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}",
+                    "critical": "[[/r {2*1d6}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}"
+                }
+            },
         "RuleElement": {
             "ActiveEffectLike": "起動中効果の類",
             "ActorTraits": "アクターの特性",
@@ -10,11 +39,13 @@
             "BaseSpeed": "基本速度",
             "BattleForm": "戦闘形態",
             "ChoiceSet": "選択セット",
+            "CraftingEntry": "製作の項目",
             "CraftingFormula": "製作の処方",
             "CreatureSize": "サイズ",
             "EffectTarget": "効果の対象",
             "DamageDice": "ダメージ・ダイス",
             "DexterityModifierCap": "敏捷修正値上限",
+            "FastHealing": "高速治癒／再生",
             "FlatModifier": "平目の修正値",
             "FixedProficiency": "習熟の固定",
             "GrantItem": "アイテム授受",
@@ -24,18 +55,17 @@
             "MultipleAttackPenalty": "複数回攻撃ペナルティ",
             "Note": "注釈",
             "Sense": "感覚",
-            "SetProperty": "属性",
             "Strike": "打撃",
             "Striking": "ストライキング",
+            "RecoveryCheckDC": "回復判定DC",
+            "Resistance": "抵抗",
+            "RollOption": "ロール・オプション",
             "TempHP": "一時ヒット・ポイント",
             "TempHPShortLabel": "一時HP",
             "ToggleProperty": "属性の切り替え",
             "TokenEffectIcon": "トークン効果アイコン",
             "TokenImage": "トークン画像",
             "TokenSize": "トークンサイズ",
-            "RecoveryCheckDC": "回復判定DC",
-            "Resistance": "抵抗",
-            "RollOption": "ロール・オプション",
             "Weakness": "弱点",
             "WeaponPotency": "武器発現",
           "NewRuleElement": "新しいルール要素",
@@ -90,7 +120,8 @@
             "VsProne": "伏せ効果に対して",
             "VsShoveOrTrip": "「押しやり」、「足払い」に対して",
             "Water": "水中で",
-            "Weave": "織り上げるのに"
+            "Weave": "織り上げるのに",
+            "Woodworking": "木工に"
         },
         "SpecificRule": {
             "AdvancedGeneralTraining": {
@@ -99,7 +130,8 @@
             },
             "ClanWeapon": {
                 "Label": "クラン武器",
-                "Prompt": "クラン武器を選んで下さい。"
+                "Prompt": "クラン武器を選んで下さい。",
+                "ClanPistol": "クラン・ピストル (祖先特技)"
             },
             "Cover": {
                 "Prompt": "遮蔽の段階を選んで下さい。",
@@ -147,7 +179,15 @@
             },
             "GeneralTraining": {
                 "AllowedDrops": "１レベルの一般特技",
-                "Prompt": "１レベルの一般特技を選んで下さい"
+                "Prompt": "1レベルの一般特技を選んで下さい"
+            },
+            "AncestralParagon": {
+                "AllowedDrops": "1レベルの祖先特技",
+                "Prompt": "1レベルの祖先特技を選んで下さい"
+            },
+            "AncientElf": {
+                "AllowedDrops": "マルチクラス専心特技",
+                "Prompt": "マルチクラス専心特技を選んで下さい"
             },
             "MartialProficiency": {
                 "AdvancedAzarketiWeapons": "上級アザールケティ武器",
@@ -199,6 +239,12 @@
                 "Tailoring": "仕立屋",
                 "Weaving": "織物",
                 "Woodworking": "木工"
+            },
+            "SterlingDynamo": {
+                "AutomaticPercussive": "自動：Percussive Striker Dynamo",
+                "AutomaticPower": "自動：Power Driver Dynamo",
+                "ManualPercussive": "手動：Percussive Striker Dynamo",
+                "ManualPower": "手動：Power Driver Dynamo"
             },
             "Multitalented": {
                 "AllowedDrops": "２レベルのマルチクラス専心特技",

@@ -278,8 +278,8 @@
 		},
 		{
 			"id": "Sever Conduit",
-			"name": "Sever Conduit",
-			"description": "<p><strong>Trigger</strong> Your eidolon takes damage that would bring you to 0 Hit Points and comes from an effect other than a death effect;</p>\n<p><strong>Effect</strong> You quickly shut the buffer in your link with your eidolon, causing your bonded ally to wink out of existence before you can be laid low. Your eidolon unmanifests, and you can't Manifest your Eidolon for 1 minute. In exchange, you don't take the triggering damage, though your eidolon still suffers any other adverse effects that accompanied the damage.</p>"
+			"name": "導管切断",
+			"description": "<p><strong>トリガー</strong> 君の幻獣が、0ヒット・ポイントになるであろうダメージを受けており、それが即死効果ではない効果によるものである</p>\n<p><strong>効果</strong> 君は幻獣との絆のバッファを素早く遮断し、君が倒れる前に絆のある味方が存在を消すことが出来るようにする。君の幻獣は顕現を解く。そして、1分間、君は「幻獣顕現」をすることが出来ない。</p>"
 		},
 		{
 			"id": "Share Life",
@@ -338,8 +338,8 @@
 		},
 		{
 			"id": "Thundering Roar",
-			"name": "Thundering Roar",
-			"description": "<p>The target unleashes a powerful vocalization. Each enemy in a 10- foot emanation takes 4d8 sonic damage with a basic Will save against your spell DC. A creature that fails its Will save is also @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 1}.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The damage from the roar increases by 2d8.</p>"
+			"name": "雷の如き唸り",
+			"description": "<p>対象は強力な声を解き放つ。10フィート拡散以内にいる敵はそれぞれ、君の呪文DCに対する基本意志セーヴを伴う4d8点の音波ダメージを受ける。意志セーヴに失敗したクリーチャーは@Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{恐れ1}になる。</p>\n<hr />\n<p><strong>増強 (+2)</strong> 唸りのダメージは2d8点、上昇する。</p>"
 		},
 		{
 			"id": "Toxic Skin",

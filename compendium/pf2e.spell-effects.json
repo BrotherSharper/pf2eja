@@ -3,8 +3,8 @@
 	"entries": [
 		{
 			"id": "Effect: Rejuvinating Flames",
-			"name": "Effect: Rejuvinating Flames",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.lZx8jZfKrMEtyGY0]{Rejuvenating Flames}</em></p>\n<p>You create a gout of flame that both heals and burns. You restore 1d4 HP to all allies in the area, and those allies gain a +1 status bonus to Fortitude saves for 1 minute. Enemies in the area take [[/r {1d4}[fire]]]{1d4 fire damage} with a basic Reflex save. Heightened (+1) You restore an additional 1d4 HP to your allies and deal an additional [[/r {1d4}[fire]]]{1d4 fire damage} to enemies.</p>"
+			"name": "効果・再生の炎",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.lZx8jZfKrMEtyGY0]{再生の炎}</em>による効果。</p>\n<p>君は治癒と炎の双方を兼ね備えた炎の噴出を作り出す。君は範囲内の全ての味方のヒットポイントを1d4点回復させ、これらの味方は1分間、+1ステータス・ボーナスを頑健セーヴに得る。範囲内の敵は基本反応セーヴで[[/r {1d4}[fire]]]{1d4点の火炎ダメージ}を受ける。</p>\n<p>増強 (+1) 君は味方のヒットポイントを追加で1d4点回復し、敵に追加の[[/r {1d4}[火炎]]]{1d4点の火炎ダメージ}を与える。</p>"
 		},
 		{
 			"id": "Spell Effect: Aberrant Form (Chuul)",
@@ -118,53 +118,53 @@
 		},
 		{
 			"id": "Spell Effect: Angelic Wings",
-			"name": "Spell Effect: Angelic Wings",
-			"description": "<p>Granted by casting <em>@Compendium[pf2e.spells-srd.kRsmUlSWhi6PJvZ7]{Angelic Wings}</em></p>"
+			"name": "呪文効果: 天使の翼",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.kRsmUlSWhi6PJvZ7]{天使の翼}</em>による効果。</p>"
 		},
 		{
 			"id": "Spell Effect: Animal Form (Ape)",
-			"name": "Spell Effect: Animal Form (Ape)",
-			"description": "<p>Granted by casting <em>@Compendium[pf2e.spells-srd.wp09USMB3GIW1qbp]{Animal Form}</em>.</p>\n<p>You call upon primal energy to transform yourself into a Medium animal battle form. When you first cast this spell, choose a form.</p>\n<p>You can decide the specific type of animal (such as lion or snow leopard for cat), but this has no effect on the form's Size or statistics. While in this form, you gain the animal trait. You can Dismiss the spell.</p>\n<p>You gain the following statistics and abilities regardless of which battle form you choose:</p>\n<ul>\n<li>AC = 16 + your level. Ignore your armor's check penalty and Speed reduction.</li>\n<li>5 temporary Hit Points.</li>\n<li>Low-light vision and imprecise scent 30 feet.</li>\n<li>One or more unarmed melee attacks specific to the battle form you choose, which are the only attacks you can use. You're trained with them. Your attack modifier is +9, and your damage bonus is +1. These attacks are Strength based (for the purpose of the @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled} condition, for example). If your unarmed attack bonus is higher, you can use it instead.</li>\n<li>Athletics modifier of +9, unless your own modifier is higher.</li>\n</ul>\n<p>You also gain specific abilities based on the type of animal you choose:</p>\n<ul>\n<li><strong>Ape</strong> \n<ul>\n<li>Speed 25 feet, climb Speed 20 feet;</li>\n<li><strong>Melee</strong> <span class=\"pf2-icon\">1</span> fist, <strong>Damage</strong> 2d6 bludgeoning.</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p><strong>Heightened (3rd)</strong> You instead gain 10 temporary HP, AC = 17 + your level, attack modifier +14, damage bonus +5, and Athletics +14.</p>\n<p><strong>Heightened (4th)</strong> Your battle form is Large and your attacks have 10-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 15 temporary HP, AC = 18 + your level, attack modifier +16, damage bonus +9, and Athletics +16.</p>\n<p><strong>Heightened (5th)</strong> Your battle form is Huge and your attacks have 15-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 20 temporary HP, AC = 18 + your level, attack modifier +18, damage bonus +7 and double the number of damage dice, and Athletics +20.</p>\n<hr />\n<p><em>Note: To heighten this effect, import it into your Item Directory and edit the level before adding it to the target</em></p>"
+			"name": "呪文効果: アニマル・フォーム (エイプ)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.wp09USMB3GIW1qbp]{アニマル・フォーム}</em>による効果。</p>\n<p>君は始原のエネルギーを使い、中型の動物の戦闘形態に自分自身を変化させる。この呪文を最初に発動した際、一つの形態を選ぶこと。</p>\n<p>君は特定の動物種別（キャットならばライオンやスノー・レパードなど）を決めることが出来るが、これは大きさやステータスには影響を与えない。この形態でいる間、君は動物の特性を得る。君はこの呪文を「解除」することが出来る。</p>\n<p>君は選んだ戦闘形態によらず、下記のステータスと能力を得る：</p>\n<ul>\n<li>AC＝16＋君のレベル　君の防具判定ペナルティと速度減少を無視する</li>\n<li>5点の一時ヒットポイント</li>\n<li>夜目と不明瞭な嗅覚30フィート</li>\n<li>君が選んだ戦闘形態に独特の1つ以上の素手近接攻撃（君はこれら以外の攻撃をすることが出来ない）。君はこれらに修得である。君の攻撃修正値は+9であり、君のダメージ・ボーナスは+1である。これらの攻撃は筋力に基づいている（例えば、@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱}状態を適用する場合のため）。もし君の素手打撃の攻撃ボーナスがもっと高いなら、君は代わりにそれを使うことができる。</li>\n<li>@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱}</li>\n</ul>\n<p>君はまた、選んだ動物の種別に基づいた特殊能力を得る:</p>\n<ul>\n<li><strong>エイプ</strong> \n<ul>\n<li>速度25フィート、登攀速度20フィート;</li>\n<li><strong>近接</strong> <span class=\"pf2-icon\">1</span> 拳, <strong>ダメージ</strong> 2d6点の殴打ダメージ</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p><strong>増強（3レベル）</strong> 君は代わりに10点の一時ヒットポイントを得て、ACは17+君のレベル、攻撃修正値は+14、ダメージ・ボーナスは+5、〈軽業〉+14である。</p>\n<p><strong>増強（4レベル）</strong> 君の戦闘形態は大型で、君の攻撃は10フィートの間合いを持つ。大きくなるのに十分な空間がなければ、呪文は失われる。君は代わりに15点の一時ヒットポイントを得て、ACは18＋君のレベル、攻撃修正値は+16、ダメージ・ボーナスは+9、〈軽業〉+16である。</p>\n<p><strong>増強（5レベル）</strong> 君の戦闘形態は超大型で、君の攻撃は15フィートの間合いを持つ。大きくなるのに十分な空間がなければ、呪文は失われる。君は代わりに20点の一時ヒットポイントを得て、ACは18＋君のレベル、攻撃修正は+18、ダメージ・ボーナスは+7に加えてダメージ・ダイスの数を2倍にし、〈軽業〉は+20である。</p>\n<hr />\n<p><em>メモ: この効果を増強するために、これを君のアイテム・ディレクトリにインポートし、対象に追加する前にレベルを編集すること。</em></p>"
 		},
 		{
 			"id": "Spell Effect: Animal Form (Bear)",
-			"name": "Spell Effect: Animal Form (Bear)",
-			"description": "<p>Granted by casting <em>@Compendium[pf2e.spells-srd.wp09USMB3GIW1qbp]{Animal Form}</em>.</p>\n<p>You call upon primal energy to transform yourself into a Medium animal battle form. When you first cast this spell, choose a form.</p>\n<p>You can decide the specific type of animal (such as lion or snow leopard for cat), but this has no effect on the form's Size or statistics. While in this form, you gain the animal trait. You can Dismiss the spell.</p>\n<p>You gain the following statistics and abilities regardless of which battle form you choose:</p>\n<ul>\n<li>AC = 16 + your level. Ignore your armor's check penalty and Speed reduction.</li>\n<li>5 temporary Hit Points.</li>\n<li>Low-light vision and imprecise scent 30 feet.</li>\n<li>One or more unarmed melee attacks specific to the battle form you choose, which are the only attacks you can use. You're trained with them. Your attack modifier is +9, and your damage bonus is +1. These attacks are Strength based (for the purpose of the @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled} condition, for example). If your unarmed attack bonus is higher, you can use it instead.</li>\n<li>Athletics modifier of +9, unless your own modifier is higher.</li>\n</ul>\n<p>You also gain specific abilities based on the type of animal you choose:</p>\n<ul>\n<li><strong>Bear</strong> \n<ul>\n<li>Speed 30 feet;</li>\n<li><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws, <strong>Damage</strong> 2d8 piercing;</li>\n<li><strong>Melee</strong> <span class=\"pf2-icon\">1</span> claw (agile), <strong>Damage</strong> 1d8 slashing.</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p><strong>Heightened (3rd)</strong> You instead gain 10 temporary HP, AC = 17 + your level, attack modifier +14, damage bonus +5, and Athletics +14.</p>\n<p><strong>Heightened (4th)</strong> Your battle form is Large and your attacks have 10-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 15 temporary HP, AC = 18 + your level, attack modifier +16, damage bonus +9, and Athletics +16.</p>\n<p><strong>Heightened (5th)</strong> Your battle form is Huge and your attacks have 15-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 20 temporary HP, AC = 18 + your level, attack modifier +18, damage bonus +7 and double the number of damage dice, and Athletics +20.</p>\n<hr />\n<p><em>Note: To heighten this effect, import it into your Item Directory and edit the level before adding it to the target</em></p>"
+			"name": "呪文効果: アニマル・フォーム (ベア)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.wp09USMB3GIW1qbp]{アニマル・フォーム}</em>による効果。</p>\n<p>君は始原のエネルギーを使い、中型の動物の戦闘形態に自分自身を変化させる。この呪文を最初に発動した際、一つの形態を選ぶこと。</p>\n<p>君は特定の動物種別（キャットならばライオンやスノー・レパードなど）を決めることが出来るが、これは大きさやステータスには影響を与えない。この形態でいる間、君は動物の特性を得る。君はこの呪文を「解除」することが出来る。</p>\n<p>君は選んだ戦闘形態によらず、下記のステータスと能力を得る：</p>\n<ul>\n<li>AC＝16＋君のレベル　君の防具判定ペナルティと速度減少を無視する</li>\n<li>5点の一時ヒットポイント</li>\n<li>夜目と不明瞭な嗅覚30フィート</li>\n<li>君が選んだ戦闘形態に独特の1つ以上の素手近接攻撃（君はこれら以外の攻撃をすることが出来ない）。君はこれらに修得である。君の攻撃修正値は+9であり、君のダメージ・ボーナスは+1である。これらの攻撃は筋力に基づいている（例えば、@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱}状態を適用する場合のため）。もし君の素手打撃の攻撃ボーナスがもっと高いなら、君は代わりにそれを使うことができる。</li>\n<li>@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱}</li>\n</ul>\n<p>君はまた、選んだ動物の種別に基づいた特殊能力を得る:</p>\n<ul>\n<li><strong>ベア</strong> \n<ul>\n<li>速度30フィート;</li>\n<li><strong>近接</strong> <span class=\"pf2-icon\">1</span> 顎, <strong>ダメージ</strong> 2d8点の刺突ダメージ <strong>近接</strong> <span class=\"pf2-icon\">1</span> 爪（機敏）、 <strong>ダメージ</strong> 1d8点の刺突ダメージ</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p><strong>増強（3レベル）</strong> 君は代わりに10点の一時ヒットポイントを得て、ACは17+君のレベル、攻撃修正値は+14、ダメージ・ボーナスは+5、〈軽業〉+14である。</p>\n<p><strong>増強（4レベル）</strong> 君の戦闘形態は大型で、君の攻撃は10フィートの間合いを持つ。大きくなるのに十分な空間がなければ、呪文は失われる。君は代わりに15点の一時ヒットポイントを得て、ACは18＋君のレベル、攻撃修正値は+16、ダメージ・ボーナスは+9、〈軽業〉+16である。</p>\n<p><strong>増強（5レベル）</strong> 君の戦闘形態は超大型で、君の攻撃は15フィートの間合いを持つ。大きくなるのに十分な空間がなければ、呪文は失われる。君は代わりに20点の一時ヒットポイントを得て、ACは18＋君のレベル、攻撃修正は+18、ダメージ・ボーナスは+7に加えてダメージ・ダイスの数を2倍にし、〈軽業〉は+20である。</p>\n<hr />\n<p><em>メモ: この効果を増強するために、これを君のアイテム・ディレクトリにインポートし、対象に追加する前にレベルを編集すること。</em></p>"
 		},
 		{
 			"id": "Spell Effect: Animal Form (Bull)",
-			"name": "Spell Effect: Animal Form (Bull)",
-			"description": "<p>Granted by casting <em>@Compendium[pf2e.spells-srd.wp09USMB3GIW1qbp]{Animal Form}</em>.</p>\n<p>You call upon primal energy to transform yourself into a Medium animal battle form. When you first cast this spell, choose a form.</p>\n<p>You can decide the specific type of animal (such as lion or snow leopard for cat), but this has no effect on the form's Size or statistics. While in this form, you gain the animal trait. You can Dismiss the spell.</p>\n<p>You gain the following statistics and abilities regardless of which battle form you choose:</p>\n<ul>\n<li>AC = 16 + your level. Ignore your armor's check penalty and Speed reduction.</li>\n<li>5 temporary Hit Points.</li>\n<li>Low-light vision and imprecise scent 30 feet.</li>\n<li>One or more unarmed melee attacks specific to the battle form you choose, which are the only attacks you can use. You're trained with them. Your attack modifier is +9, and your damage bonus is +1. These attacks are Strength based (for the purpose of the @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled} condition, for example). If your unarmed attack bonus is higher, you can use it instead.</li>\n<li>Athletics modifier of +9, unless your own modifier is higher.</li>\n</ul>\n<p>You also gain specific abilities based on the type of animal you choose:</p>\n<ul>\n<li><strong>Bull</strong> \n<ul>\n<li>Speed 30 feet;</li>\n<li><strong>Melee</strong> <span class=\"pf2-icon\">1</span> horn, <strong>Damage</strong> 2d8 piercing.</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p><strong>Heightened (3rd)</strong> You instead gain 10 temporary HP, AC = 17 + your level, attack modifier +14, damage bonus +5, and Athletics +14.</p>\n<p><strong>Heightened (4th)</strong> Your battle form is Large and your attacks have 10-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 15 temporary HP, AC = 18 + your level, attack modifier +16, damage bonus +9, and Athletics +16.</p>\n<p><strong>Heightened (5th)</strong> Your battle form is Huge and your attacks have 15-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 20 temporary HP, AC = 18 + your level, attack modifier +18, damage bonus +7 and double the number of damage dice, and Athletics +20.</p>\n<hr />\n<p><em>Note: To heighten this effect, import it into your Item Directory and edit the level before adding it to the target</em></p>"
+			"name": "呪文効果: アニマル・フォーム (ブル)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.wp09USMB3GIW1qbp]{アニマル・フォーム}</em>による効果。</p>\n<p>君は始原のエネルギーを使い、中型の動物の戦闘形態に自分自身を変化させる。この呪文を最初に発動した際、一つの形態を選ぶこと。</p>\n<p>君は特定の動物種別（キャットならばライオンやスノー・レパードなど）を決めることが出来るが、これは大きさやステータスには影響を与えない。この形態でいる間、君は動物の特性を得る。君はこの呪文を「解除」することが出来る。</p>\n<p>君は選んだ戦闘形態によらず、下記のステータスと能力を得る：</p>\n<ul>\n<li>AC＝16＋君のレベル　君の防具判定ペナルティと速度減少を無視する</li>\n<li>5点の一時ヒットポイント</li>\n<li>夜目と不明瞭な嗅覚30フィート</li>\n<li>君が選んだ戦闘形態に独特の1つ以上の素手近接攻撃（君はこれら以外の攻撃をすることが出来ない）。君はこれらに修得である。君の攻撃修正値は+9であり、君のダメージ・ボーナスは+1である。これらの攻撃は筋力に基づいている（例えば、@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱}状態を適用する場合のため）。もし君の素手打撃の攻撃ボーナスがもっと高いなら、君は代わりにそれを使うことができる。</li>\n<li>@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱}</li>\n</ul>\n<p>君はまた、選んだ動物の種別に基づいた特殊能力を得る:</p>\n<ul>\n<li><strong>ブル</strong> \n<ul>\n<li>速度 30フィート;</li>\n<li><strong>近接</strong> <span class=\"pf2-icon\">1</span> 角、 <strong>ダメージ</strong> 2d8点の刺突ダメージ</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p><strong>増強（3レベル）</strong> 君は代わりに10点の一時ヒットポイントを得て、ACは17+君のレベル、攻撃修正値は+14、ダメージ・ボーナスは+5、〈軽業〉+14である。</p>\n<p><strong>増強（4レベル）</strong> 君の戦闘形態は大型で、君の攻撃は10フィートの間合いを持つ。大きくなるのに十分な空間がなければ、呪文は失われる。君は代わりに15点の一時ヒットポイントを得て、ACは18＋君のレベル、攻撃修正値は+16、ダメージ・ボーナスは+9、〈軽業〉+16である。</p>\n<p><strong>増強（5レベル）</strong> 君の戦闘形態は超大型で、君の攻撃は15フィートの間合いを持つ。大きくなるのに十分な空間がなければ、呪文は失われる。君は代わりに20点の一時ヒットポイントを得て、ACは18＋君のレベル、攻撃修正は+18、ダメージ・ボーナスは+7に加えてダメージ・ダイスの数を2倍にし、〈軽業〉は+20である。</p>\n<hr />\n<p><em>メモ: この効果を増強するために、これを君のアイテム・ディレクトリにインポートし、対象に追加する前にレベルを編集すること。</em></p>"
 		},
 		{
 			"id": "Spell Effect: Animal Form (Canine)",
-			"name": "Spell Effect: Animal Form (Canine)",
-			"description": "<p>Granted by casting <em>@Compendium[pf2e.spells-srd.wp09USMB3GIW1qbp]{Animal Form}</em>.</p>\n<p>You call upon primal energy to transform yourself into a Medium animal battle form. When you first cast this spell, choose a form.</p>\n<p>You can decide the specific type of animal (such as lion or snow leopard for cat), but this has no effect on the form's Size or statistics. While in this form, you gain the animal trait. You can Dismiss the spell.</p>\n<p>You gain the following statistics and abilities regardless of which battle form you choose:</p>\n<ul>\n<li>AC = 16 + your level. Ignore your armor's check penalty and Speed reduction.</li>\n<li>5 temporary Hit Points.</li>\n<li>Low-light vision and imprecise scent 30 feet.</li>\n<li>One or more unarmed melee attacks specific to the battle form you choose, which are the only attacks you can use. You're trained with them. Your attack modifier is +9, and your damage bonus is +1. These attacks are Strength based (for the purpose of the @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled} condition, for example). If your unarmed attack bonus is higher, you can use it instead.</li>\n<li>Athletics modifier of +9, unless your own modifier is higher.</li>\n</ul>\n<p>You also gain specific abilities based on the type of animal you choose:</p>\n<ul>\n<li><strong>Canine</strong> \n<ul>\n<li>Speed 40 feet;</li>\n<li><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws, <strong>Damage</strong> 2d8 piercing.</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p><strong>Heightened (3rd)</strong> You instead gain 10 temporary HP, AC = 17 + your level, attack modifier +14, damage bonus +5, and Athletics +14.</p>\n<p><strong>Heightened (4th)</strong> Your battle form is Large and your attacks have 10-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 15 temporary HP, AC = 18 + your level, attack modifier +16, damage bonus +9, and Athletics +16.</p>\n<p><strong>Heightened (5th)</strong> Your battle form is Huge and your attacks have 15-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 20 temporary HP, AC = 18 + your level, attack modifier +18, damage bonus +7 and double the number of damage dice, and Athletics +20.</p>\n<hr />\n<p><em>Note: To heighten this effect, import it into your Item Directory and edit the level before adding it to the target</em></p>"
+			"name": "呪文効果: アニマル・フォーム (ケイナン)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.wp09USMB3GIW1qbp]{アニマル・フォーム}</em>による効果。</p>\n<p>君は始原のエネルギーを使い、中型の動物の戦闘形態に自分自身を変化させる。この呪文を最初に発動した際、一つの形態を選ぶこと。</p>\n<p>君は特定の動物種別（キャットならばライオンやスノー・レパードなど）を決めることが出来るが、これは大きさやステータスには影響を与えない。この形態でいる間、君は動物の特性を得る。君はこの呪文を「解除」することが出来る。</p>\n<p>君は選んだ戦闘形態によらず、下記のステータスと能力を得る：</p>\n<ul>\n<li>AC＝16＋君のレベル　君の防具判定ペナルティと速度減少を無視する</li>\n<li>5点の一時ヒットポイント</li>\n<li>夜目と不明瞭な嗅覚30フィート</li>\n<li>君が選んだ戦闘形態に独特の1つ以上の素手近接攻撃（君はこれら以外の攻撃をすることが出来ない）。君はこれらに修得である。君の攻撃修正値は+9であり、君のダメージ・ボーナスは+1である。これらの攻撃は筋力に基づいている（例えば、@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱}状態を適用する場合のため）。もし君の素手打撃の攻撃ボーナスがもっと高いなら、君は代わりにそれを使うことができる。</li>\n<li>@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱}</li>\n</ul>\n<p>君はまた、選んだ動物の種別に基づいた特殊能力を得る:</p>\n<ul>\n<li><strong>ケイナン</strong> \n<ul>\n<li>速度 40フィート;</li>\n<li><strong>近接</strong> <span class=\"pf2-icon\">1</span> 顎、 <strong>ダメージ</strong> 2d8点の刺突ダメージ</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p><strong>増強（3レベル）</strong> 君は代わりに10点の一時ヒットポイントを得て、ACは17+君のレベル、攻撃修正値は+14、ダメージ・ボーナスは+5、〈軽業〉+14である。</p>\n<p><strong>増強（4レベル）</strong> 君の戦闘形態は大型で、君の攻撃は10フィートの間合いを持つ。大きくなるのに十分な空間がなければ、呪文は失われる。君は代わりに15点の一時ヒットポイントを得て、ACは18＋君のレベル、攻撃修正値は+16、ダメージ・ボーナスは+9、〈軽業〉+16である。</p>\n<p><strong>増強（5レベル）</strong> 君の戦闘形態は超大型で、君の攻撃は15フィートの間合いを持つ。大きくなるのに十分な空間がなければ、呪文は失われる。君は代わりに20点の一時ヒットポイントを得て、ACは18＋君のレベル、攻撃修正は+18、ダメージ・ボーナスは+7に加えてダメージ・ダイスの数を2倍にし、〈軽業〉は+20である。</p>\n<hr />\n<p><em>メモ: この効果を増強するために、これを君のアイテム・ディレクトリにインポートし、対象に追加する前にレベルを編集すること。</em></p>"
 		},
 		{
 			"id": "Spell Effect: Animal Form (Cat)",
-			"name": "Spell Effect: Animal Form (Cat)",
-			"description": "<p>Granted by casting <em>@Compendium[pf2e.spells-srd.wp09USMB3GIW1qbp]{Animal Form}</em>.</p>\n<p>You call upon primal energy to transform yourself into a Medium animal battle form. When you first cast this spell, choose a form.</p>\n<p>You can decide the specific type of animal (such as lion or snow leopard for cat), but this has no effect on the form's Size or statistics. While in this form, you gain the animal trait. You can Dismiss the spell.</p>\n<p>You gain the following statistics and abilities regardless of which battle form you choose:</p>\n<ul>\n<li>AC = 16 + your level. Ignore your armor's check penalty and Speed reduction.</li>\n<li>5 temporary Hit Points.</li>\n<li>Low-light vision and imprecise scent 30 feet.</li>\n<li>One or more unarmed melee attacks specific to the battle form you choose, which are the only attacks you can use. You're trained with them. Your attack modifier is +9, and your damage bonus is +1. These attacks are Strength based (for the purpose of the @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled} condition, for example). If your unarmed attack bonus is higher, you can use it instead.</li>\n<li>Athletics modifier of +9, unless your own modifier is higher.</li>\n</ul>\n<p>You also gain specific abilities based on the type of animal you choose:</p>\n<ul>\n<li><strong>Cat</strong> \n<ul>\n<li>Speed 40 feet;</li>\n<li><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws, <strong>Damage</strong> 2d6 piercing;</li>\n<li><strong>Melee</strong> <span class=\"pf2-icon\">1</span> claw (agile), <strong>Damage</strong> 1d10 slashing.</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p><strong>Heightened (3rd)</strong> You instead gain 10 temporary HP, AC = 17 + your level, attack modifier +14, damage bonus +5, and Athletics +14.</p>\n<p><strong>Heightened (4th)</strong> Your battle form is Large and your attacks have 10-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 15 temporary HP, AC = 18 + your level, attack modifier +16, damage bonus +9, and Athletics +16.</p>\n<p><strong>Heightened (5th)</strong> Your battle form is Huge and your attacks have 15-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 20 temporary HP, AC = 18 + your level, attack modifier +18, damage bonus +7 and double the number of damage dice, and Athletics +20.</p>\n<hr />\n<p><em>Note: To heighten this effect, import it into your Item Directory and edit the level before adding it to the target</em></p>"
+			"name": "呪文効果: アニマル・フォーム (キャット)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.wp09USMB3GIW1qbp]{アニマル・フォーム}</em>による効果。</p>\n<p>君は始原のエネルギーを使い、中型の動物の戦闘形態に自分自身を変化させる。この呪文を最初に発動した際、一つの形態を選ぶこと。</p>\n<p>君は特定の動物種別（キャットならばライオンやスノー・レパードなど）を決めることが出来るが、これは大きさやステータスには影響を与えない。この形態でいる間、君は動物の特性を得る。君はこの呪文を「解除」することが出来る。</p>\n<p>君は選んだ戦闘形態によらず、下記のステータスと能力を得る：</p>\n<ul>\n<li>AC＝16＋君のレベル　君の防具判定ペナルティと速度減少を無視する</li>\n<li>5点の一時ヒットポイント</li>\n<li>夜目と不明瞭な嗅覚30フィート</li>\n<li>君が選んだ戦闘形態に独特の1つ以上の素手近接攻撃（君はこれら以外の攻撃をすることが出来ない）。君はこれらに修得である。君の攻撃修正値は+9であり、君のダメージ・ボーナスは+1である。これらの攻撃は筋力に基づいている（例えば、@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱}状態を適用する場合のため）。もし君の素手打撃の攻撃ボーナスがもっと高いなら、君は代わりにそれを使うことができる。</li>\n<li>@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱}</li>\n</ul>\n<p>君はまた、選んだ動物の種別に基づいた特殊能力を得る:</p>\n<ul>\n<li><strong>キャット</strong> \n<ul>\n<li>速度 40フィート;</li>\n<li><strong>近接</strong> <span class=\"pf2-icon\">1</span> 顎、 <strong>ダメージ</strong> 2d6点の刺突ダメージ;</li>\n<li><strong>近接</strong> <span class=\"pf2-icon\">1</span> 爪 (機敏)、 <strong>ダメージ</strong> 1d10点の斬撃ダメージ</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p><strong>増強（3レベル）</strong> 君は代わりに10点の一時ヒットポイントを得て、ACは17+君のレベル、攻撃修正値は+14、ダメージ・ボーナスは+5、〈軽業〉+14である。</p>\n<p><strong>増強（4レベル）</strong> 君の戦闘形態は大型で、君の攻撃は10フィートの間合いを持つ。大きくなるのに十分な空間がなければ、呪文は失われる。君は代わりに15点の一時ヒットポイントを得て、ACは18＋君のレベル、攻撃修正値は+16、ダメージ・ボーナスは+9、〈軽業〉+16である。</p>\n<p><strong>増強（5レベル）</strong> 君の戦闘形態は超大型で、君の攻撃は15フィートの間合いを持つ。大きくなるのに十分な空間がなければ、呪文は失われる。君は代わりに20点の一時ヒットポイントを得て、ACは18＋君のレベル、攻撃修正は+18、ダメージ・ボーナスは+7に加えてダメージ・ダイスの数を2倍にし、〈軽業〉は+20である。</p>\n<hr />\n<p><em>メモ: この効果を増強するために、これを君のアイテム・ディレクトリにインポートし、対象に追加する前にレベルを編集すること。</em></p>"
 		},
 		{
 			"id": "Spell Effect: Animal Form (Deer)",
-			"name": "Spell Effect: Animal Form (Deer)",
-			"description": "<p>Granted by casting <em>@Compendium[pf2e.spells-srd.wp09USMB3GIW1qbp]{Animal Form}</em>.</p>\n<p>You call upon primal energy to transform yourself into a Medium animal battle form. When you first cast this spell, choose a form.</p>\n<p>You can decide the specific type of animal (such as lion or snow leopard for cat), but this has no effect on the form's Size or statistics. While in this form, you gain the animal trait. You can Dismiss the spell.</p>\n<p>You gain the following statistics and abilities regardless of which battle form you choose:</p>\n<ul>\n<li>AC = 16 + your level. Ignore your armor's check penalty and Speed reduction.</li>\n<li>5 temporary Hit Points.</li>\n<li>Low-light vision and imprecise scent 30 feet.</li>\n<li>One or more unarmed melee attacks specific to the battle form you choose, which are the only attacks you can use. You're trained with them. Your attack modifier is +9, and your damage bonus is +1. These attacks are Strength based (for the purpose of the @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled} condition, for example). If your unarmed attack bonus is higher, you can use it instead.</li>\n<li>Athletics modifier of +9, unless your own modifier is higher.</li>\n</ul>\n<p>You also gain specific abilities based on the type of animal you choose:</p>\n<ul>\n<li><strong>Deer</strong> \n<ul>\n<li>Speed 50 feet;</li>\n<li><strong>Melee</strong> <span class=\"pf2-icon\">1</span> antler, <strong>Damage</strong> 2d6 piercing.</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p><strong>Heightened (3rd)</strong> You instead gain 10 temporary HP, AC = 17 + your level, attack modifier +14, damage bonus +5, and Athletics +14.</p>\n<p><strong>Heightened (4th)</strong> Your battle form is Large and your attacks have 10-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 15 temporary HP, AC = 18 + your level, attack modifier +16, damage bonus +9, and Athletics +16.</p>\n<p><strong>Heightened (5th)</strong> Your battle form is Huge and your attacks have 15-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 20 temporary HP, AC = 18 + your level, attack modifier +18, damage bonus +7 and double the number of damage dice, and Athletics +20.</p>\n<hr />\n<p><em>Note: To heighten this effect, import it into your Item Directory and edit the level before adding it to the target</em></p>"
+			"name": "呪文効果: アニマル・フォーム (ディーア)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.wp09USMB3GIW1qbp]{アニマル・フォーム}</em>による効果。</p>\n<p>君は始原のエネルギーを使い、中型の動物の戦闘形態に自分自身を変化させる。この呪文を最初に発動した際、一つの形態を選ぶこと。</p>\n<p>君は特定の動物種別（キャットならばライオンやスノー・レパードなど）を決めることが出来るが、これは大きさやステータスには影響を与えない。この形態でいる間、君は動物の特性を得る。君はこの呪文を「解除」することが出来る。</p>\n<p>君は選んだ戦闘形態によらず、下記のステータスと能力を得る：</p>\n<ul>\n<li>AC＝16＋君のレベル　君の防具判定ペナルティと速度減少を無視する</li>\n<li>5点の一時ヒットポイント</li>\n<li>夜目と不明瞭な嗅覚30フィート</li>\n<li>君が選んだ戦闘形態に独特の1つ以上の素手近接攻撃（君はこれら以外の攻撃をすることが出来ない）。君はこれらに修得である。君の攻撃修正値は+9であり、君のダメージ・ボーナスは+1である。これらの攻撃は筋力に基づいている（例えば、@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱}状態を適用する場合のため）。もし君の素手打撃の攻撃ボーナスがもっと高いなら、君は代わりにそれを使うことができる。</li>\n<li>@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱}</li>\n</ul>\n<p>君はまた、選んだ動物の種別に基づいた特殊能力を得る:</p>\n<ul>\n<li><strong>ディーア</strong> \n<ul>\n<li>速度 50フィート;</li>\n<li><strong>近接</strong> <span class=\"pf2-icon\">1</span> 枝角、 <strong>ダメージ</strong> 2d6点の刺突ダメージ</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p><strong>増強（3レベル）</strong> 君は代わりに10点の一時ヒットポイントを得て、ACは17+君のレベル、攻撃修正値は+14、ダメージ・ボーナスは+5、〈軽業〉+14である。</p>\n<p><strong>増強（4レベル）</strong> 君の戦闘形態は大型で、君の攻撃は10フィートの間合いを持つ。大きくなるのに十分な空間がなければ、呪文は失われる。君は代わりに15点の一時ヒットポイントを得て、ACは18＋君のレベル、攻撃修正値は+16、ダメージ・ボーナスは+9、〈軽業〉+16である。</p>\n<p><strong>増強（5レベル）</strong> 君の戦闘形態は超大型で、君の攻撃は15フィートの間合いを持つ。大きくなるのに十分な空間がなければ、呪文は失われる。君は代わりに20点の一時ヒットポイントを得て、ACは18＋君のレベル、攻撃修正は+18、ダメージ・ボーナスは+7に加えてダメージ・ダイスの数を2倍にし、〈軽業〉は+20である。</p>\n<hr />\n<p><em>メモ: この効果を増強するために、これを君のアイテム・ディレクトリにインポートし、対象に追加する前にレベルを編集すること。</em></p>"
 		},
 		{
 			"id": "Spell Effect: Animal Form (Frog)",
-			"name": "Spell Effect: Animal Form (Frog)",
-			"description": "<p>Granted by casting <em>@Compendium[pf2e.spells-srd.wp09USMB3GIW1qbp]{Animal Form}</em>.</p>\n<p>You call upon primal energy to transform yourself into a Medium animal battle form. When you first cast this spell, choose a form.</p>\n<p>You can decide the specific type of animal (such as lion or snow leopard for cat), but this has no effect on the form's Size or statistics. While in this form, you gain the animal trait. You can Dismiss the spell.</p>\n<p>You gain the following statistics and abilities regardless of which battle form you choose:</p>\n<ul>\n<li>AC = 16 + your level. Ignore your armor's check penalty and Speed reduction.</li>\n<li>5 temporary Hit Points.</li>\n<li>Low-light vision and imprecise scent 30 feet.</li>\n<li>One or more unarmed melee attacks specific to the battle form you choose, which are the only attacks you can use. You're trained with them. Your attack modifier is +9, and your damage bonus is +1. These attacks are Strength based (for the purpose of the @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled} condition, for example). If your unarmed attack bonus is higher, you can use it instead.</li>\n<li>Athletics modifier of +9, unless your own modifier is higher.</li>\n</ul>\n<p>You also gain specific abilities based on the type of animal you choose:</p>\n<ul>\n<li><strong>Frog</strong> </li>\n<li>Speed 25 feet, swim Speed 25 feet;</li>\n<li><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws, <strong>Damage</strong> 2d6 bludgeoning;</li>\n<li><strong>Melee</strong> <span class=\"pf2-icon\">1</span> tongue (reach 15 feet), <strong>Damage</strong> 2d4 bludgeoning.</li>\n</ul>\n<hr />\n<p><strong>Heightened (3rd)</strong> You instead gain 10 temporary HP, AC = 17 + your level, attack modifier +14, damage bonus +5, and Athletics +14.</p>\n<p><strong>Heightened (4th)</strong> Your battle form is Large and your attacks have 10-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 15 temporary HP, AC = 18 + your level, attack modifier +16, damage bonus +9, and Athletics +16.</p>\n<p><strong>Heightened (5th)</strong> Your battle form is Huge and your attacks have 15-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 20 temporary HP, AC = 18 + your level, attack modifier +18, damage bonus +7 and double the number of damage dice, and Athletics +20.</p>\n<hr />\n<p><em>Note: To heighten this effect, import it into your Item Directory and edit the level before adding it to the target</em></p>"
+			"name": "呪文効果: アニマル・フォーム (フロッグ)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.wp09USMB3GIW1qbp]{アニマル・フォーム}</em>による効果。</p>\n<p>君は始原のエネルギーを使い、中型の動物の戦闘形態に自分自身を変化させる。この呪文を最初に発動した際、一つの形態を選ぶこと。</p>\n<p>君は特定の動物種別（キャットならばライオンやスノー・レパードなど）を決めることが出来るが、これは大きさやステータスには影響を与えない。この形態でいる間、君は動物の特性を得る。君はこの呪文を「解除」することが出来る。</p>\n<p>君は選んだ戦闘形態によらず、下記のステータスと能力を得る：</p>\n<ul>\n<li>AC＝16＋君のレベル　君の防具判定ペナルティと速度減少を無視する</li>\n<li>5点の一時ヒットポイント</li>\n<li>夜目と不明瞭な嗅覚30フィート</li>\n<li>君が選んだ戦闘形態に独特の1つ以上の素手近接攻撃（君はこれら以外の攻撃をすることが出来ない）。君はこれらに修得である。君の攻撃修正値は+9であり、君のダメージ・ボーナスは+1である。これらの攻撃は筋力に基づいている（例えば、@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱}状態を適用する場合のため）。もし君の素手打撃の攻撃ボーナスがもっと高いなら、君は代わりにそれを使うことができる。</li>\n<li>@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱}</li>\n</ul>\n<p>君はまた、選んだ動物の種別に基づいた特殊能力を得る:</p>\n<ul>\n<li><strong>フロッグ</strong> </li>\n<li>速度 25フィート、水泳速度 25フィート;</li>\n<li><strong>近接</strong> <span class=\"pf2-icon\">1</span> 顎、 <strong>ダメージ</strong> 2d6点の殴打ダメージ;</li>\n<li><strong>近接</strong> <span class=\"pf2-icon\">1</span> 舌(間合い 15フィート)、<strong>ダメージ</strong> 2d4点の殴打ダメージ</li>\n</ul>\n<hr />\n<p><strong>増強（3レベル）</strong> 君は代わりに10点の一時ヒットポイントを得て、ACは17+君のレベル、攻撃修正値は+14、ダメージ・ボーナスは+5、〈軽業〉+14である。</p>\n<p><strong>増強（4レベル）</strong> 君の戦闘形態は大型で、君の攻撃は10フィートの間合いを持つ。大きくなるのに十分な空間がなければ、呪文は失われる。君は代わりに15点の一時ヒットポイントを得て、ACは18＋君のレベル、攻撃修正値は+16、ダメージ・ボーナスは+9、〈軽業〉+16である。</p>\n<p><strong>増強（5レベル）</strong> 君の戦闘形態は超大型で、君の攻撃は15フィートの間合いを持つ。大きくなるのに十分な空間がなければ、呪文は失われる。君は代わりに20点の一時ヒットポイントを得て、ACは18＋君のレベル、攻撃修正は+18、ダメージ・ボーナスは+7に加えてダメージ・ダイスの数を2倍にし、〈軽業〉は+20である。</p>\n<hr />\n<p><em>メモ: この効果を増強するために、これを君のアイテム・ディレクトリにインポートし、対象に追加する前にレベルを編集すること。</em></p>"
 		},
 		{
 			"id": "Spell Effect: Animal Form (Shark)",
-			"name": "Spell Effect: Animal Form (Shark)",
-			"description": "<p>Granted by casting <em>@Compendium[pf2e.spells-srd.wp09USMB3GIW1qbp]{Animal Form}</em>.</p>\n<p>You call upon primal energy to transform yourself into a Medium animal battle form. When you first cast this spell, choose a form.</p>\n<p>You can decide the specific type of animal (such as lion or snow leopard for cat), but this has no effect on the form's Size or statistics. While in this form, you gain the animal trait. You can Dismiss the spell.</p>\n<p>You gain the following statistics and abilities regardless of which battle form you choose:</p>\n<ul>\n<li>AC = 16 + your level. Ignore your armor's check penalty and Speed reduction.</li>\n<li>5 temporary Hit Points.</li>\n<li>Low-light vision and imprecise scent 30 feet.</li>\n<li>One or more unarmed melee attacks specific to the battle form you choose, which are the only attacks you can use. You're trained with them. Your attack modifier is +9, and your damage bonus is +1. These attacks are Strength based (for the purpose of the @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled} condition, for example). If your unarmed attack bonus is higher, you can use it instead.</li>\n<li>Athletics modifier of +9, unless your own modifier is higher.</li>\n</ul>\n<p>You also gain specific abilities based on the type of animal you choose:</p>\n<ul>\n<li><strong>Shark</strong> \n<ul>\n<li>swim Speed 35 feet;</li>\n<li><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws, <strong>Damage</strong> 2d8 piercing;</li>\n<li>breathe underwater but not in air.</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p><strong>Heightened (3rd)</strong> You instead gain 10 temporary HP, AC = 17 + your level, attack modifier +14, damage bonus +5, and Athletics +14.</p>\n<p><strong>Heightened (4th)</strong> Your battle form is Large and your attacks have 10-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 15 temporary HP, AC = 18 + your level, attack modifier +16, damage bonus +9, and Athletics +16.</p>\n<p><strong>Heightened (5th)</strong> Your battle form is Huge and your attacks have 15-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 20 temporary HP, AC = 18 + your level, attack modifier +18, damage bonus +7 and double the number of damage dice, and Athletics +20.</p>\n<hr />\n<p><em>Note: To heighten this effect, import it into your Item Directory and edit the level before adding it to the target</em></p>"
+			"name": "呪文効果: アニマル・フォーム (シャーク)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.wp09USMB3GIW1qbp]{アニマル・フォーム}</em>による効果。</p>\n<p>君は始原のエネルギーを使い、中型の動物の戦闘形態に自分自身を変化させる。この呪文を最初に発動した際、一つの形態を選ぶこと。</p>\n<p>君は特定の動物種別（キャットならばライオンやスノー・レパードなど）を決めることが出来るが、これは大きさやステータスには影響を与えない。この形態でいる間、君は動物の特性を得る。君はこの呪文を「解除」することが出来る。</p>\n<p>君は選んだ戦闘形態によらず、下記のステータスと能力を得る：</p>\n<ul>\n<li>AC＝16＋君のレベル　君の防具判定ペナルティと速度減少を無視する</li>\n<li>5点の一時ヒットポイント</li>\n<li>夜目と不明瞭な嗅覚30フィート</li>\n<li>君が選んだ戦闘形態に独特の1つ以上の素手近接攻撃（君はこれら以外の攻撃をすることが出来ない）。君はこれらに修得である。君の攻撃修正値は+9であり、君のダメージ・ボーナスは+1である。これらの攻撃は筋力に基づいている（例えば、@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱}状態を適用する場合のため）。もし君の素手打撃の攻撃ボーナスがもっと高いなら、君は代わりにそれを使うことができる。</li>\n<li>@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱}</li>\n</ul>\n<p>君はまた、選んだ動物の種別に基づいた特殊能力を得る:</p>\n<ul>\n<li><strong>シャーク</strong> \n<ul>\n<li>水泳速度 35フィート;</li>\n<li><strong>近接</strong> <span class=\"pf2-icon\">1</span> 顎、 <strong>ダメージ</strong> 2d8点の刺突ダメージ;</li>\n<li>水中呼吸可能だが大気中で呼吸不可</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p><strong>増強（3レベル）</strong> 君は代わりに10点の一時ヒットポイントを得て、ACは17+君のレベル、攻撃修正値は+14、ダメージ・ボーナスは+5、〈軽業〉+14である。</p>\n<p><strong>増強（4レベル）</strong> 君の戦闘形態は大型で、君の攻撃は10フィートの間合いを持つ。大きくなるのに十分な空間がなければ、呪文は失われる。君は代わりに15点の一時ヒットポイントを得て、ACは18＋君のレベル、攻撃修正値は+16、ダメージ・ボーナスは+9、〈軽業〉+16である。</p>\n<p><strong>増強（5レベル）</strong> 君の戦闘形態は超大型で、君の攻撃は15フィートの間合いを持つ。大きくなるのに十分な空間がなければ、呪文は失われる。君は代わりに20点の一時ヒットポイントを得て、ACは18＋君のレベル、攻撃修正は+18、ダメージ・ボーナスは+7に加えてダメージ・ダイスの数を2倍にし、〈軽業〉は+20である。</p>\n<hr />\n<p><em>メモ: この効果を増強するために、これを君のアイテム・ディレクトリにインポートし、対象に追加する前にレベルを編集すること。</em></p>"
 		},
 		{
 			"id": "Spell Effect: Animal Form (Snake)",
-			"name": "Spell Effect: Animal Form (Snake)",
-			"description": "<p>Granted by casting <em>@Compendium[pf2e.spells-srd.wp09USMB3GIW1qbp]{Animal Form}</em>.</p>\n<p>You call upon primal energy to transform yourself into a Medium animal battle form. When you first cast this spell, choose a form.</p>\n<p>You can decide the specific type of animal (such as lion or snow leopard for cat), but this has no effect on the form's Size or statistics. While in this form, you gain the animal trait. You can Dismiss the spell.</p>\n<p>You gain the following statistics and abilities regardless of which battle form you choose:</p>\n<ul>\n<li>AC = 16 + your level. Ignore your armor's check penalty and Speed reduction.</li>\n<li>5 temporary Hit Points.</li>\n<li>Low-light vision and imprecise scent 30 feet.</li>\n<li>One or more unarmed melee attacks specific to the battle form you choose, which are the only attacks you can use. You're trained with them. Your attack modifier is +9, and your damage bonus is +1. These attacks are Strength based (for the purpose of the @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled} condition, for example). If your unarmed attack bonus is higher, you can use it instead.</li>\n<li>Athletics modifier of +9, unless your own modifier is higher.</li>\n</ul>\n<p>You also gain specific abilities based on the type of animal you choose:</p>\n<ul>\n<li><strong>Snake</strong> \n<ul>\n<li>Speed 20 feet, climb Speed 20 feet, swim Speed 20 feet;</li>\n<li><strong>Melee</strong> <span class=\"pf2-icon\">1</span> fangs, <strong>Damage</strong> 2d4 piercing plus 1d6 poison.</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p><strong>Heightened (3rd)</strong> You instead gain 10 temporary HP, AC = 17 + your level, attack modifier +14, damage bonus +5, and Athletics +14.</p>\n<p><strong>Heightened (4th)</strong> Your battle form is Large and your attacks have 10-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 15 temporary HP, AC = 18 + your level, attack modifier +16, damage bonus +9, and Athletics +16.</p>\n<p><strong>Heightened (5th)</strong> Your battle form is Huge and your attacks have 15-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 20 temporary HP, AC = 18 + your level, attack modifier +18, damage bonus +7 and double the number of damage dice, and Athletics +20.</p>\n<hr />\n<p><em>Note: To heighten this effect, import it into your Item Directory and edit the level before adding it to the target</em></p>"
+			"name": "呪文効果: アニマル・フォーム (スネーク)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.wp09USMB3GIW1qbp]{アニマル・フォーム}</em>による効果。</p>\n<p>君は始原のエネルギーを使い、中型の動物の戦闘形態に自分自身を変化させる。この呪文を最初に発動した際、一つの形態を選ぶこと。</p>\n<p>君は特定の動物種別（キャットならばライオンやスノー・レパードなど）を決めることが出来るが、これは大きさやステータスには影響を与えない。この形態でいる間、君は動物の特性を得る。君はこの呪文を「解除」することが出来る。</p>\n<p>君は選んだ戦闘形態によらず、下記のステータスと能力を得る：</p>\n<ul>\n<li>AC＝16＋君のレベル　君の防具判定ペナルティと速度減少を無視する</li>\n<li>5点の一時ヒットポイント</li>\n<li>夜目と不明瞭な嗅覚30フィート</li>\n<li>君が選んだ戦闘形態に独特の1つ以上の素手近接攻撃（君はこれら以外の攻撃をすることが出来ない）。君はこれらに修得である。君の攻撃修正値は+9であり、君のダメージ・ボーナスは+1である。これらの攻撃は筋力に基づいている（例えば、@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱}状態を適用する場合のため）。もし君の素手打撃の攻撃ボーナスがもっと高いなら、君は代わりにそれを使うことができる。</li>\n<li>@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱}</li>\n</ul>\n<p>君はまた、選んだ動物の種別に基づいた特殊能力を得る:</p>\n<ul>\n<li><strong>スネーク</strong> \n<ul>\n<li>速度 20フィート、登攀速度 20フィート、水泳速度 20フィート;</li>\n<li><strong>近接</strong> <span class=\"pf2-icon\">1</span> 牙、 <strong>ダメージ</strong> 2d4点の刺突ダメージに加えて1d6点の毒ダメージ</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p><strong>増強（3レベル）</strong> 君は代わりに10点の一時ヒットポイントを得て、ACは17+君のレベル、攻撃修正値は+14、ダメージ・ボーナスは+5、〈軽業〉+14である。</p>\n<p><strong>増強（4レベル）</strong> 君の戦闘形態は大型で、君の攻撃は10フィートの間合いを持つ。大きくなるのに十分な空間がなければ、呪文は失われる。君は代わりに15点の一時ヒットポイントを得て、ACは18＋君のレベル、攻撃修正値は+16、ダメージ・ボーナスは+9、〈軽業〉+16である。</p>\n<p><strong>増強（5レベル）</strong> 君の戦闘形態は超大型で、君の攻撃は15フィートの間合いを持つ。大きくなるのに十分な空間がなければ、呪文は失われる。君は代わりに20点の一時ヒットポイントを得て、ACは18＋君のレベル、攻撃修正は+18、ダメージ・ボーナスは+7に加えてダメージ・ダイスの数を2倍にし、〈軽業〉は+20である。</p>\n<hr />\n<p><em>メモ: この効果を増強するために、これを君のアイテム・ディレクトリにインポートし、対象に追加する前にレベルを編集すること。</em></p>"
 		},
 		{
 			"id": "Spell Effect: Apex Companion",
@@ -173,8 +173,8 @@
 		},
 		{
 			"id": "Spell Effect: Arcane Countermeasure",
-			"name": "Spell Effect: Arcane Countermeasure",
-			"description": "<p>Granted by casting <em>@Compendium[pf2e.spells-srd.h47yv6j6x1pUtzlr]{Arcane Countermeasure}</em></p>"
+			"name": "呪文効果: 秘術への対策行動",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.h47yv6j6x1pUtzlr]{秘術への対策行動}</em>による効果。</p>"
 		},
 		{
 			"id": "Spell Effect: Armor of Bones",
@@ -188,8 +188,8 @@
 		},
 		{
 			"id": "Spell Effect: Barkskin",
-			"name": "Spell Effect: Barkskin",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.YWrfKetOqDwVFut7]{Barkskin}</em></p>"
+			"name": "呪文効果: バークスキン",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.YWrfKetOqDwVFut7]{バークスキン}</em>による効果。</p>"
 		},
 		{
 			"id": "Spell Effect: Bathe in Blood",
@@ -243,8 +243,8 @@
 		},
 		{
 			"id": "Spell Effect: Blood Vendetta (Failure)",
-			"name": "Spell Effect: Blood Vendetta (Failure)",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.TaaMEYdZXQXF0Sks]{Blood Vendetta}</em></p>\n<p>Until the bleeding stops, the target has weakness 1 to piercing and slashing damage.</p>"
+			"name": "呪文効果: ブラッド・ヴェンデッタ (失敗)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.TaaMEYdZXQXF0Sks]{ブラッド・ヴェンデッタ}</em>による効果。</p>\n<p>出血を止めるまで、対象は刺突と斬撃に1点の弱点を持つ</p>"
 		},
 		{
 			"id": "Spell Effect: Blood Ward",
@@ -293,28 +293,28 @@
 		},
 		{
 			"id": "Spell Effect: Celestial Brand",
-			"name": "Spell Effect: Celestial Brand",
-			"description": "<p>Granted by attacking a target under the effect of <em>@Compendium[pf2e.spells-srd.9WlTR9JlEcjRmGiD]{Celestial Brand}</em></p>"
+			"name": "呪文効果: 天上の烙印",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.9WlTR9JlEcjRmGiD]{天上の烙印}</em>の効果を受けているキャラクターを攻撃したことによる効果。</p>"
 		},
 		{
 			"id": "Spell Effect: Clawsong (Damage Increase D6)",
-			"name": "Spell Effect: Clawsong (Damage Increase D6)",
-			"description": "<p>The target's claw attack deals 1d6 slashing damage.</p>"
+			"name": "呪文効果: クロウソング (ダメージ上昇：D6)",
+			"description": "<p>対象の爪攻撃は1d6点の斬撃ダメージを与える</p>"
 		},
 		{
 			"id": "Spell Effect: Clawsong (Damage Increase D8)",
-			"name": "Spell Effect: Clawsong (Damage Increase D8)",
-			"description": "<p>If the target's claw attack already deals 1d6 slashing damage, it deals 1d8 instead.</p>"
+			"name": "呪文効果: クロウソング (ダメージ上昇：D8)",
+			"description": "<p>もし、既に対象が持っている爪攻撃が1d6点の斬撃ダメージを与えるものであるなら、代わりに1d8点の斬撃ダメージになる</p>"
 		},
 		{
 			"id": "Spell Effect: Clawsong (Deadly D8)",
-			"name": "Spell Effect: Clawsong (Deadly D8)",
-			"description": "<p>If its claw attack already had the versatile (piercing) trait, it gains the deadly 1d8 trait.</p>"
+			"name": "呪文効果: クロウソング (致命的D8)",
+			"description": "<p>もし、既に対象が持っている爪攻撃が可変（刺突）の特性を持つなら、致命的d8の特性を得る。</p>"
 		},
 		{
 			"id": "Spell Effect: Clawsong (Versatile Piercing)",
-			"name": "Spell Effect: Clawsong (Versatile Piercing)",
-			"description": "<p>The target's claw attack gains the versatile (piercing) trait.</p>"
+			"name": "呪文効果: クロウソング (可変（刺突）)",
+			"description": "<p>対象の爪攻撃は可変（刺突）の特性を得る。</p>"
 		},
 		{
 			"id": "Spell Effect: Community Repair (Critical Failure)",
@@ -368,13 +368,13 @@
 		},
 		{
 			"id": "Spell Effect: Darkvision",
-			"name": "Spell Effect: Darkvision",
-			"description": "<p>You grant yourself supernatural sight in areas of darkness. You gain darkvision.</p>"
+			"name": "呪文効果: ダークヴィジョン",
+			"description": "<p>君は自分自身に、暗闇に覆われた範囲での超自然的な視覚を与える。君は暗視を得る。</p>"
 		},
 		{
 			"id": "Spell Effect: Darkvision (24 hours)",
-			"name": "Spell Effect: Darkvision (24 hours)",
-			"description": "<p>You grant yourself supernatural sight in areas of darkness. You gain darkvision.</p>"
+			"name": "呪文効果: ダークヴィジョン (24時間)",
+			"description": "<p>君は自分自身に、暗闇に覆われた範囲での超自然的な視覚を与える。君は暗視を得る。</p>"
 		},
 		{
 			"id": "Spell Effect: Death Ward",
@@ -423,8 +423,8 @@
 		},
 		{
 			"id": "Spell Effect: Diabolic Edict",
-			"name": "Spell Effect: Diabolic Edict",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.Vctwx1ewa8HUOA94]{Diabolic Edict}</em></p>"
+			"name": "呪文効果: 悪魔の布告",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.Vctwx1ewa8HUOA94]{悪魔の布告}</em>による効果。</p>"
 		},
 		{
 			"id": "Spell Effect: Dinosaur Form (Ankylosaurus)",
@@ -588,28 +588,28 @@
 		},
 		{
 			"id": "Spell Effect: Dragon Wings (60 Feet)",
-			"name": "Spell Effect: Dragon Wings (60 Feet)",
-			"description": "<p>Granted by casting <em>@Compendium[pf2e.spells-srd.HWJODX2zPg5cg34F]{Dragon Wings}</em> and gaining a 60 foot fly Speed.</p>"
+			"name": "呪文効果: ドラゴンの翼 (60フィート)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.HWJODX2zPg5cg34F]{ドラゴンの翼}</em>で60フィートの飛行速度を得る効果。</p>"
 		},
 		{
 			"id": "Spell Effect: Dragon Wings (Own Speed)",
-			"name": "Spell Effect: Dragon Wings (Own Speed)",
-			"description": "<p>Granted by casting <em>@Compendium[pf2e.spells-srd.HWJODX2zPg5cg34F]{Dragon Wings}</em> and gaining a fly Speed equal to your Speed.</p>"
+			"name": "呪文効果: ドラゴンの翼 (自分の速度)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.HWJODX2zPg5cg34F]{ドラゴンの翼}</em>で自分の速度に等しい飛行速度を得る効果。</p>"
 		},
 		{
 			"id": "Spell Effect: Draw Ire (Critical Failure)",
-			"name": "Spell Effect: Draw Ire (Critical Failure)",
-			"description": "<p>The creature takes a -2 status penalty to attack rolls against creatures other than you.</p>"
+			"name": "呪文効果: ドロウ・アイア (ファンブル)",
+			"description": "<p>対象は術者以外のクリーチャーに対する攻撃ロールに-2のステータス・ペナルティを受ける。</p>"
 		},
 		{
 			"id": "Spell Effect: Draw Ire (Failure)",
-			"name": "Spell Effect: Draw Ire (Failure)",
-			"description": "<p>The creature takes a -1 status penalty to attack rolls against creatures other than you.</p>"
+			"name": "呪文効果: ドロウ・アイア (失敗)",
+			"description": "<p>対象は術者以外のクリーチャーに対する攻撃ロールに-のステータス・ペナルティを受ける。</p>"
 		},
 		{
 			"id": "Spell Effect: Draw Ire (Success)",
-			"name": "Spell Effect: Draw Ire (Success)",
-			"description": "<p>The creature takes a -1 status penalty to attack rolls against creatures other than you. The spell ends at the end of the target's next turn.</p>"
+			"name": "呪文効果:ドロウ・アイア (成功)",
+			"description": "<p>対象は術者以外のクリーチャーに対する攻撃ロールに-のステータス・ペナルティを受ける。呪文は対象の次の手番の終了時に終了する。</p>"
 		},
 		{
 			"id": "Spell Effect: Draw the Lightning",
@@ -718,28 +718,28 @@
 		},
 		{
 			"id": "Spell Effect: Elemental Motion (Air)",
-			"name": "Spell Effect: Elemental Motion (Air)",
-			"description": "<p>Granted by casting <em>@Compendium[pf2e.spells-srd.B8aCUMCHCIMUCEVK]{Elemental Motion}</em> if Air is your element.</p>"
+			"name": "呪文効果: 元素の動き (風)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.B8aCUMCHCIMUCEVK]{元素の動き}</em>による効果。君の元素が風である場合。</p>"
 		},
 		{
 			"id": "Spell Effect: Elemental Motion (Earth)",
-			"name": "Spell Effect: Elemental Motion (Earth)",
-			"description": "<p>Granted by casting <em>@Compendium[pf2e.spells-srd.B8aCUMCHCIMUCEVK]{Elemental Motion}</em> if Earth is your element.</p>"
+			"name": "呪文効果: 元素の動き (地)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.B8aCUMCHCIMUCEVK]{元素の動き}</em>による効果。君の元素が地である場合。</p>"
 		},
 		{
 			"id": "Spell Effect: Elemental Motion (Fire)",
-			"name": "Spell Effect: Elemental Motion (Fire)",
-			"description": "<p>Granted by casting <em>@Compendium[pf2e.spells-srd.B8aCUMCHCIMUCEVK]{Elemental Motion}</em> if Fire is your element.</p>"
+			"name": "呪文効果: 元素の動き (火)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.B8aCUMCHCIMUCEVK]{元素の動き}</em>による効果。君の元素が火である場合。</p>"
 		},
 		{
 			"id": "Spell Effect: Elemental Motion (Water)",
-			"name": "Spell Effect: Elemental Motion (Water)",
-			"description": "<p>Granted by casting <em>@Compendium[pf2e.spells-srd.B8aCUMCHCIMUCEVK]{Elemental Motion}</em> if Water is your element.</p>"
+			"name": "呪文効果: 元素の動き (水)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.B8aCUMCHCIMUCEVK]{元素の動き}</em>による効果。君の元素が水である場合。</p>"
 		},
 		{
 			"id": "Spell Effect: Embrace the Pit",
-			"name": "Spell Effect: Embrace the Pit",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.ilGsyGLGjjIPHbyP]{Embrace the Pit}</em></p>"
+			"name": "呪文効果: 奈落の抱擁",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.ilGsyGLGjjIPHbyP]{奈落の抱擁}</em>による効果。</p>"
 		},
 		{
 			"id": "Spell Effect: Enduring Might",
@@ -773,13 +773,13 @@
 		},
 		{
 			"id": "Spell Effect: Enlarge",
-			"name": "Spell Effect: Enlarge",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.wzctak6BxOW8xvFV]{Enlarge}</em></p>\n<p>Bolstered by magical power, the target grows to size Large. Its equipment grows with it but returns to natural size if removed. The creature is clumsy 1. Its reach increases by 5 feet (or by 10 feet if it started out Tiny), and it gains a +2 status bonus to melee damage. This spell has no effect on a Large or larger creature.</p>"
+			"name": "呪文効果: エンラージ",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.wzctak6BxOW8xvFV]{エンラージ}</em>による効果。</p>\n<p>魔法の力によって強化され、対象は大型になる。対象の装備は一緒に大きくなるが、もし手から離れれば元のサイズに戻る。クリーチャーは、もたつき1である。間合いは5フィート増加し（あるいは最初に超小型だったなら10フィートになる）、近接ダメージに+2のステータス・ボーナスを得る。この呪文は大型以上のクリーチャーには効果が無い。</p>"
 		},
 		{
 			"id": "Spell Effect: Enlarge (Heightened 4th)",
-			"name": "Spell Effect: Enlarge (Heightened 4th)",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.wzctak6BxOW8xvFV]{Enlarge}</em></p>\n<p>Bolstered by magical power, the target grows to size Huge. Its equipment grows with it but returns to natural size if removed. The creature is clumsy 1. Its reach increases by 10 feet (or by 15 feet if it started out Tiny), and it gains a +4 status bonus to melee damage. The Spell has no effect on a Huge or larger creature.</p>"
+			"name": "呪文効果: エンラージ (増強4レベル)",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.wzctak6BxOW8xvFV]{エンラージ}</em>による効果。</p>\n<p>魔法の力によって強化され、対象は超大型になる。対象の装備は一緒に大きくなるが、もし手から離れれば元のサイズに戻る。近接ダメージへのステータス・ボーナスは+4になり、クリーチャーの間合いが10フィート増加する（あるいは最初に超小型だったなら15フィート増加する）。この呪文は超大型以上のクリーチャーには効果が無い。</p>"
 		},
 		{
 			"id": "Spell Effect: Envenom Companion",
@@ -883,8 +883,8 @@
 		},
 		{
 			"id": "Spell Effect: Flame Wisp",
-			"name": "Spell Effect: Flame Wisp",
-			"description": "<p>Three faintly glowing wisps of fire float around your head. Each time you hit a creature with a Strike, one of the wisps goes hurtling towards that creature, dealing 1d4 fire damage. If you Cast a Spell with the fire trait while you have fewer than three wisps, a new wisp appears.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The damage increases by 1d4.</p>"
+			"name": "呪文効果: フレイム・ウィスプ",
+			"description": "<p>3つの光り輝く一筋の火が君の頭の周辺で浮いている。君が「打撃」でクリーチャーに命中するごとに、一筋の火がそのクリーチャーに向かって迫り、1d4点の火炎ダメージを与える。もし、3つ未満の火を持っている際に君が火の特性を持つ「呪文の発動」をするなら、新しい火の筋が1本、現れる。</p>\n<hr />\n<p><strong>増強 (+2)</strong> ダメージは1d4点、増える</p>"
 		},
 		{
 			"id": "Spell Effect: Font of Serenity",
@@ -893,13 +893,13 @@
 		},
 		{
 			"id": "Spell Effect: Fungal Infestation (Critical Failure)",
-			"name": "Spell Effect: Fungal Infestation (Critical Failure)",
-			"description": "<p>Granted by @Compendium[pf2e.spells-srd.3VxVbZqIRvpKkg3O]{Fungal Infestation}</p>"
+			"name": "呪文効果: ファンガル・インフェステイション (ファンブル)",
+			"description": "<p>@Compendium[pf2e.spells-srd.3VxVbZqIRvpKkg3O]{ファンガル・インフェステイション}</p>による効果。"
 		},
 		{
 			"id": "Spell Effect: Fungal Infestation (Failure)",
-			"name": "Spell Effect: Fungal Infestation (Failure)",
-			"description": "<p>Granted by @Compendium[pf2e.spells-srd.3VxVbZqIRvpKkg3O]{Fungal Infestation}</p>"
+			"name": "呪文効果: ファンガル・インフェステイション (失敗)",
+			"description": "<p>@Compendium[pf2e.spells-srd.3VxVbZqIRvpKkg3O]{ファンガル・インフェステイション}</p>による効果。"
 		},
 		{
 			"id": "Spell Effect: Garden of Death (Critical Success)",
@@ -918,8 +918,8 @@
 		},
 		{
 			"id": "Spell Effect: Glutton's Jaw",
-			"name": "Spell Effect: Glutton's Jaw",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.SdXFiQ4Py8761sNO]{Glutton's Jaw}</em></p>"
+			"name": "呪文効果: 貪欲なる顎",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.SdXFiQ4Py8761sNO]{貪欲なる顎}</em>による効果。</p>"
 		},
 		{
 			"id": "Spell Effect: Goodberry",
@@ -943,38 +943,38 @@
 		},
 		{
 			"id": "Spell Effect: Impeccable Flow (2nd)",
-			"name": "Spell Effect: Impeccable Flow (2nd)",
-			"description": "<p>You attune yourself to an underlying cosmic order to the world. While you remain in tune with this power, you gain a +1 status bonus to Perception checks, saving throws, and skill checks. If you critically fail any check while under the effects of this spell, the bonus ends and you instead have a -1 status penalty to all checks for the remaining duration.</p>"
+			"name": "呪文効果: インペッカブル・フロー (2レベル)",
+			"description": "<p>君は世界の根底にある宇宙の秩序に同調する。この力に同調している間は、知覚判定、セーヴィング・スロー、技能判定に+1のステータス・ボーナスが得られる。この呪文の効果を受けている間、判定にファンブルした場合、ボーナスは終了し、代わりに残りの持続時間の間、すべての判定に-1のステータス・ペナルティを受けることになる。</p>"
 		},
 		{
 			"id": "Spell Effect: Impeccable Flow (5th)",
-			"name": "Spell Effect: Impeccable Flow (5th)",
-			"description": "<p>You attune yourself to an underlying cosmic order to the world. While you remain in tune with this power, you gain a +2 status bonus to Perception checks, saving throws, and skill checks. If you critically fail any check while under the effects of this spell, the bonus ends and you instead have a -1 status penalty to all checks for the remaining duration.</p>"
+			"name": "呪文効果: インペッカブル・フロー (5レベル)",
+			"description": "<p>君は世界の根底にある宇宙の秩序に同調する。この力に同調している間は、知覚判定、セーヴィング・スロー、技能判定に+2のステータス・ボーナスが得られる。この呪文の効果を受けている間、判定にファンブルした場合、ボーナスは終了し、代わりに残りの持続時間の間、すべての判定に-1のステータス・ペナルティを受けることになる。</p>"
 		},
 		{
 			"id": "Spell Effect: Impeccable Flow (8th)",
-			"name": "Spell Effect: Impeccable Flow (8th)",
-			"description": "<p>You attune yourself to an underlying cosmic order to the world. While you remain in tune with this power, you gain a +3 status bonus to Perception checks, saving throws, and skill checks. If you critically fail any check while under the effects of this spell, the bonus ends and you instead have a -1 status penalty to all checks for the remaining duration.</p>"
+			"name": "呪文効果: インペッカブル・フロー (8レベル)",
+			"description": "<p>君は世界の根底にある宇宙の秩序に同調する。この力に同調している間は、知覚判定、セーヴィング・スロー、技能判定に+3のステータス・ボーナスが得られる。この呪文の効果を受けている間、判定にファンブルした場合、ボーナスは終了し、代わりに残りの持続時間の間、すべての判定に-1のステータス・ペナルティを受けることになる。</p>"
 		},
 		{
 			"id": "Spell Effect: Impeccable Flow (Critical Failure Effect)",
-			"name": "Spell Effect: Impeccable Flow (Critical Failure Effect)",
-			"description": "<p>You attune yourself to an underlying cosmic order to the world. While you remain in tune with this power, you gain a +1 status bonus to Perception checks, saving throws, and skill checks. If you critically fail any check while under the effects of this spell, the bonus ends and you instead have a -1 status penalty to all checks for the remaining duration.</p>"
+			"name": "呪文効果: インペッカブル・フロー (ファンブル効果)",
+			"description": "<p>君は世界の根底にある宇宙の秩序に同調する。この力に同調している間は、知覚判定、セーヴィング・スロー、技能判定に+1のステータス・ボーナスが得られる。この呪文の効果を受けている間、判定にファンブルした場合、ボーナスは終了し、代わりに残りの持続時間の間、すべての判定に-1のステータス・ペナルティを受けることになる。</p>"
 		},
 		{
 			"id": "Spell Effect: Infectious Enthusiasm (Attack)",
-			"name": "Spell Effect: Infectious Enthusiasm (Attack)",
-			"description": "<p>With enchanted gusto, you encourage yourself to get things done and share your motivation with your allies. You gain a +1 status bonus to attack rolls. During the spell's duration, an ally who observed you Casting this Spell and was within 30 feet when you did so can take a single action, which has the concentrate trait, to gain the same bonus you chose until the start of its next turn.</p>\n<p>Using this spell to influence someone in a social situation is typically considered a faux pas, negating the benefit on Charisma-based skills if the subject of the check observed you casting the spell.</p>"
+			"name": "呪文効果: インフェクシャス・エンスージアズム (攻撃)",
+			"description": "<p>魔法で強化された意気込みで、君は物事を成し遂げるために自分を励まし、そのやる気を味方と共有する。君は、攻撃ロールに+1のステータス・ボーナスを得ることができる。この呪文の持続時間中、君がこの「呪文の発動」をしている時にその30フィート以内にいた味方は、次の手番の開始時まで、君が選んだものと同じボーナスを得るために、精神集中の特性を持つ単発アクションを取ることができる。</p>\n<p>この呪文を使って、社交的な状況に居る誰かに影響を与えることは、一般的に失態と見なされ、もし、判定の対象が君の呪文の発動を見ていたなら、魅力に基づいた技能判定の利益は無効化される。</p>"
 		},
 		{
 			"id": "Spell Effect: Infectious Enthusiasm (Charisma Based)",
-			"name": "Spell Effect: Infectious Enthusiasm (Charisma Based)",
-			"description": "<p>With enchanted gusto, you encourage yourself to get things done and share your motivation with your allies. You gain a +1 status bonus to Charisma-based skill checks. During the spell's duration, an ally who observed you Casting this Spell and was within 30 feet when you did so can take a single action, which has the concentrate trait, to gain the same bonus you chose until the start of its next turn.</p>\n<p>Using this spell to influence someone in a social situation is typically considered a faux pas, negating the benefit on Charisma-based skills if the subject of the check observed you casting the spell.</p>"
+			"name": "呪文効果: インフェクシャス・エンスージアズム (魅力技能)",
+			"description": "<p>魔法で強化された意気込みで、君は物事を成し遂げるために自分を励まし、そのやる気を味方と共有する。君は、魅力に基づいた技能判定に+1のステータス・ボーナスを得ることができる。この呪文の持続時間中、君がこの「呪文の発動」をしている時にその30フィート以内にいた味方は、次の手番の開始時まで、君が選んだものと同じボーナスを得るために、精神集中の特性を持つ単発アクションを取ることができる。</p>\n<p>この呪文を使って、社交的な状況に居る誰かに影響を与えることは、一般的に失態と見なされ、もし、判定の対象が君の呪文の発動を見ていたなら、魅力に基づいた技能判定の利益は無効化される。</p>"
 		},
 		{
 			"id": "Spell Effect: Infectious Enthusiasm (Will Saves)",
-			"name": "Spell Effect: Infectious Enthusiasm (Will Saves)",
-			"description": "<p>With enchanted gusto, you encourage yourself to get things done and share your motivation with your allies. You gain a +1 status bonus to Will saves. During the spell's duration, an ally who observed you Casting this Spell and was within 30 feet when you did so can take a single action, which has the concentrate trait, to gain the same bonus you chose until the start of its next turn.</p>\n<p>Using this spell to influence someone in a social situation is typically considered a faux pas, negating the benefit on Charisma-based skills if the subject of the check observed you casting the spell.</p>"
+			"name": "呪文効果: インフェクシャス・エンスージアズム (意志セーヴ)",
+			"description": "<p>魔法で強化された意気込みで、君は物事を成し遂げるために自分を励まし、そのやる気を味方と共有する。君は、意志セーヴに+1のステータス・ボーナスを得ることができる。この呪文の持続時間中、君がこの「呪文の発動」をしている時にその30フィート以内にいた味方は、次の手番の開始時まで、君が選んだものと同じボーナスを得るために、精神集中の特性を持つ単発アクションを取ることができる。</p>\n<p>この呪文を使って、社交的な状況に居る誰かに影響を与えることは、一般的に失態と見なされ、もし、判定の対象が君の呪文の発動を見ていたなら、魅力に基づいた技能判定の利益は無効化される。</p>"
 		},
 		{
 			"id": "Spell Effect: Infectious Melody",
@@ -1013,8 +1013,8 @@
 		},
 		{
 			"id": "Spell Effect: Juvenile Companion",
-			"name": "Spell Effect: Juvenile Companion",
-			"description": "<p>You transform your companion into its juvenile form, such as a cub, foal, kitten, puppy, or piglet, making the target appear harmless. It becomes Tiny (if it was larger), and its reach is reduced to 0 feet. All of its Speeds are halved (to a minimum Speed of 5 feet), and it gains weakness 5 to physical damage. In all other ways, its abilities and statistics are unchanged.</p>\n<p>If your companion uses a hostile action, <em>juvenile companion</em> ends. This spell has no effect on a companion that doesn't have a juvenile form.</p>\n<hr />\n<p><strong>Heightened (2nd)</strong> The duration increases to 1 hour.</p>"
+			"name": "呪文効果: ジュヴナイル・コンパニオン",
+			"description": "<p>君は自分の相棒を、子犬、子馬、子猫、子犬、子豚といった幼年期形態に変身させ、対象を無害に見せる。対象は超小型になり（それより大きいなら）、その間合いは0フィートになる。速度は全て、半分（最低値は5フィート）となり、物理ダメージに対する弱点5点を得る。その他の点では、能力とステータスは変化しない。</p>\n<p>もし、相棒が敵対的な行動をとったなら、<em>ジュヴナイル・コンパニオン</em>は終了する。この呪文は幼年期形態を持たない相棒には効果を持たない。</p>\n<hr />\n<p><strong>増強（2レベル）</strong> 持続時間は1時間になる</p>"
 		},
 		{
 			"id": "Spell Effect: Ki Form (Force)",
@@ -1053,8 +1053,8 @@
 		},
 		{
 			"id": "Spell Effect: Magic Weapon",
-			"name": "Spell Effect: Magic Weapon",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.TFitdEOpQC4SzKQQ]{Magic Weapon}</em></p>\n<p>The weapon glimmers with magic and energy. The target becomes a +1 <em>striking</em> weapon, gaining a +1 item bonus to attack rolls and increasing the number of weapon damage dice to two.</p>"
+			"name": "呪文効果: マジック・ウェポン",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.TFitdEOpQC4SzKQQ]{マジック・ウェポン}</em>による効果。</p>\n<p>武器は魔法とエネルギーできらめいている。対象は+1<em>ストライキング</em>武器になる。つまり、+1のアイテム・ボーナスを攻撃ロールに得て、武器ダメージ・ダイスの数を2に増やす。</p>"
 		},
 		{
 			"id": "Spell Effect: Magic's Vessel",
@@ -1083,8 +1083,8 @@
 		},
 		{
 			"id": "Spell Effect: Mimic Undead",
-			"name": "Spell Effect: Mimic Undead",
-			"description": "<p>You take death and wrap it about you like a cloak-your colors wash out and your skin grows cold to the touch. Your heartbeat, breathing, and similar life functions become very difficult to detect. Senses such as lifesense detect you as undead unless a creature succeeds at a Perception check against the spell's DC, and on a failed check, they don't detect you at all if they only sense living creatures. Detection spells that specifically sense living creatures must succeed at a counteract check against <em>mimic undead</em> to detect you. You gain a +4 status bonus to Impersonate an undead but physically intact version of yourself and can add your level as your proficiency bonus even if you're untrained. You don't gain these benefits to Impersonate any other sort of undead. Mindless undead usually don't have a reason to even attempt the Perception check to notice your Impersonation unless you interact with them in some way.</p>"
+			"name": "呪文効果: ミミック・アンデッド",
+			"description": "<p>君は死を受け入れ、それを外套のようにまとう――君の色は洗い流され、その皮膚は触れると冷たくなる。君の鼓動、呼吸、そして似たような生命活動を感知することは非常に困難になる。生命感知のような感覚は、呪文のDCに対して知覚判定に成功しなければ君をアンデッドとして探知する。判定に失敗したなら、クリーチャーは生きているクリーチャーのみを探知する場合は君を全く探知しない。解くに生きているクリーチャーを感知する探知呪文は、君を探知するためにミミック・アンデッドに対して無効化判定に成功しなければならない。君はアンデッドではあるものの、物理的に無傷な自分に「なりすます」ための判定に+4ステータス・ボーナスを得る。また、未修得であってもこの判定に自分の習熟ボーナスとしてレベルを加えることが出来る。君はこの利益を、他の種類のアンデッドに「なりすます」際には得ることが出来ない。精神のないアンデッドは通常、君が何らかの方法で干渉しない限り、君に気がつくための知覚判定を試みる理由がない。</p>"
 		},
 		{
 			"id": "Spell Effect: Mind Blank",
@@ -1128,8 +1128,8 @@
 		},
 		{
 			"id": "Spell Effect: Necromancer's Generosity",
-			"name": "Spell Effect: Necromancer's Generosity",
-			"description": "<p>Your undead minion gains a +2 status bonus to saves against positive effects for the duration.</p>"
+			"name": "呪文効果: ネクロマンサーズ・ジェネロシティ",
+			"description": "<p>君のアンデッドの手下は、持続時間の間、正のエネルギー効果に対するセーヴに+2ステータス・ボーナスを得る。</p>"
 		},
 		{
 			"id": "Spell Effect: Necrotize (Legs)",
@@ -1143,8 +1143,8 @@
 		},
 		{
 			"id": "Spell Effect: Nymph's Token",
-			"name": "Spell Effect: Nymph's Token",
-			"description": "<p>Granted by holding the token created by <em>@Compendium[pf2e.spells-srd.pHrVvoTKygXeczVG]{Nymph's Token}</em></p>"
+			"name": "呪文効果: ニンフのあかし",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.pHrVvoTKygXeczVG]{ニンフのあかし}</em>で作られたあかしを持つことによる効果。</p>"
 		},
 		{
 			"id": "Spell Effect: Object Memory (Weapon)",
@@ -1208,8 +1208,8 @@
 		},
 		{
 			"id": "Spell Effect: Pocket Library",
-			"name": "Spell Effect: Pocket Library",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.TjWHgXqPv5jywMti]{Pocket Library}</em></p>\n<p>During the duration of this spell, you can call forth a tome from the extradimensional library when attempting a Recall Knowledge check using your chosen skill. This is part of the action to Recall Knowledge. You must have a hand free to do so. The tome appears in your hand, open to an appropriate page. This grants you a +1 status bonus on the Recall Knowledge check. If you roll a critical failure on this check, you get a failure instead. If the roll is successful and the subject is a creature, you gain additional information or context about the creature.</p>"
+			"name": "呪文効果: ポケット・ライブラリー",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.TjWHgXqPv5jywMti]{ポケット・ライブラリー}</em>による効果。</p>\n<p>この呪文の持続時間の間、君は選んだ技能の「知識を思い出す」を行う際に多次元界の図書館から本を呼び出すことが出来る。これは「知識を思い出す」アクションの一部である。君はそうするために、一本の手が自由でなければならない。この本は君の手に、適切なページが開いた状態で現れる。これによって、君は「知識を思い出す」判定に+1ステータス・ボーナスを得る。もし、この判定にファンブルをロールしたのなら、君は代わりに失敗する。もし、このロールが成功でその対象がクリーチャーだったのなら、君はそのクリーチャーに関する追加の知識や背景を得る。</p>"
 		},
 		{
 			"id": "Spell Effect: Practise Makes Perfect",
@@ -1243,8 +1243,8 @@
 		},
 		{
 			"id": "Spell Effect: Protect Companion",
-			"name": "Spell Effect: Protect Companion",
-			"description": "<p>The target gains a +1 circumstance bonus to AC until the start of your next turn.</p>"
+			"name": "呪文効果: プロテクト・コンパニオン",
+			"description": "<p>対象は君の次の手番の開始時までACに+1状況ボーナスを得る。</p>"
 		},
 		{
 			"id": "Spell Effect: Protective Ward",
@@ -1253,48 +1253,48 @@
 		},
 		{
 			"id": "Spell Effect: Rapid Adaptation (Aquatic Base Swim Speed)",
-			"name": "Spell Effect: Rapid Adaptation (Aquatic Base Swim Speed)",
-			"description": "<p>The target gains a swim Speed equal to its land Speed. If it already had a swim Speed, it gains a +10-foot status bonus to its swim Speed.</p>"
+			"name": "呪文効果: ラピッド・アダプテイション (水中：基本水泳速度)",
+			"description": "<p>対象は地上速度に等しい水泳速度を得る。もし、既に水泳速度を持っているなら、水泳速度に+10フィートのステータス・ボーナスを得る</p>"
 		},
 		{
 			"id": "Spell Effect: Rapid Adaptation (Aquatic Speed Bonus)",
-			"name": "Spell Effect: Rapid Adaptation (Aquatic Speed Bonus)",
-			"description": "<p>The target gains a swim Speed equal to its land Speed. If it already had a swim Speed, it gains a +10-foot status bonus to its swim Speed.</p>"
+			"name": "呪文効果: ラピッド・アダプテイション (水中：速度ボーナス)",
+			"description": "<p>対象は地上速度に等しい水泳速度を得る。もし、既に水泳速度を持っているなら、水泳速度に+10フィートのステータス・ボーナスを得る</p>"
 		},
 		{
 			"id": "Spell Effect: Rapid Adaptation (Arctic)",
-			"name": "Spell Effect: Rapid Adaptation (Arctic)",
-			"description": "<p>The target isn't affected by severe or extreme cold, and when it rolls a success on an Acrobatics check to Balance on ice and snow, it gets a critical success instead.</p>"
+			"name": "呪文効果: ラピッド・アダプテイション (極地)",
+			"description": "<p>対象は深刻な、あるいは極限の冷気に影響されず、氷や雪の上で「バランスを取る」ための〈軽業〉に成功をロールしたなら、代わりにクリティカルする。</p>"
 		},
 		{
 			"id": "Spell Effect: Rapid Adaptation (Desert)",
-			"name": "Spell Effect: Rapid Adaptation (Desert)",
-			"description": "<p>The target isn't affected by severe or extreme heat, and when it rolls a success on an Acrobatics check to Balance on sand, it gets a critical success instead.</p>"
+			"name": "呪文効果: ラピッド・アダプテイション (砂漠)",
+			"description": "<p>対象は深刻な、あるいは極限の暑さに影響されず、砂の上で「バランスを取る」ための〈軽業〉に成功をロールしたなら、代わりにクリティカルする。</p>"
 		},
 		{
 			"id": "Spell Effect: Rapid Adaptation (Forest)",
-			"name": "Spell Effect: Rapid Adaptation (Forest)",
-			"description": "<p>The target gains scent as an imprecise sense with a range of 30 feet.</p>"
+			"name": "呪文効果: ラピッド・アダプテイション (森林)",
+			"description": "<p>対象は距離30フィートの不明瞭な感覚として嗅覚を得る。</p>"
 		},
 		{
 			"id": "Spell Effect: Rapid Adaptation (Mountain)",
-			"name": "Spell Effect: Rapid Adaptation (Mountain)",
-			"description": "<p>The target isn't @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} when Climbing, and when it rolls a success on an Acrobatics check to Balance on rubble, it gets a critical success instead.</p>"
+			"name": "呪文効果: ラピッド・アダプテイション (山地)",
+			"description": "<p>対象は「登攀」中に@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{立ちすくみ}にならず、瓦礫の上で「バランスを取る」ための〈軽業〉に成功をロールしたなら、代わりにクリティカルする。</p>"
 		},
 		{
 			"id": "Spell Effect: Rapid Adaptation (Plains)",
-			"name": "Spell Effect: Rapid Adaptation (Plains)",
-			"description": "<p>The target gains a +10-foot status bonus to its land Speed.</p>"
+			"name": "呪文効果: ラピッド・アダプテイション (平地)",
+			"description": "<p>対象は地上速度に+10フィートのステータス・ボーナスを得る。</p>"
 		},
 		{
 			"id": "Spell Effect: Rapid Adaptation (Underground)",
-			"name": "Spell Effect: Rapid Adaptation (Underground)",
-			"description": "<p>The target gains darkvision.</p>"
+			"name": "呪文効果: ラピッド・アダプテイション (地下)",
+			"description": "<p>対象は暗視を得る。</p>"
 		},
 		{
 			"id": "Spell Effect: Read the Air",
-			"name": "Spell Effect: Read the Air",
-			"description": "<p>You also gain a +1 status bonus on your next Diplomacy check to Make an Impression on those creatures present when you cast this spell, as long as the check occurs during the duration of the spell. You can read the air only once in a given social situation; casting it again has no effect.</p>"
+			"name": "呪文効果: リード・ジ・エア",
+			"description": "<p>君はまた、その判定が呪文の持続時間に起きる限り、呪文の発動の際にその場に居たクリーチャーに「懐柔」を行うための次の〈交渉〉判定に、+1ステータス・ボーナスを得る。君は、ある社交的な状況について、1度だけ、リード・ジ・エアを使うことが出来る；再度の発動には何の効果も無い。</p>"
 		},
 		{
 			"id": "Spell Effect: Reinforce Eidolon",
@@ -1328,8 +1328,8 @@
 		},
 		{
 			"id": "Spell Effect: Schadenfreude (Success)",
-			"name": "Spell Effect: Schadenfreude (Success)",
-			"description": "<p>The creature is distracted by its amusement and takes a -1 status penalty on Perception checks and Will saves for 1 round.</p>"
+			"name": "呪文効果: シャーデンフロイデ (成功)",
+			"description": "<p>クリーチャーは喜びで気をそらされ、1ラウンド、知覚判定と意志セーヴに－1ステータス・ペナルティを受ける</p>"
 		},
 		{
 			"id": "Spell Effect: Shifting Form (Claws)",
@@ -1363,8 +1363,8 @@
 		},
 		{
 			"id": "Spell Effect: Shrink",
-			"name": "Spell Effect: Shrink",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.PjhUmyKnq6K5uDby]{Shrink}</em></p>\n<p>You warp space to make a creature smaller. The target shrinks to become Tiny in size. Its equipment shrinks with it but returns to its original size if removed. The creature's reach changes to 0 feet. This spell has no effect on a Tiny creature.</p>"
+			"name": "呪文効果: シュリンク",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.PjhUmyKnq6K5uDby]{シュリンク}</em>による効果。</p>\n<p>君はクリーチャーを小さくするために空間をねじ曲げる。対象は超小型のサイズに縮む。その装備は一緒に縮むが、装備を外すと元々のサイズになる。クリーチャーの間合いは0フィートになる。この呪文は超小型のクリーチャーには何の効果もない。</p>"
 		},
 		{
 			"id": "Spell Effect: Soothing Blossoms",
@@ -1388,18 +1388,18 @@
 		},
 		{
 			"id": "Spell Effect: Summoner's Visage",
-			"name": "Spell Effect: Summoner's Visage",
-			"description": "<p>Your eidolon gains a +4 status bonus to Deception checks to Impersonate you and can add its level to such checks even if it's untrained.</p>"
+			"name": "呪文効果: サモナーズ・ヴィザージュ",
+			"description": "<p>君の幻獣は君に「なりすます」ための〈欺瞞〉判定に+4ステータス・ボーナスを得て、未修得であってもそういった判定にレベルを加えることが出来る。</p>"
 		},
 		{
 			"id": "Spell Effect: Swampcall (Critical Failure)",
-			"name": "Spell Effect: Swampcall (Critical Failure)",
-			"description": "<p>You call upon the spirits of the soil to twist and churn, transforming the terrain in the targeted area into a sodden mess. The area becomes difficult terrain. Creatures in the area when you Cast this Spell must attempt a Reflex saving throw.</p>\n<hr />\n<p><strong>Critical Failure</strong> The creature sinks partially into the mud. The creature takes a -15-foot circumstance penalty to its Speeds (except for its swim Speed, if any) and becomes @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed}. These effects last until the creature leaves the area or until the end of its next turn, whichever comes first.</p>"
+			"name": "呪文効果: スワンプコール (ファンブル)",
+			"description": "<p>君はその土地の精霊を呼び寄せ、ねじり、かきまわし、対象となった範囲の地形をぐちゃぐちゃに変化させる。その範囲は移動困難な地形になる。君が「呪文の発動」をした際に範囲内にいたクリーチャーは反応セーヴィング・スローを試みなくてはならない。</p>\n<hr />\n<p><strong>ファンブル</strong> クリーチャーは部分的に泥の中に沈み込む。クリーチャーは速度に－15フィートの状況ペナルティを受け（水泳速度以外のものすべて）、@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{立ちすくみ}状態になる。これらの効果は、クリーチャーが範囲を離れるか、次の手番の終了時か、最初に来た方まで続く。</p>"
 		},
 		{
 			"id": "Spell Effect: Swampcall (Failure)",
-			"name": "Spell Effect: Swampcall (Failure)",
-			"description": "<p>You call upon the spirits of the soil to twist and churn, transforming the terrain in the targeted area into a sodden mess. The area becomes difficult terrain. Creatures in the area when you Cast this Spell must attempt a Reflex saving throw.</p>\n<hr />\n<p><strong>Failure</strong> The creature sinks partially into the mud. The creature takes a -10-foot circumstance penalty to its Speeds (except for its swim Speed, if any) and becomes @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed}. These effects last until the creature leaves the area or until the end of its next turn, whichever comes first.</p>"
+			"name": "呪文効果:スワンプコール (失敗)",
+			"description": "<p>君はその土地の精霊を呼び寄せ、ねじり、かきまわし、対象となった範囲の地形をぐちゃぐちゃに変化させる。その範囲は移動困難な地形になる。君が「呪文の発動」をした際に範囲内にいたクリーチャーは反応セーヴィング・スローを試みなくてはならない。</p>\n<hr />\n<p><strong>失敗</strong> クリーチャーは部分的に泥の中に沈み込む。クリーチャーは速度に－10フィートの状況ペナルティを受け（水泳速度以外のものすべて）、@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{立ちすくみ}状態になる。これらの効果は、クリーチャーが範囲を離れるか、次の手番の終了時か、最初に来た方まで続く。</p>"
 		},
 		{
 			"id": "Spell Effect: Sweet Dream (Glamour)",
@@ -1448,8 +1448,8 @@
 		},
 		{
 			"id": "Spell Effect: Thundering Dominance",
-			"name": "Spell Effect: Thundering Dominance",
-			"description": "<p>You shroud the target in a powerful predatory aura and amplify its vocalizations. It gains a +1 status bonus to Intimidation checks. Once during this spell's duration, it can take the Thundering Roar action.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The status bonus to Intimidation checks increases by 1 (to a maximum of a +4 status bonus for an 8th-level spell), and the damage from the roar increases by 2d8.</p>"
+			"name": "呪文効果: サンダリング・ドミナンス",
+			"description": "<p>君は対象を強力な捕食のオーラで包み込み、その発声を強化する。対象は〈威圧〉判定に+1ステータス・ボーナスを得る。この呪文の持続時間の間、対象は「雷の如き唸り」のアクションを得る。</p>\n<hr />\n<p><strong>増強 (+2)</strong> 〈威圧〉判定へのステータス・ボーナスは1上昇し（8レベル呪文の+4ステータス・ボーナスが最大値である）、唸りのダメージは2d8点、上昇する。</p>"
 		},
 		{
 			"id": "Spell Effect: Touch of Corruption",
@@ -1473,8 +1473,8 @@
 		},
 		{
 			"id": "Spell Effect: Unusual Anatomy",
-			"name": "Spell Effect: Unusual Anatomy",
-			"description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.ddKBoCjmSyPSHcws]{Unusual Anatomy}</em></p>"
+			"name": "呪文効果: 怪異なる構造",
+			"description": "<p><em>@Compendium[pf2e.spells-srd.ddKBoCjmSyPSHcws]{怪異なる構造}</em>による効果。</p>"
 		},
 		{
 			"id": "Spell Effect: Variable Gravity (High Gravity)",
@@ -1548,8 +1548,8 @@
 		},
 		{
 			"id": "Spell effect: Nudge the Odds",
-			"name": "Spell effect: Nudge the Odds",
-			"description": "<p>You bestow yourself supernaturally good luck at cards, dice, and other games of chance. You gain a +1 status bonus to Games Lore checks to gamble, and if you roll a critical failure on such a check, you get a failure instead; however, the spell is too short-lived to use for Earn Income checks from gambling.</p>\n<p>When you're under the effect of nudge the odds, one facial feature, such as a lock of hair or the iris of an eye, transforms to a distinctive golden color; the GM chooses which feature when you cast the spell. This change resists all magical efforts to conceal it, though it can be hidden or covered by mundane means. A creature noticing the feature can identify the spell using Recall Knowledge. Because it prevents losing big, gamblers consider nudge the odds a repugnant form of cheating. If you're caught using the spell, you are likely to suffer serious consequences, depending on the nature of the gamblers you cheated.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> The status bonus increases to +2, and the duration increases to last until the next time you make your daily preparations. If you continue spending your spell slot to keep the duration active, this allows you to apply the effect to a downtime check to Earn Income.</p>"
+			"name": "呪文効果: ナッジ・ジ・オッズ",
+			"description": "<p>君は自分にトランプ、ダイス、その他の偶然によるゲームにおける超自然的な幸運を与える。君はギャンブルをするための〈伝承：ゲーム〉に+1ステータス・ボーナスを受け、もしそういった判定でファンブルしたのなら、代わりに失敗する。しかしながら、この呪文はギャンブルでの「収入を得る」に遣うには持続時間が短すぎる。</p>\n<p>君がナッジ・ジ・オッズの効果を受けている際、髪の色や瞳の虹彩など、顔の特徴の一つが特徴的な黄金色に変わる。GMは呪文の発動時にどの特徴が黄金になるかを決める。この変化は、呪文を隠そうとする全ての努力に対抗するが、通常の手段によって隠すことや、覆うことは出来る。この特徴に気付いたクリーチャーは、「知識を思い出す」を使っての呪文の識別をすることが出来る。この呪文は大負けを回避させるため、ギャンブラーはナッジ・ジ・オッズを反発心を覚えるようなイカサマだと見なす。もし、君がこの呪文を使っているのを見とがめられたなら、君が騙したギャンブラーの性格にもよるが、深刻な結末を迎えることになる可能性が高い。</p>\n<hr />\n<p><strong>増強 (5th)</strong> ステータス・ボーナスは+2に増加し、持続時間は、君が次の一日の準備をするまでに増加する。君がこの持続時間の間、効果を保持するために呪文スロットを消費し続けるのなら、これによって君は「収入を得る」ための余暇の判定にこの効果を適用することが出来る。</p>"
 		},
 		{
 			"id": "Effect: Guidance Immunity",
@@ -1558,7 +1558,7 @@
 		},
 		{
 			"id": "Spell Effect: Inspire Defense",
-			"name": "呪文効果: I防御鼓舞の呪芸",
+			"name": "呪文効果: 防御鼓舞の呪芸",
 			"description": "<p><em>@Compendium[pf2e.spells-srd.bH0kPuf7UKxRvi2P]{《防御鼓舞の呪芸》}</em>による効果。</p>\n<p>君は、より効率的に防御を行うために味方を鼓舞する。範囲にいる君と君の全ての味方はACとセーヴィング・スローに+1ステータス・ボーナスと、物理的ダメージへの、呪文レベルの半分に等しい抵抗を得る。</p>\n<p><em>メモ:抵抗は自動的に追加されない。 </em></p>"
 		},
 		{
