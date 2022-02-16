@@ -78,13 +78,13 @@
 		},
 		{
 			"id": "Abysium Chunk",
-			"name": "Abysium Chunk",
-			"description": "<p>A blue-green metal with an eerie green luminescence, abysium radiates power that's inimical to life. Careless exposure to the material can lead to long-term damage to the immune system; as such, mining abysium is hazardous, as large quantities of the metal in an area cause all nearby creatures to become sick.</p>\n<p>A creature carrying an abysium object is @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1} for a standard-grade object of light Bulk, @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 2} for a standard-grade object of 1 Bulk or more or a high-grade object of light Bulk, or @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 3} for a high-grade object of 1 Bulk or more. This and all other sickening effects of abysium are poison effects.</p>\n<p>Crafters can use 1 abysium chunk to create up to 6 doses of poisonous @Compendium[pf2e.equipment-srd.sav38slFFlUVu75Z]{Abysium Powder}. Unscrupulous smiths have harnessed abysium's toxic properties to create noxious weapons and deadly substances.</p>\n<p>All objects crafted from abysium shed dim light in a 10-foot radius.</p>\n<h2>Abysium Items</h2>\n<table class=\"pf2-table\">\n<thead>\n<tr>\n<th>Abysium Items</th>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Thin Items</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>6</td>\n<td>24</td>\n<td>12</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>10</td>\n<td>40</td>\n<td>20</td>\n</tr>\n<tr>\n<td><strong>Items</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>10</td>\n<td>40</td>\n<td>20</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>13</td>\n<td>52</td>\n<td>26</td>\n</tr>\n<tr>\n<td><strong>Structures</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>20</td>\n<td>80</td>\n<td>40</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>26</td>\n<td>104</td>\n<td>52</td>\n</tr>\n</tbody>\n</table>"
+			"name": "アビシウムの原石",
+			"description": "<p>奇妙な緑色の光を放つ、青みがかった緑色の金属であるアビシウムは、生命を害する力を放つ。この素材に不注意に暴露することにより、免疫系に長期的なダメージを負うことがある；このように、アビシウムの採掘は有害であるため、範囲内に大量のこの金属があることは、近隣の全てのクリーチャーに不調を引き起こす。</p>\n<p>アビシウムの物体を運んでいるクリーチャーは、軽重量の標準クラスの物体なら@Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{不調1}に、標準クラスの1バルク以上の物体、あるいは軽重量の高級クラスの物体なら@Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{不調2}に、高級クラスの1バルク以上の物体なら@Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{不調3}になる。</p>\n<p>製作者は毒を持つ@Compendium[pf2e.equipment-srd.sav38slFFlUVu75Z]{アビシウム粉末}6服を作るために、1つのアビシウムの原石を使うことが出来る。無節操な鍛冶屋はアビシウムの毒の特性を制御し、猛毒の武器や命を奪う物質を作り出す。</p>\n<p>アビシウムから作られた全ての物体は、10フィート半径に薄暗い光を放つ。</p>\n<h2>アビシウム製アイテム</h2>\n<table class=\"pf2-table\">\n<thead>\n<tr>\n<th>アビシウム製アイテム</th>\n<th>硬度</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>薄いアイテム</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>標準クラス</td>\n<td>6</td>\n<td>24</td>\n<td>12</td>\n</tr>\n<tr>\n<td>高級クラス</td>\n<td>10</td>\n<td>40</td>\n<td>20</td>\n</tr>\n<tr>\n<td><strong>アイテム</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>標準クラス</td>\n<td>10</td>\n<td>40</td>\n<td>20</td>\n</tr>\n<tr>\n<td>高級クラス</td>\n<td>13</td>\n<td>52</td>\n<td>26</td>\n</tr>\n<tr>\n<td><strong>構造物</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>標準クラス</td>\n<td>20</td>\n<td>80</td>\n<td>40</td>\n</tr>\n<tr>\n<td>高級クラス</td>\n<td>26</td>\n<td>104</td>\n<td>52</td>\n</tr>\n</tbody>\n</table>"
 		},
 		{
 			"id": "Abysium Ingot",
-			"name": "Abysium Ingot",
-			"description": "<p>A blue-green metal with an eerie green luminescence, abysium radiates power that's inimical to life. Careless exposure to the material can lead to long-term damage to the immune system; as such, mining abysium is hazardous, as large quantities of the metal in an area cause all nearby creatures to become sick.</p>\n<p>A creature carrying an abysium object is @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1} for a standard-grade object of light Bulk, @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 2} for a standard-grade object of 1 Bulk or more or a high-grade object of light Bulk, or @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 3} for a high-grade object of 1 Bulk or more. This and all other sickening effects of abysium are poison effects.</p>\n<p>Crafters can use 1 abysium chunk to create up to 6 doses of poisonous @Compendium[pf2e.equipment-srd.sav38slFFlUVu75Z]{Abysium Powder}. Unscrupulous smiths have harnessed abysium's toxic properties to create noxious weapons and deadly substances.</p>\n<p>All objects crafted from abysium shed dim light in a 10-foot radius.</p>\n<h2>Abysium Items</h2>\n<table class=\"pf2-table\">\n<thead>\n<tr>\n<th>Abysium Items</th>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Thin Items</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>6</td>\n<td>24</td>\n<td>12</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>10</td>\n<td>40</td>\n<td>20</td>\n</tr>\n<tr>\n<td><strong>Items</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>10</td>\n<td>40</td>\n<td>20</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>13</td>\n<td>52</td>\n<td>26</td>\n</tr>\n<tr>\n<td><strong>Structures</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>20</td>\n<td>80</td>\n<td>40</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>26</td>\n<td>104</td>\n<td>52</td>\n</tr>\n</tbody>\n</table>"
+			"name": "アビシウムの鉱石",
+			"description": "<p>奇妙な緑色の光を放つ、青みがかった緑色の金属であるアビシウムは、生命を害する力を放つ。この素材に不注意に暴露することにより、免疫系に長期的なダメージを負うことがある；このように、アビシウムの採掘は有害であるため、範囲内に大量のこの金属があることは、近隣の全てのクリーチャーに不調を引き起こす。</p>\n<p>アビシウムの物体を運んでいるクリーチャーは、軽重量の標準クラスの物体なら@Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{不調1}に、標準クラスの1バルク以上の物体、あるいは軽重量の高級クラスの物体なら@Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{不調2}に、高級クラスの1バルク以上の物体なら@Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{不調3}になる。</p>\n<p>製作者は毒を持つ@Compendium[pf2e.equipment-srd.sav38slFFlUVu75Z]{アビシウム粉末}6服を作るために、1つのアビシウムの原石を使うことが出来る。無節操な鍛冶屋はアビシウムの毒の特性を制御し、猛毒の武器や命を奪う物質を作り出す。</p>\n<p>アビシウムから作られた全ての物体は、10フィート半径に薄暗い光を放つ。</p>\n<h2>アビシウム製アイテム</h2>\n<table class=\"pf2-table\">\n<thead>\n<tr>\n<th>アビシウム製アイテム</th>\n<th>硬度</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>薄いアイテム</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>標準クラス</td>\n<td>6</td>\n<td>24</td>\n<td>12</td>\n</tr>\n<tr>\n<td>高級クラス</td>\n<td>10</td>\n<td>40</td>\n<td>20</td>\n</tr>\n<tr>\n<td><strong>アイテム</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>標準クラス</td>\n<td>10</td>\n<td>40</td>\n<td>20</td>\n</tr>\n<tr>\n<td>高級クラス</td>\n<td>13</td>\n<td>52</td>\n<td>26</td>\n</tr>\n<tr>\n<td><strong>構造物</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>標準クラス</td>\n<td>20</td>\n<td>80</td>\n<td>40</td>\n</tr>\n<tr>\n<td>高級クラス</td>\n<td>26</td>\n<td>104</td>\n<td>52</td>\n</tr>\n</tbody>\n</table>"
 		},
 		{
 			"id": "Abysium Powder",
@@ -103,7 +103,7 @@
 		},
 		{
 			"id": "Acid Spitter",
-			"name": "Acid Spitter",
+			"name": "アシッド・スピッター",
 			"description": "<p>このブリキの時計仕掛けのトカゲは、クリーチャーが隣接して移動すると起動し、その時に酸の塊を吐き出す。対象者は<span data-pf2-check=\"reflex\" data-pf2-dc=\"20\" data-pf2-traits=\"acid,clockwork,mechanical,snare,trap\" data-pf2-label=\"アシッド・スピッター DC\" data-pf2-show-dc=\"gm\">反応</span>セーヴィング・スローに成功しなければ、[[/r {3d6}[強酸]]]{3d6点の強酸ダメージ}を受ける。</p>\n<hr />\n<p><strong>クリティカル</strong> クリーチャーは影響を受けない</p>\n<p><strong>成功</strong> クリーチャーは完全なダメージを受ける</p>\n<p><strong>失敗</strong> クリーチャーは完全なダメージを受け、[[/r {5}[継続、強酸]]] 点の@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続強酸ダメージ}を受ける</p>\n<p><strong>ファンブル</strong> クリーチャーは2倍のダメージを受け、[[/r {10}[継続、強酸]]] 点の@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続強酸ダメージ}を受ける</p>"
 		},
 		{
@@ -268,28 +268,28 @@
 		},
 		{
 			"id": "Air Bladder",
-			"name": "Air Bladder",
-			"description": "<p><strong>Bulk</strong> L (1 if inflated)</p>\n<hr />\n<p>This weighted animal bladder can be inflated with air in preparation for a dive. It holds enough air to breathe for one round. As a free action, you can inhale the contents of the air bladder, which resets the number of rounds you can hold your breath. You can inflate the bladder or remove its attached weight as an Interact action. An unattached inflated bladder without the weight will float toward the surface of the water at a rate of 60 feet per round.</p>"
+			"name": "空気袋",
+			"description": "<p><strong>バルク</strong> L (膨らんだ状態なら1)</p>\n<hr />\n<p>この、重りが取り付けられた動物の革で出来た袋は、潜水の準備をするために空気で膨らませることが出来る。この袋は、1ラウンド、呼吸をするのに十分な空気を貯めておくことが出来る。フリー・アクションとして、君は空気袋の中身を吸い込み、息を堪えることが出来るラウンド数をリセットすることが出来る（溺れと窒息のルールを参照すること）。君は「使用」アクションで袋をふくらませたり、取り付けられている重りを取り除くことが出来る。重みが取り外された、膨らんでいる袋は1ラウンドに60フィートの割合で水面に浮かぶだろう。</p>"
 		},
 		{
 			"id": "Air Cartridge Firing System",
-			"name": "Air Cartridge Firing System",
-			"description": "<p>Air cartridge firing mechanisms use a container of compressed air affixed to a sealed system that releases the air in a small burst to propel ammunition, and they're the default used in Arcadian air repeaters. Any firearm can be modified to replace its normal firing mechanism with an air cartridge firing system, allowing the weapon to be fired underwater or in other conditions that would normally prevent the ignition of black powder. The air cartridges lack much of the propulsive power of black powder, however, imposing a -10-foot penalty to the attached firearm's range increment. Weapons with the kickback trait don't gain that trait's benefits when using an air cartridge firing system. Attaching an air cartridge firing system takes one hour, though this time can overlap with the standard time required to maintain and clean your firearm to prevent misfires.</p>"
+			"name": "エア・カートリッジ発射システム",
+			"description": "<p>協会メモ　火器の入手手段を持つキャラクターは、火器に使うことが出来るアクセサリの入手手段をも得る。エア・カートリッジ発射システムを取り入れており、反動の特性を持つ武器は、その特性と関連する欠点を保持する。</p>\n<p>使用方法　火器に取付（発射機構）</p>\n<p>エア・カートリッジ発射機構は、矢弾を発射するために小さな爆発という形で空気を解き放つ、密閉されたシステムに接着された圧縮空気の容器を利用している。これらは、アルカディアのエア・リピーターではデフォルトで使われている。あらゆる火器は通常の発射機構をエア・カートリッジ発射システムで置き換えて改造して、水中や、通常は黒色火薬の発火が妨げられるような状況下でも射撃が出来るようにすることが出来る。エア・カートリッジは、だが、黒色火薬の推進力を失っているため、取り付けられた火器の射程単位に-10フィートのペナルティを適用する。反動の特性を持つ武器は、エア・カートリッジ発射システムを使っている際、この特性の利益を得ない。エア・カートリッジ発射システムの取付には1時間がかかるが、この時間は君の火器が不発しないように火器を維持し、清掃するために必要な標準的な時間と重なってもよい。</p>"
 		},
 		{
 			"id": "Air Repeater",
-			"name": "Air Repeater",
-			"description": "<p>A thin-barreled firearm that uses a container of pressurized air instead of black powder to propel small metal bullets from an attached cartridge, the air repeater has fallen out of common use in Arcadia due to its poor stopping power, though it's still used occasionally for casual hunting and sport shooting. The air repeater and its longer-ranged, two-handed variant are still valued by some for their ability to allow a shooter to fire multiple rounds without needing to stop to reload or crank to a new chamber. A typical air repeater magazine holds 6 pellets.</p>"
+			"name": "エア・リピーター",
+			"description": "<p>協会メモ　ガンスリンガー（そしてガンスリンガーのアーキタイプを持つキャラクター）は特記ない限り、この本の第4章にある全てのアンコモンの武器、矢弾、関連アイテムの入手手段を得るが、ビースト・ガンとあらゆる限られた、あるいは制限されたアイテムは除く。アルカディアを故郷とするキャラクターはエア・ガン、非黒色火薬の矢弾とアクセサリの入手手段を持つ。</p>\n<p>入手手段　火器の地域は火器の入手手段を持つ：アルケンスター、ドンガン領、ティエン＝シア、ヴードラ、鎖の海the Shackles</p>\n<p>銃身が細く、取り付けられたカートリッジから小さな金属の弾丸を発射するために黒色火薬ではなく圧縮された空気が入った容器を使っているエア・リピーターは、その制動力の低さからアルカディアでは一般的には使われなくなったが、いまだ気軽な狩猟やスポーツ射撃には時々、使われている。エア・リピーターとその射程がより長い、両手持ちのヴァリアントは、再装填や新しいチャンバーにクランクするために手を止めることなしに複数ラウンドの発射をすることが出来る能力のため、一部の者に重宝されている。一般的なエア・リピーターの弾倉には6発の弾丸が入る。</p>"
 		},
 		{
 			"id": "Aklys",
-			"name": "Aklys",
-			"description": "<p>The aklys is a throwing club with a hook on one end and a lengthy cord attached to the other. Though aklyses aren't available in most shops, one might be purchased for 5 gp from a vendor that specializes in strange weapons.</p>"
+			"name": "アキリス",
+			"description": "<p>アキリスは片側の終端部にフックがついた投擲用の棍棒で、他方の終端部には長いコードが取り付けられている。アキリスはほとんどの店で売っていないが、奇妙な武器専門の売人から5gpで購入することが出来るかもしれない。</p>"
 		},
 		{
 			"id": "Alarm Snare",
-			"name": "Alarm Snare",
-			"description": "<p>You create an alarm snare by rigging one or more noisy objects to a trip wire or pressure plate. When you create an alarm snare, you designate a range between 100 to 500 feet at which it can be heard. When a Small or larger creature enters the square, the snare makes a noise loud enough that it can be heard by all creatures in the range you designated.</p>"
+			"name": "アラーム・スネア ",
+			"description": "<p>君は、仕掛け線や圧力板に1つ異常の騒音を発する物体を取り付けることによって、アラーム・スネアを作成する。アラーム・スネアを作成する際、君は100フィート～500フィートの間で聞こえる範囲を指定する。小型以上のクリーチャーがそのマス目に侵入すると、この罠は君が指定した範囲内の全てのクリーチャーに聞こえる騒音を発する。</p>"
 		},
 		{
 			"id": "Alchemical Atomizer",
@@ -298,58 +298,58 @@
 		},
 		{
 			"id": "Alchemical Crossbow",
-			"name": "Alchemical Crossbow",
-			"description": "<p>This crossbow can deliver alchemically infused bolts. The strange weapon has a metal bracket mounted on the side of the stock near the lath. As an action, you can load a single lesser alchemical bomb into the bracket; this bomb must be one that deals energy damage (such as an acid flask, alchemist's fire, bottled lightning, frost vial, or thunderstone).</p>\n<p>The next three attacks made with the crossbow deal [[/r 1d6]] damage of the bomb's damage type in addition to the crossbow's normal damage. If the second and third attacks are not all made within 1 minute of the first attack, the bomb's energy is wasted. These attacks never deal splash damage or other special effects of the bomb and are not modified by any abilities that add to or modify a bomb's effect.</p>\n<p>The addition of the bracket serves to unbalance the weapon, reducing its range to 30 feet. It otherwise functions as a crossbow (when determining damage, reload, and so on). Creatures use their crossbow proficiency when using the alchemical crossbow.</p>"
+			"name": "錬金術クロスボウ",
+			"description": "<p>このクロスボウは錬金術が注入されたボルトを撃ち込むことが出来る。この奇妙な武器は、ラスの近くにあるストックの側面に、金属のブラケットが取り付けられている。アクションとして、君はブラケットに1つのレッサー錬金術爆弾を装填することが出来る；この爆弾は、エネルギー・ダメージを与えるものでなければならない（アシッド・フラスク、アルケミスト・ファイア、ボトルド・ライトニング、フロスト・ヴァイアル、サンダーストーンのような）。</p>\n<p>このクロスボウで行われる次の3回の攻撃はクロスボウの通常のダメージに加えて、爆弾のダメージ種別の[[/r 1d6]]点のダメージを与える。もし、2番目と3番目の攻撃が全て、最初の攻撃の1分以内に行われないなら、爆弾のエネルギーは無駄になる。これらの攻撃は決して、爆弾の飛散ダメージやその他の特殊効果を与えず、爆弾の効果に追加、あるいは修正を加える能力によって修正されない。</p>\n<p>ブラケットを追加することによってこの武器はバランスが悪くなり、距離は30フィートに減る。それ以外についてはクロスボウのように機能する（ダメージ、再装填といったことを決定するのに）。クリーチャーは錬金術クロスボウを使うのに、クロスボウの習熟を使う。錬金術クロスボウは25gpである。</p>"
 		},
 		{
 			"id": "Alchemist Goggles",
-			"name": "Alchemist Goggles",
-			"description": "<p>These brass goggles are engraved with flame patterns and have thick, heavy lenses.</p>\n<p>While worn, they give you a +1 item bonus to Crafting checks to Craft alchemical items and a +1 item bonus to attack rolls with alchemical bombs.</p>\n<p>You can also ignore lesser cover when making Strikes with alchemical bombs.</p>\n<hr />\n<p>Automatically applied effects:</p>\n<ul>\n<li>+1 item bonus to Crafting alchemical item</li>\n<li>+1 item bonus to attack rolls with bombs</li>\n</ul>"
+			"name": "アルケミスト・ゴーグルズ",
+			"description": "<p>この真鍮のゴーグルには、炎の模様が刻まれており、分厚く重いレンズが入っている。着用している間、ゴーグルは錬金術アイテムを「製作」するための〈製作〉判定、そして錬金術爆弾での攻撃ロールに+1アイテム・ボーナスを与える。</p>\n<p>君はまた、錬金術爆弾で「打撃」を行う際に劣った遮蔽を無視することが出来る。</p>\n<hr />\n<p>自動的に適用される効果:</p>\n<ul>\n<li>錬金術アイテムを「製作」するための〈製作〉判定+1アイテム・ボーナス</li>\n<li>錬金術爆弾での攻撃ロールに+1アイテム・ボーナス</li>\n</ul>"
 		},
 		{
 			"id": "Alchemist Goggles (Greater)",
-			"name": "Alchemist Goggles (Greater)",
-			"description": "<p>These brass goggles are engraved with flame patterns and have thick, heavy lenses.</p>\n<p>While worn, they give you a +2 item bonus to Crafting checks to Craft alchemical items and a +2 item bonus to attack rolls with alchemical bombs.</p>\n<p>You can also ignore lesser cover when making Strikes with alchemical bombs.</p>\n<hr />\n<p>Automatically applied effects:</p>\n<ul>\n<li>+2 item bonus to Crafting alchemical item</li>\n<li>+2 item bonus to attack rolls with bombs</li>\n</ul>"
+			"name": "アルケミスト・ゴーグルズ (グレーター)",
+			"description": "<p>この真鍮のゴーグルには、炎の模様が刻まれており、分厚く重いレンズが入っている。着用している間、ゴーグルは錬金術アイテムを「製作」するための〈製作〉判定、そして錬金術爆弾での攻撃ロールに+2アイテム・ボーナスを与える。</p>\n<p>君はまた、錬金術爆弾で「打撃」を行う際に劣った遮蔽を無視することが出来る。</p>\n<hr />\n<p>自動的に適用される効果:</p>\n<ul>\n<li>錬金術アイテムを「製作」するための〈製作〉判定+2アイテム・ボーナス</li>\n<li>錬金術爆弾での攻撃ロールに+2アイテム・ボーナス</li>\n</ul>"
 		},
 		{
 			"id": "Alchemist Goggles (Major)",
-			"name": "Alchemist Goggles (Major)",
-			"description": "<p>These brass goggles are engraved with flame patterns and have thick, heavy lenses.</p>\n<p>While worn, they give you a +3 item bonus to Crafting checks to Craft alchemical items and a +3 item bonus to attack rolls with alchemical bombs.</p>\n<p>You can also ignore lesser cover when making Strikes with alchemical bombs.</p>\n<hr />\n<p>Automatically applied effects:</p>\n<ul>\n<li>+3 item bonus to Crafting alchemical item</li>\n<li>+3 item bonus to attack rolls with bombs</li>\n</ul>"
+			"name": "アルケミスト・ゴーグルズ (メジャー)",
+			"description": "<p>この真鍮のゴーグルには、炎の模様が刻まれており、分厚く重いレンズが入っている。着用している間、ゴーグルは錬金術アイテムを「製作」するための〈製作〉判定、そして錬金術爆弾での攻撃ロールに+3アイテム・ボーナスを与える。</p>\n<p>君はまた、錬金術爆弾で「打撃」を行う際に劣った遮蔽を無視することが出来る。</p>\n<hr />\n<p>自動的に適用される効果:</p>\n<ul>\n<li>錬金術アイテムを「製作」するための〈製作〉判定+3アイテム・ボーナス</li>\n<li>錬金術爆弾での攻撃ロールに+3アイテム・ボーナス</li>\n</ul>"
 		},
 		{
 			"id": "Alcohol",
-			"name": "Alcohol",
-			"description": "<p>Alcohol is a common substance available in stunning variety. The Price of a dose of alcohol depends on the specific beverage. You can't recover from the sickened condition from alcohol while affected.</p>\n<p>If you fail a saving throw against alcohol other than initial saves, the affliction's stage doesn't increase; the only way to increase the stage of alcohol's affliction is to consume more alcohol.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Interact (Ingested)</p>\n<p><strong>Saving Throw</strong> <span data-pf2-check=\"fortitude\" data-pf2-dc=\"12\" data-pf2-traits=\"alchemical,consumable,drug,ingested,poison\" data-pf2-label=\"Alcohol DC\" data-pf2-show-dc=\"gm\">Fortitude</span></p>\n<p><strong>Onset</strong> 10 minutes</p>\n<p><strong>Stage 1</strong> +1 item bonus to saving throws against fear (10 minutes)</p>\n<p><strong>Stage 2</strong> @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed}, +1 item bonus to saving throws against fear effects (10 minutes)</p>\n<p><strong>Stage 3</strong> @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 1}, flat-footed, @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 2} (10 minutes)</p>\n<p><strong>Stage 4</strong> clumsy 2 and @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 2} (10 minutes)</p>\n<p><strong>Stage 5</strong> clumsy 2, sickened 2, and stupefied 2 (10 minutes)</p>\n<p><strong>Stage 6</strong> @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Unconscious} (8 hours)</p>\n<p><strong>Stage 7</strong> death</p>"
+			"name": "アルコール",
+			"description": "<p>アルコールは、驚くほどの多様性がある、一般的に入手可能な物質である。アルコール1服分の価格は、飲み物の特徴によって異なる。君は影響を受けている間、アルコールによる不調状態から回復することが出来ない。</p>\n<p>もし、初期セーヴ以外のアルコールに対してのセーヴィング・スローに失敗しても、苦難のステージは上昇しない；アルコールの苦難のステージを上昇させる唯一の方法は、更にアルコールを摂取することである。.</p>\n<hr />\n<p><strong>起動</strong> <span class=\"pf2-icon\">A</span> 使用 (摂取)</p>\n<p><strong>セーヴィング・スロー</strong> <span data-pf2-check=\"fortitude\" data-pf2-dc=\"12\" data-pf2-traits=\"alchemical,consumable,drug,ingested,poison\" data-pf2-label=\"アルコール DC\" data-pf2-show-dc=\"gm\">頑健</span></p>\n<p><strong>潜伏期間</strong> 10分</p>\n<p><strong>ステージ1</strong> 恐怖効果に対するセーヴィング・スローに+1アイテム・ボーナス（10分間）</p>\n<p><strong>ステージ2</strong> @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{立ちすくみ}、恐怖効果に対するセーヴィング・スローに+1アイテム・ボーナス（10分間）</p>\n<p><strong>ステージ3</strong> @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{もたつき1}、立ちすくみ、 @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{知性低下2} (10分)</p>\n<p><strong>ステージ4</strong> もたつき2と @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{不調2} (10 分)</p>\n<p><strong>ステージ5</strong> もたつき2、不調2、知性低下2 (10分)</p>\n<p><strong>ステージ6</strong> @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{気絶} (8時間)</p>\n<p><strong>ステージ7</strong> 死亡</p>"
 		},
 		{
 			"id": "Aldori Dueling Sword",
-			"name": "Aldori Dueling Sword",
-			"description": "<p>An Aldori dueling sword is a slim, single-bladed dueling sword with a slight curve and a sharp, reinforced point.</p>"
+			"name": "アルドーリ・デュエリング・ソード",
+			"description": "<p>アルドーリ・デュエリング・ソードは細い、片刃の決闘用のツルギで、僅かに屈曲しており、鋭い、強化された先端がある。</p>"
 		},
 		{
 			"id": "Aligned Oil",
-			"name": "Aligned Oil",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Interact</p>\n<p>This oil fills a weapon with cosmic power of an alignment. Each aligned oil is crafted to one alignment: chaos, evil, good, or law (such as a good-aligned oil). A weapon anointed with this oil gains the effects of the property rune matching its alignment: @Compendium[pf2e.equipment-srd.65YL6nk1jIzCWutt]{Anarchic} (chaos), @Compendium[pf2e.equipment-srd.6xu6dPIaUZ7edKEB]{Axiomatic} (law), @Compendium[pf2e.equipment-srd.DH0kB9Wbr5pDeunX]{Holy} (good), or @Compendium[pf2e.equipment-srd.gmMrJREf4JSHd2dZ]{Unholy} (evil). This lasts for 1 minute.</p>"
+			"name": "アラインド・オイル",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">A</span> 使用</p>\n<p>このオイルはある属性の宇宙的な力で武器を満たす。それぞれのアラインド・オイルは一つの属性のものとして作られる：混沌、悪、善、秩序である（グッド＝アラインド・オイルのように）。このオイルを塗布された武器はその属性に合った属性ルーンの効果を得る：@Compendium[pf2e.equipment-srd.65YL6nk1jIzCWutt]{アナーキック} (混沌)、 @Compendium[pf2e.equipment-srd.6xu6dPIaUZ7edKEB]{アクシオマティック} (秩序)、 @Compendium[pf2e.equipment-srd.DH0kB9Wbr5pDeunX]{ホーリィ} (グッド)、あるいは @Compendium[pf2e.equipment-srd.gmMrJREf4JSHd2dZ]{アンホーリィ} (悪)</p>\n<p>この効果は1分間、持続する。</p>"
 		},
 		{
 			"id": "Alignment Ampoule (Greater)",
-			"name": "Alignment Ampoule (Greater)",
-			"description": "<p><strong>(Default is good damage)</strong></p>\n<p>This glass sphere is divided into four quarters, each of which contains a different material aligned with good, evil, chaos, or law, such as shavings from a holy relic or dried flowers that grew near a planar rift to the Abyss.</p>\n<p>When an alignment ampoule strikes a creature with a weakness to good, evil, chaos, or law, it deals the listed damage, which matches the creature's highest weakness. This damage is always based on the weaknesses of the initial target of the attack. If a creature has multiple eligible weaknesses, randomly determine the damage type.</p>\n<p>An alignment ampoule has no effect against creatures that don't have a weakness to the ampoule's associated alignment types.</p>\n<p>You gain a +2 item bonus to attack rolls. The bomb deals 2d4 damage and 3 splash damage.</p>"
+			"name": "アラインメント・アンプル (グレーター)",
+			"description": "<p><strong>(デフォルトは善ダメージ)</strong></p>\n<p>このガラスの球体は四つの区画に分けられており、それぞれに善・悪・混沌・秩序の属性を持つ別々の物質が入っている。たとえば、聖遺物の破片やアビスの次元リフト近傍で育ったドライフラワーといったものである。</p>\n<p>アラインメント・アンプルは善、悪、混沌、秩序を弱点とするクリーチャーに命中した際に、そのクリーチャーの最も高い弱点に応じ、記載されたダメージを与える。このダメージは常に攻撃の最初の対象の弱点に基づく。もしあるクリーチャーが複数の適用可能な弱点を持つのなら、ダメージ種別をランダムに決定すること。</p>\n<p>アラインメント・アンプルはアンプルの関連する属性種別に弱点を持たないクリーチャーには何の効果も持たない。</p>\n<p>君は攻撃ロールに+2アイテム・ボーナスを得る。爆弾は2d4点のダメージと3点の飛散ダメージを与える。</p>"
 		},
 		{
 			"id": "Alignment Ampoule (Lesser)",
-			"name": "Alignment Ampoule (Lesser)",
-			"description": "<p><strong>(Default is good damage)</strong></p>\n<p>This glass sphere is divided into four quarters, each of which contains a different material aligned with good, evil, chaos, or law, such as shavings from a holy relic or dried flowers that grew near a planar rift to the Abyss.</p>\n<p>When an alignment ampoule strikes a creature with a weakness to good, evil, chaos, or law, it deals the listed damage, which matches the creature's highest weakness. This damage is always based on the weaknesses of the initial target of the attack. If a creature has multiple eligible weaknesses, randomly determine the damage type.</p>\n<p>An alignment ampoule has no effect against creatures that don't have a weakness to the ampoule's associated alignment types.</p>\n<p>The ampoule deals 1 damage and 1 splash damage.</p>"
+			"name": "アラインメント・アンプル（レッサー）",
+			"description": "<p><strong>(デフォルトは善ダメージ)</strong></p>\n<p>このガラスの球体は四つの区画に分けられており、それぞれに善・悪・混沌・秩序の属性を持つ別々の物質が入っている。たとえば、聖遺物の破片やアビスの次元リフト近傍で育ったドライフラワーといったものである。</p>\n<p>アラインメント・アンプルは善、悪、混沌、秩序を弱点とするクリーチャーに命中した際に、そのクリーチャーの最も高い弱点に応じ、記載されたダメージを与える。このダメージは常に攻撃の最初の対象の弱点に基づく。もしあるクリーチャーが複数の適用可能な弱点を持つのなら、ダメージ種別をランダムに決定すること。</p>\n<p>アラインメント・アンプルはアンプルの関連する属性種別に弱点を持たないクリーチャーには何の効果も持たない。</p>\n<p>爆弾は1点のダメージと1点の飛散ダメージを与える。</p>"
 		},
 		{
 			"id": "Alignment Ampoule (Major)",
-			"name": "Alignment Ampoule (Major)",
-			"description": "<p><strong>(Default is good damage)</strong></p>\n<p>This glass sphere is divided into four quarters, each of which contains a different material aligned with good, evil, chaos, or law, such as shavings from a holy relic or dried flowers that grew near a planar rift to the Abyss.</p>\n<p>When an alignment ampoule strikes a creature with a weakness to good, evil, chaos, or law, it deals the listed damage, which matches the creature's highest weakness. This damage is always based on the weaknesses of the initial target of the attack. If a creature has multiple eligible weaknesses, randomly determine the damage type.</p>\n<p>An alignment ampoule has no effect against creatures that don't have a weakness to the ampoule's associated alignment types.</p>\n<p>You gain a +3 item bonus to attack rolls. The bomb deals 3d4 damage and 4 splash damage.</p>"
+			"name": "アラインメント・アンプル（メジャー）",
+			"description": "<p><strong>(デフォルトは善ダメージ)</strong></p>\n<p>このガラスの球体は四つの区画に分けられており、それぞれに善・悪・混沌・秩序の属性を持つ別々の物質が入っている。たとえば、聖遺物の破片やアビスの次元リフト近傍で育ったドライフラワーといったものである。</p>\n<p>アラインメント・アンプルは善、悪、混沌、秩序を弱点とするクリーチャーに命中した際に、そのクリーチャーの最も高い弱点に応じ、記載されたダメージを与える。このダメージは常に攻撃の最初の対象の弱点に基づく。もしあるクリーチャーが複数の適用可能な弱点を持つのなら、ダメージ種別をランダムに決定すること。</p>\n<p>アラインメント・アンプルはアンプルの関連する属性種別に弱点を持たないクリーチャーには何の効果も持たない。</p>\n<p>君は攻撃ロールに+3アイテム・ボーナスを得る。爆弾は3d4点のダメージと4点の飛散ダメージを与える。</p>"
 		},
 		{
 			"id": "Alignment Ampoule (Moderate)",
-			"name": "Alignment Ampoule (Moderate)",
-			"description": "<p><strong>(Default is good damage)</strong></p>\n<p>This glass sphere is divided into four quarters, each of which contains a different material aligned with good, evil, chaos, or law, such as shavings from a holy relic or dried flowers that grew near a planar rift to the Abyss.</p>\n<p>When an alignment ampoule strikes a creature with a weakness to good, evil, chaos, or law, it deals the listed damage, which matches the creature's highest weakness. This damage is always based on the weaknesses of the initial target of the attack. If a creature has multiple eligible weaknesses, randomly determine the damage type.</p>\n<p>An alignment ampoule has no effect against creatures that don't have a weakness to the ampoule's associated alignment types.</p>\n<p>You gain a +1 item bonus to attack rolls. The bomb deals 1d4 damage and 2 splash damage.</p>"
+			"name": "アラインメント・アンプル（モデレート）",
+			"description": "<p><strong>(デフォルトは善ダメージ)</strong></p>\n<p>このガラスの球体は四つの区画に分けられており、それぞれに善・悪・混沌・秩序の属性を持つ別々の物質が入っている。たとえば、聖遺物の破片やアビスの次元リフト近傍で育ったドライフラワーといったものである。</p>\n<p>アラインメント・アンプルは善、悪、混沌、秩序を弱点とするクリーチャーに命中した際に、そのクリーチャーの最も高い弱点に応じ、記載されたダメージを与える。このダメージは常に攻撃の最初の対象の弱点に基づく。もしあるクリーチャーが複数の適用可能な弱点を持つのなら、ダメージ種別をランダムに決定すること。</p>\n<p>アラインメント・アンプルはアンプルの関連する属性種別に弱点を持たないクリーチャーには何の効果も持たない。</p>\n<p>君は攻撃ロールに+1アイテム・ボーナスを得る。爆弾は1d4点のダメージと2点の飛散ダメージを与える。</p>"
 		},
 		{
 			"id": "Alluring Scarf",
@@ -408,18 +408,18 @@
 		},
 		{
 			"id": "Animal Staff",
-			"name": "Animal Staff",
-			"description": "<p>This staff is topped with carved animal and monster heads. While wielding the staff, you gain a +2 circumstance bonus to Nature checks to identify animals.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> <em>@Compendium[pf2e.spells-srd.tXa5vOu5giBNCjdR]{Know Direction}</em></li>\n<li><strong>1st</strong> <em>@Compendium[pf2e.spells-srd.EE7Q5BHIrfWNCPtT]{Magic Fang}</em> <em>@Compendium[pf2e.spells-srd.4YnON9JHYqtLzccu]{Summon Animal}</em></li>\n</ul>\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>\n<hr />\n<p>Automatically applied effects:</p>\n<ul>\n<li>+2 circumstance bonus to Nature checks to identify animals</li>\n</ul>"
+			"name": "アニマル・スタッフ",
+			"description": "<p>このスタッフの上部には、彫刻された動物と怪物の頭がついている。スタッフを使っている間、君は動物を識別するための〈自然〉判定に+2状況ボーナスを得る。</p>\n<p><strong>起動</strong> 呪文の発動</p>\n<p><strong>効果</strong> 君はリストから呪文を発動するためにスタッフからチャージ数を消費する</p>\n<ul>\n<li><strong>キャントリップ</strong> <em>@Compendium[pf2e.spells-srd.tXa5vOu5giBNCjdR]{ノウ・ディレクション}</em></li>\n<li><strong>1st</strong> <em>@Compendium[pf2e.spells-srd.EE7Q5BHIrfWNCPtT]{マジック・ファング}</em> <em>@Compendium[pf2e.spells-srd.4YnON9JHYqtLzccu]{サモン・アニマル}</em></li>\n</ul>\n<p><strong>作成条件</strong> 記載された呪文について、記載されたレベル全ての発動を供給する</p>\n<hr />\n<p>自動的に適用される効果:</p>\n<ul>\n<li>動物を識別するための〈自然〉判定に+2状況ボーナス</li>\n</ul>"
 		},
 		{
 			"id": "Animal Staff (Greater)",
-			"name": "Animal Staff (Greater)",
-			"description": "<p>This staff is topped with carved animal and monster heads. While wielding the staff, you gain a +2 circumstance bonus to Nature checks to identify animals.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> <em>@Compendium[pf2e.spells-srd.tXa5vOu5giBNCjdR]{Know Direction}</em></li>\n<li><strong>1st</strong> <em>@Compendium[pf2e.spells-srd.EE7Q5BHIrfWNCPtT]{Magic Fang}</em> <em>@Compendium[pf2e.spells-srd.4YnON9JHYqtLzccu]{Summon Animal}</em></li>\n<li><strong>2nd</strong> <em>@Compendium[pf2e.spells-srd.yhz9fF69uwRhnHix]{Animal Messenger}</em> <em>@Compendium[pf2e.spells-srd.BBvV7qoXGdw09q1C]{Speak with Animals}</em> <em>@Compendium[pf2e.spells-srd.4YnON9JHYqtLzccu]{Summon Animal}</em></li>\n<li><strong>3rd</strong> <em>@Compendium[pf2e.spells-srd.wp09USMB3GIW1qbp]{Animal Form}</em> <em>@Compendium[pf2e.spells-srd.4YnON9JHYqtLzccu]{Summon Animal}</em></li>\n</ul>\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>\n<hr />\n<p>Automatically applied effects:</p>\n<ul>\n<li>+2 circumstance bonus to Nature checks to identify animals</li>\n</ul>"
+			"name": "アニマル・スタッフ（グレーター）",
+			"description": "<p>このスタッフの上部には、彫刻された動物と怪物の頭がついている。スタッフを使っている間、君は動物を識別するための〈自然〉判定に+2状況ボーナスを得る。</p>\n<p><strong>起動</strong> 呪文の発動</p>\n<p><strong>効果</strong> 君はリストから呪文を発動するためにスタッフからチャージ数を消費する</p>\n<ul>\n<li><strong>キャントリップ</strong> <em>@Compendium[pf2e.spells-srd.tXa5vOu5giBNCjdR]{ノウ・ディレクション}</em></li>\n<li><strong>1st</strong> <em>@Compendium[pf2e.spells-srd.EE7Q5BHIrfWNCPtT]{マジック・ファング}</em> <em>@Compendium[pf2e.spells-srd.4YnON9JHYqtLzccu]{サモン・アニマル}</em></li>\n</ul>\n<p><strong>2nd</strong> <em>@Compendium[pf2e.spells-srd.yhz9fF69uwRhnHix]{アニマル・メッセンジャー}</em> <em>@Compendium[pf2e.spells-srd.BBvV7qoXGdw09q1C]{スピーク・ウィズ・アニマル}</em> <em>@Compendium[pf2e.spells-srd.4YnON9JHYqtLzccu]{サモン・アニマル}</em></li>\n<li><strong>3rd</strong> <em>@Compendium[pf2e.spells-srd.wp09USMB3GIW1qbp]{アニマル・フォーム}</em> <em>@Compendium[pf2e.spells-srd.4YnON9JHYqtLzccu]{サモン・アニマル}</em></li>\n</ul>\n<p><strong>作成条件</strong> 記載された呪文について、記載されたレベル全ての発動を供給する</p>\n<hr />\n<p>自動的に適用される効果:</p>\n<ul>\n<li>動物を識別するための〈自然〉判定に+2状況ボーナス</li>\n</ul>"
 		},
 		{
 			"id": "Animal Staff (Major)",
-			"name": "Animal Staff (Major)",
-			"description": "<p>This staff is topped with carved animal and monster heads. While wielding the staff, you gain a +2 circumstance bonus to Nature checks to identify animals.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<ul>\n<li><strong>Cantrip</strong> <em>@Compendium[pf2e.spells-srd.tXa5vOu5giBNCjdR]{Know Direction}</em></li>\n<li><strong>1st</strong> <em>@Compendium[pf2e.spells-srd.EE7Q5BHIrfWNCPtT]{Magic Fang}</em> <em>@Compendium[pf2e.spells-srd.4YnON9JHYqtLzccu]{Summon Animal}</em></li>\n<li><strong>2nd</strong> <em>@Compendium[pf2e.spells-srd.yhz9fF69uwRhnHix]{Animal Messenger}</em> <em>@Compendium[pf2e.spells-srd.BBvV7qoXGdw09q1C]{Speak with Animals}</em> <em>@Compendium[pf2e.spells-srd.4YnON9JHYqtLzccu]{Summon Animal}</em></li>\n<li><strong>3rd</strong> <em>@Compendium[pf2e.spells-srd.wp09USMB3GIW1qbp]{Animal Form}</em> <em>@Compendium[pf2e.spells-srd.4YnON9JHYqtLzccu]{Summon Animal}</em></li>\n<li><strong>4th</strong> <em>@Compendium[pf2e.spells-srd.4YnON9JHYqtLzccu]{Summon Animal}</em></li>\n<li><strong>5th</strong> <em>@Compendium[pf2e.spells-srd.wp09USMB3GIW1qbp]{Animal Form}</em> <em>@Compendium[pf2e.spells-srd.YtesyvfAIwXOqISq]{Moon Frenzy}</em> <em>@Compendium[pf2e.spells-srd.4YnON9JHYqtLzccu]{Summon Animal}</em></li>\n</ul>\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>\n<hr />\n<p>Automatically applied effects:</p>\n<ul>\n<li>+2 circumstance bonus to Nature checks to identify animals</li>\n</ul>"
+			"name": "アニマル・スタッフ（メジャー） ",
+			"description": "<p><p>このスタッフの上部には、彫刻された動物と怪物の頭がついている。スタッフを使っている間、君は動物を識別するための〈自然〉判定に+2状況ボーナスを得る。</p>\n<p><strong>起動</strong> 呪文の発動</p>\n<p><strong>効果</strong> 君はリストから呪文を発動するためにスタッフからチャージ数を消費する</p>\n<ul>\n<li><strong>キャントリップ</strong> <em>@Compendium[pf2e.spells-srd.tXa5vOu5giBNCjdR]{ノウ・ディレクション}</em></li>\n<li><strong>1st</strong> <em>@Compendium[pf2e.spells-srd.EE7Q5BHIrfWNCPtT]{マジック・ファング}</em> <em>@Compendium[pf2e.spells-srd.4YnON9JHYqtLzccu]{サモン・アニマル}</em></li>\n</ul>\n<p><strong>2nd</strong> <em>@Compendium[pf2e.spells-srd.yhz9fF69uwRhnHix]{アニマル・メッセンジャー}</em> <em>@Compendium[pf2e.spells-srd.BBvV7qoXGdw09q1C]{スピーク・ウィズ・アニマル}</em> <em>@Compendium[pf2e.spells-srd.4YnON9JHYqtLzccu]{サモン・アニマル}</em></li>\n<li><strong>3rd</strong> <em>@Compendium[pf2e.spells-srd.wp09USMB3GIW1qbp]{アニマル・フォーム}</em> <em>@Compendium[pf2e.spells-srd.4YnON9JHYqtLzccu]{サモン・アニマル}</em></li>\n</ul>\n<strong>4th</strong> <em>@Compendium[pf2e.spells-srd.4YnON9JHYqtLzccu]{サモン・アニマル}</em></li>\n<li><strong>5th</strong> <em>@Compendium[pf2e.spells-srd.wp09USMB3GIW1qbp]{アニマル・フォーム}</em> <em>@Compendium[pf2e.spells-srd.YtesyvfAIwXOqISq]{ムーン・フレンジィ}</em> <em>@Compendium[pf2e.spells-srd.4YnON9JHYqtLzccu]{サモン・アニマル}</em></li>\n</ul>\n<p><strong>作成条件</strong> 記載された呪文について、記載されたレベル全ての発動を供給する</p>\n<hr />\n<p>自動的に適用される効果:</p>\n<ul>\n<li>動物を識別するための〈自然〉判定に+2状況ボーナス</li>\n</ul>"
 		},
 		{
 			"id": "Animate Dreamer",
@@ -468,13 +468,13 @@
 		},
 		{
 			"id": "Antivenom Potion",
-			"name": "Antivenom Potion",
-			"description": "<p>This cloudy, white liquid helps protect against poisons. When you drink an antivenom potion, you can immediately attempt a DC 10 flat check to end any persistent poison damage you're taking. In addition, for 1 minute after drinking the potion, you gain a +1 bonus to Fortitude saving throws to avoid taking persistent poison damage.</p>"
+			"name": "アンチヴェノム・ポーション",
+			"description": "<p>この、濁った白い液体は毒に対する守りを手助けする。アンティヴェノム・ポーションを飲んだ際、即座に、受けているあらゆる継続毒ダメージを終了するための、DC10の平目判定を試みることが出来る。更に、このポーションを飲んでから1分間、君は継続毒ダメージを受けるのを避けるための頑健セーヴィング・スローに+1アイテム・ボーナスを得る。</p>"
 		},
 		{
 			"id": "Antler Arrow",
-			"name": "Antler Arrow",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Interact</p>\n<p>Creation of these arrows was inspired by an encounter with a horned archon scout who sought to peacefully restrain their foes. When an activated antler arrow hits a target, bone antlers extend to pin it down. The target must succeed at a <span data-pf2-check=\"reflex\" data-pf2-dc=\"16\" data-pf2-traits=\"conjuration,consumable,magical\" data-pf2-label=\"Antler Arrow DC\" data-pf2-show-dc=\"gm\">Reflex</span> save or become stuck to the surface, taking the critical specialization effects of a bow.</p>\n<p>If the hit with the <em>antler arrow</em> is a critical hit and you have access to the bow critical specialization effect, the DC of the Athletics check increases to 15.</p>"
+			"name": "アントラー・アロー",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">A</span> 使用</p>\n<p>こういったアローの作成は、敵を平和裏に拘束しようとする角を持ったアルコンの斥候との遭遇によってインスパイアされた。起動したアントラー・アローが対象に命中した際、骨の角が敵を抑え込むために伸びる。対象はDC16の<span data-pf2-check=\"reflex\" data-pf2-dc=\"16\" data-pf2-traits=\"conjuration,consumable,magical\" data-pf2-label=\"アントラー・アロー DC\" data-pf2-show-dc=\"gm\">反応</span>セーヴに成功しなければ、地面に縫い止められ、弓のクリティカル特化効果を受ける。</p>"
 		},
 		{
 			"id": "Apotropaic Fulu",
@@ -483,23 +483,23 @@
 		},
 		{
 			"id": "Appetizing Flavor Snare",
-			"name": "Appetizing Flavor Snare",
-			"description": "<p>You construct this snare around a sealed bladder containing substances that local predators find delicious, such as scent glands from prey animals or fresh carrion. The first creature to enter the square must succeed at a <span data-pf2-check=\"reflex\" data-pf2-traits=\"consumable,mechanical,snare,trap\" data-pf2-label=\"Appetizing Flavor Snare\" data-pf2-dc=\"15\" data-pf2-show-dc=\"gm\">Reflex</span> save or be doused with the substances. For 1 hour, animals attracted to the flavor (such as most predators, at the GM's discretion) can smell the creature from double the usual distance of their scent and are likely to approach to investigate the smell. A creature can wash away the appetizing flavor with 1 minute of vigorous scrubbing.</p>"
+			"name": "アペタイジング・フレーヴァー・スネア",
+			"description": "<p>この罠は、獲物の臭腺や新鮮な腐肉など、その土地の捕食者がおいしいと感じる物質が入った密閉された水筒を中心に作成するものである。最初にそのマスに入ったクリーチャーは、DC15の<span data-pf2-check=\"reflex\" data-pf2-traits=\"consumable,mechanical,snare,trap\" data-pf2-label=\"アペタイジング・フレーヴァー・スネア\" data-pf2-dc=\"15\" data-pf2-show-dc=\"gm\">反応</span>セーヴに成功しなければ、その物質を浴びることになる。1時間の間、その香りに引き寄せられた動物（GMの裁量によるが、ほとんどの肉食動物など）は、通常の2倍の距離からそのクリーチャーの匂いを嗅ぐことができ、その匂いを調べるために近づいてくる可能性がある。クリーチャーは食欲をそそるこの香りを、1分間、激しくこすり洗いすることで洗い流すことができる。</p>"
 		},
 		{
 			"id": "Applereed Mutagen (Greater)",
-			"name": "Applereed Mutagen (Greater)",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Interact</p>\n<p>This gummy liquid disproportionately lengthens your legs, causing you to grow but making your movement awkward. The effect is very noticeable unless your clothes can adequately conceal it.</p>\n<p><strong>Benefit</strong> You gain a +4 item bonus to Athletics checks and you gain a +20 foot status bonus to your Speed. In addition, you grow one size larger, but your larger size does not have any additional effects beyond the potential change in space.</p>\n<p><strong>Drawback</strong> You take a -1 penalty to AC and a -2 penalty to Reflex saves.</p>\n<p><strong>Duration</strong> 1 hour.</p>\n<p>@Compendium[pf2e.consumable-effects.tTBJ33UGtzXjWOJp]{Effect: Applereed Mutagen (Greater)}</p>"
+			"name": "アップルリード・ミュタゲン (グレーター)",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">A</span> 使用</p>\n<p>このガム質の液体は不釣り合いなほどに君の脚を長くし、君を成長させるが、移動をぎこちないものにする。この効果は、君の衣類が満足に隠すことが出来るのでない限り、気付かれやすい。</p>\n<p><strong>利益</strong> 利益　君は〈運動〉判定に+4アイテム・ボーナスと、速度への+20フィートのステータス・ボーナスを得る。更に、君は1サイズ大きくなるが、大きなサイズによって接敵面の変化以上の追加効果を得ることはない。</p>\n<p><strong>欠点</strong> 君はACに-1ペナルティと、反応セーヴに-2ペナルティを受ける</p>\n<p><strong>持続時間</strong> 1時間</p>\n<p>@Compendium[pf2e.consumable-effects.tTBJ33UGtzXjWOJp]{効果: アップルリード・ミュタゲン (グレーター)}</p>"
 		},
 		{
 			"id": "Applereed Mutagen (Lesser)",
-			"name": "Applereed Mutagen (Lesser)",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Interact</p>\n<p>This gummy liquid disproportionately lengthens your legs, causing you to grow but making your movement awkward. The effect is very noticeable unless your clothes can adequately conceal it.</p>\n<p><strong>Benefit</strong> You gain a +2 item bonus to Athletics checks and you gain a +10 foot status bonus to your Speed. In addition, you grow one size larger, but your larger size does not have any additional effects beyond the potential change in space.</p>\n<p><strong>Drawback</strong> You take a -1 penalty to AC and a -2 penalty to Reflex saves.</p>\n<p><strong>Duration</strong> 1 minute.</p>\n<p>@Compendium[pf2e.consumable-effects.xVAdPzFaSvJXPMKv]{Effect: Applereed Mutagen (Lesser)}</p>"
+			"name": "アップルリード・ミュタゲン（レッサー）",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">A</span> 使用</p>\n<p>このガム質の液体は不釣り合いなほどに君の脚を長くし、君を成長させるが、移動をぎこちないものにする。この効果は、君の衣類が満足に隠すことが出来るのでない限り、気付かれやすい。</p>\n<p><strong>利益</strong> 利益　君は〈運動〉判定に+2アイテム・ボーナスと、速度への+10フィートのステータス・ボーナスを得る。更に、君は1サイズ大きくなるが、大きなサイズによって接敵面の変化以上の追加効果を得ることはない。</p>\n<p><strong>欠点</strong> 君はACに-1ペナルティと、反応セーヴに-2ペナルティを受ける</p>\n<p><strong>持続時間</strong> 1分</p>@Compendium[pf2e.consumable-effects.xVAdPzFaSvJXPMKv]{効果: アップルリード・ミュタゲン (レッサー)}</p>"
 		},
 		{
 			"id": "Applereed Mutagen (Moderate)",
-			"name": "Applereed Mutagen (Moderate)",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Interact</p>\n<p>This gummy liquid disproportionately lengthens your legs, causing you to grow but making your movement awkward. The effect is very noticeable unless your clothes can adequately conceal it.</p>\n<p><strong>Benefit</strong> You gain a +3 item bonus to Athletics checks and you gain a +15 foot status bonus to your Speed. In addition, you grow one size larger, but your larger size does not have any additional effects beyond the potential change in space.</p>\n<p><strong>Drawback</strong> You take a -1 penalty to AC and a -2 penalty to Reflex saves.</p>\n<p><strong>Duration</strong> 10 minutes.</p>\n<p>@Compendium[pf2e.consumable-effects.xVAdPzFaSvJXPMKv]{Effect: Applereed Mutagen (Lesser)}</p>"
+			"name": "アップルリード・ミュタゲン (モデレート)",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">A</span> 使用</p>\n<p>このガム質の液体は不釣り合いなほどに君の脚を長くし、君を成長させるが、移動をぎこちないものにする。この効果は、君の衣類が満足に隠すことが出来るのでない限り、気付かれやすい。</p>\n<p><strong>利益</strong> 利益　君は〈運動〉判定に+3アイテム・ボーナスと、速度への+15フィートのステータス・ボーナスを得る。更に、君は1サイズ大きくなるが、大きなサイズによって接敵面の変化以上の追加効果を得ることはない。</p>\n<p><strong>欠点</strong> 君はACに-1ペナルティと、反応セーヴに-2ペナルティを受ける</p>\n<p><strong>持続時間</strong> 1分</p>@Compendium[pf2e.consumable-effects.xVAdPzFaSvJXPMKv]{効果: アップルリード・ミュタゲン (モデレート)}</p>"
 		},
 		{
 			"id": "Apricot of Bestial Might",
@@ -523,8 +523,8 @@
 		},
 		{
 			"id": "Archaic Wayfinder",
-			"name": "Archaic Wayfinder",
-			"description": "<p><strong>Activate</strong> Cast a Spell</p>\n<p>An <em>archaic wayfinder</em> functions as a compass and acts as a repository for one cantrip cast into it. To fill an <em>archaic wayfinder</em>, a spellcaster casts the chosen cantrip into the empty device, providing any necessary cost; the spell cannot be one that is normally cast as a free action or reaction.</p>\n<p>Activating an <em>archaic wayfinder</em> is the same as the casting for the relevant spell. Once it has been activated, it becomes empty again. An <em>archaic wayfinder</em> can hold an aeon stone and activate its resonant power. An archaic wayfinder counts against the limit of one wayfinder with a slotted resonant aeon stone.</p>"
+			"name": "アルカイック・ウェイファインダー",
+			"description": "<p><strong>起動</strong> 呪文の発動</p>\n<p><em>アルカイック・ウェイファインダー</em>はコンパスとして機能し、発動された1つのキャントリップの入れ物として機能する。<em>アルカイック・ウェイファインダー</em>を満たすために、術者は選んだキャントリップを何も入っていない装置に発動し、あらゆる必要なコストを支払う；この呪文は、フリー・アクションかリアクションで通常、発動するものであってはならない。一度、起動したなら、<em>アルカイック・ウェイファインダー</em>は再び、空になる。<em>アルカイック・ウェイファインダー</em>はアイウーン・ストーンを中に入れ、その共鳴パワーを起動することが出来る。<em>アルカイック・ウェイファインダー</em>は、共鳴したアイウーン・ストーン1つを収めることが出来て、ウェイファイダンーは1つだけという制限に数えられる。</p>"
 		},
 		{
 			"id": "Archivist's Gaze",
@@ -553,28 +553,28 @@
 		},
 		{
 			"id": "Armor Latches",
-			"name": "Armor Latches",
-			"description": "<p>This armor is easily doffed. A set of armor with armor latches gains the noisy trait. You cannot add armor latches to armor that already possesses the noisy trait. You can remove a set of armor with armor latches with a three-action activity, which has the manipulate trait. This doesn't affect the time it takes to don the armor.</p>"
+			"name": "アーマー・ラッチ",
+			"description": "<p>この防具は簡単に脱ぎ捨てることが出来る。アーマー・ラッチがついた防具一式は、騒音の特性を得る。既に騒音の特性を持っている防具にアーマー・ラッチを追加することは出来ない。アーマー・ラッチがついた防具一式を、操作の特性を持つ3アクションの連続行動で脱ぐことが出来る。これは、防具を着用する際の時間には影響を与えない。</p>"
 		},
 		{
 			"id": "Armor Potency (+1)",
-			"name": "Armor Potency (+1)",
-			"description": "<p>Magic wards deflect attacks. Increase the armor's item bonus to AC by 1. The armor can be etched with one property rune.</p>\n<p>You can upgrade the <em>armor potency</em> rune already etched on a suit of armor to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes' Prices.</p>\n<p><strong>Craft Requirements</strong> You are an expert in Crafting.</p>"
+			"name": "防具発現 (+1)",
+			"description": "<p>魔法の守りが攻撃を弾く。防具のACへのアイテム・ボーナスを1増やす。防具には、1つの属性ルーンを刻むことが出来る。</p>\n<p>一式の防具に刻まれている<em>防具発現</em>ルーンを強いバージョンにアップグレードし、既存のルーンの価値を新しいルーンのそれにすることも出来る。そうするためには、強いルーンの処方を持っていなければならず、価格は2つのルーンの価格の差分になる。</p>\n<p><strong>製作条件</strong> 君が〈製作〉に熟練である</p>"
 		},
 		{
 			"id": "Armor Potency (+2)",
-			"name": "Armor Potency (+2)",
-			"description": "<p>Magic wards deflect attacks. Increase the armor's item bonus to AC by 2. The armor can be etched with two property runes.</p>\n<p>You can upgrade the <em>armor potency</em> rune already etched on a suit of armor to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes' Prices.</p>\n<p><strong>Craft Requirements</strong> You are an master in Crafting.</p>"
+			"name": "防具発現 (+2)",
+			"description": "<p>魔法の守りが攻撃を弾く。防具のACへのアイテム・ボーナスを1増やす。防具には、1つの属性ルーンを刻むことが出来る。</p>\n<p>一式の防具に刻まれている<em>防具発現</em>ルーンを強いバージョンにアップグレードし、既存のルーンの価値を新しいルーンのそれにすることも出来る。そうするためには、強いルーンの処方を持っていなければならず、価格は2つのルーンの価格の差分になる。</p>\n<p><strong>製作条件</strong> 君が〈製作〉に達人である</p>"
 		},
 		{
 			"id": "Armor Potency (+3)",
-			"name": "Armor Potency (+3)",
-			"description": "<p>Magic wards deflect attacks. Increase the armor's item bonus to AC by 3. The armor can be etched with three property runes.</p>\n<p>You can upgrade the <em>armor potency</em> rune already etched on a suit of armor to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes' Prices.</p>\n<p><strong>Craft Requirements</strong> You are an legendary in Crafting.</p>"
+			"name": "防具発現 (+3)",
+			"description": "<p>魔法の守りが攻撃を弾く。防具のACへのアイテム・ボーナスを1増やす。防具には、1つの属性ルーンを刻むことが出来る。</p>\n<p>一式の防具に刻まれている<em>防具発現</em>ルーンを強いバージョンにアップグレードし、既存のルーンの価値を新しいルーンのそれにすることも出来る。そうするためには、強いルーンの処方を持っていなければならず、価格は2つのルーンの価格の差分になる。</p>\n<p><strong>製作条件</strong> 君が〈製作〉に伝説である</p>"
 		},
 		{
 			"id": "Armored Skirt",
-			"name": "Armored Skirt",
-			"description": "<p>These armor-plated skirts, which are also known as armored kilts, are favored by Knights of Lastwall for their versatility and aesthetic appeal. An armored skirt can be donned with 2 Interact actions when it's worn with light or medium armor, or as part of donning heavy armor.</p>\n<p>When worn with a breastplate, chain shirt, chain mail, or scale mail, an armored skirt increases the armor's item bonus to AC by 1, worsens the armor's check penalty by 1, reduces the armor's Dex cap by 1, increases the Strength score required to ignore the check penalty and reduce the Speed penalty by 2, and adds the noisy trait. This also makes the armor one step heavier (from light to medium, or medium to heavy), and you use the proficiency bonus appropriate to this adjusted armor type.</p>\n<p>Alternatively, when wearing an armored skirt to replace appropriate portions of a set of half plate or full plate, reduce the armor's item bonus to AC by 1, lessen the check penalty by 1, decrease the Strength score required to ignore the check penalty and reduce the Speed penalty by 2, increase the armor's Dex cap by 1, and add the noisy trait to the armor. An armored skirt grants no benefit when worn by itself or with armors other than those listed here.</p>"
+			"name": "アーマード・スカート",
+			"description": "<p>こういった装甲されたスカートは、アーマード・キルトとも呼ばれ、その可変性と美的価値の高さから、ラストウォールの騎士達に好まれている。アーマード・スカートは軽装鎧や中装鎧と着用する際は2回の「使用」アクションで着用することが出来る。あるいは、重装鎧の着用の一部として着ることも出来る。</p>\n<p>ブレストプレート、チェイン・シャツ、チェイン・メイル、スケイル・メイルと一緒に着用した際、アーマード・スカートはその防具のACへのアイテム・ボーナスを1上昇させ、防具の判定ペナルティを1悪化させ、防具の敏捷力修正上限を1減らし、判定ペナルティを無視し、速度ペナルティを減らすための筋力値を2増加させ、騒音の特性を追加する。これによって防具は1段階重たくなる（軽装から中装へ、中装から重装へ）。また、君は調整後の防具種別に適切な習熟ボーナスを用いることになる。</p>\n<p>代わりに、ハーフ・プレートやフルプレート一式の適切な部分の代わりにアーマード・スカートを着用した際、その防具のACへのアイテム・ボーナスを1減らし、判定ペナルティを1減らし、判定ペナルティを無視し、速度ペナルティを減らすために必要な筋力値を2減らし、敏捷力修正上限を1増やし、防具に騒音の特性を追加する。アーマード・スカートはそのものを着用するか、ここに記載した以外の防具に取り付けた際には何の利益も与えない。</p>"
 		},
 		{
 			"id": "Aroden's Hearthstone",
@@ -583,13 +583,13 @@
 		},
 		{
 			"id": "Aromatic Ammunition",
-			"name": "Aromatic Ammunition",
-			"description": "<p><strong>Ammunition</strong> any</p>\n<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> Interact</p>\n<hr />\n<p>The components of this ammunition emit a strong smell when combined during its activation. A creature hit by an activated aromatic ammunition gains a distinct odor for up to 1 hour or until the scent is washed off (requiring at least a gallon of water and 10 minutes of scrubbing). Any creatures within 30 feet smell the target, allowing even those with a weak sense of smell to detect its presence, and all creatures gain a +1 item bonus to Track the affected creature for as long as it has the odor. A creature that has imprecise or precise scent doubles the range at which they can detect the target using their scent compared to the normal range of their scent.</p>\n<p>@Compendium[pf2e.equipment-effects.0qJEtpXWPb7JJBbY]{Effect: Aromatic Ammunition}</p>"
+			"name": "アロマティック・アミュニション",
+			"description": "<p><strong>矢弾</strong> なんでも</p>\n<p><strong>起動</strong> <span class=\"pf2-icon\">1</span> 使用</p>\n<hr />\n<p>この矢弾の構成要素は、起動中に組み合わさることで強い匂いを発する。起動しているアロマティック・アミュニションに命中したクリーチャーは1時間あるいは匂いを洗い流すまで（最低でも1ガロンの水と10分間の洗浄が必要）、独特の匂いを発する。30フィート以内のクリーチャーは対象の臭いを嗅ぎ、嗅覚が弱いクリーチャーでもその存在を探知することが出来るようになり、全てのクリーチャーは影響を受けたいクリーチャーが匂いを発している限り、「追跡」に+1アイテム・ボーナスを得る。不明瞭な、あるいは明瞭な嗅覚を持つクリーチャーは、通常の嗅覚の距離に比べて、対象を探知することが出来る距離を2倍にする。</p>\n<p>@Compendium[pf2e.equipment-effects.0qJEtpXWPb7JJBbY]{効果: アロマティック・アミュニション}</p>"
 		},
 		{
 			"id": "Arquebus",
-			"name": "Arquebus",
-			"description": "<p>This is a long rifle that offers more range than the average firearm, though the long barrel and ferocious kickback make the weapon particularly unsteady unless a tripod or other stand is used to stabilize it. The arquebus is one of the most commonly used long guns among the soldiers of Dongun Hold and Alkenstar.</p>"
+			"name": "アーケバス",
+			"description": "<p>協会メモ　ガンスリンガー（そしてガンスリンガーのアーキタイプを持つキャラクター）はこの本の第4章にある全てのアンコモン武器、矢弾、そして関連するアイテムの入手手段を持つが、特記ない限り、ビースト・ガンと制限あるいは禁止アイテムは例外である。アルケンスター、ドンガン領、枷の島を故郷に持つキャラクターは全ての黒色火薬の銃、矢弾、関連するアクセサリの入手手段を持つ）</p>\n<p>入手手段　火器の地域は火器の入手手段を持つ：アルケンスター、ドンガン領、ティエン＝シア、ヴードラ、アルカディア、ウースタラヴ、枷の島</p>\n<p>このライフルは、平均的な火器よりも射程が長いが、長い銃身と強烈な反動によってトライポッドやその他のスタンドを使って安定させなければ武器が不安定になる。アーケバスはドンガン領とアルケンスターの兵士の間で最も一般的に使われる銃身の長い銃である。</p>"
 		},
 		{
 			"id": "Arrow-Catching Shield",
@@ -598,18 +598,18 @@
 		},
 		{
 			"id": "Arsenic",
-			"name": "Arsenic",
-			"description": "<p>This toxin is a compound of arsenic and other substances. You can't reduce your sickened condition while affected.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Interact (Ingested)</p>\n<p><strong>Saving Throw</strong> <span data-pf2-check=\"fortitude\" data-pf2-dc=\"18\" data-pf2-traits=\"alchemical,consumable,ingested,poison\" data-pf2-label=\"Arsenic DC\" data-pf2-show-dc=\"gm\">Fortitude</span></p>\n<p><strong>Onset</strong> 10 minutes</p>\n<p><strong>Maximum Duration</strong> 5 minutes</p>\n<p><strong>Stage 1</strong> <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor=\"poison\" data-formula=\"1d4\" title=\"poison\"><i class=\"fas fa-dice-d20\"></i> 1d4</a> poison damage and @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1} (1 minute)</p>\n<p><strong>Stage 2</strong> <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor=\"poison\" data-formula=\"1d6\" title=\"poison\"><i class=\"fas fa-dice-d20\"></i> 1d6</a> poison damage and sickened 2 (1 minute)</p>\n<p><strong>Stage 3</strong> <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor=\"poison\" data-formula=\"2d6\" title=\"poison\"><i class=\"fas fa-dice-d20\"></i> 2d6</a> poison damage and sickened 3 (1 minute)</p>"
+			"name": "ヒ素",
+			"description": "<pこの毒は、ヒ素とその他の物質の混合物である。この毒の影響を受けている間、不調状態を減らすことは出来ない。</p>\n<hr />\n<p><strong>起動</strong> <span class=\"pf2-icon\">A</span> 使用 (Ingested)</p>\n<p><strong>セーヴィング・スロー</strong> <span data-pf2-check=\"fortitude\" data-pf2-dc=\"18\" data-pf2-traits=\"alchemical,consumable,ingested,poison\" data-pf2-label=\"ヒ素 DC\" data-pf2-show-dc=\"gm\">頑健</span></p>\n<p><strong>潜伏期間</strong> 10 分</p>\n<p><strong>最大持続時間</strong> 5分</p>\n<p><strong>ステージ1</strong> <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor=\"poison\" data-formula=\"1d4\" title=\"poison\"><i class=\"fas fa-dice-d20\"></i> 1d4</a> 点の毒ダメージ @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{不調1} (1分)</p>\n<p><strong>ステージ2</strong> <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor=\"poison\" data-formula=\"1d6\" title=\"poison\"><i class=\"fas fa-dice-d20\"></i> 1d6</a> 点の毒ダメージと不調2 (1分)</p>\n<p><strong>ステージ3</strong> <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor=\"poison\" data-formula=\"2d6\" title=\"poison\"><i class=\"fas fa-dice-d20\"></i> 2d6</a> 点の毒ダメージと不調3 (1分)</p>"
 		},
 		{
 			"id": "Asp Coil",
-			"name": "Asp Coil",
-			"description": "<p>The asp coil, named both for its slithering striking style and its usage among Aspis Consortium agents, has two forms. In sword form, it resembles an elegant, oddly balanced sword. However, with a twist of the pommel, the blade splits into a series of segments connected by elaborate metal cables. Agents of the Aspis Consortium have access to this weapon.</p>"
+			"name": "アスプ・コイル",
+			"description": "<p>入手手段　アスピス・コンソーシアムの一員はこの武器の入手手段を持つ</p>\n<p>アスプ・コイルはその這い進むような打撃スタイルと、アスピス・コンソーシアムのエージェントの間での使用方法の双方から名付けられているが、二つの形態を持つ。剣形態の場合、優美な、だが奇妙に均整の取れた剣のように見える。しかしながら、柄頭をひねると、刃は精巧な金属のケーブルで繋がれた断片に分かれる。</p>"
 		},
 		{
 			"id": "Aurifying Salts",
-			"name": "Aurifying Salts",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Interact</p>\n<p>You can apply this pale eggshell powder to one outfit, one object of up to Medium size, or up to 10 smaller objects in the same space, such as jewelry, to make them appear gilded for 1 hour. If used as part of Making an Impression on an audience swayed by expensive clothing, it makes most clothing or jewelry seem to be worth 10 times as much as they really are. Only someone who closely inspects an affected item notices it's not real gold. If you apply the salts to an object made of metal, the metal softens like gold, reducing its Hardness by 4 (to a minimum of Hardness 10) for 1 hour.</p>"
+			"name": "オーリファイング・サルツ",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">A</span> 使用</p>\n<p>この淡い卵の殻の粉末を、中型サイズまでの1着の服、1つの物体、あるいは宝飾品のような同じ空間にある10個のそれより小さな物体に塗ると、1時間、それらは金色に見えるようになる。もし、高価な衣類によって心を揺さぶられる聴衆に「懐柔」する一環として使われたのなら、ほとんどの服や宝石は実際の10倍の価値があるように見える。本物の黄金ではないことに気がつくのは、影響を受けたアイテムを身近で観察したものだでである。もし、この塩を金属製の物体に使ったなら、金属は黄金のように柔らかくなり、1時間の間、硬度が4（最低でも硬度10）、下がる。</p>"
 		},
 		{
 			"id": "Auspicious Scepter",
@@ -638,8 +638,8 @@
 		},
 		{
 			"id": "Axe Musket",
-			"name": "Axe Musket",
-			"description": "<p>This item, favored by firearms-using dwarves and barbarians, takes the form of a sturdy musket that combine the functionality of melee weapons and with an axeblade attached near the muzzle.</p>"
+			"name": "アクス・マスケット",
+			"description": "<p>協会メモ　ガンスリンガー（とガンスリンガーのアーキタイプを持つキャラクター）はこの本の第四章に掲載されている全てのアンコモン武器、矢弾、関連アイテムの入手手段を持つ。ビースト・ガンとあらゆる制限アイテム、禁止アイテムは特記ない限り例外である。アルケンスター、ドンガン領、枷の島を故郷とするキャラクターは全ての黒色火薬中、矢弾、関連アクセサリの入手手段を得る</p>\n<p>入手手段　下記の地域は火器の入手手段を持つ：アルケンスター、ドンガン領、ティエン＝シア、ヴードラ、アルカディア、ウースタラヴ、枷の島</p>\n<p>この武器は、火器を使うドワーフとバーバリアンに好まれているが、マズル付近に取り付けられたアクスブレードがある堅固なマスケット形式の銃である。</p>"
 		},
 		{
 			"id": "Axe of the Dwarven Lords",
@@ -658,32 +658,32 @@
 		},
 		{
 			"id": "Backfire Mantle",
-			"name": "Backfire Mantle",
-			"description": "<p>This vivid red cloak of sturdy fabric is favored by aggressive battle alchemists and mages, as well as those cautious warriors who need to advance into the fray ahead of the blast-happy back line. The mantle interposes to protect you from your own and allies' magic, granting you a +1 circumstance bonus to Reflex saves against your own spells, as well as those of your allies. You also gain resistance 3 to splash damage from your own alchemical items and those of your allies.</p>"
+			"name": "バックファイア・マント",
+			"description": "<p>この鮮やかな赤色の、丈夫な繊維で出来た外套は攻撃的な戦闘家のアルケミストや魔法使い、そして爆発的な火力をもたらす後列よりも先に戦場に進まなければならない用心深い戦士達に好まれている。このマントは、自分や味方の魔法から自分を守るためのもので、自分の呪文と味方の呪文に対する反応セーヴに+1状況ボーナスを与えるものである。君はまた、自分や味方の錬金術アイテムによる飛散ダメージに対する抵抗3点を得る。</p>"
 		},
 		{
 			"id": "Backfire Mantle (Greater)",
-			"name": "Backfire Mantle (Greater)",
-			"description": "<p>This vivid red cloak of sturdy fabric is favored by aggressive battle alchemists and mages, as well as those cautious warriors who need to advance into the fray ahead of the blast-happy back line. The mantle interposes to protect you from your own and allies' magic, granting you a +2 circumstance bonus to Reflex saves against your own spells, as well as those of your allies. You also gain resistance 10 to splash damage from your own alchemical items and those of your allies.</p>"
+			"name": "バックファイア・マント（グレーター）",
+			"description": "<p>この鮮やかな赤色の、丈夫な繊維で出来た外套は攻撃的な戦闘家のアルケミストや魔法使い、そして爆発的な火力をもたらす後列よりも先に戦場に進まなければならない用心深い戦士達に好まれている。このマントは、自分や味方の魔法から自分を守るためのもので、自分の呪文と味方の呪文に対する反応セーヴに+2状況ボーナスを与えるものである。君はまた、自分や味方の錬金術アイテムによる飛散ダメージに対する抵抗10点を得る。</p>"
 		},
 		{
 			"id": "Backpack Ballista",
-			"name": "Backpack Ballista",
-			"description": "<p>This complex wooden device, worn on the back, contains a miniature ballista on a retractable arm. As an Interact action, you can pull a lever to deploy or retract the ballista. As long as it remains deployed, you must hold the ballista using that hand or some of the components spill out onto the ground, just like dropping any other weapon. While deployed, the device opens and raises the ballista up over your shoulder. While retracted, the ballista and its mount slide down and are @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} within the device. Although a backpack ballista packs a punch, the device is a challenge to operate. Reloading it takes 1 minute and can't be done while worn. As normal, you can't wear a backpack ballista with another backpack.</p>"
+			"name": "バックパック・バリスタ",
+			"description": "<p>背中に装着するこの複雑な木製の装置には、格納式のアームにミニチュアのバリスタが搭載されている。「使用」アクションで、レバーを引いてバリスタを展開したり収納したりすることができる。展開している限り、自分の手でバリスタを持たないと、他の武器を落とすのと同じように、部品の一部が地面にこぼれてしまう。展開している間は、装置が開き、バリスタを肩の上に載せる。収納時には、バリスタとマウントがスライドして装置の中に隠される。バックパック・バリスタはパンチ力があるが、操作が難しい。再装填には1分かかり、着用したままでは再装填することができない。通常通り、バックパック・バリスタを他の背負い袋と一緒に着用することはできない。</p>"
 		},
 		{
 			"id": "Backpack Ballista Bolt",
-			"name": "Backpack Ballista Bolt",
+			"name": "バックパック・バリスタ・ボルト",
 			"description": ""
 		},
 		{
 			"id": "Backpack Catapult",
-			"name": "Backpack Catapult",
-			"description": "<p>This wooden device is worn on the back and contains a miniature catapult mounted on a retractable frame. As an Interact action, you can pull a lever to deploy or retract the catapult. As long as it remains deployed, you must hold the catapult using that hand or some of the components spill out onto the ground, just like dropping any other weapon. While deployed, the device opens and raises the catapult up over your shoulder. While retracted, the catapult and its mount slide down and are @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} within the device. A backpack catapult fires specialized stone spheres that are loaded into the bucket while unworn and retracted, through a sliding hatch; the reloading process takes 1 minute. To prevent misfires and accidental injury, the bucket fully encloses the stone while deployed, only opening when fired. As normal, you can't wear a backpack catapult with another backpack.</p>"
+			"name": "バックパック・カタパルト",
+			"description": "<p>この木製の装置は背中に着用し、収納することが出来るフレームに取り付けられたミニチュアのカタパルトが入っている。「使用」アクションで、レバーを引いてカタパルトを展開したり収納したりすることができる。展開している間は、その手でカタパルトを持っていないと、他の武器を落とすのと同じように、部品の一部が地面にこぼれてしまう。展開中は装置が開き、カタパルトが肩の上に載る。収納時には、カタパルトとその支えがスライドして装置の中に隠れる。バックパック・カタパルトは、装着していない状態のときにバケットに装填された、特殊な石の玉を、スライド式のハッチから発射する。誤射や事故を防ぐため、バケットは展開している間は石を完全に囲み、発射するときだけ開くようになっている。通常通り、バックパック・カタパルトを着用している間、背負い袋を装着することはできない。</p>"
 		},
 		{
 			"id": "Backpack Catapult Stone",
-			"name": "Backpack Catapult Stone",
+			"name": "バックパック・カタパルト・ストーン",
 			"description": ""
 		},
 		{
