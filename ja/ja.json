@@ -284,6 +284,42 @@
                 },
                 "Title":"高跳び"
              },
+             "Interact": {
+                "Title": "使用",
+                "Parenthetical": "使用 {purpose}",
+                "Draw1H": {
+                    "Title": "抜く (1H)",
+                    "Description": "{actor} は {weapon} を抜いた"
+                },
+                "Draw2H": {
+                    "Title": "抜く (2H)",
+                    "Description": "{actor} は {weapon} を抜いた"
+                },
+                "PickUp1H": {
+                    "Title": "拾う (1H)",
+                    "Description": "{actor} は {weapon} を地面から拾った"
+                },
+                "PickUp2H": {
+                    "Title": "拾う (2H)",
+                    "Description": "{actor} は {weapon} を地面から拾った"
+                },
+                "Grip": {
+                    "Title": "握りを変える (2H)",
+                    "Description": "{actor} は {weapon} を両手で握った"
+                },
+                "Retrieve1H": {
+                    "Title": "取り出す (1H)",
+                    "Description": "{actor} は {weapon} を取り出した"
+                },
+                "Retrieve2H": {
+                    "Title": "取り出す (2H)",
+                    "Description": "{actor} は {weapon} を取り出した"
+                },
+                "Sheathe": {
+                    "Title": "納刀",
+                    "Description": "{actor} は {weapon} を鞘に納めた"
+                }
+            },
              "Impersonate":{
                 "Notes": {
                     "success": "<b>成功</b> 君は自分が変装したとおりの人物だと考えるようにクリーチャーを騙す。もし君の行動が変化したのなら、君は新しい判定を試みなくてはならないかもしれない。",
@@ -572,7 +608,6 @@
   "ArmorClassLabel": "アーマー・クラス",
   "ArmorClassShortLabel": "AC",
   "ArmorDexLabel": "敏捷力修正上限",
-  "ArmorEquippedLabel": "装備済み",
   "ArmorGreaterResilientRune": "レジリエント（グレーター）",
   "ArmorGreaterStrikingRune": "ストライキング（グレーター）",
   "ArmorGroupChain": "鎖帷子",
@@ -792,13 +827,26 @@
   "BulkReductionLabel": "バルクを減少させる",
   "BulkShortLabel": "バルク",
   "BulkTypeLight": "軽重量",
-  "CapacityBarLabel": "キャパシティ",
+  "CapacityBarLabel": "容量",
+  "CarryType": {
+    "held1": "1本の手",
+    "held2": "2本の手",
+    "worn": "着用",
+    "worn-in-slot": "着用 (スロット)",
+    "stowed": "保管",
+    "dropped": "下した"
+},
   "CastLabel": "発動",
   "CharacterDetails": "キャラクター詳細",
   "CharacterLevelLabel": "レベル",
   "CharacterNamePlaceholder": "キャラクターの名前",
   "CharacterTraits": "キャラクターの特性",
   "CharacterTraitsHeader": "特性とその他の詳細",
+  "Check": {
+    "AC": "AC: {dc}",
+    "DC": "DC: {dc}",
+    "TargetDC": "{target} {dcLabel}"
+},
   "CheckOutcome": {
         "criticalSuccess": "クリティカル",
         "success": "成功",
@@ -963,7 +1011,8 @@
         "CraftQuantityTitle": "数量",
         "ExpendFormula": "処方の消費",
         "ToggleFreeCrafting": "フリー製作を切替",
-        "UndeletableTooltip": "この製作処方は別のアイテムの一部であって、個別の消去することが出来ない"
+        "UndeletableTooltip": "この製作処方は別のアイテムの一部であって、個別の消去することが出来ない",
+        "QuickAddTitle": "この処方を一日の製作リストに追加"
     },
     "CraftDCTitle": "DC",
     "CraftItemTitle": "製作",
@@ -977,7 +1026,6 @@
   "CreateSkillTitle": "技能作成",
   "CreateSpellTitle": "呪文作成",
   "CreatureStatisticDC":{
-    "ac":"{creature} AC: {dc}",
     "deception":"{creature} 欺瞞 DC: {dc}",
     "fortitude":"{creature} 頑健 DC: {dc}",
     "perception":"{creature} 知覚 DC: {dc}",
@@ -1023,7 +1071,6 @@
       "DCAdjustmentVeryHard": "とても困難",
       "DCAdjustmentIncrediblyHard": "著しく困難",
       "DCBase": "基本DC10",
-      "DCLabel": "DC",
       "DCWithValue": "DC {dc} {text}",
       "DecrementEffectTitle": "効果レベルの低下",
   "DefencesLabel": "防御",
@@ -1146,7 +1193,6 @@
       },
   "Ethnicity": "民族",
   "ExpendSpellTitle": "呪文の消費",
-  "ExperimentalLabel": "実験",
   "Failure": "<strong>失敗</strong>",
          "FamiliarItemTypeError": "現在、使い魔にサポートされているのは状態と効果のみです。",
   "FeatActionTypeLabel": "アクション種別",
@@ -1301,6 +1347,9 @@
                 }
              },
              "CannotAddType": "{type}のアイテムはこのアクターに追加できません",
+             "Condition": {
+                "Flanked": "立ちすくみ (挟撃)"
+            },
              "Deity": {
                 "Alignment": "属性",
                 "FollowerAlignments": "信者の属性",
@@ -1326,6 +1375,21 @@
                 },
                   "ShowTokenIcon": "トークン・アイコンを表示しますか?"
               },
+              "Feat": {
+                "OnlyLevel1": "1レベルで取得してください",
+                "TakeMultiple": {
+                    "Label": "複数回取得可能",
+                    "Two": "2回まで",
+                    "Three": "3回まで",
+                    "Four": "4回まで",
+                    "NoLimit": "無制限"
+                },
+                "Warning": {
+                    "TakenAfterLevel1": "{item}は1レベルで取得しなければなりませんが、{actor}はレベル{actorLevel}です",
+                    "TakenMoreThanOnce": "{item}は1度しか取得できませんが、 {actor}は2度目の選択をしています",
+                    "TakenMoreThanMax": "{item}は{maxTaken}しか取得できませんが、{actor}は{timesTaken} 度目の選択をしています"
+                }
+            },
               "Heritage": {
                 "AncestryNotFound": "参照している祖先アイテムが見つかりません",
                 "DragAncestryHere": "遺産に必要な祖先を設定するため、ここに祖先アイテムをドラッグして下さい",
@@ -1340,7 +1404,40 @@
         },
           "Physical":{
              "LevelLabel":"アイテム {level}",
-             "PriceLabel":"価格: {price}"
+             "PriceLabel":"価格: {price}",
+             "Usage": {
+                "WornParenthetical": "着用部位 ({where})",
+                "WornSlot": {
+                    "amulet": "アミュレット",
+                    "anklets": "アンクレット",
+                    "armbands": "アームバンド",
+                    "armor": "防具",
+                    "backpack": "背負い袋",
+                    "barding": "バーディング",
+                    "belt": "ベルト",
+                    "beltpouch": "ベルト・ポーチ",
+                    "bracelet": "ブレスレット",
+                    "bracers": "ブレーサーズ",
+                    "circlet": "サークレット",
+                    "cloak": "外套",
+                    "clothing": "衣類",
+                    "collar": "カラー",
+                    "crown": "冠",
+                    "epaulet": "足環",
+                    "eyepiece": "眼",
+                    "garment": "ガーメント",
+                    "gloves": "グラヴ",
+                    "headwear": "頭部",
+                    "horseshoes": "蹄鉄",
+                    "mask": "仮面",
+                    "necklace": "ネックレス",
+                    "onbelt": "ベルト飾り",
+                    "ring": "指輪",
+                    "saddle": "サドル",
+                    "shoes": "靴",
+                    "wrist": "手首"
+                }
+            }
           },
         "Plural": "アイテム",
           "Weapon":{
@@ -1967,10 +2064,6 @@
                "Name":"効果期限の自動適用",
                "Hint":"持続時間が切れた際、効果に付随するルール要素を自動的にオフにする"
             },
-            "ExperimentalDamageFormatting": {
-                "Name": "実験的なダメージ・チャット・カード形式を使用する",
-                "Hint": "ダメージ・ロールのデータを分析し、結果のチャット・カードを、ダメージ種別、カテゴリーで異なるフォーマットをされ、飛散ダメージと継続ダメージにメモがついたロールの計算式で装飾する。"
-            },
             "ActorsDeadAtZero": {
                 "Name": "NPCの死亡設定",
                 "Hint": "0ヒットポイントに到達してすぐに、NPCに死亡マークをつける",
@@ -2355,7 +2448,7 @@
   "SpellBasicSaveOption": "基本",
   "SpellBrowserSearchHint": "君は名称での検索やアトリビュートのカスタムが出来る。検索可能になりうるアトリビュートは：<br>ソース、レベル、系統、構成要素、素材、対象、距離、時間、持続時間、ダメージ、ダメージ種別、セーヴ、精神集中、儀式、能力値及びクラスである。<br>例：’ファイア、ダメージ：d6’でファイアを名前に含み、ダメージにd6を含む全ての呪文が表示される",
   "SpellCantripLabel": "キャントリップ",
-  "SpellCastingFormat": "{preparationType} {traditionSpells}",
+  "SpellCastingFormat": "{traditionSpells}{preparationType}呪文",
    "SpellComponentF": "焦点具",
   "SpellComponentM": "物質",
   "SpellComponentS": "動作",
@@ -2532,10 +2625,10 @@
    "TotalCoinage": "硬貨の合計",
     "TotalWealth": "富の合計",
     "TraditionSpells": {
-        "Arcane": "{tradition} 呪文",
-        "Divine": "{tradition} 呪文",
-        "Occult": "{tradition} 呪文",
-        "Primal": "{tradition} 呪文"
+        "Arcane": "{tradition} ",
+        "Divine": "{tradition} ",
+        "Occult": "{tradition} ",
+        "Primal": "{tradition} "
     },
 "TrainedSkillsLabel": "修得済みの技能",
   "Traits": "特性",
@@ -3012,12 +3105,12 @@
   "TraitEvolution": "進化",
   "TraitExploration": "探索",
   "TraitExtradimensional": "他次元界",
-  "TraitFatalAim": "致命的照準",
-  "TraitFatalAimD10": "致命的照準 d10",
-  "TraitFatalAimD12": "致命的照準 d12",
-  "TraitFatalD10": "大殺傷d10",
-  "TraitFatalD12": "大殺傷d12",
-  "TraitFatalD8": "大殺傷d8",
+  "TraitFatalAim": "大殺傷",
+  "TraitFatalAimD10": "大殺傷 d10",
+  "TraitFatalAimD12": "大殺傷 d12",
+  "TraitFatalD10": "大殺傷 d10",
+  "TraitFatalD12": "大殺傷 d12",
+  "TraitFatalD8": "大殺傷 d8",
   "TraitFear": "恐怖",
   "TraitFearEffects": "恐怖効果",
   "TraitFetchling": "フェッチリング",
@@ -3107,7 +3200,8 @@
   "TraitLitany": "祈り",
   "TraitLizardfolk": "リザードフォーク",
   "TraitLocathah": "ロキャーサ",
-  "TraitMagical": "魔法",
+  "TraitMagic": "魔法",
+  "TraitMagical": "魔法の品",
   "TraitMagus": "メイガス",
   "TraitManipulate": "操作",
   "TraitMechanical": "機械",
@@ -3685,6 +3779,7 @@
                   "starknife": "スターナイフ",
                   "stiletto-pen": "スティレット・ペン",
                   "sun-sling": "サン・スリング",
+                  "switchscythe": "スイッチサイズ",
                   "sword-cane": "ソ―ド・ケイン",
                   "tamchal-chakram": "タムカル・チャクラム",
                   "taw-launcher": "タウ・ランチャー",
@@ -4544,6 +4639,7 @@
                 "TotalNumberFamiliarAbilities": "使い魔能力の合計数",
                 "Familiar": "使い魔",
                 "Creature": "クリーチャー",
+                "CreatureType": "クリーチャー種別",
                 "Perception": "知覚",
                 "Defenses": "防御",
                 "ArmorClass": "アーマー・クラス",

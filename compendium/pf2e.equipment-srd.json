@@ -708,28 +708,28 @@
 		},
 		{
 			"id": "Bag of Holding (Type I)",
-			"name": "Bag of Holding (Type I)",
-			"description": "<p>Though it appears to be a cloth sack decorated with panels of richly colored silk or stylish embroidery, a <em>bag of holding</em> opens into an extradimensional space larger than its outside dimensions. The Bulk held inside the bag doesn't change the Bulk of the <em>bag of holding</em> itself. The amount of Bulk the bag's extradimensional space can hold depends on its type.</p>\n<p>You can Interact with the <em>bag of holding</em> to put items in or remove them just like a mundane sack. Though the bag can hold a great amount of material, an object still needs to be able to fit through the opening of the sack to be stored inside.</p>\n<p>If the bag is overloaded or broken, it ruptures and is ruined, causing the items inside to be lost forever. If it's turned inside out, the items inside spill out unharmed, but the bag must be put right before it can be used again. A living creature placed inside the bag has enough air for 10 minutes before it begins to suffocate, and it can attempt to Escape against a DC of 13. An item inside the bag provides no benefits unless it's retrieved first. An item in the bag can't be detected by magic that detects only things on the same plane.</p>\n<p><strong>Capacity</strong> 25 Bulk</p>"
+			"name": "バッグ・オヴ・ホールディング（タイプⅠ）",
+			"description": "<p>色とりどりの絹やおしゃれな刺繍が施された板で装飾された布製の袋に見えるが、<em>バッグ・オヴ・ホールディング</em>は外寸よりも大きな多次元界の空間に繋がっている。バッグの内側に保管されたバルクは、袋自体のバルクを変更しない。バッグの多次元界の空間に保管できるバルクは、種別によって異なる。</p>\n<p>君は通常の袋にするように、アイテムを保管するか、取り出すために「使用」をすることが出来る。バッグは大量の物質を入れることが出来るが、それでも、物体を袋の中に保管するためには、袋の入り口を通れるようでなければならない。</p>\n<pもし、袋に物が入りすぎたり、破壊されたなら、袋は破裂して無駄になり、内部にあったアイテムは永遠に失われることになる。袋を裏返しにした場合、中のアイテムは無傷の状態でこぼれ落ちるが、袋を再び使う前に元に戻さなければならない。袋の中に入れられた生きているクリーチャーは10分後に窒息するまでは十分な空気があるが、DC13の「脱出」を試みることが出来る。袋の中のアイテムは、まず取り出さなければ利益を与えることはない。袋の中のアイテムは同じ次元界の存在のみを探知する魔法によって探知されることはない。</p>\n<p><strong>容量</strong> 25バルク</p>"
 		},
 		{
 			"id": "Bag of Holding (Type II)",
-			"name": "Bag of Holding (Type II)",
-			"description": "<p>Though it appears to be a cloth sack decorated with panels of richly colored silk or stylish embroidery, a <em>bag of holding</em> opens into an extradimensional space larger than its outside dimensions. The Bulk held inside the bag doesn't change the Bulk of the <em>bag of holding</em> itself. The amount of Bulk the bag's extradimensional space can hold depends on its type.</p>\n<p>You can Interact with the <em>bag of holding</em> to put items in or remove them just like a mundane sack. Though the bag can hold a great amount of material, an object still needs to be able to fit through the opening of the sack to be stored inside.</p>\n<p>If the bag is overloaded or broken, it ruptures and is ruined, causing the items inside to be lost forever. If it's turned inside out, the items inside spill out unharmed, but the bag must be put right before it can be used again. A living creature placed inside the bag has enough air for 10 minutes before it begins to suffocate, and it can attempt to Escape against a DC of 13. An item inside the bag provides no benefits unless it's retrieved first. An item in the bag can't be detected by magic that detects only things on the same plane.</p>\n<p><strong>Capacity</strong> 50 Bulk</p>"
+			"name": "バッグ・オヴ・ホールディング（タイプⅡ）",
+			"description": "<p>色とりどりの絹やおしゃれな刺繍が施された板で装飾された布製の袋に見えるが、<em>バッグ・オヴ・ホールディング</em>は外寸よりも大きな多次元界の空間に繋がっている。バッグの内側に保管されたバルクは、袋自体のバルクを変更しない。バッグの多次元界の空間に保管できるバルクは、種別によって異なる。</p>\n<p>君は通常の袋にするように、アイテムを保管するか、取り出すために「使用」をすることが出来る。バッグは大量の物質を入れることが出来るが、それでも、物体を袋の中に保管するためには、袋の入り口を通れるようでなければならない。</p>\n<pもし、袋に物が入りすぎたり、破壊されたなら、袋は破裂して無駄になり、内部にあったアイテムは永遠に失われることになる。袋を裏返しにした場合、中のアイテムは無傷の状態でこぼれ落ちるが、袋を再び使う前に元に戻さなければならない。袋の中に入れられた生きているクリーチャーは10分後に窒息するまでは十分な空気があるが、DC13の「脱出」を試みることが出来る。袋の中のアイテムは、まず取り出さなければ利益を与えることはない。袋の中のアイテムは同じ次元界の存在のみを探知する魔法によって探知されることはない。</p>\n<p><strong>容量</strong> 50バルク</p>"
 		},
 		{
 			"id": "Bag of Holding (Type III)",
-			"name": "Bag of Holding (Type III)",
-			"description": "<p>Though it appears to be a cloth sack decorated with panels of richly colored silk or stylish embroidery, a <em>bag of holding</em> opens into an extradimensional space larger than its outside dimensions. The Bulk held inside the bag doesn't change the Bulk of the <em>bag of holding</em> itself. The amount of Bulk the bag's extradimensional space can hold depends on its type.</p>\n<p>You can Interact with the <em>bag of holding</em> to put items in or remove them just like a mundane sack. Though the bag can hold a great amount of material, an object still needs to be able to fit through the opening of the sack to be stored inside.</p>\n<p>If the bag is overloaded or broken, it ruptures and is ruined, causing the items inside to be lost forever. If it's turned inside out, the items inside spill out unharmed, but the bag must be put right before it can be used again. A living creature placed inside the bag has enough air for 10 minutes before it begins to suffocate, and it can attempt to Escape against a DC of 13. An item inside the bag provides no benefits unless it's retrieved first. An item in the bag can't be detected by magic that detects only things on the same plane.</p>\n<p><strong>Capacity</strong> 100 Bulk</p>"
+			"name": "バッグ・オヴ・ホールディング（タイプⅢ）",
+			"description": "<p>色とりどりの絹やおしゃれな刺繍が施された板で装飾された布製の袋に見えるが、<em>バッグ・オヴ・ホールディング</em>は外寸よりも大きな多次元界の空間に繋がっている。バッグの内側に保管されたバルクは、袋自体のバルクを変更しない。バッグの多次元界の空間に保管できるバルクは、種別によって異なる。</p>\n<p>君は通常の袋にするように、アイテムを保管するか、取り出すために「使用」をすることが出来る。バッグは大量の物質を入れることが出来るが、それでも、物体を袋の中に保管するためには、袋の入り口を通れるようでなければならない。</p>\n<pもし、袋に物が入りすぎたり、破壊されたなら、袋は破裂して無駄になり、内部にあったアイテムは永遠に失われることになる。袋を裏返しにした場合、中のアイテムは無傷の状態でこぼれ落ちるが、袋を再び使う前に元に戻さなければならない。袋の中に入れられた生きているクリーチャーは10分後に窒息するまでは十分な空気があるが、DC13の「脱出」を試みることが出来る。袋の中のアイテムは、まず取り出さなければ利益を与えることはない。袋の中のアイテムは同じ次元界の存在のみを探知する魔法によって探知されることはない。</p>\n<p><strong>容量</strong> 100バルク</p>"
 		},
 		{
 			"id": "Bag of Holding (Type IV)",
-			"name": "Bag of Holding (Type IV)",
-			"description": "<p>Though it appears to be a cloth sack decorated with panels of richly colored silk or stylish embroidery, a <em>bag of holding</em> opens into an extradimensional space larger than its outside dimensions. The Bulk held inside the bag doesn't change the Bulk of the <em>bag of holding</em> itself. The amount of Bulk the bag's extradimensional space can hold depends on its type.</p>\n<p>You can Interact with the <em>bag of holding</em> to put items in or remove them just like a mundane sack. Though the bag can hold a great amount of material, an object still needs to be able to fit through the opening of the sack to be stored inside.</p>\n<p>If the bag is overloaded or broken, it ruptures and is ruined, causing the items inside to be lost forever. If it's turned inside out, the items inside spill out unharmed, but the bag must be put right before it can be used again. A living creature placed inside the bag has enough air for 10 minutes before it begins to suffocate, and it can attempt to Escape against a DC of 13. An item inside the bag provides no benefits unless it's retrieved first. An item in the bag can't be detected by magic that detects only things on the same plane.</p>\n<p><strong>Capacity</strong> 150 Bulk</p>"
+			"name": "バッグ・オヴ・ホールディング（タイプⅣ）",
+			"description": "<p>色とりどりの絹やおしゃれな刺繍が施された板で装飾された布製の袋に見えるが、<em>バッグ・オヴ・ホールディング</em>は外寸よりも大きな多次元界の空間に繋がっている。バッグの内側に保管されたバルクは、袋自体のバルクを変更しない。バッグの多次元界の空間に保管できるバルクは、種別によって異なる。</p>\n<p>君は通常の袋にするように、アイテムを保管するか、取り出すために「使用」をすることが出来る。バッグは大量の物質を入れることが出来るが、それでも、物体を袋の中に保管するためには、袋の入り口を通れるようでなければならない。</p>\n<pもし、袋に物が入りすぎたり、破壊されたなら、袋は破裂して無駄になり、内部にあったアイテムは永遠に失われることになる。袋を裏返しにした場合、中のアイテムは無傷の状態でこぼれ落ちるが、袋を再び使う前に元に戻さなければならない。袋の中に入れられた生きているクリーチャーは10分後に窒息するまでは十分な空気があるが、DC13の「脱出」を試みることが出来る。袋の中のアイテムは、まず取り出さなければ利益を与えることはない。袋の中のアイテムは同じ次元界の存在のみを探知する魔法によって探知されることはない。</p>\n<p><strong>容量</strong> 150バルク</p>"
 		},
 		{
 			"id": "Bag of Weasels",
-			"name": "Bag of Weasels",
-			"description": "<p>This item appears to be and functions as a type I bag of holding, until you try to retrieve an item from the bag. Whenever you retrieve an item from the bag of weasels, roll a DC 11 flat check. On a success, you retrieve the item as normal. On a failure, the item you retrieve is transformed into a weasel; this doesn't affect artifacts, cursed items, or other hard-to-destroy items.</p>\n<p>This weasel has the statistics of a giant rat, except that it is Tiny and exudes an aura of transmutation magic. The weasel has no loyalty to you and typically attempts to escape as quickly as possible. If the weasel is targeted with a remove curse spell or a similar magical effect, it transforms back into the original item that was taken from the bag of weasels. If it dies or is slain, the weasel disappears and the item is permanently destroyed. Because the weasel is a transformed item, you don't gain any benefit you would receive from attacking a creature, defeating one, damaging one, or the like, but you do gain any benefit you would gain from destroying an item.</p>"
+			"name": "バッグ・オヴ・ウィーゼルズ",
+			"description": "<p>このアイテムは、バッグ・オヴ・ホールディングのタイプⅠのように見え、君がアイテムを取り出そうとするまでは同じように機能する。バッグ・オヴ・ウィーゼルズからアイテムを取り出すとき、DC11の平目判定をロールすること。成功したなら、通常通りにアイテムを取り出すことが出来る。失敗したなら、君が取り出そうとしたアイテムはイタチに変身する；これはアーティファクト、呪われた品、その他の破壊しにくいアイテムに影響を与えることはない。</p>\n<p>このイタチはジャイアント・ラットのステータスを使うが、超小型であり、変成術魔法のオーラを放っている。このイタチは君に全く忠実ではなく、一般的には、可能な限り素早く逃げようとする。イタチがリムーヴ・カース呪文やその他の似た魔法効果の対象となったなら、バッグ・オヴ・ウィーゼルズから取り出された元々のアイテムへと戻る。もし死亡するか殺されたなら、イタチは消え失せ、アイテムは永遠に失われる。イタチは変身したアイテムであるため、クリーチャーを攻撃したこと、打ち負かしたこと、ダメージを与えたことといったことによって受けるはずの利益を与えることはないが、アイテムの破壊から受けるはずの利益を受けることは出来る。</p>"
 		},
 		{
 			"id": "Balisse Feather",
@@ -738,18 +738,18 @@
 		},
 		{
 			"id": "Ball",
-			"name": "Ball",
-			"description": "<p>Toy balls come in a variety of shapes, sizes, and compositions, such as with squishy fabric, bouncy rubber, or lightweight wicker, or forms like bean-filled sacks and hard-hide balls.</p>"
+			"name": "ボール",
+			"description": "<p>おもちゃのボールは、形、大きさ、材料が様々である。柔らかな布、弾力のあるゴム、軽い籐製のもの、豆が詰まった袋や硬い革といったものがある。</p>"
 		},
 		{
 			"id": "Bandalore",
-			"name": "Bandalore",
-			"description": "<p>Similar to a spool of string, a bandalore consists of two wooden disks connected to a central axle wound with string. By holding the end of the string and releasing the bandalore, a skilled user can move the bandalore up and down, performing a variety of tricks.</p>"
+			"name": "ヨーヨー",
+			"description": "<p>バンダロア（ヨーヨー）は、2枚の木製の円盤を軸にして紐を巻き付けたもので、糸巻きに似ている。糸の箸を持ってバンダロア（ヨーヨー）を手放すことによって、熟練者は上下にバンダロア（ヨーヨー）を動かし、様々な技を繰り出すことができる。</p>"
 		},
 		{
 			"id": "Bane",
-			"name": "Bane",
-			"description": "<p>A bane rune causes a weapon to grant you improved understanding of creatures of a particular type, allowing you to deal more damage to those creatures. The crafter chooses aberration, animal, beast, celestial, construct, dragon, elemental, fey, fiend, giant, monitor, ooze, or both fungus and plant. The weapon deals 1d6 additional damage of the weapon's damage type to creatures with the chosen trait or traits. The benefit doesn't apply against creatures of the chosen type disguised as other creatures. It's up to GM discretion whether the bane rune applies against a creature disguised as a creature of the chosen type.</p>\n<p>The GM might allow bane runes for other creature traits, such as astral, dream, or demon. However, humanoids, undead, and specific types of humanoids (such as elves) are never a valid option.</p>"
+			"name": "ベイン",
+			"description": "<p>ベイン・ルーンは特定の種別のクリーチャーについて気味に卓越した知見をもたらす能力を武器にもたらし、君がそういったクリーチャーにより多くのダメージを与えられるようにする。製作者は、異形、動物、魔獣、セレスチャル、人造、ドラゴン、エレメンタル、フェイ、フィーンド、巨人、モニター、粘体、あるいは菌類及び植物のどれかを選ぶ。この武器は、選択された特性を持つクリーチャーに、その武器のダメージ種別の1d6点の追加ダメージを与える。この利益は、他のクリーチャーであるように変装している、選ばれた種別のクリーチャーには適用されない。選ばれた種別のクリーチャーに変装しているクリーチャーに対してベイン・ルーンが適用されるかどうかはGMの判断による。</p>\n<p>GMは、アストラル、夢幻、デーモンといった他のクリーチャー特性のベイン・ルーンを許可するかもしれない。だが、人型生物、アンデッド、人型生物の特定の種別（エルフといったような）は決して有効な選択肢にはならない。</p>"
 		},
 		{
 			"id": "Barbed Vest",
@@ -763,8 +763,8 @@
 		},
 		{
 			"id": "Barkskin Potion",
-			"name": "Barkskin Potion",
-			"description": "<p>After you drink this bitter draft, your skin thickens like bark. You gain the effects of a 2nd-level <em>@Compendium[pf2e.spells-srd.YWrfKetOqDwVFut7]{Barkskin}</em> spell for 10 minutes.</p>"
+			"name": "バークスキン・ポーション",
+			"description": "<p>この苦い生ビールを飲んだ後、君の皮膚は樹皮のように分厚くなる。君は10分間、2レベルの<em>@Compendium[pf2e.spells-srd.YWrfKetOqDwVFut7]{バークスキン}</em>呪文の効果を得る。</p>"
 		},
 		{
 			"id": "Barricade Stone (Cube)",
@@ -783,33 +783,33 @@
 		},
 		{
 			"id": "Basic Cane",
-			"name": "Basic Cane",
-			"description": "<p>A basic cane is a straight cane with a curved handle, shaped like the tip of a hook. Its simple design helps with balance and only slightly assists with taking weight off the affected opposite leg. The cane is typically 2 to 3 feet long but can be lengthened or shortened as needed.</p>"
+			"name": "基本の杖",
+			"description": "<p>基本の杖は鉤爪の先端に似た形の、曲がった取っ手がついた直線状の杖である。その単純なデザインはバランスを取る手助けになり、反対側の脚から僅かに重心を逸らすことが出来るのを助ける。杖の長さは一般的には2～3フィートで、必要に応じて長くすることも短くすることもできる。</p>"
 		},
 		{
 			"id": "Basic Chair",
-			"name": "Basic Chair",
-			"description": "<p>This common wheelchair is ideal for everyday use but isn't designed for strenuous activity. Basic chairs are most common among non-adventurers.</p>"
+			"name": "基本の車椅子",
+			"description": "<p>この一般的な車椅子は毎日使うのに理想的だが、激しい運動には向かない。基本の車椅子は冒険者ではない者の中で最も一般的である。</p>"
 		},
 		{
 			"id": "Basic Corrective Lenses",
-			"name": "Basic Corrective Lenses",
-			"description": "<p>A set of corrective lenses might take the form of eyeglasses or specialized goggles. You can don or remove your corrective lenses as an Interact action.</p>"
+			"name": "基本の視力矯正レンズ",
+			"description": "<p>視力矯正レンズはメガネか特化したゴーグルの形を取る。君は視力矯正レンズを、「使用」アクションで着用あるいは外すことができる。</p>"
 		},
 		{
 			"id": "Basic Crutch",
-			"name": "Basic Crutch",
-			"description": "<p>Crutches come as singles or a pair depending on how much support you need while walking. A crutch fits under your armpit, and you use your hand and the swing of your arm to move with them.</p>"
+			"name": "基本の松葉杖",
+			"description": "<p>松葉杖は歩いている間に必要な支えの数に応じて、単体のものも一組のものもある。松葉杖は君の脇の下にぴったりと寄り添うので、君は移動するために手を使ったり、腕を振ったりすることができる。</p>"
 		},
 		{
 			"id": "Basic Hearing Aid",
-			"name": "Basic Hearing Aid",
-			"description": "<p>A basic hearing aid rests on the ear and is made from carved wood, shaped metal, or even small clockwork pieces. The shape of the device aids those that are hard of hearing, and you can wear one or two depending on your hearing loss. You can attach or remove your hearing aids as an Interact action.</p>"
+			"name": "基本の補聴器",
+			"description": "<p>基本の補聴器は耳にかけるもので、曲線の形をした木、成形された金属、小さなゼンマイ仕掛けの部品といったもので作られている。装置は難聴の人間を補助する形状をしていて、難聴の程度に応じて1つあるいは2つを装着することができる。「使用」アクションとして、君は補聴器の着脱を行うことができる。</p>"
 		},
 		{
 			"id": "Basic Prosthesis",
-			"name": "Basic Prosthesis",
-			"description": "<p>A basic prosthesis replaces a missing or damaged body part. Typical prostheses include artificial feet, eyes, hands, and limbs, though a basic prosthesis can be designed as a replacement for any body part. A prosthesis has a number of belts or cuffs that keep it attached to your body. You can attach or remove a prosthesis as an Interact action.</p>"
+			"name": "基本の義肢",
+			"description": "<p>基本の義肢は失われた、あるいは損傷した肉体部位を置き換える。一般的な義肢には、人工的な脚、眼、手、四肢を含むが、基本の義肢はあらゆる肉体部位の代替として作られているものを含む。義肢は、それを肉体に取り付けておくためのベルトやカフスがある。君は「使用」アクションで義肢を着脱することができる。</p>"
 		},
 		{
 			"id": "Basilisk Eye",
