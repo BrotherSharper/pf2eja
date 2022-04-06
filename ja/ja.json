@@ -469,23 +469,23 @@
              }
       },
       "ActionsCheck": {
-        "Acrobatics": "軽業技能判定",
-        "arcana": "神秘学技能判定",
-        "Athletics": "運動技能判定",
-              "crafting": "製作技能判定",
-              "deception": "欺瞞技能判定",
-              "diplomacy": "交渉技能判定",
-              "intimidation": "威圧技能判定",
-              "medicine": "医学技能判定",
-              "nature": "自然技能判定",
-              "occultism": "霊妙学技能判定",
+        "Acrobatics": "軽業判定",
+        "arcana": "神秘学判定",
+        "Athletics": "運動判定",
+              "crafting": "製作判定",
+              "deception": "欺瞞判定",
+              "diplomacy": "交渉判定",
+              "intimidation": "威圧判定",
+              "medicine": "医学判定",
+              "nature": "自然判定",
+              "occultism": "霊妙学判定",
         "Perception": "知覚判定",
-        "performance": "芸能技能判定",
-              "religion": "宗教技能判定",
-              "society": "社会技能判定",
-              "stealth": "隠密技能判定k",
-              "survival": "生存技能判定",
-              "thievery": "窃盗技能判定"
+        "performance": "芸能判定",
+              "religion": "宗教判定",
+              "society": "社会判定",
+              "stealth": "隠密判定",
+              "survival": "生存判定",
+              "thievery": "窃盗判定"
       },
       "ActionsWarning": {
         "DeceptionUnknownVariant": "欺瞞に未知のバリエーション'{variant}'が使われています, 言葉、ジェスチャー、小技のいずれかを使って下さい。",
@@ -530,7 +530,10 @@
             "TakesNoDamage": "{actor} はダメージを受けなかった"
         },
         "Character": {
-            "AncestryClass": "{ancestry} {class}"
+            "AncestryClass": "{ancestry} {class}",
+            "Rest": {
+                "Label": "夜に休息を取る"
+            }
         },
         "Dead": "死亡",
         "Hazard": {
@@ -595,6 +598,7 @@
   "AreaSize75":"75フィート",
   "AreaSize80": "80フィート",
   "AreaSize90":"90フィート",
+  "AreaSize1Mile": "1マイル",
   "AreaTypeBurst": "爆発",
   "AreaTypeCone": "円錐",
   "AreaTypeEmanation": "拡散",
@@ -678,12 +682,6 @@
   "AttackEffectPush": "押しやり",
   "AttackEffectTrip": "足払い",
   "AttackLabel": "攻撃",
-  "AttackOutcome": {
-              "criticalSuccess": "クリティカル・ヒット",
-              "success": "命中",
-              "failure": "失敗",
-              "criticalFailure": "ファンブル"
-          },
   "AttitudeLabel": "態度",
       "Attitudes": {
         "Hostile": "敵対的",
@@ -843,15 +841,50 @@
   "CharacterTraits": "キャラクターの特性",
   "CharacterTraitsHeader": "特性とその他の詳細",
   "Check": {
-    "AC": "AC: {dc}",
-    "DC": "DC: {dc}",
-    "TargetDC": "{target} {dcLabel}"
-},
-  "CheckOutcome": {
-        "criticalSuccess": "クリティカル",
-        "success": "成功",
-        "failure": "失敗",
-        "criticalFailure": "ファンブル"
+    "DC": {
+        "Label": {
+            "AdjustedTarget": "<target>対象: {target}</target> <dc>({dcType} <preadjusted>{preadjusted}</preadjusted> <adjusted>{adjusted}</adjusted>)</dc>",
+            "NoTarget": "{dcType} {dc}",
+            "WithTarget": "<target>対象: {target}</target> <dc>({dcType} {dc})</dc>"
+        },
+        "Specific": {
+            "ac": "AC",
+            "athletics": "〈軽業〉 DC",
+            "deception": "〈欺瞞〉 DC",
+            "fortitude": "頑健 DC",
+            "perception": "知覚 DC",
+            "reflex": "反応 DC",
+            "stealth": "〈隠密〉",
+            "will": "意志 DC"
+        },
+        "Unspecific": "DC"
+    },
+    "Label": "判定",
+    "Result": {
+        "Degree": {
+            "Attack": {
+                "criticalSuccess": "クリティカル・ヒット",
+                "success": "命中",
+                "failure": "失敗",
+                "criticalFailure": "ファンブル"
+            },
+            "Check": {
+                "criticalSuccess": "クリティカル",
+                "success": "成功",
+                "failure": "失敗",
+                "criticalFailure": "ファンブル"
+            }
+        },
+        "Label": "結果: <degree>{degree}</degree> <offset>by {offset}</offset>",
+        "AdjustedLabel": "結果: <degree>{degree}</degree> <offset>by {offset}</offset> ({adjustment})"
+    },
+    "Specific": {
+        "Perception": {
+            "Label": "知覚判定",
+            "Secret": "知覚判定 (非公開)"
+        },
+        "Recovery": "回復判定"
+    }
       },
   "CircumstanceBonusShortLabel": "状況",
   "CircumstanceBonusTitle": "状況ボーナス",
@@ -1012,7 +1045,8 @@
         "ExpendFormula": "処方の消費",
         "ToggleFreeCrafting": "フリー製作を切替",
         "UndeletableTooltip": "この製作処方は別のアイテムの一部であって、個別の消去することが出来ない",
-        "QuickAddTitle": "この処方を一日の製作リストに追加"
+        "QuickAddTitle": "この処方を1つ以上の〈製作〉項目に追加する",
+        "NoEligibleEntry": "有効な〈製作〉項目が見つかりません"
     },
     "CraftDCTitle": "DC",
     "CraftItemTitle": "製作",
@@ -1025,14 +1059,6 @@
   "CreateLabelUniversal": "作成",
   "CreateSkillTitle": "技能作成",
   "CreateSpellTitle": "呪文作成",
-  "CreatureStatisticDC":{
-    "deception":"{creature} 欺瞞 DC: {dc}",
-    "fortitude":"{creature} 頑健 DC: {dc}",
-    "perception":"{creature} 知覚 DC: {dc}",
-    "reflex":"{creature} 反応 DC: {dc}",
-    "stealth":"{creature} 隠密 DC: {dc}",
-    "will":"{creature} 意志 DC: {dc}"
- },
   "CritFailure": "<strong>ファンブル</strong>",
   "CritSuccess": "<strong>クリティカル</strong>",
   "CriticalDamageLabel": "クリティカル",
@@ -1053,6 +1079,7 @@
   "CurrentStaminaPointsShortLabel": "現在SP",
   "CurrentStaminaTitle": "君が持つスタミナの量",
   "Damage": {
+    "Base": "基本",
     "NoDamageFormulaLabel": "ダメージなし"
 },
   "DamageCategoriesLabel": "ダメージのカテゴリ",
@@ -1072,6 +1099,7 @@
       "DCAdjustmentIncrediblyHard": "著しく困難",
       "DCBase": "基本DC10",
       "DCWithValue": "DC {dc} {text}",
+      "DCWithValueAndVisibility": "<span data-visibility=\"{role}\">DC {dc}</span> {text}",
       "DecrementEffectTitle": "効果レベルの低下",
   "DefencesLabel": "防御",
   "Deity": "神格",
@@ -1181,13 +1209,14 @@
   "EquippedBulkLabel": "着用時バルク",
   "EquippedSameBulkValue": "運搬時と同じ",
   "ErrorMessage": {
+    "CantCreateEffectMacro": "マクロの切替を行う効果は、辞典かワールド・アイテム由来でなければなりません",
     "WeaponQuantityZero": "君にはその武器をこれ以上、装備していない",
-        "ActorMustHaveToken": "トークンのないアクターに状態を追加する機能は現在、サポートされていません",
         "CantImportTooHighVersion": "{sourceName}をインポートすることが出来ません: スキーマバージョン ({sourceSchemaVersion}) はこのワールドの ({worldSchemaVersion})よりも高い",
         "CantMoveItemSource": "君はこのキャラからアイテムを移動させる権限がない",
         "CantMoveItemDestination": "君はこのキャラにアイテムを移動させる権限がない",
         "MinimumProfLevelSetByFeatures": "選んでいる習熟は、特徴によって設定された習熟度を下回っています",
         "NotEnoughAmmo": "この打撃を行うに十分な矢弾がありません",
+        "SubV9Module": "{module} はFoundryV9をサポートしておらず、ゲームに安定性上の問題をもたらすかもしれません",
         "NoTokenSelected": "有効なトークンが選択されていません",
         "NoUpdatePermission": "君にはこのアクターを更新する権限がありません"
       },
@@ -1352,19 +1381,266 @@
             },
              "Deity": {
                 "Alignment": "属性",
-                "FollowerAlignments": "信者の属性",
-                "DivineAbility": "信仰能力",
+                "ClericSpells": {
+                    "Label": "クレリック呪文",
+                    "Hint": "呪文を追加するには、このシートにドラッグ＆ドロップすること"
+                },
+                "DivineAbility": {
+                    "Label": "信仰能力",
+                    "Hint": "「信仰に育てられた者」の背景を選んでいるなら、能力アップは神格に由来する"
+                },
                 "DivineSkill": "信仰技能",
-                "Edicts": "布告",
-                "Anathema": "破門",
-                "AreasOfConcern": "関連領域",
                 "DivineFont": {
                     "Label": "信仰の源泉",
                     "Harm": "ハーム",
                     "Heal": "ヒール"
                 },
-                "FavoredWeapon": "神格の好む武器",
-                "ClericSpells": "クレリック呪文"
+                "FavoredWeapons": {
+                    "Label": "神格の好む武器",
+                    "Hint": "ほぼ全ての神格が1つの武器を好んでいるが、中には武器1つと素手打撃を好む神格もある"
+                },
+                "FollowerAlignments": "信者の属性",
+                "Domains": {
+                    "Primary": "主要領域",
+                    "Alternate": {
+                        "Label": "代替領域",
+                        "Hint": "クレリックは大体領域の入手手段を得るために、《領域の入門者拡張化》を取ることが出来る"
+                    }
+                },
+                "Domain": {
+                    "Abomination": {
+                        "Label": "異形",
+                        "Description": "君は、周りの人に嫌悪感や恐怖感を与えようとする。"
+                    },
+                    "Air": {
+                        "Label": "風",
+                        "Description": "君は風と天候を制御することができる。"
+                    },
+                    "Ambition": {
+                        "Label": "野心",
+                        "Description": "君は他人に追いつき、追い越すために努力をする。"
+                    },
+                    "Change": {
+                        "Label": "変化",
+                        "Description": "君は肉体的なものや形而上的なものを再構築することが出来る。"
+                    },
+                    "Cities": {
+                        "Label": "都市",
+                        "Description": "君は環境と住人に力を及ぼす。"
+                    },
+                    "Cold": {
+                        "Label": "氷雪",
+                        "Description": "君は氷、雪、凍るような気温を制御する"
+                    },
+                    "Confidence": {
+                        "Label": "自信",
+                        "Description": "君は恐怖を克服し、誇りをみなぎらせる。"
+                    },
+                    "Creation": {
+                        "Label": "創造",
+                        "Description": "君は製作と芸術に関連する神聖な能力を持っている。"
+                    },
+                    "Darkness": {
+                        "Label": "暗闇",
+                        "Description": "君は闇の中で活動し、光を奪う。"
+                    },
+                    "Death": {
+                        "Label": "死",
+                        "Description": "君は命を終わらせ、アンデッドを破壊する力を持っている。"
+                    },
+                    "Decay": {
+                        "Label": "衰退",
+                        "Description": "君には、物質を使い物にならなくしたり、劣化させたりする力がある。"
+                    },
+                    "Delirium": {
+                        "Label": "狂乱",
+                        "Description": "君は、幻覚や落ち着きのなさをもたらすことができる。"
+                    },
+                    "Destruction": {
+                        "Label": "破壊",
+                        "Description": "君は信仰の破壊の導管である。"
+                    },
+                    "Dreams": {
+                        "Label": "夢",
+                        "Description": "君は夢に入り、操作する力を持つ。"
+                    },
+                    "Dust": {
+                        "Label": "崩壊",
+                        "Description": "君は自分に敵対する者を乾燥させ、風化させる力を持つ。"
+                    },
+                    "Duty": {
+                        "Label": "義務",
+                        "Description": "君は誓いを守り、献身的に神の使命を遂行する。"
+                    },
+                    "Earth": {
+                        "Label": "地",
+                        "Description": "君は土と石を制御する。00"
+                    },
+                    "Family": {
+                        "Label": "家族",
+                        "Description": "君は、家族や共同体をより効果的に助け、守ることができる。"
+                    },
+                    "Fate": {
+                        "Label": "運命",
+                        "Description": "君は隠れた必然性を見抜き、理解する。"
+                    },
+                    "Fire": {
+                        "Label": "炎",
+                        "Description": "君は炎を制御する。"
+                    },
+                    "Freedom": {
+                        "Label": "自由",
+                        "Description": "君は自分自身と他人を束縛や束縛から解放する。"
+                    },
+                    "Glyph": {
+                        "Label": "グリフ",
+                        "Description": "君は、書かれた言葉やシンボルに力を発揮する。"
+                    },
+                    "Healing": {
+                        "Label": "治癒",
+                        "Description": "君の治癒魔法は特に効果的である。"
+                    },
+                    "Indulgence": {
+                        "Label": "耽溺",
+                        "Description": "君は盛大にごちそうを食べ、食べ過ぎの影響を振り払うことが出来る。"
+                    },
+                    "Knowledge": {
+                        "Label": "知識",
+                        "Description": "君は信仰の洞察を得る。"
+                    },
+                    "Lightning": {
+                        "Label": "雷光",
+                        "Description": "君は、電気や雷、嵐などを制御する。"
+                    },
+                    "Luck": {
+                        "Label": "幸運",
+                        "Description": "君は不自然なほどに幸運で、危険な目に遭わない。"
+                    },
+                    "Magic": {
+                        "Label": "魔法",
+                        "Description": "君は、想定外で不可解なことを実行する。"
+                    },
+                    "Might": {
+                        "Label": "力",
+                        "Description": "君の肉体的な力は信仰の強さで強化される。"
+                    },
+                    "Moon": {
+                        "Label": "月",
+                        "Description": "君は月に関連する力に指示をする。"
+                    },
+                    "Naga": {
+                        "Label": "ナーガ",
+                        "Description": "蛇のナーガのように、君はラヴィスラがかつて制御していた宇宙と波長が合う。"
+                    },
+                    "Nature": {
+                        "Label": "自然",
+                        "Description": "君は動物と植物に力を及ぼす。"
+                    },
+                    "Nightmares": {
+                        "Label": "悪夢",
+                        "Description": "君は精神を恐怖と畏怖で満たす。"
+                    },
+                    "Pain": {
+                        "Label": "苦痛",
+                        "Description": "君は自分を不快にしたものを、鋭い痛みで罰する。"
+                    },
+                    "Passion": {
+                        "Label": "情熱",
+                        "Description": "君は愛にせよ情欲にせよ、情熱を喚起する。"
+                    },
+                    "Perfection": {
+                        "Label": "完全",
+                        "Description": "君は精神、肉体、霊魂を完成させようと努力している。"
+                    },
+                    "Plague": {
+                        "Label": "疫病",
+                        "Description": "君は病気と疫病を武器のように使う。"
+                    },
+                    "Protection": {
+                        "Label": "守護",
+                        "Description": "君は自分自身と他人を守る。"
+                    },
+                    "Repose": {
+                        "Label": "休息",
+                        "Description": "君は精神の苦痛を楽にする。"
+                    },
+                    "Secrecy": {
+                        "Label": "秘密",
+                        "Description": "君は秘密を守り、それを隠されたままにする。"
+                    },
+                    "Sorrow": {
+                        "Label": "嘆き",
+                        "Description": "君は憂鬱と寂しさへの痛みの多い繋がりを持つ。"
+                    },
+                    "Soul": {
+                        "Label": "魂",
+                        "Description": "君は霊魂に力を及ぼす。"
+                    },
+                    "Star": {
+                        "Label": "星",
+                        "Description": "君は星々の力に命令をする。"
+                    },
+                    "Sun": {
+                        "Label": "太陽",
+                        "Description": "君は太陽やその他の光源の力を制御し、アンデッドを罰する。"
+                    },
+                    "Swarm": {
+                        "Label": "スウォーム",
+                        "Description": "君は大量のクリーチャーを支配する。"
+                    },
+                    "Time": {
+                        "Label": "時間",
+                        "Description": "君は時間の流れに君臨する。"
+                    },
+                    "Toil": {
+                        "Label": "苦境",
+                        "Description": "君は常に働いており、何者にも目の前に立ち塞がらせない"
+                    },
+                    "Travel": {
+                        "Label": "旅",
+                        "Description": "君は移動と旅に対する力を持つ"
+                    },
+                    "Trickery": {
+                        "Label": "欺き",
+                        "Description": "君は他者を欺き、いたずらを引き起こす"
+                    },
+                    "Truth": {
+                        "Label": "真実",
+                        "Description": "君は嘘を見通し、真実を見つける"
+                    },
+                    "Tyranny": {
+                        "Label": "暴君",
+                        "Description": "君は支配し、他者を奴隷にするための力を持つ"
+                    },
+                    "Undeath": {
+                        "Label": "不死",
+                        "Description": "君の魔法はアンデッドと密接な繋がりをもたらす"
+                    },
+                    "Vigil": {
+                        "Label": "ヴィジル",
+                        "Description": "君は亡くなった人々を見守り、その秘密を守っている"
+                    },
+                    "Void": {
+                        "Label": "虚無",
+                        "Description": "君は空虚から力を引き出す"
+                    },
+                    "Water": {
+                        "Label": "水",
+                        "Description": "君は水と流体を支配する"
+                    },
+                    "Wealth": {
+                        "Label": "富",
+                        "Description": "君は富、取引、宝物に力を及ぼす"
+                    },
+                    "Wyrmkin": {
+                        "Label": "ワームキン",
+                        "Description": "君はドラゴン、リノーム、その他の強力なは虫類の生き物から力を引き出す"
+                    },
+                    "Zeal": {
+                        "Label": "熱狂",
+                        "Description": "君の内なる炎は戦闘の武威を向上させる"
+                    }
+                }
             },
               "Effect": {
                 "Sustained": "維持",
@@ -1467,6 +1743,7 @@
                "PotencyStrikingFourPropertiesMaterial":"{material}製 +{potency} {striking}・{property1}・{property2}・{property3}・{property4} ・{base}"
             },
             "HandsLabel": "用法",
+            "Improvised": "即席",
             "MandatoryMelee": "この武器は近接武器にのみ使用可能な特性を持っています",
             "MaterialAndRunes":{
                "MaterialOption":"{type} ({grade})",
@@ -1514,7 +1791,10 @@
   "ItemTitle": "アイテム",
   "ItemsLabel": "アイテム",
           "JournalEntry": {
-              "Plural": "ジャーナル"
+              "Plural": "ジャーナル",
+              "FoundryTheme": "Fondry (クラシック) ジャーナル",
+              "PF2ETheme": "PF2e システム・ジャーナル"
+  
           },
   "KeyAbility": "主要能力値",
   "KeyAbilityLabel": "主要能力",
@@ -1929,11 +2209,6 @@
   "ResolvePointsShortLabel": "決意",
   "ResolveTitle": "君の決意ポイントの量",
   "RestoreSpellTitle": "呪文の回復",
-  "ResultLabel": "結果",
-          "RollTable": {
-              "Plural": "ロール表"
-          },
-          "ResultOffset": "{offset} で",
           "Roll": {
             "Modifier": "修正値",
             "Type": "種別",
@@ -1971,12 +2246,6 @@
               "DeathIcon": {
                 "Name": "アイコン：死亡",
                 "Hint": "死亡したアクターにオーヴァーレイ・アイコンを設定する"
-            },
-              "JournalEntryTheme": {
-                "Name": "ジャーナルのテーマ",
-                "Hint": "このワールドのジャーナルのテーマを設定する",
-                "Foundry": "Foundry (Classic)",
-                "PF2E": "PF2e System"
             },
   "statusEffectKeepFoundry": {
   "hint": "FoundryのアイコンセットをPathfinder2eのアイコンの下に置く。決定後に再起動する",
@@ -2562,7 +2831,8 @@
   },
   "Ranged": {
   "Description": "君は使っている武器で、射程内の1体のクリーチャーを対象とし、攻撃をする。君が使っている武器あるいは素手打撃の攻撃ロールをロールし、効果を決定するため、その結果を対象クリーチャーのACと比較すること",
-  "Success": "君は武器のダメージを与える。これには君がダメージに対して持つ全ての修正値、ボーナス、ペナルティを含めること。"
+  "Success": "君は武器のダメージを与える。これには君がダメージに対して持つ全ての修正値、ボーナス、ペナルティを含めること。",
+  "NoAmmo": "{weapon}に矢弾が割り当てられていません。{actor}のシート上のアクションタブを確認してください"
   },
   "Combined": {
   "Description": "君は使っている武器で、間合い内（近接攻撃なら）か射程内（遠隔攻撃なら）の1体のクリーチャーを対象とし、攻撃をする。君が使っている武器あるいは素手打撃の攻撃ロールをロールし、効果を決定するため、その結果を対象クリーチャーのACと比較すること",
@@ -3608,7 +3878,6 @@
                   "aldori-dueling-sword": "アルドーリ・デュエリング・ソード",
                   "air-repeater": "エア・リピーター",
                   "arquebus": "アーケバス",
-                  "arrows": "アロー",
                   "axe-musket": "アクス・マスケット",
                   "asp-coil": "アスプ・コイル",
                   "bastard-sword": "バスタード・ソード",
@@ -3626,7 +3895,6 @@
                   "boarding-axe": "ボーディング・アクス",
                   "boarding-pike": "ボーディング・パイク",
                   "bola": "ボーラ",
-                  "bolts": "ボルト",
                   "butchering-axe": "ブッチャリング・アクス",
                   "buugeng": "武幻",
                   "cane-pistol": "ケイン・ピストル",
@@ -4240,9 +4508,23 @@
                   "AddTenMinutes": "+10 分",
                   "AddOneHour": "+1 時間",
                   "AddOneDay": "+1 日",
-                  "AddOneWeek": "+1 週間",
+                  "AddOneWeek": "+1 週間", 
                   "Advance": "進める",
-                  "Retract": "撤回"
+                  "Retract": "戻す",
+                  "TimeOfDay": {
+                    "Advance": {
+                        "Dawn": "夜明けに進める",
+                        "Dusk": "薄暮に進める",
+                        "Noon": "正午に進める",
+                        "Midnight": "深夜に進める"
+                    },
+                    "Retract": {
+                        "Dawn": "夜明けに戻す",
+                        "Dusk": "薄暮に戻す",
+                        "Noon": "正午に戻す",
+                        "Midnight": "深夜に戻す"
+                    }
+                }
               },
               "Placeholder": "数字",
               "Title": "世界時計",
@@ -4600,7 +4882,8 @@
               "Quantity": "数量",
                "SheetType": "シートの種別",
               "SplitCoinsLabel": "硬貨の分配",
-              "SplitCoinsPopupHeader": "分配されるアクターを選んで下さい"
+              "SplitCoinsPopupHeader": "分配されるアクターを選んで下さい",
+              "Stack": "新しいスタックを作りますか?"
           },
           "vehicle": {
               "ItemTypeError": "乗り物でサポートされているのは現在、インベントリのアイテムとアクションのみです。",

@@ -58,322 +58,377 @@
                         "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2*3d6}[継続、強酸]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続強酸ダメージ} と [[/r {3}[飛散、強酸]]]{3点の強酸飛散ダメージ}を与える"
                     },
                     "Lesser": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {1d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Acid Damage} and [[/r {1}[splash,acid]]]{1 acid splash damage}",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {2*1d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Acid Damage} and [[/r {1}[splash,acid]]]{1 acid splash damage}"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {1d6}[継続、強酸]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続強酸ダメージ} と [[/r {1}[飛散、強酸]]]{1点の強酸飛散ダメージ}を与える",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2*1d6}[継続、強酸]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続強酸ダメージ} and [[/r {1}[飛散、強酸]]]{1点の強酸飛散ダメージ}"
                     },
                     "Major": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {4d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Acid Damage} and [[/r {4}[splash,acid]]]{4 acid splash damage}",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {2*4d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Acid Damage} and [[/r {4}[splash,acid]]]{4 acid splash damage}"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {4d6}[継続、強酸]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続強酸ダメージ} と [[/r {4}[splash,acid]]]{4点の強酸飛散ダメージ}を与える",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2*4d6}[継続、強酸]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続強酸ダメージ} と [[/r {4}[splash,acid]]]{4点の強酸飛散ダメージ}を与える"
                     },
                     "Moderate": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {2d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Acid Damage} and [[/r {2}[splash,acid]]]{2 acid splash damage}",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {2*2d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Acid Damage} and [[/r {2}[splash,acid]]]{2 acid splash damage}"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {2d6}[継続、強酸]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続強酸ダメージ} と [[/r {2}[splash,acid]]]{2点の強酸飛散ダメージ}を与える",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2*2d6}[継続、強酸]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続強酸ダメージ} と [[/r {2}[splash,acid]]]{2点の強酸飛散ダメージ}を与える"
                     }
                 },
                 "AlchemistsFire": {
                     "Greater": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {3}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage} and [[/r {3}[splash,fire]]]{3 fire splash damage}",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {2*3}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage} and [[/r {3}[splash,fire]]]{3 fire splash damage}"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {3}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {3}[飛散、火炎]]]{3点の火炎飛散ダメージ}を与える",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2*3}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {3}[飛散、火炎]]]{3点の火炎飛散ダメージ}を与える"
                     },
                     "Lesser": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {1}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage} and [[/r {1}[splash,fire]]]{1 fire splash damage}",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {2*1}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage} and [[/r {1}[splash,fire]]]{1 fire splash damage}"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {1}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {1}[飛散、火炎]]]{1点の火炎飛散ダメージ}を与える",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2*1}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {1}[splash,fire]]]{1点の火炎飛散ダメージ}を与える"
                     },
                     "Major": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {4}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage} and [[/r {4}[splash,fire]]]{4 fire splash damage}",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {2*4}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage} and [[/r {4}[splash,fire]]]{4 fire splash damage}"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {4}[飛散、火炎]]]{4点の火炎飛散ダメージ}を与える",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2*4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {4}[飛散、火炎]]]{4点の火炎飛散ダメージ}を与える"
                     },
                     "Moderate": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {2}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage} and [[/r {2}[splash,fire]]]{2 fire splash damage}",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {2*2}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage} and [[/r {2}[splash,fire]]]{2 fire splash damage}"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {2}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {2}[飛散、火炎]]]{2点の火炎飛散ダメージ}を与える",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2*2}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {2}[飛散、火炎]]]{2点の火炎飛散ダメージ}を与える"
                     }
                 },
                 "BlightBomb": {
                     "Greater": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {3d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Poison Damage} and [[/r {3}[splash,poison]]]{3 poison splash damage}",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {2*3d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Poison Damage} and [[/r {3}[splash,poison]]]{3 poison splash damage}"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {3d4}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ} と [[/r {3}[飛散、毒]]]{3点の毒飛散ダメージ}を与える",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2*3d4}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ} と [[/r {3}[飛散、毒]]]{3点の毒飛散ダメージ}を与える"
                     },
                     "Lesser": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {1d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Poison Damage} and [[/r {1}[splash,poison]]]{1 poison splash damage}",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {2*1d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Poison Damage} and [[/r {1}[splash,poison]]]{1 poison splash damage}"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {1d4}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ} と [[/r {1}[splash,poison]]]{1点の毒飛散ダメージ}を与える",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2*1d4}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ} と [[/r {1}[splash,poison]]]{1点の毒飛散ダメージ}を与える"
                     },
                     "Major": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {4d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Poison Damage} and [[/r {4}[splash,poison]]]{4 poison splash damage}",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {2*4d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Poison Damage} and [[/r {4}[splash,poison]]]{4 poison splash damage}"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {4d4}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ} と [[/r {4}[飛散、毒]]]{4点の毒飛散ダメージ}",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2*4d4}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ} と [[/r {4}[飛散、毒]]]{4点の毒飛散ダメージ}である。"
                     },
                     "Moderate": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {2d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Poison Damage} and [[/r {2}[splash,poison]]]{2 poison splash damage}",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {2*2d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Poison Damage} and [[/r {2}[splash,poison]]]{2 poison splash damage}"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {2d4}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ} と [[/r {2}[飛散、毒]]]{2点の毒飛散ダメージ}を与える",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2*2d4}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ} と [[/r {2}[飛散、毒]]]{2点の毒飛散ダメージ}である"
                     }
                 },
                 "BottledLightning": {
                     "Greater": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {3}[splash,electricity]]]{3 electricity splash damage} and the target becomes @Compendium[pf2e.conditionitems.Flat-Footed]{Flat-Footed} until the start of your next turn"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {3}[飛散、電撃]]]{3点の電撃飛散ダメージ}を与え、対象は次の君の手番の開始時まで @Compendium[pf2e.conditionitems.Flat-Footed]{立ちすくみ} になる"
                     },
                     "Lesser": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {1}[splash,electricity]]]{1 electricity splash damage} and the target becomes @Compendium[pf2e.conditionitems.Flat-Footed]{Flat-Footed} until the start of your next turn"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {1}[飛散、電撃]]]{1点の電撃飛散ダメージ} を与え、対象は次の君の手番の開始時まで @Compendium[pf2e.conditionitems.Flat-Footed]{立ちすくみ} となる"
                     },
                     "Major": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {4}[splash,electricity]]]{4 electricity splash damage} and the target becomes @Compendium[pf2e.conditionitems.Flat-Footed]{Flat-Footed} until the start of your next turn"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {4}[飛散、電撃]]]{4点の電撃飛散ダメージ} を与え、対象は次の君の手番の開始時まで @Compendium[pf2e.conditionitems.Flat-Footed]{立ちすくみ} となる"
                     },
                     "Moderate": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {2}[splash,electricity]]]{2 electricity splash damage} and the target becomes @Compendium[pf2e.conditionitems.Flat-Footed]{Flat-Footed} until the start of your next turn"
+                        "success": "<strong>効果</strong> T爆弾は [[/r {2}[飛散、電撃]]]{2点の電撃飛散ダメージ} を与え、対象は次の君の手番の開始時まで @Compendium[pf2e.conditionitems.Flat-Footed]{立ちすくみ} となる"
                     }
                 },
                 "CrystalShards": {
                     "Greater": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {5}[splash,piercing]]]{5 piercing splash damage} and the splash creates crystals that are @Compendium[pf2e.equipment-srd.Caltrops]{Caltrops} on level surfaces and handholds on vertical surfaces, granting +2 item bonus to the next Athletics check to Climb"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {5}[飛散、刺突]]]{5点の刺突飛散ダメージ}を与え、飛沫は水平な表面で @Compendium[pf2e.equipment-srd.Caltrops]{まきびし}となり、垂直な表面で持ち手となるような水晶を作り出す。これは、「登攀」のための次の〈運動〉判定に+2アイテム・ボーナスを与える。"
                     },
                     "Major": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {6}[splash,piercing]]]{6 piercing splash damage} and the splash creates crystals that are @Compendium[pf2e.equipment-srd.Caltrops]{Caltrops} on level surfaces and handholds on vertical surfaces, granting +3 item bonus to the next Athletics check to Climb"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {6}[飛散、刺突]]]{6点の刺突飛散ダメージ} を与え、飛沫は水平な表面で @Compendium[pf2e.equipment-srd.Caltrops]{まきびし}となり、垂直な表面で持ち手となるような水晶を作り出す。これは、「登攀」のための次の〈運動〉判定に+3アイテム・ボーナスを与える。"
                     },
                     "Moderate": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {4}[splash,piercing]]]{4 piercing splash damage} and the splash creates crystals that are @Compendium[pf2e.equipment-srd.Caltrops]{Caltrops} on level surfaces and handholds on vertical surfaces, granting +1 item bonus to the next Athletics check to Climb"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {4}[飛散、刺突]]]{4点の刺突飛散ダメージ} を与え、飛沫は水平な表面で @Compendium[pf2e.equipment-srd.Caltrops]{まきびし}となり、垂直な表面で持ち手となるような水晶を作り出す。これは、「登攀」のための次の〈運動〉判定に+1アイテム・ボーナスを与える。"
                     }
                 },
                 "DreadAmpoule": {
                     "Greater": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {3}[splash,mental]]]{3 mental splash damage} and the target is @Compendium[pf2e.conditionitems.Frightened]{Frightened 1} (@Compendium[pf2e.conditionitems.Frightened]{Frightened 2} on a critical)"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {3}[飛散、精神]]]{3点の精神飛散ダメージ} を与え、対象は @Compendium[pf2e.conditionitems.Frightened]{怯え1}になる (クリティカルで@Compendium[pf2e.conditionitems.Frightened]{怯え2} になる)"
                     },
                     "Lesser": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {1}[splash,mental]]]{1 mental splash damage} and the target is @Compendium[pf2e.conditionitems.Frightened]{Frightened 1} (@Compendium[pf2e.conditionitems.Frightened]{Frightened 2} on a critical)"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {1}[飛散、精神]]]{1点の精神飛散ダメージ} を与え、対象は @Compendium[pf2e.conditionitems.Frightened]{怯え1} になる(クリティカルで@Compendium[pf2e.conditionitems.Frightened]{怯え2}になる)"
                     },
                     "Major": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {4}[splash,mental]]]{4 mental splash damage} and the target is @Compendium[pf2e.conditionitems.Frightened]{Frightened 1} (@Compendium[pf2e.conditionitems.Frightened]{Frightened 2} on a critical)"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {4}[飛散、精神]]]{4点の精神飛散ダメージ} を与え、対象は @Compendium[pf2e.conditionitems.Frightened]{怯え1}になる(クリティカルで@Compendium[pf2e.conditionitems.Frightened]{怯え2}になる)"
                     },
                     "Moderate": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {2}[splash,mental]]]{2 mental splash damage} and the target is @Compendium[pf2e.conditionitems.Frightened]{Frightened 1} (@Compendium[pf2e.conditionitems.Frightened]{Frightened 2} on a critical)"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {2}[飛散、精神]]]{2点の精神飛散ダメージ} を与え、対象は @Compendium[pf2e.conditionitems.Frightened]{怯え1} になる(クリティカルで@Compendium[pf2e.conditionitems.Frightened]{怯え2} になる)"
                     }
                 },
                 "DwarvenDaisy": {
                     "Lesser": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {1}[splash,fire]]]{1 fire splash damage} and the target must succeed at a @Check[type:fortitude|dc:16|name:Lesser Dwarven Daisy|traits:damaging-effect|showDC:all] save or become @Compendium[pf2e.conditionitems.Dazzled]{Dazzled} for 1 round."
+                        "success": "<strong>効果</strong> 爆弾は [[/r {1}[splash,fire]]]{1点の火炎飛散ダメージ} を与え、対象は @Check[type:fortitude|dc:16|name:Lesser Dwarven Daisy|traits:damaging-effect|showDC:all] 頑健セーヴに成功しなければ、1ラウンド、 @Compendium[pf2e.conditionitems.Dazzled]{目が眩んだ状態} になる"
                     },
                     "Moderate": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {2}[splash,fire]]]{2 fire splash damage} and the target must succeed at a @Check[type:fortitude|dc:18|name:Moderate Dwarven Daisy|traits:damaging-effect|showDC:all] save or become @Compendium[pf2e.conditionitems.Dazzled]{Dazzled} for 1 round."
+                        "success": "<strong>効果</strong> 爆弾は [[/r {2}[飛散、火炎]]]{2点の火炎飛散ダメージ} を与え、対象は @Check[type:fortitude|dc:18|name:Moderate Dwarven Daisy|traits:damaging-effect|showDC:all] 頑健セーヴに成功しなければ、1ラウンド、 @Compendium[pf2e.conditionitems.Dazzled]{目が眩んだ状態} になる"
                     }
                 },
                 "FrostVial": {
                     "Greater": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {3}[splash,cold]]]{3 cold splash damage} and the target takes a -10-foot penalty to its Speeds until the end of its next turn (@Compendium[pf2e.equipment-effects.Effect: Frost Vial (Greater)]{Effect: Frost Vial (Greater)})"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {3}[飛散、氷雪]]]{3点の氷雪飛散ダメージ} を与え、対象は次の手番の終了時まで速度に-10フィート・ペナルティを受ける (@Compendium[pf2e.equipment-effects.Effect: Frost Vial (Greater)]{効果: フロスト・ヴァイアル (グレーター)})"
                     },
                     "Lesser": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {1}[splash,cold]]]{1 cold splash damage} and the target takes a -5-foot penalty to its Speeds until the end of its next turn (@Compendium[pf2e.equipment-effects.Effect: Frost Vial (Lesser)]{Effect: Frost Vial (Lesser)})"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {1}[飛散、氷雪]]]{1点の氷雪飛散ダメージ} を与え、対象は次の手番の終了時まで速度に-5フィート・ペナルティを受ける(@Compendium[pf2e.equipment-effects.Effect: Frost Vial (Lesser)]{効果: フロスト・ヴァイアル (レッサー)})"
                     },
                     "Major": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {4}[splash,cold]]]{4 cold splash damage} and the target takes a -15-foot penalty to its Speeds until the end of its next turn (@Compendium[pf2e.equipment-effects.Effect: Frost Vial (Major)]{Effect: Frost Vial (Major)})"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {4}[飛散、氷雪]]]{4点の氷雪飛散ダメージ} を与え、対象は次の手番の終了時まで速度に-15フィート・ペナルティを受ける (@Compendium[pf2e.equipment-effects.Effect: Frost Vial (Major)]{効果: フロスト・ヴァイアル (メジャー)})"
                     },
                     "Moderate": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {2}[splash,cold]]]{2 cold splash damage} and the target takes a -10-foot penalty to its Speeds until the end of its next turn (@Compendium[pf2e.equipment-effects.Effect: Frost Vial (Moderate)]{Effect: Frost Vial (Moderate)})"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {2}[飛散、氷雪]]]{2点の氷雪飛散ダメージ} を与え、対象は次の手番の終了時まで速度に-10フィート・ペナルティを受ける(@Compendium[pf2e.equipment-effects.Effect: Frost Vial (Moderate)]{効果: フロスト・ヴァイアル (モデレート)})"
                     }
                 },
                 "GhostCharge": {
                     "Greater": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {3}[splash,positive]]]{3 positive splash damage} and the target that takes damage becomes @Compendium[pf2e.conditionitems.Enfeebled]{Enfeebled 2} until the start of my next turn."
+                        "success": "<strong>効果</strong> 爆弾は [[/r {3}[飛散、正のエネルギー]]]{3点の正のエネルギー飛散ダメージ} を与え、対象は君の次の手番の開始時まで @Compendium[pf2e.conditionitems.Enfeebled]{衰弱2} になる"
                     },
                     "Lesser": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {1}[splash,positive]]]{1 positive splash damage} and the target that takes damage becomes @Compendium[pf2e.conditionitems.Enfeebled]{Enfeebled 1} until the start of my next turn."
+                        "success": "<strong>効果</strong> 爆弾は [[/r {1}[飛散、正のエネルギー]]]{1点の正のエネルギーダメージ} を与え、対象は君の次の手番の開始時まで @Compendium[pf2e.conditionitems.Enfeebled]{衰弱1} になる"
                     },
                     "Major": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {4}[splash,positive]]]{4 positive splash damage} and the target that takes damage becomes @Compendium[pf2e.conditionitems.Enfeebled]{Enfeebled 2} until the start of my next turn."
+                        "success": "<strong>効果</strong> 爆弾は [[/r {4}[飛散、正のエネルギー]]]{4点の正のエネルギー飛散ダメージ} を与え、対象は君の次の手番の開始時まで @Compendium[pf2e.conditionitems.Enfeebled]{衰弱 2} になる"
                     },
                     "Moderate": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {2}[splash,positive]]]{2 positive splash damage} and the target that takes damage becomes @Compendium[pf2e.conditionitems.Enfeebled]{Enfeebled 1} until the start of my next turn."
+                        "success": "<strong>効果</strong> 爆弾は [[/r {2}[飛散、正のエネルギー]]]{2点の正のエネルギー飛散ダメージ} を与え、対象は君の次の手番の開始時まで @Compendium[pf2e.conditionitems.Enfeebled]{衰弱 1} になる"
                     }
                 },
                 "JunkBomb": {
                     "Greater": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {3}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Bleed Damage} and [[/r {3}[splash,slashing]]]{3 slashing splash damage}",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Bleed Damage} and [[/r {3}[splash,slashing]]]{3 slashing splash damage}"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {3}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ} と [[/r {3}[飛散、斬撃]]]{3点の斬撃飛散ダメージ}を与える",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {6}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ} と [[/r {3}[飛散、斬撃]]]{3点の斬撃飛散ダメージ}を与える"
                     },
                     "Lesser": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {1}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Bleed Damage} and [[/r {1}[splash,slashing]]]{1 slashing splash damage}",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {2}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Bleed Damage} and [[/r {1}[splash,slashing]]]{1 slashing splash damage}"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {1}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ} と [[/r {1}[飛散、斬撃]]]{1点の斬撃飛散ダメージ}を与える",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ} と [[/r {1}[飛散、斬撃]]]{1点の斬撃飛散ダメージ}を与える"
                     },
                     "Major": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {4}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Bleed Damage} and [[/r {4}[splash,slashing]]]{4 slashing splash damage}",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {8}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Bleed Damage} and [[/r {4}[splash,slashing]]]{4 slashing splash damage}"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {4}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ} と [[/r {4}[飛散、斬撃]]]{4点の斬撃飛散ダメージ}を与える",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {8}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ} と [[/r {4}[斬撃、飛散]]]{4点の斬撃飛散ダメージ}を与える"
                     },
                     "Moderate": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {2}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Bleed Damage} and [[/r {2}[splash,slashing]]]{2 slashing splash damage}",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {4}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Bleed Damage} and [[/r {2}[splash,slashing]]]{2 slashing splash damage}"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {2}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ} と [[/r {2}[斬撃、飛散]]]{2点の斬撃飛散ダメージ}を与える",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {4}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ} と [[/r {2}[斬撃、飛散]]]{2点の斬撃飛散ダメージ}を与える"
+                    }
+                },
+                "MudBomb": {
+                    "Greater": {
+                        "success": "<strong>効果</strong> 爆弾は [[/r {3}[飛散、殴打]]]{3点の殴打飛散ダメージ}を与える",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {3}[飛散、殴打]]]{3点の殴打飛散ダメージ}を与える。対象は君の次の手番の開始時まで @Compendium[pf2e.conditionitems.Dazzled]{目が眩んだ状態}になる"
+                    },
+                    "Lesser": {
+                        "success": "<strong>効果</strong> 爆弾は [[/r {1}[飛散、殴打]]]{1点の殴打飛散ダメージ}を与える",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {1}[飛散、殴打]]]{1点の殴打飛散ダメージ}を与える。対象は君の次の手番の開始時まで @Compendium[pf2e.conditionitems.Dazzled]{目が眩んだ状態} になる"
+                    },
+                    "Major": {
+                        "success": "<strong>効果</strong> 爆弾は [[/r {4}[飛散、殴打]]]{4点の殴打飛散ダメージ}を与える",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {4}[飛散、殴打]]]{4点の殴打飛散ダメージ}を与える。 対象は君の次の手番の開始時まで @Compendium[pf2e.conditionitems.Dazzled]{目が眩んだ状態}である"
+                    },
+                    "Moderate": {
+                        "success": "<strong>効果</strong> 爆弾は [[/r {2}[splash,bludgeoning]]]{2点の殴打飛散ダメージ}を与える",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2}[飛散、殴打]]]{2点の殴打飛散ダメージ}を与える。対象は君の次の手番の開始時まで @Compendium[pf2e.conditionitems.Dazzled]{目が眩んだ状態} である"
                     }
                 },
                 "NecroticBomb": {
                     "Greater": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {3}[splash,negative]]]{3 negative splash damage}",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {3}[splash,negative]]]{3 negative splash damage} and the target is @Compendium[pf2e.conditionitems.Sickened]{Sickened 3}"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {3}[飛散、負のエネルギー]]]{3点の負のエネルギー飛散ダメージ}を与える",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {3}[飛散、負のエネルギー]]]{3点の負のエネルギー飛散ダメージ} を与え、対象は@Compendium[pf2e.conditionitems.Sickened]{不調3}になる"
                     },
                     "Lesser": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {1}[splash,negative]]]{1 negative splash damage}",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {1}[splash,negative]]]{1 negative splash damage} and the target is @Compendium[pf2e.conditionitems.Sickened]{Sickened 1}"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {1}[飛散、負のエネルギー]]]{1点の負のエネルギー飛散ダメージ}を与える",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {1}[飛散、負のエネルギー]]]{1点の負のエネルギー飛散ダメージ} を与え、対象は@Compendium[pf2e.conditionitems.Sickened]{不調1}になる"
                     },
                     "Major": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {4}[splash,negative]]]{4 negative splash damage}",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {4}[splash,negative]]]{4 negative splash damage} and the target is @Compendium[pf2e.conditionitems.Sickened]{Sickened 4}"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {4}[飛散、負のエネルギー]]]{4点の負のエネルギー飛散ダメージ}を与える",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {4}[飛散、負のエネルギー]]]{4点の負のエネルギー飛散ダメージ} を与え、対象は@Compendium[pf2e.conditionitems.Sickened]{不調4}になる"
                     },
                     "Moderate": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {2}[splash,negative]]]{2 negative splash damage}",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {2}[splash,negative]]]{2 negative splash damage} and the target is @Compendium[pf2e.conditionitems.Sickened]{Sickened 2}"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {2}[飛散、負のエネルギー]]]{2点の負のエネルギー飛散ダメージ}を与える",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2}[飛散、負のエネルギー]]]{2点の負のエネルギー飛散ダメージ} を与え、対象は@Compendium[pf2e.conditionitems.Sickened]{不調2}になる"
                     }
-                },
+                },                
+                "PerniciousSporeBomb": {
+                    "Greater": {
+                        "success": "<strong>効果</strong> 爆弾は [[/r {3d4}[継続、刺突]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続刺突ダメージ} と [[/r {3}[飛散、毒]]]{3点の毒飛散ダメージ}を与える。 爆弾の飛散範囲は草で覆われ、1ラウンド、移動困難な地形になる。",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {6d4}[継続、刺突]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続刺突ダメージ} と [[/r {3}[飛散、毒]]]{3点の毒飛散ダメージ}を与える。爆弾の飛散範囲は草で覆われ、1ラウンド、移動困難な地形になる。"
+                    },
+                    "Lesser": {
+                        "success": "<strong>効果</strong> 爆弾は [[/r {1d4}[継続、刺突]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続刺突ダメージ} と [[/r {1}[飛散、毒]]]{1点の毒飛散ダメージ}を与える。 爆弾の飛散範囲は草で覆われ、1ラウンド、移動困難な地形になる。",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2d4}[継続、刺突]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続刺突ダメージ} と [[/r {1}[飛散、毒]]]{1点の毒飛散ダメージ}を与える。爆弾の飛散範囲は草で覆われ、1ラウンド、移動困難な地形になる。"
+                    },
+                    "Major": {
+                        "success": "<strong>効果</strong> 爆弾は [[/r {4d4}[継続、刺突]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続刺突ダメージ} と [[/r {4}[飛散、毒]]]{4点の毒飛散ダメージ}を与える。 爆弾の飛散範囲は草で覆われ、1分、移動困難な地形になる。",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {8d4}[継続、刺突]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続刺突ダメージ} と [[/r {4}[飛散、毒]]]{4点の毒飛散ダメージ}を与える。爆弾の飛散範囲は草で覆われ、1分、移動困難な地形になる。"
+                    },
+                    "Moderate": {
+                        "success": "<strong>効果</strong> 爆弾は [[/r {2d4}[継続、刺突]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続刺突ダメージ} と [[/r {2}[飛散、毒]]]{2点の毒飛散ダメージ}を与える。 爆弾の飛散範囲は草で覆われ、1ラウンド、移動困難な地形になる。",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {4d4}[継続、刺突]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続刺突ダメージ} と [[/r {2}[飛散、毒]]]{2点の毒飛散ダメージ}を与える。爆弾の飛散範囲は草で覆われ、1ラウンド、移動困難な地形になる。"
+                    }
+                },        
                 "PeshspineGrenade": {
                     "Greater": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {3}[splash,piercing]]]{3 piercing splash damage} and the target is @Compendium[pf2e.conditionitems.Stupefied]{Stupefied 2} until the end of its turn"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {3}[飛散、刺突]]]{3点の刺突飛散ダメージ} を与え、対象は、対象の手番の終了時まで @Compendium[pf2e.conditionitems.Stupefied]{知性低下2} になる"
                     },
                     "Lesser": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {1}[splash,piercing]]]{1 piercing splash damage} and the target is @Compendium[pf2e.conditionitems.Stupefied]{Stupefied 1} until the end of its turn"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {1}[飛散、刺突]]]{1点の刺突飛散ダメージ} を与え、対象は、対象の手番の終了時まで @Compendium[pf2e.conditionitems.Stupefied]{知性低下1} になる"
                     },
                     "Major": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {4}[splash,piercing]]]{4 piercing splash damage} and the target is @Compendium[pf2e.conditionitems.Stupefied]{Stupefied 3} until the end of its turn"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {4}[飛散、刺突]]]{4点の刺突飛散ダメージ} を与え、対象は、対象の手番の終了時まで @Compendium[pf2e.conditionitems.Stupefied]{知性低下3} になる"
                     },
                     "Moderate": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {2}[splash,piercing]]]{2 piercing splash damage} and the target is @Compendium[pf2e.conditionitems.Stupefied]{Stupefied 1} until the end of its turn"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {2}[飛散、刺突]]]{2点の刺突飛散ダメージ} を与え、対象は、対象の手番の終了時まで @Compendium[pf2e.conditionitems.Stupefied]{知性低下1} になる"
                     }
                 },
                 "PressureBomb": {
                     "Greater": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {3}[splash,bludgeoning]]]{3 bludgeoning splash damage}, Medium or smaller targets are pushed 5 feet away from you",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {3}[splash,bludgeoning]]]{3 bludgeoning splash damage}, Medium or smaller targets are pushed 5 feet away from you, and the target is knocked @Compendium[pf2e.conditionitems.Prone]{Prone}"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {3}[飛散、殴打]]]{3点の殴打飛散ダメージ}を与え、中型以下の対象は君から5フィート押しのけられる",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {3}[飛散、殴打]]]{3点の殴打飛散ダメージ}を与え、中型以下の対象は君から5フィート押しのけられ、 @Compendium[pf2e.conditionitems.Prone]{伏せ状態}になる"
                     },
                     "Lesser": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {1}[splash,bludgeoning]]]{1 bludgeoning splash damage}, Tiny or smaller targets are pushed 5 feet away from you",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {1}[splash,bludgeoning]]]{1 bludgeoning splash damage}, Tiny or smaller targets are pushed 5 feet away from you, and the target is knocked @Compendium[pf2e.conditionitems.Prone]{Prone}"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {1}[飛散、殴打]]]{1点の殴打飛散ダメージ}を与え、中型以下の対象は君から5フィート押しのけられる",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {1}[飛散、殴打]]]{1点の殴打飛散ダメージ}を与え、中型以下の対象は君から5フィート押しのけられ、 @Compendium[pf2e.conditionitems.Prone]{伏せ状態}になる"
                     },
                     "Major": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {4}[splash,bludgeoning]]]{4 bludgeoning splash damage}, Medium or smaller creatures who take splash damage are pushed 5 feet away from the target, and then, if the target is Large or smaller, it is pushed 5 feet away from you",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {4}[splash,bludgeoning]]]{4 bludgeoning splash damage}, Medium or smaller creatures who take splash damage are pushed 5 feet away from the target, and then, if the target is Large or smaller, it is pushed 5 feet away from you, and the target is knocked @Compendium[pf2e.conditionitems.Prone]{Prone}"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {4}[飛散、殴打]]]{4点の殴打飛散ダメージ}を与える。飛散ダメージを受けた中型以下のクリーチャーは対象から5フィート押しのけられ、対象が大型以下なら、君から5フィート押しのけられる",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {4}[飛散、殴打]]]{4点の殴打飛散ダメージ}を与える。飛散ダメージを受けた中型以下のクリーチャーは対象から5フィート押しのけられ、対象が大型以下なら、君から5フィート押しのけられる中型以下の対象は君から5フィート押しのけられ、 @Compendium[pf2e.conditionitems.Prone]{伏せ状態}になる"
                     },
                     "Moderate": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {2}[splash,bludgeoning]]]{2 bludgeoning splash damage}, Small or smaller targets are pushed 5 feet away from you",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {2}[splash,bludgeoning]]]{2 bludgeoning splash damage}, Small or smaller targets are pushed 5 feet away from you, and the target is knocked @Compendium[pf2e.conditionitems.Prone]{Prone}"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {2}[飛散、殴打]]]{2点の殴打飛散ダメージ}を与え、小型以下の対象は君から5フィート押しのけられる",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2}[飛散、殴打]]]{2点の殴打飛散ダメージ}を与え、小型以下の対象は君から5フィート押しのけられ、 @Compendium[pf2e.conditionitems.Prone]{伏せ状態}になる"
                     }
                 },
                 "RedpitchBomb": {
                     "Greater": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {3d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage} and [[/r {3}[splash,fire]]]{3 fire splash damage}",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {2*3d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage} and [[/r {3}[splash,fire]]]{3 fire splash damage}. On a critical hit, Target is @Compendium[pf2e.conditionitems.Clumsy]{Clumsy 2} until the start of my next turn"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {3d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {3}[飛散、火炎]]]{3点の火炎飛散ダメージ}を与える",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2*3d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {3}[飛散、火炎]]]{3点の火炎飛散ダメージ}を与える。クリティカルした際、対象は君の次の手番の開始時まで @Compendium[pf2e.conditionitems.Clumsy]{もたつき2} になる"
                     },
                     "Lesser": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {1d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage} and [[/r {1}[splash,fire]]]{1 fire splash damage}",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {2*1d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage} and [[/r {1}[splash,fire]]]{1 fire splash damage}. On a critical hit, Target is @Compendium[pf2e.conditionitems.Clumsy]{Clumsy 1} until the start of my next turn"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {1d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {1}[飛散、火炎]]]{1点の火炎飛散ダメージ}を与える",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2*1d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {1}[飛散、火炎]]]{1点の火炎飛散ダメージ}を与える。クリティカルした際、対象は君の次の手番の開始時まで @Compendium[pf2e.conditionitems.Clumsy]{もたつき1} になる"
                     },
                     "Major": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {4d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage} and [[/r {4}[splash,fire]]]{4 fire splash damage}",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {2*4d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage} and [[/r {4}[splash,fire]]]{4 fire splash damage}. On a critical hit, Target is @Compendium[pf2e.conditionitems.Clumsy]{Clumsy 3} until the start of my next turn"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {4d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {4}[飛散、火炎]]]{4点の火炎飛散ダメージ}を与える",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2*4d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {4}[飛散、火炎]]]{4点の火炎飛散ダメージ}を与える。クリティカルした際、対象は君の次の手番の開始時まで @Compendium[pf2e.conditionitems.Clumsy]{もたつき3} になる"
                     },
                     "Moderate": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {2d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage} and [[/r {2}[splash,fire]]]{2 fire splash damage}",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {2*2d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage} and [[/r {2}[splash,fire]]]{2 fire splash damage}. On a critical hit, Target is @Compendium[pf2e.conditionitems.Clumsy]{Clumsy 1} until the start of my next turn"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {2d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {2}[飛散、火炎]]]{2点の火炎飛散ダメージ}を与える",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2*2d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {2}[飛散、火炎]]]{2点の火炎飛散ダメージ}を与える。クリティカルした際、対象は君の次の手番の開始時まで @Compendium[pf2e.conditionitems.Clumsy]{もたつき1} になる"
                     }
                 },
                 "SulfurBomb": {
                     "Greater": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {3}[splash,acid]]]{3 acid splash damage} and the target takes a –1 status penalty to Perception checks and attack rolls until the end of its next turn (@Compendium[pf2e.equipment-effects.Effect: Sulfur Bomb (Failure)]{Effect: Sulfur Bomb (Failure)})",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {3}[splash,acid]]]{3 acid splash damage} and becomes @Compendium[pf2e.conditionitems.Sickened]{Sickened 1}"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {3}[飛散、強酸]]]{3点の強酸飛散ダメージ} を与え、対象はその次の手番の終了時まで知覚と攻撃ロールに-1ステータス・ペナルティを受ける (@Compendium[pf2e.equipment-effects.Effect: Sulfur Bomb (Failure)]{効果: ソルファー・ボム (失敗)})",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {3}[飛散、強酸]]]{3点の強酸飛散ダメージ}を与え、対象は@Compendium[pf2e.conditionitems.Sickened]{不調1}になる"
                     },
                     "Lesser": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {1}[splash,acid]]]{1 acid splash damage} and the target takes a –1 status penalty to Perception checks and attack rolls until the end of its next turn (@Compendium[pf2e.equipment-effects.Effect: Sulfur Bomb (Failure)]{Effect: Sulfur Bomb (Failure)})",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {1}[splash,acid]]]{1 acid splash damage} and becomes @Compendium[pf2e.conditionitems.Sickened]{Sickened 1}"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {1}[飛散、強酸]]]{1点の強酸飛散ダメージ} を与え、対象はその次の手番の終了時まで知覚と攻撃ロールに-1ステータス・ペナルティを受ける (@Compendium[pf2e.equipment-effects.Effect: Sulfur Bomb (Failure)]{効果: ソルファー・ボム (失敗)})",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {1}[飛散、強酸]]]{1点の強酸飛散ダメージ}を与え、対象は@Compendium[pf2e.conditionitems.Sickened]{不調1}になる"
                     },
                     "Major": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {4}[splash,acid]]]{4 acid splash damage} and the target takes a –1 status penalty to Perception checks and attack rolls until the end of its next turn (@Compendium[pf2e.equipment-effects.Effect: Sulfur Bomb (Failure)]{Effect: Sulfur Bomb (Failure)})",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {4}[splash,acid]]]{4 acid splash damage} and becomes @Compendium[pf2e.conditionitems.Sickened]{Sickened 1}"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {4}[飛散、強酸]]]{4点の強酸飛散ダメージ}を与え、対象はその次の手番の終了時まで知覚と攻撃ロールに-1ステータス・ペナルティを受ける (@Compendium[pf2e.equipment-effects.Effect: Sulfur Bomb (Failure)]{効果: ソルファー・ボム (失敗)})",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {4}[飛散、強酸]]]{4点の強酸飛散ダメージ}を与え、対象は@Compendium[pf2e.conditionitems.Sickened]{不調1}になる"
                     },
                     "Moderate": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {2}[splash,acid]]]{2 acid splash damage} and the target takes a –1 status penalty to Perception checks and attack rolls until the end of its next turn (@Compendium[pf2e.equipment-effects.Effect: Sulfur Bomb (Failure)]{Effect: Sulfur Bomb (Failure)})",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {2}[splash,acid]]]{2 acid splash damage} and becomes @Compendium[pf2e.conditionitems.Sickened]{Sickened 1}"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {2}[飛散、強酸]]]{2点の強酸飛散ダメージ}を与え、対象はその次の手番の終了時まで知覚と攻撃ロールに-1ステータス・ペナルティを受ける (@Compendium[pf2e.equipment-effects.Effect: Sulfur Bomb (Failure)]{効果: ソルファー・ボム (失敗)})",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2}[飛散、強酸]]]{2点の強酸飛散ダメージ}を与え、対象は@Compendium[pf2e.conditionitems.Sickened]{不調1}になる"
                     }
                 },
                 "TallowBomb": {
                     "Greater": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {3d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage} and [[/r {3}[splash,fire]]]{3 fire splash damage}",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {2*3d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage}, [[/r {3}[splash,fire]]]{3 fire splash damage}, and is @Compendium[pf2e.conditionitems.Sickened]{Sickened 1} from the stench of burning fat. The creature can't reduce its sickened value below 1 while the persistent fire damage lasts"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {3d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {3}[飛散、火炎]]]{3点の火炎飛散ダメージ}を与える",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は[[/r {2*3d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}と[[/r {3}[飛散、火炎]]]{3点の火炎飛散ダメージ}を与え、対象は燃える脂肪による悪臭から @Compendium[pf2e.conditionitems.Sickened]{不調1} になる。クリーチャーは、継続火炎ダメージが持続している限り、不調値を減らすことが出来ない。"
                     },
                     "Lesser": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {1d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage} and [[/r {1}[splash,fire]]]{1 fire splash damage}",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {2*1d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage}, [[/r {1}[splash,fire]]]{1 fire splash damage}, and is @Compendium[pf2e.conditionitems.Sickened]{Sickened 1} from the stench of burning fat. The creature can't reduce its sickened value below 1 while the persistent fire damage lasts"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {1d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {1}[飛散、火炎]]]{1点の火炎飛散ダメージ}を与える",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は[[/r {2*1d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}と[[/r {1}[飛散、火炎]]]{1点の火炎飛散ダメージ}を与え、対象は燃える脂肪による悪臭から @Compendium[pf2e.conditionitems.Sickened]{不調1} になる。クリーチャーは、継続火炎ダメージが持続している限り、不調値を減らすことが出来ない。"
                     },
                     "Major": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {4d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage} and [[/r {4}[splash,fire]]]{4 fire splash damage}",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {2*4d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage}, [[/r {4}[splash,fire]]]{4 fire splash damage}, and is @Compendium[pf2e.conditionitems.Sickened]{Sickened 1} from the stench of burning fat. The creature can't reduce its sickened value below 1 while the persistent fire damage lasts"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {1d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {4}[飛散、火炎]]]{4点の火炎飛散ダメージ}を与える",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は[[/r {2*4d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}と[[/r {4}[飛散、火炎]]]{4点の火炎飛散ダメージ}を与え、対象は燃える脂肪による悪臭から @Compendium[pf2e.conditionitems.Sickened]{不調1} になる。クリーチャーは、継続火炎ダメージが持続している限り、不調値を減らすことが出来ない。"
                     },
                     "Moderate": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {2d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage} and [[/r {2}[splash,fire]]]{2 fire splash damage}",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {2*2d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage}, [[/r {2}[splash,fire]]]{2 fire splash damage}, and is @Compendium[pf2e.conditionitems.Sickened]{Sickened 1} from the stench of burning fat. The creature can't reduce its sickened value below 1 while the persistent fire damage lasts"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {2d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ} と [[/r {2}[飛散、火炎]]]{2点の火炎飛散ダメージ}を与える",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は[[/r {2*2d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}と[[/r {2}[飛散、火炎]]]{2点の火炎飛散ダメージ}を与え、対象は燃える脂肪による悪臭から @Compendium[pf2e.conditionitems.Sickened]{不調1} になる。クリーチャーは、継続火炎ダメージが持続している限り、不調値を減らすことが出来ない。"
                     }
                 },
                 "TanglefootBag": {
                     "Greater": {
-                        "success": "<strong>Effect</strong> On hit, @Compendium[pf2e.equipment-effects.Effect: Tanglefoot Bag (Greater)]{-15 ft Speed Penalty} for 1 minute. <hr /><i>Tanglefoot bags do not do any damage</i>.",
-                        "criticalSuccess": "<strong>Effect</strong> On hit,  @Compendium[pf2e.equipment-effects.Effect: Tanglefoot Bag (Greater)]{-15 ft Speed Penalty} for 1 minute. On critical hit, @Compendium[pf2e.conditionitems.Immobilized]{Immobilized} for 1 round. <hr /><i>Tanglefoot bags do not do any damage</i>."
+                        "success": "<strong>効果</strong> 命中時、1分間、 @Compendium[pf2e.equipment-effects.Effect: Tanglefoot Bag (Greater)]{-15フィートの速度ペナルティ} を受ける。 <hr /><i>タングルフット・バッグはダメージを与えない</i>.",
+                        "criticalSuccess": "<strong>効果</strong> 命中時、 1分間、 @Compendium[pf2e.equipment-effects.Effect: Tanglefoot Bag (Greater)]{-15フィートの速度ペナルティ} を受ける。クリティカル・ヒットした際、 1ラウンド、 @Compendium[pf2e.conditionitems.Immobilized]{動けない状態} になる。 <hr /><i>タングルフット・バッグはダメージを与えない</i>."
                     },
                     "Lesser": {
-                        "success": "<strong>Effect</strong> On hit, @Compendium[pf2e.equipment-effects.Effect: Tanglefoot Bag (Lesser)]{-10 ft Speed Penalty} for 1 minute. <hr /><i>Tanglefoot bags do not do any damage</i>.",
-                        "criticalSuccess": "<strong>Effect</strong> On hit, @Compendium[pf2e.equipment-effects.Effect: Tanglefoot Bag (Lesser)]{-10 ft Speed Penalty} for 1 minute. On critical hit, @Compendium[pf2e.conditionitems.Immobilized]{Immobilized} for 1 round. <hr /><i>Tanglefoot bags do not do any damage</i>."
+                        "success": "<strong>効果</strong> 命中時、1分間、 @Compendium[pf2e.equipment-effects.Effect: Tanglefoot Bag (Lesser)]{-10フィートの速度ペナルティ} を受ける。 <hr /><i>タングルフット・バッグはダメージを与えない</i>.",
+                        "criticalSuccess": "<strong>効果</strong> 命中時、1分間、 @Compendium[pf2e.equipment-effects.Effect: Tanglefoot Bag (Lesser)]{-10フィートの速度ペナルティ} を受ける。クリティカル・ヒットした際、1ラウンド、 @Compendium[pf2e.conditionitems.Immobilized]{動けない状態} になる。 <hr /><i>タングルフット・バッグはダメージを与えない</i>."
                     },
                     "Major": {
-                        "success": "<strong>Effect</strong> On hit, @Compendium[pf2e.equipment-effects.Effect: Tanglefoot Bag (Major)]{-20 ft Speed Penalty} for 1 minute. <hr /><i>Tanglefoot bags do not do any damage</i>.",
-                        "criticalSuccess": "<strong>Effect</strong> On hit, @Compendium[pf2e.equipment-effects.Effect: Tanglefoot Bag (Major)]{-20 ft Speed Penalty} for 1 minute. On critical hit, @Compendium[pf2e.conditionitems.Immobilized]{Immobilized} for 1 round. <hr /><i>Tanglefoot bags do not do any damage</i>."
+                        "success": "<strong>効果</strong> 命中時、1分間、 @Compendium[pf2e.equipment-effects.Effect: Tanglefoot Bag (Major)]{-20フィートの速度ペナルティ} を受ける。 <hr /><i>タングルフット・バッグはダメージを与えない</i>.",
+                        "criticalSuccess": "<strong>効果</strong> 命中時、1分間、 @Compendium[pf2e.equipment-effects.Effect: Tanglefoot Bag (Major)]{-20フィートの速度ペナルティ} を受ける。クリティカル・ヒットした際、1ラウンド、 @Compendium[pf2e.conditionitems.Immobilized]{動けない状態} になる。 <hr /><i>タングルフット・バッグはダメージを与えない</i>."
                     },
                     "Moderate": {
-                        "success": "<strong>Effect</strong> On hit, @Compendium[pf2e.equipment-effects.Effect: Tanglefoot Bag (Moderate)]{-15 ft Speed Penalty} for 1 minute. <hr /><i>Tanglefoot bags do not do any damage</i>.",
-                        "criticalSuccess": "<strong>Effect</strong> On hit, @Compendium[pf2e.equipment-effects.Effect: Tanglefoot Bag (Moderate)]{-15 ft Speed Penalty} for 1 minute. On critical hit, @Compendium[pf2e.conditionitems.Immobilized]{Immobilized} for 1 round. <hr /><i>Tanglefoot bags do not do any damage</i>."
+                        "success": "<strong>効果</strong> 命中時、1分間、 @Compendium[pf2e.equipment-effects.Effect: Tanglefoot Bag (Moderate)]{-15フィートの速度ペナルティ} を受ける。<hr /><i>タングルフット・バッグはダメージを与えない</i>.",
+                        "criticalSuccess": "<strong>効果</strong> 命中時、1分間、 @Compendium[pf2e.equipment-effects.Effect: Tanglefoot Bag (Moderate)]{-15フィートの速度ペナルティ} を受ける。クリティカル・ヒットした際、1ラウンド、 @Compendium[pf2e.conditionitems.Immobilized]{動けない状態} になる。 <hr /><i>タングルフット・バッグはダメージを与えない</i>."
                     }
                 },
                 "Thunderstone": {
                     "Greater": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {3}[splash,sonic]]]{3 sonic splash damage} and all creatures within 10 feet must succeed at a @Check[type:fortitude|dc:28|name:Greater Thunderstone|showDC:all] save or be @Compendium[pf2e.conditionitems.Deafened]{Deafened} until the end of its next turn"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {3}[飛散、音波]]]{3点の音波飛散ダメージ} を与え、10フィート以内の全てのクリーチャーは @Check[type:fortitude|dc:28|name:Greater Thunderstone|showDC:all] 頑健セーヴに成功しなければならず、次の手番の終了時まで  @Compendium[pf2e.conditionitems.Deafened]{聴覚喪失} になる。"
                     },
                     "Lesser": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {1}[splash,sonic]]]{1 sonic splash damage} and all creatures within 10 feet must succeed at a @Check[type:fortitude|dc:17|name:Lesser Thunderstone|showDC:all] save or be @Compendium[pf2e.conditionitems.Deafened]{Deafened} until the end of its next turn"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {1}[飛散、音波]]]{1点の音波飛散ダメージ} を与え、10フィート以内の全てのクリーチャーは @Check[type:fortitude|dc:17|name:Lesser Thunderstone|showDC:all] 頑健セーヴに成功しなければ、次の手番の終了時まで @Compendium[pf2e.conditionitems.Deafened]{聴覚喪失} になる。"
                     },
                     "Major": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {4}[splash,sonic]]]{4 sonic splash damage} and all creatures within 10 feet must succeed at a @Check[type:fortitude|dc:36|name:Major Thunderstone|showDC:all] save or be @Compendium[pf2e.conditionitems.Deafened]{Deafened} until the end of its next turn"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {4}[飛散、音波]]]{4点の音波飛散ダメージ} を与え、10フィート以内の全てのクリーチャーは @Check[type:fortitude|dc:36|name:Major Thunderstone|showDC:all] 頑健セーヴに成功しなければ、次の手番の終了時まで @Compendium[pf2e.conditionitems.Deafened]{聴覚喪失} になる。"
                     },
                     "Moderate": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {2}[splash,sonic]]]{2 sonic splash damage} and all creatures within 10 feet must succeed at a @Check[type:fortitude|dc:20|name:Moderate Thunderstone|showDC:all] save or be @Compendium[pf2e.conditionitems.Deafened]{Deafened} until the end of its next turn"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {2}[飛散、音波]]]{2点の音波飛散ダメージ} を与え、10フィート以内の全てのクリーチャーは @Check[type:fortitude|dc:20|name:Moderate Thunderstone|showDC:all] 頑健セーヴに成功しなければ、次の手番の終了時まで @Compendium[pf2e.conditionitems.Deafened]{聴覚喪失} になる。"
                     }
                 },
                 "TwigjackSack": {
                     "Greater": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {4}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Bleed Damage} and [[/r {3}[splash,piercing]]]{3 piercing splash damage}",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {8)}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Bleed Damage} and [[/r {3}[splash,piercing]]]{3 piercing splash damage}"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {4}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ} と [[/r {3}[飛散、刺突]]]{3点の刺突飛散ダメージ}を与える。",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {8}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ} と [[/r {3}[飛散、刺突]]]{3点の刺突飛散ダメージ}を与える。"
                     },
                     "Lesser": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {1}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Bleed Damage} and [[/r {1}[splash,piercing]]]{1 piercing splash damage}",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {2}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Bleed Damage} and [[/r {1}[splash,piercing]]]{1 piercing splash damage}"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {4}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ} と [[/r {1}[飛散、刺突]]]{1点の刺突飛散ダメージ}を与える。",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ} と [[/r {1}[飛散、刺突]]]{3点の刺突飛散ダメージ}を与える。"
                     },
                     "Major": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {5}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Bleed Damage} and [[/r {4}[splash,piercing]]]{4 piercing splash damage}",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {10)}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Bleed Damage} and [[/r {4}[splash,piercing]]]{4 piercing splash damage}"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {5}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ} と [[/r {4}[飛散、刺突]]]{4点の刺突飛散ダメージ}を与える。",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {10}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ} と [[/r {4}[飛散、刺突]]]{4点の刺突飛散ダメージ}を与える。"
                     },
                     "Moderate": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {3}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Bleed Damage} and [[/r {2}[splash,piercing]]]{2 piercing splash damage}",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {6)}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Bleed Damage} and [[/r {2}[splash,piercing]]]{2 piercing splash damage}"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {3}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ} と [[/r {2}[飛散、刺突]]]{2点の刺突飛散ダメージ}を与える。",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {6}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ} と [[/r {2}[飛散、刺突]]]{2点の刺突飛散ダメージ}を与える。"
                     }
                 },
                 "VexingVapor": {
                     "Greater": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {3}[splash,mental]]]{3 mental splash damage} and the target must succeed at a @Check[type:flat|dc:5] before taking actions with the concentrate trait, this lasts until the end of its next turn",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {3}[splash,mental]]]{3 mental splash damage} and must succeed at a @Check[type:flat|dc:5] before taking actions with the concentrate trait, this lasts for 1 minute"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {3}[飛散、精神]]]{3点の精神飛散ダメージ} を与え、対象は精神集中の特性を持つアクションを取る前に  @Check[type:flat|dc:5] DC5の平目判定に成功しなければならない。これは、対象の次の手番の終了時まで続く。",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {3}[飛散、精神]]]{3点の精神飛散ダメージ} を与え、対象は精神集中の特性を持つアクションを取る前に @Check[type:flat|dc:5] DC5の平目判定に成功しなければならない。これは、1分間、持続する。"
                     },
                     "Lesser": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {1}[splash,mental]]]{1 mental splash damage} and the target must succeed at a @Check[type:flat|dc:5] before taking actions with the concentrate trait, this lasts until the end of its next turn",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {1}[splash,mental]]]{1 mental splash damage} and must succeed at a @Check[type:flat|dc:5] before taking actions with the concentrate trait, this lasts for 1 minute"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {1}[飛散、精神]]]{1点の精神飛散ダメージ} を与え、対象は精神集中の特性を持つアクションを取る前に  @Check[type:flat|dc:5] DC5の平目判定に成功しなければならない。これは、対象の次の手番の終了時まで続く。",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {1}[飛散、精神]]]{1点の精神飛散ダメージ} を与え、対象は精神集中の特性を持つアクションを取る前に @Check[type:flat|dc:5] DC5の平目判定に成功しなければならない。これは、1分間、持続する。"
                     },
                     "Major": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {4}[splash,mental]]]{4 mental splash damage} and the target must succeed at a @Check[type:flat|dc:5] before taking actions with the concentrate trait, this lasts until the end of its next turn",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {4}[splash,mental]]]{4 mental splash damage} and must succeed at a @Check[type:flat|dc:5] before taking actions with the concentrate trait, this lasts for 1 minute"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {4}[飛散、精神]]]{4点の精神飛散ダメージ} を与え、対象は精神集中の特性を持つアクションを取る前に  @Check[type:flat|dc:5] DC5の平目判定に成功しなければならない。これは、対象の次の手番の終了時まで続く。",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {4}[飛散、精神]]]{4点の精神飛散ダメージ} を与え、対象は精神集中の特性を持つアクションを取る前に @Check[type:flat|dc:5] DC5の平目判定に成功しなければならない。これは、1分間、持続する。"
                     },
                     "Moderate": {
-                        "success": "<strong>Effect</strong> The bomb also deals [[/r {2}[splash,mental]]]{2 mental splash damage} and the target must succeed at a @Check[type:flat|dc:5] before taking actions with the concentrate trait, this lasts until the end of its next turn",
-                        "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r {2}[splash,mental]]]{2 mental splash damage} and must succeed at a @Check[type:flat|dc:5] before taking actions with the concentrate trait, this lasts for 1 minute"
+                        "success": "<strong>効果</strong> 爆弾は [[/r {2}[飛散、精神]]]{2点の精神飛散ダメージ} を与え、対象は精神集中の特性を持つアクションを取る前に  @Check[type:flat|dc:5] DC5の平目判定に成功しなければならない。これは、対象の次の手番の終了時まで続く。",
+                        "criticalSuccess": "<strong>効果</strong> 爆弾は [[/r {2}[飛散、精神]]]{2点の精神飛散ダメージ} を与え、対象は精神集中の特性を持つアクションを取る前に @Check[type:flat|dc:5] DC5の平目判定に成功しなければならない。これは、1分間、持続する。"
                     }
+                },
+                "WaterBomb": {
+                    "Greater": {
+                        "success": "<strong>効果</strong> 爆弾は [[/r {2d4}[飛散、殴打]]]{2d4点の非致傷の殴打飛散ダメージ}を与える。爆弾は、飛散範囲内の魔法のものではない炎を消火する。"
+                    },
+                    "Lesser": {
+                        "success": "<strong>効果</strong> 爆弾は [[/r {1}[飛散、殴打]]]{1点の非致傷の殴打飛散ダメージ}を与える。爆弾は、飛散範囲内の魔法のものではない炎を消火する。"
+                    },
+                    "Major": {
+                        "success": "<strong>効果</strong> 爆弾は [[/r {3d4}[飛散、殴打]]]{3d4点の非致傷の殴打飛散ダメージ}を与える。爆弾は、飛散範囲内の魔法のものではない炎を消火する。"
+                    },
+                    "Moderate": {
+                        "success": "<strong>効果</strong> 爆弾は [[/r {1d4}[飛散、殴打]]]{1d4点の非致傷の殴打飛散ダメージ}を与える。爆弾は、飛散範囲内の魔法のものではない炎を消火する。"
+                    }    
                 }
-            },    
+            },
+            "Mutagens": {
+                "BestialMutagen": {
+                    "FeralPrompt": "ダメージ・ダイスの大きさを増やすためにACへのペナルティを増やしますか？"
+                }
+            },        
             "NPCAbility": {
-                "AnimatedObjectsConstructArmor": "Construct Armor is Broken",
+                "AnimatedObjectsConstructArmor": "人造の鎧は破損しました",
                 "BarghestFeed": "このバーゲストは何度、食事をしましたか？",
                 "DemonInfuseWeapons": "悪ダメージの代わりに混沌ダメージを与える",
                 "DuskwalkerHuntPrey": {
@@ -405,86 +460,94 @@
             "OracleCurses": {
                 "Ancestor": {
                     "Label": {
-                        "MinorBattle": "Minor Battle",
-                        "ModerateBattle": "Moderate Battle",
-                        "MajorBattle": "Major Battle",
-                        "ExtremeBattle": "Extreme Battle",
-                        "MinorSkillful": "Minor Skillful",
-                        "ModerateSkillful": "Moderate Skillful",
-                        "MajorSkillful": "Major Skillful",
-                        "ExtremeSkillful": "Extreme Skillful",
-                        "MinorSpellcasting": "Minor Spellcasting",
-                        "ModerateSpellcasting": "Moderate Spellcasting",
-                        "MajorSpellcasting": "Major Spellcasting",
-                        "ExtremeSpellcasting": "Extreme Spellcasting"
+                        "MinorBattle": "争い（下級）",
+                        "ModerateBattle": "争い（中級）",
+                        "MajorBattle": "争い（上級）",
+                        "ExtremeBattle": "争い（最上級）",
+                        "MinorSkillful": "技巧者（下級）",
+                        "ModerateSkillful": "技巧者（中級）",
+                        "MajorSkillful": "技巧者（上級）",
+                        "ExtremeSkillful": "技巧者（最上級）",
+                        "MinorSpellcasting": "術者（下級）",
+                        "ModerateSpellcasting": "術者（中級）",
+                        "MajorSpellcasting": "術者（上級）",
+                        "ExtremeSpellcasting": "術者（最上級）"
                     },
-                    "MinorFailure": "Your curse interferes with this action and you must make a @Check[type:flat|dc:4|showDC:owner] check.",
-                    "ModerateFailure": "Your curse interferes with this action and you must make a @Check[type:flat|dc:6|showDC:owner] check.",
-                    "MajorFailure": "Your curse interferes with this action and you must make a @Check[type:flat|dc:8|showDC:owner] check."
+                    "MinorFailure": "君の呪いはこのアクションに干渉したので、君は @Check[type:flat|dc:4|showDC:owner] 判定に成功しなければならない",
+                    "ModerateFailure": "君の呪いはこのアクションに干渉したので、君は @Check[type:flat|dc:6|showDC:owner] 判定に成功しなければならない",
+                    "MajorFailure": "君の呪いはこのアクションに干渉したので、君は @Check[type:flat|dc:8|showDC:owner] 判定に成功しなければならない"
                 },
                 "Battle": {
-                    "MadeAStrike": "You've made a strike this round",
-                    "NonTrivialEncounter": "In a non-trivial encounter"
+                    "MadeAStrike": "君はこのラウンドで打撃を行った",
+                    "NonTrivialEncounter": "些細ではない遭遇で"
                 },
                 "Bones": {
-                    "ModerateUpgrade": "When you roll a success at a saving throw against a disease, poison or death effect, you get a critical success instead.",
-                    "MajorUpgrade": " When you roll a critical failure at a saving throw against a disease, poison or death effect, you get a failure instead."
+                    "ModerateUpgrade": "君が病気、毒、即死効果に対するセーヴィング・スローに成功をロールした際、代わりにクリティカルする",
+                    "MajorUpgrade": " 君が病気、毒、即死効果に対するセーヴィング・スローにファンブルをロールした際、代わりに失敗する"
                 },
                 "Label": {
-                    "Minor": "Minor",
-                    "Moderate": "Moderate",
-                    "Major": "Major",
-                    "Extreme": "Extreme"
+                    "Minor": "下級",
+                    "Moderate": "中級",
+                    "Major": "上級",
+                    "Extreme": "最上級"
                 }
             },    
             "PersistentDamage": {
                 "Acid1d6": {
-                    "success": "[[/r {1d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Acid Damage}",
-                    "criticalSuccess": "[[/r {2*1d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Acid Damage}"
+                    "success": "[[/r {1d6}[継続、強酸]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続強酸ダメージ}",
+                    "criticalSuccess": "[[/r {2*1d6}[継続、強酸]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続強酸ダメージ}"
                 },
                 "Acid2d6": {
-                    "success": "[[/r {2d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Acid Damage}",
-                    "criticalSuccess": "[[/r {2*2d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Acid Damage}"
+                    "success": "[[/r {2d6}[継続、強酸]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続強酸ダメージ}",
+                    "criticalSuccess": "[[/r {2*2d6}[継続、強酸]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続強酸ダメージ}"
                 },
+                "Acid2d6+2": {
+                    "success": "[[/r {2d6+2}[継続、強酸]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続強酸ダメージ}",
+                    "criticalSuccess": "[[/r {2*2d6+4}[継続、強酸]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続強酸ダメージ}"
+                },    
                 "Bleed1d4": {
-                    "success": "[[/r {1d4}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Bleed Damage}",
-                    "criticalSuccess": "[[/r {2*1d4}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Bleed Damage}"
+                    "success": "[[/r {1d4}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}",
+                    "criticalSuccess": "[[/r {2*1d4}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}"
                 },        
                 "Bleed1d6": {
                     "regular": "[[/r {1d6}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}",
                     "critical": "[[/r {2*1d6}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}"
                 },
+                "Bleed2d6": {
+                    "success": "[[/r {2d6}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}",
+                    "criticalSuccess": "[[/r {2*2d6}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}"
+                },    
                 "Bleed1d8": {
-                    "success": "[[/r {1d8}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Bleed Damage}",
-                    "criticalSuccess": "[[/r {2*1d8}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Bleed Damage}"
+                    "success": "[[/r {1d8}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}",
+                    "criticalSuccess": "[[/r {2*1d8}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}"
                 },
                 "Fire1d4": {
-                    "success": "[[/r {1d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage}",
-                    "criticalSuccess": "[[/r {2*1d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage}"
+                    "success": "[[/r {1d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}",
+                    "criticalSuccess": "[[/r {2*1d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}"
                 },
                 "Fire2d4": {
-                    "success": "[[/r {2d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage}",
-                    "criticalSuccess": "[[/r {2*2d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage}"
+                    "success": "[[/r {2d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}",
+                    "criticalSuccess": "[[/r {2*2d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}"
                 },
                 "Fire2d6": {
-                    "success": "[[/r {2d6}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage}",
-                    "criticalSuccess": "[[/r {2*2d6}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage}"
+                    "success": "[[/r {2d6}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}",
+                    "criticalSuccess": "[[/r {2*2d6}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}"
                 },
                 "Fire2d8": {
-                    "success": "[[/r {2d8}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage}",
-                    "criticalSuccess": "[[/r {2*2d8}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage}"
+                    "success": "[[/r {2d8}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}",
+                    "criticalSuccess": "[[/r {2*2d8}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}"
                 },
                 "Fire3d8": {
-                    "success": "[[/r {3d8}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage}",
-                    "criticalSuccess": "[[/r {2*3d8}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage}"
+                    "success": "[[/r {3d8}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}",
+                    "criticalSuccess": "[[/r {2*3d8}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}"
                 },
                 "Fire1d10": {
-                    "success": "[[/r {1d10}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage}",
-                    "criticalSuccess": "[[/r {2*1d10}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage}"
+                    "success": "[[/r {1d10}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}",
+                    "criticalSuccess": "[[/r {2*1d10}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}"
                 },
                 "Fire2d10": {
-                    "success": "[[/r {2d10}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage}",
-                    "criticalSuccess": "[[/r {2*2d10}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage}"
+                    "success": "[[/r {2d10}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}",
+                    "criticalSuccess": "[[/r {2*2d10}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}"
                 }    
             },
         "RuleElement": {
@@ -519,7 +582,6 @@
             "RollOption": "ロール・オプション",
             "TempHP": "一時的ヒット・ポイント",
             "TempHPShortLabel": "一時HP",
-            "ToggleProperty": "属性の切り替え",
             "TokenEffectIcon": "トークン効果アイコン",
             "TokenImage": "トークン画像",
             "TokenLight": "トークンの照明",
@@ -534,6 +596,7 @@
             "Blacksmithing": "鍛冶に",
             "Climb": "「登攀」に",
             "ClimbOrSwim": "「登攀」あるいは「水泳」に",
+            "CommandAnAnimal": "「動物使い」に",
             "CraftTrap": "トラップ作成に",
             "CraftTrapSnare": "トラップと罠作成に",
             "Darkness": "暗闇で",
@@ -546,6 +609,7 @@
             "Forests": "森林で",
             "ForestsOrSwamps": "森林あるいは沼地で",
             "Grapple": "「組みつき」に",
+            "GrappleShove": "「組みつき」あるいは「押しやり」に",
             "Hide": "「隠れる」に",
             "HighJumpOrLongJump": "「高跳び」あるいは「幅跳び」に",
             "ImitateStone": "「石の模倣」に",
@@ -553,6 +617,7 @@
             "ImpersonateCloakSheetRay": "外套、シート、エイに「なりすます」",
             "Jungles": "ジャングルで",
             "Lair": "ねぐらで",
+            "ManeuverInFlight": "「飛行機動」に",
             "Mountains": "山地で",
             "Navigate": "道案内に",
             "Paint": "絵を描くことに",
@@ -598,6 +663,13 @@
                 "Lesser": "劣った遮蔽",
                 "Standard": "標準の遮蔽",
                 "Greater": "優れた遮蔽"
+            },
+            "DedicationCraftingEntry": {
+                "Herbalist": "ハーバリスト",
+                "FireworkTechnician": "花火職人",
+                "Poisoner": "毒使い",
+                "Snarecrafter": "罠職人",
+                "TalismanDabbler": "護符職人"
             },
             "FighterWeaponMasteryLegend": {
                 "Advanced": {
@@ -648,6 +720,11 @@
             "AncientElf": {
                 "AllowedDrops": "マルチクラス専心特技",
                 "Prompt": "マルチクラス専心特技を選んで下さい"
+            },
+            "AnimalSkin": {
+                "BracersOfArmor": "アニマル・スキン＋ブレーサーズ・オヴ・アーマー",
+                "ExplorersClothing": "アニマル・スキン＋探検家の衣類",
+                "MageArmor": "アニマル・スキン＋メイジ・アーマー"
             },
             "MartialProficiency": {
                 "AdvancedAzarketiWeapons": "上級アザールケティ武器",
@@ -721,6 +798,11 @@
                 "MonasticArchery": "寺院の弓術",
                 "SimpleFirearmsCrossbows": "単純火器・クロスボウ"
             },
+            "MountainStance": {
+                "BracersOfArmor": "山の構え＋ブレーサーズ・オヴ・アーマー",
+                "ExplorersClothing": "山の構え＋探検家の衣類",
+                "MageArmor": "山の構え＋メイジ・アーマー"
+            },
             "SpecialtyCrafting": {
                 "Alchemy": "錬金術",
                 "Artistry": "美術品",
@@ -766,6 +848,7 @@
             },
             "TwoHanded": {
                 "BastardSword": "バスタード・ソードを両手持ちする",
+                "BattleLute": "バトル・リュートを両手持ちする",
                 "Broom": "ブルームを両手持ちする",
                 "Cane": "ケーンを両手持ちする",
                 "Katana": "カタナを両手持ちする",

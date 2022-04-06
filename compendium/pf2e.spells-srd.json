@@ -83,8 +83,8 @@
 		},
 		{
 			"id": "Agonizing Despair",
-			"name": "Agonizing Despair",
-			"description": "<p>Your target's mind tumbles down a deep well of dread, dwelling so intently on deep-seated fears that it's painful. The target takes [[/r {4d6}[mental]]]{4d6 mental damage} with a Will saving throw.</p>\n<hr />\n<p><strong>Critical Success</strong>: The target is unaffected.</p>\n<p><strong>Success</strong>: The target takes half damage and becomes @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 1}.</p>\n<p><strong>Failure</strong>: The target takes full damage and becomes @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 2}.</p>\n<p><strong>Critical Failure</strong>: The target takes double damage and becomes @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 3}.</p>\n<hr />\n<p><strong>増強 (+1)</strong>: Increase the damage by [[/r {2d6}[mental]]].</p>"
+			"name": "アゴナイジング・ディスペア",
+			"description": "<p>君の対象の精神は深い恐怖の底へと転がり落ちて、心の奥底にある恐怖をひたすら見つめており、痛みを深く感じる。対象は意志セーヴィング・スローを伴う[[/r {4d6}[精神]]]{4d6点の精神ダメージ}を受ける。</p>\n<hr />\n<p><strong>クリティカル</strong>: 対象は影響を受けない</p>\n<p><strong>成功</strong>: 対象は半分のダメージを受け、@Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{怯え1}になる</p>\n<p><strong>失敗</strong>: 対象は完全なダメージを受け、@Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{怯え2}になる</p>\n<p><strong>ファンブル</strong>: 対象は2倍のダメージを受け、@Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{怯え3}になる</p>\n<hr />\n<p><strong>増強 (+1)</strong>: ダメージは[[/r {2d6}[精神]]]点、増える</p>"
 		},
 		{
 			"id": "Air Walk",
@@ -178,8 +178,8 @@
 		},
 		{
 			"id": "Animal Vision",
-			"name": "Animal Vision",
-			"description": "<p>You tap into the target's senses, allowing you to see, hear, and otherwise sense whatever it senses for the spell's duration. If the target wishes to prevent you from doing so, it can attempt a Will save, negating the spell on a success, but most animals don't bother to do so. While tapping into the target's senses, you can't use your own body's senses, but you can change back and forth from your body's senses to the target's senses using a single action, which has the concentrate trait.</p>"
+			"name": "アニマル・ヴィジョン",
+			"description": "<p>君は対象の感覚を利用し、対象が感じるものを呪文の持続時間の間、見たり、聞いたり、その他の感覚で感知できるようになる。君の行動を阻止したいなら、対象は意志セーヴを試みて、成功した際に呪文を無効化する。だが、ほとんどの動物はわざわざそういうことをしようとはしない。対象の感覚を利用している間、君は自分自身の肉体の感覚を使うことは出来ないが、精神集中の特性を持つ単発アクションで対象の感覚と自分の肉体の感覚を行き来することが出来る。</p>"
 		},
 		{
 			"id": "Animate Dead",
@@ -228,8 +228,8 @@
 		},
 		{
 			"id": "Aqueous Orb",
-			"name": "Aqueous Orb",
-			"description": "<p>A sphere of water 10 feet in diameter forms in an unoccupied space in range, either on the ground or on the surface of a liquid.</p>\n<p>When you @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Cast the Spell} and each time you @Compendium[pf2e.actionspf2e.3f5DMFu8fPiqHpRg]{Sustain the Spell}, you can roll the orb, moving it up to 10 feet along the ground or the surface of a liquid. Unlike most spells, you can gain this effect multiple times in the same round by Sustaining the Spell multiple times.</p>\n<p>The orb can move through the spaces of any creatures or obstacles that wouldn't stop the flow of water. It extinguishes non-magical fires it moves through of its size or smaller, and it attempts to counteract any magical fires it moves through. If it fails to counteract a given fire, it can't counteract that fire for the duration of the spell.</p>\n<p>The orb can also collect creatures it moves through. Any Large or smaller creature whose space the orb tries to move through can attempt a Reflex save against your spell DC to avoid being engulfed. If a creature succeeds at this save, it can either let the orb pass (remaining in its space or moving out of the orb's path into a space of the creature's choice) or allow itself to be pushed in front of the orb to the end of the orb's movement. The orb can try to Engulf the same creature only once per turn, even if you roll it onto a creature's space more than once.</p>\n<p>A creature that fails its save is pulled into the orb. It becomes @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed}, moves along with the orb, and must hold its breath or begin suffocating (unless it can breathe in water). An engulfed Medium or smaller creature and anyone trying to affect that creature follow the normal rules for aquatic battles. An engulfed Large creature is usually big enough that parts of it stick out from the water, and it can reach out of the water. An engulfed creature can get free either by @Compendium[pf2e.actionspf2e.c8TGiZ48ygoSPofx]{Swimming} with a successful DC 10 Athletics check or by @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escaping} against your spell DC. A creature that critically failed its Reflex save is further stuck and must attempt to Escape instead of Swim. A freed creature exits the orb's space and can immediately breathe. The orb can contain as many creatures as can fit in its space. When the spell ends, all creatures the orb has engulfed are automatically released.</p>"
+			"name": "アクアス・オーブ",
+			"description": "<p>半径10フィートの水の球体が、距離内の誰にも占拠されていないマス目に形成される。これは地面の上か、液体の表面でなくてはならない。</p>\n<p>君は@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{「呪文の発動」} と@Compendium[pf2e.actionspf2e.3f5DMFu8fPiqHpRg]{「呪文の維持」}をするごとに、オーブを転がし、地面あるいは液体の表面沿いに10フィートまで移動させることが出来る。ほとんどの呪文とは異なり、君は「呪文の維持」を同じラウンドに複数回するごとに、何回もこの効果を得ることが出来る。</p>\n<p>オーブは水の流れを止めることがないクリーチャーや障害物のある接敵面を通り抜けることが出来る。球体のサイズ以下の魔法のものではない炎を通り抜ければそれを消火し、通り抜けたあらゆる魔法の炎の無効化を試みることが出来る。もし、その炎の無効化に失敗したなら、その呪文の持続時間の間、その炎の無効化をすることは出来ない。</p>\n<p>オーブはまた、通り抜けたクリーチャーを集めることも出来る。あらゆる、オーブが通り抜けようとした大型以下のクリーチャーは呑み込まれないようにするために、君の呪文DCに対して反応セーヴを試みることが出来る。もし、クリーチャーがこのセーヴに成功したなら、そのクリーチャーはオーブを通り抜けさせる（その接敵面に残るか、クリーチャーの選んだマス目に避けてオーブの経路から移動するかする）か、オーブの移動の終了地点まで、オーブの正面に押されて移動するかを選ぶことが出来る。たとえ、君があるクリーチャーの接敵面を2度以上、転がしたとしても、オーブは1手番に1度だけしか同じクリーチャーを「呑み込む」試みが出来ない。</p>\n<p>セーヴに失敗したクリーチャーはオーブの中に引き込まれる。そのクリーチャーは@Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{つかまれた状態}となり、オーブとともに移動し、息をこらえなければ窒息し始める（水中呼吸が出来なければ）。呑み込まれた中型以下のクリーチャー及びそのクリーチャーに影響を与えようとするクリーチャーは水中戦闘の通常のルールに従う。呑み込まれた大型クリーチャーはたいていの場合、十分に大きいため、そのクリーチャーの一部が水から突き出しており、水の外側に手を伸ばすことが出来る。呑み込まれたクリーチャーはDC10の〈運動〉で@Compendium[pf2e.actionspf2e.c8TGiZ48ygoSPofx]{「水泳」}に成功するか、君の呪文DCに対する@Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{「脱出」}に成功すれば自由になることが出来る。反応セーヴにファンブルしたクリーチャーは更に引っかかってしまい、「水泳」ではなく「脱出」を試みなくてはならない。自由になったクリーチャーはオーブの接敵面から出て、即座に息が出来るようになる。オーブはその接敵面に見合う限りの数のクリーチャーを中に含むことが出来る。呪文が終了した際、オーブが呑み込んでいた全てのクリーチャーは自動的に解放される。</p>"
 		},
 		{
 			"id": "Arcane Countermeasure",
@@ -373,8 +373,8 @@
 		},
 		{
 			"id": "Bind Undead",
-			"name": "Bind Undead",
-			"description": "<p>With a word of necromantic power, you seize control of the target. It gains the minion trait. If you or an ally uses any hostile actions against the target, the spell ends.</p>"
+			"name": "バインド・アンデッド",
+			"description": "<p>死霊術の力を持つ言葉で、君は対象の支配を得る。対象は手下の特性を得る。もし、君か味方が対象に対する敵対的な行動をするなら、呪文は終了する。</p>"
 		},
 		{
 			"id": "Biting Words",
@@ -403,8 +403,8 @@
 		},
 		{
 			"id": "Blazing Dive",
-			"name": "Blazing Dive",
-			"description": "<p>Superheated air collects under you, buoying you high into the sky before you plummet back down in a fiery comet. You Fly 15 feet straight up into the air, then Fly in a straight line to an empty space of your choice on the ground within 60 feet. When you land, the blistering air blasts out from you, dealing 3d4 bludgeoning damage and 3d6 fire damage (basic Reflex save) to all creatures in a 10-foot emanation.</p>\n<hr />\n<p><strong>増強 (+1)</strong> The damage increases by 1d4 bludgeoning and 1d6 fire.</p>"
+			"name": "ブレイジング・ダイヴ",
+			"description": "<p>強烈に熱された風が君の下に集まり、炎の彗星となって地上に打ち付ける前に君を空高く持ち上げる。君は空中に直情に向かって15フィート「飛行」し、それから60フィート以内の地上の何もないマス目に向かって直線に「飛行」する。君が着地した際、燃える大気が君から吹き出し、3d4点の殴打ダメージと3d6点の火炎ダメージ（基本反応セーヴ）を、10フィート拡散以内の全てのクリーチャーに与える。</p>\n<hr />\n<p><strong>増強 (+1)</strong> 殴打ダメージが1d4点、火炎ダメージが1d6点増える。</p>"
 		},
 		{
 			"id": "Blazing Fissure",
@@ -438,8 +438,8 @@
 		},
 		{
 			"id": "Blindness",
-			"name": "Blindness",
-			"description": "<p>You blind the target. The effect is determined by the target's Fortitude save. The target then becomes temporarily immune for 1 minute.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded} until its next turn begins.</p>\n<p><strong>Failure</strong> The target is Blinded for 1 minute.</p>\n<p><strong>Critical Failure</strong> The target is Blinded permanently.</p>"
+			"name": "ブラインドネス",
+			"description": "<p>君は対象を盲目にする。効果は対象の頑健セーヴによって決まる。対象はそれから、1分間、一時的完全耐性を持つ。</p>\n<hr />\n<p><strong>クリティカル</strong> 対象は影響を受けない</p>\n<p><strong>成功</strong> 対象は次の手番の開始時まで @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{盲目}になる</p>\n<p><strong>失敗</strong> 対象は1分間、盲目になる</p>\n<p><strong>ファンブル</strong> 対象は永続的に盲目になる</p>"
 		},
 		{
 			"id": "Blink",
@@ -508,8 +508,8 @@
 		},
 		{
 			"id": "Bottomless Stomach",
-			"name": "Bottomless Stomach",
-			"description": "<p>You create a shimmering extradimensional space accessible from the target's mouth. The space can hold objects and equipment, up to a total of 10 Bulk. This extradimensional storage doesn't hamper the target's ability to eat, drink, speak (if applicable), or otherwise act, as it only opens and closes when the target chooses.</p>\n<p>The target can Interact to swallow an object of up to 1 Bulk, which doesn't harm the object or the target. If the extradimensional space is full, the target can't add any more objects until first removing one or more stored objects. Organic matter and living creatures can't be stored in this space. The extradimensional storage is obvious to any creature who looks into the target's mouth, as the entryway shimmers slightly, though this doesn't clearly reveal the contents inside.</p>\n<p>The target can Interact to spit out a single object of its choice, causing the object to fall to the ground in the target's space. The target can Interact three times in a row to spit out the entire contents of its extradimensional storage; the target doesn't have to take these actions all in the same turn, but if it takes any other actions in between, it has to start over. The items eject into the target's space, possibly spilling out into adjacent spaces if there is too much to fit.</p>\n<p>When the spell ends or the target falls unconscious, the contents of the extradimensional storage are disgorged in a riotous spew, landing in the nearest unoccupied space, a bit wet but otherwise unharmed.</p>\n<hr />\n<p><strong>増強 (5th)</strong> The duration increases to 8 hours</p>"
+			"name": "ボトムレス・ストマック",
+			"description": "<p>君は、対象の口から出入り可能なキラキラとした他次元の空間を作り出す。この空間には、物体と装備を合計10バルクまで収納することが出来る。この他次元界の倉庫は対象の飲食、発話（該当するなら）能力、その他の行動をを妨げない。対象が選んだ場合にのみ、開閉するのである。</p>\n<p>対象は1バルクまでの物体を呑み込むために「使用」を使うことが出来る。これは、物体あるいは対象を傷つけることはない。もし、他次元界の空間が満杯なら、先に1つ以上の保管されている物体を取り除かない限り、物体をそれ以上、追加することは出来ない。</p>\n<p>対象は、選んだ一つの物体を吐き出すために「使用」を使って、その物体を対象の接敵面の地面に落下させることが出来る。対象は、立て続けに3回の「使用」を使うことで、その他次元界の保管庫の中身全てを吐き出すことが出来る。対象はこれらのアクションを同じ手番に行う必要はないが、間に何らかのアクションが挟み込まれたなら、やり直しになる。アイテムは対象の接敵面に吐き出されるが、もしあまりにも多すぎて適切ではない場合は、隣接した接敵面に落ちるかもしれない。</p>\n<p>呪文が終了するか、対象が気絶したなら、他次元界の保管庫は騒々しいへどの形で吐き出され、近隣の誰も占領していないマス目に落下する。それらは少し濡れているが、傷ついてはいない。</p>\n<hr />\n<p><strong>増強 (5th)</strong> 持続時間は8時間に増える</p>"
 		},
 		{
 			"id": "Brain Drain",
@@ -638,8 +638,8 @@
 		},
 		{
 			"id": "Chilling Darkness",
-			"name": "Chilling Darkness",
-			"description": "<p>You shoot an utterly cold ray of darkness tinged with unholy energy. Make a ranged spell attack against the target. You deal 5d6 cold damage, plus 5d6 evil damage if the target is a celestial.</p>\n<p>If the ray passes through an area of magical light or targets a creature affected by magical light, chilling darkness attempts to counteract the light. If you need to determine whether the ray passes through an area of light, draw a line between yourself and the spell's target.</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes double damage.</p>\n<p><strong>Success</strong> The target takes full damage.</p>\n<hr />\n<p><strong>増強 (+1)</strong> The cold damage increases by 2d6, and the evil damage against celestials increases by 2d6.</p>"
+			"name": "チリング・ダークネス",
+			"description": "<p>君は、邪悪なエネルギーを帯びた、冷たい闇の光線を放つ。対象に遠隔呪文攻撃を行う。君は5d6点の氷雪ダメージを与え、もし対象がセレスチャルであるなら、5d6点の悪ダメージを与える。</p>\n<p>もし、光線が魔法の光の範囲を通り抜けるか、対象が魔法の光に影響を受けているのなら、チリング・ダークネスは光を無効化しようと試みる。もし、光線が光の範囲を通り抜けるかどうか判断する必要がある場合は、君自身と呪文の対象の間に直線を引く。</p>\n<hr />\n<p><strong>クリティカル</strong> 対象は2倍のダメージを受ける</p>\n<p><strong>成功</strong> 対象は完全なダメージを受ける</p>\n<hr />\n<p><strong>増強 (+1)</strong> 氷雪ダメージは2d6点増え、セレスチャルに対する悪のダメージは2d6点増える</p>"
 		},
 		{
 			"id": "Chilling Spray",
@@ -673,13 +673,13 @@
 		},
 		{
 			"id": "Circle of Protection",
-			"name": "Circle of Protection",
-			"description": "<p>You ward a creature and those nearby against a specified alignment. Choose chaotic, evil, good, or lawful; this spell gains the opposing trait. Creatures in the area gain a +1 status bonus to AC against attacks by creatures of the chosen alignment and to saves against effects from such creatures. This bonus increases to +3 against effects from such creatures that directly control the target and attacks made by summoned creatures of the chosen alignment. Summoned creatures of the chosen alignment can't willingly enter the area without succeeding at a Will save; repeated attempts use the first save result.</p>\n<hr />\n<p><strong>増強 (4th)</strong> The duration increases to 1 hour.</p>"
+			"name": "サークル・オヴ・プロテクション",
+			"description": "<p>君はクリーチャーと近くに居る者たちを、特定の属性から守る。混沌、悪、善、秩序から1つを選ぶこと；この呪文はその対立属性の特性を得る。範囲内のクリーチャーは選んだ属性のクリーチャーからの攻撃に対するACと、そういったクリーチャーからの効果に対するセーヴに+1ステータス・ボーナスを得る。このボーナスは、対象を直接支配するその属性のクリーチャーと、選んだ属性の招来されたクリーチャーによる攻撃に対して+3に増える。選んだ属性の、招来されたクリーチャー意志セーヴに成功しなければ、範囲内に進んで入ることは出来ない；繰り返し試みても、最初のセーヴの結果を用いることになる。</p>\n<hr />\n<p><strong>増強 (4th)</strong> 持続時間は1時間になる</p>"
 		},
 		{
 			"id": "Claim Curse",
-			"name": "Claim Curse",
-			"description": "<p>By burning threads of fate around a target and then retying them to yourself instead, you temporarily draw their curse to you and offer them brief succor from the worst of its effects. Choose a curse affecting the target that you don't already have. For 5 minutes, you are affected by the curse (at the same stage as the target, if applicable), and the target isn't. When the duration ends, the curse's effects return to the target as normal.</p>"
+			"name": "クレーム・カース",
+			"description": "<p>対象の周囲にある運命の糸を燃やし、代わりに自分に結びつけることによって、君は一時的にその呪いを自分に引きつけ、その効果の最悪の部分を一時的に和らげる。君が既に影響を受けているもの以外の、対象に影響を与えている呪いを一つ、選ぶ。5分間、君はその呪いの影響を受ける（もし適用可能なら、対象と同じステージで）。対象は影響を受けない。持続時間が終了した後、通常通りに呪いの効果は対象に戻る。</p>"
 		},
 		{
 			"id": "Claim Undead",
@@ -688,8 +688,8 @@
 		},
 		{
 			"id": "Clairaudience",
-			"name": "Clairaudience",
-			"description": "<p>You create an @Compendium[pf2e.conditionitems.zJxUflt9np0q4yML]{Invisible} floating ear at a location within range (even if it's outside your line of sight or line of effect). It can't move, but you can hear through the ear as if using your normal auditory senses.</p>"
+			"name": "クレアオーディエンス",
+			"description": "<p>君は範囲内のある場所に@Compendium[pf2e.conditionitems.zJxUflt9np0q4yML]{不可視}の宙に浮かぶ耳を作り出す（たとえ、それが君から視線や効果線が通っていなくても）。それは移動することは出来ないが、君は通常の聴覚を用いているのと同じようにその耳を通して音を耳にすることが出来る。</p>"
 		},
 		{
 			"id": "Clairvoyance",
@@ -858,13 +858,13 @@
 		},
 		{
 			"id": "Cozy Cabin",
-			"name": "Cozy Cabin",
-			"description": "<p>You shape a cabin 20 feet on each side and 10 feet high. This cabin has the structure trait and the same restrictions as magic items that create structures. The walls of the hut are simple and wooden, with small, square glass windows, and it has one wooden door. It doesn't include its own @Compendium[pf2e.equipment-srd.q2TYVAMaK6UfenbV]{Lock}, but it has a fastener to which a Lock can be applied.</p>\n<p>The interior contains three cots, one chamber pot, and a small fireplace holding a magical fire. The interior is lit with a small magical light that you can light or extinguish at will using a single action, which has the concentrate trait. The climate inside the hut is comfortable and allows creatures inside it to withstand most hostile weather conditions, but incredible heat or cold, powerful storms, and winds of hurricane force or greater destroy the hut. Other creatures can freely enter and exit the hut without damaging it, but if you exit the hut, the spell ends. You can @Compendium[pf2e.actionspf2e.AjLSHZSWQ90exdLo]{Dismiss} the spell.</p>"
+			"name": "コージィ・キャビン",
+			"description": "<p>君は20フィート四方で高さ10フィートのキャビンを作る。このキャビンは構造物の特性を持ち、構造物の作成と同じ魔法のアイテムの制約を受ける。この小屋の壁は素朴で木製であり、小さな、四角形のガラス窓があり、一枚の木製の扉を持つ。この小屋にや独自の@Compendium[pf2e.equipment-srd.q2TYVAMaK6UfenbV]{錠前}はないが、錠前をつけることが出来るような留め具が一つある。</p>\n<p>T内部には3つの寝床、1つのトイレ、そして魔法の炎がついた小さな暖炉がある。屋内は、君が精神集中の特性を持つ単発アクションを使うことによって無制限に点灯することも消すことも出来る小さな魔法の明かりがある。小屋の中の気候は快適で、その中にいるクリーチャー達は最も敵対的な天候にも耐えることが出来るが、異例の暑さや寒さ、強力な嵐、ハリケーンの風といったもの以上の力は小屋を破壊する。その他のクリーチャー達は、ダメージを与えることなく自由に小屋に出入りすることが出来るが、君が小屋を出たなら呪文は終了する。君はこの呪文を@Compendium[pf2e.actionspf2e.AjLSHZSWQ90exdLo]{「解除」}することが出来る。</p>"
 		},
 		{
 			"id": "Crashing Wave",
-			"name": "Crashing Wave",
-			"description": "<p>You summon a crashing wave that sweeps away from you. You deal <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor=\"bludgeoning\" data-formula=\"6d6\" title=\"bludgeoning\"><i class=\"fas fa-dice-d20\"></i> 6d6</a> bludgeoning damage to creatures in the area. The water also extinguishes non-magical fires in the area.</p>\n<hr />\n<p><strong>増強 (+1)</strong> The damage increases by <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor=\"bludgeoning\" data-formula=\"2d6\" title=\"bludgeoning\"><i class=\"fas fa-dice-d20\"></i> 2d6</a>.</p>"
+			"name": "クラッシング・ウェイヴ",
+			"description": "<p>君は君から遠くへと押し寄せていく、砕ける波を召喚する。君は範囲内のクリーチャーに<a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor=\"bludgeoning\" data-formula=\"6d6\" title=\"bludgeoning\"><i class=\"fas fa-dice-d20\"></i> 6d6</a>点の殴打ダメージを与える。水はまた、範囲内の魔法のものではない火を消火する。</p>\n<hr />\n<p><strong>増強 (+1)</strong> ダメージは<a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor=\"bludgeoning\" data-formula=\"2d6\" title=\"bludgeoning\"><i class=\"fas fa-dice-d20\"></i> 2d6</a>点、増える</p>"
 		},
 		{
 			"id": "Create Demiplane",
@@ -893,8 +893,8 @@
 		},
 		{
 			"id": "Crisis of Faith",
-			"name": "Crisis of Faith",
-			"description": "<p>You assault the target's faith, riddling the creature with doubt and mental turmoil that deal 6d6 mental damage, or 6d8 mental damage if it can cast divine spells. The effects are determined by its Will save.</p>\n<p>To many deities, casting this spell on a follower of your own deity without significant cause is anathema.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage.</p>\n<p><strong>Failure</strong> The target takes full damage; if the target can cast divine spells, it's @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 round.</p>\n<p><strong>Critical Failure</strong> The target takes double damage, is @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 round, and can't cast divine spells for 1 round.</p>\n<hr />\n<p><strong>増強 (+1)</strong> The damage increases by 2d6 (or by 2d8 if the target is a divine spellcaster).</p>"
+			"name": "クライシス・オヴ・フェイス",
+			"description": "<p>君は対象の信仰を攻撃し、クリーチャーを疑心暗鬼と精神的混乱に陥れて6d6点の精神ダメージか、対象が信仰呪文を発動することが出来るなら、6d8点の精神ダメージを与える。効果は意志セーヴによって決定される。</p>\n<p>多くの神格にとって、自分の信じる神格の信者に重大な理由なくこの呪文を発動することは、破戒行為である。</p>\n<hr />\n<p><strong>クリティカル</strong> 対象は影響を受けない</p>\n<p><strong>成功</strong> 対象は半分のダメージを受ける</p>\n<p><strong>失敗</strong> T対象は完全なダメージを受ける；もし、対象が信仰呪文を発動することが出来るなら、1ラウンド、@Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{知性低下1}になる</p>\n<p><strong>ファンブル</strong> 対象は2倍のダメージを受け、1ラウンド、@Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{知性低下1}になる。そして、1ラウンド、信仰呪文を発動することが出来なくなる</p>\n<hr />\n<p><strong>増強 (+1)</strong> ダメージは2d6点（対象が信仰術者であるなら2d8点）上昇する</p>"
 		},
 		{
 			"id": "Crusade",
@@ -913,13 +913,13 @@
 		},
 		{
 			"id": "Cup of Dust",
-			"name": "Cup of Dust",
-			"description": "<p>You curse the target with a thirst no drink can quench. You can Dismiss the spell. The target must attempt a Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected and is temporarily immune for 1 hour.</p>\n<p><strong>Success</strong> The creature is @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Fatigued} for 1 round.</p>\n<p><strong>Failure</strong> The creature is immediately afflicted by thirst as if it hadn't had a drink in days. It becomes Fatigued and takes 1d4 damage each hour that can't be healed until it quenches its thirst. No amount of drinking can quench the creature's thirst during the spell's duration.</p>\n<p><strong>Critical Failure</strong> As failure but the creature takes 2d4 damage each hour, twice as much as usual for thirst.</p>\n<hr />\n<p><strong>増強 (+3)</strong> The thirst becomes more unbearable, increasing the damage each hour by 1d4, or by 2d4 on a critical failure.</p>"
+			"name": "カップ・オヴ・ダスト",
+			"description": "<p>君は対象に、いかなる飲み物でも癒すことの出来ない渇きという呪いをかける。君はこの呪文を「解除」することが出来る。対象は頑健セーヴを試みなくてはならない。</p>\n<hr />\n<p><strong>クリティカル</strong> クリーチャーは影響を受けず、1時間、一時的完全耐性を得る</p>\n<p><strong>成功</strong> クリーチャーは1ラウンド、@Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{疲労状態}になる</p>\n<p><strong>失敗</strong> クリーチャーは即座に、何日も飲んでいなかったかのように渇きに影響を受ける。対象は疲労状態となり、渇きを癒すまで治癒することの出来ない1d4点のダメージを毎時間、受ける。飲み物を口にしても、この呪文の持続時間の間、クリーチャーの渇きは癒されることはない。</p>\n<p><strong>ファンブル</strong> 失敗と同じだが、クリーチャーは毎時間、2d4点のダメージを受ける。これは、渇きの通常のルールの2倍である。</p>\n<hr />\n<p><strong>増強 (+3)</strong> 渇きは、より耐えがたいものになり、毎時間受けるダメージは1d4点、ファンブル時のダメージは2d4点ずつ増える。</p>"
 		},
 		{
 			"id": "Curse Of Lost Time",
-			"name": "Curse Of Lost Time",
-			"description": "<p>You mimic the process of aging or erosion on the target. The effect depends on whether the target is an object, a construct, or a living creature. Artifacts and objects and constructs made of precious materials, as determined by the GM, are immune.</p>\n<hr />\n<p><strong>• Object</strong> If the object is attended, its bearer can attempt a Fortitude save. If the bearer fails or the object is unattended, the object immediately takes [[/r 4d6]] damage (applying Hardness normally) and the item is cursed with an unlimited duration. Until the curse ends, the item becomes shoddy and can't be @Compendium[pf2e.actionspf2e.bT3skovyLUtP22ME]{Repaired}, and the curse attempts to counteract any spell that would restore the object's Hit Points. <em>@Compendium[pf2e.spells-srd.OyFCwQuw8XRazsNr]{Remove Curse}</em> can target an item affected by this spell.</p>\n<p><strong>• Construct</strong> The construct takes [[/r 4d6]] damage (basic Fortitude save). On a failure, for 1 hour the construct is @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 1}, is @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 1}, and can't be Repaired, and the curse attempts to counteract any spell that would restore the construct's Hit Points. On a critical failure, these effects have an unlimited duration.</p>\n<p><strong>• Living Creature</strong> The living creature must attempt a Fortitude save. Ageless creatures are immune.</p>\n<hr />\n<p><strong>Critical Success</strong> The living creature is unaffected.</p>\n<p><strong>Success</strong> The living creature briefly ages, becoming @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 1} and @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 1} for 1 round.</p>\n<p><strong>Failure</strong> As success, with a duration of 1 hour.</p>\n<p><strong>Critical Failure</strong> As success, with an unlimited duration.</p>\n<hr />\n<p><strong>増強 (+1)</strong> The damage increases by [[/r 1d6]].</p>"
+			"name": "カース・オヴ・ロスト・タイム",
+			"description": "<p>君は対象の老化あるいは風化の過程を真似る。この効果は、対象が物体であるのか、人造であるか、生きているクリーチャーであるかによって異なる。アーティファクト、稀少素材で作られた物体や人造はGMの裁量によるが、完全耐性を持つ。</p>\n<hr />\n<p><strong>• 物体</strong> もし、物体が誰かに所有されているのなら、その着用者は頑健セーヴを試みることが出来る。もし、着用者が失敗するか、物体が誰にも所有されていないのなら、その物体は即座に[[/r 4d6]]点のダメージを受け（通常通りに硬度を適用すること）、そのアイテムは無期限の持続時間で呪われる。呪いが終了するまで、そのアイテムは粗悪品となり、@Compendium[pf2e.actionspf2e.bT3skovyLUtP22ME]{修理}することが出来ず、呪いはその物体のヒットポイントを回復するであろう全ての呪文を無効化しようとする。<em>@Compendium[pf2e.spells-srd.OyFCwQuw8XRazsNr]{リムーヴ・カース}</em>はこの呪文によって影響を受けているアイテムを対象に取ることが出来る。</p>\n<p><strong>• 人造</strong> 人造は[[/r 4d6]]点のダメージを受ける（基本頑健セーヴ）。失敗時に、1時間の間、人造は@Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{もたつき1}、@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱1}になり、「修理」することは出来ず、この呪いは人造のヒットポイントを回復しようとするあらゆる呪文を無効化しようとする。ファンブル時、これらの効果は無期限の持続時間を持つ。</p>\n<p><strong>• 生きているクリーチャー</strong> 生きているクリーチャーは頑健セーヴを試みなくてはならない。加齢しないクリーチャーは完全耐性を持つ。</p>\n<hr />\n<p><strong>クリティカル</strong> 生きているクリーチャーは影響を受けない。</p>\n<p><strong>成功</strong> 生きているクリーチャーは少しだけ老化し、1ラウンド、@Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{もたつき1}かつ@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱1}になる。</p>\n<p><strong>失敗</strong> 成功と同じだが、無期限の持続時間を持つ。</p>\n<hr />\n<p><strong>増強 (+1)</strong> ダメージは[[/r 1d6]]点上昇する。</p>"
 		},
 		{
 			"id": "Curse of Death",
@@ -958,8 +958,8 @@
 		},
 		{
 			"id": "Day's Weight",
-			"name": "Day's Weight",
-			"description": "<p>You fast-forward time for a single creature, burdening it with the aches and pain of an entire day and making it temporarily tired and weak. The creature must attempt a Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Fatigued} and @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 1} for 1 round.</p>\n<p><strong>Failure</strong> The target is fatigued and enfeebled 1 for the duration.</p>\n<p><strong>Critical Failure</strong> The target is fatigued and @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 2} for the duration. The fatigued condition doesn't end when the spell's duration does (but can still be removed with a night's rest or by similar means).</p>\n<hr />\n<p><strong>増強 (6th)</strong> You can target up to 10 creatures.</p>"
+			"name": "デイズ・ウェイト",
+			"description": "<p>君は、1体のクリーチャーの時間を早め、丸1日分の痛みと苦痛を背負わせ、一時的に疲れさせ、弱くさせることが出来る。そのクリーチャーは頑健セーヴを試みなくてはならない。</p>\n<hr />\n<p><strong>クリティカル</strong> 対象は影響を受けない</p>\n<p><strong>成功</strong> 対象は 1ラウンド、@Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{疲労状態} かつ @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱1}になる</p>\n<p><strong>失敗</strong> 対象は持続時間の間、疲労かつ衰弱1になる</p>\n<p><strong>ファンブル</strong> 対象は持続時間の間、疲労かつ@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱2}になる。疲労状態は、呪文の持続時間が終了しても終了しない（一晩の休息か、似たような手段で取り除くことは出来る）</p>\n<hr />\n<p><strong>増強 (6th)</strong> 君は10体までのクリーチャーを対象にすることが出来る</p>"
 		},
 		{
 			"id": "Daydreamer's Curse",
@@ -1118,8 +1118,8 @@
 		},
 		{
 			"id": "Distracting Chatter",
-			"name": "Distracting Chatter",
-			"description": "<p>You bombard a target with distracting auditory illusions, surrounding them with a tumultuous cacophony of overlapping speech, whispers, screams, and muttering. The target is @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed}, takes a -2 status penalty to purely auditory Perception checks, and must succeed at a <span data-pf2-check=\"flat\" data-pf2-dc=\"5\">DC 5 flat check</span> to use auditory abilities or verbal spell components. Similarly, a creature who attempts to affect the target with an auditory effect must succeed at a DC 5 flat check or the attempt fails. The duration depends on the target's Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The duration is 1 round.</p>\n<p><strong>Failure</strong> The duration is 3 rounds.</p>\n<p><strong>Critical Failure</strong> The duration is 1 minute.</p>\n<hr />\n<p><strong>増強 (7th)</strong> You can target up to five creatures.</p>"
+			"name": "ディストラクティング・チャッター",
+			"description": "<p>君は対象に気が散るような幻聴を浴びせ、重なり合う話し声、ささやき声、叫び声、つぶやきなどの騒々しい不協和音でターゲットを取り囲む。対象は@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{立ちすくみ}となり、純粋に聴覚による知覚判定に-2のステータス・ペナルティを受け、聴覚による能力や呪文の言語要素を使用するのに、<span data-pf2-check=\"flat\" data-pf2-dc=\"5\">DC 5の平目判定</span>に成功しなければならない。同様に、聴覚的な効果で対象に影響を与えようとするクリーチャーは、DC 5の平目判定に成功しなければその試みは失敗する。持続時間は対象の意志セーヴによって異なる。/p>\n<hr />\n<p><strong>クリティカル</strong> クリーチャーは影響を受けない</p>\n<p><strong>成功</strong> 持続時間は1ラウンドである</p>\n<p><strong>失敗</strong> 持続時間は3ラウンドである</p>\n<p><strong>ファンブル</strong> 持続時間は1分である</p>\n<hr />\n<p><strong>増強 (7th)</strong> 君は5体までのクリーチャーを対象にすることが出来る</p>"
 		},
 		{
 			"id": "Div Pact",
@@ -1308,8 +1308,8 @@
 		},
 		{
 			"id": "Dream Message",
-			"name": "Dream Message",
-			"description": "<p>You send a message to your target's dream. The message is one-way, up to 1 minute of speech (roughly 150 words). If the target is asleep, they receive the message instantly. If not, they receive it the next time they sleep. As soon as they receive it, the spell ends, and you know the message was sent.</p>\n<hr />\n<p><strong>増強 (4th)</strong> You can target up to 10 creatures you know by name and have met in person. You must send the same message to all of them; the spell ends for each creature individually.</p>"
+			"name": "ドリーム・メッセージ",
+			"description": "<p>君は対象の夢にメッセージを送る。メッセージは一方通行で、1分間までの発話形式である（おおむね150ワード）。もし対象が眠っているなら、対象はメッセージを即座に受け取る。もしそうでないなら、対象は次に眠ったときにメッセージを受け取る。メッセージを受け取ったらすぐに呪文は終了し、君はメッセージが送信されたことを知る。</p>\n<hr />\n<p><strong>増強 (4th)</strong> 君は名前を知っており、個人的に会ったことがあるクリーチャーを10体まで対象にすることが出来る。君は彼ら全員に同じメッセージを送らなくてはならない。呪文はそれぞれのクリーチャーに対して個別に終了する。</p>"
 		},
 		{
 			"id": "Dreaming Potential",
@@ -1348,8 +1348,8 @@
 		},
 		{
 			"id": "Earthbind",
-			"name": "Earthbind",
-			"description": "<p>Using the weight of earth, you hamper a target's flight, with effects based on its Fortitude save. If the creature reaches the ground safely, it doesn't take falling damage.</p>\n<hr /><strong>Critical Success</strong> The target is unaffected.\n<p><strong>Success</strong> The target falls safely up to 120 feet.</p>\n<p><strong>Failure</strong> The target falls safely up to 120 feet. If it hits the ground, it can't Fly, levitate, or otherwise leave the ground for 1 round.</p>\n<p><strong>Critical Failure</strong> The target falls safely up to 120 feet. If it hits the ground, it can't Fly, levitate, or otherwise leave the ground for 1 minute.</p>"
+			"name": "アースバインド",
+			"description": "<p>大地の重さを利用し、君は対象の飛行を阻害する。その効果は頑健セーヴに基づく。もしクリーチャーが地面に安全に到着したなら、落下のダメージを受けない。</p>\n<hr /><strong>クリティカル</strong> 対象は影響を受けない\n<p><strong>成功</strong> 対象は120フィートまで安全に落下する。</p>\n<p><strong>失敗</strong> 対象は120フィートまで安全に落下する。もし地面に当たったなら、そのクリーチャーは1ラウンド、「飛行」、浮遊、その他の手段によって地面を離れることが出来ない。</p>\n<p><strong>ファンブル</strong> 対象は120フィートまで安全に落下する。もし地面に当たったなら、そのクリーチャーは1分間、「飛行」、浮遊、その他の手段によって地面を離れることが出来ない。</p>"
 		},
 		{
 			"id": "Earthquake",
@@ -1403,13 +1403,13 @@
 		},
 		{
 			"id": "Elemental Absorption",
-			"name": "Elemental Absorption",
-			"description": "<p>You absorb elemental energy, which you can release as a powerful counterattack. Choose air, earth, fire, or water. You gain resistance 5 to damage dealt by effects with the chosen elemental trait; if you choose water, you also gain resistance to cold damage. As usual, if a spell has a multiple effects, such as a spell that deals both fire damage and bludgeoning damage with superheated rocks, you gain resistance to only the effects associated with the element you chose. Keep track of how much damage you have prevented with this spell.</p>\n<p>As a 2-action activity, which has the concentrate trait and the trait matching the element you chose, you can release the stored energy. This deals damage equal to the amount you've stored (maximum 30 damage) to one enemy within 60 feet, with a basic Reflex save. The damage type depends on the element you chose: fire damage for fire; bludgeoning or cold damage for water; bludgeoning or slashing damage for air; or bludgeoning, piercing, or slashing damage for earth. After releasing the energy, the spell ends. If you do not use the stored energy before the spell ends, the energy is lost.<br />@Compendium[pf2e.spell-effects.nfQAqTSVHcA2JSyI]{Spell Effect: Elemental Absorption (Air)}<br />@Compendium[pf2e.spell-effects.E6HPkpvzvkaJ49c0]{Spell Effect: Elemental Absorption (Earth)}<br />@Compendium[pf2e.spell-effects.VAJMojQATvpAcpQW]{Spell Effect: Elemental Absorption (Fire)}<br />@Compendium[pf2e.spell-effects.n3gkkiOcLcSHxAah]{Spell Effect: Elemental Absorption (Water)}</p>\n<hr />\n<p><strong>増強 (+3)</strong> The resistance increases by 5 and the maximum damage increases by 30.</p>"
+			"name": "エレメンタル・アブソープション",
+			"description": "<p>君は元素のエネルギーを吸収し、それを強力な反撃として解き放つことが出来る。風、地、火、水から1つを選ぶこと。君は選んだエレメンタルの特性を持つ効果によって与えられたダメージに、抵抗5を得る；もし、水を選んだなら、君は氷雪ダメージへの抵抗をも得る。通常通り、もし、ある呪文が複数の効果を持つなら、例えば、過剰に熱せられた岩石によって火炎ダメージと打撃ダメージを与える呪文については、君は選んだ元素に関連する効果に対してのみ、抵抗を得る。君がこの呪文で幾つのダメージを防いだのかを、記録しておくこと。</p>\n<p>精神集中の特性と、君が選んだ元素に応じた特性を持つ2アクションの連続行動として、君は保存したエネルギーを放つことが出来る。これは、君が保存したエネルギーの等しい（最大値で30点のダメージ）に等しいダメージを、基本反応セーヴを伴って60フィート以内の敵に与える。ダメージ種別は、君が選んだ元素の種別によって異なる；火なら火炎ダメージ；水なら殴打ダメージあるいは氷雪ダメージ；風なら殴打ダメージあるいは斬撃ダメージ；地なら殴打ダメージ、刺突ダメージあるいは斬撃ダメージ。エネルギーを解放した後、呪文は終了する。もし、呪文が終了する前に保存したエネルギーを使わないなら、エネルギーは失われる。<br />@Compendium[pf2e.spell-effects.nfQAqTSVHcA2JSyI]{呪文効果: エレメンタル・アブソープション (風)}<br />@Compendium[pf2e.spell-effects.E6HPkpvzvkaJ49c0]{呪文効果: エレメンタル・アブソープション (地)}<br />@Compendium[pf2e.spell-effects.VAJMojQATvpAcpQW]{呪文効果: エレメンタル・アブソープション (火)}<br />@Compendium[pf2e.spell-effects.n3gkkiOcLcSHxAah]{呪文効果: エレメンタル・アブソープション (水)}</p>\n<hr />\n<p><strong>増強 (+3)</strong> 抵抗は5点増え、最大ダメージは30点増える</p>"
 		},
 		{
 			"id": "Elemental Annihilation Wave",
-			"name": "Elemental Annihilation Wave",
-			"description": "<p>You draw elemental power from your surroundings, and combining it with your own magical energy, unleash a wave of utter destruction and swirling colors that deals 1d6 fire damage and 3d6 bludgeoning damage with a basic Reflex save. The number of actions you spend when Casting this Spell determines the area and other parameters.</p>\n<p><span class=\"pf2-icon\">2</span> <strong>(somatic, verbal)</strong> The spell is a 30-foot cone.</p>\n<p><span class=\"pf2-icon\">3</span> <strong>(material, somatic, verbal)</strong> The spell is a 30-foot cone. On a failed saving throw, creatures are pushed 5 feet away from you, and on a critical failure they are pushed 10 feet away and are knocked prone.</p>\n<p><strong>Two Rounds</strong> If you spend 3 actions Casting the Spell, you can avoid finishing the spell and spend another 3 actions on your next turn to empower the spell even further. If you do, the spell is as 3 actions, but the area is a <span data-pf2-effect-area=\"cone\" data-pf2-distance=\"60\">60-foot cone</span>, and for 1 round, the elements linger in the cone, racing off into the distance and making approaching you difficult, with the effects of gust of wind.</p>\n<hr />\n<p><strong>増強 (+2)</strong> The damage increases by 2d6, and the distance that enemies are pushed back if you spent 3 actions or 2 rounds increases by 5 feet on a failed save and 10 feet on a critical failure.</p>"
+			"name": "エレメンタル・アニヒレーション・ウェイヴ",
+			"description": "<p>君は周囲から元素の力を引き出し、それを自分自身の魔法のエネルギーと組み合わせて、完全な破壊と波と渦巻く色彩を解き放ち、基本反応セーヴを伴う1d6点の火炎ダメージと3d6点の殴打ダメージを与える。君が「呪文の発動」の際に消費したアクション数が、範囲とそのほかのパラメータを決定する。</p>\n<p><span class=\"pf2-icon\">2</span> <strong>(動作、音声)</strong> この呪文は30フィート円錐である</p>\n<p><span class=\"pf2-icon\">3</span> <strong>(物質、動作、音声)</strong> この呪文は30フィート円錐である。セーヴィング・スロー失敗時、クリーチャーは君から5フィート押しやられ、ファンブル時、クリーチャーは君から10フィート押しやられて伏せ状態になる</p>\n<p><strong>2ラウンド</strong> 君が3アクションの「呪文の発動」を使ったなら、君は呪文を完了させずに、次の手番に追加で3アクション消費して更に呪文に力を与えることが出来る。もしそうしたなら、この呪文は3アクションと同じだが、範囲は<span data-pf2-effect-area=\"cone\" data-pf2-distance=\"60\">60フィート円錐</span>になり、1ラウンドの間、元素は円錐内に留まり、遠くに向かって駆け抜け、君に近づくことを困難にする。これは、ガスト・オヴ・ウィンドの効果である。 </p>\n<hr />\n<p><strong>増強 (+2)</strong> ダメージは2d6点上昇し、3アクションあるいは2ラウンドを消費した際に敵が押しやられる距離は失敗時に5フィート、ファンブル時に10フィート増える</p>"
 		},
 		{
 			"id": "Elemental Betrayal",
@@ -1528,8 +1528,8 @@
 		},
 		{
 			"id": "Enthrall",
-			"name": "Enthrall",
-			"description": "<p>Your words fascinate your targets. You speak or sing without interruption throughout the casting and duration. Targets who notice your speech or song might give their undivided attention; each target must attempt a Will save. The GM might grant a circumstance bonus (to a maximum of +4) if the target is of an opposing religion, ancestry, or political leaning, or is otherwise unlikely to agree with what you're saying.</p>\n<p>Each creature that comes within range has to attempt a save when you Sustain the Spell. If you're speaking, enthrall gains the linguistic trait.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and notices that you tried to use magic.</p>\n<p><strong>Success</strong> The target needn't pay attention but doesn't notice you tried to use magic (it might notice others are enthralled).</p>\n<p><strong>Failure</strong> The target is @Compendium[pf2e.conditionitems.AdPVz7rbaVSRxHFg]{Fascinated} with you. It can attempt another Will save if it witnesses actions or speech with which it disagrees. If it succeeds, it's no longer Fascinated and is temporarily immune for 1 hour. If the target is subject to a hostile act, or if another creature succeeds at a Diplomacy or Intimidation check against it, the fascination ends immediately.</p>\n<p><strong>Critical Failure</strong> As failure, but the target can't attempt a save to end the fascination if it disagrees with you.</p>"
+			"name": "エンスロール",
+			"description": "<p>君の言葉は対象を魅了する。君は発動時間と持続時間の間中、阻まれることなく話すか、あるいは歌う。君の話か歌に気付いた対象は、一心の注意を君に注ぐかも知れない；それぞれの対象は意志セーヴを試みなくてはならない。GMは、もし対象が対立する宗教、祖先、政治的な学び、あるいは君が言っていることに同意しないであろう何かを持っているのなら、状況ボーナス（最大で+4）を与えるかもしれない。</p>\n<p>距離内に入ってきたそれぞれのクリーチャーは君が「呪文の維持」をした際にセーヴを試みなくてはならない。もし、君が話をしているなら、エンスロールは言語の特性を得る。</p>\n<hr />\n<p><strong>クリティカル</strong> 対象は影響を受けず、君が魔法を使用しようとしていることに気がつく</p>\n<p><strong>成功</strong> 対象は注意を払わなかったが、君が魔法を使用しようとしていることに気がつかない（他人がエンスロールされていることには気がつくかもしれない）</p>\n<p><strong>失敗</strong> 対象は君に@Compendium[pf2e.conditionitems.AdPVz7rbaVSRxHFg]{恍惚}になる。対象は、合意できない行動や言動を目撃した場合、再度、意志セーヴを試みることが出来る。成功するともはや恍惚状態ではなくなり、1時間、一時的完全耐性を得る。もし対象が敵対的行動の対象となるか、別のクリーチャーがそのクリーチャーに対する〈交渉〉あるいは〈威圧〉に成功したなら、恍惚状態は即座に終了する</p>\n<p><strong>ファンブル</strong> 失敗と同じだが、対象は君の合意できない行動や言動を目撃しても、恍惚状態を終わらせるためのセーヴを試みることが出来ない</p>"
 		},
 		{
 			"id": "Entrancing Eyes",
@@ -1538,8 +1538,8 @@
 		},
 		{
 			"id": "Envenom Companion",
-			"name": "Envenom Companion",
-			"description": "<p>You envenom your companion or eidolon's attacks, which drip with highly toxic venom for the spell's duration. The first time each round the target hits a creature with an unarmed Strike that deals piercing or slashing damage, that Strike deals an additional 1d8 poison damage. A creature that is damaged by this poison must attempt a Fortitude save. On a failure, it's also @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 1} for 1 round. This spell can't target familiars.</p>\n<p>@Compendium[pf2e.spell-effects.zPGVOLz6xhsQN35C]{Spell Effect: Envenom Companion}</p>\n<hr />\n<p><strong>増強 (+3)</strong> The poison damage increases by 1d8 and the clumsy value imposed on a failed save increases by 1.</p>"
+			"name": "エンヴェノム・コンパニオン",
+			"description": "<p>君は相棒か幻獣の攻撃に毒を付加する。これは、呪文の持続時間の間、非常に毒性の高い毒を滴らせる。毎ラウンド、最初に対象が刺突あるいは斬撃ダメージを与える素手「打撃」でクリーチャーに攻撃を命中させた際、その「打撃」は追加で1d8点の毒ダメージを与える。この毒でダメージを受けたクリーチャーは頑健セーヴを試みなくてはならない。失敗時、そのクリーチャーは1ラウンド、@Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{もたつき 1}になる。この呪文は使い魔を対象にすることは出来ない。</p>\n<p>@Compendium[pf2e.spell-effects.zPGVOLz6xhsQN35C]{呪文効果: エンヴェノム・コンパニオン}</p>\n<hr />\n<p><strong>増強 (+3)</strong> 毒ダメージは1d8点増加し、セーヴ失敗時に適用されるもたつき値は1増える</p>"
 		},
 		{
 			"id": "Ephemeral Hazards",
@@ -1648,8 +1648,8 @@
 		},
 		{
 			"id": "Familiar's Face",
-			"name": "Familiar's Face",
-			"description": "<p>The target becomes a scrying sensor, allowing you to see through its eyes, smell what it smells, and similarly use its other senses. If you can cast a spell with the revelation trait that affects your senses, such as <em>@Compendium[pf2e.spells-srd.jwK43yKsHTkJQvQ9]{See Invisibility}</em>, while this spell is active, you gain the benefit of the spell through the target's senses instead of your own. You can also speak through the target, with a voice much like yours, though it takes on some of the timbre and character of the target's growls or squawks. You can use @Compendium[pf2e.actionspf2e.q9nbyIF0PEBqMtYe]{Command an Animal} on the target as part of @Compendium[pf2e.actionspf2e.3f5DMFu8fPiqHpRg]{Sustaining this Spell}. You don't need line of sight or line of effect to your target when you @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Cast this Spell}.</p>"
+			"name": "ファミリアズ・フェイス",
+			"description": "<p>対象は念視の感覚器官となり、その目を通じて君はものを見て、対象が嗅いだものを嗅ぎ、似たようにその他の感覚を使うことができる。もし、君が<em>@Compendium[pf2e.spells-srd.jwK43yKsHTkJQvQ9]{シー・インヴィジビリティ}</em>のような自分の感覚に影響を与える暴露特性を持つ呪文を発動したなら、この呪文が起動している間、君は自分自身ではなく対象の感覚を通じて呪文の利益を得る。君はまた、対象を通じて発話することが出来る。その声は君のものに非常に似ているが、対象のうなり声や鳴き声の音色や特徴の一部を受け継ぐ。この@Compendium[pf2e.actionspf2e.3f5DMFu8fPiqHpRg]{「呪文の維持」}をする際に、対象の動物にその一部として@Compendium[pf2e.actionspf2e.q9nbyIF0PEBqMtYe]{「動物使い」}をすることが出来る。この@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{「呪文の発動」}をする際に、対象への視線や効果線が通っている必要は無い。</p>"
 		},
 		{
 			"id": "Fantastic Facade",
@@ -1688,8 +1688,8 @@
 		},
 		{
 			"id": "Feet to Fins",
-			"name": "Feet to Fins",
-			"description": "<p>The target's feet transform into fins, improving mobility in the water but reducing it on land. The target gains a swim Speed equal to its normal land Speed, but its land Speed becomes 5 feet.</p>\n<hr />\n<p><strong>増強 (6th)</strong> The spell lasts until the next time you make your daily preparations.</p>"
+			"name": "フィート・トゥ・フィンズ",
+			"description": "<p>対象の足はヒレへと変化し、水中での動きはよくなるが、地上では動けなくなる。対象は通常の地上速度に等しい水泳速度を得るが、その地上速度は5フィートになる。</p>\n<hr />\n<p><strong>増強 (6th)</strong> この呪文は君が次の一日の準備をするまで持続する</p>"
 		},
 		{
 			"id": "Feral Shades",
@@ -1753,8 +1753,8 @@
 		},
 		{
 			"id": "Fireball",
-			"name": "Fireball",
-			"description": "<p>A roaring blast of fire appears at a spot you designate, dealing 6d6 fire damage.</p>\n<hr />\n<p><strong>増強 (+1)</strong> The damage increases by 2d6.</p>"
+			"name": "ファイアボール",
+			"description": "<p>うなりをあげる炎の爆発が君の指定した地点に現れ、6d6点の火炎ダメージを与える。</p>\n<hr />\n<p><strong>増強 (+1)</strong> ダメージは2d6点上昇する</p>"
 		},
 		{
 			"id": "Flame Barrier",
@@ -1902,9 +1902,9 @@
 			"description": "<p>The target transforms into a vaporous state. In this state, the target is amorphous. It loses any item bonus to AC and all other effects and bonuses from armor, and it uses its proficiency modifier for unarmored defense. It gains resistance 8 to physical damage and is immune to precision damage. It can't cast spells, activate items, or use actions that have the attack or manipulate trait. It gains a fly Speed of 10 feet and can slip through tiny cracks. The target can Dismiss the spell.</p>\n<p>@Compendium[pf2e.spell-effects.sILRkGTwoBywy0BU]{Spell Effect: Gaseous Form}</p>"
 		},
 		{
-			"id": "Gasping March",
-			"name": "Gasping March",
-			"description": "<p>With a rattling hiss, you create a quickly evaporating mist of invisible poisonous marsh gas to smother creatures in the area. When you Sustain the Spell, the mist dissipates completely from the previous area, and you can select a new area within range to fill with the mist. If you don't Sustain the Spell, the mist dissipates and the spell ends.</p>\n<p>You deal 4d6 poison damage to each breathing creature that starts its turn in the area. Each affected creature must attempt a Fortitude save.</p>\n<p>The creature is then temporarily immune to <em>gasping marsh</em> for 1 minute.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage, is @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 2}, and takes [[/r {1d8}[persistent,poison]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Poison Damage}.</p>"
+			"id": "Gasping Marsh",
+			"name": "ガスピング・マーシュ",
+			"description": "<p>活発なシュー、シューという音と共に、君は、範囲内のクリーチャーを窒息させる目に見えない毒の霧を素早く発生させる。君が「呪文の維持」をする際、霧は以前の範囲から完全に消え失せる。そして、君は霧で満たす、距離内の新しい範囲を選ぶことが出来る。君が「呪文の維持」をしないなら、霧は消え失せて呪文は終了する。</p>\n<p>君は範囲内で手番を開始する、呼吸をするクリーチャーそれぞれに4d6点の毒ダメージを与える。影響を受けているクリーチャーそれぞれが頑健セーヴを試みなくてはならない。</p>\n<p>クリーチャーは、それから、1分間、<em>ガスピング・マーシュ</em>に一時的耐性を得る。</p>\n<hr />\n<p><strong>クリティカル</strong> クリーチャーは影響を受けない</p>\n<p><strong>成功</strong> クリーチャーは半分のダメージを受ける</p>\n<p><strong>失敗</strong> クリーチャーは完全なダメージを受け、@Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{不調1}になる</p>\n<p><strong>ファンブル</strong> クリーチャーは2倍のダメージを受け@Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{不調2}になり、[[/r {1d8}[継続、毒]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続毒ダメージ}を受ける</p>"
 		},
 		{
 			"id": "Gate",
@@ -1943,8 +1943,8 @@
 		},
 		{
 			"id": "Ghostly Weapon",
-			"name": "Ghostly Weapon",
-			"description": "<p>The target weapon becomes translucent and ghostly, and it can affect material and incorporeal creatures and objects. It can be wielded by a corporeal or incorporeal creature and gains the effects of the ghost touch property rune.</p>"
+			"name": "ゴーストリィ・ウェポン",
+			"description": "<p>対象の武器は透明で幽霊めいたものになり、物体と非実体のクリーチャー及び非実体の物体に影響を与えることが出来るようになる。この武器は実体と非実体のクリーチャーが使うことが出来て、ゴースト・タッチの属性ルーンの効果を得る。</p>"
 		},
 		{
 			"id": "Ghoulish Cravings",
@@ -1993,8 +1993,8 @@
 		},
 		{
 			"id": "Glyph of Warding",
-			"name": "Glyph of Warding",
-			"description": "<p>You craft a trap by binding a hostile spell into a symbol. While Casting this Spell, you also Cast a Spell of a lower spell level to store in the glyph. The stored spell must take 3 actions or fewer to cast, have a hostile effect, and target one creature or have an area. You can set a password, a trigger, or both for the glyph. Any creature that moves, opens, or touches the target container or enters the target area that doesn't speak the password or that matches the trigger activates the glyph, releasing the harmful spell within.</p>\n<p>Once a spell is stored in the glyph, the glyph gains all the traits of that spell. If the stored spell targets one or more creatures, it targets the creature that set off the glyph. If it has an area, that area is centered on the creature that set off the glyph. Glyph of warding's duration ends when the glyph is triggered. The glyph counts as a magical trap, using your spell DC for both the Perception check to notice it and the Thievery check to disable it; both checks require the creature attempting them to be trained in order to succeed.</p>\n<p>You can Dismiss glyph of warding. The maximum number of glyphs of warding you can have active at a time is equal to your spellcasting ability modifier.</p>"
+			"name": "グリフ・オヴ・ウォーディング",
+			"description": "<p>君は敵対的な呪文をシンボルへと結びつけて罠を作ることが出来る。この「呪文の発動」をしている間、君はこれよりもレベルの低い「呪文の発動」をしてグリフに格納する。格納される呪文は、3アクション以下で発動することが出来て、敵対的な効果を与え、1体のクリーチャーあるいは範囲を対象にするものでなければならない。君はパスワード、トリガー、あるいはその両方をグリフに設定することが出来る。対象の入れ物を移動させる、開ける、あるいは触れたクリーチャーや対象の範囲に入ってパスワードを話さなかった、あるいはトリガーを満たしたクリーチャーはグリフを起動し、中に入っている有害な呪文を解き放つ。</p>\n<p>呪文がグリフの中に保管されたなら、グリフはその呪文の特性全てを持つ。もし、保管された呪文が1体以上のクリーチャーを対象とするなら、その呪文はグリフを起動したクリーチャーを対象とする。もし範囲があるなら、その範囲はグリフを起動したクリーチャーを中心とする。グリフ・オヴ・ウォーディングの持続時間は、グリフが起動した際に終了する。グリフは魔法の罠とみなされ、知覚判定及び無力化のための〈窃盗〉判定の双方に君の呪文DCを使う；双方の判定とも、成功するためには試みているクリーチャーが修得でなければならない。</p>\n<p>君はグリフ・オヴ・ウォーディングを「解除」することが出来る。君が起動しておけるグリフ・オヴ・ウォーディングの最大値は、君の呪文発動能力の修正値に等しい。</p>"
 		},
 		{
 			"id": "Goodberry",
@@ -2023,8 +2023,8 @@
 		},
 		{
 			"id": "Gravity Well",
-			"name": "Gravity Well",
-			"description": "<p>You create a sphere of altered gravity. All creatures and unsecured objects in the area move towards the center, depending on their Reflex saving throws. This follows the rules for forced movement. If there's not enough space near the center of the sphere, creatures and objects nearer to the center move first, and others move as far as they can without being blocked, up to the amount set by their saving throw outcomes.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature moves 5 feet toward the center.</p>\n<p><strong>Failure</strong> The creature moves 15 feet toward the center.</p>\n<p><strong>Critical Failure</strong> The creature moves 30 feet toward the center.</p>"
+			"name": "グラヴィティ・ウェル",
+			"description": "<p>君は重力変化の球体を作り出す。範囲内の全てのクリーチャーと固定されていない物体は、反応セーヴに基づいて中央に向かって引き寄せられる。これは、強制移動のルールに従う。もし、球体中心付近に十分な空間がないなら、中心に近いクリーチャーと物体が最初に移動し、妨げられること移動できる限りにおいてその他のクリーチャーと物体は移動するが、その移動量はセーヴィング・スロー結果による。</p>\n<hr />\n<p><strong>クリティカル</strong> クリーチャーは影響を受けない</p>\n<p><strong>成功</strong> クリーチャーは中央に向かって5フィート移動する</p>\n<p><strong>失敗</strong> クリーチャーは中央に向かって15フィート移動する</p>\n<p><strong>ファンブル</strong> クリーチャーは中央に向かって30フィート移動する</p>"
 		},
 		{
 			"id": "Gray Shadow",
@@ -2073,8 +2073,8 @@
 		},
 		{
 			"id": "Haste",
-			"name": "Haste",
-			"description": "<p>Magic empowers the target to act faster. It gains the @Compendium[pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Quickened} condition and can use the extra action each round only for Strike and Stride actions.</p>\n<hr />\n<p><strong>増強 (7th)</strong> You can target up to 6 creatures.</p>"
+			"name": "ヘイスト",
+			"description": "<p>魔法が対象に力を与えて素早く行動させる。対象は@Compendium[pf2e.conditionitems.nlCjDvLMf2EkV2dl]{高速化}状態を得て、毎ラウンド、「打撃」および「歩行」アクションにのみその追加アクションを使うことができる。</p>\n<hr />\n<p><strong>増強 (7th)</strong> 君は6体までのクリーチャーを対象にすることが出来る</p>"
 		},
 		{
 			"id": "Hasted Assault",
@@ -2138,8 +2138,8 @@
 		},
 		{
 			"id": "Heroism",
-			"name": "Heroism",
-			"description": "<p>You tap into the target's inner heroism, granting it a +1 status bonus to attack rolls, Perception checks, saving throws, and skill checks.</p>\n<hr />\n<p><strong>増強 (6th)</strong> The status bonus increases to +2.</p>\n<p><strong>増強 (9th)</strong> The status bonus increases to +3.</p>\n<p>@Compendium[pf2e.spell-effects.l9HRQggofFGIxEse]{Spell Effect: Heroism}</p>"
+			"name": "ヒロイズム",
+			"description": "<p>君は対象の内なる勇壮さを鼓舞し、攻撃ロールと知覚判定、セーヴィング・スロー、技能判定に+1ステータス・ボーナスを与える。</p>\n<hr />\n<p><strong>増強 (6th)</strong> ステータス・ボーナスは+2になる</p>\n<p><strong>増強 (9th)</strong> ステータス・ボーナスは+3になる</p>\n<p>@Compendium[pf2e.spell-effects.l9HRQggofFGIxEse]{呪文効果: ヒロイズム}</p>"
 		},
 		{
 			"id": "Hideous Laughter",
@@ -2188,8 +2188,8 @@
 		},
 		{
 			"id": "Hypercognition",
-			"name": "Hypercognition",
-			"description": "<p>You rapidly catalog and collate information relevant to your current situation. You can instantly use up to 6 Recall Knowledge actions as part of Casting this Spell. For these actions, you can't use any special abilities, reactions, or free actions that trigger when you Recall Knowledge.</p>"
+			"name": "ハイパーコグニション",
+			"description": "<p>君は、現在の状況に関連した情報を素早く分類し、照合する。この「呪文の発動」の一部として、6回までの「知識を思い出す」アクションを即座に使うことが出来る。これらのアクションについて、君はあらゆる特殊能力、「知識を思い出す」をトリガーとするリアクション、フリー・アクションを使うことが出来ない。</p>"
 		},
 		{
 			"id": "Hyperfocus",
@@ -2203,8 +2203,8 @@
 		},
 		{
 			"id": "Hypnotic Pattern",
-			"name": "Hypnotic Pattern",
-			"description": "<p>You create a pattern of shifting colors that hovers in the air in a geometric cloud. Creatures are @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Dazzled} while inside the pattern. In addition, a creature must attempt a Will saving throw if it is inside the pattern when you cast it, when it enters the pattern, when it ends its turn within the pattern, or if it uses a Seek or Interact action on the pattern. A creature currently @Compendium[pf2e.conditionitems.AdPVz7rbaVSRxHFg]{Fascinated} by the pattern doesn't attempt new saves.</p>\n<hr />\n<p><strong>Success</strong> The target is unaffected.</p>\n<p><strong>Failure</strong> The target is Fascinated by the pattern.</p>\n<p><strong>Critical Failure</strong> The target is Fascinated by the pattern. While it remains Fascinated, it can't use reactions.</p>"
+			"name": "ヒプノティック・パターン",
+			"description": "<p>君は幾何学的な雲の中に浮かぶ、色の変わる模様を作り出す。この模様の中に居る間、クリーチャーは@Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{目が眩んだ状態}になる。更に、クリーチャーは君が発動した際か、模様の中に入った際、あるいは手番の終了時、そして模様の中で「捜す」や「使用」アクションを使った際、この模様の中に居たなら、意志セーヴを試みなくてはならない。現在、模様によって@Compendium[pf2e.conditionitems.AdPVz7rbaVSRxHFg]{恍惚}状態であるクリーチャーが新しいセーヴを試みることはない。</p>\n<hr />\n<p><strong>成功</strong> 対象は影響を受けない</p>\n<p><strong>失敗</strong> 対象は模様によって恍惚状態になる</p>\n<p><strong>ファンブル</strong> 対象は模様によって恍惚状態になる。恍惚状態でいる間、クリーチャーはリアクションを使うことができない</p>"
 		},
 		{
 			"id": "Ice Storm",
@@ -2258,8 +2258,8 @@
 		},
 		{
 			"id": "Impending Doom",
-			"name": "Impending Doom",
-			"description": "<p>You sift through myriad potential futures, seize upon one potential moment in which the target meets a particularly gruesome and fatal end, and then show it a vision of its impending demise. The intense mental vision grows more and more terrifying to the target as the doom grows closer, and it takes 3 rounds to reach its conclusion. The target must attempt a Will saving throw to determine the effects. At the end of the spell's duration, if the target was affected, the target witnesses its death and takes 6d6 mental damage.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is unaffected for 1 round. On the second round, it becomes @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed}. Finally, on the third round, it becomes @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 1}. At the end of the third round, it takes half damage.</p>\n<p><strong>Failure</strong> The creature is immediately flat-footed. On the second round, it becomes @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 2}. Finally, on the third round, it also becomes @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Stunned 1}. At the end of the third round, the creature takes full damage.</p>\n<p><strong>Critical Failure</strong> The creature is immediately flat-footed and @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 3}. On the second round, it becomes stunned 1. Finally, on the third round, it also becomes @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralyzed}. At the end of the third round, the creature takes double damage.</p>\n<hr />\n<p><strong>増強 (+1)</strong> The damage increases by 2d6.</p>"
+			"name": "インペンディング・ドゥーム",
+			"description": "<p>無数の未来の可能性の中から、君は対象が特に陰惨で命取りの結末を迎える可能性がある瞬間一つを選び出し、その迫り来る終焉のビジョンを見せる。強烈な精神的ビジョンは、どんどん破滅が近づいていくにつれて、対象にとってより恐ろしいものになるのだが、結末に達するまでには3ラウンドかかる。対象は結果を決定するために意志セーヴィング・スローを試みなくてはならない。呪文の持続時間の終了時、対象が影響を受けているのであれば、対象は自らの死を目撃し、6d6点の精神ダメージを受ける。</p>\n<hr />\n<p><strong>クリティカル</strong> クリーチャーは影響を受けない</p>\n<p><strong>成功</strong> クリーチャーは1ラウンド、影響を受けない。2ラウンド目に@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{立ちすくみ}になる。3ラウンド目に、最終的に@Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{怯え1}になる。3ラウンド目の終了時にクリーチャーは半分のダメージを受ける</p>\n<p><strong>失敗</strong> クリーチャーは即座に立ちすくみになる。2ラウンド目に@Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{怯え2}になる。3ラウンド目に、最終的に@Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{朦朧1}になる。3ラウンド目の終了時にクリーチャーは完全なダメージを受ける</p>\n<p><strong>ファンブル</strong> クリーチャーは即座に立ちすくみかつ@Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{怯え3}になる。2ラウンド目に、朦朧1になる。3ラウンド目に、最終的に@Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{麻痺}状態になる。3ラウンド目の終了時にクリーチャーは2倍のダメージを受ける</p>\n<hr />\n<p><strong>増強 (+1)</strong> ダメージは2d6点、上昇する</p>"
 		},
 		{
 			"id": "Implosion",
@@ -2323,8 +2323,8 @@
 		},
 		{
 			"id": "Insect Form",
-			"name": "Insect Form",
-			"description": "<p>You envision a simple bug and transform into a Medium animal battle form. When you cast this spell, choose ant, beetle, centipede, mantis, scorpion, or spider. You can decide the specific type of animal (such as such as a ladybug or scarab for beetle), but this has no effect on the form's Size or statistics. While in this form, you gain the animal trait. You can Dismiss this spell.</p>\n<p>You gain the following statistics and abilities regardless of which battle form you choose:</p>\n<ul>\n<li>AC = 18 + your level. Ignore your armor's check penalty and Speed reduction.</li>\n<li>10 temporary Hit Points.</li>\n<li>Low-light vision.</li>\n<li>One or more attacks specific to the battle form you choose, which are the only attacks you can use. You're trained with them. Your attack modifier is +13, and your damage bonus is +2. These attacks are Strength based (for the purpose of the @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled} condition). If your unarmed attack modifier is higher, you can use it instead.</li>\n<li>Athletics modifier of +13, unless your own is higher.</li>\n</ul>\n<p>You also gain specific abilities based on the form you choose:</p>\n<ul>\n<li><strong>@Compendium[pf2e.spell-effects.6IvTWcispcDaw88N]{Ant}</strong>\n<ul>\n<li>Speed 30 feet, climb Speed 30 feet;</li>\n<li><strong>Melee</strong> <span class=\"pf2-icon\">1 </span>mandibles, <strong>Damage</strong> 2d6 bludgeoning.</li>\n</ul>\n</li>\n<li><strong>@Compendium[pf2e.spell-effects.amTa9jSml9ioKduN]{Beetle}</strong>\n<ul>\n<li>Speed 25 feet;</li>\n<li><strong>Melee</strong> <span class=\"pf2-icon\">1 </span>mandibles, <strong>Damage</strong> 2d10 bludgeoning.</li>\n</ul>\n</li>\n<li><strong>@Compendium[pf2e.spell-effects.DENMzySYANjUBs4O]{Centipede}</strong>\n<ul>\n<li>Speed 25 feet, climb Speed 25 feet; darkvision;</li>\n<li><strong>Melee</strong> <span class=\"pf2-icon\">1 </span>mandibles, <strong>Damage</strong> 1d8 piercing plus [[/r {1d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Poison Damage}.</li>\n</ul>\n</li>\n<li><strong>@Compendium[pf2e.spell-effects.llrOM8rPP9nxIuEN]{Mantis}</strong>\n<ul>\n<li>Speed 40 feet; imprecise scent 30 feet;</li>\n<li><strong>Melee</strong> <span class=\"pf2-icon\">1 </span>foreleg, <strong>Damage</strong> 2d8 bludgeoning.</li>\n</ul>\n</li>\n<li><strong>@Compendium[pf2e.spell-effects.bOjuEX3qj7XAOoDF]{Scorpion}</strong>\n<ul>\n<li>Speed 40 feet; darkvision, imprecise tremorsense 60 feet;</li>\n<li><strong>Melee</strong> <span class=\"pf2-icon\">1 </span>stinger, <strong>Damage</strong> 1d8 piercing plus [[/r {1d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Poison Damage};</li>\n<li><strong>Melee</strong> <span class=\"pf2-icon\">1 </span>pincer (agile), <strong>Damage</strong> 1d6 bludgeoning.</li>\n</ul>\n</li>\n<li><strong>@Compendium[pf2e.spell-effects.782NyomkDHyfsUn6]{Spider}</strong>\n<ul>\n<li>Speed 25 feet, climb Speed 25 feet; darkvision;</li>\n<li><strong>Melee</strong> <span class=\"pf2-icon\">1 </span>fangs, <strong>Damage</strong> 1d6 piercing plus [[/r {1d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Poison Damage};</li>\n<li><strong>Ranged <span class=\"pf2-icon\">1 </span></strong> web (range increment 20 feet), <strong>Damage</strong> entangles the target for 1 round.</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p><strong>増強 (4th)</strong> Your battle form is Large, and your attacks have 10-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 15 temporary HP, attack modifier +16, damage bonus +6, and Athletics +16.</p>\n<p><strong>増強 (5th)</strong> Your battle form is Huge, and your attacks have 15-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 20 temporary HP, attack modifier +18, damage bonus +2 and double damage dice (including @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Damage}), and Athletics +20.</p>"
+			"name": "インセクト・フォーム",
+			"description": "<p>君は単純な虫を思い浮かべ、中型の動物の戦闘形態に変身する。君がこの呪文を発動した際、アント、ビートル、センチピード、マンティス、スコーピオン、スパイダーから1つを選ぶ。君は動物の特定の種別を決定することが出来る（例えば、ビートルなら、テントウムシかスカラベかなど）が、これはその姿のサイズやステータスに影響しない。この姿で居る間、君は動物の特性を得る。君はこの呪文を「解除」することが出来る。</p>\n<p>君は、選んだ戦闘形態に関係なく、以下のステータスと能力を得る：</p>\n<ul>\n<li>AC＝18＋君のレベル　防具の判定ペナルティと速度減少を無視すること</li>\n<li>10点の一時的ヒット・ポイント</li>\n<li>夜目</li>\n<li>君が選んだ戦闘形態に特有の1つ以上の攻撃、これは君が使うことが出来る唯一の攻撃である。君はそれに修得している。君の攻撃修正値は+13で、君のダメージ・ボーナスは+2である。これらの攻撃は筋力に基づいている（@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱}状態の効果決定において）。もし、君の素手打撃修正値の方が高いのなら、代わりに君はそれを使うことが出来る</li>\n<li>〈運動〉修正値+13、君の独自の修正値の方が高いのでなければ</li>\n</ul>\n<p>君は、選んだ戦闘形態に基づいて特定の能力を得る：</p>\n<ul>\n<li><strong>@Compendium[pf2e.spell-effects.6IvTWcispcDaw88N]{アント}</strong>\n<ul>\n<li>速度 30フィート、登攀速度 30 フィート;</li>\n<li><strong>近接</strong> <span class=\"pf2-icon\">1 </span>大顎、 <strong>ダメージ</strong> 2d6点の殴打ダメージ</li>\n</ul>\n</li>\n<li><strong>@Compendium[pf2e.spell-effects.amTa9jSml9ioKduN]{ビートル}</strong>\n<ul>\n<li>速度 25フィート;</li>\n<li><strong>近接</strong> <span class=\"pf2-icon\">1 </span>m大顎、 <strong>ダメージ</strong> 2d10点の殴打ダメージ</li>\n</ul>\n</li>\n<li><strong>@Compendium[pf2e.spell-effects.DENMzySYANjUBs4O]{センチピード}</strong>\n<ul>\n<li>速度 25 フィート、登攀速度 25フィート; 暗視;</li>\n<li><strong>近接</strong> <span class=\"pf2-icon\">1 </span>大顎、 <strong>ダメージ</strong> 1d8点の刺突ダメージに加えて [[/r {1d4}[継続、毒]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続毒ダメージ}</li>\n</ul>\n</li>\n<li><strong>@Compendium[pf2e.spell-effects.llrOM8rPP9nxIuEN]{マンティス}</strong>\n<ul>\n<li>速度 40フィート; あいまいな嗅覚 30フィート;</li>\n<li><strong>近接</strong> <span class=\"pf2-icon\">1 </span>前脚、 <strong>ダメージ</strong> 2d8点の殴打ダメージ</li>\n</ul>\n</li>\n<li><strong>@Compendium[pf2e.spell-effects.bOjuEX3qj7XAOoDF]{スコーピオン}</strong>\n<ul>\n<li>速度 40 フィート; 暗視、あいまいな振動感知 60 フィート;</li>\n<li><strong>近接</strong> <span class=\"pf2-icon\">1 </span>毒針、 <strong>Damage</strong> 1d8点の刺突ダメージに加えて [[/r {1d4}[継続、毒]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続毒ダメージ};</li>\n<li><strong>近接</strong> <span class=\"pf2-icon\">1 </span>鋏（機敏）、 <strong>ダメージ</strong> 1d6点の殴打ダメージ</li>\n</ul>\n</li>\n<li><strong>@Compendium[pf2e.spell-effects.782NyomkDHyfsUn6]{スパイダー}</strong>\n<ul>\n<li>速度 25フィート、登攀速度 25 フィート; 暗視;</li>\n<li><strong>近接</strong> <span class=\"pf2-icon\">1 </span>牙、 <strong>ダメージ</strong> 1d6点の刺突ダメージに加えて [[/r {1d4}[継続、毒]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続毒ダメージ};</li>\n<li><strong>遠隔 <span class=\"pf2-icon\">1 </span></strong> 巣 (射程単位 20 フィート), <strong>ダメージ</strong> 対象に1ラウンド、からみつく</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p><strong>増強 (4th)</strong> 君の戦闘形態は大型になり、攻撃はそれぞれ10フィートの間合いを持つ。君は大きくなるのに十分な空間がなければならず、そうでなければこの呪文を失う。君は15点の一時的ヒットポイント、攻撃修正値+16、ダメージ・ボーナス+6、〈運動〉+16を得る</p>\n<p><strong>増強 (5th)</strong> 君の戦闘形態は超大型になり、攻撃はそれぞれ15フィートの間合いを持つ。君は大きくなるのに十分な空間がなければならず、そうでなければこの呪文を失う。君は20点の一時的ヒットポイント、攻撃修正値+18、ダメージ・ボーナス+2と2倍のダメージ・ダイス（@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続ダメージ}を含めて）、〈運動〉+20を得る</p>\n<hr />\n<p><em>メモ: この効果を増強するためには、このアイテムを君のアイテム・ディレクトリにインポートし、対象に追加する前にレベルを編集すること。</p>"
 		},
 		{
 			"id": "Instant Armor",
@@ -2363,8 +2363,8 @@
 		},
 		{
 			"id": "Invisibility Sphere",
-			"name": "Invisibility Sphere",
-			"description": "<p>You and all targets are @Compendium[pf2e.conditionitems.zJxUflt9np0q4yML]{Invisible} except to each other as long as you remain within the spell's area. If a creature made invisible by this spell leaves the spell's area, it becomes visible and remains so even if it returns to the spell's area. If any creature made invisible by this spell uses a hostile action, the spell ends after the hostile action is completed.</p>\n<p>While exploring, it's easy to move together slowly and remain invisible. This is untenable in a battle, however. Once an encounter begins, creatures remain invisible until at most the end of the first round, at which point the spell ends.</p>\n<hr />\n<p><strong>増強 (5th)</strong> The duration increases to 1 hour.</p>"
+			"name": "インヴィジビリティ・スフィア",
+			"description": "<p>君と全ての対象は、呪文の範囲内にいる限り、互い以外に対して@Compendium[pf2e.conditionitems.zJxUflt9np0q4yML]{不可視}である。もし、この呪文で不可視となっているクリーチャーが呪文の範囲を去ったなら、見えるようになり、たとえ呪文の範囲内に戻ってきても見えるようになったままである。もし、この呪文によって不可視になっているクリーチャーが敵対的な行動を取ったなら、この呪文はその行動が完了した後に終了する。</p>\n<p>探索中には、ゆっくりと一緒に動いて不可視のままでいることは簡単である。しかしながら、戦闘中には維持することが出来ない。ひとたび遭遇が始まったなら、クリーチャー達は、最も長くて最初のラウンドの終了時まで不可視であるが、その時点で呪文は終了する。</p>\n<hr />\n<p><strong>増強 (5th)</strong> 持続時間は１時間になる</p>"
 		},
 		{
 			"id": "Invisible Item",
@@ -2453,8 +2453,8 @@
 		},
 		{
 			"id": "Levitate",
-			"name": "Levitate",
-			"description": "<p>You defy gravity and levitate the target 5 feet off the ground. For the duration of the spell, you can move the target up or down 10 feet with a single action, which has the concentrate trait. A creature floating in the air from levitate takes a -2 circumstance penalty to attack rolls. A floating creature can spend an Interact action to stabilize itself and negate this penalty for the remainder of its turn. If the target is adjacent to a fixed object or terrain of suitable stability, it can move across the surface by climbing (if the surface is vertical, like a wall) or crawling (if the surface is horizontal, such as a ceiling). The GM determines which surfaces can be climbed or crawled across.</p>"
+			"name": "レヴィテイト",
+			"description": "<p>君は重力に逆らい、対象を地上から5フィート浮遊させる。この呪文の持続時間の間、君は、精神集中特性を持つ単発アクションで対象を上下に10フィート移動させることが出来る。レヴィテイトで空中に浮いているクリーチャーは攻撃ロールに-2状況ペナルティを受ける。浮いているクリーチャーは、姿勢を安定させるために「使用」アクションを消費して、その手番の残りの間、このペナルティを無視することが出来る。もし、対象が固定された物体や適切な、安定した地形に隣接しているのであれば、登攀することによってその地表を横切って移動することが出来る（もし、その地表が壁のように垂直であるなら）し、這い回ることも出来る（もし、その地表が天井のように水平であるなら）。GMはどの地表が登攀可能あるいは這い回ることが出来るかを判断する。</p>"
 		},
 		{
 			"id": "Liberating Command",
@@ -2468,8 +2468,8 @@
 		},
 		{
 			"id": "Life Connection",
-			"name": "Life Connection",
-			"description": "<p>When you cast this spell, you place a failsafe deep within the life force of the target. You can sense when the target takes damage, provided you're within 1 mile of one another. A creature can be part of no more than one life connection simultaneously. When the spell is complete, you gain the @Compendium[pf2e.actionspf2e.5V49l0K460CcvBOO]{Defend Life} reaction; once you use the reaction, the spell ends.</p>"
+			"name": "ライフ・コネクション",
+			"description": "<p>この呪文を発動した際、君は対象の生命力の内、深くに、万が一の備えを配置する。君は、互いに1マイル以内にいる場合、対象がダメージを受けた際に感知することが出来る。クリーチャーは同時に、1つだけの生命の繋がりの一部にしかなることが出来ない。呪文が完了した際、君は@Compendium[pf2e.actionspf2e.5V49l0K460CcvBOO]{「生命保護」}のリアクションを得る：このリアクションを一度使ったなら、呪文は終了する。</p>"
 		},
 		{
 			"id": "Life Link",
@@ -2503,8 +2503,8 @@
 		},
 		{
 			"id": "Lightning Bolt",
-			"name": "Lightning Bolt",
-			"description": "<p>A bolt of lightning strikes outward from your hand, dealing 4d12 electricity damage.</p>\n<hr />\n<p><strong>増強 (+1)</strong> The damage increases by 1d12.</p>"
+			"name": "ライトニング・ボルト",
+			"description": "<p>雷光の矢が君の手から解き放たれ、4d12点の電撃ダメージを与える。</p>\n<hr />\n<p><strong>増強 (+1)</strong> ダメージが1d12点上昇する。</p>"
 		},
 		{
 			"id": "Lightning Storm",
@@ -2533,8 +2533,8 @@
 		},
 		{
 			"id": "Locate",
-			"name": "Locate",
-			"description": "<p>You learn the direction to the target (if you picked a specific object, such as \"my mother's sword\") or the nearest target (if you picked a type of object, such as \"swords\"). If the target is a specific object, you must have observed it directly with your own senses. If it's a type of object, you still need to have an accurate mental image of the type of object. If there's lead or running water between you and the target, this spell can't locate the object. This means you might find a type of object farther away if the nearest one is behind lead or running water.</p>\n<hr />\n<p><strong>増強 (5th)</strong> You can target a specific creature or ancestry instead of an object, but you must have met or seen up close the creature or ancestry you want to target.</p>"
+			"name": "ロケート",
+			"description": "<p>君は、対象の方角（もし、\"母親の剣\"のような特定の物体を選んだなら）や最も近い対象（\"剣\"のような物体の種別を選んだなら）を知る。もし、対象が特定の物体なら、君はそれを自分の感覚で直接に観察したことがなければならない。もし、対象が物体の種別であるなら、君はそれでも、その物体の種別についての正確な精神的イメージを持っていなくてはならない。もし、君と対象の間に鉛か流水があるなら、この呪文は物体の位置を特定することができない。つまり、君は、最も近いものが鉛か流水の向こう側にあるなら、もっと遠いところにあるその種別の物体を見つけるかもしれない。</p>\n<hr />\n<p><strong>増強 (5th)</strong> 君は物体の代わりに特定のクリーチャーや祖先を対象とすることができるが、対象にしたいクリーチャーあるいは祖先に会ったことがあるか、間近に見たことがなければならない。</p>"
 		},
 		{
 			"id": "Lose the Path",
@@ -2558,8 +2558,8 @@
 		},
 		{
 			"id": "Mad Monkeys",
-			"name": "Mad Monkeys",
-			"description": "<p>Magical monkey spirits fill the area as they pile and climb on top of one another. Because the monkeys are magical spirits, they can't be attacked or hurt. Casting <em>@Compendium[pf2e.spells-srd.b515AZlB0sridKSq]{Calm Emotions}</em> or a similar effect over the monkeys makes them docile, causing them to cease making mischief for the duration of <em>mad monkeys</em>.</p>\n<p>Choose the kind of mischief your monkeys make when you @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Cast the Spell}. They produce the effect listed for that mischief when you Cast the Spell and each round when you @Compendium[pf2e.actionspf2e.3f5DMFu8fPiqHpRg]{Sustain the Spell}. When you Sustain the Spell, you can move the area of the monkeys by 5 feet.</p>\n<hr />\n<p><strong>Flagrant Burglary</strong> The monkeys try to @Compendium[pf2e.actionspf2e.RDXXE7wMrSPCLv5k]{Steal} any one item from one creature in the area. Use your spell DC - 10 as the monkeys' Thievery modifier. Their attempt relies more on distraction than subtlety, so the victim knows what item the monkeys were trying to take and whether it was taken. Getting a stolen item from the monkeys-even for the caster-requires Stealing it from them or @Compendium[pf2e.actionspf2e.Dt6B1slsBy8ipJu9]{Disarming} them, using your spell DC. When the spell ends, any stolen items fall to the ground in any square of the spell's area you choose.</p>\n<hr />\n<p><strong>Raucous Din</strong> The monkeys screech loudly, potentially deafening creatures in the spell's area. Each creature in the spell's area must attempt a Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected and is temporarily immune for 10 minutes.</p>\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature is @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Deafened} for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature is Deafened for 1 minute.</p>\n<hr />\n<p><strong>Tumultuous Gymnastics</strong> The monkeys jump and climb all over creatures in the spell's area, interfering with complex movements. Each creature in the spell's area must attempt a Reflex save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected and is temporarily immune for 10 minutes.</p>\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> For 1 round, the creature must succeed at a DC 5 flat check whenever it attempts a manipulate action. If it fails this check, the creature loses that action.</p>\n<p><strong>Critical Failure</strong> As failure, but the monkeys cling to the creature tenaciously, and the effect lasts until the spell ends, even if the creature leaves the spell's area.</p>"
+			"name": "マッド・モンキー",
+			"description": "<p>魔法を帯びた猿の霊魂が、互いに重なり合いながらあたりを埋め尽くしていく。このサル達は魔法の霊魂なので、攻撃することも傷つけることも出来ない。<em>@Compendium[pf2e.spells-srd.b515AZlB0sridKSq]{カーム・エモーション}</em>や似たような効果は彼らを冷静にさせ、<em>マッド・モンキー</em>の持続時間の間、彼らがイタズラをすることを防ぐ。</p>\n<p>この@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{「呪文の発動」}の際、君のサルたちが行うイタズラの種類を選ぶこと。猿たちは、君が「呪文の発動」をした際と、君が@Compendium[pf2e.actionspf2e.3f5DMFu8fPiqHpRg]{「呪文の維持」}をした際に毎ラウンド、記載された効果を作り出す。君が「呪文の維持」をした際、君は去るの範囲を5フィート、移動することが出来る。</p>\n<hr />\n<p><strong>あからさまな強盗</strong> 猿たちは範囲内の1体のクリーチャーから何か1つのアイテムを@Compendium[pf2e.actionspf2e.RDXXE7wMrSPCLv5k]{「盗む」}試みをする。サルの〈窃盗〉修正値として君の呪文DC－10を用いること。サルの試みは、ひっそりとしたものではなく、気をそらすようなもので、犠牲者はどのアイテムをサルが取ろうとしたのか、サルが盗んだのかどうかを知っている。サルから盗まれたアイテムを取り上げる（術者にとっても）には、彼らからアイテムを「盗む」か@Compendium[pf2e.actionspf2e.Dt6B1slsBy8ipJu9]{「武器落とし」}する必要があり、このDCには君の呪文DCを使う。呪文終了の際、あらゆる盗まれたアイテムは、君が選んだ呪文の範囲内のいずれかのマス目で地面に落ちる。</p>\n<hr />\n<p><strong>馬鹿騒ぎ</strong> サルたちは大声で金切り声を立て、もしかしたら呪文の範囲にいるクリーチャー達の耳を聞こえなくさせるかもしれない。呪文の範囲内にいるそれぞれクリーチャーは頑健セーヴを試みなければならない。</p>\n<hr />\n<p><strong>クリティカル</strong> クリーチャーは影響を受けず、10分間、一時的完全耐性を得る</p>\n<p><strong>成功</strong> クリーチャーは影響を受けない</p>\n<p><strong>失敗</strong> クリーチャーは1ラウンド、@Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{聴覚喪失}状態になる</p>\n<p><strong>ファンブル</strong> クリーチャーは1分間、聴覚喪失状態になる</p>\n<hr />\n<p><strong>激動の体操術</strong> サルたちは呪文の範囲内の全てのクリーチャー達に飛び跳ね、登ろうとし、複雑な動きで干渉する。呪文の範囲内のそれぞれのクリーチャーは反応セーヴを試みなくてはならない。</p>\n<hr />\n<p><strong>クリティカル</strong> クリーチャーは影響を受けず、10分間、一時的完全耐性を得る</p>\n<p><strong>成功</strong> クリーチャーは影響を受けない</p>\n<p><strong>失敗</strong> 1ラウンドの間、クリーチャーは操作アクションを試みる際いつでも、DC5の平目判定を行わなくてはならない。判定に失敗したなら、クリーチャーはそのアクションを失う。</p>\n<p><strong>ファンブル</strong> 失敗と同じだが、サルたちはクリーチャーに粘り強くからみつき、この効果は、たとえクリーチャーが呪文範囲から離れても、呪文終了時まで続く。</p>"
 		},
 		{
 			"id": "Magic Mailbox",
@@ -2598,13 +2598,13 @@
 		},
 		{
 			"id": "Magical Fetters",
-			"name": "Magical Fetters",
-			"description": "<p>Ghostly manacles launch from your outstretched hand and clasp around the target's limbs, impeding its movements. The target must attempt a Reflex save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 1} and takes a -10-foot status penalty to its Speed for 1 round.</p>\n<p><strong>Failure</strong> The target is clumsy 3 and takes a -10-foot status penalty to its Speed for 1 minute.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is also @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} for the duration.</p>"
+			"name": "マジカル・フェターズ",
+			"description": "<p>君が伸ばした手からうっすらとした手錠が現れ、対象の四肢を挟んでその移動を阻害する。対象は反応セーヴを試みなくてはならない。</p>\n<hr />\n<p><strong>クリティカル</strong> 対象は影響を受けない</p>\n<p><strong>成功</strong> 対象は @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{もたつき1} で、1ラウンド、速度に-10フィートのステータス・ペナルティを受ける</p>\n<p><strong>失敗</strong> 対象はもたつき3で、1分間、速度に-10フィートのステータス・ペナルティを受ける</p>\n<p><strong>ファンブル</strong> 失敗と同じだが、対象は持続時間の間、@Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{減速化1}にもなる</p>"
 		},
 		{
 			"id": "Magnetic Acceleration",
-			"name": "Magnetic Acceleration",
-			"description": "<p>You magnetize a small metal object, such as a nail or coin, and launch it away from you at massive speed. Make a ranged spell attack roll; if the target is wearing metal armor or is made of metal, you gain a +1 circumstance bonus to your attack roll with <em>magnetic acceleration</em>. On a hit, the target takes 3d6 bludgeoning damage and 3d6 piercing damage, or double damage on a critical hit.</p>\n<hr />\n<p><strong>増強 (+1)</strong> The bludgeoning and piercing damage each increase by 1d6.</p>"
+			"name": "マグネティック・アクセラレーション",
+			"description": "<p>君は、クギやコインといった小さな金属の物体に磁力を与え、大きなスピードで君から発射する。遠隔呪文攻撃ロールを行う；もし、対象が金属鎧あるいは金属で出来ているなら、君は<em>マグネティック・アクセラレーション</em>での攻撃ロールに+1状況ボーナスを得る。命中した場合、対象は3d6点の殴打ダメージと3d6点の刺突ダメージを受け、クリティカル・ヒットなら2倍のダメージを受ける。</p>\n<hr />\n<p><strong>増強 (+1)</strong> 殴打ダメージと刺突ダメージはそれぞれ1d6点ずつ上昇する</p>"
 		},
 		{
 			"id": "Magnetic Attraction",
@@ -2678,8 +2678,8 @@
 		},
 		{
 			"id": "Meld into Stone",
-			"name": "Meld into Stone",
-			"description": "<p>You merge with an adjacent block of stone with enough volume to fit you and your worn and held possessions. You must touch the stone when you Cast the Spell. You can hear, but not see, what's going on outside the stone, and you can cast spells while in the stone as long as they don't require line of effect beyond the stone.</p>\n<p>Significant physical damage to the stone while you are inside it expels you and deals 10d6 damage to you. Passwall expels you without dealing damage and ends meld into stone. You can Dismiss this spell.</p>"
+			"name": "メルド・イントゥ・ストーン",
+			"description": "<p>君は、君と君の身につけているもの、そして持っているものが収まる程度の容積を持つ、隣り合う石の塊と融合する。呪文を発動する際には、その石に触れなければならない。君は石の外側で起こっていることを聞くことは出来るが、見ることは出来なくなる。そして、君は石の外への効果線を必要としないものであれば、意志の仲で呪文を発動することが出来る。</p>\n<p>君が石の中に居る間に石が重大な物理的ダメージを受けた場合には、君は外へと吐き出され、10d6点のダメージを受ける。パスウォールはダメージを与えずに君を取り出し、メルド・イントゥ・ストーンを終了させる。君はこの呪文を「解除」することが出来る。</p>"
 		},
 		{
 			"id": "Message Rune",
@@ -2713,8 +2713,8 @@
 		},
 		{
 			"id": "Mind Reading",
-			"name": "Mind Reading",
-			"description": "<p>With a cursory mental touch, you attempt to read the target's mind. It must attempt a Will save. The target then becomes temporarily immune to your mind reading for 1 hour.</p>\n<hr /><strong>Critical Success</strong> The target perceives vague surface thoughts from you when you Cast the Spell.\n<p><strong>Success</strong> You find out whether the target's Intelligence modifier is higher than, equal to, or lower than yours.</p>\n<p><strong>Failure</strong> You perceive vague surface thoughts from the target when you Cast the Spell, and you find out whether its Intelligence modifier is higher than, equal to, or lower than yours.</p>\n<p><strong>Critical Failure</strong> As failure, and for the duration of the spell, you can Sustain the Spell to detect the target's surface thoughts again. The target doesn't receive any additional saves.</p>"
+			"name": "マインド・リーディング",
+			"description": "<p>大雑把な精神の接触によって、君は対象の精神を読もうとする。対象は意志セーヴを試みなくてはならない。対象はそれから君のマインド・リーディングに1時間、一時的完全耐性を持つ。</p>\n<hr /><strong>クリティカル</strong> 対象は「呪文の発動」の際に曖昧な表面的な思考を君から受け取る。\n<p><strong>成功</strong> 君は対象の知力修正値が自分よりも高いのか、自分と同じなのか、自分よりも低いのかが分かる</p>\n<p><strong>失敗</strong> 君は「呪文の発動」の際に曖昧な表面的な思考を対象から受け取る。君は対象の知力修正値が自分よりも高いのか、自分と同じなのか、自分よりも低いのかが分かる</p>\n<p><strong>ファンブル</strong>失敗と同じだが、呪文の持続時間の間、君は再び対象の表面的な思考を探知するために「呪文の維持」をすることが出来る。対象が追加のセーヴを行うことはない</p>"
 		},
 		{
 			"id": "Mind Swap",
@@ -2723,8 +2723,8 @@
 		},
 		{
 			"id": "Mind of Menace",
-			"name": "Mind of Menace",
-			"description": "<p>This spell wards against those who attempt to subvert your mind and turns mental magic back on them. When the spell is complete, you gain the @Compendium[pf2e.actionspf2e.hi56uHG1aAb84Zzu]{Fight with Fear} reaction; once you use the reaction, the spell ends.</p>\n<p><span data-pf2-check=\"will\" data-pf2-traits=\"emotion,enchantment,fear,mental\" data-pf2-label=\"Fight with Fear DC\" data-pf2-show-dc=\"gm\">Will</span></p>"
+			"name": "マインド・オヴ・メナス",
+			"description": "<p>この呪文は君の精神を破壊しようとする者から身を守り、精神魔法を相手に向けて返す。この呪文が完了した際、君は@Compendium[pf2e.actionspf2e.hi56uHG1aAb84Zzu]{「畏怖の反撃」}のリアクションを得る；ひとたびこのリアクションを使ったのなら、この呪文は終了する。</p>\n<p><span data-pf2-check=\"will\" data-pf2-traits=\"emotion,enchantment,fear,mental\" data-pf2-label=\"Fight with Fear DC\" data-pf2-show-dc=\"gm\">意志セーヴ</span></p>"
 		},
 		{
 			"id": "Miracle",
@@ -2798,8 +2798,8 @@
 		},
 		{
 			"id": "Moonlight Ray",
-			"name": "Moonlight Ray",
-			"description": "<p>You unleash a holy beam of freezing moonlight. Make a ranged spell attack. The ray deals 5d6 cold damage; if the target is a fiend or undead, you deal an extra [[/r {5d6}[good]]]{5d6 good damage}.</p>\n<p>Moonlight ray's cold damage is silver damage for the purposes of weaknesses, resistances, and the like.</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes double cold damage, as well as double good damage if a fiend or undead.</p>\n<p><strong>Success</strong> The target takes full damage. If the light passes through an area of magical darkness or targets a creature affected by magical darkness, moonlight ray attempts to counteract the darkness. If you need to determine whether the light passes through an area of darkness, draw a line between yourself and the spell's target.</p>\n<hr />\n<p><strong>増強 (+1)</strong> The cold damage increases by 2d6, and the good damage against fiends and undead increases by [[/r 2d6[good]]]{2d6 good damage}.</p>"
+			"name": "ムーンライト・レイ",
+			"description": "<p>君は凍てつく月光の聖なる光線を放つ。遠隔呪文攻撃を行うこと。この光線は5d6点の氷雪ダメージを与える。対象がフィーンドかアンデッドであるなら、君は追加で[[/r {5d6}[善]]]{5d6点の善ダメージ}を与える。</p>\n<p>ムーンライト・レイの氷雪ダメージは弱点、抵抗といったものを計算する際に銀のダメージでもある。</p>\n<hr />\n<p><strong>クリティカル</strong> 対象は2倍の氷雪ダメージを受け、フィーンドかアンデッドであるなら2倍の善ダメージも受ける。</p>\n<p><strong>成功</strong> 対象は完全なダメージを受ける。もし、光が魔法の暗闇を通り過ぎるか、魔法の暗闇の影響を受けたクリーチャーを対象とするなら、ムーンライト・レイは暗闇を無効化しようとする。もし、君が、暗闇の範囲を光が通り過ぎているか判断する必要があるなら、君自身と呪文の対象の間に直線を引くこと。</p>\n<hr />\n<p><strong>増強 (+1)</strong> 氷雪ダメージは2d6点上昇し、フィーンドとアンデッドに対する善ダメージは[[/r 2d6[善]]]{2d6点}、上昇する</p>"
 		},
 		{
 			"id": "Mosquito Blight",
@@ -2878,8 +2878,8 @@
 		},
 		{
 			"id": "Neutralize Poison",
-			"name": "Neutralize Poison",
-			"description": "<p>You pour healing magic through the target in an attempt to cure one poison afflicting it. Attempt a counteract check against the poison.</p>"
+			"name": "ニュートラライズ・ポイズン",
+			"description": "<p>君は、対象を悩ませている1つの毒を治療しようとして、対象に治癒の魔術を注ぐ。その毒に対する無効化判定を試みる。</p>"
 		},
 		{
 			"id": "Nightmare",
@@ -2888,8 +2888,8 @@
 		},
 		{
 			"id": "Nondetection",
-			"name": "Nondetection",
-			"description": "<p>You erect protective wards that make the target difficult to detect via magic. Nondetection attempts to counteract all detection, revelation, and scrying divinations made against the target or the target's gear throughout the duration, counting cantrips as 1st-level spells for this purpose. Successfully counteracting a divination that targets an area or multiple targets negates the effects only for nondetection's target.</p>"
+			"name": "ノンディテクション",
+			"description": "<p>君は対象を魔法で発見することを困難にするような保護結界を築く。ノンディテクションは持続時間の間中ずっと、対象や対象の装備に対して行われた探知、暴露、念視を全て無効化しようとする。この目的において、キャントリップを1レベル呪文として扱う。範囲や複数の対象を取る占術の無効化に成功した場合、ノンディテクションの対象のみがその効果を無視する。</p>"
 		},
 		{
 			"id": "Noxious Vapors",
@@ -2948,13 +2948,13 @@
 		},
 		{
 			"id": "Oneiric Mire",
-			"name": "Oneiric Mire",
-			"description": "<p>You shroud an area in illusory dreamstuff, making the ground look and feel like a deep mire or quicksand. Ground in the area is difficult terrain.</p>\n<p>Each creature in the area when the spell is cast, or that enters the area, must attempt a Will save. On a failure, it believes it's being pulled down by the earth, taking a -10-foot circumstance penalty to its Speeds. On a critical failure, it's also @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized}. In addition to the normal actions to Escape, at the end of an affected creature's turn, it can attempt a Will save, removing the effects on a success. On a critical success at any Will save made against oneiric mire, the creature fully disbelieves the illusion and no longer needs to make Will saves to risk a Speed penalty or being immobilized, though the area is still difficult terrain.</p>"
+			"name": "オーナイリク・マイア",
+			"description": "<p>君は範囲を幻影の夢の物質で包み込み、地面を深い泥濘や流砂のような見た目と感触にする。範囲内の地面は移動困難な地形である。</p>\n<p>この呪文が発動した際に範囲内にいたそれぞれのクリーチャーや、範囲内に入ったクリーチャーは、意志セーヴを試みなくてはならない。失敗したなら、クリーチャーは地面に引きずり込まれ、その速度に－10フィートの状況ペナルティを受ける。ファンブルしたなら、@Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{動けない状態}にもなる。通常の「脱出」のためのアクションに加えて、影響を受けているクリーチャーの手番の終了時に、クリーチャーは意志セーヴを試み、成功したなら効果を取り除くことが出来る。オーナイリク・マイアに対して意志セーヴでクリティカルすることで、クリーチャーは完全に幻術を見破り、もはや速度ペナルティを受けたり、動けない状態になるかもしれない意志セーヴをする必要は無いが、範囲はそれでも、移動困難な地形である。</p>"
 		},
 		{
 			"id": "Ooze Form",
-			"name": "Ooze Form",
-			"description": "<p>You invoke all things that seep and ooze, your body dissolving into a thick slurry and then reconstituting itself into a Medium ooze battle form. When you first cast this spell, choose black pudding, gelatinous cube, gray ooze, or ochre jelly. While in this form, you gain the ooze trait. You can Dismiss the spell. You gain the following statistics and abilities regardless of which battle form you choose:</p>\n<ul>\n<li>AC = 7 + your level. Ignore your armor's check penalty and Speed reduction.</li>\n<li>20 temporary Hit Points.</li>\n<li>You are immune to critical hits, precision damage, and visual effects.</li>\n<li>Resistance 5 to acid, piercing, and slashing damage.</li>\n<li>No vision and motion sense 30 feet. You can sense nearby motion through vibration and air movement as a precise sense.</li>\n<li>One or more unarmed melee attacks specific to the battle form you choose, which are the only attacks you can use. You're trained with them. Your attack modifier is +14, and you use the listed damage. These attacks are Strength based (for the purpose of the enfeebled condition, for example). If your unarmed attack modifier is higher, you can use it instead.</li>\n<li>Athletics modifier of +14, unless your own is higher.</li>\n</ul>\n<p>You also gain specific abilities based on the ooze:</p>\n<ul>\n<li><strong>Black Pudding</strong> Speed 15 feet, climb 15 feet;\n<ul>\n<li><strong>Melee</strong> <span class=\"pf2-icon\">1</span> pseudopod, <strong>Damage</strong>[[/r {2d6+5}[bludgeoning]]]{2d6+5 bludgeoning} and [[/r {1d8}[acid]]]{1d8 acid}.</li>\n</ul>\n</li>\n</ul>\n<p>@Compendium[pf2e.spell-effects.EKdqKCuyWSkpXpyJ]{Spell Effect: Ooze Form (Black Pudding)}</p>\n<ul>\n<li><strong>Gelatinous Cube</strong> Speed 15 feet;\n<ul>\n<li><strong>Melee</strong> <span class=\"pf2-icon\">1</span> cube face, <strong>Damage</strong>[[/r {1d6+5}[acid]]]{1d6+5 acid};</li>\n<li>a creature hit by your cube face Strike must succeed at a Fortitude save against your spell DC or be @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Stunned 1} (or @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralyzed} for 1 round on a critical failure); this save has the incapacitation trait.</li>\n</ul>\n</li>\n</ul>\n<p>@Compendium[pf2e.spell-effects.3zdBGENpmaze1bpq]{Spell Effect: Ooze Form (Gelatinous Cube)}</p>\n<ul>\n<li><strong>Gray Ooze</strong> Speed 15 feet, climb 15 feet, swim 15 feet;\n<ul>\n<li><strong>Melee</strong> <span class=\"pf2-icon\">1</span> pseudopod, <strong>Damage</strong>[[/r {1d6+5}[bludgeoning]]]{1d6+5 bludgeoning} and [[/r {1d6}[acid]]]{1d6 acid}, and you can spend an action after a hit to Grab the target.</li>\n</ul>\n</li>\n</ul>\n<p>@Compendium[pf2e.spell-effects.7tfF8ifVvOKNud8t]{Spell Effect: Ooze Form (Gray Ooze)}</p>\n<ul>\n<li><strong>Ochre Jelly</strong> Speed 15 feet, climb 10 feet; resistance 5 to electricity;\n<ul>\n<li><strong>Melee</strong> <span class=\"pf2-icon\">1</span> pseudopod, <strong>Damage</strong>[[/r {1d8+5}[bludgeoning]]]{1d8+5 bludgeoning} and [[/r {1d8}[acid]]]{1d8 acid}, and you can spend an action after a hit to Grab the target.</li>\n</ul>\n</li>\n</ul>\n<p>@Compendium[pf2e.spell-effects.PpkOZVoHkBZUmddx]{Spell Effect: Ooze Form (Ochre Jelly)}</p>\n<hr />\n<p><strong>増強 (4th)</strong> Your battle form is Large, and your attacks have 10-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 30 temporary HP; resistance 7 to acid, piercing, and slashing; attack modifier +16; damage bonus +9; and Athletics +16. Your motion sense has a range of 40 feet.</p>\n<p><strong>増強 (5th)</strong> Your battle form is Huge, and your attacks have 15-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 40 temporary HP; resistance 10 to acid, piercing, and slashing; attack modifier +18; damage bonus +6 and double damage dice; and Athletics +20. Your motion sense has a range of 60 feet.</p>\n<p><strong>増強 (8th)</strong> Your battle form is Gargantuan (20-foot- by-20-foot space), and your attacks have 20-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 60 temporary HP; resistance 12 to acid, piercing, and slashing; attack modifier +28; damage bonus +13 and double damage dice; and Athletics +29. Your motion sense has a range of 60 feet.</p>"
+			"name": "ウーズ・フォーム",
+			"description": "<p>君は自分の体の全てをしみこむ粘体にし、分厚いスライム状に解かして中型の粘体の戦闘形態に再構成させる。最初にこの呪文を発動した際、ブラック・プディング、ゼラチナス・キューブ、グレイ・ウーズ、オーカー・ジェリーから一つを選ぶ。この形態でいる間、君は粘体の特性を得る。君はこの呪文を「解除」することが出来る。 君は選んだ形態によらず、下記のステータスと能力を得る。:</p>\n<ul>\n<li>AC=7＋君のレベル　君の防具の判定ペナルティと速度減少を無視すること</li>\n<li>20点の一時的ヒット・ポイント</li>\n<li>君はクリティカル・ヒット、精密性ダメージ、視覚効果に耐性を持つ</li>\n<li>強酸、刺突、斬撃ダメージに対する抵抗5点</li>\n<li>視覚を持たない、運動感知30フィート　君は近くの運動を、振動と空気の移動を通じて明瞭な感覚として感じることが出来る</li>\n<li>選んだ戦闘形態に特化した1つ以上の素手打撃近接攻撃。これは君が使うことが出来る唯一の攻撃で、君はそれらに修得である。君の攻撃修正値は+14で、記載されたダメージを使う。これらの攻撃は筋力に基づいている（たとえば、衰弱状態の計算をする目的において）。もし、君の素手攻撃修正値の方が高いなら、代わりにそれを使うことが出来る</li>\n<li>君の独自のものが高いのでない限り、〈運動〉修正値+14</li>\n</ul>\n<p>君は選んだ粘体に基づいて特殊能力を得る：</p>\n<ul>\n<li><strong>ブラック・プディング</strong> 速度15フィート、登攀速度15フィート;\n<ul>\n<li><strong>近接</strong> <span class=\"pf2-icon\">1</span> 触腕、 <strong>ダメージ</strong>[[/r {2d6+5}[殴打]]]{2d6+5点の殴打ダメージ} に加えて [[/r {1d8}[強酸]]]{1d8点の強酸ダメージ}</li>\n</ul>\n</li>\n</ul>\n<p>@Compendium[pf2e.spell-effects.EKdqKCuyWSkpXpyJ]{呪文効果: ウーズ・フォーム (ブラック・プディング)}</p>\n<ul>\n<li><strong>ゼラチナス・キューブ</strong> 速度15フィート;\n<ul>\n<li><strong>近接</strong> <span class=\"pf2-icon\">1</span> 立体の表面、 <strong>ダメージ</strong>[[/r {1d6+5}[強酸]]]{1d6+5点の強酸ダメージ};</li>\n<li>立体の表面による「打撃」が命中したクリーチャーは呪文DCに対する頑健セーヴに成功しなければ@Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{朦朧1}になる（あるいは、ファンブルしたなら1ラウンドの@Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{麻痺}になる）；</li>\n</ul>\n</li>\n</ul>\n<p>@Compendium[pf2e.spell-effects.3zdBGENpmaze1bpq]{呪文効果: ウーズ・フォーム (ゼラチナス・キューブ)}</p>\n<ul>\n<li><strong>グレイ・ウーズ</strong> 速度15フィート、登攀速度15フィート、水泳速度15フィート；\n<ul>\n<li><strong>近接</strong> <span class=\"pf2-icon\">1</span> 触腕、 <strong>ダメージ</strong>[[/r {1d6+5}[殴打]]]{1d6+5点の殴打ダメージ} に加えて [[/r {1d6}[acid]]]{1d6点の強酸ダメージ}、命中した場合、君は対象を「つかむ」ためにアクションを消費することが出来る</li>\n</ul>\n</li>\n</ul>\n<p>@Compendium[pf2e.spell-effects.7tfF8ifVvOKNud8t]{呪文効果: ウーズ・フォーム (グレイ・ウーズ)}</p>\n<ul>\n<li><strong>オーカー・ジェリー</strong> 速度15フィート、登攀速度10フィート； 電撃に対する抵抗5点；\n<ul>\n<li><strong>近接</strong> <span class=\"pf2-icon\">1</span> 触腕、 <strong>ダメージ</strong>[[/r {1d8+5}[殴打]]]{1d8+5点の殴打ダメージ} に加えて [[/r {1d8}[acid]]]{1d8点の強酸ダメージ}、命中した場合、君は対象を「つかむ」ためにアクションを消費することが出来る</li>\n</ul>\n</li>\n</ul>\n<p>@Compendium[pf2e.spell-effects.PpkOZVoHkBZUmddx]{呪文効果: ウーズ・フォーム (オーカー・ジェリー)}</p>\n<hr />\n<p><strong>増強 (4th)</strong> 君の戦闘形態は大型になり、攻撃は10フィートの間合いになる。大きくなるのに十分な空間がなければ呪文は失われる。君の能力は30点の一時的ヒット・ポイント；強酸、刺突、斬撃への抵抗7点；攻撃修正値+16；ダメージ・ボーナス＋9；〈運動〉+16である。君の運動感知の距離は40フィートになる。</p>\n<p><strong>増強 (5th)</strong> 君の戦闘形態は超大型になり、攻撃は間合い15フィートになる。大きくなるのに十分な空間がなければ呪文は失われる。君の能力は40点の一時的ヒット・ポイント；強酸、刺突、斬撃への抵抗10点；攻撃修正値+18；ダメージ・ボーナス+6となりダメージ・ダイスは2倍になる；〈運動〉+20である。君の運動感知の距離は60フィートになる。</p>\n<p><strong>増強 (8th)</strong> 君の戦闘形態は巨大（20フィート×20フィートの接敵面）になり、君の攻撃は間合い20フィートになる。大きくなるのに十分な空間がなければ呪文は失われる。君の能力は60点の一時的ヒット・ポイント；強酸、刺突、斬撃への抵抗12点；攻撃修正値+28；ダメージ・ボーナス+13となりダメージ・ダイスは2倍になる；〈運動〉+29である。君の運動感知の距離は60フィートになる。</p>"
 		},
 		{
 			"id": "Ordained Purpose",
@@ -2963,8 +2963,8 @@
 		},
 		{
 			"id": "Organsight",
-			"name": "Organsight",
-			"description": "<p>You see the target as though it's dissected and arrayed before you. For the duration, you gain a +2 circumstance bonus on Medicine checks against the target that depend on its organs, but a -2 circumstance penalty on Medicine checks depending on seeing its skin.</p>\n<p>When you Cast the Spell, attempt a special Recall Knowledge check using Medicine to spot and discern a vital organ. If you have a Lore skill appropriate to the creature, you can use that skill instead of Medicine. If you succeed, the next time you deal piercing or slashing damage to the target with a Strike or spell, you deal 4d6 additional precision damage. Once on each of your subsequent turns, you can use a single action to attempt the special Recall Knowledge check again. The extra damage isn't cumulative, so making the check more than once before a Strike or spell has no extra benefit.</p>\n<p>@Compendium[pf2e.spell-effects.Uj9VFXoVMH0mTTdt]{Spell Effect: Organsight}</p>\n<hr />\n<p><strong>増強 (+1)</strong> The precision damage increases by [[/r 1d6]]{1d6}.</p>"
+			"name": "オルガンサイト",
+			"description": "<p>君は、対象が目の前で解剖され、並べられているかのように見ることが出来る。持続時間の間、対象の臓器に依存する〈医学〉に＋2状況ボーナスを得るが、その皮膚を見ることに依存する〈医学〉に－2状況ペナルティを受ける。</p>\n<p>この「呪文の発動」をする際、重要な臓器を見つけ出し、見抜くために〈医学〉を使って「知識を思い出す」を試みる。もし、君がそのクリーチャーに適切な〈伝承〉を持っているなら、〈医学〉の代わりにその技能を使うことが出来る。もし成功したなら、君が対象に「打撃」あるいは呪文で刺突あるいは斬撃ダメージを与えた次のタイミングで、君は4d6点の追加の精密ダメージを与える。その後の手番ごとに1度、君は再び特殊な「知識を思い出す」を試みるための単発アクションを行うことが出来る。この追加ダメージは累積しないので、「打撃」や呪文の前に2度以上の判定を行っても、追加の利益はない</p>\n<p>@Compendium[pf2e.spell-effects.Uj9VFXoVMH0mTTdt]{呪文効果: オルガンサイト}</p>\n<hr />\n<p><strong>増強 (+1)</strong> 精密ダメージは [[/r 1d6]]{1d6}点、上昇する</p>"
 		},
 		{
 			"id": "Outcast's Curse",
@@ -2998,8 +2998,8 @@
 		},
 		{
 			"id": "Paralyze",
-			"name": "Paralyze",
-			"description": "<p>You block the target's motor impulses before they can leave its mind, threatening to freeze the target in place. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Stunned 1}.</p>\n<p><strong>Failure</strong> The target is @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralyzed} for 1 round.</p>\n<p><strong>Critical Failure</strong> The target is Paralyzed for 4 rounds. At the end of each of its turns, it can attempt a new Will save to reduce the remaining duration by 1 round, or end it entirely on a critical success.</p>\n<hr />\n<p><strong>増強 (7th)</strong> You can target up to 10 creatures.</p>"
+			"name": "パラライズ",
+			"description": "<p>君は対象の動きたいという欲求が精神を離れる前にブロックし、対象をその場所で凍結させようとする。対象は意志セーヴを試みなくてはならない。</p>\n<hr />\n<p><strong>クリティカル</strong> 対象は影響を受けない</p>\n<p><strong>成功</strong> 対象は@Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{朦朧1}になる</p>\n<p><strong>失敗</strong> 対象は1ラウンド、@Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{麻痺}状態になる</p>\n<p><strong>ファンブル</strong> 対象は4ラウンド、麻痺状態になる。手番の終了時に、対象は残っている持続時間を1ラウンド減らすために新しい意志セーヴを試みることが出来る。または、クリティカルならば完全に持続時間は終了する。</p>\n<hr />\n<p><strong>増強 (7th)</strong> 君は10体までを対象にすることが出来る</p>"
 		},
 		{
 			"id": "Paranoia",
@@ -3048,8 +3048,8 @@
 		},
 		{
 			"id": "Perseis's Precautions",
-			"name": "Perseis's Precautions",
-			"description": "<p>Leaving nothing to chance, you weave divinatory precautions against an ambush, alerting the target to danger. Once during the duration of this spell, the target can roll one Perception, Arcana, Crafting, Lore, Occultism, or Society initiative roll twice and take the better result, after which the spell ends.</p>\n<p>The strain of staying so prepared is too much for a mind to handle for long; the target is temporarily immune to this spell for 24 hours once the spell ends, whether they used the initiative benefit or not.</p>"
+			"name": "ペルセイス・プレコーションズ",
+			"description": "<p>奇襲されたときのために、君は占いの力で予防線を張り、対象者に危険を知らせて奇襲のチャンスをゼロにする。この呪文の持続時間の間、一度、対象は知覚、〈神秘学〉、〈製作〉、〈伝承〉、〈霊妙学〉、〈社会〉のイニシアチブ・ロールを2度ロールして良い方の結果を使う。</p>\n<p>その後、この呪文は終了する。このような準備をしておくことを長く続けると、精神に負担が掛かりすぎる：対象はこの呪文が終了したなら、イニシアチブの利益を得たかどうかに関わらず、24時間、この呪文に一時的完全耐性を持つ。</p>"
 		},
 		{
 			"id": "Persistent Servant",
@@ -3098,8 +3098,8 @@
 		},
 		{
 			"id": "Phantom Prison",
-			"name": "Phantom Prison",
-			"description": "<p>You completely surround a Large or smaller creature in immobile illusory walls, trapping it inside a false prison it can't escape. No other creatures see or feel these walls, and the target can't see anything outside of the illusory walls. The target can attempt a Will save when the spell is cast, each time it attempts to interact with or escape the walls, and each time something from outside the walls affects the target. On a success, it disbelieves the illusion and the spell ends.</p>\n<hr />\n<p><strong>増強 (8th)</strong> You can target up to 5 creatures.</p>"
+			"name": "ファントム・プリズン",
+			"description": "<p>君は、動かない幻影の壁で大型以下のクリーチャー1体を完全に囲み、逃れることの出来ない偽りの牢獄に閉じ込める。他のクリーチャーはこの壁を見ることも感じることも出来ず、対象は幻影の壁の外を見ることが出来ない。対象は呪文が発動された際、壁に関わろうとする際、お呼び壁から逃れようとする際、そして壁の外にイル何かが対象に影響を与えようとする際に、意志セーヴを試みることが出来る。成功時、対象は幻影を見破り、呪文は終了する。</p>\n<hr />\n<p><strong>増強 (8th)</strong> 君は5体までのクリーチャーを対象にすることが出来る。</p>"
 		},
 		{
 			"id": "Phantom Steed",
@@ -3118,8 +3118,8 @@
 		},
 		{
 			"id": "Pillar of Water",
-			"name": "Pillar of Water",
-			"description": "<p>You create a large, self-contained cylinder of still fresh water. The pillar has a maximum radius of 15 feet and a maximum height of 60 feet. Creatures inside the pillar can swim through the water as normal (Swim DC 10), or, if the spell was cast on solid ground, walk along the bottom (which is difficult terrain). Any creature that exits the pillar falls or lands accordingly.</p>"
+			"name": "ピラー・オヴ・ウォーター",
+			"description": "<p>君は静止した真水で出来た、大きな自立した円柱を作り出す。この柱は最大で半径15フィート、高さ60フィートである。柱の内部に居るクリーチャーは通常通り、水の中を泳ぐことが出来る（水泳DC10)が、もし呪文が固体の地面に発動されたなら、底部に沿って移動することも出来る（移動困難な地形となる）。柱から出たクリーチャーは、落下するか着地する。</p>"
 		},
 		{
 			"id": "Pillars of Sand",
@@ -3173,8 +3173,8 @@
 		},
 		{
 			"id": "Positive Attunement",
-			"name": "Positive Attunement",
-			"description": "<p>You attune a creature to the Positive Energy Plane, connecting its life force without fully transporting it. The creature's appearance becomes more brightly colored. If the creature is living, it heals 1d8 Hit Points immediately and at the end of each of your turns. Effects that increase healing only increase the initial healing.</p>\n<p>If the creature is undead or has negative healing, it instead takes [[/r {1d8}[positive]]]{1d8 positive damage}, depending on the result of its Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is damaged once and the spell ends.</p>\n<p><strong>Failure</strong> The creature is damaged immediately and at the end of each of your turns (so twice in the round you Cast the Spell).</p>\n<p><strong>Critical Failure</strong> As failure, and the damage is doubled.</p>\n<hr />\n<p><strong>増強 (+3)</strong> The damage and healing each increase by [[/r 1d8]]{1d8}.</p>"
+			"name": "ポジティブ・アチューンメント",
+			"description": "<p>君はクリーチャーの正のエネルギー界に同調させ、完全に転送させることなくその生命力を接続する。クリーチャーの外見は、より鮮やかな色合いになる。もしそのクリーチャーが生きているクリーチャーなら、即座に、そして手番の終了ごとに1d8点のヒットポイントを回復する。治癒を増やす効果は、初期の治癒だけを増加させる。</p>\n<p>もし、そのクリーチャーがアンデッドであるか、負のエネルギー治癒を持っているなら、意志セーヴの結果によって代わりに[[/r {1d8}[正のエネルギー]]]{1d8点の正のエネルギーダメージ}を受ける。</p>\n<hr />\n<p><strong>クリティカル</strong> クリーチャーは影響を受けない</p>\n<p><strong>成功</strong> クリーチャーは呪文終了時に1度、ダメージを受ける</p>\n<p><strong>失敗</strong> クリーチャーは即座に、そして君の手番の終了時ごとにダメージを受ける（君が「呪文の発動」をしたラウンドは2回、ダメージを受ける）</p>\n<p><strong>ファンブル</strong> 失敗と同じだが、ダメージは2倍になる</p>\n<hr />\n<p><strong>増強 (+3)</strong> ダメージと治癒は[[/r 1d8]]{1d8}点ずつ上昇する</p>"
 		},
 		{
 			"id": "Positive Luminance",
@@ -3358,8 +3358,8 @@
 		},
 		{
 			"id": "Pyrotechnics",
-			"name": "Pyrotechnics",
-			"description": "<p>You turn a fire into either a burst of blinding fireworks or a thick cloud of choking smoke, chosen when you Cast the Spell. The spell targets one fire source, which is immediately extinguished if it is a non-magical fire the size of a campfire or smaller. If the fire source is a creature, the creature takes 1d6 points of cold damage and is not extinguished.</p>\n<ul>\n<li><strong>Fireworks</strong> The targeted fire explodes into a colorful array of flashy, fiery, glowing aerial fireworks in a 20-foot-radius burst. The first time you Sustain the Spell each round, you can cause the area of fireworks to ascend up to 20 feet, but you cannot move the area laterally. Creatures that start their turn within the area of the fireworks must attempt a Fortitude save, and are then temporarily immune for 1 minute.\n<p><strong>Critical Success</strong> The creature is unaffected</p>\n<p><strong>Success</strong> The creature is @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Dazzled} until the end of its next turn.</p>\n<p><strong>Failure</strong> The creature is @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded} until the end of its next turn.</p>\n<p><strong>Critical Failure</strong> The creature is Blinded for 1 minute.</p></li>\n<li><strong>Smoke Cloud</strong> Thick smoke billows out from the fire and coalesces into a cloud that spreads to fill a 20-foot-radius burst centered on the targeted fire. Creatures within the smoke cloud take a -4 circumstance penalty to visual Perception checks, and creatures outside the smoke cloud take a -4 circumstance penalty to visual Perception checks to detect creatures or objects within it. The first time you Sustain the Spell each round, you can cause the smoke cloud to descend up to 20 feet, but you cannot move the area laterally. Creatures that start their turn within the smoke cloud must attempt a Fortitude save, and are then temporarily immune for 1 minute.\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature is @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p><strong>Critical Failure</strong> The creature is Sickened 1 and cannot recover from the sickened condition while in the area of the smoke cloud.</p></li>\n</ul>"
+			"name": "パイロテクニクス",
+			"description": "<p>君は「呪文の発動」の際に一つの炎を目も眩むような花火にするか、息が詰まるような煙にするかを選ぶ。この呪文は一つの炎の源を対象とする。この火元は、もし、キャンプファイア以下の大きさの魔法のものではない炎なら、即座に消火される。もし、火元がクリーチャーであるなら、そのクリーチャーは1d6点の氷雪ダメージを受け、消火されない。</p>\n<ul>\n<li><strong>花火</strong> 対象となった火は20フィート半径に爆発する、色とりどりの眩しい、燃え上がりながら成長する空中の花火を爆発させる。君が毎ラウンド、「呪文の維持」を最初にするごとに、君は花火の範囲を20フィートまで上昇させることが出来るが、その範囲を横方向に移動させることは出来ない。自分の手番を花火の範囲内で開始したクリーチャーは頑健セーヴを試みなくてはならず、それから1分間、一時的完全耐性を得る。\n<p><strong>クリティカル</strong> クリーチャーは影響を受けない</p>\n<p><strong>成功</strong> クリーチャーは次の手番の終了時まで@Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{目が眩んだ状態}になる</p>\n<p><strong>失敗</strong> クリーチャーは次の手番の終了時まで@Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{盲目状態}になる</p>\n<p><strong>ファンブル</strong> クリーチャーは1分間、盲目状態になる</p></li>\n<li><strong>煙の雲</strong> 火元から濃い煙が吹き出し、雲となってまとまり、対象となった火を中心とした半径20フィート爆発の範囲を埋め尽くすように広がる。煙の雲の中に居るクリーチャーは視覚的な知覚判定に－4の状況ペナルティを受け、煙の雲の外側に居るクリーチャーは煙の雲の中にいるクリーチャーや物体を探知するための視覚的な知覚判定に－4の状況ペナルティを受ける。毎ラウンド、最初に君が「呪文の維持」をするごとに、君は20フィートまで煙の雲を下降させることが出来るが、その範囲を横方向に移動させることは出来ない。自分の手番を煙の雲の中で開始したクリーチャーは頑健セーヴを試みなくてはならず、それから1分間、一時的完全耐性を得る。\n<p><strong>成功</strong> クリーチャーは影響を受けない</p>\n<p><strong>失敗</strong> クリーチャーは @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{不調1}になる</p>\n<p><strong>ファンブル</strong> クリーチャーは不調1になり、煙の雲の範囲内にいる間は不調から回復することが出来ない</p></li>\n</ul>"
 		},
 		{
 			"id": "Quench",
@@ -3493,8 +3493,8 @@
 		},
 		{
 			"id": "Remove Disease",
-			"name": "Remove Disease",
-			"description": "<p>Healing magic purges disease from a creature's body. You attempt to counteract one disease afflicting the target.</p>"
+			"name": "リムーヴ・ディジーズ",
+			"description": "<p>治癒の魔術がクリーチャーの肉体から病気を追い出す。君は、対象を苛んでいる1つの病気を無効化しようとする。</p>"
 		},
 		{
 			"id": "Remove Fear",
@@ -3633,8 +3633,8 @@
 		},
 		{
 			"id": "Roaring Applause",
-			"name": "Roaring Applause",
-			"description": "<p>Your flamboyant flourish invokes such powerful feelings in your audience that you incite cheers and applause. Targets of this spell must be able to see, hear, or otherwise understand you. The targets must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target becomes mildly distracted by your display and applauds while it isn't fully occupied. It can't use reactions.</p>\n<p><strong>Failure</strong> The target applauds you so vigorously that it can't use reactions and is @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1}. The applause is so involved that it has the manipulate trait. This triggers reactions based on the manipulate trait at the start of the target's turn.</p>\n<p><strong>Critical Failure</strong> As failure, plus the target is so distracted by its vigorous applauding of you that it's @Compendium[pf2e.conditionitems.AdPVz7rbaVSRxHFg]{Fascinated} with you.</p>\n<hr />\n<p><strong>増強 (6th)</strong> You can target up to 10 creatures.</p>"
+			"name": "ロアリング・アプローズ",
+			"description": "<p>君の派手な演出は観客の感情を揺さぶり、歓声や拍手を引き起こす。この呪文の対象は、君を目視するか、聞き取るか、そうでなければ君を理解することが出来ていなければならない。対象は意志セーヴを試みなくてはならない。</p>\n<hr />\n<p><strong>クリティカル</strong> 対象は影響を受けない</p>\n<p><strong>成功</strong> 対象は君の見せるものに軽く気を取られて、完全には意識を取られていないものの、拍手をする。リアクションを使うことが出来なくなる</p>\n<p><strong>失敗</strong> 対象はリアクションを使うことが出来ず、@Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{減速化1}になるほど精力的に君に拍手喝采をする。この拍手は非常にのめり込んだものなので、操作の特性を持つ。これは、対象の手番の開始時に操作の特性に基づいたリアクションのトリガーとなる。</p>\n<p><strong>ファンブル</strong> 失敗と同じだが、対象は君に気を取られ、@Compendium[pf2e.conditionitems.AdPVz7rbaVSRxHFg]{恍惚}状態になるほど精力的に君に拍手喝采をする</p>\n<hr />\n<p><strong>増強 (6th)</strong> 君は10体までのクリーチャーを対象にすることが出来る</p>"
 		},
 		{
 			"id": "Rope Trick",
@@ -3643,8 +3643,8 @@
 		},
 		{
 			"id": "Rouse Skeletons",
-			"name": "Rouse Skeletons",
-			"description": "<p>Misshapen skeletal forms erupt from a solid surface, such as a stone floor, and fill the burst. The area they fill is difficult terrain. Their grasping claws deal 2d6 slashing damage to creatures on the ground in the area when the skeletons first appear (basic Reflex save).</p>\n<p>On subsequent rounds, the first time you Sustain the Spell each round, you can move the area of skeletons up to 20 feet within the range of the spell and deal 2d6 slashing damage (basic Reflex save) to each creature in their new area.</p>\n<p>Damaging or destroying the skeletons is irrelevant, as new bones pull forth from the ground to repair and replace any that are obliterated.</p>\n<hr />\n<p><strong>増強 (+2)</strong> The damage increases by 1d6.</p>"
+			"name": "ロウズ・スケルトンズ",
+			"description": "<p>石畳のような硬い表面から不格好な骸骨が吹き出してきて、爆発内を埋め尽くす。彼らが満たす範囲は移動困難な地形となる。掴もうとしてくる爪によって、骸骨が最初に現れた際、範囲内の地表にいるクリーチャーは2d6点の斬撃ダメージを受ける（基本反応セーヴ）</p>\n<p>その後のラウンドでは、ラウンドごとに最初に「呪文の維持」をするごとに、君は呪文の範囲内に骸骨の範囲を20フィートまで移動させ、新しい範囲内に居るクリーチャーそれぞれに2d6点の斬撃ダメージ（基本反応セーヴ）を与えることが出来る。</p>\n<p>骸骨にダメージを与えたり、破壊することは全く影響を与えない。消滅した者を置き換え、修復するために新しい骨が地面から引き出されてくるからである。</p>\n<hr />\n<p><strong>増強 (+2)</strong> ダメージは1d6点、上昇する。</p>"
 		},
 		{
 			"id": "Runic Impression",
@@ -3658,8 +3658,8 @@
 		},
 		{
 			"id": "Safe Passage",
-			"name": "Safe Passage",
-			"description": "<p>You repel dangers from all around you, making passage through the chosen area safe for a brief amount of time. Anyone passing through the area gains the following benefits against harmful effects of the terrain and environment, including environmental damage, hazardous terrain, and hazards in the area. The spell grants a +2 status bonus to AC and saves against such effects, and resistance 5 to all damage from such effects. Furthermore, the spell prevents anything in the area that's prone to collapse, such as a rickety bridge or an unstable ceiling, from collapsing, except under extreme strain that would collapse a normal structure of its type.</p>\n<p><em>Safe passage</em> protects only against harm, not inconvenience, and it doesn't reduce difficult terrain, remove the @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} condition caused by precipitation, or the like, nor does it protect against creatures within the spell's area.</p>\n<hr />\n<p><strong>増強 (5th)</strong> The granted resistance increases to 10, and the area can be 120 feet long.</p>\n<p><strong>増強 (8th)</strong> The granted resistance increases to 15, and the area can be 500 feet long.</p>"
+			"name": "セーフ・パッセージ",
+			"description": "<p>君は周囲の危険を跳ね返し、選んだ範囲を短時間だけ安全に通過することが出来るようにする。この範囲を通過する者は、環境ダメージ、障害となる地形、その範囲の障害を含んだ、地形と環境による有害な効果に対して下記の利益を得る。この呪文はこのような効果に対してACとセーヴに+2ステータス・ボーナスと、そのような効果による全てのダメージに抵抗5点を与える。更に、この呪文は、通常のその種別の構造物が崩壊するような極度の負荷がかかった場合を除き、橋や不安定な天井といった崩壊しやすいものを防ぐことが出来る。</p>\n<p><em>セーフ・パッセージ</em>は不便さではなく、有害なものに対してのみ守りを与え、移動困難な地形を軽減することや、降雨による@Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{視認困難}状態といったものを軽減することはなく、呪文の範囲内に居るクリーチャーからも守ってはくれない。</p>\n<hr />\n<p><strong>増強 (5th)</strong> 抵抗は10点に増え、範囲は長さ120フィートまでになる</p>\n<p><strong>増強 (8th)</strong> 抵抗は15点に増え、範囲は長さ500フィートまでになる</p>"
 		},
 		{
 			"id": "Safeguard Secret",
@@ -3668,8 +3668,8 @@
 		},
 		{
 			"id": "Sanctified Ground",
-			"name": "Sanctified Ground",
-			"description": "<p>You sanctify the area, sprinkling it with holy water and warding it against your foes. Choose aberrations, celestials, dragons, fiends, monitors, or undead. All creatures in the area gain a +1 status bonus to AC, attack rolls, damage rolls, and saving throws against the chosen creatures.</p>"
+			"name": "サンクティファイド・グラウンド",
+			"description": "<p>君は清水を撒き、敵に対する守りを固めてその範囲を聖別する。異形、セレスチャル、竜、フィーンド、モニター、アンデッドから1つを選ぶ。範囲内の全てのクリーチャーは、選んだクリーチャーに対するAC、攻撃ロール、ダメージ・ロール、セーヴィング・スローに+1ステータス・ボーナスを得る。</p>"
 		},
 		{
 			"id": "Sanguine Mist",
@@ -3728,8 +3728,8 @@
 		},
 		{
 			"id": "Sculpt Sound",
-			"name": "Sculpt Sound",
-			"description": "<p>You change the sounds made by a creature or object. Choose how you're altering the sounds when you @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Cast the Spell}; you can't alter it later. You can cause something that didn't create a sound to make sound, alter the voice of a creature, amplify or deaden a sound, or transform one sound into another. A creature who succeeds at a Perception check against your spell DC can determine that the sound was altered by an illusion, including hearing faint sounds if you deadened the sound, but they can't determine the true sound unless they critically succeed at the Perception check. You can @Compendium[pf2e.actionspf2e.AjLSHZSWQ90exdLo]{Dismiss} the spell.</p>\n<p>Because this spell obscures sound instead of preventing it, using the spell to quiet a creature doesn't prevent that creature from using verbal spell components, though it does prevent most auditory effects that rely on another creature hearing them accurately. An unwilling target can attempt a Will save.</p>\n<hr />\n<p><strong>Success</strong> The affected sound from the creature isn't altered.</p>\n<p><strong>Failure</strong> The affected sound from the creature is altered in the way you determine.</p>\n<p><strong>Critical Failure</strong> The affected sound from the creature is altered and the target becomes @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 2} for 1 minute as it struggles with the disorienting effects of its altered sound.</p>\n<hr />\n<p><strong>増強 (5th)</strong> You can target up to 6 creatures or 6 objects, altering the sounds of all affected creatures or objects in the same way.</p>"
+			"name": "スカルプト・サウンド",
+			"description": "<p>君は、クリーチャーや物体が発する音を変える。@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{「呪文の発動」}の際に、音をどうやって変更するかを選ぶこと。君はそれを後で変えることは出来ない。君は、音を立てないものに音を立てさせたり、クリーチャーの声を変えたり、音を増幅したり小さくしたり、ある音を別の音に変更したりする。君の呪文DCに対する知覚判定に成功したクリーチャーは、その音が幻術によって変えられたことが分かる。これには、君が音を小さくしていた場合にかすかな音を聞きつけることが含まれるが、知覚判定にクリティカルしなければ、本当の音を判断することは出来ない。君はこの呪文を@Compendium[pf2e.actionspf2e.AjLSHZSWQ90exdLo]{「解除」}することが出来る。</p>\n<p>この呪文は、音を妨げるのではなく、不明瞭にするため、この呪文を使ってクリーチャーを静かにすることによって、そのクリーチャーが音声呪文構成要素を使うことを妨害することは出来ないが、正確に別のクリーチャーが音を聞き取ることによって機能するほとんどの聴覚効果を妨害する。同意しない対象は意志セーヴを試みることが出来る。</p>\n<hr />\n<p><strong>成功</strong> クリーチャーから発せられる、影響を受けた音は変更を受けない</p>\n<p><strong>失敗</strong> クリーチャーから発せられる、影響を受けた音は君が決めた方法で変更される</p>\n<p><strong>ファンブル</strong> クリーチャーから発せられる、影響を受けた音は変更され、対象は変更された音の不明瞭な効果で惑ってしまうため、1分間、@Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{知性低下2}になる</p>\n<hr />\n<p><strong>増強 (5th)</strong> 君は6体のクリーチャーか6つの物体までを対象にすることが出来る。全ての影響を受けたクリーチャーや物体は、同じ方法で変更される。</p>"
 		},
 		{
 			"id": "Sea Surge",
@@ -3743,8 +3743,8 @@
 		},
 		{
 			"id": "Searing Light",
-			"name": "Searing Light",
-			"description": "<p>You shoot a blazing ray of light tinged with holy energy. Make a ranged spell attack. The ray deals 5d6 fire damage. If the target is a fiend or undead, you deal an extra 5d6 good damage.</p>\n<p>If the light passes through an area of magical darkness or targets a creature affected by magical darkness, searing light attempts to counteract the darkness. If you need to determine whether the light passes through an area of darkness, draw a line between yourself and the spell's target</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes double fire damage, as well as double good damage if a fiend or undead.</p>\n<p><strong>Success</strong> The target takes full damage</p>\n<hr />\n<p><strong>増強 (+1)</strong> The fire damage increases by 2d6, and the good damage against fiends and undead increases by 2d6.</p>"
+			"name": "シアリング・ライト",
+			"description": "<p>君は、聖なるエネルギーを帯びた燃える光線を放つ。遠隔呪文攻撃を行う。光線は5d6点の火炎ダメージを与える。もし、対象がフィーンドかアンデッドなら、追加で5d6点の善ダメージを与える。</p>\n<p>もし、光が魔法の暗闇の範囲を通り過ぎるか、対象が魔法の暗闇に影響を受けていたのなら、シアリング・ライトは暗闇を無効化しようとする。もし、暗闇の範囲を光が通り過ぎたかどうかを判断する必要があるなら、君と呪文の対象の間に直線を引く。</p>\n<hr />\n<p><strong>クリティカル</strong> T対象は2倍の火炎ダメージを受け、もしフィーンドかアンデッドなら、2倍の善ダメージも受ける</p>\n<p><strong>成功</strong> 対象は完全なダメージを受ける</p>\n<hr />\n<p><strong>増強 (+1)</strong> 火炎ダメージは2d6点増え、フィーンドとアンデッドに対する善ダメージは2d6点増える</p>"
 		},
 		{
 			"id": "Seashell of Stolen Sound",
@@ -3758,8 +3758,8 @@
 		},
 		{
 			"id": "Secret Page",
-			"name": "Secret Page",
-			"description": "<p>You change the target's text to different text entirely. If the text is a spellbook or a scroll, you can change it to show a spell you know of secret page's level or lower. The replacement spell cannot be cast or used to prepare a spell. You can also transform the text into some other text you have written or have access to. You can specify a password that allows a creature touching the page to change the text back and forth. You must choose the replacement text and the password, if any, when you Cast the Spell.</p>"
+			"name": "シークレット・ページ",
+			"description": "<p>君は対象の文章を全く別の文章に変更する。もし、その文章が呪文書や巻物であるなら、君はそれを、自分が知っている、シークレット・ページのレベル以下の呪文を表示させるように変更できる。この代替呪文は、呪文の準備や発動のために使うことは出来ない。君はまた、文章を君が書いた、あるいは入手したことがある他の文章に変換することも出来る。君は、ページに触れたクリーチャーが文章を変更することが出来るようになるパスワードを指定することも出来る。君は代替文書とパスワードを「呪文の発動」をした際に選ばなければならない。</p>"
 		},
 		{
 			"id": "See Invisibility",
@@ -3798,8 +3798,8 @@
 		},
 		{
 			"id": "Shadow Projectile",
-			"name": "Shadow Projectile",
-			"description": "<p><strong>Trigger</strong> An ally within 20 feet of you makes a ranged attack roll.</p>\n<p>You create an illusory duplicate of your ally's ranged attack to confuse your opponents. You launch an illusory double of your ally's projectile or spell at the same target, leaving the enemy unsure which attack to avoid. The target takes 3d8 mental damage, depending on its Will save. Regardless of the result of its save, it's temporarily immune to <em>shadow projectile</em> spells for 1 hour.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} against the triggering attack.</p>\n<p><strong>Failure</strong> The creature is flat-footed against the triggering attack and takes full damage from your illusory projectile.</p>\n<p><strong>Critical Failure</strong> As failure, but double damage.</p>\n<hr />\n<p><strong>増強 (+2)</strong> The damage increases by 1d8.</p>"
+			"name": "シャドウ・プロジェクタイル",
+			"description": "<p><strong>トリガー</strong> 君から20フィート以内の味方1人が遠隔攻撃ロールを行う</p>\n<p>君は、敵を混乱させるために味方の遠隔攻撃の幻の複製を作り出す。君は、同じ対象に対して君の味方の発射物あるいは呪文の幻覚の分身を発射し、どの攻撃を避けるべきか敵が分からないようにする。対象は意志セーヴの結果によって3d8点の精神ダメージを受ける。セーヴの結果によらず、対象は1時間、<em>シャドウ・プロジェクタイル</em>に一時的耐性を得る。 </p>\n<hr />\n<p><strong>クリティカル</strong> クリーチャーは影響を受けない</p>\n<p><strong>成功</strong> クリーチャーはトリガーとなった攻撃に対して@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{立ちすくみ}になる</p>\n<p><strong>失敗</strong> クリーチャーはトリガーとなった攻撃に対して立ちすくみになり、君の幻影の発射物から完全なダメージを受ける</p>\n<p><strong>ファンブル</strong> 失敗と同じだが、ダメージを2倍にする</p>\n<hr />\n<p><strong>増強 (+2)</strong> ダメージは1d8点、上昇する</p>"
 		},
 		{
 			"id": "Shadow Raid",
@@ -3888,8 +3888,8 @@
 		},
 		{
 			"id": "Shift Blame",
-			"name": "Shift Blame",
-			"description": "<p><strong>Trigger</strong> You or another creature attacks a creature or fails at a Deception, Diplomacy, or Intimidation check.</p>\n<p>You alter the target's memories of the triggering event as they form. You choose another creature (which can be you) with the capacity to make the triggering attack or skill check, and you alter the target's memories to recall the creature you chose as responsible for the triggering attack or skill check. The target must attempt a Will save and is then temporarily immune for 24 hours.</p>\n<hr />\n<p><strong>Critical Success</strong> The target knows you attempted to alter its memories.</p>\n<p><strong>Success</strong> The target doesn't realize you attempted to alter its memories, though it knows you cast a spell.</p>\n<p><strong>Failure</strong> You successfully alter the target's memory. It isn't forced to react to the new memories in a particular way, and it's likely to question them if they contradict other information it knows or are implausible for the situation.</p>"
+			"name": "シフト・ブレイム",
+			"description": "<p><strong>トリガー</strong> 君か別のクリーチャーがクリーチャーを攻撃するか、〈欺瞞〉、〈交渉〉、〈威圧〉に失敗する</p>\n<p>君は、トリガーとなった出来事についての対象の記憶を、形成するままに変化させる。君は、トリガーとなった攻撃あるいは技能判定をする能力を持つ他のクリーチャー（君でもよい）を選び、その攻撃や技能判定に責任あるものとして君が選んだクリーチャーを思い出すよう、対象の記憶を変更する。対象は意志セーヴを試みなくてはならず、それから、24時間、一時的耐性を得る。</p>\n<hr />\n<p><strong>クリティカル</strong> 対象は君が記憶を改変しようとしたことを知っている</p>\n<p><strong>成功</strong> 対象は君が記憶を変更しようとしたことは悟らないが、君が呪文を発動したことを知っている</p>\n<p><strong>失敗</strong> 君は対象の記憶改変に成功した。特定の方法で新しい記憶に反応を強いられるわけではなく、もし、その記憶が自分が知っている他の情報と矛盾したり、状況的に有り得ないという場合は、疑問を持つ可能性が高い。</p>"
 		},
 		{
 			"id": "Shifting Form",
@@ -3898,8 +3898,8 @@
 		},
 		{
 			"id": "Shifting Sand",
-			"name": "Shifting Sand",
-			"description": "<p>You cause the surface to heave. The area becomes difficult terrain and any tracks in the area are destroyed by the churning ground. Creatures standing in the area take a -1 status penalty to Acrobatics checks to @Compendium[pf2e.actionspf2e.M76ycLAqHoAgbcej]{Balance} and @Compendium[pf2e.actionspf2e.21WIfSu7Xd7uKqV8]{Tumble Through} and Athletics checks to @Compendium[pf2e.actionspf2e.2HJ4yuEFY1Cast4h]{High Jump} and @Compendium[pf2e.actionspf2e.JUvAvruz7yRQXfz2]{Long Jump}. The first time each round you Sustain the Spell, you can move the churning area up to 10 feet in any direction. Creatures immobilized by the spell are carried along with the shifting sand in the same direction, if possible; this movement is forced movement. Creatures that enter or begin their turn standing in the shifting sand must attempt a Reflex save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected and ignores the area's difficult terrain and penalty to skill checks until the end of its turn.</p>\n<p><strong>Success</strong> The creature ignores the area's penalty to skill checks until the end of its turn.</p>\n<p><strong>Failure</strong> The creature is affected normally by the spell this turn.</p>\n<p><strong>Critical Failure</strong> The creature becomes @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized} within the spell's area until it Escapes. If the creature was already immobilized by shifting sands, it also falls @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}.</p>\n<hr />\n<p><strong>増強 (5th)</strong> The status penalty increases to -2 and the spell's range increases to 60 feet.</p>\n<p><strong>増強 (7th)</strong> The status penalty increases to -3, the spell's range increases to 60 feet, and the spell's area increases to a 30-foot burst.</p>\n<p><strong>増強 (9th)</strong> The status penalty increases to -4, the spell's range increases to 60 feet, and the spell's area increases to a 40-foot burst.</p>"
+			"name": "シフティング・サンド",
+			"description": "<p>君は地面を隆起させる。範囲は移動困難な地形となり、範囲内のあらゆる痕跡は揺れ動く地面によって破壊される。範囲内に立っていたクリーチャーは@Compendium[pf2e.actionspf2e.M76ycLAqHoAgbcej]{「バランスを取る」}、あるいは@Compendium[pf2e.actionspf2e.21WIfSu7Xd7uKqV8]{「軽業移動」}のための〈軽業〉判定と@Compendium[pf2e.actionspf2e.2HJ4yuEFY1Cast4h]{「高跳び」} 、@Compendium[pf2e.actionspf2e.JUvAvruz7yRQXfz2]{「幅跳び」}のための〈運動〉判定に－1のステータス・ペナルティを受ける。君が毎ラウンド、最初に「呪文の維持」をするごとに、あらゆる方向に10フィートまで、揺れ動く地面を移動させることが出来る。この呪文によって動けない状態にされたクリーチャーは、もし可能であるなら同じ方向にシフティング・サンドに沿って移動させられる：この移動は強制移動である。シフティング・サンドの中に入ったか、手番をそこで立っている間に開始したクリーチャーは反応セーヴを試みなくてはならない。</p>\n<hr />\n<p><strong>クリティカル</strong> クリーチャーは影響を受けず、この範囲の移動困難な地形と技能判定へのペナルティを手番の終了時まで無視する</p>\n<p><strong>成功</strong> クリーチャーはこの範囲の技能判定へのペナルティを手番の終了時まで無視する</p>\n<p><strong>失敗</strong> クリーチャーはその手番の間、通常通りにこの呪文の影響を受ける</p>\n<p><strong>ファンブル</strong> リーチャーは「脱出」するまで、呪文範囲内で@Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{動けない状態}になる。もし、既にシフティング・サンドで動けない状態にされているなら、@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{伏せ状態}になる</p>\n<hr />\n<p><strong>増強 (5th)</strong> ステータス・ペナルティは－2になり、呪文の距離は60フィートに増える</p>\n<p><strong>増強 (7th)</strong> ステータス・ペナルティは－3になり、呪文の距離は60フィートに、呪文の範囲は30フィート爆発に増える</p>\n<p><strong>増強 (9th)</strong> ステータス・ペナルティは－4になり、呪文の距離は60フィートに、呪文の範囲は40フィート爆破に増える</p>"
 		},
 		{
 			"id": "Shockwave",
@@ -3913,8 +3913,8 @@
 		},
 		{
 			"id": "Show the Way",
-			"name": "Show the Way",
-			"description": "<p>You and affected allies gain preternatural knowledge of the path ahead, allowing you to intuit the best way forward and avoid potential obstacles such as difficult or confusing terrain. For the purpose of long-distance overland travel during exploration mode, traveling through difficult terrain reduces you to only three-quarters your travel Speed instead of half, and traveling through greater difficult terrain reduces your travel Speed to only half your travel Speed instead of one-third. <em>Show the way</em> does not prevent you from falling into traps or encountering other artificial obstacles and hazards.</p>\n<hr />\n<p><strong>増強 (+6)</strong> For the purpose of long-distance overland travel during exploration mode, traveling through difficult terrain doesn't reduce your travel Speed at all, and traveling through greater difficult terrain reduces your travel Speed to only three-quarters of its normal value instead of one-third.</p>"
+			"name": "ショウ・ザ・ウェイ",
+			"description": "<p>君と、影響を受けている味方は前方の道への超自然的な知識を得る。これによって、最善の道を直感で理解し、移動困難な地形や混乱をもたらすような地形といった潜在的な障害を避けることが出来る。探索モードの間の、長距離の地上の旅程においては、移動困難な地形を通過する際の移動速度が半分ではなく、3/4になり、非常に移動困難な地形を通過する際の移動速度は1/3ではなく半分になる。<em>ショウ・ザ・ウェイ</em>は、君が罠に陥ることや、その他の人工的な障害物や障害に遭遇することから守ってくれることはない。</p>\n<hr />\n<p><strong>増強 (6th)</strong> 探索モードの間の長距離の地上での旅行について、移動困難な地形を旅行しても君の旅程速度は全く減らず、非常に移動困難な地形を良好する際の移動速度は、1/3ではなく、3/4になる。</p>"
 		},
 		{
 			"id": "Shrink",
@@ -3923,8 +3923,8 @@
 		},
 		{
 			"id": "Shrink Item",
-			"name": "Shrink Item",
-			"description": "<p>You shrink the target to roughly the size of a coin. This reduces it to negligible Bulk. You can Dismiss the spell, and the spell ends if you toss the object onto a solid surface. The object can't be used to attack or cause damage during the process of it returning to normal size. If there isn't room for the object to return to normal size when the spell ends, the spell's duration continues until the object is in a location large enough to accommodate its normal size.</p>"
+			"name": "シュリンク・アイテム",
+			"description": "<p>君は対象を、概ね硬貨くらいの大きさに小さくする。これによって、対象は取るに足らないバルクにまで減る。君はこの呪文を「解除」することが出来る。そして、もし君がこの物体を硬い地面の上に投げたなら、この呪文は終了する。通常の大きさに戻るまでの間、この物体を使って攻撃を行ったり、ダメージを与えることは出来ない。もし、呪文が終了した際に通常の大きさに戻るためのスペースがないなら、その物体が元の大きさになるだけの広さのある場所に置かれるまで、呪文は持続する。</p>"
 		},
 		{
 			"id": "Shroud of Flame",
@@ -3953,8 +3953,8 @@
 		},
 		{
 			"id": "Slow",
-			"name": "Slow",
-			"description": "<p>You dilate the flow of time around the target, slowing its actions.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round.</p>\n<p><strong>Failure</strong> The target is @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 minute.</p>\n<p><strong>Critical Failure</strong> The target is @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 2} for 1 minute.</p>\n<hr />\n<p><strong>増強 (6th)</strong> You can target up to 10 creatures.</p>"
+			"name": "スロー",
+			"description": "<p>君は対象の周囲の時間の流れを拡張し、そのアクションを遅らせる。</p>\n<hr />\n<p><strong>クリティカル</strong> 対象は影響を受けない</p>\n<p><strong>成功</strong> 対象は1ラウンド、@Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{減速化1}になる</p>\n<p><strong>失敗</strong> 対象は1分間、@Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{減速化1}になるT</p>\n<p><strong>Cファンブル</strong> 対象は1分間、@Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{減速化2}になる</p>\n<hr />\n<p><strong>増強 (6th)</strong> 君は10体までのクリーチャーを対象にすることが出来る</p>"
 		},
 		{
 			"id": "Snowball",
@@ -3978,8 +3978,8 @@
 		},
 		{
 			"id": "Soothing Blossoms",
-			"name": "Soothing Blossoms",
-			"description": "<p>Blossoms grow from the ground in a small area, soothing away afflictions and persistent pains and harm. When any creature in that area rolls a successful save against a poison or disease effect, it gets a critical success instead. The blossoms grant assisted recovery to everyone in the area to end their persistent damage, both when the spell is cast and at the start of each of your turns. Once the duration ends, the flowers lose their magical effect, but a few of them might survive in the area as long as they can naturally. This spell doesn't give a benefit on a save against an affliction unless the stage lasts 10 minutes or less.</p>\n<p>@Compendium[pf2e.spell-effects.nIryhRgeiacQw1Em]{Spell Effect: Soothing Blossoms}</p>"
+			"name": "スージング・ブロッサムズ",
+			"description": "<p>小さな範囲内に花々が地面から咲いて、苦難や継続する痛みと害を和らげようとする。その範囲内のクリーチャーが毒や病気の効果に対するセーヴに成功をロールした際、代わりにクリティカルする。花々は、呪文の発動時と君の手番の開始時ごとに、継続ダメージを終わらせるために、範囲内の全員に援護的な回復を与える。持続時間が終了したならすぐに、花々はその魔法の効果を失うが、そのうちの少しは可能な限り自然な範囲で生き残るかもしれない。この呪文は、ステージが10分以下でない限り、苦難に対するセーヴに利益を与えることはない。</p>\n<p>@Compendium[pf2e.spell-effects.nIryhRgeiacQw1Em]{呪文効果: スージング・ブロッサムズ}</p>"
 		},
 		{
 			"id": "Soothing Spring",
@@ -4153,8 +4153,8 @@
 		},
 		{
 			"id": "Stinking Cloud",
-			"name": "Stinking Cloud",
-			"description": "<p>You create a cloud of putrid mist in the area. The cloud functions as <em>@Compendium[pf2e.spells-srd.9XHmC2JgTUIQ1CCm]{Obscuring Mist}</em> except it sickens creatures that end their turns within the cloud. (The @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} condition is not a poison effect.)</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p><strong>Failure</strong> The creature is @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1} and @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} while in the cloud.</p>\n<p><strong>Critical Failure</strong> The creature is @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 2} and @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} until it leaves the cloud.</p>"
+			"name": "スティンキング・クラウド",
+			"description": "<p>君は範囲内に腐臭のする霧を作り出す。この雲は雲の中で手番を終了したクリーチャーを不調にさせるということ以外は、<em>@Compendium[pf2e.spells-srd.9XHmC2JgTUIQ1CCm]{オブスキュアリング・ミスト}</em>のように機能する（@Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{視認困難}状態は毒の効果ではない）</p>\n<hr />\n<p><strong>クリティカル</strong> クリーチャーは影響を受けない</p>\n<p><strong>成功</strong> クリーチャーは@Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{不調1}である</p>\n<p><strong>失敗</strong> クリーチャーは雲の中にいる間、@Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{不調1}かつ@Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{減速化1}である</p>\n<p><strong>ファンブル</strong> クリーチャーは雲から去るまで@Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{不調2}かつ@Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{減速化1}である</p>"
 		},
 		{
 			"id": "Stoke the Heart",
@@ -4228,8 +4228,8 @@
 		},
 		{
 			"id": "Sudden Recollection",
-			"name": "Sudden Recollection",
-			"description": "<p>You place a bit of knowledge deep in a creature's subconscious or make a willing creature forget some information until a specific trigger occurs. The target gets a Will saving throw to resist the effect. A willing creature can choose to fail its save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and realizes you tried to alter its memory.</p>\n<p><strong>Success</strong> The target is unaffected but thinks your spell was something harmless instead of sudden recollection, unless it identifies the spell.</p>\n<p><strong>Failure</strong> You choose a piece of information the target didn't already know and create a trigger, such as seeing an object, hearing a key phrase, or witnessing an event. As soon as the target experiences the trigger, it receives the information and the spell ends. If the target was willing, you can instead choose a piece of information the target already knew and suppress its memory of that information until it experiences the trigger, after which it recovers the information and the spell ends.</p>"
+			"name": "サダン・リコレクション",
+			"description": "<p>君は、クリーチャーの潜在意識の奥深くにちょっとした知識を配置したり、特定のトリガーが発声するまで、同意するクリーチャーに何らかの情報を忘れさせる。対象は効果に抵抗するために意志セーヴィング・スローをすることが出来る。同意しているクリーチャーはセーヴに失敗することを選んでよい。</p>\n<hr />\n<p><strong>クリティカル</strong> 対象は影響を受けず、君が記憶を改変しようとしたことを知っている</p>\n<p><strong>成功</strong> 対象は影響を受けないが、呪文の識別をしない限り、君の呪文はサダン・リコレクションではなく何らかの無害なものだと考える</p>\n<p><strong>失敗</strong> 君は対象がまだ知らない情報を一つ選び、ある物体を見る、キー・フレーズを耳にする、ある出来事を目にするといったトリガーを作る。そのトリガーを経験したならすぐ、対象は情報を受け取り、呪文を終了する。</p>"
 		},
 		{
 			"id": "Sudden Shift",
@@ -4498,8 +4498,8 @@
 		},
 		{
 			"id": "Threefold Aspect",
-			"name": "Threefold Aspect",
-			"description": "<p>This spell allows you to change between three versions of yourself of different ages: a maiden (young adult), a mother (adult), or a matriarch (elderly). Choose one when you @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Cast the Spell}. While the spell lasts, you can change the age to any of the three or to your natural age with a single action, which has the concentrate trait. Your form always looks like you regardless of the age, and creatures who know you still recognize you and can tell your age is different.</p>\n<p><em>Threefold aspect</em> alters your physical appearance and personality to present an authentic version of yourself at various ages. This grants you a +4 status bonus to Deception checks to pass as the chosen age, and you can add your level as a proficiency bonus to these checks even if you're untrained. Furthermore, unless a creature specifically uses a @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Seek} action or otherwise carefully examines you, it doesn't get a chance to notice that you aren't at your true age. You can @Compendium[pf2e.actionspf2e.AjLSHZSWQ90exdLo]{Dismiss} this spell.</p>"
+			"name": "スリーフォールド・アスペクト",
+			"description": "<p>この呪文は、年齢の異なる3つのバージョンの自分の間で変化することが出来るようにしてくれる：乙女（若い成人）、母（成人）、あるいは家長（高齢）である。@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{「呪文の発動」}をする際に、1つを選ぶ。呪文が続く間、君は自分の本来の年齢か、3つの年齢のどれかに単発アクションで変わることが出来る。このアクションは精神集中の特性を持つ。君の姿は常に、年齢に関わらず、君に見える。君を知っているクリーチャーは、君を認識し、君の年齢が違うのだと見分けることが出来る。T</p>\n<p><em>スリーフォールド・アスペクト</em>は、君の様々な年齢の本来の姿を提示するために、身体的特徴と正確を変える。これによって、君は選んだ年齢になりきるための〈欺瞞〉判定に+4ステータス・ボーナスを得る。また、たとえ未修得であってもこれらの判定に習熟ボーナスとして自分のレベルを加えることが出来るのである。更に、クリーチャーが特に@Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{「捜す」}アクションをするか、注意深く君を調べるのでなければ、君が本来の年齢でないことに気がつく機会すらない。君はこの呪文を@Compendium[pf2e.actionspf2e.AjLSHZSWQ90exdLo]{「解除」}することが出来る。</p>"
 		},
 		{
 			"id": "Thunderburst",
@@ -4528,8 +4528,8 @@
 		},
 		{
 			"id": "Time Jump",
-			"name": "Time Jump",
-			"description": "<p>You leap forward a few seconds in time, appearing across the battlefield in the blink of an eye. You gain 2 actions, each of which must be used to Leap, Stand, Step, or Stride. If you have an appropriate Speed, you can add @Compendium[pf2e.actionspf2e.H6v1VgowHaKHnVlG]{Burrow}, @Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{Climb}, <em>@Compendium[pf2e.spells-srd.A2JfEKe6BZcTG1S8]{Fly}</em>, or @Compendium[pf2e.actionspf2e.c8TGiZ48ygoSPofx]{Swim}to this list. While you take these actions, time pauses. All other creatures are completely unaware of your actions, can't speak, and can't use any actions that would be triggered by your movement.</p>\n<p>While you're taking these actions, you can't take any other actions, including any that would be triggered by the move actions. Once the actions are complete, time starts again, and to onlookers, you seem to have suddenly teleported across the distance you traveled. Leaping forward through time is disorienting, so if you use <em>time jump</em> again within 1 minute of using the spell, you become @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 4} for 1 minute.</p>"
+			"name": "タイム・ジャンプ",
+			"description": "<p>君は数秒間の時間を跳躍し、戦場を瞬きの間に横断する。君は2アクションを得るが、これは「跳躍」、「立ち上がる」、「ステップ」、「歩行」のどれかに使わなければならない。君が適切な速度を持っているのなら、このリストに@Compendium[pf2e.actionspf2e.H6v1VgowHaKHnVlG]{「掘り進み」}、 @Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{「登攀」}、 <em>@Compendium[pf2e.spells-srd.A2JfEKe6BZcTG1S8]{「飛行」}</em>、 あるいは @Compendium[pf2e.actionspf2e.c8TGiZ48ygoSPofx]{「水泳」}を追加することが出来る。</p>\n<p>君がこれらのアクションを取っている間、時間は停止する。他の全てのクリーチャーは完全に君のアクションに気付かず、発話することが出来ず、君の移動によってトリガーを引き起こされるであろうアクションを使うことが出来ない。これらのアクションを取っている間、君は、移動アクションによってトリガーを引き起こされるであろうアクションを含めて、あらゆるその他のアクションを取ることが出来ない。ひとたびこのアクションが完了したなら、時間は再び開始し、傍観者には、君が移動した距離を突然、テレポートしたように見えるだろう。時間を飛び越えることは混乱をもたらすため、この呪文を使ってから1分以内に再び<em>タイム・ジャンプ</em>を使ったなら、君は1分間、@Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{知性低下4}になる。</p>"
 		},
 		{
 			"id": "Time Stop",
@@ -4708,8 +4708,8 @@
 		},
 		{
 			"id": "Unseasonable Squall",
-			"name": "Unseasonable Squall",
-			"description": "<p>You issue a blast of sudden wind that ripples outward from the center of the burst. The wind extinguishes small non-magical fires, disperses fog and mist, scatters objects of light Bulk or less, and pushes unsecured objects of 1 Bulk or less 5 feet away from the spell's origin point. Each Medium or smaller creature in the area when you Cast the Spell or that moves into spell's area must attempt a Fortitude saving throw.</p>\n<hr />\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature is knocked @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}. If the creature was Flying, it gets a critical failure instead.</p>\n<p><strong>Critical Failure</strong> The creature is pushed 30 feet away from the center of the burst, is knocked Prone, and takes 2d6 bludgeoning damage.</p>"
+			"name": "アンシーズナブル・スコール",
+			"description": "<p>君は突発的な風の爆発を起こし、その中心から外側に向かって波を放つ。この風は小さな、魔法のものではない炎を消火し、霧や靄を吹き散らし、軽重量以下のバルクの物体を散乱させ、この呪文の発動した点から5フィート離れた場所に、1バルク以下の固定されていない物体を押しやる。君が「呪文の発動」をした際に範囲内にいた中型以下のクリーチャーや、呪文の範囲に入ってきた中型以下のクリーチャーは、頑健セーヴィング・スローを試みなくてはならない。</p>\n<hr />\n<p><strong>成功</strong> クリーチャーは影響を受けない</p>\n<p><strong>失敗</strong> クリーチャーは@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{伏せ}状態になる。もしクリーチャーが「飛行」しているのなら、そのクリーチャーは代わりにファンブルする</p>\n<p><strong>ファンブル</strong> クリーチャーは爆発の中心から30フィート離れ、2d6点の殴打ダメージを受ける</p>"
 		},
 		{
 			"id": "Unseen Custodians",
@@ -4753,8 +4753,8 @@
 		},
 		{
 			"id": "Vampiric Touch",
-			"name": "Vampiric Touch",
-			"description": "<p>Your touch leeches the lifeblood out of a target to empower yourself. You deal 6d6 negative damage to the target. You gain temporary Hit Points equal to half the negative damage the target takes (after applying resistances and the like). You lose any remaining temporary Hit Points after 1 minute.</p>\n<hr />\n<p><strong>増強 (+1)</strong> The damage increases by 2d6.</p>"
+			"name": "ヴァンピリック・タッチ",
+			"description": "<p>君の接触は、自分を強化するために対象から生き血を搾り取る。君は対象に6d6点の負のエネルギーダメージを与える。君は対象が受けた負のエネルギーダメージの半分に等しい一時的ヒットポイントを得る（抵抗その他を適用した後の）。君は1分間後に残っている一時的ヒットポイントをすべて失う。</p>\n<hr />\n<p><strong>増強 (+1)</strong> ダメージは2d6点上昇する</p>"
 		},
 		{
 			"id": "Variable Gravity",
@@ -4853,13 +4853,13 @@
 		},
 		{
 			"id": "Wall of Radiance",
-			"name": "Wall of Radiance",
-			"description": "<p>You form a wall of brilliant light that obscures creatures. You create a thin wall of light in a straight line up to 60 feet long and 10 feet high. You must create the wall in an unbroken open space so its edges don't pass through any creatures or objects, or the spell is lost. The wall stands vertically. If you wish, the wall can be of a shorter length or height.</p>\n<p>Creatures adjacent to the wall are @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Dazzled}. Creatures that move through the wall take 2d6 fire damage (basic Fortitude save) as the concentrated light burns them.</p>\n<hr />\n<p><strong>増強 (4th)</strong> The bright light makes it difficult to discern creatures on the other side. Creatures are @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} to other creatures on the opposite side of the wall from them. The fire damage increases to [[/r 3d6[fire]]]{3d6 fire damage}.</p>"
+			"name": "ウォール・オヴ・ラディアンス",
+			"description": "<p>君は、クリーチャーを覆い隠すほどのまばゆい光の壁を作り出す。君は、長さ60フィートに高さ10フィートまでの直線形の薄い壁を作り出す。君はこの壁を途切れのない空間に作る必要があるため、その両端はクリーチャーや物体を過ってはならない。そうでなければ呪文は失われる。この壁は垂直に立っている。もし望むなら、この壁は長さや高さと短くしてもよい。</p>\n<p>壁に隣接したクリーチャーは、@Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{目が眩んだ状態}になる。この壁を通り抜けたクリーチャーは、集中した光に焼かれることによって2d6点の火炎ダメージ（基本頑健セーヴ）を受ける。</p>\n<hr />\n<p><strong>増強 (4th)</strong> 眩しい光は他方からクリーチャーを見分けることを困難にする。クリーチャーは、壁の反対側に居るクリーチャーから視認困難になる。火炎ダメージは[[/r 3d6[火炎]]]{3d6点}点に増える。</p>"
 		},
 		{
 			"id": "Wall of Shadow",
-			"name": "Wall of Shadow",
-			"description": "<p>You form a wall of pure darkness in a straight line up to 60 feet long and 10 feet high. You must create the wall in an unbroken open space so its edges don't pass through any creatures or objects, or the spell is lost. The wall stands vertically and, if you wish, can be of a shorter length or height. The wall prevents light from passing through and appears as a sheet of pure darkness to creatures observing it.</p>\n<p>Creatures without darkvision or those unable to see through darkness can't see creatures on the other side of the wall. The wall is too thin for creatures to @Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]{Hide} in the darkness itself, but creatures can Hide from creatures on the other side of the wall as normal.</p>\n<hr />\n<p><strong>増強 (5th)</strong> Creatures with darkvision (but not greater darkvision) can barely see through the wall. They treat targets seen through the wall as @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed}.</p>\n<p><strong>増強 (7th)</strong> Creatures with greater darkvision can barely see through the darkness. They treat targets seen through the wall as concealed. All other creatures are unable to see through the darkness at all.</p>"
+			"name": "ウォール・オヴ・シャドウ",
+			"description": "<p>Y君は長さ60フィート、高さ10フィートまでの直線状の純粋な暗闇で出来た壁を作り出す。君は、この壁を途切れのない空間に作らなければならないため、その両端はクリーチャーや物体を過っていてはならず、そうでなければ呪文は失われる。この壁は垂直に立っており、もし望むなら、長さや高さが短くても良い。この壁は光が通り抜けるのを妨げ、壁を見ているクリーチャーには純粋な一枚の暗闇のように見える。</p>\n<p>暗視あるいは暗闇を見通すことが出来ないクリーチャーは、壁の反対側に居るクリーチャーを見ることが出来ない。この壁は、暗闇そのものに@Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]{「隠れる」}には薄すぎるが、通常通り、壁の反対側のクリーチャーから「隠れる」のに使うことが出来る。</p>\n<hr />\n<p><strong>増強 (5th)</strong> 暗視のあるクリーチャー（優れた暗視ではない）は、壁をただ見通すことが出来るだけである。彼らは壁を通じて見たものを、@Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{視認困難}として扱う。</p>\n<p><strong>増強 (7th)</strong> 優れた暗視を持つクリーチャーは暗闇をただ見通すことが出来るだけである。彼らは壁を通じて見たものを、視認困難として扱う。その他のクリーチャーは、壁を全く見通すことが出来ない。</p>"
 		},
 		{
 			"id": "Wall of Stone",
@@ -4868,23 +4868,23 @@
 		},
 		{
 			"id": "Wall of Thorns",
-			"name": "Wall of Thorns",
-			"description": "<p>Over the course of a minute, you cause a thick wall of thorny brambles to grow from the ground. You create a 5-foot-thick wall of brambles and thorns in a straight line up to 60 feet long and 10 feet high. You must create the wall in an unbroken open space so its edges don't pass through any creatures or objects, or the spell is lost. The wall stands vertically. If you wish, the wall can be of a shorter length or height. Everything on each side of the wall has cover from creatures on the opposite side, and the wall's spaces are difficult terrain. For every move action a creature uses to enter at least one of the wall's spaces, that creature takes 3d4 piercing damage.</p>\n<p>Each 5-foot-by-5-foot section of the wall has AC 10, Hardness 10, and 20 Hit Points. It's immune to critical hits and precision damage. A destroyed section can be moved through freely.</p>\n<hr />\n<p><strong>増強 (+1)</strong> The Hit Points of each section of the wall increase by 5, and the piercing damage increases by 1d4.</p>"
+			"name": "ウォール・オヴ・ソーンズ",
+			"description": "<p>1分間にわたって、君は地面から分厚い茨の壁を作り出す。君は茂みと茨で出来た5フィートの暑さの壁を、一連の長さ60フィートかつ高さ10フィートの直線に作らなければならない。その両端はクリーチャーや物体を通っていてはならず、そうでなければ呪文は失われる。壁は垂直に立つ。もし望むなら、この壁は長さや高さが短くなってもよい。壁の両側にある全てが反対側のクリーチャーからは遮蔽を持ち、壁の接敵面は移動困難な地形である。クリーチャーが少なくとも一つの壁の接敵面に入るために移動アクションを使うごとに、そのクリーチャーは3d4点の刺突ダメージを受ける。</p>\n<p>5フィート×5フィートの壁のセクションそれぞれがAC10、硬度10、ヒットポイント20点を持つ。壁はクリティカル・ヒットと精密ダメージに完全耐性を持つ。破壊されたセクションは自由に移動することが出来る。</p>\n<hr />\n<p><strong>増強 (+1)</strong> 壁のそれぞれのセクションのヒットポイントは5点ずつ上昇し、刺突ダメージは1d4点、増加する</p>"
 		},
 		{
 			"id": "Wall of Water",
-			"name": "Wall of Water",
-			"description": "<p>Raising your hand in the air, you call a massive wave onto the battlefield. The wall stays upright in a straight line that is 60 feet long, 10 feet high, and 5 feet thick.</p>\n<p>Any non-magical fires within the wall of water's area that are its size or smaller are put out instantly. It also attempts to counteract any magical fires in its area. Both of these effects happen when the spell is cast and whenever a fire enters the wall's area. If the wall fails to counteract a given fire, it can't counteract that fire for the duration of the spell.</p>\n<p>Bludgeoning or slashing projectiles can't pass through the wall, and piercing projectiles have their range increments halved if they pass through the wall. A creature traversing the wall of water needs to Swim through. The rules of aquatic combat apply to creatures traversing the wall of water, targeting creatures within the wall, or passing through the wall. For instance, a bludgeoning or slashing melee attack targeting a creature in the wall would take a -2 circumstance penalty.</p>"
+			"name": "ウォール・オヴ・ウォーター",
+			"description": "<p>君は、手を空中に上げながら、戦場に大きな波を呼び出す。壁は長さ60フィート、高さ10フィート、暑さ5フィートの直線に垂直に留まる。</p>\n<p>ウォール・オヴ・ウォーターの範囲内の、あらゆる魔法のものでない炎で、壁のサイズ以下のものはすぐに消火される。また、ウォール・オヴ・ウォーターは範囲内のあらゆる魔法の炎を無効化しようとする。これらの効果の両方が、呪文の発動時及び、壁の範囲に炎が入ったときに発生する。もし、壁が所定の炎の無効化に失敗したなら、呪文の持続時間の間、その炎を無効化することは出来ない。</p>\n<p>殴打あるいは斬撃の発射物は壁を通り抜けることが出来ず、刺突の発射物は、壁を通り抜ければ射程単位が半分になる。ウォール・オヴ・ウォーターを横断するクリーチャーは「水泳」で通り抜ける必要がある。水中戦闘のルールがウォール・オヴ・ウォーターを横断するクリーチャー、壁の中のクリーチャーを標的にすること、壁を通り抜けることに適用される。例えば、壁の中のクリーチャーを対象にした殴打あるいは斬撃の近接攻撃は－2状況ペナルティを受ける。</p>"
 		},
 		{
 			"id": "Wall of Wind",
-			"name": "Wall of Wind",
-			"description": "<p>You create a barrier of gusting winds that hinders anything moving through it. The wall of swirling winds is 5 feet thick, 60 feet long, and 30 feet high. The wall stands vertically, but you can shape its path. Though the wall of wind distorts the air, it does not hamper sight. The wall has the following effects.</p>\n<ul>\n<li>Ammunition from physical ranged attacks-such as arrows, bolts, sling bullets, and other objects of similar size-can't pass through the wall. Attacks with bigger ranged weapons, such as javelins, take a -2 circumstance penalty to their attack rolls if their paths pass through the wall. Massive ranged weapons and spell effects that don't create physical objects pass through the wall with no penalty.</li>\n<li>The wall is difficult terrain to creatures attempting to move overland through it. Gases, including creatures in gaseous form, can't pass through the wall.</li>\n<li>A creature that attempts to fly through the wall using a move action must attempt a Fortitude save.</li>\n</ul>\n<hr />\n<p><strong>Critical Success</strong> The creature can move through the wall normally this turn.</p>\n<p><strong>Success</strong> The flying creature can move through the wall this turn, but the wall is difficult terrain.</p>\n<p><strong>Failure</strong> The wall stops the movement of the flying creature, and any remaining movement from its current action is wasted.</p>\n<p><strong>Critical Failure</strong> As failure, and the creature is pushed 10 feet away from the wall.</p>"
+			"name": "ウォール・オヴ・ウィンド",
+			"description": "<p>君は、そこを通るもの全てを妨げる突風の壁を作る。渦巻く風の壁は厚さ5フィート、長さ60フィート、高さ30フィートである。壁は垂直に立っているが、君はその経路の形を決めることが出来る。風の壁は空気をゆがませるが、視覚を妨げることはない。この壁は下記の効果を持つ。</p>\n<ul>\n<li>物理的な遠隔攻撃による矢弾―アロー、ボルト、スリング・バレットやその他の似たような大きさのもの―はこの壁を通り抜けることは出来ない。ジャヴェリンのような、もっと大きな遠隔武器による攻撃は、もしその経路が壁を通り抜けるのなら－2状況ペナルティを受ける。大きな遠隔武器と、物理的な物体を作り出さない呪文効果はペナルティなしで壁を通り抜ける。</li>\n<li>この壁は陸路で通り抜けようとするクリーチャーにとっては、移動困難な地形である。ガシアス・フォームを使っているクリーチャーを含めて、気体は壁を通り抜けることが出来ない。</li>\n<li>壁を移動アクションを使って飛んで通り抜けようとするクリーチャーは頑健セーヴを試みなくてはならない。</li>\n</ul>\n<hr />\n<p><strong>クリティカル</strong> クリーチャーはこの手番、通常通りのに壁を通り抜けることが出来る</p>\n<p><strong>成功</strong> 飛行しているクリーチャーはこの手番、壁を通り抜けることが出来るが、壁は移動困難な地形である</p>\n<p><strong>失敗</strong> 壁は飛行しているクリーチャーの移動を止める。また、あらゆる現在のアクションに残っている移動は浪費される</p>\n<p><strong>ファンブル</strong> 失敗と同じだが、クリーチャーは壁から10フィート押しやられる</p>"
 		},
 		{
 			"id": "Wanderer's Guide",
-			"name": "Wanderer's Guide",
-			"description": "<p>You call upon the beyond to guide your route. When you Cast this Spell, choose a destination; you receive an inspired route to that destination, allowing you and allies who travel overland with you to reduce the movement penalty from difficult terrain by half for the duration, as long as you don't deviate from the inspired route. This doesn't have any effect on movement during encounters. If you use this ability again before the duration is over, this effect ends and is replaced by that of the new route.</p>"
+			"name": "ワンダラーズ・ガイド",
+			"description": "<p>君は、自分の道を導く彼方の存在に呼びかける。「呪文の発動」をする際、目的地を1つ選ぶ。君は、その目的地までのインスパイアされた道筋を受け、君と共に旅をする味方と君は、持続時間の間、その道筋を外れない限り、移動困難な地形の移動ペナルティを半分に減らすことが出来る。これは、遭遇の間の移動には何の効果も無い。もし、君がこの能力を、持続時間が終わる前に再度使うなら、この効果は終了し、新しい道筋の効果に置き換わる。</p>"
 		},
 		{
 			"id": "Ward Domain",
@@ -4893,8 +4893,8 @@
 		},
 		{
 			"id": "Warding Aggression",
-			"name": "Warding Aggression",
-			"description": "<p>You channel a magical ward through your attack and attempt to plant it on a foe. This ward increases your defenses against that foe, as long as you keep attacking that foe to maintain it. Make a melee Strike with a weapon or unarmed attack against a foe. In addition to the normal effects of the Strike, it has the effects below. Warding aggression ends if the foe you attacked dies or at the end of any turn in which you didn't hit that foe with a melee Strike.</p>\n<p>@Compendium[pf2e.spell-effects.7zJPd2BsFl82qFRV]{Spell Effect: Warding Aggression (+3)}</p>\n<p>@Compendium[pf2e.spell-effects.n6NK7wqhTxWr3ij8]{Spell Effect: Warding Aggression (+2)}</p>\n<p>@Compendium[pf2e.spell-effects.FR4ucNi2ceHZdrpB]{Spell Effect: Warding Aggression (+1)}</p>\n<hr />\n<p><strong>Critical Success</strong> You gain a +3 status bonus to AC against the foe for 1 round and a +2 status bonus to AC against the foe for the remaining duration.</p>\n<p><strong>Success</strong> You gain a +2 status bonus to AC against the foe.</p>\n<p><strong>Failure</strong> You gain a +1 status bonus to AC against the foe.</p>\n<p><strong>Critical Failure</strong> You gain no additional effect.</p>"
+			"name": "ワーディング・アグレッション",
+			"description": "<p>君は攻撃を通じて魔法の防護を伝達させ、それを敵に植え付けようとする。この防護は、君がそれを維持するためにその敵に攻撃し続ける限り、その敵に対する君の守りを高める。敵に対して、武器あるいは素手打撃で近接「打撃」を行うこと。その「打撃」の通常の効果に加えて、それは下記の効果を持つ。ワーディング・アグレッションは、君が攻撃した敵が死亡するか、近接「打撃」でその敵に命中させなかった手番の終了時に終了する。</p>\n<p>@Compendium[pf2e.spell-effects.7zJPd2BsFl82qFRV]{呪文効果: ワーディング・アグレッション (+3)}</p>\n<p>@Compendium[pf2e.spell-effects.n6NK7wqhTxWr3ij8]{呪文効果: ワーディング・アグレッション (+2)}</p>\n<p>@Compendium[pf2e.spell-effects.FR4ucNi2ceHZdrpB]{呪文効果: ワーディング・アグレッション (+1)}</p>\n<hr />\n<p><strong>クリティカル</strong> 君は1ラウンド、その敵に対するACに+3ステータス・ボーナスと、残っている持続時間の間、その敵に対するACに+2ステータス・ボーナスを得る</p>\n<p><strong>成功</strong> 君はその敵に対するACに+2ステータス・ボーナスを得る</p>\n<p><strong>失敗</strong> 君はその敵に対するACに+1ステータス・ボーナスを得る</p>\n<p><strong>ファンブル</strong> 君は追加効果を得ない</p>"
 		},
 		{
 			"id": "Warp Mind",
@@ -4953,8 +4953,8 @@
 		},
 		{
 			"id": "Web of Eyes",
-			"name": "Web of Eyes",
-			"description": "<p>You place an @Compendium[pf2e.conditionitems.zJxUflt9np0q4yML]{Invisible} scrying sensor on each target just above their eyes. Each sensor looks where that target looks, and all the targets can link their vision briefly to help notice things one target sees but the others might not. Each target can use an action, which has the concentrate trait, to share what it sees with any number of other targets until the start of its next turn. Only one creature can share its vision at a time, so if another target takes this action, the effect ends for any target that was previously sharing its vision.</p>\n<p>This improves how well the recipients can perceive anything the sharing creature is looking at. For instance, if a creature is undetected to a recipient but observed by the sharing creature, the creature becomes observed by the recipient as well. Typically, the creature is seen as a glowing outline superimposed on its position. This might allow the recipient to target a creature it couldn't otherwise; however, cover and line of effect still might prevent or impede targeting and attacks. This can only improve the recipient's vision, not reduce it; for example, if an enemy was undetected by the sharing creature and observed by a recipient, the recipient would still clearly observe the enemy.</p>\n<p>Once the vision sharing stops, the benefit ends. Whether a creature is hidden or undetected is still based on the last information a target had before the vision sharing ended. For example, that means if a creature is behind a wall but hasn't moved, it's still hidden rather than undetected by a recipient that witnessed its current position.</p>"
+			"name": "ウェブ・オヴ・アイズ",
+			"description": "<p>君は各対象の目のちょうど上に、念視の@Compendium[pf2e.conditionitems.zJxUflt9np0q4yML]{透明}なセンサーを配置する。それぞれのセンサーは、対象が見ているところを見ている。全ての対象は、ある対象が目視していても他の対象が目視していないものについて、何かに気がつく手助けをしてもらうために、短い間、視覚を繋げることが出来る。各対象は次の自分の手番の開始時まで、任意の数の対象と視覚を共有するために、精神集中の特性を持つアクションを使うことが出来る。同時に視覚を共有することが出来るクリーチャーは1体のみで、他の対象がこのアクションを行った場合、それまで視覚を共有していた対象の効果は終了する。</p>\n<p>これは、どのくらい、共有しているクリーチャーの見ているものを受信者が知覚することが出来るかを向上させる。例えば、もし、あるクリーチャーが受信者にとって未探知でかつ、共有しているクリーチャーによって可視状態であるなら、そのクリーチャーは受信者にとっても可視状態になる。一般的には、そのクリーチャーがいる位置に光った輪郭が重なって見えるのである。これによって、受信者は他の方法ではそうできなかったはずのクリーチャーを対象に取ることが出来るようになるかもしれない。しかしながら、遮蔽と効果線は、この場合でも対象に取ることや攻撃を阻害したり、妨げることがある。これは、受信者の視覚を向上させるだけで、減少させることはない；もし、ある敵が共有しているクリーチャーによって未探知で、かつ、受信者にとって可視状態であるなら、受信者はそれでもその敵をはっきりと見ることが出来る。</p>\n<p>ひとたび視覚の共有が止まったなら、利益は終了する。クリーチャーが隠れた状態であるか、未探知状態であるかは、視覚共有が終了する直前に対象が持っていた最後の情報に基づく。例えば、これは、もしもあるクリーチャーが壁の後ろにいて動いていないなら、その現在の位置を目撃していた受信者にとって、未探知ではなく隠れた状態になるということである。</p>"
 		},
 		{
 			"id": "Weird",
@@ -4968,8 +4968,8 @@
 		},
 		{
 			"id": "Whirling Scarves",
-			"name": "Whirling Scarves",
-			"description": "<p>You surround yourself in a vortex of whirling colorful scarves of force that obfuscate you and disorient your foes. You gain the benefits of the @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} condition, but only against ranged and melee attacks. When a melee attack fails to hit you because of the flat check for the Concealed condition, the scarves snag the weapon or unarmed attack, and the creature takes a -1 circumstance penalty to further attacks with that weapon or unarmed attack until the end of its turn (or the end of its next turn, if it wasn't the creature's turn). The timing of the scarves' movement is harder to predict for ranged attackers, so the flat check for the Concealed condition against ranged attacks increases from DC 5 to DC 6. You can Dismiss this spell.</p>\n<hr />\n<p><strong>増強 (+2)</strong> The circumstance penalty to further attacks with a melee weapon or unarmed attack the scarves snag increases by 1. The DC of the flat check for the Concealed condition against ranged attacks increases by 1.</p>"
+			"name": "ワーリング・スカーヴズ",
+			"description": "<p>色とりどりの、力場で出来たスカーフが渦巻くように君の周りを取り囲み、君を見えづらくして敵を混乱させる。君は@Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{視認困難}状態の利益を得るが、遠隔と近接の攻撃に対してのみである。近接攻撃が、視認困難による平目判定のために君に命中しなかった際、スカーフはその武器あるいは素手打撃に引っかかり、そのクリーチャーは、手番の終了時まで（あるいは、そのクリーチャーの手番でなかった場合は次の手番の終了時まで）その武器あるいは素手打撃での更なる攻撃に-1状況ペナルティを受ける。スカーフの移動タイミングは遠隔攻撃を行う者にとっては予測困難であるため、遠隔攻撃に対する視認困難の平目判定は、DC5からDC6になる。君はこの呪文を「解除」することが出来る。</p>\n<hr />\n<p><strong>増強 (+2)</strong> スカーフが引っかかることによる、近接武器あるいは素手打撃の更なる攻撃への状況ペナルティは、1増える。遠隔攻撃に対する視認困難状態のための平目判定のDCは1増える。</p>"
 		},
 		{
 			"id": "Whirlwind",
@@ -5093,8 +5093,8 @@
 		},
 		{
 			"id": "Zone of Truth",
-			"name": "Zone of Truth",
-			"description": "<p>You designate an area in which creatures are compelled to speak only truth. Creatures within or entering the area have difficulty lying. Each potentially affected creature must attempt a Will save when the spell is cast or when the creature first enters the area. It uses the results of this initial save if it leaves and reenters the area. Affected creatures are aware of this enchantment; therefore, they can avoid answering questions to which they would normally respond with a lie, or they can be evasive as long as they remain within the boundaries of the truth.</p>\n<hr /><strong>Critical Success</strong> The target is unaffected.\n<p><strong>Success</strong> The target takes a -2 status penalty to Deception checks.</p>\n<p><strong>Failure</strong> The target can't speak any deliberate and intentional lies, and it takes a -2 status penalty to Deception checks.</p>\n<p><strong>Critical Failure</strong> The target can't speak any deliberate and intentional lies and takes a -4 status penalty to Deception checks.</p>"
+			"name": "ゾーン・オヴ・トゥルース",
+			"description": "<p>君は、範囲を指定し、その中のクリーチャーに真実のみを話すことを強要する。範囲内にいるクリーチャー及び範囲内に入ったクリーチャーは嘘をつくのが困難である。影響を受けるかも知れないクリーチャーはそれぞれ、呪文発動時あるいは最初にクリーチャーがその範囲に入った際に、意志セーヴを試みなくてはならない。範囲内を去り、再度侵入した際には、初期セーヴの結果を用いる。影響を受けたクリーチャー達はこの心術に気付く。そのため、彼らは真実の領域に居る限り、通常は嘘で答えるあろう質問に答えるのを避けたり、曖昧に濁そうとするかもしれない。</p>\n<hr /><strong>クリティカル</strong> 対象は影響を受けない\n<p><strong>成功</strong> 対象は〈欺瞞〉判定に-2ステータス・ペナルティを受ける</p>\n<p><strong>失敗</strong> 対象は計画的かつ意図的な嘘をつくことができず、〈欺瞞〉判定に-2ステータス・ペナルティを受ける</p>\n<p><strong>ファンブル</strong> 対象は計画的かつ意図的な嘘をつくことができず、〈欺瞞〉判定に-4ステータス・ペナルティを受ける</p>"
 		},
 		{
 			"id": "Bit of Luck",

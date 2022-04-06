@@ -58,58 +58,58 @@
 		},
 		{
 			"id": "Effect: Bestial Mutagen (Greater)",
-			"name": "Effect: Bestial Mutagen (Greater)",
-			"description": "<p>Granted by @Compendium[pf2e.equipment-srd.gDheph8YteBtnyKp]{Bestial Mutagen (Greater)}</p>\n<p>Implemented effects:</p>\n<ul>\n<li>+3 item bonus to Athletics checks</li>\n<li>+3 item bonus to unarmed attack rolls</li>\n<li>Gain a claw unarmed attack</li>\n<li>Gain a jaws unarmed attack</li>\n<li>-1 penalty to AC</li>\n<li>-2 to penalty Reflex saves</li>\n</ul>"
+			"name": "効果: ベスチャル・ミュタゲン (グレーター)",
+			"description": "<p>@Compendium[pf2e.equipment-srd.gDheph8YteBtnyKp]{ベスチャル・ミュタゲン (グレーター)}による効果。</p>\n<p>自動的に適用される効果:</p>\n<ul>\n<li>〈運動〉判定への+3アイテム・ボーナス</li>\n<li>素手打撃ロールへの+3アイテム・ボーナス</li>\n<li>爪の素手打撃を得る</li>\n<li>顎の素手打撃を得る</li>\n<li>ACへの-1ペナルティ</li>\n<li>反応セーヴへの-2ペナルティ</li>\n</ul>"
 		},
 		{
 			"id": "Effect: Bestial Mutagen (Lesser)",
-			"name": "Effect: Bestial Mutagen (Lesser)",
-			"description": "<p>Granted by @Compendium[pf2e.equipment-srd.IQK9N2mEOyAj3iWU]{Bestial Mutagen (Lesser)}</p>\n<p>Implemented effects:</p>\n<ul>\n<li>+1 item bonus to Athletics checks</li>\n<li>+1 item bonus to unarmed attack rolls</li>\n<li>Gain a claw unarmed attack</li>\n<li>Gain a jaws unarmed attack</li>\n<li>-1 penalty to AC</li>\n<li>-2 to penalty Reflex saves</li>\n</ul>"
+			"name": "効果: ベスチャル・ミュタゲン (レッサー)",
+			"description": "<p>@Compendium[pf2e.equipment-srd.IQK9N2mEOyAj3iWU]{ベスチャル・ミュタゲン (レッサー)}による効果。</p>\n<p>自動的に適用される効果:</p>\n<ul>\n<li>〈運動〉判定への+1アイテム・ボーナス</li>\n<li>素手打撃ロールへの+1アイテム・ボーナス</li>\n<li>爪の素手打撃を得る</li>\n<li>顎の素手打撃を得る</li>\n<li>ACへの-1ペナルティ</li>\n<li>反応セーヴへの-2ペナルティ</li>\n</ul>"
 		},
 		{
 			"id": "Effect: Bestial Mutagen (Major)",
-			"name": "Effect: Bestial Mutagen (Major)",
-			"description": "<p>Granted by @Compendium[pf2e.equipment-srd.nS75vsM3x5jxlUqn]{Bestial Mutagen (Major)}</p>\n<p>Implemented effects:</p>\n<ul>\n<li>+4 item bonus to Athletics checks</li>\n<li>+4 item bonus to unarmed attack rolls</li>\n<li>Gain a claw unarmed attack</li>\n<li>Gain a jaws unarmed attack</li>\n<li>-1 penalty to AC</li>\n<li>-2 to penalty Reflex saves</li>\n</ul>\n<p>Unimplemented effects:</p>\n<ul>\n<li>Gain weapon specialization, or greater weapon specialization, with these unarmed attacks</li>\n</ul>"
+			"name": "効果: ベスチャル・ミュタゲン (メジャー)",
+			"description": "<p>@Compendium[pf2e.equipment-srd.nS75vsM3x5jxlUqn]{ベスチャル・ミュタゲン (メジャー)}による効果。</p>\n<p>自動的に適用される効果:</p>\n<ul>\n<li>〈運動〉判定への+4アイテム・ボーナス</li>\n<li>素手打撃ロールへの+4アイテム・ボーナス</li>\n<li>爪の素手打撃を得る</li>\n<li>顎の素手打撃を得る</li>\n<li>ACへの-1ペナルティ</li>\n<li>反応セーヴへの-2ペナルティ</li>\n</ul>\n<p>自動的に適用されない効果:</p>\n<ul>\n<li>素手打撃について武器開眼あるいは上級武器開眼を得る</li>\n</ul>"
 		},
 		{
 			"id": "Effect: Bestial Mutagen (Moderate)",
-			"name": "Effect: Bestial Mutagen (Moderate)",
-			"description": "<p>Granted by @Compendium[pf2e.equipment-srd.VISk5uLPVIvNWovB]{Bestial Mutagen (Moderate)}</p>\n<p>Implemented effects:</p>\n<ul>\n<li>+2 item bonus to Athletics checks</li>\n<li>+2 item bonus to unarmed attack rolls</li>\n<li>Gain a claw unarmed attack</li>\n<li>Gain a jaws unarmed attack</li>\n<li>-1 penalty to AC</li>\n<li>-2 to penalty Reflex saves</li>\n</ul>"
+			"name": "効果: ベスチャル・ミュタゲン (モデレート)",
+			"description": "<p>@Compendium[pf2e.equipment-srd.VISk5uLPVIvNWovB]{ベスチャル・ミュタゲン (モデレート)}による効果。</p>\n<p>自動的に適用される効果:</p>\n<ul>\n<li>〈運動〉判定への+2アイテム・ボーナス</li>\n<li>素手打撃ロールへの+2アイテム・ボーナス</li>\n<li>爪の素手打撃を得る</li>\n<li>顎の素手打撃を得る</li>\n<li>ACへの-1ペナルティ</li>\n<li>反応セーヴへの-2ペナルティ</li>\n</ul>"
 		},
 		{
 			"id": "Effect: Bloodhound Mask (Greater)",
-			"name": "Effect: Bloodhound Mask (Greater)",
-			"description": "<p>Granted by @Compendium[pf2e.equipment-srd.2x8F5s3PyKzYsRrZ]{Bloodhound Mask (Greater)}</p>\n<p>Automatically applied effects:</p>\n<ul>\n<li>Gain imprecise sense, with a range of 60 feet</li>\n<li>+3 item bonus to Survival checks to track</li>\n</ul>"
+			"name": "効果: ブラッドハウンド・マスク (グレーター)",
+			"description": "<p>@Compendium[pf2e.equipment-srd.2x8F5s3PyKzYsRrZ]{ブラッドハウンド・マスク (グレーター)}による効果。</p>\n<p>自動的に適用される効果:</p>\n<ul>\n<li>60フィートの距離のあいまいな嗅覚を得る</li>\n<li>追跡のための〈生存〉判定に+3アイテム・ボーナス</li>\n</ul>"
 		},
 		{
 			"id": "Effect: Bloodhound Mask (Lesser)",
-			"name": "Effect: Bloodhound Mask (Lesser)",
-			"description": "<p>Granted by @Compendium[pf2e.equipment-srd.mDJSaarQsIMX7Opi]{Bloodhound Mask (Lesser)}</p>\n<p>Automatically applied effects:</p>\n<ul>\n<li>Gain imprecise sense, with a range of 15 feet</li>\n<li>+1 item bonus to Survival checks to track</li>\n</ul>"
+			"name": "効果: ブラッドハウンド・マスク (レッサー)",
+			"description": "<p>@Compendium[pf2e.equipment-srd.mDJSaarQsIMX7Opi]{ブラッドハウンド・マスク (レッサー)}</p>\n<p>自動的に適用される効果:</p>\n<ul>\n<li>15フィートの距離のあいまいな嗅覚を得る</li>\n<li>追跡のための〈生存〉判定に+1アイテム・ボーナス</li>\n</ul>"
 		},
 		{
 			"id": "Effect: Bloodhound Mask (Moderate)",
-			"name": "Effect: Bloodhound Mask (Moderate)",
-			"description": "<p>Granted by @Compendium[pf2e.equipment-srd.qasFfdiZKIczoZ9p]{Bloodhound Mask (Moderate)}</p>\n<p>Automatically applied effects:</p>\n<ul>\n<li>Gain imprecise sense, with a range of 30 feet</li>\n<li>+2 item bonus to Survival checks to track</li>\n</ul>"
+			"name": "効果: ブラッドハウンド・マスク (モデレート)",
+			"description": "<p>@Compendium[pf2e.equipment-srd.qasFfdiZKIczoZ9p]{ブラッドハウンド・マスク (モデレート)}</p>\n<p>自動的に適用される効果:</p>\n<ul>\n<li>30フィートの距離のあいまいな嗅覚を得る</li>\n<li>追跡のための〈生存〉判定に+2アイテム・ボーナス</li>\n</ul>"
 		},
 		{
 			"id": "Effect: Boulderhead Bock",
-			"name": "Effect: Boulderhead Bock",
-			"description": "<p>Granted by @Compendium[pf2e.equipment-srd.I0eUrgVGl8a2ZjFc]{Boulderhead Bock}.</p>\n<p>Automatically applied effects:</p>\n<ul>\n<li>+1 item bonus to saving throws against effects that would make you stunned or stupefied.</li>\n<li>-2 item penalty to Perception </li>\n</ul>"
+			"name": "効果: ボルダーヘッド・ボック",
+			"description": "<p>@Compendium[pf2e.equipment-srd.I0eUrgVGl8a2ZjFc]{ボルダーヘッド・ボック}による効果。</p>\n<p>自動的に適用される効果:</p>\n<ul>\n<li>君を朦朧あるいは知性低下にするであろう効果に対するセーヴィング・スローに+1アイテム・ボーナス</li>\n<li>知覚に-2アイテム・ペナルティ</li>\n</ul>"
 		},
 		{
 			"id": "Effect: Bravo's Brew (Greater)",
-			"name": "Effect: Bravo's Brew (Greater)",
-			"description": "<p>Granted by @Compendium[pf2e.equipment-srd.sWPkbSlWAEAStBqD]{Bravo's Brew (Greater)}</p>\n<p>Implemented effects:</p>\n<ul>\n<li>+3 item bonus to Will saves</li>\n<li>+4 item bonus to Will saves against fear</li>\n</ul>\n<p>Unimplemented effects:</p>\n<ul>\n<li>If you roll a success on a save against fear, you get a critical success instead.</li>\n</ul>"
+			"name": "効果: ブラヴォーズ・ブリュー (グレーター)",
+			"description": "<p>@Compendium[pf2e.equipment-srd.sWPkbSlWAEAStBqD]{ブラヴォーズ・ブリュー (グレーター)}による効果。</p>\n<p>適用される効果:</p>\n<ul>\n<li>意志セーヴに+3アイテム・ボーナス</li>\n<li>恐怖に対する意志セーヴに+4アイテム・ボーナス</li>\n</ul>\n<p>未実装の効果:</p>\n<ul>\n<li>君が恐怖に対するセーヴに成功をロールした際、代わりにクリティカルする</li>\n</ul>"
 		},
 		{
 			"id": "Effect: Bravo's Brew (Lesser)",
-			"name": "Effect: Bravo's Brew (Lesser)",
-			"description": "<p>Granted by @Compendium[pf2e.equipment-srd.zM9VX3QwM81DzDUA]{Bravo's Brew (Lesser)}</p>\n<p>Implemented effects:</p>\n<ul>\n<li>+1 item bonus to Will saves</li>\n<li>+2 item bonus to Will saves against fear</li>\n</ul>"
+			"name": "効果: ブラヴォーズ・ブリュー (レッサー)",
+			"description": "<p>@Compendium[pf2e.equipment-srd.zM9VX3QwM81DzDUA]{ブラヴォーズ・ブリュー (レッサー)}による効果。</p>\n<p>自動的に適用される効果:</p>\n<ul>\n<li>意志セーヴに+1アイテム・ボーナス</li>\n<li>恐怖に対する意志セーヴに+2アイテム・ボーナス</li>\n</ul>"
 		},
 		{
 			"id": "Effect: Bravo's Brew (Moderate)",
-			"name": "Effect: Bravo's Brew (Moderate)",
-			"description": "<p>Granted by @Compendium[pf2e.equipment-srd.oCuwJ9IUDAuzsUwa]{Bravo's Brew (Moderate)}</p>\n<p>Implemented effects:</p>\n<ul>\n<li>+2 item bonus to Will saves</li>\n<li>+3 item bonus to Will saves against fear</li>\n</ul>"
+			"name": "効果: ブラヴォーズ・ブリュー (モデレート)",
+			"description": "<p>@Compendium[pf2e.equipment-srd.oCuwJ9IUDAuzsUwa]{ブラヴォーズ・ブリュー (モデレート)}</p>\n<p>自動的に適用される効果:</p>\n<ul>\n<li>意志セーヴに+2アイテム・ボーナス</li>\n<li>恐怖に対する意志セーヴに+3アイテム・ボーナス</li>\n</ul>"
 		},
 		{
 			"id": "Effect: Bronze Bull Pendant",

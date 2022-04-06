@@ -83,8 +83,8 @@
 		},
 		{
 			"id": "Effect: Aromatic Ammunition",
-			"name": "Effect: Aromatic Ammunition",
-			"description": "<p>The components of this ammunition emit a strong smell when combined during its activation. A creature hit by an activated aromatic ammunition gains a distinct odor for up to 1 hour or until the scent is washed off (requiring at least a gallon of water and 10 minutes of scrubbing). Any creatures within 30 feet smell the target, allowing even those with a weak sense of smell to detect its presence, and all creatures gain a +1 item bonus to Track the affected creature for as long as it has the odor. A creature that has imprecise or precise scent doubles the range at which they can detect the target using their scent compared to the normal range of their scent.</p>"
+			"name": "効果: アロマティック・アミュニション",
+			"description": "<p>この矢弾の構成要素は、起動中に組み合わさることで強い匂いを発する。起動しているアロマティック・アミュニションに命中したクリーチャーは1時間あるいは匂いを洗い流すまで（最低でも1ガロンの水と10分間の洗浄が必要）、独特の匂いを発する。30フィート以内のクリーチャーは対象の臭いを嗅ぎ、嗅覚が弱いクリーチャーでもその存在を探知することが出来るようになり、全てのクリーチャーは影響を受けたいクリーチャーが匂いを発している限り、「追跡」に+1アイテム・ボーナスを得る。不明瞭な、あるいは明瞭な嗅覚を持つクリーチャーは、通常の嗅覚の距離に比べて、対象を探知することが出来る距離を2倍にする。</p>"
 		},
 		{
 			"id": "Effect: Barding of the Zephyr",
@@ -113,13 +113,13 @@
 		},
 		{
 			"id": "Effect: Bracelet of Dashing",
-			"name": "Effect: Bracelet of Dashing",
-			"description": "<p>Granted by @Compendium[pf2e.equipment-srd.BKdzb8hu3kZtKH3Z]{Bracelet of Dashing}</p>\n<p>Automatically applied effects:</p>\n<ul>\n<li>gain a +10-foot status bonus to Speed</li>\n</ul>"
+			"name": "効果: ブレスレット・オヴ・ダッシング",
+			"description": "<p>@Compendium[pf2e.equipment-srd.BKdzb8hu3kZtKH3Z]{ブレスレット・オヴ・ダッシング}による効果。</p>\n<p>自動的に適用される効果:</p>\n<ul>\n<li>速度に+10フィート・ステータス・ボーナスを得る</li>\n</ul>"
 		},
 		{
 			"id": "Effect: Bracers of Missile Deflection",
-			"name": "Effect: Bracers of Missile Deflection",
-			"description": "<p>Granted by @Compendium[pf2e.equipment-srd.eurAnvH8bK0ZctOR]{Bracers of Missile Deflection}</p>\n<p>Automatically applied effects:</p>\n<ul>\n<li>+2 circumstance bonus to AC</li>\n</ul>"
+			"name": "効果: ブレーサーズ・オヴ・ミサイル・ディフレクション",
+			"description": "<p> @Compendium[pf2e.equipment-srd.eurAnvH8bK0ZctOR]{ブレーサーズ・オヴ・ミサイル・ディフレクション}による効果。</p>\n<p>自動的に適用される効果。:</p>\n<ul>\n<li>ACに+2状況ボーナス</li>\n</ul>"
 		},
 		{
 			"id": "Effect: Breastplate of Command",
