@@ -1,5 +1,5 @@
 {
-	"label": "Equipment Effects",
+	"label": "装備品効果",
 	"entries": [
 		{
 			"id": "Cover : Greater",
@@ -548,13 +548,13 @@
 		},
 		{
 			"id": "Effect: Prepared Camouflage Suit",
-			"name": "Effect: Prepared Camouflage Suit",
-			"description": "<p>This lightweight mesh fits easily over light armor. The suit is designed to incorporate local flora and ground clutter into the mesh to help you blend in seamlessly with the environment. Due to the abrasive nature of the materials used, this item is unsuitable for use by unarmored characters. You can prepare the suit for use within your current environment by using an exploration activity that takes at least 10 minutes, but sometimes longer if the materials are hard to find or the environment is unusual enough to warrant additional difficulty in preparing camouflage that can blend with it consistently.</p>\n<p>A suit prepared in this manner grants you a +1 item bonus to Stealth checks while you attempt to Hide or Sneak in the specific environment it has been prepared for. The suit remains usable in this manner until you rest for the night, though it doesn't grant the benefit whenever you aren't in the appropriate environment. The GM might rule that some environments are unusual enough that you can't create a camouflage suit appropriate for the environment.</p>"
+			"name": "効果: 準備済みの迷彩服",
+			"description": "<p>この重さが軽いメッシュ生地は、簡単に軽装鎧の上に羽織ることが出来る。このスーツは、地域の植生や地面に溶け込んで、君が環境に常に溶け込めるように設計されている。その素材が肌になじまない性質をしているため、このアイテムは生身のキャラクターが使いには適さない。君は、少なくとも10分間かかる探索連続行動を使うことによって、現在の君の環境に適切になるよう、スーツを準備することが出来る。だが、素材を見つけるのが難しいか、環境が変わっていて、絶え間なく溶け込むことが出来る迷彩を準備するのがより困難である場合、この時間はもっと長くなることがある。</p>\n<p>この方法によって準備されたスーツは君に、準備が行われた特定の環境での「隠れる」あるいは「忍び歩き」を試みている間、〈隠密〉判定に+1アイテム・ボーナスを与える。このスーツは、気味が一晩の休息を過ごすまで、この方法で利用可能なままであるが、気味が適切な環境にいない場合は利益を与えない。GMは、その環境に適切な迷彩服を作ることが出来ないほど変わった環境もあると裁定することがある。</p>"
 		},
 		{
 			"id": "Effect: Prepared Camouflage Suit (Superb)",
-			"name": "Effect: Prepared Camouflage Suit (Superb)",
-			"description": "<p>This lightweight mesh fits easily over light armor. The suit is designed to incorporate local flora and ground clutter into the mesh to help you blend in seamlessly with the environment. Due to the abrasive nature of the materials used, this item is unsuitable for use by unarmored characters. You can prepare the suit for use within your current environment by using an exploration activity that takes at least 10 minutes, but sometimes longer if the materials are hard to find or the environment is unusual enough to warrant additional difficulty in preparing camouflage that can blend with it consistently.</p>\n<p>A superb camouflage suit is fashioned from especially well-blended materials grants you a +2 item bonus to Stealth checks while you attempt to Hide or Sneak in the specific environment it has been prepared for. The suit remains usable in this manner until you rest for the night, though it doesn't grant the benefit whenever you aren't in the appropriate environment. The GM might rule that some environments are unusual enough that you can't create a camouflage suit appropriate for the environment.</p>"
+			"name": "効果: 準備済みの迷彩服 (上質)",
+			"description": "<p>この重さが軽いメッシュ生地は、簡単に軽装鎧の上に羽織ることが出来る。このスーツは、地域の植生や地面に溶け込んで、君が環境に常に溶け込めるように設計されている。その素材が肌になじまない性質をしているため、このアイテムは生身のキャラクターが使いには適さない。君は、少なくとも10分間かかる探索連続行動を使うことによって、現在の君の環境に適切になるよう、スーツを準備することが出来る。だが、素材を見つけるのが難しいか、環境が変わっていて、絶え間なく溶け込むことが出来る迷彩を準備するのがより困難である場合、この時間はもっと長くなることがある。</p>\n<p>この方法によって準備されたスーツは君に、準備が行われた特定の環境での「隠れる」あるいは「忍び歩き」を試みている間、〈隠密〉判定に+2アイテム・ボーナスを与える。このスーツは、気味が一晩の休息を過ごすまで、この方法で利用可能なままであるが、気味が適切な環境にいない場合は利益を与えない。GMは、その環境に適切な迷彩服を作ることが出来ないほど変わった環境もあると裁定することがある。</p>"
 		},
 		{
 			"id": "Effect: Private Workshop (Using for Crafting)",

@@ -118,18 +118,18 @@
 		},
 		{
 			"id": "Effect: Cheetah's Elixir (Greater)",
-			"name": "Effect: Cheetah's Elixir (Greater)",
-			"description": "<p>Granted by @Compendium[pf2e.equipment-srd.t4X6GDybqLmt7UkN]{Cheetah's Elixir (Greater)}</p>\n<p>Automatically applied effects:</p>\n<ul>\n<li>+10 foot status bonus to Speed</li>\n</ul>"
+			"name": "効果: チーターズ・エリクサー (グレーター)",
+			"description": "<p>@Compendium[pf2e.equipment-srd.t4X6GDybqLmt7UkN]{チーターズ・エリクサー (グレーター)}による効果。</p>\n<p>自動的に適用される効果:</p>\n<ul>\n<li>速度への+10フィートのステータス・ボーナス</li>\n</ul>"
 		},
 		{
 			"id": "Effect: Cheetah's Elixir (Lesser)",
-			"name": "Effect: Cheetah's Elixir (Lesser)",
-			"description": "<p>Granted by @Compendium[pf2e.equipment-srd.tyt6rFtv32MZ4DT9]{Cheetah's Elixir (Lesser)}</p>\n<p>Automatically applied effects:</p>\n<ul>\n<li>+5 foot status bonus to Speed</li>\n</ul>"
+			"name": "効果: チーターズ・エリクサー (レッサー)",
+			"description": "<p>@Compendium[pf2e.equipment-srd.tyt6rFtv32MZ4DT9]{チーターズ・エリクサー (レッサー)}による効果。</p>\n<p>自動的に適用される効果:</p>\n<ul>\n<li>速度への+5フィートのステータス・ボーナス</li>\n</ul>"
 		},
 		{
 			"id": "Effect: Cheetah's Elixir (Moderate)",
-			"name": "Effect: Cheetah's Elixir (Moderate)",
-			"description": "<p>Granted by @Compendium[pf2e.equipment-srd.AqLxu3ir4UGzdOaz]{Cheetah's Elixir (Moderate)}</p>\n<p>Automatically applied effects:</p>\n<ul>\n<li>+10 foot status bonus to Speed</li>\n</ul>"
+			"name": "効果: チーターズ・エリクサー (モデレート)",
+			"description": "<p>@Compendium[pf2e.equipment-srd.AqLxu3ir4UGzdOaz]{チーターズ・エリクサー (モデレート)}による効果。</p>\n<p>自動的に適用される効果:</p>\n<ul>\n<li>速度への+10フィートのステータス・ボーナス</li>\n</ul>"
 		},
 		{
 			"id": "Effect: Cognitive Mutagen (Greater)",

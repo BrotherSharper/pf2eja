@@ -408,8 +408,8 @@
 		},
 		{
 			"id": "Bayonet",
-			"name": "Bayonet",
-			"description": "<p>This blade or spike can be attached to a crossbow or firearm but, unlike other attached weapons, can be wielded in one hand as its own weapon. When used as a separate weapon, it can't benefit from any runes or abilities that function only for attached weapons.</p>"
+			"name": "バヨネット",
+			"description": "<p>この刃あるいは棘は、クロスボウや火器に取付することが出来るが、その他の取り付ける武器とは異なって、独自の武器として片手で使うことが出来る。独立した武器として使われている際、取付武器としてのみ機能するルーンや能力の利益を受けることは出来ない。取り付けられているバヨネットは、取り付けられている武器と同じ数の手を必要とする。取り外されたバヨネットは片手のみを必要とする。</p>"
 		},
 		{
 			"id": "Beacon Shot",
@@ -678,8 +678,8 @@
 		},
 		{
 			"id": "Blessed Ampoule",
-			"name": "Blessed Ampoule",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">f</span> envision</p>\n<p><strong>Trigger</strong> Your Strike with the affixed weapon hits a target</p>\n<p><strong>Requirements</strong> You're an expert with the affixed weapon.</p>\n<hr />\n<p>This small glass vial contains a drop of holy water. When activated, the weapon's physical damage for the Strike becomes good damage.</p>"
+			"name": "ブレスド・アンプル",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">f</span> 想念</p>\n<p><strong>トリガー</strong> 取り付けられた武器で君が対象に「打撃」を命中させる</p>\n<p><strong>条件</strong> 君が取り付けられた武器に熟練である</p>\n<hr />\n<p>この小さなガラスの小瓶には、聖水が入っている。起動した際、この武器によるその「打撃」の物理的ダメージは善ダメージになる。</p>"
 		},
 		{
 			"id": "Blessed Tattoo",
@@ -953,28 +953,28 @@
 		},
 		{
 			"id": "Bottled Lightning (Greater)",
-			"name": "Bottled Lightning (Greater)",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Strike</p>\n<p>Bottled lightning is packed with volatile reagents that create a blast of electricity when they are exposed to air. Bottled lightning deals 3d6 electricity damage and 3 electricity splash damage. On a hit, the target becomes flat-footed until the start of your next turn. You gain a +2 item bonus to attack rolls.</p>"
+			"name": "ボトルド・ライトニング (グレーター)",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">A</span> 打撃</p>\n<p>ボトルド・ライトニングには、大気にさらされた際に電気の爆発を作り出す揮発性の触媒が詰められている。ボトルド・ライトニングは3d6点の電撃ダメージと3点の電撃飛散ダメージを与える。命中時、対象は君の次の手番の開始時まで立ちすくみ状態である。君は攻撃ロールに+2アイテムボーナスを得る。</p>"
 		},
 		{
 			"id": "Bottled Lightning (Lesser)",
-			"name": "Bottled Lightning (Lesser)",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Strike</p>\n<p>Bottled lightning is packed with volatile reagents that create a blast of electricity when they are exposed to air. Bottled lightning deals 1d6 electricity damage and 1 electricity splash damage. On a hit, the target becomes flat-footed until the start of your next turn.</p>"
+			"name": "ボトルド・ライトニング (レッサー)",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">A</span> 打撃</p>\n<p>ボトルド・ライトニングには、大気にさらされた際に電気の爆発を作り出す揮発性の触媒が詰められている。ボトルド・ライトニングは1d6点の電撃ダメージと1点の電撃飛散ダメージを与える。命中時、対象は君の次の手番の開始時まで立ちすくみ状態である。</p>"
 		},
 		{
 			"id": "Bottled Lightning (Major)",
-			"name": "Bottled Lightning (Major)",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Strike</p>\n<p>Bottled lightning is packed with volatile reagents that create a blast of electricity when they are exposed to air. Bottled lightning deals 4d6 electricity damage and 4 electricity splash damage. On a hit, the target becomes flat-footed until the start of your next turn. You gain a +3 item bonus to attack rolls.</p>"
+			"name": "ボトルド・ライトニング (メジャー)",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">A</span> 起動</p>\n<p>ボトルド・ライトニングには、大気にさらされた際に電気の爆発を作り出す揮発性の触媒が詰められている。ボトルド・ライトニングは4d6点の電撃ダメージと4点の電撃飛散ダメージを与える。命中時、対象は君の次の手番の開始時まで立ちすくみ状態である。君は攻撃ロールに+3アイテムボーナスを得る。</p>"
 		},
 		{
 			"id": "Bottled Lightning (Moderate)",
-			"name": "Bottled Lightning (Moderate)",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Strike</p>\n<p>Bottled lightning is packed with volatile reagents that create a blast of electricity when they are exposed to air. Bottled lightning deals 2d6 electricity damage and 2 electricity splash damage. On a hit, the target becomes flat-footed until the start of your next turn. You gain a +1 item bonus to attack rolls.</p>"
+			"name": "ボトルド・ライトニング (モデレート)",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">A</span> 打撃</p>\n<p>ボトルド・ライトニングには、大気にさらされた際に電気の爆発を作り出す揮発性の触媒が詰められている。ボトルド・ライトニングは2d6点の電撃ダメージと2点の電撃飛散ダメージを与える。命中時、対象は君の次の手番の開始時まで立ちすくみ状態である。君は攻撃ロールに+1アイテムボーナスを得る。</p>"
 		},
 		{
 			"id": "Bottomless Stein",
-			"name": "Bottomless Stein",
-			"description": "<p>A magic item regarded as holy by followers of Cayden Cailean, this ornate metallic stein is always filled to the brim with delicious ale, no matter how much is drunk or spilled. If it is emptied (such as by being gulped quickly or upended onto the floor), the <em>bottomless stein</em> will fill again within 1 round as long as it is right side up, though it's impossible to transfer the ale to another container to sell it or store it for later. The exact type of ale with which the stein is filled is determined at the item's creation, and cannot be changed thereafter.</p>"
+			"name": "ボトムレス・ステイン",
+			"description": "<p>この装飾のある金属製のジョッキは、カイデン・カイリーエンの信徒達に聖なるものであると見なされており、どれほど飲もうとこぼそうと、常に美味しいエールが並々に注がれている。もし空っぽになったなら（たとえば、素早く飲み干すか、床に逆さまにして置くなど）、ボトムレス・ステインは真っ直ぐに立っている限り、1ラウンドで満杯になる。ジョッキを満たしているエールの正確な種別はアイテムの創造時に決められ、その後、変えることが出来ない。</p>"
 		},
 		{
 			"id": "Boulderhead Bock",
@@ -1238,23 +1238,23 @@
 		},
 		{
 			"id": "Called",
-			"name": "Called",
-			"description": "<p>With this rune, you can instantly retrieve an item in your possession without digging around looking for it.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> command;</p>\n<p><strong>Frequency</strong> once per hour;</p>\n<p><strong>Requirements</strong> You have a free hand and the <em>called</em> item is in a bag, pack, pouch, or other container on your person, or unattended within 30 feet;</p>\n<p><strong>Effect</strong> The item teleports to a free hand.</p>"
+			"name": "コールド",
+			"description": "<p>このルーンを使って、君はアイテムを探し求めてうろつくことなく、アイテムを即座に手元に取り戻すことが出来る。</p>\n<hr />\n<p><strong>起動</strong> <span class=\"pf2-icon\">1</span> 合言葉;</p>\n<p><strong>頻度</strong> 1時間に1回;</p>\n<p><strong>条件</strong> 君に一本の自由な手があることと、呼び出されるアイテムが君が持つバッグ、包み、ポーチ、その他の収納の中にあるか、30フィート以内で誰かに管理されていない;</p>\n<p><strong>効果</strong> アイテムは自由な手へとテレポートする</p>"
 		},
 		{
 			"id": "Caltrop Snare",
-			"name": "Caltrop Snare",
-			"description": "<p>This snare consists of a hidden canister of caltrops attached to a trip wire. When the snare is triggered, it flings the caltrops into either the snare's square or a square adjacent to the snare. You choose which square when you set up the snare.</p>\n<p>If the caltrops scatter into the same square as a creature, that creature must attempt the Acrobatics check immediately.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a container of caltrops.</p>"
+			"name": "キャルトロップ・スネア",
+			"description": "<p>この罠は、足元のワイヤと、それに取り付けられた、隠れたマキビシの缶で作られている。この罠のトリガーが満たされた際、缶が倒れて罠のマス目あるいは罠に隣接するマス目のどちらかに、マキビシが撒かれる。君は罠の配置時に、どのマス目にするかを選ぶ。</p>\n<p>もし、マキビシがクリーチャーと同じマス目に散らばったなら、そのクリーチャーは即座に〈軽業〉判定を試みなければならない。</p>\n<hr />\n<p><strong>作成条件</strong> マキビシ１缶の供給</p>"
 		},
 		{
 			"id": "Camouflage Suit",
-			"name": "Camouflage Suit",
-			"description": "<p>This lightweight mesh fits easily over light armor. The suit is designed to incorporate local flora and ground clutter into the mesh to help you blend in seamlessly with the environment. Due to the abrasive nature of the materials used, this item is unsuitable for use by unarmored characters. You can prepare the suit for use within your current environment by using an exploration activity that takes at least 10 minutes, but sometimes longer if the materials are hard to find or the environment is unusual enough to warrant additional difficulty in preparing camouflage that can blend with it consistently.</p>\n<p>A suit prepared in this manner grants you a +1 item bonus to Stealth checks while you attempt to Hide or Sneak in the specific environment it has been prepared for. The suit remains usable in this manner until you rest for the night, though it doesn't grant the benefit whenever you aren't in the appropriate environment. The GM might rule that some environments are unusual enough that you can't create a camouflage suit appropriate for the environment.</p>\n<p>@Compendium[pf2e.equipment-effects.jgaDboqENQJaS1sW]{Effect: Prepared Camouflage Suit}</p>"
+			"name": "迷彩服",
+			"description": "<p>この重さが軽いメッシュ生地は、簡単に軽装鎧の上に羽織ることが出来る。このスーツは、地域の植生や地面に溶け込んで、君が環境に常に溶け込めるように設計されている。その素材が肌になじまない性質をしているため、このアイテムは生身のキャラクターが使いには適さない。君は、少なくとも10分間かかる探索連続行動を使うことによって、現在の君の環境に適切になるよう、スーツを準備することが出来る。だが、素材を見つけるのが難しいか、環境が変わっていて、絶え間なく溶け込むことが出来る迷彩を準備するのがより困難である場合、この時間はもっと長くなることがある。</p>\n<p>この方法によって準備されたスーツは君に、準備が行われた特定の環境での「隠れる」あるいは「忍び歩き」を試みている間、〈隠密〉判定に+1アイテム・ボーナスを与える。このスーツは、気味が一晩の休息を過ごすまで、この方法で利用可能なままであるが、気味が適切な環境にいない場合は利益を与えない。GMは、その環境に適切な迷彩服を作ることが出来ないほど変わった環境もあると裁定することがある。</p>\n<p>@Compendium[pf2e.equipment-effects.jgaDboqENQJaS1sW]{効果: 準備済みの迷彩服}</p>"
 		},
 		{
 			"id": "Camouflage Suit (Superb)",
-			"name": "Camouflage Suit (Superb)",
-			"description": "<p>This lightweight mesh fits easily over light armor. The suit is designed to incorporate local flora and ground clutter into the mesh to help you blend in seamlessly with the environment. Due to the abrasive nature of the materials used, this item is unsuitable for use by unarmored characters. You can prepare the suit for use within your current environment by using an exploration activity that takes at least 10 minutes, but sometimes longer if the materials are hard to find or the environment is unusual enough to warrant additional difficulty in preparing camouflage that can blend with it consistently.</p>\n<p>A superb camouflage suit is fashioned from especially well-blended materials grants you a +2 item bonus to Stealth checks while you attempt to Hide or Sneak in the specific environment it has been prepared for. The suit remains usable in this manner until you rest for the night, though it doesn't grant the benefit whenever you aren't in the appropriate environment. The GM might rule that some environments are unusual enough that you can't create a camouflage suit appropriate for the environment.</p>\n<p>@Compendium[pf2e.equipment-effects.DfAyZW2vkhTygZVC]{Effect: Prepared Camouflage Suit (Superb)}</p>"
+			"name": "迷彩服 (上質)",
+			"description": "<p>この重さが軽いメッシュ生地は、簡単に軽装鎧の上に羽織ることが出来る。このスーツは、地域の植生や地面に溶け込んで、君が環境に常に溶け込めるように設計されている。その素材が肌になじまない性質をしているため、このアイテムは生身のキャラクターが使いには適さない。君は、少なくとも10分間かかる探索連続行動を使うことによって、現在の君の環境に適切になるよう、スーツを準備することが出来る。だが、素材を見つけるのが難しいか、環境が変わっていて、絶え間なく溶け込むことが出来る迷彩を準備するのがより困難である場合、この時間はもっと長くなることがある。</p>\n<p>この方法によって準備されたスーツは君に、準備が行われた特定の環境での「隠れる」あるいは「忍び歩き」を試みている間、〈隠密〉判定に+2アイテム・ボーナスを与える。このスーツは、気味が一晩の休息を過ごすまで、この方法で利用可能なままであるが、気味が適切な環境にいない場合は利益を与えない。GMは、その環境に適切な迷彩服を作ることが出来ないほど変わった環境もあると裁定することがある。</p>\n<p>@Compendium[pf2e.equipment-effects.DfAyZW2vkhTygZVC]{効果: 準備済み迷彩服 (上質)}</p>"
 		},
 		{
 			"id": "Candle of Invocation",
@@ -1273,13 +1273,13 @@
 		},
 		{
 			"id": "Candlecap",
-			"name": "Candlecap",
-			"description": "<p>The crown of this stitched leather cap is sewn in the shape of a small bowl. Fixed inside the bowl is a melted nub of wax with a small black wick.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> Interact;</p>\n<p><strong>Effect</strong> You shake your head, and the candle wick ignites. The candlecap sheds dim light in a 20-foot radius. The candle doesn't require oxygen and can't be smothered or quenched. Activating the candlecap again douses the light.</p>"
+			"name": "キャンドルキャップ",
+			"description": "<p>縫い目の入ったこの革製の帽子の頭頂部は、小さなボウル状に縫われている。ボウル部分の内部には、溶けた蝋と小さな黒い芯が固定されている。</p>\n<hr />\n<p><strong>起動</strong> <span class=\"pf2-icon\">1</span> 使用;</p>\n<p><strong>効果</strong> 頭を振ると、ろうそくの芯が発火する。キャンドルキャップは20フィート半径に薄暗い光を投じる。ろうそくは酸素を必要とせず、酸素の供給を絶ったり、消火したりすることは出来ない。キャンドルキャップを再起動すると、光を消すことが出来る。</p>"
 		},
 		{
 			"id": "Cane Pistol",
-			"name": "Cane Pistol",
-			"description": "<p>This fashionable cane's handle hides a dueling pistol fired through the thin, painted cap at the bottom of the cane.</p>"
+			"name": "ケーン・ピストル",
+			"description": "<p>このおしゃれな杖の持ち手には、決闘用のピストルが隠れており、杖の底の部分にある薄い、塗装されたキャップから発砲できるようになっている。</p>"
 		},
 		{
 			"id": "Cane of the Maelstrom",
@@ -1288,13 +1288,13 @@
 		},
 		{
 			"id": "Cantrip Deck (5-pack)",
-			"name": "Cantrip Deck (5-pack)",
-			"description": "<p>In an effort to spread the knowledge of magic as widely as possible, worshippers of Nethys discovered a way to bind cantrips into cards accessible even to non-spellcasters. The deck contains thick parchment cards, each roughly half the size of a playing card. In precise, no-nonsense script, each card simply states the name of its cantrip, color-coded based on its school.</p>\n<p>This pack contains 5 cards of a single common cantrip.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> or more (envision, Interact);</p>\n<p><strong>Effect</strong> You envision your desired cantrip, causing its card to rise to the top of the deck, and draw the card. The deck casts that cantrip as a 1st-level spell, with a DC of 15 and a spell attack modifier of +5. The card crumbles into dust as the cantrip takes effect. The activation takes the same number of actions as the cantrip you chose takes to cast.</p>"
+			"name": "キャントリップ・デッキ (5パック)",
+			"description": "<p>魔法の知識を可能な限り広く広めようとして、ネティスの信者は術者でない者でも使えるようにカードにキャントリップを束ねておく方法を発見した。このデッキは、それぞれがトランプの半分ほどの大きさの、分厚い羊皮紙のカードで構成されている。それぞれのカードには、系統に応じた色分けがされた、キャントリップの名前がか、正確な文字で書かれている。</p>\n<p>このパックには、1つのコモンのキャントリップ（ライトのような）のカード5枚が入っている</p>\n<hr />\n<p><strong>起動</strong> <span class=\"pf2-icon\">1</span> 以上 (想念、使用);</p>\n<p><strong>効果</strong> 君が望むキャントリップを思い描くと、そのカードがデッキのトップに現れる。そして君はカードを引く。このデッキは、そのキャントリップを1レベル呪文として発動する。DCは15で、呪文攻撃修正値は+5である。このカードは、キャントリップが効果を発現したときに塵になって崩壊する。起動には、君が発動することにしたキャントリップと同じ数のアクションが必要である。</p>"
 		},
 		{
 			"id": "Cantrip Deck (Full Pack)",
-			"name": "Cantrip Deck (Full Pack)",
-			"description": "<p>In an effort to spread the knowledge of magic as widely as possible, worshippers of Nethys discovered a way to bind cantrips into cards accessible even to non-spellcasters. The deck contains thick parchment cards, each roughly half the size of a playing card. In precise, no-nonsense script, each card simply states the name of its cantrip, color-coded based on its school.</p>\n<p>This pack contains 24 cards-one of each cantrip in the Core Rulebook.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> or more (envision, Interact);</p>\n<p><strong>Effect</strong> You envision your desired cantrip, causing its card to rise to the top of the deck, and draw the card. The deck casts that cantrip as a 1st-level spell, with a DC of 15 and a spell attack modifier of +5. The card crumbles into dust as the cantrip takes effect. The activation takes the same number of actions as the cantrip you chose takes to cast.</p>\n<hr />\n<ul>\n<li><em>@Compendium[pf2e.spells-srd.gISYsBFby1TiXfBt]{Acid Splash}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.mAMEt4FFbdqoRnkN]{Chill Touch}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.kl2q6JvBZwed4B6v]{Dancing Lights}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.4gBIw4IDrSfFHik4]{Daze}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.gpzpAAAJ1Lza2JVl]{Detect Magic}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.kcelf6IHl3L9VXXg]{Disrupt Undead}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.qwZBXN6zBoB9BHXE]{Divine Lance}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.kBhaPuzLUSwS6vVf]{Electric Arc}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.RA7VKcen3p56rVyZ]{Forbidding Ward}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.atlgGNI1E1Ox3O3a]{Ghost Sound}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.izcxFQFwf3woCnFs]{Guidance}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.tXa5vOu5giBNCjdR]{Know Direction}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.WBmvzNDfpwka3qT4]{Light}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.pwzdSlJgYqN7bs2w]{Mage Hand}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.vLzFcIaSXs7YTIqJ]{Message}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.Qw3fnUlaUbnn7ipC]{Prestidigitation}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.O9w7r4BKgPogYDDe]{Produce Flame}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.gYjPm7YwGtEa1oxh]{Ray of Frost}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.OhD2Z6rIGGD5ocZA]{Read Aura}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.TVKNbcgTee19PXZR]{Shield}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.AUctDF2fqPZN2w4W]{Sigil}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.SnjhtQYexDtNDdEg]{Stabilize}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.uZK2BYzPnxUBnDjr]{Tanglefoot}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.60sgbuMWN0268dB7]{Telekinetic Projectile}</em></li>\n</ul>"
+			"name": "キャントリップ・デック (フルパック)",
+			"description": "<p>魔法の知識を可能な限り広く広めようとして、ネティスの信者は術者でない者でも使えるようにカードにキャントリップを束ねておく方法を発見した。このデッキは、それぞれがトランプの半分ほどの大きさの、分厚い羊皮紙のカードで構成されている。それぞれのカードには、系統に応じた色分けがされた、キャントリップの名前がか、正確な文字で書かれている。</p>\n<p>このパックには24枚のカードが入っている――それぞれに、Core Rulebookのキャントリップが1つずつ、書かれている。</p>\n<hr />\n<p><strong>起動</strong> <span class=\"pf2-icon\">1</span> 以上 (想念、使用);</p>\n<p><strong>効果</strong> 君が望むキャントリップを思い描くと、そのカードがデッキのトップに現れる。そして君はカードを引く。このデッキは、そのキャントリップを1レベル呪文として発動する。DCは15で、呪文攻撃修正値は+5である。このカードは、キャントリップが効果を発現したときに塵になって崩壊する。起動には、君が発動することにしたキャントリップと同じ数のアクションが必要である。</p>\n<hr />\n<ul>\n<li><em>@Compendium[pf2e.spells-srd.gISYsBFby1TiXfBt]{アシッド・スプラッシュ}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.mAMEt4FFbdqoRnkN]{チル・タッチ}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.kl2q6JvBZwed4B6v]{ダンシング・ライツ}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.4gBIw4IDrSfFHik4]{デイズ}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.gpzpAAAJ1Lza2JVl]{ディテクト・マジック}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.kcelf6IHl3L9VXXg]{ディスラプト・アンデッド}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.qwZBXN6zBoB9BHXE]{ディヴァイン・ランス}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.kBhaPuzLUSwS6vVf]{エレクトリック・アーク}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.RA7VKcen3p56rVyZ]{フォービディング・ワード}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.atlgGNI1E1Ox3O3a]{ゴースト・サウンド}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.izcxFQFwf3woCnFs]{ガイダンス}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.tXa5vOu5giBNCjdR]{ノウ・ディレクション}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.WBmvzNDfpwka3qT4]{ライト}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.pwzdSlJgYqN7bs2w]{メイジ・ハンド}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.vLzFcIaSXs7YTIqJ]{メッセージ}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.Qw3fnUlaUbnn7ipC]{プレスティディジテイション}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.O9w7r4BKgPogYDDe]{プロデュース・フレイム}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.gYjPm7YwGtEa1oxh]{レイ・オヴ・フロスト}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.OhD2Z6rIGGD5ocZA]{リード・オーラ}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.TVKNbcgTee19PXZR]{シールド}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.AUctDF2fqPZN2w4W]{シジル}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.SnjhtQYexDtNDdEg]{スタビライズ}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.uZK2BYzPnxUBnDjr]{タングルフット}</em></li>\n<li><em>@Compendium[pf2e.spells-srd.60sgbuMWN0268dB7]{テレキネティック・プロジェクタイル}</em></li>\n</ul>"
 		},
 		{
 			"id": "Cape of the Mountebank",
@@ -1308,13 +1308,13 @@
 		},
 		{
 			"id": "Capsaicin Tonic",
-			"name": "Capsaicin Tonic",
-			"description": "<p>This translucent, pale-yellow drink has several pepper seeds suspended within it. Although the tonic is painfully spicy when first consumed, the heat soon fades as the tonic coats your throat. In the next hour, you can use the activation below up to three times; the third time you use it, the effects of the capsaicin tonic end. While under the effects of the tonic, you can easily consume even the spiciest of foods without trouble.</p>\n<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Interact</p>\n<p><strong>Effect</strong> You belch out a foul-smelling cloud of blisteringly spicy gas that fills a single square adjacent to you. Creatures within the cloud are concealed, and all creatures outside the cloud are concealed to creatures within it. The cloud remains for 1 minute but can be dispersed by a strong wind. The cloud deals 1d4 fire damage to creatures that enter the cloud on their turn, as well as to creatures that start their turn in the cloud (a creature takes this damage no more than once per round, even if it moves back and forth into the cloud multiple times during the round).</p>"
+			"name": "カプサイシン・トニック",
+			"description": "<p>この半透明の、淡い黄色の飲み物には、数個の唐辛子の種子が浮いている。この炭酸水は最初に飲んだ際には苦しいくらい辛いが、炭酸水が喉を覆ってくれるため、熱はまもなく消える。その後の1時間の間、君は3回まで下記の「起動」を行うことが出来る；3回目に使った際、カプサイシン・トニックの効果は終わる。炭酸水の効果が発揮されている間、君は簡単に、何の問題もなくどれほど辛い料理も食べることが出来る。</p>\n<p><strong>起動/strong> <span class=\"pf2-icon\">A</span> 使用</p>\n<p><strong>効果</strong> 君は、自分に隣接するマス目1つを満たす、悪臭を放つ非常に辛みのある気体を吐き出す。この雲の中に居るクリーチャーは視認困難状態になり、この雲の外側にいる全てのクリーチャーは中に居るクリーチャーから視認困難状態である。この雲は1分間、残存するが、強い風で吹き散らされてしまう。この雲は自分の手番に雲に入ったクリーチャーと、雲の中で手番を開始したクリーチャーに（クリーチャーは、たとえラウンド内で複数回、雲を行ったり来たりしても、1ラウンドに1回だけしかこのダメージを受けない）1d4点の火炎ダメージを与える。</p>"
 		},
 		{
 			"id": "Cartographer's Kit",
-			"name": "Cartographer's Kit",
-			"description": "<p>This kit includes a writing set, a compass, a standard astrolabe, a ruler, and a survey map.</p>"
+			"name": "地図製作者用具",
+			"description": "<p>この用具には書き物道具、コンパス、標準的なアストロラーブ、定規、調査地図が入っている。</p>"
 		},
 		{
 			"id": "Cassock of Devotion",
@@ -1323,8 +1323,8 @@
 		},
 		{
 			"id": "Cat's Eye Elixir",
-			"name": "Cat's Eye Elixir",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Interact</p>\n<p>After you consume this elixir, your vision sharpens and you become sensitive to even the most minute movements.</p>\n<p>For the next minute, you reduce the flat check to target hidden creatures to 5, and you don't need to attempt a flat check to target concealed creatures. These benefits apply only against creatures within 30 feet of you.</p>"
+			"name": "キャッツアイ・エリクサー",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">A</span> 使用</p>\n<p>このエリクサーを飲んだ後、君の視覚は研ぎ澄まされ、ごく僅かな間の移動にすら君は敏感になる。</p>\n<p>次の1分間の間、君は隠れた状態のクリーチャーを対象にするための平目判定のDCを5に減少させ、視認困難状態のクリーチャーを対象にするための平目判定を試みる必要はない。これらの利益は、30フィート以内にいるクリーチャーに対してのみ適用される。</p>"
 		},
 		{
 			"id": "Caterwaul Sling",
@@ -1343,8 +1343,8 @@
 		},
 		{
 			"id": "Cauterizing Torch",
-			"name": "Cauterizing Torch",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> Interact</p>\n<hr />\n<p>This small, clockwork torch device uses a trigger-operated sparker to ignite a flow of flammable gas, creating a short, hot flame capable of rapidly cauterizing wounds and helping to stop bleeding. The cauterizing torch is applied to yourself or an adjacent target. The target attempts an immediate flat check to end any persistent bleed effect with the lower DC for particularly effective assistance.</p>"
+			"name": "焼灼用松明",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">1</span> 使用</p>\n<hr />\n<p>この小さな、歯車仕掛けの松明装置は、トリガーで操作する発火装置によって可燃ガスに点火し、小さな高温の炎を作り出して傷口を素早く焼灼し、止血する。焼灼用松明は、君あるいは隣接する対象に使うことが出来る。対象は即座に、特に効果的な助けがある場合の低いDCであらゆる継続出血ダメージを終わらせるための平目判定を試みる。</p>"
 		},
 		{
 			"id": "Celestial Armor",
@@ -1383,23 +1383,23 @@
 		},
 		{
 			"id": "Chameleon Suit",
-			"name": "Chameleon Suit",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">2</span> Interact</p>\n<p>This complex clockwork outerwear, worn over armor or other clothing, is composed of thin, interlocking scales of myriad colors attached to numerous clockwork gears that can rotate between all visible colors and shades.</p>\n<p>When activated, the clockwork gears work double-time to temporarily switch and adjust the scales to match the exact coloration of the area around you, allowing you to blend in as long as you stay still. For 1 minute, you can @Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]{Hide} without needing cover or concealment to do so. This doesn't allow you to @Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Sneak} without ending your movement in cover or concealment, however, as the clockwork flips over and adjusts the scales to match your background as you move, giving the impression of rippling waves of color and revealing your movement. After the 1 minute, the overworked clockwork and scales fall apart.</p>"
+			"name": "カメレオン・スーツ",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">2</span> 使用</p>\n<p>この複雑なぜんまい仕掛けの上着は、防具やその他の衣類の上に羽織るもので、多数からなるぜんまい仕掛けの歯車に無数の色を持つ、連結しあった薄い鱗が取り付けられており、歯車が回転することで目に見えるあらゆる色と濃淡を表現することが出来る。</p>\n<p>起動した際、このぜんまい仕掛けの歯車は、二重に動作し、君の周囲の範囲の色調に正確に合致するように鱗を調整し、静止している限り、環境に溶け込むことが出来るようにする。1分間の間、君は遮蔽や視認困難を必要とすることなく、@Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]{「隠れる」}を行うことが出来る。これによって、君は遮蔽や視認困難を得ずに@Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{「忍び歩き」}の移動を終えることは出来ないが、ぜんまい仕掛けは裏返り、移動にあわせて背景に合致するように鱗を調整するため、色の波が生じたような印象を与え、君の移動は明らかになってしまう。1分が経過したなら、酷使されたぜんまい仕掛けと鱗はバラバラになる。</p>"
 		},
 		{
 			"id": "Chameleon Suit (Greater)",
-			"name": "Chameleon Suit (Greater)",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">2</span> Interact</p>\n<p>This complex clockwork outerwear, worn over armor or other clothing, is composed of thin, interlocking scales of myriad colors attached to numerous clockwork gears that can rotate between all visible colors and shades.</p>\n<p>When activated, the clockwork gears work double-time to temporarily switch and adjust the scales to match the exact coloration of the area around you, allowing you to blend in as long as you stay still. For 10 minutes, you can @Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]{Hide} without needing cover or concealment to do so. This doesn't allow you to @Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Sneak} without ending your movement in cover or concealment, however, as the clockwork flips over and adjusts the scales to match your background as you move, giving the impression of rippling waves of color and revealing your movement. After the 10 minutes, the overworked clockwork and scales fall apart.</p>"
+			"name": "カメレオン・スーツ (グレーター)",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">2</span> 使用</p>\n<p>この複雑なぜんまい仕掛けの上着は、防具やその他の衣類の上に羽織るもので、多数からなるぜんまい仕掛けの歯車に無数の色を持つ、連結しあった薄い鱗が取り付けられており、歯車が回転することで目に見えるあらゆる色と濃淡を表現することが出来る。</p>\n<p>起動した際、このぜんまい仕掛けの歯車は、二重に動作し、君の周囲の範囲の色調に正確に合致するように鱗を調整し、静止している限り、環境に溶け込むことが出来るようにする。10分間の間、君は遮蔽や視認困難を必要とすることなく、@Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]{「隠れる」}を行うことが出来る。これによって、君は遮蔽や視認困難を得ずに@Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{「忍び歩き」}の移動を終えることは出来ないが、ぜんまい仕掛けは裏返り、移動にあわせて背景に合致するように鱗を調整するため、色の波が生じたような印象を与え、君の移動は明らかになってしまう。10分が経過したなら、酷使されたぜんまい仕掛けと鱗はバラバラになる。</p>"
 		},
 		{
 			"id": "Chameleon Suit (Major)",
-			"name": "Chameleon Suit (Major)",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">2</span> Interact</p>\n<p>This complex clockwork outerwear, worn over armor or other clothing, is composed of thin, interlocking scales of myriad colors attached to numerous clockwork gears that can rotate between all visible colors and shades.</p>\n<p>When activated, the clockwork gears work double-time to temporarily switch and adjust the scales to match the exact coloration of the area around you, allowing you to blend in as long as you stay still. For 1 hour, you can @Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]{Hide} without needing cover or concealment to do so. This doesn't allow you to @Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Sneak} without ending your movement in cover or concealment, however, as the clockwork flips over and adjusts the scales to match your background as you move, giving the impression of rippling waves of color and revealing your movement. After the 1 hour, the overworked clockwork and scales fall apart.</p>"
+			"name": "カメレオン・スーツ (メジャー)",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">2</span> 使用</p>\n<p>この複雑なぜんまい仕掛けの上着は、防具やその他の衣類の上に羽織るもので、多数からなるぜんまい仕掛けの歯車に無数の色を持つ、連結しあった薄い鱗が取り付けられており、歯車が回転することで目に見えるあらゆる色と濃淡を表現することが出来る。</p>\n<p>起動した際、このぜんまい仕掛けの歯車は、二重に動作し、君の周囲の範囲の色調に正確に合致するように鱗を調整し、静止している限り、環境に溶け込むことが出来るようにする。1時間の間、君は遮蔽や視認困難を必要とすることなく、@Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]{「隠れる」}を行うことが出来る。これによって、君は遮蔽や視認困難を得ずに@Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{「忍び歩き」}の移動を終えることは出来ないが、ぜんまい仕掛けは裏返り、移動にあわせて背景に合致するように鱗を調整するため、色の波が生じたような印象を与え、君の移動は明らかになってしまう。1時間が経過したなら、酷使されたぜんまい仕掛けと鱗はバラバラになる。</p>"
 		},
 		{
 			"id": "Channel Protection Amulet",
-			"name": "Channel Protection Amulet",
-			"description": "<p>This nugget of polished tektite is trapped in a cage of braided wire and hangs from a silken cord. When wearing this amulet, you gain resistance 5 against damage from harm spells if you're living, or against heal spells if you're undead.</p>"
+			"name": "チャンネル・プロテクション・アミュレット",
+			"description": "<p>この、磨かれたテクタイトの固まりは、編み上げられた糸で出来た檻に閉じ込められており、絹糸で吊されている。このアミュレットを身につけた際、君は、生きているクリーチャーであるならハーム呪文からのダメージに、アンデッドであるならヒール呪文からのダメージに5点の抵抗を得る。</p>"
 		},
 		{
 			"id": "Chatterer of Follies",
@@ -1408,18 +1408,18 @@
 		},
 		{
 			"id": "Cheetah's Elixir (Greater)",
-			"name": "Cheetah's Elixir (Greater)",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Interact</p>\n<p>Enzymatic compounds in this elixir strengthen and excite the muscles in your legs. You gain a +10 foot status bonus to your Speed for 1 hour.</p>\n<p>@Compendium[pf2e.consumable-effects.PeuUz7JaabCgl6Yh]{Effect: Cheetah's Elixir (Greater)}</p>"
+			"name": "チーターズ・エリクサー (グレーター)",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">A</span> 使用</p>\n<p>このエリクサーに入っている酵素化合物は、君の足の筋肉を強化し、興奮させる。君は1時間の間、速度に+10フィートのステータス・ボーナスを得る。</p>\n<p>@Compendium[pf2e.consumable-effects.PeuUz7JaabCgl6Yh]{効果: チーターズ・エリクサー (グレーター)}</p>"
 		},
 		{
 			"id": "Cheetah's Elixir (Lesser)",
-			"name": "Cheetah's Elixir (Lesser)",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Interact</p>\n<p>Enzymatic compounds in this elixir strengthen and excite the muscles in your legs. You gain a +5 foot status bonus to your Speed for 1 minute.</p>\n<p>@Compendium[pf2e.consumable-effects.lNWACCNe9RYgaFxb]{Effect: Cheetah's Elixir (Lesser)}</p>"
+			"name": "チーターズ・エリクサー (レッサー)",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">A</span> 使用</p>\n<p>このエリクサーに入っている酵素化合物は、君の足の筋肉を強化し、興奮させる。君は1分間の間、速度に+5フィートのステータス・ボーナスを得る。</p>\n<p>@Compendium[pf2e.consumable-effects.lNWACCNe9RYgaFxb]{効果: チーターズ・エリクサー (レッサー)}</p>"
 		},
 		{
 			"id": "Cheetah's Elixir (Moderate)",
-			"name": "Cheetah's Elixir (Moderate)",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Interact</p>\n<p>Enzymatic compounds in this elixir strengthen and excite the muscles in your legs. You gain a +10 foot status bonus to your Speed for 10 minutes.</p>\n<p>@Compendium[pf2e.consumable-effects.j9zVZwRBVAcnpEkE]{Effect: Cheetah's Elixir (Moderate)}</p>"
+			"name": "チーターズ・エリクサー (モデレート)",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">A</span> 使用</p>\n<p>このエリクサーに入っている酵素化合物は、君の足の筋肉を強化し、興奮させる。君は10分間の間、速度に+10フィートのステータス・ボーナスを得る。</p>\n<p>@Compendium[pf2e.consumable-effects.j9zVZwRBVAcnpEkE]{効果: チーターズ・エリクサー (モデレート)}</p>"
 		},
 		{
 			"id": "Chime of Opening",
@@ -1458,8 +1458,8 @@
 		},
 		{
 			"id": "Clan Pistol",
-			"name": "Clan Pistol",
-			"description": "<p>The tradition of dwarves displaying their clan affiliations with special clan daggers goes back millennia, but many of the dwarf clans of Dongun Hold have their own take on the tradition, with promising young gunsmiths claiming their adulthood by crafting a specialized personal firearm using the clan's unique smithing traditions. Losing or being forced to surrender their clan pistol is a terrible embarrassment for the dwarves that carry them.</p>"
+			"name": "クラン・ピストル",
+			"description": "<p>ドワーフが、一族に所属していることをクラン・ダガーで示すという伝統は数千年前からのものであるが、ドンガン領の多くのドワーフの氏族はその伝統に独自の解釈を加えている。それは、将来有望な若い銃匠が氏族の独特の鍛冶の伝統を使って専用の個人の火器を製作することによって、自分が成人であると主張するというものである。クラン・ピストルを失うことや、放棄するように強制されることは、それを持っているドワーフにとって大いなる恥辱である。</p>"
 		},
 		{
 			"id": "Clandestine Cloak",
@@ -12124,7 +12124,7 @@
 		{
 			"id": "Caltrops",
 			"name": "まきびし",
-			"description": "<p>この4つのとがった先端がある金属のスパイクは、クリーチャーの足にダメージを与えることが出来る。君は“使用”のアクションで隣接する空っぽのマス目にまきびしを撒くことが出来る。そのマス目に最初に移動した最初のクリーチャーはDC14の〈軽業〉に成功しなければ1d4の刺突ダメージと[[/r {1}[継続、出血]]]点の@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続出血ダメージ}を受ける。まきびしの継続出血ダメージを受けているクリーチャーは、速度にー5フィートのペナルティを受ける。まきびしを抜くための“使用”アクションを費やすと、出血を止めるためのDCが減少する。ひとたびクリーチャーがまきびしからダメージを受けたなら、十分なまきびしが台無しになり、他のクリーチャーはそのマス目に安全に移動することが出来るようになる。誰もまだダメージを受けていないなら、設置されたまきびしは回収することが出来て、再利用可能である。そうでなければ、まきびしは台無しになって、回収不可能である。</p>"
+			"description": "<p>この4つのとがった先端がある金属のスパイクは、クリーチャーの足にダメージを与えることが出来る。君は「使用」のアクションで隣接する空っぽのマス目にまきびしを撒くことが出来る。そのマス目に最初に移動した最初のクリーチャーはDC14の〈軽業〉に成功しなければ1d4の刺突ダメージと[[/r {1}[継続、出血]]]点の@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続出血ダメージ}を受ける。まきびしの継続出血ダメージを受けているクリーチャーは、速度にー5フィートのペナルティを受ける。まきびしを抜くための“使用”アクションを費やすと、出血を止めるためのDCが減少する。ひとたびクリーチャーがまきびしからダメージを受けたなら、十分なまきびしが台無しになり、他のクリーチャーはそのマス目に安全に移動することが出来るようになる。誰もまだダメージを受けていないなら、設置されたまきびしは回収することが出来て、再利用可能である。そうでなければ、まきびしは台無しになって、回収不可能である。</p>"
 		},
 		{
 			"id": "Agate",

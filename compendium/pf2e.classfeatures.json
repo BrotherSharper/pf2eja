@@ -1229,7 +1229,7 @@
 		{
 			"id": "Cloistered Cleric",
 			"name": "教義：修道士",
-			"description": "<p>君は僧服をまとったクレリックで、信仰魔法と、神格の領域との繋がりに重きをおいている。</p>\n<p><strong>@Compendium[pf2e.classfeatures.aiwxBj5MjnafCMyn]{第一の教義（1レベル）}:</strong> 君は@Compendium[pf2e.feats-srd.hT4INKGtly4QY8KN]{《領域の入門者》}のクレリック特技を得る。</p>\n<p><strong>@Compendium[pf2e.classfeatures.sa7BWfnyCswAvBVa]{第二の教義 (3レベル)}:</strong> 君の頑健セーヴへの習熟ランクは熟練になる。</p>\n<p><strong>@Compendium[pf2e.classfeatures.s8WEmc4GGZSHSC7q]{第三の教義 (7レベル)}:</strong> 君の信仰呪文攻撃ロールと呪文DCへの習熟ランクは熟練になる。</p>\n<p><strong>@Compendium[pf2e.classfeatures.vxOf4LXZcqUG3P7a]{第四の教義 (11レベル)}:</strong> 君は神格の好む武器に熟練になる。君がその武器を用いた攻撃ロールにクリティカル・ヒットした時、君はその武器のクリティカル特化効果を適用する；もし必要なら、君の信仰呪文DCを用いること。</p>\n<p><strong>@Compendium[pf2e.classfeatures.n9W8MjjRgPpUTvWf]{第五の教義 (15レベル)}:</strong> 君の信仰呪文攻撃ロールと呪文DCへの習熟ランクは達人になる。</p>\n<p><strong>@Compendium[pf2e.classfeatures.DgGefatQ4v6xT6f9]{最後の教義 (19レベル)}:</strong> 君の信仰呪文攻撃ロールと呪文DCへの習熟ランクは伝説になる。</p>"
+			"description": "<p>君は僧服をまとったクレリックで、信仰魔法と、神格の領域との繋がりに重きをおいている。</p>\n<p><strong>@Compendium[pf2e.classfeatures.aiwxBj5MjnafCMyn]{第一の教義（1レベル）}:</strong> 君は@Compendium[pf2e.feats-srd.hT4INKGtly4QY8KN]{《領域入門》}のクレリック特技を得る。</p>\n<p><strong>@Compendium[pf2e.classfeatures.sa7BWfnyCswAvBVa]{第二の教義 (3レベル)}:</strong> 君の頑健セーヴへの習熟ランクは熟練になる。</p>\n<p><strong>@Compendium[pf2e.classfeatures.s8WEmc4GGZSHSC7q]{第三の教義 (7レベル)}:</strong> 君の信仰呪文攻撃ロールと呪文DCへの習熟ランクは熟練になる。</p>\n<p><strong>@Compendium[pf2e.classfeatures.vxOf4LXZcqUG3P7a]{第四の教義 (11レベル)}:</strong> 君は神格の好む武器に熟練になる。君がその武器を用いた攻撃ロールにクリティカル・ヒットした時、君はその武器のクリティカル特化効果を適用する；もし必要なら、君の信仰呪文DCを用いること。</p>\n<p><strong>@Compendium[pf2e.classfeatures.n9W8MjjRgPpUTvWf]{第五の教義 (15レベル)}:</strong> 君の信仰呪文攻撃ロールと呪文DCへの習熟ランクは達人になる。</p>\n<p><strong>@Compendium[pf2e.classfeatures.DgGefatQ4v6xT6f9]{最後の教義 (19レベル)}:</strong> 君の信仰呪文攻撃ロールと呪文DCへの習熟ランクは伝説になる。</p>"
 		},
 		{
 			"id": "Warpriest",
@@ -1819,7 +1819,7 @@
 		{
 			"id": "First Doctrine (Cloistered Cleric)",
 			"name": "第一の教義 (修道士)",
-			"description": "<p>君は @Compendium[pf2e.feats-srd.hT4INKGtly4QY8KN]{《領域の入門者》} のクレリック特技を得る。</p>"
+			"description": "<p>君は @Compendium[pf2e.feats-srd.hT4INKGtly4QY8KN]{《領域入門》} のクレリック特技を得る。</p>"
 		},
 		{
 			"id": "Third Doctrine",
