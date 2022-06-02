@@ -101,6 +101,29 @@
 		"AccessoryPropertyRuneSoftLanding": "ソフトランディング",
 		"AccessoryPropertyRuneSpellBastion": "スペルバスチオン",
 		"AccessoryPropertyRuneWindCatcher": "ウィンドキャッチャー",
+		"Action": {
+            "RestForTheNight": {
+                "Label": "一晩の休息",
+                "Prompt": "一晩、休息しますか?",
+                "Message": {
+                    "Awakens": "{actor} はよく休んで目を覚ました",
+                    "ConditionReduced": "{condition} が1、現象した",
+                    "ConditionRemoved": "{condition} ではなくなった",
+                    "FocusPoints": "集中点が回復した",
+                    "HitPoints": "{hitPoints} 点のヒット・ポイントを回復した",
+                    "InfusedReagents": "注入試薬が回復した",
+                    "Resolve": "決意が回復した",
+                    "SpellSlots": "全ての呪文スロットが回復した",
+                    "StaminaPoints": "スタミナが回復した",
+                    "TemporaryItems": "一時的アイテムが取り除かれた",
+                    "WandsCharges": "ワンドがリチャージされた"
+                }
+			},
+            "Strike": {
+                "MeleeLabel": "近接打撃: {weapon}",
+                "RangedLabel": "遠隔打撃: {weapon}"
+            }
+        },
 		"ActionActionTypeLabel": "アクション種別",
 		"ActionActionsLabel": "アクション",
 		"ActionBrowserSearchHint": "君は名称での検索やアトリビュートのカスタムが出来る。検索可能になりうるアトリビュートは：<br>ソース、レベル、系統、構成要素、素材、対象、距離、時間、持続時間、ダメージ、ダメージ種別、セーヴ、精神集中、儀式、能力値及びクラスである。<br>例：’ファイア、ダメージ：d6’でファイアを名前に含み、ダメージにd6を含む全ての呪文が表示される",
@@ -108,6 +131,7 @@
 		"ActionCategoryInteraction": "使用",
 		"ActionCategoryLabel": "アクションのカテゴリ",
 		"ActionCategoryOffensive": "攻撃",
+		"ActionDeathNoteLabel": "死亡時の注釈",
 		"ActionNumber1": "1",
 		"ActionNumber2": "2",
 		"ActionNumber3": "3",
@@ -119,6 +143,19 @@
 		"ActionTypeReaction": "リアクション",
 		"ActionWeaponLabel": "関連武器",
 		"Actions": {
+			"ArcaneSlam": {
+                "Modifier": {
+                    "SizeDifference": "サイズの違い"
+                },
+                "Notes": {
+                    "NoTarget": "<strong>サイズの違い</strong> 対象が君より1段階、サイズが大きいならこの判定に－2の状況ペナルティを、それよりも対象が大きいなら－4の状況ペナルティを受ける。対象が君より1段階、サイズが小さいならこの判定に+2の状況ボーナスを、それよりも更に対象が小さいなら+4の状況ボーナスを受ける。",
+                    "criticalSuccess": "<strong>クリティカル</strong> 君は敵を叩きつける。魔法のエネルギーが敵を圧倒する。クリーチャーは@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{伏せ状態}になり、1ラウンド、@Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{目が眩んだ状態}になり、[[/r 2d6 + @abilities.str.mod # ダメージ: 秘術の叩きつけ]]{d6点＋君の筋力修正値}2に等しいダメージを受ける。敵はもはや君によって@Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{つかまれた状態}や@Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{拘束状態}ではなくなる",
+                    "success": "<strong>成功</strong> 君は敵を叩きつける。クリーチャーは@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{伏せ状態}になり、君の[[/r @abilities.str.mod # ダメージ: 秘術の叩きつけ]]{筋力修正値}に等しいダメージを受ける。敵はもはや君によって@Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{つかまれた状態}や@Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{拘束状態}ではなくなる",
+                    "failure": "<strong>失敗</strong> 君は敵を叩きつけることが出来ないが、クリーチャーをまだ保持したままである",
+                    "criticalFailure": "<strong>ファンブル</strong> クリーチャーは自由になり、もはや君によって@Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{つかまれた状態}や@Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{拘束状態}ではなくなる"
+                },
+                "Title": "秘術の叩きつけ"
+            },
 			"AvoidNotice": {
 				"Notes": {
 					"success": "<strong>成功</strong> 君は移動の最中にクリーチャーから @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{未探知}のままとなり、移動の終了後にも未探知でいる。 <br/><br/>詳細については@Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{「忍び歩き」} アクションを参照すること"
@@ -159,6 +196,14 @@
 				},
 				"Title": "強制"
 			},
+			"CommandAnAnimal": {
+                "Notes": {
+                    "success": "<strong>成功</strong> 動物はその次の手番に君の命令した通りのことをする",
+                    "failure": "<strong>失敗</strong> その動物はためらうか抵抗をしており、何もしない",
+                    "criticalFailure": "<strong>ファンブル</strong> その動物は素行を悪くするか誤解をして、GMによって決められた何か他のアクションを取る"
+                },
+                "Title": "動物使い"
+            },
 			"Craft": {
 				"SelectItemDialog": {
 					"CancelButtonLabel": "キャンセル",
@@ -408,6 +453,16 @@
 				},
 				"Title": "捜す"
 			},
+			"SenseDirection": {
+                "Modifier": {
+                    "NoCompass": "コンパスなし"
+                },
+                "Notes": {
+                    "criticalSuccess": "<strong>クリティカル</strong> 君は自分がどこにいるか、最高の感覚を得る。もし君が極めて重要な方角のある環境にいるなら、その方角を正確に君は知っている。",
+                    "success": "<strong>成功</strong> 君は希望なく迷うことを避けられるだけの十分な導きを得る。もし君が極めて重要な方角のある環境にいるなら、その方角を君は感覚的に分かる。"
+                },
+                "Title": "方向感覚"
+            },
 			"SenseMotive": {
 				"Notes": {
 					"criticalSuccess": "<b>クリティカル</b> 君はそのクリーチャーの本当の意図を判断し、そのクリーチャーに影響を与えているあらゆる精神魔法についてしっかりとした考えを得る。",
@@ -460,6 +515,38 @@
 				},
 				"Title": "水泳"
 			},
+			"Tamper": {
+                "Notes": {
+                    "criticalSuccess": "<strong>Critical Success</strong> Your tampering is incredibly effective. If you tampered with a weapon, the enemy takes a –2 circumstance penalty to attack rolls and damage rolls with that weapon. If you tampered with armor, the armor hampers the enemy's movement, making the enemy flat-footed and inflicting a –10-foot penalty to its Speeds. The effect lasts until the enemy Interacts to remove it, regardless of which one you used. @Compendium[pf2e.feat-effects.rzcpTJU9MvW1x1gz]{Effect: Armor Tampered With (Critical Success)} @Compendium[pf2e.feat-effects.o7qm13OmaYOMwgib]{Effect: Weapon Tampered With (Critical Success)}",
+                    "success": "<strong>Success</strong> Your tampering is temporarily effective. As critical success, but the effect ends at the start of your next turn, even if the enemy doesn't Interact to end it. @Compendium[pf2e.feat-effects.IfRkgjyh0JzGalIy]{Effect: Armor Tampered With (Success)} @Compendium[pf2e.feat-effects.4QWayYR3JSL9bk2T]{Effect: Weapon Tampered With (Success)}",
+                    "criticalFailure": "<strong>Critical Failure</strong> Your tampering backfires dramatically, creating a small explosion from your own tools or gear. You take [[/r {@details.level.value}[fire] # Tamper Backfire]]{fire damage equal to your level}."
+                },
+                "Title": "Tamper"
+            },
+			"Track": {
+                "Notes": {
+                    "success": "<strong>成功</strong> 君は痕跡を発見するか、すでに追いかけていた痕跡を追い続ける",
+                    "failure": "<strong>失敗</strong> 君は痕跡を見失うが、1時間後に再挑戦することが出来る",
+                    "criticalFailure": "<strong>ファンブル</strong> 君は痕跡を見失い、24時間再挑戦出来ない"
+                },
+                "Title": "追跡"
+            },
+			"TreatDisease": {
+                "Notes": {
+                    "criticalSuccess": "<strong>クリティカル</strong> 君はその病気に対する次のセーヴィング・スローに＋4状況ボーナスを与える<br/>@Compendium[pf2e.equipment-effects.id20P4pj7zDKeLmy]{効果: 病気の手当 (クリティカル)}",
+                    "success": "<strong>成功</strong> 君はその病気に対する次のセーヴィング・スローに＋2状況ボーナスを与える<br/>@Compendium[pf2e.equipment-effects.Ee2xfKX1yyqGIDZj]{効果: 病気の手当 (成功)}",
+                    "criticalFailure": "<strong>ファンブル</strong> 君の努力によって、その病気に対する次のセーヴィング・スローにー2状況ペナルティがかかる。<br/>@Compendium[pf2e.equipment-effects.5oYKYXAexr0vhx84]{効果: 病気の手当 (ファンブル)}"
+                },
+                "Title": "病気の手当"
+            },
+			"TreatPoison": {
+                "Notes": {
+                    "criticalSuccess": "<strong>クリティカル</strong> 君はその毒に対する次のセーヴィング・スローに＋4状況ボーナスを与える。<br/>@Compendium[pf2e.equipment-effects.XwCBalKJf3CiEiFa]{効果: 毒の手当 (クリティカル)}",
+                    "success": "<strong>成功</strong> 君はその毒に対する次のセーヴィング・スローに＋2状況ボーナスを与える。<br/>@Compendium[pf2e.equipment-effects.XWenziR7J3mwKV4W]{効果: 毒の手当 (成功)}",
+                    "criticalFailure": "<strong>ファンブル</strong> 君の努力によって、その毒に対する次のセーヴィング・スローにー2状況ペナルティがかかる。<br/>@Compendium[pf2e.equipment-effects.ESuBosh3t1pXEcBj]{効果: 毒の手当 (ファンブル)}"
+                },
+                "Title": "毒の手当"
+            },
 			"Trip": {
 				"Notes": {
 					"criticalSuccess": "<b>クリティカル</b> 対象は落下し、@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{伏せ状態}で着地して[[/r 1d6[殴打] # 殴打ダメージ]]{1d6}の殴打ダメージを受ける",
@@ -552,12 +639,38 @@
 					"Label": "夜に休息を取る"
 				}
 			},
+			"Creature": {
+                "Alliance": {
+                    "Opposition": "敵対",
+                    "Party": "パーティ",
+                    "Neutral": "中立"
+				},
+                "SpellPreparation": {
+                    "Title": "{actor}: 呪文準備",
+                    "Hint": "呪文を準備するために、このリストから１つの呪文をアクター・シートのスロットにドラッグする",
+					"HintFlexible": "呪文を準備するのにはここを有効化すること。キャントリップを準備するためには、このリストから1つの呪文をアクター・シートのスロットにドラッグする "
+                }
+            },
 			"Dead": "死亡",
 			"Hazard": {
 				"Level": "障害 {level}"
 			},
 			"NPC": {
-				"IsLootableOnDeathLabel": "死亡時にこのNPCを略奪可能にする"
+				"Configure": {
+                    "Title": "NPCの設定",
+                    "Alliance": {
+                        "Label": "立場",
+                        "Hint": "NPCはパーティと敵対することも、仲間になることも、中立になることもある。これは挟撃のような遭遇時の幾つかのルールに影響を与える。"
+                    },
+                    "Lootable": {
+                        "Label": "略奪可能にしますか?",
+                        "Hint": "死亡時にプレイヤーによってNPCが略奪可能になるかどうかを設定する。グローバルなデフォルト設定については、 <a>自動化設定</a>で設定可能である。",
+                        "DefaultLootable": "グローバルなデフォルト設定 (略奪可能)",
+                        "DefaultNotLootable": "グローバルなデフォルト設定 (略奪不可)",
+                        "Lootable": "略奪可能",
+                        "NotLootable": "略奪不可"
+                    }
+                }
 			},
 			"Plural": "アクター"
 		},
@@ -606,15 +719,19 @@
 		"AreaSize15": "15フィート",
 		"AreaSize20": "20フィート",
 		"AreaSize30": "30フィート",
+		"AreaSize360": "360フィート",
 		"AreaSize40": "40フィート",
 		"AreaSize45": "45フィート",
 		"AreaSize5": "5フィート",
 		"AreaSize50": "50フィート",
+		"AreaSize500": "500フィート",
 		"AreaSize60": "60フィート",
 		"AreaSize75": "75フィート",
 		"AreaSize80": "80フィート",
 		"AreaSize90": "90フィート",
+		"AreaSize1000": "1000フィート",
 		"AreaSize1Mile": "1マイル",
+		"AreaSizeQuarterMile": "1/4 マイル",
 		"AreaTypeBurst": "爆発",
 		"AreaTypeCone": "円錐",
 		"AreaTypeEmanation": "拡散",
@@ -862,7 +979,7 @@
 				"Label": {
 					"AdjustedTarget": "<target>対象: {target}</target> <dc>({dcType} <preadjusted>{preadjusted}</preadjusted> <adjusted>{adjusted}</adjusted>)</dc>",
 					"NoChangeTarget": "<target>Target: {target}</target> <dc>({dcType} <adjusted>{adjusted}</adjusted>)</dc>",
-					"NoTarget": "{dcType} {dc}",
+					"NoTarget": "<dc>{dcType} {dc}</dc>",
 					"WithTarget": "<target>対象: {target}</target> <dc>({dcType} {dc})</dc>"
 				},
 				"Specific": {
@@ -918,26 +1035,14 @@
 		"ClickToSetInitiativeContext": "イニシアチブとしてセット",
 		"ClipboardNotification": "\"{clipText}\" をクリップボードにコピーしました",
 		"ColdIronStrikes": "冷たい鉄の打撃",
-		"CompendiumDirectory": {
-			"Folders": {
-				"bestiaries": "ベスティアリ",
-				"bestiaries/campaign": "キャンペーン",
-				"bestiaries/rulebook": "ルールブック",
-				"bestiaries/pfs": "パスファインダー協会",
-				"character-building": "キャラクタービルド",
-				"character-building/feats": "特技",
-				"bestiaries/other": "その他",
-				"effects": "効果",
-				"equipment": "装備",
-				"pregenerated": "プレロールドPC"
-			}
-		},
 		"CompendiumBrowser": {
 			"AddedItem": "{item} を選択中のアクターに追加しました.",
 			"AddedItemToCharacter": "{item} を {character} に追加しました",
 			"BoughtItem": "選んだアクターから {item} を購入しようとしましたw",
 			"BoughtItemWithCharacter": "{character}　で {item} を購入しました",
 			"FailedToBuyItemWithCharacter": "{character}　で {item} を購入できませんでした",
+			"BoughtItemWithAllCharacters": "選んだ全てのアクターから {item} を購入しました",
+            "FailedToBuyItemWithSomeCharacters": "選んだアクターの一部から {item} を購入することが出来ませんでした",
 			"BestiaryBrowser": "ベスティアリ・ブラウザ",
 			"Hint": "上のタブを使って辞書を選んで下さい",
 			"ProgressBar": {
@@ -1237,10 +1342,13 @@
 			"CantMoveItemDestination": "君はこのキャラにアイテムを移動させる権限がない",
 			"MinimumProfLevelSetByFeatures": "選んでいる習熟は、特徴によって設定された習熟度を下回っています",
 			"NoTokenSelected": "有効なトークンが選択されていません",
+			"NoPCTokenSelected": "PCに関連するトークンを少なくとも一つ選んでください",
 			"NoUpdatePermission": "君にはこのアクターを更新する権限がありません",
 			"NotEnoughAmmo": "この打撃を行うに十分な矢弾がありません",
+			"NotEnoughCoins": "硬貨が不十分です",
 			"SubV9Module": "{module} はFoundryV9をサポートしておらず、ゲームに安定性上の問題をもたらすかもしれません",
-			"WeaponQuantityZero": "君にはその武器をこれ以上、装備していない"
+			"WeaponQuantityZero": "君にはその武器をこれ以上、装備していない",
+			"RuleElementSyntax": "ルール要素定義に構文エラーがあります: {message}"
 		},
 		"Ethnicity": "民族",
 		"ExpendSpellTitle": "呪文の消費",
@@ -1412,7 +1520,8 @@
 				"Alignment": "属性",
 				"ClericSpells": {
 					"Label": "クレリック呪文",
-					"Hint": "呪文を追加するには、このシートにドラッグ＆ドロップすること"
+					"Hint": "呪文を追加するには、このシートにドラッグ＆ドロップすること",
+                    "DropError": "神格のクレリック呪文はキャントリップ、集中呪文、儀式に含めない方が良い"
 				},
 				"DivineAbility": {
 					"Label": "信仰能力",
@@ -1778,7 +1887,13 @@
 					"ThreeProperties": "{property1} ・property2}・{property3}・{base}",
 					"ThreePropertiesMaterial": "{material}製{property1}・{property2}・{property3} ・{base}",
 					"FourProperties": "{property1}・{property2}・{property3}・{property4}・{base}",
-					"FourPropertiesMaterial": "{material}製{property1}・{property2}・{property3}・{property4}・{base}"
+					"FourPropertiesMaterial": "{material}製{property1}・{property2}・{property3}・{property4}・{base}",
+                    "Striking": "{striking}・{base}",
+                    "StrikingOneProperty": "{striking}・ {property1}・{base}",
+                    "StrikingTwoProperties": "{striking}・{property1}・{property2}・{base}",
+                    "StrikingThreeProperties": "{striking} ・{property1}・{property2}・{property3}・{base}",
+                    "StrikingFourProperties": "{striking}・{property1}・{property2}・{property3}・{property4}・{base}",
+                    "StrikingMaterial": "{material}製{striking}・{base}"
 				},
 				"HandsLabel": "用法",
 				"Improvised": "即席",
@@ -1790,11 +1905,7 @@
 				},
 				"MeleeUsage": {
 					"Label": "用法：近接",
-					"Hint": "コンビネーションとは、近接武器と火器の機能を独特な方法で組み合わせる機能のことで、武器の新しい特性である。コンビネーション武器には、火器としての形式・用途と、近接武器の形式・用途がある。武器には火器としてのステータスが最初に、その次に近接武器としてのステータスが、矢弾の上にインデントされて記載されている。近接武器と火器を切り替えるのには、「使用」アクションが必要である。ただし、君の最後のアクションが、コンビネーション武器を使いながらの敵に対する近接「打撃」であり、それが成功しているなら、その敵に対して、コンビネーション武器を使用した火器による「打撃」を、武器を完全に火器に切り替えることなく行うことが可能で、つまり、近接武器を命中させた場合に火器を発射するということが出来る。この場合、コンビネーション武器は火器による「打撃」後に近接武器に戻る。",
-					"StrikeLabel": {
-						"Ranged": "遠隔打撃: {weapon}",
-						"Melee": "近接打撃: {weapon}"
-					}
+					"Hint": "コンビネーションとは、近接武器と火器の機能を独特な方法で組み合わせる機能のことで、武器の新しい特性である。コンビネーション武器には、火器としての形式・用途と、近接武器の形式・用途がある。武器には火器としてのステータスが最初に、その次に近接武器としてのステータスが、矢弾の上にインデントされて記載されている。近接武器と火器を切り替えるのには、「使用」アクションが必要である。ただし、君の最後のアクションが、コンビネーション武器を使いながらの敵に対する近接「打撃」であり、それが成功しているなら、その敵に対して、コンビネーション武器を使用した火器による「打撃」を、武器を完全に火器に切り替えることなく行うことが可能で、つまり、近接武器を命中させた場合に火器を発射するということが出来る。この場合、コンビネーション武器は火器による「打撃」後に近接武器に戻る。"
 				},
 				"NoRangeMelee": "なし (近接)",
 				"OtherTags": {
@@ -1802,10 +1913,15 @@
 					"Hint": "これらは、第2版ルールにおいて、明確な地位や定義がないものの、未だに多く依拠されているタグである。他の属性が存在する場合、自動的に追加されるものもある。"
 				},
 				"RangeIncrementN": "射程単位 {range} ft.",
+				"ReloadOneMinute": "1分",
 				"SpecificMagicWeapon": {
 					"Label": "特定の魔法の武器",
 					"Hint": "この武器を<i>特定の魔法の武器</i>にすることによって、 素材とルーンが特殊である以上に個の武器が特殊であると示すことが出来る。名称、レベル、レアリティ、価格はもはや、稀少素材やルーンによって上書きされなくなる。しかしながら、素材とルーンはそれ以上のアップグレードによるレベル、レアリティ、価格調整の最低ラインになる"
 				}
+			},
+            "Rules": {
+                "Apply": "適用",
+                "Close": "閉じる"
 			}
 		},
 		"ItemBonus0": "0",
@@ -1826,7 +1942,9 @@
 		"ItemNewRuleElement": "新たなルール要素",
 		"ItemNewSkillVariant": "新たな技能ヴァリアント",
 		"ItemRemoveRuleElement": "ルール要素の削除",
+		"ItemSourceIDLabel": "ソースID:",
 		"ItemTitle": "アイテム",
+		"ItemUUIDLabel": "UUID:",
 		"ItemsLabel": "アイテム",
 		"JournalEntry": {
 			"Plural": "ジャーナル",
@@ -1836,6 +1954,12 @@
 		},
 		"KeyAbility": "主要能力値",
 		"KeyAbilityLabel": "主要能力",
+		"Keybinding": {
+            "CycleTokenStack": {
+                "Label": "トークンの山を循環させる",
+                "Hint": "マウスをホバリングさせたトークンの山のZインデックスを循環させ、一番上のものを一番下にする"
+            }
+        },
 		"KitItems": "アイテム",
 		"KitWorldItem": "このアイテムは辞典にないもので、他のワールドでは機能しない",
 		"LackCastConsumableCapability": "君は{name}を使うための習熟を満たしておらず、《魔法のアイテム強制起動》の特技を持っていない",
@@ -2174,6 +2298,8 @@
 		"PreciousMaterialNoqualDescription": "軽くて強靭なノークァルは、魔法に強力な抵抗力をも示す。この抵抗の副作用は、ノークァルから魔法の武器を作るには、複雑で高価な錬金術の処置が必要だということである。ヌーメリアの黒き君主、ケヴォス＝カルはこの属性を代替するのを助ける、ソヴリン鋼として知られるノークァルと冷たい鉄の合金を開発した。この金属の水晶質の外見は、脆いように見えるかもしれないが、この薄緑の素材は鉄と同じように機能する。ノークァルで作られた物体は、そのアイテムが魔法に対して試みる、そして、その所有者が特にアイテムを魔法から守るために行うセーヴに+4状況ボーナスを与える（ラスティング・グラスプ呪文に対してなど）",
 		"PreciousMaterialOrichalcum": "オリハルコン",
 		"PreciousMaterialOrichalcumDescription": "最も希少で価値があるスカイメタルであるオリハルコンは、その驚くべき、時間に関連した魔法の特性のために求められている。この鈍い同の色をした金属は、物理的にはアダマンティンほど頑丈ではないが、オリハルコンの時間を操る特性によって保護されており、より高い硬度とヒットポイントを与えてくれる。オリハルコンのアイテムがダメージを受けても破壊されなかった場合、24時間後に完全に修復する。",
+		"PreciousMaterialPeachwood": "ピーチウッド",
+        "PreciousMaterialPeachwoodDescription": "ピーチウッドの武器は直射日光を浴びた際、僅かに金色に輝く。ピーチウッドはダークウッドに関連する、アンデッド・クリーチャーの抵抗や弱点についてダークウッドとして扱う（たとえば、ピーチウッドの武器はキョンシーの抵抗を抜くことが出来る）。更に、ピーチウッド武器はあらゆるアンデッド・クリーチャーの抵抗をごく一部だけ抜くことが出来る。ピーチウッド武器による「打撃」は、標準クラスならば2点、高級クラスなら4点、物理的なダメージに対するアンデッドの抵抗を低いものとして扱う。",
 		"PreciousMaterialSiccatite": "シカタイト",
 		"PreciousMaterialSiccatiteDescription": "素材の状態では、この銀色の鉱石は、やけどするほどに熱いか、凍てつくほどに冷たいかのどちらかである。シカタイトが2つの関連する物質であるのか、何らかの未知のプロセスを経て出力温度を決定している一つの物質であるのかについては、冶金学者の間でも議論が分かれるところである。理由が何にせよ、この素材は極端な温度であるため、注意深く扱わなければならない。熱いシカタイトは紙や乾いたブラシなどの可燃物に簡単に引火する。冷たいシカタイトを湿潤した環境に置いておくと、分厚い氷の層に包まれてしまう。大量のシカタイトと肉体的に接触したクリーチャーは、接触を続けるラウンドごとに1点のエネルギー・ダメージを受ける（熱いシカタイトなら火炎、冷たいシカタイトなら氷雪ダメージ）。",
 		"PreciousMaterialSilver": "銀",
@@ -2812,10 +2938,12 @@
 		"SpellDurationLabel": "持続時間",
 		"SpellFocusLabel": "集中",
 		"SpellFlexibleLabel": "柔軟",
+		"SpellFlexibleAvailable": "柔軟: {value} / {max}",
 		"SpellCollectionAdd": "呪文コレクションに追加",
 		"SpellCollectionRemove": "呪文コレクションから削除",
 		"SpellLabel": "呪文",
 		"SpellLabelPlural": "呪文",
+		"SpellLevel": "{level} レベル",
 		"SpellLevel0": "キャントリップ",
 		"SpellLevel1": "1レベル",
 		"SpellLevel10": "10レベル",
@@ -2839,7 +2967,13 @@
 			"Header": "スケーリング (インターバル)",
 			"Label": "インターバル",
 			"Selection": "増強 (+{interval})",
-			"Add": "インターバル・スケーリングの追加"
+			"Add": "増強の追加 (インターバル)"
+        },
+        "SpellScalingOverlay": {
+            "Label": "増強後のレベル",
+            "Selection": "増強 ({level})",
+            "Add": "増強の追加 (固定値)"
+
 		},
 		"SpellScalingLabel": "スケーリング",
 		"SpellSchoolLabel": "呪文系統",
@@ -2951,8 +3085,8 @@
 		"TogglesLabel": "表示切替",
 		"ToggleSignatureSpellTitle": "署名呪文を切替",
 		"ToggleSpellVisibilityLevelTitle": "君の呪文書の章を切替",
-		"ToggleSpellVisibilityTitle": "君の呪文書を切替",
-		"ToggleSlotlessSpellLevelsTitle": "呪文書にあるスロットのない呪文レベルの表示を切替",
+		"ToggleSpellVisibilityTitle": "呪文の準備",
+        "ToggleSlotlessSpellLevelsTitle": "スロットのない呪文レベルの表示を切替",
 		"ToggleUnreadyStrikes": "装備していない武器を切替",
 		"ToggleWithName": "表示切替: {property}",
 		"Token": {
@@ -2989,6 +3123,7 @@
 		"TraitAeon": "アイオーン",
 		"TraitAffixedToArmor": "防具に接着",
 		"TraitAffixedToArmorOrAWeapon": "防具か武器に接着",
+		"TraitAffixedToMediumHeavyArmor": "中装鎧あるいは重装鎧に接着",
 		"TraitAffixedToArmorOrTravelersClothing": "防具あるいは旅行者の衣服に接着",
 		"TraitAffixededToCrossbowOrFirearm": "クロスボウや火器に接着",
 		"TraitAffixededToFirearm": "火器に接着",
@@ -3018,6 +3153,7 @@
 		"TraitAppliedToAnyVisibleArticleOfClothing": "衣類の透明な一部に塗る",
 		"TraitAppliedToBeltCapeCloakOrScarf": "ベルト、ケープ、外套、スカーフに塗る",
 		"TraitAppliedToBootsCapeCloakOrUmbrella": "ブーツ、ケープ、外套、傘に塗る",
+		"TraitAppliedToBucklerShield": "バックラーか盾に塗る",
 		"TraitAppliedToDuelingCapeOrShield": "デュエリング・ケープか盾に塗る",
 		"TraitAppliedToShield": "盾に塗る",
 		"TraitAquatic": "水棲",
@@ -3068,6 +3204,7 @@
 		"TraitChaotic": "混沌",
 		"TraitCharauKa": "カラウ＝カ",
 		"TraitCharm": "魅了",
+		"TraitCircus": "サーカス",
 		"TraitClimbing": "クライミング",
 		"TraitClockwork": "クロックワーク",
 		"TraitCobbled": "がらくた",
@@ -3100,6 +3237,7 @@
 		"TraitCursebound": "カースボンド",
 		"TraitDaemon": "ダイモン",
 		"TraitDarkness": "闇",
+		"TraitDarvakka": "ダーヴァッカ",
 		"TraitDeadlyD10": "致命的 d10",
 		"TraitDeadlyD12": "致命的 d12",
 		"TraitDeadlyD6": "致命的 d6",
@@ -3183,6 +3321,7 @@
 		"TraitDescriptionCursed": "この特性を持つアイテムは、持ち主にトラブルを引き起こす呪いをかけられている。呪いはアイテムの識別時には探知されないが、クリティカル時には呪いの存在と正確な性質の両方が明らかになる。呪われたアイテムは、一度発動したり、最初に運用した後は、捨てることができない。呪いが取り除かれた場合にのみ、そのアイテムを取り外すことができる",
 		"TraitDescriptionCursebound": "この特性を持つ呪文は発動時に君のオラクルの呪いの過酷さを増加させる。大抵の場合、啓示呪文のみがこの特性を持つ。君はオラクルの呪いを持たないならカースボンド呪文を発動することが出来ない。",
 		"TraitDescriptionDarkness": "暗闇の効果は範囲内にある魔法のものでない光を消滅させ、自分よりも強力でない魔法の光を無効化することが出来る。君は通常、光を無効化するために、直接、暗闇魔法を光魔法で対象にしなければならないが、暗闇呪文の中には自動的に光を無効化しようとするものもある。",
+		"TraitDescriptionDarvakka": "影界と負のエネルギー界によってねじまげられたエントロピックのアンデッド・クリーチャー",
 		"TraitDescriptionDeadly": "クリティカル・ヒット時に、この武器は記載された大きさの武器ダメージ・ダイス1つを加える。これを、その武器のダメージを2倍にした後でこれをロールする。もしその武器にグレーター・ストライキングのルーンがあるなら2個のダイスに、その武器がメジャー・ストライキング・ルーンがあるなら3個のダイスに増やす。例えば、グレーター・ストライキングのルーンがあるレイピアはクリティカル・ヒットで2d8の追加の刺突ダメージを与える。武器の通常のダメージ・ダイスの大きさを変更する能力は、致命的のダイスの大きさを変更しない。",
 		"TraitDescriptionDeadlyD10": "クリティカル・ヒット時に、この武器は記載された大きさの武器ダメージ・ダイス1つを加える。これを、その武器のダメージを2倍にした後でこれをロールする。もしその武器にグレーター・ストライキングのルーンがあるなら2個のダイスに、その武器がメジャー・ストライキング・ルーンがあるなら3個のダイスに増やす。例えば、グレーター・ストライキングのルーンがあるレイピアはクリティカル・ヒットで2d8の追加の刺突ダメージを与える。武器の通常のダメージ・ダイスの大きさを変更する能力は、致命的のダイスの大きさを変更しない。",
 		"TraitDescriptionDeadlyD12": "クリティカル・ヒット時に、この武器は記載された大きさの武器ダメージ・ダイス1つを加える。これを、その武器のダメージを2倍にした後でこれをロールする。もしその武器にグレーター・ストライキングのルーンがあるなら2個のダイスに、その武器がメジャー・ストライキング・ルーンがあるなら3個のダイスに増やす。例えば、グレーター・ストライキングのルーンがあるレイピアはクリティカル・ヒットで2d8の追加の刺突ダメージを与える。武器の通常のダメージ・ダイスの大きさを変更する能力は、致命的のダイスの大きさを変更しない。",
@@ -3200,7 +3339,7 @@
 		"TraitDescriptionDeath": "即死の特性を持つ効果は、0ヒットポイントにしたなら君を即座に殺す。即死効果には、0ヒットポイントにすることなく君を死に近づけるか、殺す効果もある。",
 		"TraitDescriptionDedication": "君はキャラクターにアーキタイプを適用するために、この特性を持つ特技を選ばなくてはならない。",
 		"TraitDescriptionDetection": "この特性を持つ効果は人物、物体、あるいはオーラの存在を判断しようと試みる。",
-		"TraitDescriptionDhampir": "この特性を持つクリーチャーはダンピールの祖先を持つ。",
+		"TraitDescriptionDhampir": "この特性を持つクリーチャーはダンピールの祖先を持つ。こういった人型生物はヴァンパイアと他の祖先の定命の子孫である",
 		"TraitDescriptionDisarm": " 君は、もし自由な手がないとしても、〈運動〉技能での「武器落とし」にこの武器を使うことが出来る。これには、武器の間合いを用いて（もし君自身のものと違うなら）、〈運動〉判定にアイテム・ボーナスを加えるように、その武器のアイテム・ボーナスを攻撃ロールに加える。もし君がこの武器を使って「武器落とし」にファンブルしたなら、ファンブルの効果を受ける代わりに失敗効果を受けるため、この武器を落とすことが出来る。クリティカルしたとしても、もし君がそのアイテムを奪いたいなら、君は片手が自由である必要がある。",
 		"TraitDescriptionDisease": "この特性を持つ効果は一つ以上の病気をもたらす。病気は一般的に、苦難である。",
 		"TraitDescriptionDivination": "魔法系統の占術は一般的に情報の伝達、出来事の予知に関するものである。",
@@ -3295,7 +3434,7 @@
 		"TraitDescriptionMental": "精神効果は対象の精神を変えることが出来る。物体や精神なしのクリーチャーには効果を持たない。",
 		"TraitDescriptionMetamagic": "呪文修正の特性を持つアクションは、大抵の場合、呪文修正特技に由来し、君の呪文の特質を曲げる。君は変更したい「呪文の発動」直前に呪文修正アクションを使わなくてはならない。もし、君がその直後に「呪文の発動」以外のアクション（フリー・アクションとリアクションを含む）を取ったなら、君は呪文修正アクションの利益を失う。呪文修正アクションによって追加されたあらゆる追加効果はその呪文の効果の一部であって、呪文修正アクションそのものの効果ではない。",
 		"TraitDescriptionMindless": "精神なしのクリーチャーはプログラムされているか、原始的な精神しか持たない。全てではないが、そのほとんどの精神能力修正値は－5である。こういったクリーチャーは全ての精神効果に対して耐性を持つ。",
-		"TraitDescriptionMinion": "手下は、直接的に別のクリーチャーに奉仕するクリーチャーである。この特性を持つクリーチャーは手番に2アクションしか使うことが出来ない。君の手下は戦闘時に君の手番に、命令のためのアクションを1手番に１度、使った際に行動する。動物の相棒については、君は「動物使い」を使う；招来された手下のような、呪文や魔法のアイテムの効果におる手下については、君は「呪文の維持」か「起動の維持」を使う；もし特記なければ、君は音声で命令を行う。これは聴覚と精神集中の特性を持つ単発アクションである。もし命令を与えられなければ、手下は自分を守るか、明白な危害から逃げること以外にアクションを使わない。もし充分に長い間、一般的には1分間、世話をされないままなら、精神なしの手下は大抵の場合、行動をしないが、動物は本能に従い、思考能力のある手下は自分のやりたいようにやる。",
+		"TraitDescriptionMinion": "この特性を持つクリーチャーは手番に2アクションしか使うことが出来ず、リアクションを持つことも、君の手番以外に行動をすることも出来ない。君の手下は戦闘時に君の手番に、命令のためのアクションを1手番に１度、使った際に行動する。動物の相棒については、君は「動物使い」を使う；招来された手下のような、呪文や魔法のアイテムの効果におる手下については、君は「呪文の維持」か「起動の維持」を使う；もし特記なければ、君は音声で命令を行う。これは聴覚と精神集中の特性を持つ単発アクションである。もし命令を与えられなければ、手下は自分を守るか、明白な危害から逃げること以外にアクションを使わない。もし充分に長い間、一般的には1分間、世話をされないままなら、精神なしの手下は大抵の場合、行動をしないが、動物は本能に従い、思考能力のある手下は自分のやりたいようにやる。手下は他のクリーチャーを支配することは出来ない",
 		"TraitDescriptionMisfortune": "不運効果は君がロールしたダイスを不利な方向に変更する。君は一回のロールを変更する不運効果を2つ以上持つことは出来ない。もし、複数の不運効果が適用される場合は、GMが、どれがより不利な効果であるかを判断し、それを適用する。もし、同じロールに幸運効果と不運効果が適用される場合は、お互いに打ち消しあうため、君は通常通りにロールする。",
 		"TraitDescriptionModification": "この特性を持つ特技は発明の人造を変更する。再設定のクラス特徴を持っているなら、君は簡単にこの特技を再訓練することが出来る。",
 		"TraitDescriptionModular": "この武器は、「使用」アクションを使うことによって切り替え可能な複数の設定を持つ。一般的に、組替武器の設定を切り替えることによって、異なる種別のダメージを与えることが出来るようになるが（特性に「組替　殴打、刺突あるいは斬撃」のように書かれている）、組替武器にはより複雑な設定を記載することも可能である。",
@@ -3318,6 +3457,7 @@
 		"TraitDescriptionOracle": "この特性を持つ能力はオラクル・クラスに由来する。",
 		"TraitDescriptionOrc": "オークはこれらの武器を作り、用いる。",
 		"TraitDescriptionParry": "この武器は攻撃を防ぐために防御的に使うことが出来る。この武器を使っている間、君のその武器への習熟ランクが修得以上であるなら、君は武器を防御的に構えるために単発アクションを使い、次の手番の開始時までACに+1状況ボーナスを得ることが出来る。",
+		"TraitDescriptionPeachwood": "ピーチウッドの武器は直射日光を浴びた際、僅かに金色に輝く。ピーチウッドはダークウッドに関連する、アンデッド・クリーチャーの抵抗や弱点についてダークウッドとして扱う（たとえば、ピーチウッドの武器はキョンシーの抵抗を抜くことが出来る）。更に、ピーチウッド武器はあらゆるアンデッド・クリーチャーの抵抗をごく一部だけ抜くことが出来る。ピーチウッド武器による「打撃」は、標準クラスならば2点、高級クラスなら4点、物理的なダメージに対するアンデッドの抵抗を低いものとして扱う。",
 		"TraitDescriptionPlant": "草本のクリーチャーは植物の特性を持つ。これらは通常の植物とは異なっている。この特性を持つ魔法の効果は、何らかの方法で植物や植物で出来た物質の操作や召喚を行う。植物を操作するものは、植物のない範囲では何の効果もない。",
 		"TraitDescriptionPoison": "この特性を持つ効果は毒を運ぶか、毒ダメージを与える。この特性を持つアイテムは有毒であり、苦難を引き起こすかもしれない。",
 		"TraitDescriptionPolymorph": "これらの効果は対象を新たな姿に変身させる。対象は同時に二つ以上のポリモーフ効果の影響を受けることは出来ない。もし、二番目のポリモーフ効果の影響を受けたなら、二番目のポリモーフ効果は最初のものを無効化しようとする。それが成功したなら、二番目の効果が効果を発揮し、失敗したならその呪文は対象に影響を与えない。ポリモーフ効果によって特に可能となる「打撃」は全て魔法のものである。特記ない限り、ポリモーフ呪文は対象に特定のクリーチャーの姿をとらせることはなく、単に一般的な種別あるいは祖先の一般的な姿を与える。もし、君がポリモーフ呪文で戦闘形態を取るなら、特殊ステータスは状況ボーナス、スエｔ－タス・ボーナス、ペナルティによってのみ修正を受ける。特記ない限り、戦闘形態で呪文の発動、会話、そして手を必要とするほとんどの操作アクションは使うことが出来ない（あるアクションを使用可能かどうか分からないなら、GMが判断する）。君の装備は君の中に溶け込む；君の装備の常時能力は機能するが、君はアイテムを起動することが出来ない。",
@@ -3351,6 +3491,7 @@
 		"TraitDescriptionShisk": "地下に生息する、骨のある羽毛で覆われた秘密めいた人型生物",
 		"TraitDescriptionShoony": "この特性を持つクリーチャーはシューニィの祖先を持つ。",
 		"TraitDescriptionShove": "君はたとえ君の片手が自由でなくとも、〈運動〉技能で「押しやり」するためにこの武器を用いることが出来る。これには、武器の間合いを用いて（もし君自身のものと違うなら）、〈運動〉判定にアイテム・ボーナスを加えるように、その武器のアイテム・ボーナスを攻撃ロールに加える。もし君がこの武器を使って「押しやり」にファンブルしたなら、ファンブルの効果を受ける代わりに失敗効果を受けるため、この武器を落とすことが出来る。",
+		"TraitDescriptionSkeleton": "このアンデッドは負のエネルギーで死んだクリーチャーの骸骨を活性化することによって作られている。この特性を持つ能力は、スケルトンのみが使い、選ぶことが出来る。",
 		"TraitDescriptionSkill": "技能の特性を持つ一般特技は君の技能とそのアクションを発展させたり、ある技能の新しいアクションを使用可能にしてくれる。この特性を持つ特技は、あるクラスが技能特技や一般特技を与える際に選ぶことが出来る。技能の特性を持つアーキタイプ特技は、もし君がそのアーキタイプの専心特技を持っているなら、技能特技として選ぶことが出来る。",
 		"TraitDescriptionSleep": "この効果はクリーチャーを眠らせるか、眠たくさせる。",
 		"TraitDescriptionSonic": "音波特性を持つ効果は、それが音を発生させている場合にのみ機能する。つまり、サイレンスの範囲内や真空では効果を持たない。これは聴覚呪文とは異なる。聴覚呪文は、対象が聞こえていれば効果を持つ。音波効果は音波ダメージを与えるだろう。",
@@ -3363,7 +3504,7 @@
 		"TraitDescriptionSteam": "蒸気機関の特性を持つアイテムは蒸気を作り、構成要素を動かすために水を沸かすエンジンを動力としている。",
 		"TraitDescriptionStrix": "翼を持った人型生物で、そのほとんどがシェリアックス周辺に住んでいる",
 		"TraitDescriptionStructure": "構造物の特性を持つアイテムは、起動することによって,魔法の建物やその他の建造物を作り出す。アイテムは、その他の構造物がない土地区画で起動しなければならない。構造物は自然の地形に適応し、そこに建てるための建造物の用件に適応する。この構造物は、ため池や岩の突起物といった小さな地形には適応するが、水やその他の固形でない表面の上に作り出すことは出来ない。雪や砂丘、その他の、直下に固い面がある柔らかな地表で発動した場合、構造物の基礎部分（もしあれば）は固い面に到達する。もし、この特性を持つアイテムが沼地や振動で揺れやすい範囲など、固体の、不安定な地表の上に起動したなら、毎日、DC3の平目判定を行うこと。失敗すると構造物は沈み始めたり、崩れ始めたりする。構造物は、出現した際にその範囲にいるクリーチャーを傷つけることはないが、人混みの中や人が密集した範囲に作ることは出来ない。アイテムが起動した際に構造物の中に意図せずに入ってしまったクリーチャーは、完全な構造物の中で無傷のままであり、常に明確な脱出経路を持つ。起動終了時に構造物の中に居たクリーチャーには害はなく、構造物の上層に居た場合は害を受けることなく地面に着地する。",
-		"TraitDescriptionSummoned": "召喚術呪文や効果によって招来されたクリーチャーは招来の特性を持つ。招来されたクリーチャーは他のクリーチャーを召喚すること、価値あるものを作り出すこと、あるいはコストを必要とする呪文を発動することが出来ない。このクリーチャーは手下の特性を持つ。もし、このクリーチャーが招来に使われた呪文以上のレベルの呪文を発動するなら、招来魔法の力をオーバーし、招来されたクリーチャーの呪文は失敗し、招来呪文は終了する。それ以外には、招来されたクリーチャーはその種別のクリーチャーの標準的な能力を使う。一般的には、クリーチャーは最善を尽くして君の敵を攻撃する。もし、そのクリーチャーを意思疎通が出来るなら、君は命令を試みることが出来るが、GMが君の命令にどの程度、従うかを判断する。君が「呪文の発動」を終了した際、即座に、招来されたクリーチャーはその手番の二回のアクションを使う。招来されたクリーチャーは様々な呪文や効果によって退散させられる。0ヒットポイントになった際と、自分を呼び寄せていた呪文が終了した際、クリーチャーは自動的に退散する。招来されたクリーチャーはそれから生成されたあらゆる同族やその他のクリーチャーを支配することが出来ず、そういったクリーチャーは招来されたクリーチャーが去ったなら、変更される前の状態に戻る（同族の場合は死体になる）。もし、この状態が何であるか不明瞭なら、GMが決定する",
+		"TraitDescriptionSummoned": "呪文や効果によって招来されたクリーチャーは招来の特性を持つ。招来されたクリーチャーは他のクリーチャーを召喚すること、価値あるものを作り出すこと、あるいはコストを必要とする呪文を発動することが出来ない。このクリーチャーは手下の特性を持つ。もし、このクリーチャーが招来に使われた呪文以上のレベルの呪文を発動するなら、招来魔法の力をオーバーし、招来されたクリーチャーの呪文は失敗し、招来呪文は終了する。それ以外には、招来されたクリーチャーはその種別のクリーチャーの標準的な能力を使う。一般的には、クリーチャーは最善を尽くして君の敵を攻撃する。もし、そのクリーチャーを意思疎通が出来るなら、君は命令を試みることが出来るが、GMが君の命令にどの程度、従うかを判断する。君が「呪文の発動」を終了した際、即座に、招来されたクリーチャーはその手番の2回のアクションを使う。招来されたクリーチャーから生み出された同族やその他のクリーチャーは、招来されたクリーチャーが去ったなら、変更前の状態（同族の場合は通常、死体にｋなる）に戻る。もし、この状態がどのようなものであるか不明瞭であるなら、GMが決定する。招来されたクリーチャーは様々な呪文や効果によって退散させられる。0ヒットポイントになった際と、自分を呼び寄せていた呪文が終了した際、クリーチャーは自動的に退散する。",
 		"TraitDescriptionSummoner": "これは、サモナーのクラスに由来する能力を示している。",
 		"TraitDescriptionSuli": "スリはジャンの子孫である次元界の末裔である",
 		"TraitDescriptionSwashbuckler": "これはスワッシュバックラー・クラスの能力を示している",
@@ -3803,12 +3944,22 @@
 		"TraitVampireWeaknesses": "ヴァンパイアの弱点",
 		"TraitVanara": "ヴァナラ",
 		"TraitVelstrac": "ヴェルストラク",
+		"TraitVersatileAcid": "可変　強酸",
 		"TraitVersatileB": "可変　殴打",
+		"TraitVersatileChaotic": "可変　混沌",
+        "TraitVersatileCold": "可変　氷雪",
+        "TraitVersatileElectricity": "可変　電撃",
+        "TraitVersatileEvil": "可変　悪",
 		"TraitVersatileFire": "可変　火炎",
+		"TraitVersatileForce": "可変　力場",
+        "TraitVersatileGood": "可変　善",
 		"TraitVersatileHeritage": "多様なる遺産",
+		"TraitVersatileLawful": "可変　秩序",
+        "TraitVersatileNegative": "可変　負のエネルギー",
 		"TraitVersatileP": "可変　刺突",
-		"TraitVersatilePositive": "Versatile Positive",
+		"TraitVersatilePositive": "可変　正のエネルギー",
 		"TraitVersatileS": "可変　斬撃",
+		"TraitVersatileSonic": "可変　音波",
 		"TraitVigilante": "ヴィジランテ",
 		"TraitVirulent": "治癒困難",
 		"TraitVishkanya": "ヴィシュカニャ",
@@ -3932,7 +4083,7 @@
 		},
 		"UnitPriceLabel": "ユニット価格",
 		"UnprepareItemTitle": "準備されていないアイテム",
-		"UnpreparedSpellsLabel": "{label}: 準備のショートリスト",
+		"UnpreparedSpellsLabel": "{label}: 準備可能な呪文リスト",
 		"UpdateActorLabel": "アクターの更新",
 		"UpdateLabelUniversal": "更新",
 		"UserSettings": {
@@ -4166,7 +4317,7 @@
 		"WeaponDamageLabel": "基本ダメージ",
 		"WeaponDescriptionAxe": "クリティカル特化効果：最初の対象に隣接し、かつ、間合い内にいる1体のクリーチャーを選ぶこと。もしそのACがクリティカル・ヒットの攻撃ロール結果よりも低いなら、君はそのクリーチャーに、君がロールした武器ダメージ・ダイスの結果に等しいダメージを与える（幾つだったとしても、その発現ルーンの追加ダイスを含める）。これは売価されず、このダメージにはその他の追加ダイスは適用されない。",
 		"WeaponDescriptionBomb": "クリティカル特化効果：爆弾の飛散ダメージ（幾つだったとしても）の半径を10フィート増加させる。",
-		"WeaponDescriptionBow": "クリティカル特化効果：もしクリティカル・ヒットの対象が表面に隣接しているのなら、発射物によってその表面に縫い付けられる。対象は動けない状態かつ、発射物を抜いて自由になるためにDC10の<span data-pf2-check=\"athletics\" data-pf2-label=\"Pull the Missile Free DC\" data-pf2-dc=\"10\" data-pf2-show-dc=\"all\">〈運動〉</span>を試みる「使用」アクションを費やさなくてはならない。クリーチャーが非実体、液体（ウォーター・エレメンタルや幾つかの粘体）、努力なく逃げられるような何かならば縫い付けられることはない。",
+		"WeaponDescriptionBow": "クリティカル特化効果：もしクリティカル・ヒットの対象が表面に隣接しているのなら、発射物によってその表面に縫い付けられる。対象は@Compendium[pf2e.conditionitems.Immobilized]{動けない状態}かつ、発射物を抜いて自由になるためにDC10の<span data-pf2-check=\"athletics\" data-pf2-label=\"Pull the Missile Free DC\" data-pf2-dc=\"10\" data-pf2-show-dc=\"all\">〈運動〉</span>を試みる「使用」アクションを費やさなくてはならない。クリーチャーが非実体、液体（ウォーター・エレメンタルや幾つかの粘体）、努力なく逃げられるような何かならば縫い付けられることはない。",
 		"WeaponDescriptionBrawling": "クリティカル特化効果：対象は君のクラスDCに対して頑健セーヴに成功しなければ、君の次の手番の終了時まで@Compendium[pf2e.conditionitems.Slowed]{減速化1}になる。",
 		"WeaponDescriptionClub": "クリティカル特化効果：君は10フィートまで敵を自分から遠ざける（君が距離を選ぶ）。これは強制移動（475ページ）である。",
 		"WeaponDescriptionDart": "クリティカル特化効果：対象は[[/r {1d6}[継続、出血]]] の@Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}を受ける。君は武器の攻撃ロールへのアイテム・ボーナスに等しいアイテム・ボーナスを、この出血ダメージに得る。",
@@ -5021,12 +5172,12 @@
 			"Abilities": {
 				"Glossary": {
 					"AllAroundVision": "<p>このモンスターは同時に全ての方向を目視することが出来る。このため、挟撃されることがない。</p>",
-					"AquaticAmbush": "<p data-visibility=\"gm\"><strong>条件</strong> モンスターが水中に隠れており、記載されたフィート以内にそのモンスターを探知していないクリーチャーがいること</p>\n<p><strong>効果</strong> モンスターは条件を満たしたクリーチャーに向かって水中あるいは陸上を、水泳速度＋10フィートまで移動する。クリーチャーが間合い内に入ったなら、モンスターはクリーチャーに対して「打撃」を行う。クリーチャーはこの「打撃」に対して@Compendium[pf2e.conditionitems.Flat-Footed]{立ちすくみ}状態である。</p>",
-					"AttackOfOpportunity": "<p data-visibility=\"gm\"><strong>トリガー</strong> モンスターの間合い内にいるクリーチャーが操作アクションか移動アクションを使うか、遠隔攻撃をするか、使っている移動アクション中にマス目を離れる</p>\n<p><strong>効果</strong> モンスターはトリガーとなったクリーチャーに対して近接「打撃」を行う。もしその攻撃がクリティカル・ヒットで、そのトリガーが操作アクションだったなら、モンスターはそのアクションを妨害する。この「打撃」はモンスターの複数回攻撃ペナルティにカウントされず、複数回攻撃ペナルティはこの「打撃」に適用されない。</p>",
+					"AquaticAmbush": "<p><strong>条件</strong> モンスターが水中に隠れており、記載されたフィート以内にそのモンスターを探知していないクリーチャーがいること</p>\n<p><strong>効果</strong> モンスターは条件を満たしたクリーチャーに向かって水中あるいは陸上を、水泳速度＋10フィートまで移動する。クリーチャーが間合い内に入ったなら、モンスターはクリーチャーに対して「打撃」を行う。クリーチャーはこの「打撃」に対して@Compendium[pf2e.conditionitems.Flat-Footed]{立ちすくみ}状態である。</p>",
+					"AttackOfOpportunity": "<p><strong>トリガー</strong> モンスターの間合い内にいるクリーチャーが操作アクションか移動アクションを使うか、遠隔攻撃をするか、使っている移動アクション中にマス目を離れる</p>\n<p><strong>効果</strong> モンスターはトリガーとなったクリーチャーに対して近接「打撃」を行う。もしその攻撃がクリティカル・ヒットで、そのトリガーが操作アクションだったなら、モンスターはそのアクションを妨害する。この「打撃」はモンスターの複数回攻撃ペナルティにカウントされず、複数回攻撃ペナルティはこの「打撃」に適用されない。</p>",
 					"AtWillSpells": "<p>モンスターは、無制限呪文を呪文スロットを使うことなしに、何度でも発動することが出来る。</p>",
 					"Aura": "<p>モンスターのオーラは自動的に、そのモンスターの特定の拡散範囲にいる全てに影響を与える。モンスターはオーラにアクションを消費する必要は無く、オーラの効果は、あるクリーチャーが手番をオーラ内で終えた時や、クリーチャーがオーラに入った時のように、特定のタイミングで適用される。</p>\n<p>もし、あるオーラがダメージを与える以外に何もしないなら、その項目には半径、ダメージ、セーヴィング・スローだけが記されている。このようなオーラは、クリーチャーがオーラに入った時と、クリーチャーがオーラ内で手番を開始した際にこのダメージを与える。クリーチャーは1ラウンドに1度だけ、オーラからダメージを受ける。</p>\n<p>GMは、あるモンスターのオーラがその味方には影響を与えないと判断するかもしれない。例えば、長い間、お互いに一緒にいたのなら、あるモンスターの「荘厳なるもの」に対してクリーチャーは完全耐性を持つかもしない。</p>",
-					"Buck": "<hr />\n<p>乗騎として仕えるほとんどのモンスターは望まない、あるいは苛立たしい騎手を跳ね飛ばす試みをすることが出来るが、ほとんどの乗騎は、動揺しているか、虐げられているのでもない限り、信頼しているクリーチャーにこのリアクションを使おうとはしない。</p>\n<p data-visibility=\"gm\"><strong>トリガー</strong>あるクリーチャーがモンスターに@Compendium[pf2e.actionspf2e.Mount]{「騎乗」}するか、モンスターに騎乗中に@Compendium[pf2e.actionspf2e.Command an Animal]{「動物使い」}のアクションを使う</p>\n<p><strong>効果</strong> リガーとなったクリーチャーは記載されたDCに対して反応セーヴに成功しなければ、落下して@Compendium[pf2e.conditionitems.Prone]{伏せ状態}で着地する。もしセーヴがファンブルなら、トリガーとなったクリーチャーは落下の通常のダメージに加えて[[/roll {1d6}[殴打]]]{1d6 点の殴打ダメージ}を受ける。</p>",
-					"CatchRock": "<div data-visibility=\"gm\">\n<p><strong>条件</strong> モンスターが一本の自由な手を持っており、リアクションの一部として持っている全てのものを@Compendium[pf2e.actionspf2e.Release]{「手放す」}ことが出来る</p>\n<p><strong>トリガー</strong> モンスターが投擲された岩での「打撃」の対象になるか、モンスターの上に岩が落ちてくる</p>\n</div>\n<p><strong>効果</strong> モンスターはトリガーとなった攻撃へのACあるいは落石に対するあらゆる防御に対して+4状況ボーナスを得る。もしこの効果が失敗するか、モンスターが落石への防御に成功したなら、モンスターは岩をつかみ、ダメージを受けず、今やその岩を手に持っている。</p>",
+					"Buck": "<hr />\n<p>乗騎として仕えるほとんどのモンスターは望まない、あるいは苛立たしい騎手を跳ね飛ばす試みをすることが出来るが、ほとんどの乗騎は、動揺しているか、虐げられているのでもない限り、信頼しているクリーチャーにこのリアクションを使おうとはしない。</p>\n<p><strong>トリガー</strong>あるクリーチャーがモンスターに@Compendium[pf2e.actionspf2e.Mount]{「騎乗」}するか、モンスターに騎乗中に@Compendium[pf2e.actionspf2e.Command an Animal]{「動物使い」}のアクションを使う</p>\n<p><strong>効果</strong> リガーとなったクリーチャーは記載されたDCに対して反応セーヴに成功しなければ、落下して@Compendium[pf2e.conditionitems.Prone]{伏せ状態}で着地する。もしセーヴがファンブルなら、トリガーとなったクリーチャーは落下の通常のダメージに加えて[[/roll {1d6}[殴打]]]{1d6 点の殴打ダメージ}を受ける。</p>",
+					"CatchRock": "<p><strong>条件</strong> モンスターが一本の自由な手を持っており、リアクションの一部として持っている全てのものを@Compendium[pf2e.actionspf2e.Release]{「手放す」}ことが出来る</p>\n<p><strong>トリガー</strong> モンスターが投擲された岩での「打撃」の対象になるか、モンスターの上に岩が落ちてくる</p>\n<p><strong>効果</strong> モンスターはトリガーとなった攻撃へのACあるいは落石に対するあらゆる防御に対して+4状況ボーナスを得る。もしこの効果が失敗するか、モンスターが落石への防御に成功したなら、モンスターは岩をつかみ、ダメージを受けず、今やその岩を手に持っている。</p>",
 					"ChangeShape": "<p>モンスターはその姿を時間の制限なく変える。このアクションを再び用いることで、本来の姿に戻ることも、新しい姿になることも出来る。特記ない限り、モンスターは特定の個人に見せかけるために「変身」を使うことは出来ない。「変身」の使用は、〈欺瞞〉を使った@Compendium[pf2e.actionspf2e.Impersonate]{「なりすます」}のための変装とみなされる。モンスターの変身は自動的に、そのクリーチャーがその祖先の一員や、変身後のクリーチャー種別の一員であるかどうかを判断するための知覚DCに打ち勝ち、その変装を見抜くことを妨げる〈欺瞞〉DCに+4ステータス・ボーナスを与える。変身の能力は、モンスターがなることの出来る姿を特定する。モンスターは、新しい姿の特殊能力を得ることはなく、肉体的外見のみを得る。たとえば、どの姿であっても、変身は通常の速度と「打撃」を置き換え、その感覚やサイズを変更するかもしれない。あらゆる変化はステータス・ブロックに書かれている。</p>",
 					"ConstantSpells": "<p>常時呪文は、モンスターが発動する必要なしにモンスターに影響を与えている呪文のことで、その持続時間は無制限である。もし、常時呪文が無効化されたなら、その呪文が必要とする通常の呪文発動アクションを消費することによって、モンスターはそれを再起動することが出来る。</p>",
 					"Constrict": "<p>モンスターは、自分が@Compendium[pf2e.conditionitems.Grabbed]{つかまれた状態}か@Compendium[pf2e.conditionitems.Restrained]{拘束状態}にしている、任意の数のクリーチャーに記載された量のダメージを与える。それぞれのクリーチャーは記載されたDCに対して基本頑健セーヴを試みることができる。T</p>",
@@ -5035,28 +5186,28 @@
 					"Disease": "<p>あるクリーチャーが、あるモンスターの病気にさらされた際、頑を与えているモンスターのレベルである。病気は、苦難のルールに従う。</p>",
 					"Engulf": "<p>モンスターは速度の2倍まで「歩行」し、その経路にいるあらゆるクリーチャーの接敵面を通り抜けることができる。モンスターが接敵面を通り抜けた、モンスターのサイズ以下のあらゆるクリーチャーは呑み込まれないために記載されたDCに対する反応セーヴを試みることができる。行動することができないクリーチャーは自動的にこのセーヴにファンブルする。もし、クリーチャーがセーヴに成功したなら、脇に押しのけられる（モンスターの経路の外に）か、モンスターの移動の終了地点までモンスターの正面に押されていくかを選ぶことができる。モンスターは、1回の「呑み込み」によって、同じクリーチャーに1度しか「呑み込み」を試みることができない。モンスターは、その接敵面に合致する数のクリーチャーを飲み込むことができる。</p>\n<p>セーヴに失敗したクリーチャーは、モンスターの体内に引き込まれる。クリーチャーは@Compendium[pf2e.conditionitems.Grabbed]{つかまれた状態}かつ、@Compendium[pf2e.conditionitems.Slowed]{減速化1}であり、息をこらえなければ窒息し始める。クリーチャーは、最初に呑み込まれた際と、呑み込まれている間の手番の終了時ごとに、記載されたダメージを受ける。呑み込まれたクリーチャーは、記載された脱出DCに対する@Compendium[pf2e.actionspf2e.Escape]{「脱出」}によって自由になることができる。呑み込まれたクリーチャーは自分を呑み込んでいるモンスターに攻撃をすることができるが、軽重量以下のバルクの武器か素手打撃でしか攻撃ができない。呑み込んでいるクリーチャーは、その攻撃に対して@Compendium[pf2e.conditionitems.Flat-Footed]{立ちすくみ}である。もし、モンスターが、1回の攻撃あるいは呪文によって、記載された破裂値以上の刺突あるいは斬撃ダメージを受けたなら、呑み込まれたクリーチャーはモンスターを切り裂いて自由になる。いずれかの方法によって自由になったクリーチャーは、即座に息をすることができるようになり、吐き出したモンスターの接敵面を出ることになる。</p>\n<p>もし、モンスターが死亡したなら、呑み込まれていたすべてのクリーチャーは、モンスターの姿が凝集性を失うため、自動的に解放される。</p>",
 					"FastHealing": "<p>この能力を持つモンスターは、手番の開始時に毎ラウンド、所定のヒットポイントを回復する。</p>",
-					"Ferocity": "<p data-visibility=\"gm\"><strong>トリガー</strong> モンスターが0ヒットポイントになる</p>\n<p><strong>効果</strong> モンスターはノックアウトされるのを避け、1ヒットポイントで残るが、@Compendium[pf2e.conditionitems.Wounded]{負傷}値は1上昇する。負傷値が3になったなら、この能力を使うことは出来なくなる。</p>",
+					"Ferocity": "<p><strong>トリガー</strong> モンスターが0ヒットポイントになる</p>\n<p><strong>効果</strong> モンスターはノックアウトされるのを避け、1ヒットポイントで残るが、@Compendium[pf2e.conditionitems.Wounded]{負傷}値は1上昇する。負傷値が3になったなら、この能力を使うことは出来なくなる。</p>",
 					"FormUp": "<p>トループは現在、占拠しているマス目から1つを選ぶ。すべてのマス目が選んだマス目から15フィート以内にあり、かつ、連続している形になるように、その接敵面を好きに再分配する。トループはその接敵面をほかのクリーチャーと共有することは出来ない。</p>",
-					"FrightfulPresence": "<hr />\n<p>範囲内に初めて入ったクリーチャーは、意志セーヴを試みなくてはならない。</p>\n<div data-visibility=\"gm\">\n<p>セーヴィング・スローの結果によらず、クリーチャーは1分間、このモンスターの「荘厳なるもの」に耐性を持つ。</p>\n<hr />\n<p><strong>クリティカル</strong> クリーチャーはこの存在に影響を受けない</p>\n<p><strong>成功</strong> クリーチャーは@Compendium[pf2e.conditionitems.Frightened]{恐れ1}になる</p>\n<p><strong>失敗</strong> クリーチャーは@Compendium[pf2e.conditionitems.Frightened]{恐れ2}になる</p>\n<p><strong>ファンブル</strong> クリーチャーは@Compendium[pf2e.conditionitems.Frightened]{恐れ4}になる</p>\n</div>",
-					"Grab": "<p data-visibility=\"gm\"><strong>条件</strong> モンスターの最後のアクションが「つかみ」をダメージ項目に記載している「打撃」の成功であるか、このアクションを使ってクリーチャーをつかまれた状態にしている</p>\n<p><strong>効果</strong> モンスターは次の手番の終了時まで自動的に対象を「つかむ」。クリーチャーは、モンスターが攻撃に使ったのがどの部位であるかにかかわらず、@Compendium[pf2e.conditionitems.Grabbed]{つかまれた状態}となり、その部位はつかみが終わるまでクリーチャーを「打撃」するのに使えなくなる。「つかむ」を使うことによって、そのクリーチャーによってつかまれた状態にされているすべてのクリーチャーについて、次の手番の終了時までそのモンスターの「つかむ」の持続時間を延ばすことができる。つかまれた状態のクリーチャーはつかみから抜け出すために@Compendium[pf2e.actionspf2e.Escape]{「脱出」}アクションを使うことができる。もし、モンスターが移動して離れたなら、つかまれた状態のクリーチャーにとって「つかみ」は終了する。</p>",
+					"FrightfulPresence": "<hr />\n<p>範囲内に初めて入ったクリーチャーは、意志セーヴを試みなくてはならない。</p>\n<p>セーヴィング・スローの結果によらず、クリーチャーは1分間、このモンスターの「荘厳なるもの」に耐性を持つ。</p>\n<hr />\n<p><strong>クリティカル</strong> クリーチャーはこの存在に影響を受けない</p>\n<p><strong>成功</strong> クリーチャーは@Compendium[pf2e.conditionitems.Frightened]{恐れ1}になる</p>\n<p><strong>失敗</strong> クリーチャーは@Compendium[pf2e.conditionitems.Frightened]{恐れ2}になる</p>\n<p><strong>ファンブル</strong> クリーチャーは@Compendium[pf2e.conditionitems.Frightened]{恐れ4}になる</p>",
+					"Grab": "<p><strong>条件</strong> モンスターの最後のアクションが「つかみ」をダメージ項目に記載している「打撃」の成功であるか、このアクションを使ってクリーチャーをつかまれた状態にしている</p>\n<p><strong>効果</strong> モンスターは次の手番の終了時まで自動的に対象を「つかむ」。クリーチャーは、モンスターが攻撃に使ったのがどの部位であるかにかかわらず、@Compendium[pf2e.conditionitems.Grabbed]{つかまれた状態}となり、その部位はつかみが終わるまでクリーチャーを「打撃」するのに使えなくなる。「つかむ」を使うことによって、そのクリーチャーによってつかまれた状態にされているすべてのクリーチャーについて、次の手番の終了時までそのモンスターの「つかむ」の持続時間を延ばすことができる。つかまれた状態のクリーチャーはつかみから抜け出すために@Compendium[pf2e.actionspf2e.Escape]{「脱出」}アクションを使うことができる。もし、モンスターが移動して離れたなら、つかまれた状態のクリーチャーにとって「つかみ」は終了する。</p>",
 					"GreaterConstrict": "<p>モンスターは、そのモンスターによって@Compendium[pf2e.conditionitems.Grabbed]{つかまれた状態}になっているか、@Compendium[pf2e.conditionitems.Restrained]{拘束状態}になっている任意の数のクリーチャーに記載された量のダメージを与える。クリーチャーそれぞれが記載されたDCに対して基本頑健セーヴを試みることができる。このセーヴに失敗したクリーチャーは@Compendium[pf2e.conditionitems.Unconscious]{気絶}状態になり、成功したクリーチャーは以後1分間、「上級締め付け」による気絶に一時的耐性を得る。</p>",
 					"GreaterDarkvision": "<p>優れた暗視を持つクリーチャーは、暗闇や薄暗い光の範囲で完全に目視することが出来るが、このような視覚は白黒である。4レベルの<em>@Compendium[pf2e.spells-srd.Darkness]{ダークネス}</em>呪文などの幾つかの魔法の暗闇は通常の@Compendium[pf2e.bestiary-ability-glossary-srd.Darkvision]{暗視}を遮る。しかしながら、優れた暗視を持つクリーチャーはこのような魔法の暗闇すら見通す。</p>",
 					"ImprovedGrab": "<p>モンスターはその初期攻撃を命中させることをトリガーとするフリー・アクションとして@Compendium[pf2e.bestiary-ability-glossary-srd.Grab]{「つかみ」}を使うことが出来る。つかみ強化を持つモンスターでも、既に@Compendium[pf2e.conditionitems.Grabbed]{つかんでいる}クリーチャーの持続時間を延長するためにアクションを消費する必要がある。</p>",
 					"ImprovedKnockdown": "<p>モンスターはその初期攻撃を命中させることをトリガーとするフリー・アクションとして@Compendium[pf2e.bestiary-ability-glossary-srd.Knockdown]{「ノックダウン」}を使うことが出来る。</p>",
 					"ImprovedPush": "<p>モンスターはその初期攻撃を命中させることをトリガーとするフリー・アクションとして@Compendium[pf2e.bestiary-ability-glossary-srd.Push]{「押しだし」}を使うことが出来る。</p>",
-					"Knockdown": "<p data-visibility=\"gm\"><strong>条件</strong> このモンスターの最後のアクションがダメージ項目に「ノックダウン」が記載されている「打撃」に成功すること</p>\n<p><strong>効果</strong> モンスターは対象を@Compendium[pf2e.conditionitems.Prone]{伏せ}状態にする</p>",
+					"Knockdown": "<p><strong>条件</strong> このモンスターの最後のアクションがダメージ項目に「ノックダウン」が記載されている「打撃」に成功すること</p>\n<p><strong>効果</strong> モンスターは対象を@Compendium[pf2e.conditionitems.Prone]{伏せ}状態にする</p>",
 					"Lifesense": "<p>生命感知は記載された距離内にいる生きているクリーチャーとアンデッド・クリーチャーの生命の精髄を感知することが出来る。この感覚は視覚によって色を区別するように、生きているクリーチャーを動かす正のエネルギーと、アンデッド・クリーチャーを動かす負のエネルギーを区別することが出来る。</p>",
 					"LightBlindness": "<p>最初に明るい光にさらされたとき、モンスターは次の手番終了時まで@Compendium[pf2e.conditionitems.Blinded]{盲目} になる。その後、暗闇の中で1時間過ごすまで、再び光で目が眩んだ状態になることはない。しかし、モンスターが明るい光のある場所にいる限り、@Compendium[pf2e.conditionitems.Dazzled]{目が眩んだ状態}になる。</p>",
 					"LowLightVision": "<p>このモンスターは薄暗い光を、明るい光であるように見通すことが出来るため、薄暗い光による@Compendium[pf2e.conditionitems.Concealed]{視認困難}状態を無視する。</p>",
 					"NegativeHealing": "<p>負のエネルギーによる治癒を持つクリーチャーは正のエネルギーではなく負のエネルギーによって健康を得る。このクリーチャーは正のエネルギーによってダメージを受け、正のエネルギーの治癒効果によっては治癒を受けない。このクリーチャーは負のエネルギーによってダメージを受けず、アンデッドを癒す負のエネルギーの効果によって治癒される。</p>",
 					"Poison": "<p>クリーチャーがモンスターの毒にさらされた際、頑健セーヴに成功しなければ毒を受ける。毒のレベルは毒を与えたモンスターのレベルに等しい。毒は苦難のルールに従う。</p>",
-					"PowerAttack": "<p data-visibility=\"gm\"><strong>頻度</strong> 1ラウンドに1回</p>\n<p><strong>効果</strong> モンスターは近接「打撃」を行う。これはモンスターの複数買い攻撃ペナルティを計算する際に2回分の攻撃とみなされる。もし、この「打撃」が命中したなら、モンスターは追加で1つの武器ダメージ・ダイスを得る。</p>",
-					"Push": "<p data-visibility=\"gm\"><strong>条件</strong> モンスターの最後のアクションがダメージ項目に「押しだし」と記載されている「打撃」の成功である</p>\n<p><strong>効果</strong> モンスターは自動的に対象をモンスターから遠ざける。能力の描写に記載されていない限り、クリーチャーは5フィート遠ざけられる。もしこの攻撃がクリティカル・ヒットしたなら、この距離は2倍になる</p>",
+					"PowerAttack": "<p><strong>頻度</strong> 1ラウンドに1回</p>\n<p><strong>効果</strong> モンスターは近接「打撃」を行う。これはモンスターの複数買い攻撃ペナルティを計算する際に2回分の攻撃とみなされる。もし、この「打撃」が命中したなら、モンスターは追加で1つの武器ダメージ・ダイスを得る。</p>",
+					"Push": "<p><strong>条件</strong> モンスターの最後のアクションがダメージ項目に「押しだし」と記載されている「打撃」の成功である</p>\n<p><strong>効果</strong> モンスターは自動的に対象をモンスターから遠ざける。能力の描写に記載されていない限り、クリーチャーは5フィート遠ざけられる。もしこの攻撃がクリティカル・ヒットしたなら、この距離は2倍になる</p>",
 					"Regeneration": "<p>このモンスターは手番開始時に毎ラウンド、記載された数のヒット・ポイントを回復する。再生が有効である限り、このモンスターの@Compendium[pf2e.conditionitems.Dying]{瀕死}状態が瀕死3を超えることはない。もし、再生の項目に記載されているダメージ種別のダメージを受けたなら、その再生はこのモンスターの次の手番の終了時まで無効になる。記載された種別のダメージを適用する前に再生を無効にすること。このダメージは瀕死4にすることでこのモンスターを殺すかもしれない。</p>",
-					"Rend": "<p>「引き裂き」の項目には、モンスターが持っている「打撃」が記載されている。</p>\n<p data-visibility=\"gm\"><strong>条件</strong> モンスターが同じ敵を、同じラウンド内に、記載された種別の「打撃」で2回連続して命中させる。</p>\n<p><strong>効果</strong> このモンスターは自動的にその敵に再度、その「打撃」のダメージを与える</p>",
-					"RetributiveStrike": "<p data-visibility=\"gm\"><strong>トリガー</strong> 敵がこのモンスターの味方にダメージを与え、かつ、双方がこのモンスターの15フィート以内にいる</p>\n<p><strong>効果</strong> 味方はトリガーとなったダメージに、全てのダメージに対する、2+このモンスターのレベルに等しい抵抗を得る。もし敵が間合い内にいるなら、このモンスターは敵に対して近接「打撃」を行う</p>",
+					"Rend": "<p>「引き裂き」の項目には、モンスターが持っている「打撃」が記載されている。</p>\n<p><strong>条件</strong> モンスターが同じ敵を、同じラウンド内に、記載された種別の「打撃」で2回連続して命中させる。</p>\n<p><strong>効果</strong> このモンスターは自動的にその敵に再度、その「打撃」のダメージを与える</p>",
+					"RetributiveStrike": "<p><strong>トリガー</strong> 敵がこのモンスターの味方にダメージを与え、かつ、双方がこのモンスターの15フィート以内にいる</p>\n<p><strong>効果</strong> 味方はトリガーとなったダメージに、全てのダメージに対する、2+このモンスターのレベルに等しい抵抗を得る。もし敵が間合い内にいるなら、このモンスターは敵に対して近接「打撃」を行う</p>",
 					"Scent": "<p>嗅覚は、クリーチャーや物体を匂いによって感知するという感覚で、通常は曖昧な感覚である。距離は脳威力に記載されており、探知されるクリーチャーや物体が匂いを発している場合にのみ機能する（例えば、非実体のクリーチャーは通常、香りを発しない）</p>\n<p>もし、あるクリーチャーが強い香りを発したり、風上にいるのなら、GMはそのクリーチャーを探知するために使われる嗅覚の距離を2倍あるいは3倍にしたり、クリーチャーが風下にいる場合に距離を減らしたりすることがある。</p>",
-					"ShieldBlock": "<p data-visibility=\"gm\"><strong>トリガー</strong> モンスターが盾を掲げており、かつ、物理的な攻撃によるダメージを受ける</p>\n<p><strong>効果</strong> モンスターは所定の位置に盾を掲げ、攻撃を受け流す。盾は、モンスターが受けるダメージをその硬度の分だけ減らす。モンスターと盾はあらゆる残っているダメージを受け、もしかしたら盾は破損や破壊されるかもしれない</p>",
+					"ShieldBlock": "<p><strong>トリガー</strong> モンスターが盾を掲げており、かつ、物理的な攻撃によるダメージを受ける</p>\n<p><strong>効果</strong> モンスターは所定の位置に盾を掲げ、攻撃を受け流す。盾は、モンスターが受けるダメージをその硬度の分だけ減らす。モンスターと盾はあらゆる残っているダメージを受け、もしかしたら盾は破損や破壊されるかもしれない</p>",
 					"SneakAttack": "<p>このモンスターが@Compendium[pf2e.conditionitems.Flat-Footed]{立ちすくみ}状態の敵に、機敏あるいは巧技の近接武器や機敏あるいは巧技の素手打撃、遠隔武器攻撃で命中させると、記載された精密性ダメージを与える。投擲武器の遠隔攻撃については、機敏あるいは巧技武器でなければならない。</p>",
 					"SwallowWhole": "<p>モンスターは記載されたサイズ以下の、自分の顎や口でつかんだ状態のクリーチャーを呑み込もうとする。もし、呑み込まれたクリーチャーが記載された最大サイズであるなら、モンスターは再び「丸呑み」をすることが出来ない。もし、そのクリーチャーが最大サイズより小さいなら、モンスターは通常、更なるクリーチャーを丸呑みすることが出来る；GMがこの最大数を決める。モンスターはつかまれたクリーチャーの反応DCに対して〈運動〉を試みる。成功したなら、クリーチャーを丸呑みすることが出来る。モンスターの口や顎は、もはや丸呑みされているクリーチャーをつかんではいないため、再び「打撃」や「つかみ」をすることが出来るのである。モンスターは丸呑みしたクリーチャーを攻撃することは出来ない。</p>\n<p>丸呑みされたクリーチャーは@Compendium[pf2e.conditionitems.Grabbed]{つかまれた状態}かつ@Compendium[pf2e.conditionitems.Slowed]{減速化1}であり、息をこらえなければ窒息し始める。丸呑みされたクリーチャーは最初に丸呑みされた際と丸呑みされている間の手番の終了時ごとに、記載された量のダメージを受ける。もし、犠牲者がこの能力のつかまれた状態を@Compendium[pf2e.actionspf2e.Escape]{「脱出」}したなら、モンスターの口を通じて出てくる。これによって、モンスターの口あるいは顎に掴まれていた他のあらゆるクリーチャーを自由にする。呑み込まれたクリーチャーは呑み込んだモンスターを攻撃することが出来るが、それは素手打撃か軽重量のバルク以下の武器を使わなければならない。丸呑みしたクリーチャーはこの攻撃に対して@Compendium[pf2e.conditionitems.Flat-Footed]{立ちすくみ}である。もし、モンスターが一回の攻撃あるいは呪文によって、記載されている破裂値以上の刺突あるいは斬撃ダメージを受けたなら、丸呑みされていたクリーチャーは相手を切り裂いて自由になる。「脱出」あるいは切り裂きによって自由になったクリーチャーは即座に呼吸が可能になり、丸呑みされていたクリーチャーの接敵面から出る。</p>\n<p>もしモンスターが死亡したなら、丸呑みされていたクリーチャーは、死体に隣接しているクリーチャーと合計で3アクションを費やして、刺突か斬撃ダメージを与える武器あるいは素手打撃でモンスターを切り開くことによって、自由になることが出来る。</p>",
 					"SwarmMind": "<p>このモンスターは単一の精神を持たない（一般的には、小さなクリーチャーの集合であることから）ので、特定の数のクリーチャーを対象とする精神効果に耐性を持つ。範囲内の全てのクリーチャーの精神に影響を与える精神効果の対象にはなる。</p>",
@@ -5123,6 +5274,7 @@
 			"Inventory": {
 				"Header": {
 					"NameLabel": "名前",
+					"ValueLabel": "価値",
 					"QuantityLabel": "数量"
 				}
 			},

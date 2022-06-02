@@ -263,8 +263,8 @@
 		},
 		{
 			"id": "Arcane Scroll Case of Simplicity",
-			"name": "Arcane Scroll Case of Simplicity",
-			"description": "<p>The four different types of <em>scroll cases of simplicity</em> often bear adornments appropriate to their magical tradition, such as angelic wings or otherworldly lettering. On the inside, intricate runic diagrams spiral out to surround the scroll stored within. A scroll placed within the case can be converted into energy to cast consistently useful spells depending on its type. You must be able to cast spells of a given tradition to use a <em>scroll case of simplicity</em> of a corresponding type.</p>\n<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Interact</p>\n<p><strong>Requirements</strong> The scroll case contains a single scroll of a 1st-level spell</p>\n<p><strong>Effect</strong> You transfer the scroll's energy into the scroll case, consuming the scroll, and you can immediately begin casting one of the scroll case's spells. If you use any action other than to Cast a Spell from the scroll case after activating the <em>scroll case of simplicity</em>, the scroll and its energy are lost.</p>\n<p>The scroll case can be used to cast <em>@Compendium[pf2e.spells-srd.4WAib3GichxLjp5p]{Alarm}</em> or <em>@Compendium[pf2e.spells-srd.xqmHD8JIjak15lRk]{Unseen Servant}</em></p>"
+			"name": "アーケイン・スクロール・ケース・オヴ・シンプリシティ",
+			"description": "<p>4つの異なる<em>スクロール・ケース・オヴ・シンプリシティ</em>の種別には、天使の翼や異世界の文字など、しばしば、その魔法体系にふさわしい装飾が施されている。中身には、複雑なルーン文字がらせん状に描かれており、収納された巻物を取り囲んでいる。ケースに保管された置物は、その種別に応じて、安定して有用な呪文を発動するためのエネルギーに変換することが出来る。対応した種別の<em>スクロール・ケース・オヴ・シンプリシティ</em>を使うには、所定の体系の呪文を発動することが出来なければならない。</p>\n<p><strong>起動</strong> <span class=\"pf2-icon\">A</span> 使用</p>\n<p><strong>条件</strong> 巻物箱に1レベル呪文の1つの巻物が入っている</p>\n<p><strong>効果</strong> 君は巻物のエネルギーを巻物箱に転送し、巻物を消費し、即座に巻物箱の呪文の1つの発動を開始する。もし、<em>スクロール・ケース・オヴ・シンプリシティ</em>の起動後に巻物箱から「呪文の発動」以外のアクションを使ったなら、巻物とそのエネルギーは失われる。</p>\n<p>巻物箱は<em>@Compendium[pf2e.spells-srd.4WAib3GichxLjp5p]{アラーム}</em> か <em>@Compendium[pf2e.spells-srd.xqmHD8JIjak15lRk]{アンシーン・サーヴァント}</em>の発動に使うことができる。</p>"
 		},
 		{
 			"id": "Archivist's Gaze",
@@ -413,8 +413,8 @@
 		},
 		{
 			"id": "Beacon Shot",
-			"name": "Beacon Shot",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Interact</p>\n<p>The shaft of a <em>beacon shot</em> is studded with tiny flecks of glimmering gemstones. When an activated <em>beacon shot</em> hits a target, it embeds itself into that target and spews sparks for 1 minute. If the target is @Compendium[pf2e.conditionitems.zJxUflt9np0q4yML]{Invisible}, it becomes merely @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} to creatures who would otherwise be unable to see it. The sparks also negate the @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} condition if the target was otherwise concealed.</p>\n<p>A creature can remove the arrow or bolt by using an Interact basic action and succeeding at a DC 20 Athletics check.</p>"
+			"name": "ビーコン・ショット",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">A</span> 使用</p>\n<p><em>ビーコン・ショット</em>の側面には小さな光輝く宝石がちりばめられている。起動している<em>ビーコン・ショット</em>が対象に命中したなら、その対象にのめりこみ、1分間、輝きを放つ。もしその対象が@Compendium[pf2e.conditionitems.zJxUflt9np0q4yML]{不可視状態}であるなら、対象を目視出来ないクリーチャーにとって単に@Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{隠れた状態}となる。もしその対象が@Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{視認困難}状態であったなら、ボルトは視認困難状態を無効化する。</p>\n<p>クリーチャーは「使用」基本アクションを用いて、DC20の〈軽業〉に成功することによってアローやボルトを取り除くことが出来る。</p>"
 		},
 		{
 			"id": "Beckoning Cat Amulet",
@@ -1128,8 +1128,8 @@
 		},
 		{
 			"id": "Bronze Bull Pendant",
-			"name": "Bronze Bull Pendant",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">F</span> Envision</p>\n<p><strong>Trigger</strong> You attempt an Athletics check to Shove, but you haven't rolled yet</p>\n<p><strong>Requirements</strong> You are trained in Athletics</p>\n<p>This pendant is forged from grainy steel and depicts a snorting bull's face. The pendant must be attached to the chest area or on a shoulder guard.</p>\n<p>When you activate the pendant, you gain a +2 status bonus to the Athletics check to Shove, and if you roll a critical failure on the check, you get a failure instead.</p>\n<p>@Compendium[pf2e.consumable-effects.Cxa7MdgMCUoMqbKm]{Effect: Bronze Bull Pendant}</p>"
+			"name": "ブロンズ・フル・ペンダント",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">F</span> 想念</p>\n<p><strong>トリガー</strong> 君が「押しやり」のための〈運動〉判定を試みるが、まだロールしていない</p>\n<p><strong>条件</strong> 君が〈運動〉に修得である</p>\n<p>このペンダントは、きめの粗い鋼鉄から出来ており、鼻息の荒い雄牛の顔を模している。このペンダントは胸部か、肩当てに取付けなくてはならない。</p>\n<p>このペンダントを起動した際、君は「押しやり」のための〈運動〉判定に+2ステータス・ボーナスを得る。そして、もし君がその判定にファンブルしたなら、君は代わりに失敗する。</p>\n<p>@Compendium[pf2e.consumable-effects.Cxa7MdgMCUoMqbKm]{効果: ブロンズ・ブル・ペンダント}</p>"
 		},
 		{
 			"id": "Bronze Dragon's Breath Potion (Adult)",
@@ -1378,8 +1378,8 @@
 		},
 		{
 			"id": "Chakram",
-			"name": "Chakram",
-			"description": "<p>Simple, elegant, and portable, the chakram is an open-centered metal discus with a sharpened edge, as well as a grip running along the center so the wielder can hold it safely.</p>"
+			"name": "チャクラム",
+			"description": "<p>単純で優雅で持ち運びが出来るチャクラムは、中央に穴が開いた金属の円盤で、その端部は鋭く、安全に持つことが出来るように中心部に沿った持ち手がある。</p>"
 		},
 		{
 			"id": "Chameleon Suit",
@@ -1473,28 +1473,28 @@
 		},
 		{
 			"id": "Claw Blade",
-			"name": "Claw Blade",
-			"description": "<p>The three parallel blades of this handheld weapon extend between the fingers to resemble the natural claws of the amurruns who created them, providing a way for those catfolk without suitable natural claws to share the fighting customs of their kin.</p>"
+			"name": "クロー・ブレード",
+			"description": "<p>この武器を作り出したアムールランの天然の爪を模して、指の間から3本の平行な刃を伸ばしたこの手で使う武器は、爪を持たないキャットフォークにも同種族の者達と同じ戦闘の習俗を共有するための方法を提供する。</p>"
 		},
 		{
 			"id": "Clay",
-			"name": "Clay",
-			"description": "<p>This malleable, oil-based clay can be shaped by hand and is available in a variety of colors. A single unit has 4 ounces of clay.</p>"
+			"name": "粘土",
+			"description": "<p>この柔軟な、油がベースの粘土は手で形作ることが出来て、様々な色を入手することが可能である。1個の包装に4オンスの粘土が入っている。</p>"
 		},
 		{
 			"id": "Climbing Bolt",
-			"name": "Climbing Bolt",
-			"description": "<p>The shaft of this bolt is wrapped with fine twine. When the bolt strikes a solid surface, the twine unwinds and enlarges into a 50-foot-long rope, securely fastened to the surface the bolt struck. The rope can be pulled free with an Interact action and a successful DC 20 Athletics check.</p>"
+			"name": "クライミング・ボルト",
+			"description": "<p>このボルトの軸には、上等な紐が巻き付けられている。ボルトが固体の地面に当たると、紐がほどけ、50フィートの長さのロープとなり、ボルトが当たった地面にしっかりと固定される。ロープは「使用」アクションを使い、DC20の〈運動〉判定に成功すれば自由に引き抜くことができる。</p>"
 		},
 		{
 			"id": "Climbing Kit (Extreme)",
-			"name": "Climbing Kit (Extreme)",
-			"description": "<p>This satchel includes 50 feet of rope, pulleys, a dozen pitons, a hammer, a grappling hook, and one set of crampons. Climbing kits allow you to attach yourself to the wall you're Climbing, moving half as quickly as usual (minimum 5 feet) but letting you attempt a DC 5 flat check whenever you critically fail to prevent a fall.</p>\n<p>You gain a +1 item bonus to Athletics checks to Climb while using an extreme climbing kit. A single kit has only enough materials for one climber; each climber needs their own kit.</p>\n<hr />\n<p>Automatically applied effects:</p>\n<ul>\n<li>+1 item bonus to Athletics checks to Climb</li>\n</ul>"
+			"name": "登攀用具 (上級)",
+			"description": "<p>この鞄にはロープ50フィート、滑車、1ダースのピトン、1本のハンマー、1本のカギ縄、そして1セットの釣りカギが入っている。登攀用具によって君は「登攀」している最中の壁に自分を取り付けて、通常の半分の速度（最低5フィート）で移動するが、落下を阻止するための判定にファンブルした時、DCの平目判定を試みることが出来る。</p>\n<p>君は上級の登攀用具を使っている間、「登攀」のための〈運動〉に+1アイテム・ボーナスを得る。一つの用具では一人が登ることしか出来ない；登る者それぞれが自分の用具を必要とする。</p>\n<hr />\n<p>自動的に適用される効果:</p>\n<ul>\n<li>「登攀」のための〈運動〉判定に+1アイテム・ボーナス</li>\n</ul>"
 		},
 		{
 			"id": "Clinging Ooze Snare",
-			"name": "Clinging Ooze Snare",
-			"description": "<p>Complex traps that incorporate ooze monsters into their ingenious construction have long been a favorite of those who seek devious ways to protect their hidden laboratories, and it is from this tradition that the clinging ooze snare takes its inspiration. With its ingenious mixture of rare reagents, dried protoplasm harvested from ooze creatures, and a little pinch of alchemy, this snare triggers into an ooze-like hazard that temporarily mimics the dangers presented by a creature like a sewer ooze or other carnivorous protoplasmic monster.</p>\n<p>When a creature triggers a clinging ooze snare, the snare creates a short lived protoplasmic mass that lashes out in all directions, dealing [[/r {2d6}[bludgeoning]+{2d6}[acid]]]{2d6 bludgeoning damage and 2d6 acid damage}. The triggering creature must attempt a <span data-pf2-check=\"reflex\" data-pf2-traits=\"damaging-effect,acid,consumable,mechanical,snare,trap\" data-pf2-label=\"Clinging Ooze Snare DC\" data-pf2-dc=\"21\" data-pf2-show-dc=\"gm\">Reflex</span> save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected</p>\n<p><strong>Success</strong> The creature takes half damage</p>\n<p><strong>Failure</strong> The target takes full damage and is @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} until the start of their next turn as the ooze impedes their movement.</p>\n<p><strong>Critical Failure</strong> The target takes double damage and is both flat-footed and @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized} for 1 round. The target can @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escape} (DC 21) to end this effect early.</p>"
+			"name": "クリンギング・ウーズ・スネア",
+			"description": "<p>粘体モンスターを組み込んだ複雑な罠は、隠れた研究室を守るための巧妙な方法を求める人々の間で長く愛用されてきた。この伝統がクリンギング・ウーズ・スネアが着想を得た源である。稀少な試薬、粘体クリーチャーから採集された乾燥した原形質、そしてほんの少しの錬金術の手妻を巧妙に混ぜ合わせることによって、この罠はスーヤー・ウーズやその他の肉食性の原形質の怪物のようなクリーチャーによる危険を一時的に模倣するような、粘体めいた障害のトリガーとなる。</p>\n<p>クリーチャーがクリンギング・ウーズ・スネアのトリガーを満たした際、その罠は短命の原形質の固まりを作り出し、それが全方向に突進して[[/r {2d6}[殴打]+{2d6}[強酸]]]{2d6点の殴打ダメージと2d6点の強酸ダメージ}を与える。トリガーとなったクリーチャーはDC21の<span data-pf2-check=\"reflex\" data-pf2-traits=\"damaging-effect,acid,consumable,mechanical,snare,trap\" data-pf2-label=\"Clinging Ooze Snare DC\" data-pf2-dc=\"21\" data-pf2-show-dc=\"gm\">反応</span>セーヴを試みなければならない。 </p>\n<hr />\n<p><strong>クリティカル</strong> Tクリーチャーは影響を受けない</p>\n<p><strong>成功</strong> クリーチャーは半分のダメージを受ける</p>\n<p><strong>失敗</strong> 対象は完全なダメージを受け、粘体が移動を阻害するため、次の手番の開始時まで@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{立ちすくみ}状態である</p>\n<p><strong>ファンブル</strong> 対象は2倍のダメージを受け、1ラウンド、立ちすくみかつ@Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{動けない状態}である。対象はこの効果を早くに終わらせるため、@Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{「脱出」}（DC21)することが出来る</p>"
 		},
 		{
 			"id": "Cloak of Elvenkind",
@@ -1508,8 +1508,8 @@
 		},
 		{
 			"id": "Cloak of Feline Rest",
-			"name": "Cloak of Feline Rest",
-			"description": "<p>This black velvet cloak is featureless and very soft to the touch. Upon wearing it for the first time, you're momentarily overwhelmed with a sense of comfort and coziness. While wearing this cloak you can comfortably rest in any space, so long as it's not wet or particularly hazardous. While sleeping in this cloak you only take a -2 status penalty to auditory Perception checks, rather than a -4 status penalty.</p>"
+			"name": "クローク・オヴ・フェライン・レスト",
+			"description": "<p>この黒いベルベットのマントは特徴がなく、非常に柔らかい手触りである。最初にこれを着用したとき、君は一時的に快適で心地よい感覚に襲われる。この外套を着ている間、君はどんな場所でも、そこが濡れておらず、徳に危険な場所でない限り、快適に休むことが出来る。この外套を着て眠っている間、君は聴覚による知覚判定に－4ステータス・ペナルティではなく、－2ステータス・ペナルティを受ける。</p>"
 		},
 		{
 			"id": "Cloak of Immolation",
@@ -1518,18 +1518,18 @@
 		},
 		{
 			"id": "Cloak of Repute",
-			"name": "Cloak of Repute",
-			"description": "<p>This gaudy and extravagant cloak is adorned with brilliant gems and a fur trim. While wearing the cloak, you gain instant fame and notoriety, granting you a +1 item bonus to Diplomacy checks to Make an Impression. Creatures attempting to learn about you gain the same bonus to Gather Information about you.</p>\n<p><strong>Activate</strong> <span class=\"pf2-icon\">D</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You wield your great stature to make a Request of a creature. If you roll a success on the check, you get a critical success instead.</p>\n<hr />\n<p>Automatically applied effects:</p>\n<ul>\n<li>+1 item bonus to Diplomacy checks to Make an Impression</li>\n</ul>"
+			"name": "クローク・オヴ・リピュート",
+			"description": "<p>この使い古された、豪華な外套は輝かしい宝石と毛皮で飾られている。この外套を着用している間、君はすぐに名声と評判を得ることが出来て、「懐柔する」ための〈交渉〉判定に＋1アイテム・ボーナスを得る。君について知ろうと試みたクリーチャーは、君についての「情報招集」に同じボーナスを得る。</p>\n<p><strong>起動</strong> <span class=\"pf2-icon\">D</span> 合言葉</p>\n<p><strong>頻度</strong> 1日に1回</p>\n<p><strong>効果</strong> 君は自らの大きな人物像を利用して、クリーチャーに「要求」をすることが出来る。もし判定に成功をロールしたなら、代わりにクリティカルする。</p>\n<hr />\n<p>自動的に適用される効果:</p>\n<ul>\n<li>「懐柔」のための〈交渉〉判定に+1 アイテム・ボーナス</li>\n</ul>"
 		},
 		{
 			"id": "Cloak of Repute (Greater)",
-			"name": "Cloak of Repute (Greater)",
-			"description": "<p>This gaudy and extravagant cloak is adorned with brilliant gems and a fur trim. While wearing the cloak, you gain instant fame and notoriety, granting you a +2 item bonus to Diplomacy checks to Make an Impression. Creatures attempting to learn about you gain the same bonus to Gather Information about you.</p>\n<p><strong>Activate</strong> <span class=\"pf2-icon\">D</span> command</p>\n<p><strong>Frequency</strong> twice per day</p>\n<p><strong>Effect</strong> You wield your great stature to make a Request of a creature. If you roll a success on the check, you get a critical success instead.</p>\n<hr />\n<p>Automatically applied effects:</p>\n<ul>\n<li>+2 item bonus to Diplomacy checks to Make an Impression</li>\n</ul>"
+			"name": "クローク・オヴ・リピュート (グレーター)",
+			"description": "<p>この使い古された、豪華な外套は輝かしい宝石と毛皮で飾られている。この外套を着用している間、君はすぐに名声と評判を得ることが出来て、「懐柔する」ための〈交渉〉判定に＋2アイテム・ボーナスを得る。君について知ろうと試みたクリーチャーは、君についての「情報招集」に同じボーナスを得る。君はこの外套を1日に2回、起動することが出来る</p>\n<p><strong>起動</strong> <span class=\"pf2-icon\">D</span> 合言葉</p>\n<p><strong>頻度</strong> 1日に2回</p>\n<p><strong>効果</strong> 君は自らの大きな人物像を利用して、クリーチャーに「要求」をすることが出来る。もし判定に成功をロールしたなら、代わりにクリティカルする。</p>\n<hr />\n<p>自動的に適用される効果:</p>\n<ul>\n<li>「懐柔」のための〈交渉〉判定に+2 アイテム・ボーナス</li>\n</ul>"
 		},
 		{
 			"id": "Cloak of Repute (Major)",
-			"name": "Cloak of Repute (Major)",
-			"description": "<p>This gaudy and extravagant cloak is adorned with brilliant gems and a fur trim. While wearing the cloak, you gain instant fame and notoriety, granting you a +3 item bonus to Diplomacy checks to Make an Impression. Creatures attempting to learn about you gain the same bonus to Gather Information about you.</p>\n<p><strong>Activate</strong> <span class=\"pf2-icon\">D</span> command</p>\n<p><strong>Frequency</strong> three times per day</p>\n<p><strong>Effect</strong> You wield your great stature to make a Request of a creature. If you roll a success on the check, you get a critical success instead. If you roll a critical failure on your Diplomacy check when you activate the cloak, you get a failure instead.</p>\n<hr />\n<p>Automatically applied effects:</p>\n<ul>\n<li>+3 item bonus to Diplomacy checks to Make an Impression</li>\n</ul>"
+			"name": "クローク・オヴ・リピュート (メジャー)",
+			"description": "<p>この使い古された、豪華な外套は輝かしい宝石と毛皮で飾られている。この外套を着用している間、君はすぐに名声と評判を得ることが出来て、「懐柔する」ための〈交渉〉判定に＋1アイテム・ボーナスを得る。君について知ろうと試みたクリーチャーは、君についての「情報招集」に同じボーナスを得る。君はこの外套を1日に3回、起動することが出来る。もし、この外套を起動した際に〈交渉〉判定にファンブルをロールしたなら、君は代わりに失敗する。</p>\n<p><strong>起動</strong> <span class=\"pf2-icon\">D</span> 合言葉</p>\n<p><strong>頻度</strong> 1日に3回</p>\n<p><strong>効果</strong> 君は自らの大きな人物像を利用して、クリーチャーに「要求」をすることが出来る。もし判定に成功をロールしたなら、代わりにクリティカルする。</p>\n<hr />\n<p>自動的に適用される効果:</p>\n<ul>\n<li>「懐柔」のための〈交渉〉判定に+3 アイテム・ボーナス</li>\n</ul>"
 		},
 		{
 			"id": "Cloak of the Bat",
@@ -1543,18 +1543,18 @@
 		},
 		{
 			"id": "Clockwork Bookshelf",
-			"name": "Clockwork Bookshelf",
-			"description": "<p>This device was originally created by an inventor who had way more books they wanted to access than available wall space to store them. Each of the bookshelf's six levels is actually loaded with a pair of shelves instead of a single shelf. A simple switch on the side of the bookshelf flips the corresponding shelf to the other side, revealing any books stored in the paired shelf. While this makes the clockwork bookshelf a little deeper than a normal bookshelf, in order to fit both shelves, it effectively allows you to store twice as many books using the same amount of wall space. Those who wish to keep volumes hidden from visitors (or perhaps stow a weapon or potion within a false book) often load the hidden shelf first, then switch to the second shelf lined with more respectable volumes.</p>"
+			"name": "クロックワーク・ブックシェルフ",
+			"description": "<p>この装置は、壁のスペースよりも遥かに多い本を参照可能な状態にしておきたいと思っていた発明家によって元々、作られた。6階層の本棚それぞれには、実際には、1つの棚ではなく2つで1組の棚が取り付けられている。本棚の側面にある単純なスイッチを押すと、対応する棚が反対側にくるりと反転し、対になっている棚に収納されている本が全て見えるようになる。そのため、通常の本棚よりも奥行きがあるが、2枚の棚板を合わせると、同じ面積の壁に2倍の本を収納することが出来るのである。来客から本を隠しておきたい者（あるいは、本の偽物に武器やポーションを保管しておきたい者）は、まず隠された棚に本を入れてから、もっと立派な本が並ぶ2番目の棚に切り替えることがある。</p>"
 		},
 		{
 			"id": "Clockwork Box Packer",
-			"name": "Clockwork Box Packer",
-			"description": "<p>This handy clockwork device is too expensive for most warehouses and shipping docks to make use of it, but some nobles have purchased the item for their staff as a status symbol, and merchants who are in the shipping trade can afford to slowly reap the benefits of its usage. It takes 1 minute to wind a clockwork box packer; after which, it can function for up to 1 hour.</p>\n<p>You can indicate how high you want the clockwork box packer to stack boxes and what the packing storage dimensions are. Once packing instructions have been input, you can load a crate onto the clockwork box packer, and it begins its task. Once the box is stacked, the clockwork box packer closes the box, if necessary, then ties a ribbon or cord around it from a supply loaded into the clockwork box packer in advance. Once the package is secure, the clockwork box packer stacks it and then swivels back into position, ready to accept another box. In this way, the clockwork device can finish within minutes a packing job that might take humanoid workers an hour</p>"
+			"name": "クロックワーク・ボックス・パッカー",
+			"description": "<p>この便利なぜんまい仕掛けの装置は、高価なため、ほとんどの倉庫や船着き場では利用されていないが、一部の貴族はステータス・シンボルとしてスタッフに購入させる。または、海運業を営む商人はゆっくりとその使用による利益を上昇させるだけの余裕がある。クロックワーク・ボックス・パッカーを巻き上げるのには1分がかかり、その後、最大1時間まで機能することが可能である。</p>\n<p>クロックワーク・ボックス・パッカーには、箱を積み上げる高さと梱包する荷物の寸法を指定することが出来る。梱包の指示が一度インプットされたなら、君はクロックワーク・ボックス・パッカーに木箱を載せ、作業を開始させることが出来る。ひとたび箱が積み上がったなら、クロックワーク・ボックス・パッカーは必要に応じて箱を閉じ、あらかじめクロックワーク・ボックス・パッカーに装填されている備品からリボンや紐を箱に結びつける。箱を閉じた後は、クロックワーク・ボックス・パッカーはそれを積み上げ、それから次の箱を受け取ることが出来るようにするため、旋回する。このようにして、クロックワークは人型生物が1時間かかるであろう梱包作業を数分以内に終えることが出来る。</p>"
 		},
 		{
 			"id": "Clockwork Chirper",
-			"name": "Clockwork Chirper",
-			"description": "<p>This simple clockwork bird is no larger than a sparrow, designed to be wound up and perched on a tree branch or ledge. The Tiny clockwork remains immobile and silent until a Small or larger creature enters the square beneath its perch, at which point it springs into action. Once activated, it flies around making a loud chirping sound that can be heard up to 500 feet away. The bird then follows the creature that activated it for up to one hour or until it is destroyed, doing its best to stay just above the creature and out of reach, and continuing its string of loud chirps. The bird is an object with a Speed 10 feet, and a fly Speed of 25 feet. It has AC 15, Hardness 5, HP 10 (BT 5) and object immunities. Once broken, it can no longer fly. It can't attack or otherwise damage other creatures. After an hour has passed after its activation, the clockwork chirper falls into a pile of useless components.</p>"
+			"name": "クロックワーク・チャーパー",
+			"description": "<p>この素朴なぜんまい仕掛けの鳥は雀ほどの大きさで、木の枝や岩棚に巻き付けてとまらせることが出来るように設計されている。この超小型のぜんまい仕掛けは、小型以上のクリーチャーがその止まり木の下のマス目に入るまで、動かないままであるが、クリーチャーが入ってきた時点で行動に移る。ひとたび起動されたなら、この鳥は500フィート先まで聞こえる大きな鳴き声を発しながら飛び回る。この鳥は、それから、起動したクリーチャーの後を、1時間あるいは破壊されるまで追いかけ、そのクリーチャーの真上の、手が届かないところに留まって大きな声を出し続けるために最善を尽くす。この鳥は、速度10フィート、飛行速度25フィートの物体である。この鳥はAC15、硬度5、HP10(BT5）かつ物体の耐性を持つ。ひとたび破壊されたなら、もはや飛ぶことは出来ない。この鳥は攻撃も、その他のクリーチャーにダメージを与えることも出来ない。起動から1時間が経過すると、クロックワーク・チャーパーは役に立たない部品の山になって落下する。</p>"
 		},
 		{
 			"id": "Clockwork Cloak",
@@ -1563,8 +1563,8 @@
 		},
 		{
 			"id": "Clockwork Dial",
-			"name": "Clockwork Dial",
-			"description": "<p>This small timepiece allows you to accurately track time, useful for coordinating attacks, cooking, and all other sorts of activities, without the steadiness or care necessary to use an hourglass. As always, spell durations are too inexact to be reliably tracked, as they don't last precisely the duration listed.</p>\n<p>Protected within a brass or steel case, the clockwork mechanism of this device is turned using a small key. Most dials have a maximum duration of 1 hour, with each turn of the key adding 10 minutes to the timer, though some are crafted with longer or shorter durations and intervals. Setting the timer requires one free hand and an Interact action.</p>"
+			"name": "クロックワーク・ダイアル",
+			"description": "<p>この小さな時計は、時間を正確に把握することが出来て、攻撃や料理、その他の、砂時計を使うのが必須になるような安定性や注意深さが必要のない全ての活動の調整に有用である。通常のことであるが、呪文の持続時間は記載されたとおりに正確だというわけではなく、信頼性の高い方法で追跡することが出来ないほど不正確である。</p>\n<p>真鍮あるいは鋼鉄のケースによって守られているこの装置のぜんまい仕掛けは、小さな鍵を使って回すことが出来る。ほとんどのダイヤルは最大持続時間が1時間であり、鍵を回すことで、1つについてタイマーに10分を追加することが出来る。ただし、もっと長い、あるいは短い持続時間とインターバルで作られているものもある。タイマーの設定には一本の自由な手と｢使用」アクションが必要である。</p>"
 		},
 		{
 			"id": "Clockwork Disguise",
@@ -1578,18 +1578,18 @@
 		},
 		{
 			"id": "Clockwork Goggles",
-			"name": "Clockwork Goggles",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">2</span> Interact</p>\n<hr />\n<p>This heavy set of mechanical goggles contains a variety of different lenses for different situations, including lenses that filter light at different intensities and frequencies and even some that capture heat and other stimuli. Clockwork mechanisms can swap between the lenses rapidly as needed. However, many of these lenses can only capture a single stimulus once and then are forever etched with it, making them unsuitable for long-term use. When activated, the clockwork mechanism on the goggles rapidly switches between the different lenses, granting you the benefits of all of them for a brief period of time.</p>\n<p>When activated, you gain low-light vision for 10 minutes.</p>\n<hr />\n<p>@Compendium[pf2e.equipment-effects.oaR6YGiZKg8a2971]{Effect: Clockwork Goggles}</p>"
+			"name": "クロックワーク・ゴーグル",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">2</span> 使用</p>\n<hr />\n<p>この重厚な機械のゴーグルには、様々な状況に応じた様々なレンズがついている。その中には、光の強さや周波数によって光をフィルターするレンズや、熱やその他の刺激を取り込むレンズといったものがある。ぜんまい仕掛けは、必要に応じて素早く、レンズを交換することが出来る。しかしながら、こういったレンズの多くは、ただ一つの刺激だけを一度だけ取り込み、以後、永遠にそれを刻み込むものなので長期間の使用には不向きである。起動した際、ゴーグルのぜんまい仕掛けは異なるレンズを素早く切替えして、短期間の間、それら全ての利益を君に与える。</p>\n<p>起動した際、君は10分間、夜目を得る</p>\n<hr />\n<p>@Compendium[pf2e.equipment-effects.oaR6YGiZKg8a2971]{効果: クロックワーク・ゴーグル}</p>"
 		},
 		{
 			"id": "Clockwork Goggles (Greater)",
-			"name": "Clockwork Goggles (Greater)",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">2</span> Interact</p>\n<hr />\n<p>This heavy set of mechanical goggles contains a variety of different lenses for different situations, including lenses that filter light at different intensities and frequencies and even some that capture heat and other stimuli. Clockwork mechanisms can swap between the lenses rapidly as needed. However, many of these lenses can only capture a single stimulus once and then are forever etched with it, making them unsuitable for long-term use. When activated, the clockwork mechanism on the goggles rapidly switches between the different lenses, granting you the benefits of all of them for a brief period of time.</p>\n<p>When activated, you gain low-light vision and darkvision for 10 minutes.</p>\n<hr />\n<p>@Compendium[pf2e.equipment-effects.E2uy6gqOXi1HRVBU]{Effect: Clockwork Goggles (Greater)}</p>"
+			"name": "クロックワーク・ゴーグル (グレーター)",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">2</span> 使用</p>\n<hr />\n<p>この重厚な機械のゴーグルには、様々な状況に応じた様々なレンズがついている。その中には、光の強さや周波数によって光をフィルターするレンズや、熱やその他の刺激を取り込むレンズといったものがある。ぜんまい仕掛けは、必要に応じて素早く、レンズを交換することが出来る。しかしながら、こういったレンズの多くは、ただ一つの刺激だけを一度だけ取り込み、以後、永遠にそれを刻み込むものなので長期間の使用には不向きである。起動した際、ゴーグルのぜんまい仕掛けは異なるレンズを素早く切替えして、短期間の間、それら全ての利益を君に与える。</p>\n<p>W起動した際、君は10分間、夜目と暗視を得る</p>\n<hr />\n<p>@Compendium[pf2e.equipment-effects.E2uy6gqOXi1HRVBU]{効果: クロックワーク・ゴーグル (グレーター)}</p>"
 		},
 		{
 			"id": "Clockwork Goggles (Major)",
-			"name": "Clockwork Goggles (Major)",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">2</span> Interact</p>\n<hr />\n<p>This heavy set of mechanical goggles contains a variety of different lenses for different situations, including lenses that filter light at different intensities and frequencies and even some that capture heat and other stimuli. Clockwork mechanisms can swap between the lenses rapidly as needed. However, many of these lenses can only capture a single stimulus once and then are forever etched with it, making them unsuitable for long-term use. When activated, the clockwork mechanism on the goggles rapidly switches between the different lenses, granting you the benefits of all of them for a brief period of time.</p>\n<p>When activated, you gain low-light vision, darkvision, and the effects of <em>See invisibility</em> for 10 minutes.</p>\n<hr />\n<p>@Compendium[pf2e.equipment-effects.Bg4hNMqBx0yqmWYJ]{Effect: Clockwork Goggles (Major)}</p>"
+			"name": "クロックワーク・ゴーグル(メジャー)",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">2</span> 使用</p>\n<hr />\n<p>この重厚な機械のゴーグルには、様々な状況に応じた様々なレンズがついている。その中には、光の強さや周波数によって光をフィルターするレンズや、熱やその他の刺激を取り込むレンズといったものがある。ぜんまい仕掛けは、必要に応じて素早く、レンズを交換することが出来る。しかしながら、こういったレンズの多くは、ただ一つの刺激だけを一度だけ取り込み、以後、永遠にそれを刻み込むものなので長期間の使用には不向きである。起動した際、ゴーグルのぜんまい仕掛けは異なるレンズを素早く切替えして、短期間の間、それら全ての利益を君に与える。</p>\n<p>起動した際、君は10分間、夜目、暗視、<em>シー・インヴィジビリティ</em>の効果を得る</p>\n<hr />\n<p>@Compendium[pf2e.equipment-effects.Bg4hNMqBx0yqmWYJ]{効果: クロックワーク・ゴーグル (メジャー)}</p>"
 		},
 		{
 			"id": "Clockwork Heels",
@@ -1608,13 +1608,13 @@
 		},
 		{
 			"id": "Clockwork Megaphone",
-			"name": "Clockwork Megaphone",
-			"description": "<p>A clockwork megaphone uses cunning clockwork gears to adjust the shape and angle of the cone within the megaphone, allowing you to raise or lower the volume, widen or contract the angle in which you project your voice, or both at the same time. This makes a clockwork megaphone far more useful than an ordinary megaphone for situations where you want to make sure that everyone in a particular venue or location can hear you without being so loud that your voice comes across as a painful shout. It takes 1 minute to wind up a clockwork megaphone, which allows it to remain active for up to 1 hour of adjustments, only counting the time you change the megaphone's settings, not the time you spend speaking. Since it automatically enters standby mode when not in use, this typically means you don't have to wind up the clockwork megaphone for months, or even years, depending on how often you adjust the settings each day.</p>"
+			"name": "クロックワーク・メガホン",
+			"description": "<p>クロックワーク・メガホンは、メガホンの形と角度を調整するために精巧な歯車を使っており、音量を上げ下げし、声を届ける角度を広げたり狭めたり、音量と角度を同時に両方とも調整することが出来る。これによってクロックワーク・メガホンは特定の通りや場所にいる全員に声を聞こえるようにしたいが、大きく張り上げすぎて喉を痛めないようにしたいという状況において、普通のメガホンよりもずっと便利になっている。クロックワーク・メガホンの巻き上げには1分かかり、最大で1時間までの調整が可能である。これは、君がメガホンの設定を変えている時間のみをカウントするのであって、君が話している時間をカウントするわけではない。使われていない場合は自動的に待機モードに入るため、どの程度、頻繁にその日の設定を調整するかにもよるが、君は数ヶ月や数年、クロックワーク・メガホンの巻き上げを行う必要はないことが多い。</p>"
 		},
 		{
 			"id": "Clockwork Monkey",
-			"name": "Clockwork Monkey",
-			"description": "<p>These cute and unassuming toy monkeys are often dressed in loud clothing and carry a percussion instrument. It's activated once a creature moves adjacent to the square it sits in, at which point it leaps on the creature, scurrying about on its agile hind legs while it pounds on its instrument, riding the creature and raising a racket. The creature being assaulted by the monkey must find a way to escape its agitator either via flinging the monkey off with the Escape action (DC 18) or by breaking the monkey. The monkey has AC 19, Hardness 2, HP 10 (BT 5) and object immunities.</p>"
+			"name": "クロックワーク・モンキー",
+			"description": "<p>この可愛らしく、控えめなおもちゃのサルはしばしば、派手な衣装をつけており、打楽器を持っている。置かれているマス目に隣接するようにクリーチャーが移動してくると起動し、そのクリーチャーに飛びかかって俊敏な後ろ足をじたばたさせながら楽器を叩き、騒ぎ立てる。サルに襲撃されたクリーチャーは、「脱出」でサルをふりうほどくか、サルを壊すかして逃げる方法を探さなければならない。サルはAC19、硬度2、HP10(BT5)で、物体の耐性を持つ。</p>"
 		},
 		{
 			"id": "Clockwork Recorder",
@@ -1633,23 +1633,23 @@
 		},
 		{
 			"id": "Coat Pistol",
-			"name": "Coat Pistol",
-			"description": "<p>This small pistol is easily concealed inside a jacket or some other article of clothing. Rarely kept as a primary weapon, coat pistols are equally favored by clever assassins and traveling Alkenstar aristocrats.</p>"
+			"name": "コート・ピストル",
+			"description": "<p>この小さなピストルは、ジャケットやその他の衣類に簡単に隠すことが出来る。主要な武器とされることは稀だが、コート・ピストルは賢明な暗殺者にも、アルケンスターの旅する貴族にも、等しく好まれる。</p>"
 		},
 		{
 			"id": "Codebreaker's Parchment",
-			"name": "Codebreaker's Parchment",
-			"description": "<p>This finely crafted, seemingly mundane parchment is useful for writing sensitive documents. When words are written on this parchment, they instantly scramble into unrecognizable script, requiring a DC 20 check to Decipher Writing.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> command;</p>\n<p><strong>Effect</strong> The scrambled words align into the originally written script. Identifying the parchment reveals that it can be activated with a command, but a critical success to Identify Magic is needed to learn the command word.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> Interact;</p>\n<p><strong>Effect</strong> You light the parchment on fire, burning the words off while leaving the parchment unharmed and ready to bear more text.</p>"
+			"name": "コードブレーカーズ・パーチメント",
+			"description": "<p>この羊皮紙は精巧に作られており、見た目には普通のものに見えるが、機密文書を書くのに便利な道具となっている。この羊皮紙に言葉を書いたなら、即座に乱れて、「暗号解読」にDC20の判定が必要な、わけのわからない文字になる。</p>\n<hr />\n<p><strong>起動</strong> <span class=\"pf2-icon\">1</span> 合言葉;</p>\n<p><strong>効果</strong> 乱れた文字は整列しで元々、書かれた文章になる。羊皮紙を識別することによって、合言葉で起動することが出来ると分かるが、合言葉を知るには「魔法の識別」にクリティカルしなければならない。</p>\n<hr />\n<p><strong>起動</strong> <span class=\"pf2-icon\">1</span> 使用;</p>\n<p><strong>効果</strong> 君は羊皮紙に着火し、羊皮紙に害を与えることなく言葉を燃やし、もっと文字を書けるようにする。</p>"
 		},
 		{
 			"id": "Codebreaker's Parchment (Greater)",
-			"name": "Codebreaker's Parchment (Greater)",
-			"description": "<p>This finely crafted, seemingly mundane parchment is useful for writing sensitive documents. When words are written on this parchment, they instantly scramble into unrecognizable script, requiring a DC 30 check with master proficiency to Decipher Writing.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> command;</p>\n<p><strong>Effect</strong> The scrambled words align into the originally written script. Identifying the parchment reveals that it can be activated with a command, but a critical success to Identify Magic is needed to learn the command word.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> Interact;</p>\n<p><strong>Effect</strong> You light the parchment on fire, burning the words off while leaving the parchment unharmed and ready to bear more text.</p>"
+			"name": "コードブレーカーズ・パーチメント (グレーター)",
+			"description": "<p>この羊皮紙は精巧に作られており、見た目には普通のものに見えるが、機密文書を書くのに便利な道具となっている。この羊皮紙に言葉を書いたなら、即座に乱れて、「暗号解読」にDC20の判定が必要な、わけのわからない文字になる。「暗号解読」のためのDCは30で、達人の習熟が必要となる</p>\n<hr />\n<p><strong>起動</strong> <span class=\"pf2-icon\">1</span> 合言葉;</p>\n<p><strong>効果</strong> 乱れた文字は整列しで元々、書かれた文章になる。羊皮紙を識別することによって、合言葉で起動することが出来ると分かるが、合言葉を知るには「魔法の識別」にクリティカルしなければならない。</p>\n<hr />\n<p><strong>起動</strong> <span class=\"pf2-icon\">1</span> 使用;</p>\n<p><strong>効果</strong> 君は羊皮紙に着火し、羊皮紙に害を与えることなく言葉を燃やし、もっと文字を書けるようにする。</p>"
 		},
 		{
 			"id": "Codebreaker's Parchment (Major)",
-			"name": "Codebreaker's Parchment (Major)",
-			"description": "<p>This finely crafted, seemingly mundane parchment is useful for writing sensitive documents. When words are written on this parchment, they instantly scramble into unrecognizable script, requiring a DC 40 check with legendary proficiency to Decipher Writing.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> command;</p>\n<p><strong>Effect</strong> The scrambled words align into the originally written script. Identifying the parchment reveals that it can be activated with a command, but a critical success to Identify Magic is needed to learn the command word.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> Interact;</p>\n<p><strong>Effect</strong> You light the parchment on fire, burning the words off while leaving the parchment unharmed and ready to bear more text.</p>"
+			"name": "コードブレーカーズ・パーチメント (メジャー)",
+			"description": "<p>この羊皮紙は精巧に作られており、見た目には普通のものに見えるが、機密文書を書くのに便利な道具となっている。この羊皮紙に言葉を書いたなら、即座に乱れて、「暗号解読」にDC20の判定が必要な、わけのわからない文字になる。「暗号解読」のためのDCは40で、伝説の習熟が必要となる</p>\n<hr />\n<p><strong>起動</strong> <span class=\"pf2-icon\">1</span> 合言葉;</p>\n<p><strong>効果</strong> 乱れた文字は整列しで元々、書かれた文章になる。羊皮紙を識別することによって、合言葉で起動することが出来ると分かるが、合言葉を知るには「魔法の識別」にクリティカルしなければならない。</p>\n<hr />\n<p><strong>起動</strong> <span class=\"pf2-icon\">1</span> 使用;</p>\n<p><strong>効果</strong> 君は羊皮紙に着火し、羊皮紙に害を与えることなく言葉を燃やし、もっと文字を書けるようにする。</p>"
 		},
 		{
 			"id": "Codex of Unimpeded Sight",
@@ -1668,23 +1668,23 @@
 		},
 		{
 			"id": "Cognitive Mutagen (Lesser)",
-			"name": "Cognitive Mutagen (Lesser)",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Interact</p>\n<hr />\n<p>Your mind becomes clear and cognition flows freely, but physical matters seem ephemeral.</p>\n<p><strong>Benefit</strong> You gain a +1 item bonus to Arcana, Crafting, Lore, Occultism, and Society checks and all checks to @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{Recall Knowledge}. Your critical failures on @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{Recall Knowledge} checks become failures instead.</p>\n<p><strong>Drawback</strong> You take a -2 penalty to weapon and unarmed attack rolls, Athletics checks, and acrobatics checks. You can carry 2 less Bulk than normal before becoming encumbered, and the maximum Bulk you can carry is reduced by 4.</p>\n<p><strong>Duration</strong> 1 minute.</p>\n<p>@Compendium[pf2e.consumable-effects.jaBMZKdoywOTrQvP]{Effect: Cognitive Mutagen (Lesser)}</p>"
+			"name": "コグニティヴ・ミュタゲン(レッサー)",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">A</span> 使用</p>\n<hr />\n<p>君の精神は明瞭になり、認識は淀みなく処理されていくが、物理的な事柄がその場限りのものに見える。</p>\n<p><strong>利益</strong> 君は、〈神秘学〉、〈製作〉、〈伝承〉、〈霊妙学〉、〈社会〉判定と@Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{「知識を思い出す」}ための全ての判定にアイテム・ボーナスを得る。@Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{「知識を思い出す」}にファンブルしたなら、代わりに失敗する</p>\n<p><strong>欠点k</strong> 君は武器と素手打撃ロール、〈運動〉判定、〈軽業〉判定に－2ペナルティを受ける。君は過積載状態になるまで、通常よりも2バルク少ない荷物しか運べず、君が運ぶことが出来る最大バルクは4、減る。</p>\n<p><strong>持続時間</strong> 1分</p>\n<p>@Compendium[pf2e.consumable-effects.jaBMZKdoywOTrQvP]{効果: コグニティヴ・ミュタゲン (レッサー)}</p>"
 		},
 		{
 			"id": "Cognitive Mutagen (Major)",
-			"name": "Cognitive Mutagen (Major)",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Interact</p>\n<hr />\n<p>Your mind becomes clear and cognition flows freely, but physical matters seem ephemeral.</p>\n<p><strong>Benefit</strong> You gain a +4 item bonus to Arcana, Crafting, Lore, Occultism, and Society checks and all checks to @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{Recall Knowledge}. Your critical failures on @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{Recall Knowledge} checks become failures instead. You become trained in one skill, chosen at creation.</p>\n<p><strong>Drawback</strong> You take a -2 penalty to weapon and unarmed attack rolls, Athletics checks, and acrobatics checks. You can carry 2 less Bulk than normal before becoming encumbered, and the maximum Bulk you can carry is reduced by 4.</p>\n<p><strong>Duration</strong> 1 hour.</p>\n<p>@Compendium[pf2e.consumable-effects.RT1BxXrbbGgk40Ti]{Effect: Cognitive Mutagen (Major)}</p>"
+			"name": "コグニティヴ・ミュタゲン (メジャー)",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">A</span> 使用</p>\n<hr />\n<p>君の精神は明瞭になり、認識は淀みなく処理されていくが、物理的な事柄がその場限りのものに見える。</p>\n<p><strong>利益</strong> 君は、〈神秘学〉、〈製作〉、〈伝承〉、〈霊妙学〉、〈社会〉判定と@Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{「知識を思い出す」}ための全ての判定にアイテム・ボーナスを得る。@Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{「知識を思い出す」}にファンブルしたなら、代わりに失敗する</p>\n<p><strong>欠点</strong> 君は武器と素手打撃ロール、〈運動〉判定、〈軽業〉判定に－2ペナルティを受ける。君は過積載状態になるまで、通常よりも2バルク少ない荷物しか運べず、君が運ぶことが出来る最大バルクは4、減る。</p>\n<p><strong>持続時間</strong> 1時間</p>\n<p>@Compendium[pf2e.consumable-effects.RT1BxXrbbGgk40Ti]{効果: コグニティヴ・ミュタゲン (メジャー)}</p>"
 		},
 		{
 			"id": "Cognitive Mutagen (Moderate)",
-			"name": "Cognitive Mutagen (Moderate)",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Interact</p>\n<hr />\n<p>Your mind becomes clear and cognition flows freely, but physical matters seem ephemeral.</p>\n<p><strong>Benefit</strong> You gain a +2 item bonus to Arcana, Crafting, Lore, Occultism, and Society checks and all checks to @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{Recall Knowledge}. Your critical failures on @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{Recall Knowledge} checks become failures instead.</p>\n<p><strong>Drawback</strong> You take a -2 penalty to weapon and unarmed attack rolls, Athletics checks, and acrobatics checks. You can carry 2 less Bulk than normal before becoming encumbered, and the maximum Bulk you can carry is reduced by 4.</p>\n<p><strong>Duration</strong> 10 minutes.</p>\n<p>@Compendium[pf2e.consumable-effects.ztxW3lBPRcesF7wK]{Effect: Cognitive Mutagen (Moderate)}</p>"
+			"name": "コグニティヴ・ミュタゲン (モデレート)",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">A</span> 使用</p>\n<hr />\n<p>君の精神は明瞭になり、認識は淀みなく処理されていくが、物理的な事柄がその場限りのものに見える。</p>\n<p><strong>利益</strong> 君は、〈神秘学〉、〈製作〉、〈伝承〉、〈霊妙学〉、〈社会〉判定と@Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{「知識を思い出す」}ための全ての判定にアイテム・ボーナスを得る。@Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{「知識を思い出す」}にファンブルしたなら、代わりに失敗する</p>\n<p><strong>欠点</strong> 君は武器と素手打撃ロール、〈運動〉判定、〈軽業〉判定に－2ペナルティを受ける。君は過積載状態になるまで、通常よりも2バルク少ない荷物しか運べず、君が運ぶことが出来る最大バルクは4、減る。</p>\n<p><strong>持続時間</strong> 10分</p>\n<p>@Compendium[pf2e.consumable-effects.ztxW3lBPRcesF7wK]{効果: コグニティヴ・ミュタゲン (モデレート)}</p>"
 		},
 		{
 			"id": "Coin of Comfort",
-			"name": "Coin of Comfort",
-			"description": "<p>This thick silver coin is deeply worn on one side, creating a shallow dip.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> Interact;</p>\n<p><strong>Frequency</strong> once per hour;</p>\n<p><strong>Effect</strong> You rub your thumb along the grooved side and become filled with a sense of comfort and safety. You reduce your @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened} condition by 1.</p>"
+			"name": "コイン・オヴ・コンフォート",
+			"description": "<p>この分厚い銀貨は片側が深く擦り切れており、浅いくぼみが出来ている。</p>\n<hr />\n<p><strong>起動</strong> <span class=\"pf2-icon\">1</span> 使用;</p>\n<p><strong>頻度</strong> 1時間に1回;</p>\n<p><strong>効果</strong> くぼみとなっている側に沿って親指を擦りつけると、君は快適で安全な感覚で満たされる。君は@Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{怯え}状態を1、減らす。</p>"
 		},
 		{
 			"id": "Cold Comfort (Greater)",
@@ -1698,58 +1698,58 @@
 		},
 		{
 			"id": "Cold Iron Blanch (Greater)",
-			"name": "Cold Iron Blanch (Greater)",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> Interact</p>\n<hr />\n<p>You can pour a vial of this dark liquid onto one melee weapon, one thrown weapon, or 10 pieces of ammunition. When used on a melee or thrown weapon, rather than ammunition, the blanch lasts for the listed duration or 10 successful Strikes, whichever comes first. When you use it on ammunition, the blanch is expended on a given piece of ammunition after firing it, whether it hits or not. A cold iron blanch contains small amounts of alchemist's fire, so it must be used all at once; an opened vial ignites to melt the cold iron onto the weapon and is quickly consumed. The weapon or ammunition counts as cold iron instead of its normal precious material (such as silver) for any physical damage it deals, if applicable.</p>\n<hr />\n<p>The blanch provides high-grade cold iron, so you can use it on any magic weapon. It lasts for 1 hour.</p>"
+			"name": "コールド・アイアン・ブランチ (グレーター)",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">1</span> 使用</p>\n<hr />\n<p>この暗い色合いの液体一瓶は、一本の近接武器か一本の投擲武器、あるいは10個の矢弾に注ぐことが出来る。矢弾ではなく近接武器あるいは投擲武器に使った場合、ブランチは記載された持続時間が経過するか、10回「打撃」が成功するまで持続する。矢弾に使った場合、ブランチは命中しようとしまいと、所定の数の矢弾が発射された後、消費される。コールド・アイアン・ブランチには少量のアルケミスト・ファイアが含まれており、全てを一度に使わなくてはならない。開封された小瓶は発火して冷たい鉄を武器に溶かし、すぐに消費されてしまう。武器や矢弾が与える物理ダメージは、適用可能なら通常の稀少素材（例えば銀など）ではなく、冷たい鉄と見なされる。</p>\n<hr />\n<p>ブランチは高級クラスの冷たい鉄にしてくれるため、君はあらゆる魔法の武器に使うことが出来る。効果は1時間、持続する</p>"
 		},
 		{
 			"id": "Cold Iron Blanch (Lesser)",
-			"name": "Cold Iron Blanch (Lesser)",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> Interact</p>\n<hr />\n<p>You can pour a vial of this dark liquid onto one melee weapon, one thrown weapon, or 10 pieces of ammunition. When used on a melee or thrown weapon, rather than ammunition, the blanch lasts for the listed duration or 10 successful Strikes, whichever comes first. When you use it on ammunition, the blanch is expended on a given piece of ammunition after firing it, whether it hits or not. A cold iron blanch contains small amounts of alchemist's fire, so it must be used all at once; an opened vial ignites to melt the cold iron onto the weapon and is quickly consumed. The weapon or ammunition counts as cold iron instead of its normal precious material (such as silver) for any physical damage it deals, if applicable.</p>\n<hr />\n<p>The blanch provides low-grade cold iron, so you can use it on a magic weapon up to 8th level, or ammunition for such a weapon. It lasts for 1 minute.</p>"
+			"name": "コールド・アイアン・ブランチ (レッサー)",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">1</span> 使用</p>\n<hr />\n<p>この暗い色合いの液体一瓶は、一本の近接武器か一本の投擲武器、あるいは10個の矢弾に注ぐことが出来る。矢弾ではなく近接武器あるいは投擲武器に使った場合、ブランチは記載された持続時間が経過するか、10回「打撃」が成功するまで持続する。矢弾に使った場合、ブランチは命中しようとしまいと、所定の数の矢弾が発射された後、消費される。コールド・アイアン・ブランチには少量のアルケミスト・ファイアが含まれており、全てを一度に使わなくてはならない。開封された小瓶は発火して冷たい鉄を武器に溶かし、すぐに消費されてしまう。武器や矢弾が与える物理ダメージは、適用可能なら通常の稀少素材（例えば銀など）ではなく、冷たい鉄と見なされる。</p>\n<hr />\n<p>ブランチは低級クラスの冷たい鉄にしてくれるため、君は8レベルまでの魔法の武器やそういった武器の矢弾に使うことが出来る。効果は1分、持続する。</p>"
 		},
 		{
 			"id": "Cold Iron Blanch (Moderate)",
-			"name": "Cold Iron Blanch (Moderate)",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> Interact</p>\n<hr />\n<p>You can pour a vial of this dark liquid onto one melee weapon, one thrown weapon, or 10 pieces of ammunition. When used on a melee or thrown weapon, rather than ammunition, the blanch lasts for the listed duration or 10 successful Strikes, whichever comes first. When you use it on ammunition, the blanch is expended on a given piece of ammunition after firing it, whether it hits or not. A cold iron blanch contains small amounts of alchemist's fire, so it must be used all at once; an opened vial ignites to melt the cold iron onto the weapon and is quickly consumed. The weapon or ammunition counts as cold iron instead of its normal precious material (such as silver) for any physical damage it deals, if applicable.</p>\n<hr />\n<p>The blanch provides standard-grade cold iron, so you can use it on a magic weapon up to 15th level, or ammunition for such a weapon. It lasts for 10 minutes.</p>"
+			"name": "コールド・アイアン・ブランチ (モデレート)",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">1</span> 使用</p>\n<hr />\n<p>この暗い色合いの液体一瓶は、一本の近接武器か一本の投擲武器、あるいは10個の矢弾に注ぐことが出来る。矢弾ではなく近接武器あるいは投擲武器に使った場合、ブランチは記載された持続時間が経過するか、10回「打撃」が成功するまで持続する。矢弾に使った場合、ブランチは命中しようとしまいと、所定の数の矢弾が発射された後、消費される。コールド・アイアン・ブランチには少量のアルケミスト・ファイアが含まれており、全てを一度に使わなくてはならない。開封された小瓶は発火して冷たい鉄を武器に溶かし、すぐに消費されてしまう。武器や矢弾が与える物理ダメージは、適用可能なら通常の稀少素材（例えば銀など）ではなく、冷たい鉄と見なされる。</p>\n<hr />\n<p>ブランチは標準クラスの冷たい鉄にしてくれるため、15レベルまでの魔法の武器やそういった武器の矢弾に使うことが出来る。効果は10分、持続する。</p>"
 		},
 		{
 			"id": "Cold Iron Buckler (High-Grade)",
-			"name": "Cold Iron Buckler (High-Grade)",
-			"description": "<p>Cold iron shields don't typically have an additional effect, though when used for a shield bash, they are cold iron weapons.</p>\n<p>The shield has Hardness 8, HP 32, and BT 16.</p>\n<p><strong>Craft Requirements</strong> cold iron worth at least 2,500 gp</p>"
+			"name": "冷たい鉄のバックラー (高級クラス)",
+			"description": "<p>冷たい鉄の盾は、一般的に追加効果を持たないが、盾攻撃で使う際、冷たい鉄の武器として扱われる。</p>\n<p>この盾は硬度8、HP32、BT16である</p>\n<p><strong>作成条件</strong> 少なくとも2,500gpの冷たい鉄</p>"
 		},
 		{
 			"id": "Cold Iron Buckler (Low-Grade)",
-			"name": "Cold Iron Buckler (Low-Grade)",
-			"description": "<p>Cold iron shields don't typically have an additional effect, though when used for a shield bash, they are cold iron weapons.</p>\n<p>The shield has Hardness 3, HP 12, and BT 6.</p>\n<p><strong>Craft Requirements</strong> cold iron worth at least 15 sp</p>"
+			"name": "冷たい鉄のバックラー(低級クラス)",
+			"description": "<p>冷たい鉄の盾は、一般的に追加効果を持たないが、盾攻撃で使う際、冷たい鉄の武器として扱われる。</p>\n<p>この盾は硬度3、HP12、BT6である</p>\n<p><strong>作成条件</strong> 少なくとも15spの冷たい鉄</p>"
 		},
 		{
 			"id": "Cold Iron Buckler (Standard-Grade)",
-			"name": "Cold Iron Buckler (Standard-Grade)",
-			"description": "<p>Cold iron shields don't typically have an additional effect, though when used for a shield bash, they are cold iron weapons.</p>\n<p>The shield has Hardness 5, HP 20, and BT 10.</p>\n<p><strong>Craft Requirements</strong> cold iron worth at least 375 sp</p>"
+			"name": "冷たい鉄のバックラー (標準クラス)",
+			"description": "<p>冷たい鉄の盾は、一般的に追加効果を持たないが、盾攻撃で使う際、冷たい鉄の武器として扱われる。</p>\n<p>この盾は硬度5、HP20、BT10である</p>\n<p><strong>作成条件</strong> 少なくとも375spの冷たい鉄</p>"
 		},
 		{
 			"id": "Cold Iron Chunk",
-			"name": "Cold Iron Chunk",
-			"description": "<p>Weapons made from cold iron are deadly to demons and fey alike. Cold iron looks like normal iron but is mined from particularly pure sources and shaped with little or no heat. This process is extremely difficult, especially for high-grade cold iron items.</p>\n<h2>Cold Iron Items</h2>\n<table class=\"pf2-table\">\n<thead>\n<tr>\n<th>Cold Iron Items</th>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Thin Items</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Low-grade</td>\n<td>5</td>\n<td>20</td>\n<td>10</td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>7</td>\n<td>28</td>\n<td>14</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>10</td>\n<td>40</td>\n<td>20</td>\n</tr>\n<tr>\n<td><strong>Items</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Low-grade</td>\n<td>9</td>\n<td>36</td>\n<td>18</td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>11</td>\n<td>44</td>\n<td>22</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>14</td>\n<td>56</td>\n<td>28</td>\n</tr>\n<tr>\n<td><strong>Structure</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Low-grade</td>\n<td>18</td>\n<td>72</td>\n<td>36</td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>22</td>\n<td>88</td>\n<td>44</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>28</td>\n<td>112</td>\n<td>56</td>\n</tr>\n</tbody>\n</table>"
+			"name": "冷たい鉄の原石",
+			"description": "<p>冷たい鉄で出来たアイテムは、デーモンとフェイのような生き物に致命的である。冷たい鉄は通常の鉄に見た目は似ているが、特に純粋な源から採掘され、ほとんど熱を入れずに成形されている。この過程は特に高級クラスの冷たい鉄のアイテムについては非常に困難である。</p>\n<h2>Cold Iron Items</h2>\n<table class=\"pf2-table\">\n<thead>\n<tr>\n<th>冷たい鉄のアイテム</th>\n<th>硬度</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>薄いアイテム</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>低級クラス</td>\n<td>5</td>\n<td>20</td>\n<td>10</td>\n</tr>\n<tr>\n<td>標準クラス</td>\n<td>7</td>\n<td>28</td>\n<td>14</td>\n</tr>\n<tr>\n<td>高級クラス</td>\n<td>10</td>\n<td>40</td>\n<td>20</td>\n</tr>\n<tr>\n<td><strong>アイテム</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>低級クラス</td>\n<td>9</td>\n<td>36</td>\n<td>18</td>\n</tr>\n<tr>\n<td>標準クラス</td>\n<td>11</td>\n<td>44</td>\n<td>22</td>\n</tr>\n<tr>\n<td>高級クラス</td>\n<td>14</td>\n<td>56</td>\n<td>28</td>\n</tr>\n<tr>\n<td><strong>構造物</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>低級クラス</td>\n<td>18</td>\n<td>72</td>\n<td>36</td>\n</tr>\n<tr>\n<td>標準クラス</td>\n<td>22</td>\n<td>88</td>\n<td>44</td>\n</tr>\n<tr>\n<td>高級クラス</td>\n<td>28</td>\n<td>112</td>\n<td>56</td>\n</tr>\n</tbody>\n</table>"
 		},
 		{
 			"id": "Cold Iron Ingot",
-			"name": "Cold Iron Ingot",
-			"description": "<p>Weapons made from cold iron are deadly to demons and fey alike. Cold iron looks like normal iron but is mined from particularly pure sources and shaped with little or no heat. This process is extremely difficult, especially for high-grade cold iron items.</p>\n<h2>Cold Iron Items</h2>\n<table class=\"pf2-table\">\n<thead>\n<tr>\n<th>Cold Iron Items</th>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Thin Items</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Low-grade</td>\n<td>5</td>\n<td>20</td>\n<td>10</td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>7</td>\n<td>28</td>\n<td>14</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>10</td>\n<td>40</td>\n<td>20</td>\n</tr>\n<tr>\n<td><strong>Items</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Low-grade</td>\n<td>9</td>\n<td>36</td>\n<td>18</td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>11</td>\n<td>44</td>\n<td>22</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>14</td>\n<td>56</td>\n<td>28</td>\n</tr>\n<tr>\n<td><strong>Structure</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Low-grade</td>\n<td>18</td>\n<td>72</td>\n<td>36</td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>22</td>\n<td>88</td>\n<td>44</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>28</td>\n<td>112</td>\n<td>56</td>\n</tr>\n</tbody>\n</table>"
+			"name": "冷たい鉄の鉱石",
+			"description": "<p>冷たい鉄で出来たアイテムは、デーモンとフェイのような生き物に致命的である。冷たい鉄は通常の鉄に見た目は似ているが、特に純粋な源から採掘され、ほとんど熱を入れずに成形されている。この過程は特に高級クラスの冷たい鉄のアイテムについては非常に困難である。</p>\n<h2>Cold Iron Items</h2>\n<table class=\"pf2-table\">\n<thead>\n<tr>\n<th>冷たい鉄のアイテム</th>\n<th>硬度</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>薄いアイテム</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>低級クラス</td>\n<td>5</td>\n<td>20</td>\n<td>10</td>\n</tr>\n<tr>\n<td>標準クラス</td>\n<td>7</td>\n<td>28</td>\n<td>14</td>\n</tr>\n<tr>\n<td>高級クラス</td>\n<td>10</td>\n<td>40</td>\n<td>20</td>\n</tr>\n<tr>\n<td><strong>アイテム</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>低級クラス</td>\n<td>9</td>\n<td>36</td>\n<td>18</td>\n</tr>\n<tr>\n<td>標準クラス</td>\n<td>11</td>\n<td>44</td>\n<td>22</td>\n</tr>\n<tr>\n<td>高級クラス</td>\n<td>14</td>\n<td>56</td>\n<td>28</td>\n</tr>\n<tr>\n<td><strong>構造物</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>低級クラス</td>\n<td>18</td>\n<td>72</td>\n<td>36</td>\n</tr>\n<tr>\n<td>標準クラス</td>\n<td>22</td>\n<td>88</td>\n<td>44</td>\n</tr>\n<tr>\n<td>高級クラス</td>\n<td>28</td>\n<td>112</td>\n<td>56</td>\n</tr>\n</tbody>\n</table>"
 		},
 		{
 			"id": "Cold Iron Shield (High-Grade)",
-			"name": "Cold Iron Shield (High-Grade)",
-			"description": "<p>Cold iron shields don't typically have an additional effect, though when used for a shield bash, they are cold iron weapons.</p>\n<p>The shield has Hardness 10, HP 40, and BT 20.</p>\n<hr />\n<p><strong>Craft Requirements</strong> cold iron worth at least 2,750 gp</p>"
+			"name": "冷たい鉄の盾 (高級クラス)",
+			"description": "<p>冷たい鉄の盾は、一般的に追加効果を持たないが、盾攻撃で使う際、冷たい鉄の武器として扱われる。</p>\n<p>この盾は硬度10、HP40、BT20である</p>\n<hr />\n<p><strong>作成条件</strong> 少なくとも2,750gpの冷たい鉄</p>"
 		},
 		{
 			"id": "Cold Iron Shield (Low-Grade)",
-			"name": "Cold Iron Shield (Low-Grade)",
-			"description": "<p>Cold iron shields don't typically have an additional effect, though when used for a shield bash, they are cold iron weapons.</p>\n<p>The shield has Hardness 5, HP 20, and BT 10.</p>\n<p><strong>Craft Requirements</strong> cold iron worth at least 17 sp</p>"
+			"name": "冷たい鉄の盾 (低級クラス)",
+			"description": "<p>冷たい鉄の盾は、一般的に追加効果を持たないが、盾攻撃で使う際、冷たい鉄の武器として扱われる。</p>\n<p>この盾は硬度10、HP40、BT20である</p>\n<p>この盾は硬度5、HP20、BT10である</p>\n<p><strong>作成条件</strong> 少なくとも17spの冷たい鉄</p>"
 		},
 		{
 			"id": "Cold Iron Shield (Standard-Grade)",
-			"name": "Cold Iron Shield (Standard-Grade)",
-			"description": "<p>Cold iron shields don't typically have an additional effect, though when used for a shield bash, they are cold iron weapons.</p>\n<p>The shield has Hardness 7, HP 28, and BT 14.</p>\n<p><strong>Craft Requirements</strong> cold iron worth at least 425 sp</p>"
+			"name": "冷たい鉄の盾 (標準クラス)",
+			"description": "<p>冷たい鉄の盾は、一般的に追加効果を持たないが、盾攻撃で使う際、冷たい鉄の武器として扱われる。</p>\n<p>この盾は硬度7、HP28、BT14である</p>\n<p><strong>作成条件</strong> 少なくとも425spの冷たい鉄</p>"
 		},
 		{
 			"id": "Collar of Empathy",
@@ -1768,18 +1768,18 @@
 		},
 		{
 			"id": "Combat Grapnel",
-			"name": "Combat Grapnel",
-			"description": "<p>Although grappling hooks typically serve as a climbing tool, this specially reinforced grapnel attached to a rope up to 10 feet long can be swung as a weapon. This is a martial melee weapon.</p>"
+			"name": "コンバット・グラップネル",
+			"description": "<p>釣りカギは一般的に登攀用具として使えるが、この特殊な強化をされたカギ縄は、10フィートまでの長さのロープに取り付けられており、武器として振り回すことが出来る。これは軍用近接武器である。</p>"
 		},
 		{
 			"id": "Comealong",
-			"name": "Comealong",
-			"description": "<p>This portable winch consists of a length of cable or chain, two hooks, and a ratcheting drum with a handle. When used with two sections of rope or chain, it allows you to pull a heavy load along a flat surface.</p>"
+			"name": "ケーブル牽引具",
+			"description": "<p>この携帯可能なウィンチは、長いケーブルや鎖、2つの鉤、取っ手のついた爪車のドラムで構成されている。ロープや鎖を2カ所に使って用いると、平らな地面に沿って重荷を引っ張ることが出来る。</p>"
 		},
 		{
 			"id": "Communication Bangle",
-			"name": "Communication Bangle",
-			"description": "<p>This simple brass ring is meant to be worn as an ornamentation piece to an outfit, oftentimes as a bangle on the wrist, as the ring closure of a scarf or sash, or as an ornamentation piece of a headdress. While decorative, this serves a cover for the bangle's function as a message bearer. Messages can be coded into the bangle, either through a series of raised dots and dashes or a pattern of notches of different depths and spacings. A bangle is large enough to hold a simple message consisting of a few words like \"Danger. Flee.\" or \"Meeting. Sunset. Fountain.\"</p>\n<p>Coding a message into a bangle requires 1 minute of time. All Pathfinders with access to communication bangles are taught how to code and read most basic messages, but anyone with a bangle can develop their own communication system.</p>\n<p>A creature inspecting a bangle can discover its true purpose by succeeding at a DC 20 Perception check. Deciphering a message requires a creature to succeed at a Society check against the coder's Deception DC.</p>"
+			"name": "コミュニケーション・バングル",
+			"description": "<p>この素朴な真鍮の指輪は、衣服のつける装飾や、腕のバングル、スカーフやサッシュの留め金の輪、あるいは頭飾りの一部として着用するためのものである。装飾としての機能が高いものの、この指輪はバングルのメッセージを保管する器としての役割を隠蔽するのに役立つ。メッセージは、点とダッシュ記号や異なる深さや空白を持つ刻み目のどちらかを使って、バングルに暗号として残すことが出来る。バングルは「危険。逃げろ」や「日没。噴水。会合」のような吸う単語からなる単純なメッセージを残すのに十分な大きさがある。</p>\n<p>バングルにメッセージを刻むのには、1分の時間が必要である。コミュニケーション・バングルの入手手段を持つ全てのパスファインダーが最も基本的なメッセージの読み書きを教わっているが、バングルを持つ者は誰でも、独自のコミュニケーションシステムを開発することが出来る。</p>\n<p>バングルを調べた者は、DC20の知覚判定に成功することでその真の目的を発見することが出来る。メッセージの解読をするために、クリーチャーは書き手の〈欺瞞〉DCにタイする〈社会〉判定に成功する必要がある。</p>"
 		},
 		{
 			"id": "Communication Pendants",
@@ -1788,23 +1788,23 @@
 		},
 		{
 			"id": "Comprehension Elixir (Greater)",
-			"name": "Comprehension Elixir (Greater)",
-			"description": "<p>This bitter draught opens your mind to the potential of the written word. For the listed duration after drinking this elixir, you can understand any words you read, so long as they are written in a common language. This elixir doesn't automatically allow you to understand codes or extremely esoteric passages-you still need to attempt a skill check to Decipher Writing. The duration is 10 minutes.</p>"
+			"name": "コンプリヘンション・エリクサー (グレーター)",
+			"description": "<p>この苦い酒は、君の心を開き、書き言葉に関する可能性を開花させる。このエリクサーを飲んだ後、記載された持続時間の間、君はそれが共通語で書かれている限り、書かれた全ての言葉を理解することが出来る。このエリクサーは暗号や、非常に難解な文章を自動的に理解出来るようにしてくれるというわけではなく、「暗号解読」のための技能判定を試みる必要がある。持続時間は10分である</p>"
 		},
 		{
 			"id": "Comprehension Elixir (Lesser)",
-			"name": "Comprehension Elixir (Lesser)",
-			"description": "<p>This bitter draught opens your mind to the potential of the written word. For the listed duration after drinking this elixir, you can understand any words you read, so long as they are written in a common language. This elixir doesn't automatically allow you to understand codes or extremely esoteric passages-you still need to attempt a skill check to Decipher Writing. The duration is 1 minute.</p>"
+			"name": "コンプリヘンション・エリクサー (レッサー)",
+			"description": "<p>この苦い酒は、君の心を開き、書き言葉に関する可能性を開花させる。このエリクサーを飲んだ後、記載された持続時間の間、君はそれが共通語で書かれている限り、書かれた全ての言葉を理解することが出来る。このエリクサーは暗号や、非常に難解な文章を自動的に理解出来るようにしてくれるというわけではなく、「暗号解読」のための技能判定を試みる必要がある。持続時間は1分である。</p>"
 		},
 		{
 			"id": "Concealed Holster",
-			"name": "Concealed Holster",
-			"description": "<p>This leather holster is crafted to better hide small firearms from view. Only firearms designed for use in one hand are small enough to disguise with this holster. You gain a +1 item bonus to Stealth checks and DCs to hide or conceal a firearm or hand crossbow in this holster.</p>"
+			"name": "隠しホルスター",
+			"description": "<p>この革製のホルスターは小さな火器を見つからないように上手に隠すことが出来るように作られている。一本の手で使うために作られた火器のみがこのホルスターで隠せる大きさである。君はこのホルスターに火器やハンド・クロスボウを隠すための〈隠密〉やDCに＋1アイテム・ボーナスを得る。</p>"
 		},
 		{
 			"id": "Concealed Sheath",
-			"name": "Concealed Sheath",
-			"description": "<p>This leather sheath is large enough to hold an item of up to light Bulk and is typically used for daggers, wands, thieves' tools, and similar objects.</p>\n<p>You can affix it to the inside of a boot, under a bracer or sleeve, or in other inconspicuous locations to gain a +1 item bonus to Stealth checks and DCs to hide or conceal the item within.</p>\n<hr />\n<p>Automatically applied effects:</p>\n<ul>\n<li>+1 item bonus to Stealth checks to hide items</li>\n</ul>"
+			"name": "隠し鞘",
+			"description": "<p>この革製の鞘は軽重量までのバルクのアイテムを中に入れる程度の大きさがあり、一般的にはダガー、ワンド、盗賊用具や似たようなものを入れるのに使われる。</p>\n<p>君はこれをブーツの中、ブレーサーや裾の下、あるいは目立たない場所に取り付けてその日に入ってるアイテムを隠すための〈隠密〉判定やDCに＋1アイテム・ボーナスを得ることが出来る。</p>\n<hr />\n<p>自動的に適用される効果:</p>\n<ul>\n<li>アイテムを隠すための〈隠密〉判定に+1アイテム・ボーナス</li>\n</ul>"
 		},
 		{
 			"id": "Conducting",
@@ -1878,23 +1878,23 @@
 		},
 		{
 			"id": "Coyote Cloak",
-			"name": "Coyote Cloak",
-			"description": "<p>This dusty coat is made of mangy brown-and-gray coyote fur. You gain a +1 item bonus to Survival checks. If you critically succeed at your Survival check to Subsist, you can feed twice as many additional creatures.</p>\n<hr />\n<p>Automatically applied effects:</p>\n<ul>\n<li>+1 item bonus to checks to Survival checks</li>\n</ul>"
+			"name": "コヨーテ・クローク",
+			"description": "<p>この、くすんだ色のコートは茶色と灰色のコヨーテの毛皮から作られている。君は、〈生存〉判定に+1アイテム・ボーナスを得る。もし、君が「自活」のための〈生存〉判定にクリティカルしたなら、君は2倍の追加クリーチャーを養うことが出来る。</p>\n<hr />\n<p>自動的に適用される効果:</p>\n<ul>\n<li>〈生存〉判定への+1アイテム・ボーナス</li>\n</ul>"
 		},
 		{
 			"id": "Coyote Cloak (Greater)",
-			"name": "Coyote Cloak (Greater)",
-			"description": "<p>This dusty coat is made of mangy brown-and-gray coyote fur. You gain a +2 item bonus to Survival checks. If you critically succeed at your Survival check to Subsist, you can feed four times as many additional creatures.</p>\n<hr />\n<p>Automatically applied effects:</p>\n<ul>\n<li>+2 item bonus to checks to Survival checks</li>\n</ul>"
+			"name": "コヨーテ・クローク (グレーター)",
+			"description": "<p>この、くすんだ色のコートは茶色と灰色のコヨーテの毛皮から作られている。君は、〈生存〉判定に+2アイテム・ボーナスを得る。もし、君が「自活」のための〈生存〉判定にクリティカルしたなら、君は4倍の追加クリーチャーを養うことが出来る。</p>\n<hr />\n<p>自動的に適用される効果:</p>\n<ul>\n<li>〈生存〉判定への+2アイテム・ボーナス</li>\n</ul>"
 		},
 		{
 			"id": "Crafter's Eyepiece",
-			"name": "Crafter's Eyepiece",
-			"description": "<p>This rugged metal eyepiece etched with square patterns is designed to be worn over a single eye. Twisting the lens reveals a faint three-dimensional outline of an item you plan to build or repair, with helpful labels on the component parts.</p>\n<p>While worn, this eyepiece gives you a +1 item bonus to Crafting checks. When you Repair an item, increase the Hit Points restored by 15 per proficiency rank instead of 10.</p>\n<hr />\n<p>Automatically applied effects:</p>\n<ul>\n<li>+1 item bonus to checks to Crafting checks</li>\n</ul>"
+			"name": "クラフターズ・アイピース",
+			"description": "<p>この、四角の模様が刻まれた頑丈な金属製の眼鏡は、片方の目に着用するために作られている。レンズをひねることによって、君が作る、あるいは修理しようと思っているアイテムの輪郭がほのかに立体的に浮かび上がり、その構成部品には役立つようなラベルがついている。装着している間、この眼鏡は〈製作〉判定に＋1アイテム・ボーナスを与える。アイテムを「修理」している間、習熟ランクごとに10点ではなく、15点のヒット・ポイントを回復する。</p>\n<hr />\n<p>自動的に適用される効果:</p>\n<ul>\n<li>〈製作〉判定に＋1アイテム・ボーナス</li>\n</ul>"
 		},
 		{
 			"id": "Crafter's Eyepiece (Greater)",
-			"name": "Crafter's Eyepiece (Greater)",
-			"description": "<p>This rugged metal eyepiece etched with square patterns is designed to be worn over a single eye. Twisting the lens reveals a faint three-dimensional outline of an item you plan to build or repair, with helpful labels on the component parts.</p>\n<p>While worn, this eyepiece gives you a +2 item bonus to Crafting checks. When you Repair an item, increase the Hit Points restored by 15 per proficiency rank instead of 10.</p>\n<hr />\n<p><strong>Activate</strong> 1 minute (Interact)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You calibrate the eyepiece to have it cast a 5th-level <em>@Compendium[pf2e.spells-srd.TUj8eugNqAvB1vVR]{Creation}</em> spell over the course of 1 minute to construct a temporary item.</p>\n<hr />\n<p>Automatically applied effects:</p>\n<ul>\n<li>+2 item bonus to checks to Crafting checks</li>\n</ul>"
+			"name": "クラフターズ・アイピース (グレーター)",
+			"description": "<p>この、四角の模様が刻まれた頑丈な金属製の眼鏡は、片方の目に着用するために作られている。レンズをひねることによって、君が作る、あるいは修理しようと思っているアイテムの輪郭がほのかに立体的に浮かび上がり、その構成部品には役立つようなラベルがついている。装着している間、この眼鏡は〈製作〉判定に＋2アイテム・ボーナスを与える。アイテムを「修理」している間、習熟ランクごとに10点ではなく、15点のヒット・ポイントを回復する。</p>\n<hr />\n<p><strong>起動</strong> 1分(使用)</p>\n<p><strong>頻度</strong> 1日に1回</p>\n<p><strong>効果</strong> 君は眼鏡を調整し、一時的なアイテムを作るために、連続した1分間をかけて5レベルの<em>@Compendium[pf2e.spells-srd.TUj8eugNqAvB1vVR]{クリエーション}</em>呪文を発動させることが出来る</p>\n<hr />\n<p>自動的に適用される効果:</p>\n<ul>\n<li>〈製作〉判定に＋2アイテム・ボーナス</li>\n</ul>"
 		},
 		{
 			"id": "Crimson Brand",
@@ -1938,38 +1938,38 @@
 		},
 		{
 			"id": "Crushing",
-			"name": "Crushing",
-			"description": "<p><strong>Usage</strong> etched onto a bludgeoning weapon</p>\n<hr />\n<p>Weapons with this rune empower your strength, and attacks with these weapons leave your foe staggered. When you critically hit a target with this weapon, your target becomes @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 1} and @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 1} until the end of your next turn.</p>"
+			"name": "クラッシング",
+			"description": "<p><strong>使用方法</strong> 殴打武器に刻む</p>\n<hr />\n<p>このルーンがついた武器は君の筋力を強化し、これらの武器による攻撃は君の敵をひりつかせる。この武器で対象にクリティカル・ヒットした際、君の対象は君の次の手番の終了時まで、@Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{もたつき1}かつ@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱1}になる。</p>"
 		},
 		{
 			"id": "Crushing (Greater)",
-			"name": "Crushing (Greater)",
-			"description": "<p><strong>Usage</strong> etched onto a bludgeoning weapon</p>\n<hr />\n<p>Weapons with this rune empower your strength, and attacks with these weapons leave your foe staggered. When you critically hit a target with this weapon, your target becomes @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 2} and @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 2} until the end of your next turn.</p>"
+			"name": "クラッシング (グレーター)",
+			"description": "<p><strong>使用方法</strong> 殴打武器に刻む</p>\n<hr />\n<p>このルーンがついた武器は君の筋力を強化し、これらの武器による攻撃は君の敵をひりつかせる。この武器で対象にクリティカル・ヒットした際、君の対象は君の次の手番の終了時まで、@Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{もたつき2}かつ@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{衰弱2}になる。</p>"
 		},
 		{
 			"id": "Crying Angel Pendant",
-			"name": "Crying Angel Pendant",
-			"description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">F</span> Envision</p>\n<p><strong>Trigger</strong> You critically fail to Administer First Aid</p>\n<p><strong>Requirements</strong> You are trained in Medicine</p>\n<p>When you activate this alabaster pendant, your critical failure becomes a normal failure instead.</p>"
+			"name": "クライング・エンジェル・ペンダント",
+			"description": "<p><strong>起動</strong> <span class=\"pf2-icon\">F</span> 想念</p>\n<p><strong>トリガー</strong> 君が「応急手当」にファンブルした</p>\n<p><strong>条件</strong> 君が〈医学〉に修得である</p>\n<p>君がこの大理石のペンダントを起動した際、ファンブルは代わりに通常の失敗になる</p>"
 		},
 		{
 			"id": "Cryomister (Greater)",
-			"name": "Cryomister (Greater)",
-			"description": "<p><strong>Activate</strong><span class=\"pf2-icon\">a </span>Interact</p>\n<hr />\n<p>When you Activate a cryomister, you can either place it in an adjacent square or toss it up to 20 feet away. Once you've done so, the metallic device instantly disperses a heavy mist, settling quickly on nearby flat surfaces and forming a sheet of ice. The cryomister creates a burst with a radius depending on the type, making the affected area difficult terrain for 1 minute; , at the GM's discretion, however, this duration might be reduced in unusually hot conditions or increased in unusually cold ones. If an affected square takes fire damage, the difficult terrain is removed. Though not designed as a weapon, the cryomister's rapidly cooling mist deals cold splash damage depending on the type to creatures in the area on activation. Creatures attempting to move through the affected area can attempt an Acrobatics check with a DC depending on the type to ignore the difficult terrain and move at their normal Speed. Throwing the cryomister onto the surface of a liquid creates a floating piece of ice for the same duration, capable of supporting one or more creatures of the listed size.</p>\n<hr />\n<p>The area is a @Template[type:burst|distance:15]{15-foot burst}, the <span data-pf2-check=\"acrobatics\" data-pf2-dc=\"30\" data-pf2-traits=\"cold,consumable,gadget\" data-pf2-label=\"Acrobatics DC\" data-pf2-show-dc=\"gm\">Acrobatics</span>, and [[/r 5[cold]]]{5 cold splash damage}. The floating ice can support one Huge creature, two Large creatures, or four Medium or smaller creatures.</p>"
+			"name": "クライオミスター (グレーター)",
+			"description": "<p><strong>起動</strong><span class=\"pf2-icon\">a </span>使用</p>\n<hr />\n<p>クライオミスターを起動した際、君はこれを隣接したマス目に置くか、20フィート放り投げるかを選ぶことが出来る。そうしたなら、この金属の装置は即座に濃い霧を放つ。その霧はすぐに近くの平らな表面に付着し、氷の皮膜を作り出す。クライオミスターはその種別に応じた半径の爆発を作り出す。影響を受けた範囲は1分間、移動困難な地形になる。だが、GMの裁量によって、例外的に厚い状況や例外的に寒い状況では、この持続時間は増えたり減ったりすることがある。もし、影響を受けたマス目が火炎ダメージを受けたなら、この移動困難な地形は取り除かれる。武器として設計されているわけではないが、クライオミスターの急激な冷却の霧は、起動時に範囲にいるクリーチャーに、種別によって異なる氷雪飛散ダメージを与える。影響を受けた範囲を通り抜けようとするクリーチャーは、移動困難な地形を無視し、通常の速度で移動するため、種別によって異なるDCの〈軽業〉判定を試みることが出来る。クライオミスターを液体の表面に投擲することによって、持続時間の間、液体に浮いた氷の床を作り出すことが出来る。これは、記載された大きさの1体以上のクリーチャーを支えることが出来る。</p>\n<hr />\n<p>範囲は@Template[type:burst|distance:15]{15フィート爆発}、<span data-pf2-check=\"acrobatics\" data-pf2-dc=\"30\" data-pf2-traits=\"cold,consumable,gadget\" data-pf2-label=\"Acrobatics DC\" data-pf2-show-dc=\"gm\">〈軽業〉</span>DCは30、[[/r 5[氷雪]]]{氷雪飛散ダメージは5点}である。浮いている氷は1体の超大型クリーチャー、2体の大型クリーチャー、4体までの中型以下のクリーチャーを支えることが出来る。</p>"
 		},
 		{
 			"id": "Cryomister (Lesser)",
-			"name": "Cryomister (Lesser)",
-			"description": "<p><strong>Activate</strong><span class=\"pf2-icon\">a </span>Interact</p>\n<hr />\n<p>When you Activate a cryomister, you can either place it in an adjacent square or toss it up to 20 feet away. Once you've done so, the metallic device instantly disperses a heavy mist, settling quickly on nearby flat surfaces and forming a sheet of ice. The cryomister creates a burst with a radius depending on the type, making the affected area difficult terrain for 1 minute; , at the GM's discretion, however, this duration might be reduced in unusually hot conditions or increased in unusually cold ones. If an affected square takes fire damage, the difficult terrain is removed. Though not designed as a weapon, the cryomister's rapidly cooling mist deals cold splash damage depending on the type to creatures in the area on activation. Creatures attempting to move through the affected area can attempt an Acrobatics check with a DC depending on the type to ignore the difficult terrain and move at their normal Speed. Throwing the cryomister onto the surface of a liquid creates a floating piece of ice for the same duration, capable of supporting one or more creatures of the listed size.</p>\n<hr />\n<p>The area is a @Template[type:burst|distance:5]{5-foot burst}, the <span data-pf2-check=\"acrobatics\" data-pf2-dc=\"17\" data-pf2-traits=\"cold,consumable,gadget\" data-pf2-label=\"Acrobatics DC\" data-pf2-show-dc=\"gm\">Acrobatics</span>, and [[/r 1[cold]]]{1 cold splash damage}. The floating ice can support one creature up to Medium size.</p>"
+			"name": "クライオミスター (レッサー)",
+			"description": "<p><strong>起動</strong><span class=\"pf2-icon\">a </span>使用</p>\n<hr />\n<p>クライオミスターを起動した際、君はこれを隣接したマス目に置くか、20フィート放り投げるかを選ぶことが出来る。そうしたなら、この金属の装置は即座に濃い霧を放つ。その霧はすぐに近くの平らな表面に付着し、氷の皮膜を作り出す。クライオミスターはその種別に応じた半径の爆発を作り出す。影響を受けた範囲は1分間、移動困難な地形になる。だが、GMの裁量によって、例外的に厚い状況や例外的に寒い状況では、この持続時間は増えたり減ったりすることがある。もし、影響を受けたマス目が火炎ダメージを受けたなら、この移動困難な地形は取り除かれる。武器として設計されているわけではないが、クライオミスターの急激な冷却の霧は、起動時に範囲にいるクリーチャーに、種別によって異なる氷雪飛散ダメージを与える。影響を受けた範囲を通り抜けようとするクリーチャーは、移動困難な地形を無視し、通常の速度で移動するため、種別によって異なるDCの〈軽業〉判定を試みることが出来る。クライオミスターを液体の表面に投擲することによって、持続時間の間、液体に浮いた氷の床を作り出すことが出来る。これは、記載された大きさの1体以上のクリーチャーを支えることが出来る。</p>\n<hr />\n<p>範囲は@Template[type:burst|distance:5]{5フィート爆発}、<span data-pf2-check=\"acrobatics\" data-pf2-dc=\"17\" data-pf2-traits=\"cold,consumable,gadget\" data-pf2-label=\"Acrobatics DC\" data-pf2-show-dc=\"gm\">〈軽業〉</span>DCは17、[[/r 1[cold]]]{氷雪飛散ダメージは1点}である。浮かんだ氷の床は中型サイズまでのクリーチャー1体を支えることが出来る。</p>"
 		},
 		{
 			"id": "Cryomister (Major)",
-			"name": "Cryomister (Major)",
-			"description": "<p><strong>Activate</strong><span class=\"pf2-icon\">a </span>Interact</p>\n<hr />\n<p>When you Activate a cryomister, you can either place it in an adjacent square or toss it up to 20 feet away. Once you've done so, the metallic device instantly disperses a heavy mist, settling quickly on nearby flat surfaces and forming a sheet of ice. The cryomister creates a burst with a radius depending on the type, making the affected area difficult terrain for 1 minute; , at the GM's discretion, however, this duration might be reduced in unusually hot conditions or increased in unusually cold ones. If an affected square takes fire damage, the difficult terrain is removed. Though not designed as a weapon, the cryomister's rapidly cooling mist deals cold splash damage depending on the type to creatures in the area on activation. Creatures attempting to move through the affected area can attempt an Acrobatics check with a DC depending on the type to ignore the difficult terrain and move at their normal Speed. Throwing the cryomister onto the surface of a liquid creates a floating piece of ice for the same duration, capable of supporting one or more creatures of the listed size.</p>\n<hr />\n<p>The area is a @Template[type:burst|distance:20]{20-foot burst}, the <span data-pf2-check=\"acrobatics\" data-pf2-dc=\"39\" data-pf2-traits=\"cold,consumable,gadget\" data-pf2-label=\"Acrobatics DC\" data-pf2-show-dc=\"gm\">Acrobatics</span>, and [[/r 8[cold]]]{8 cold splash damage}. The floating ice can support one Gargantuan creature, two Huge creatures, four Large creatures, or eight Medium or smaller creatures. The ice can't support Gargantuan creatures larger than a 20-by-20-foot space, such as a mu spore.</p>"
+			"name": "クライオミスター (メジャー)",
+			"description": "<p><strong>起動</strong><span class=\"pf2-icon\">a </span>使用</p>\n<hr />\n<p>クライオミスターを起動した際、君はこれを隣接したマス目に置くか、20フィート放り投げるかを選ぶことが出来る。そうしたなら、この金属の装置は即座に濃い霧を放つ。その霧はすぐに近くの平らな表面に付着し、氷の皮膜を作り出す。クライオミスターはその種別に応じた半径の爆発を作り出す。影響を受けた範囲は1分間、移動困難な地形になる。だが、GMの裁量によって、例外的に厚い状況や例外的に寒い状況では、この持続時間は増えたり減ったりすることがある。もし、影響を受けたマス目が火炎ダメージを受けたなら、この移動困難な地形は取り除かれる。武器として設計されているわけではないが、クライオミスターの急激な冷却の霧は、起動時に範囲にいるクリーチャーに、種別によって異なる氷雪飛散ダメージを与える。影響を受けた範囲を通り抜けようとするクリーチャーは、移動困難な地形を無視し、通常の速度で移動するため、種別によって異なるDCの〈軽業〉判定を試みることが出来る。クライオミスターを液体の表面に投擲することによって、持続時間の間、液体に浮いた氷の床を作り出すことが出来る。これは、記載された大きさの1体以上のクリーチャーを支えることが出来る。</p>\n<hr />\n<p>範囲は @Template[type:burst|distance:20]{20フィート爆発}、<span data-pf2-check=\"acrobatics\" data-pf2-dc=\"39\" data-pf2-traits=\"cold,consumable,gadget\" data-pf2-label=\"Acrobatics DC\" data-pf2-show-dc=\"gm\">〈軽業〉</span>DCは39、[[/r 8[cold]]]{氷雪飛散ダメージは8点}である。浮いている氷は1体の巨大クリーチャー、2体の超大型クリーチャー、4体の大型クリーチャー、8体の中型以下のクリーチャーを支えることが出来る。この氷はムー・スポアのような20フィート四方より大きな巨大クリーチャーを支えることが出来ない。</p>"
 		},
 		{
 			"id": "Cryomister (Moderate)",
-			"name": "Cryomister (Moderate)",
-			"description": "<p><strong>Activate</strong><span class=\"pf2-icon\">a </span>Interact</p>\n<hr />\n<p>When you Activate a cryomister, you can either place it in an adjacent square or toss it up to 20 feet away. Once you've done so, the metallic device instantly disperses a heavy mist, settling quickly on nearby flat surfaces and forming a sheet of ice. The cryomister creates a burst with a radius depending on the type, making the affected area difficult terrain for 1 minute; , at the GM's discretion, however, this duration might be reduced in unusually hot conditions or increased in unusually cold ones. If an affected square takes fire damage, the difficult terrain is removed. Though not designed as a weapon, the cryomister's rapidly cooling mist deals cold splash damage depending on the type to creatures in the area on activation. Creatures attempting to move through the affected area can attempt an Acrobatics check with a DC depending on the type to ignore the difficult terrain and move at their normal Speed. Throwing the cryomister onto the surface of a liquid creates a floating piece of ice for the same duration, capable of supporting one or more creatures of the listed size.</p>\n<hr />\n<p>The area is a @Template[type:burst|distance:10]{10-foot burst}, the <span data-pf2-check=\"acrobatics\" data-pf2-dc=\"21\" data-pf2-traits=\"cold,consumable,gadget\" data-pf2-label=\"Acrobatics DC\" data-pf2-show-dc=\"gm\">Acrobatics</span>, and [[/r 3[cold]]]{3 cold splash damage}. The floating ice can support one Large creature or two Medium or smaller creatures.</p>"
+			"name": "クライオミスター (モデレート)",
+			"description": "<p><strong>起動</strong><span class=\"pf2-icon\">a </span>使用</p>\n<hr />\n<p>クライオミスターを起動した際、君はこれを隣接したマス目に置くか、20フィート放り投げるかを選ぶことが出来る。そうしたなら、この金属の装置は即座に濃い霧を放つ。その霧はすぐに近くの平らな表面に付着し、氷の皮膜を作り出す。クライオミスターはその種別に応じた半径の爆発を作り出す。影響を受けた範囲は1分間、移動困難な地形になる。だが、GMの裁量によって、例外的に厚い状況や例外的に寒い状況では、この持続時間は増えたり減ったりすることがある。もし、影響を受けたマス目が火炎ダメージを受けたなら、この移動困難な地形は取り除かれる。武器として設計されているわけではないが、クライオミスターの急激な冷却の霧は、起動時に範囲にいるクリーチャーに、種別によって異なる氷雪飛散ダメージを与える。影響を受けた範囲を通り抜けようとするクリーチャーは、移動困難な地形を無視し、通常の速度で移動するため、種別によって異なるDCの〈軽業〉判定を試みることが出来る。クライオミスターを液体の表面に投擲することによって、持続時間の間、液体に浮いた氷の床を作り出すことが出来る。これは、記載された大きさの1体以上のクリーチャーを支えることが出来る。</p>\n<hr />\n<p>範囲は@Template[type:burst|distance:10]{10フィート爆発}、<span data-pf2-check=\"acrobatics\" data-pf2-dc=\"21\" data-pf2-traits=\"cold,consumable,gadget\" data-pf2-label=\"Acrobatics DC\" data-pf2-show-dc=\"gm\">〈軽業〉</span>DCは21、[[/r 3[cold]]]{氷雪飛散ダメージは3点}である。浮かんだ氷の床は1体の大型のクリーチャーか、2体の中型以下のクリーチャーを支えることが出来る。</p>"
 		},
 		{
 			"id": "Crystal Ball (Clear Quartz)",
@@ -1998,18 +1998,18 @@
 		},
 		{
 			"id": "Crystal Shards (Greater)",
-			"name": "Crystal Shards (Greater)",
-			"description": "<p><strong>Usage</strong> held in 1 hand</p>\n<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Strike</p>\n<hr />\n<p>This flask holds a pressurized red-brown gas flecked with bits of sublimated crystal. You gain a +2 item bonus to attack rolls. When the bomb explodes, it deals [[/r {3d4}[piercing]]]{3d4 piercing damage} and [[/r 5 #piercing splash]]{5 piercing splash damage} as the mixture suddenly turns into solid crystals flying at high speeds.</p>\n<p>Surfaces in the splash area grow brittle, gleaming red crystals that crumble to dust after 1 minute. The crystals on level surfaces are @Compendium[pf2e.equipment-srd.7fSnvJ2xoSfa6JXD]{Caltrops}. The crystals on vertical surfaces can be used briefly as handholds, granting the listed item bonus to the next Athletics check to @Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{Climb} each space. The crystals in each space crumble after the creature leaves, whether Climbing or moving through the caltrops.</p>"
+			"name": "クリスタル・シャーズ (グレーター)",
+			"description": "<p><strong>使用方法</strong> 1本の手で持つ</p>\n<p><strong>起動</strong> <span class=\"pf2-icon\">A</span> 打撃</p>\n<hr />\n<p>このフラスコには、圧力をかけられた赤茶色の気体が入っており、その中には昇華した水晶の破片が混じっている。君は攻撃ロールに＋2アイテム・ボーナスを得る。爆発した際、爆弾は[[/r {3d4}[刺突]]]{3d4点の刺突ダメージ}に加えて、[[/r 5 #刺突飛散]]{5点の刺突飛散ダメージ}を与える。この混合物は突然、高速で飛ぶ固体の水晶に変わるのである。</p>\n<p>飛散範囲の地表は、はかなくもまばゆい赤い水晶で輝くが、この水晶は1分後には砕けて塵になってしまう。水平な地表の上にある水晶は、@Compendium[pf2e.equipment-srd.7fSnvJ2xoSfa6JXD]{まきびし}になる。垂直の地表にある水晶は、短い間、手で掴む足場として使うことが出来て、それぞれの空間を@Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{「登攀」}するための次の〈運動〉判定に記載されたとおりのアイテム・ボーナスを与える。「登攀」にせよ、まきびしを通り抜けたにせよ、クリーチャーが去った後、それぞれの空間の水晶は砕ける。</p>"
 		},
 		{
 			"id": "Crystal Shards (Major)",
-			"name": "Crystal Shards (Major)",
-			"description": "<p><strong>Usage</strong> held in 1 hand</p>\n<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Strike</p>\n<hr />\n<p>This flask holds a pressurized red-brown gas flecked with bits of sublimated crystal. You gain the listed item bonus to attack rolls. When the bomb explodes, it deals the listed piercing damage and piercing splash damage as the mixture suddenly turns into solid crystals flying at high speeds.</p>\n<p>Surfaces in the splash area grow brittle, gleaming red crystals that crumble to dust after 1 minute. The crystals on level surfaces are @Compendium[pf2e.equipment-srd.7fSnvJ2xoSfa6JXD]{Caltrops}. The crystals on vertical surfaces can be used briefly as handholds, granting the listed item bonus to the next Athletics check to @Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{Climb} each space. The crystals in each space crumble after the creature leaves, whether Climbing or moving through the caltrops.</p>"
+			"name": "クリスタル・シャーズ (メジャー)",
+			"description": "<strong>使用方法</strong> 1本の手で持つ</p>\n<p><strong>起動</strong> <span class=\"pf2-icon\">A</span> 打撃</p>\n<hr />\n<p>このフラスコには、圧力をかけられた赤茶色の気体が入っており、その中には昇華した水晶の破片が混じっている。君は攻撃ロールに＋3アイテム・ボーナスを得る。爆発した際、爆弾は[[/r {4d4}[刺突]]]{4d4点の刺突ダメージ}に加えて、[[/r 6 #刺突飛散]]{6点の刺突飛散ダメージ}を与える。この混合物は突然、高速で飛ぶ固体の水晶に変わるのである。</p>\n<p>飛散範囲の地表は、はかなくもまばゆい赤い水晶で輝くが、この水晶は1分後には砕けて塵になってしまう。水平な地表の上にある水晶は、@Compendium[pf2e.equipment-srd.7fSnvJ2xoSfa6JXD]{まきびし}になる。垂直の地表にある水晶は、短い間、手で掴む足場として使うことが出来て、それぞれの空間を@Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{「登攀」}するための次の〈運動〉判定に記載されたとおりのアイテム・ボーナスを与える。「登攀」にせよ、まきびしを通り抜けたにせよ、クリーチャーが去った後、それぞれの空間の水晶は砕ける。</p>"
 		},
 		{
 			"id": "Crystal Shards (Moderate)",
-			"name": "Crystal Shards (Moderate)",
-			"description": "<p><strong>Usage</strong> held in 1 hand</p>\n<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Strike</p>\n<hr />\n<p>This flask holds a pressurized red-brown gas flecked with bits of sublimated crystal. You gain the listed item bonus to attack rolls. When the bomb explodes, it deals the listed piercing damage and piercing splash damage as the mixture suddenly turns into solid crystals flying at high speeds.</p>\n<p>Surfaces in the splash area grow brittle, gleaming red crystals that crumble to dust after 1 minute. The crystals on level surfaces are @Compendium[pf2e.equipment-srd.7fSnvJ2xoSfa6JXD]{Caltrops}. The crystals on vertical surfaces can be used briefly as handholds, granting the listed item bonus to the next Athletics check to @Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{Climb} each space. The crystals in each space crumble after the creature leaves, whether Climbing or moving through the caltrops.</p>"
+			"name": "クリスタル・シャーズ (モデレート)",
+			"description": "<strong>使用方法</strong> 1本の手で持つ</p>\n<p><strong>起動</strong> <span class=\"pf2-icon\">A</span> 打撃</p>\n<hr />\n<p>このフラスコには、圧力をかけられた赤茶色の気体が入っており、その中には昇華した水晶の破片が混じっている。君は攻撃ロールに＋1アイテム・ボーナスを得る。爆発した際、爆弾は[[/r {2d4}[刺突]]]{2d4点の刺突ダメージ}に加えて、[[/r 4 #刺突飛散]]{4点の刺突飛散ダメージ}を与える。この混合物は突然、高速で飛ぶ固体の水晶に変わるのである。</p>\n<p>飛散範囲の地表は、はかなくもまばゆい赤い水晶で輝くが、この水晶は1分後には砕けて塵になってしまう。水平な地表の上にある水晶は、@Compendium[pf2e.equipment-srd.7fSnvJ2xoSfa6JXD]{まきびし}になる。垂直の地表にある水晶は、短い間、手で掴む足場として使うことが出来て、それぞれの空間を@Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{「登攀」}するための次の〈運動〉判定に記載されたとおりのアイテム・ボーナスを与える。「登攀」にせよ、まきびしを通り抜けたにせよ、クリーチャーが去った後、それぞれの空間の水晶は砕ける。</p>"
 		},
 		{
 			"id": "Cunning",
@@ -2028,23 +2028,23 @@
 		},
 		{
 			"id": "Cutlery",
-			"name": "Cutlery",
-			"description": "<p>Ammunition for the @Compendium[pf2e.equipment-srd.MMYL2rfbYNWT0Rs1]{Spoon Gun}</p>\n<p>Users typically upend the entire contents of their cutlery drawer into the gun, aim it in the general direction of the foe, and hope it hits something.</p>"
+			"name": "食器",
+			"description": "<p>@Compendium[pf2e.equipment-srd.MMYL2rfbYNWT0Rs1]{スプーン・ガン}の矢弾。</p>\n<p>使用者は一般的に、食器棚の中のあらゆるものを銃に詰め込み、敵がいる代替の方角に狙いを付け、それが何かに命中したらいいなと願うのである。</p>"
 		},
 		{
 			"id": "Cytillesh",
-			"name": "Cytillesh",
-			"description": "<p>Deros use cytillesh in a variety of ways, and some surface-dwellers seek out the fungus for their own use. Memories lost to cytillesh can be restored through modify memory. The save for addiction to cytillesh is DC 20, and the addiction has the virulent trait.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Interact (Ingested)</p>\n<p><strong>Saving Throw</strong> <span data-pf2-check=\"fortitude\" data-pf2-dc=\"15\" data-pf2-traits=\"alchemical,consumable,drug,ingested,poison\" data-pf2-label=\"Cytillesh DC\" data-pf2-show-dc=\"gm\">Fortitude</span></p>\n<p><strong>Maximum Duration</strong> 8 hours</p>\n<p><strong>Stage 1</strong> @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 1} (1 minute)</p>\n<p><strong>Stage 2</strong> lose all memories made in the previous hour (1 hour)</p>"
+			"name": "サイテレシュ",
+			"description": "<p>ディーロは様々な方法でサイテレシュを使用しており、一部の地表で生活するディーロは自分達のためにこのキノコを探し求める。サイテレシュで失われた記憶は、モディファイ・メモリーで回復することが出来る。サイテレシュの中毒に対するセーヴDCは20で、中毒は治癒困難の特性を持つ。</p>\n<hr />\n<p><strong>起動</strong> <span class=\"pf2-icon\">A</span> 使用 (摂取)</p>\n<p><strong>セーヴィング・スロー</strong> <span data-pf2-check=\"fortitude\" data-pf2-dc=\"15\" data-pf2-traits=\"alchemical,consumable,drug,ingested,poison\" data-pf2-label=\"Cytillesh DC\" data-pf2-show-dc=\"gm\">頑健</span></p>\n<p><strong>最大持続時間</strong> 8 時間</p>\n<p><strong>ステージ 1</strong> @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{知性低下1} (1分)</p>\n<p><strong>ステージ 2</strong> 1時間前までに作られた全ての記憶を失う（1時間）</p>"
 		},
 		{
 			"id": "Cytillesh Oil",
-			"name": "Cytillesh Oil",
-			"description": "<p>This thick substance is distilled from the mind-robbing cytillesh fungus, though it lacks memory-altering capabilities.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"pf2-icon\">D</span> Interact (Injury)</p>\n<p><strong>Saving Throw</strong> <span data-pf2-check=\"fortitude\" data-pf2-dc=\"19\" data-pf2-traits=\"alchemical,consumable,injury,poison\" data-pf2-label=\"Cytillesh Oil DC\" data-pf2-show-dc=\"gm\">Fortitude</span></p>\n<p><strong>Maximum Duration</strong> 4 rounds</p>\n<p><strong>Stage 1</strong> <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor=\"poison\" data-formula=\"1d10\" title=\"poison\"><i class=\"fas fa-dice-d20\"></i> 1d10</a> poison damage (1 round)</p>\n<p><strong>Stage 2</strong> <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor=\"poison\" data-formula=\"1d12\" title=\"poison\"><i class=\"fas fa-dice-d20\"></i> 1d12</a> poison damage (1 round)</p>\n<p><strong>Stage 3</strong> <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor=\"poison\" data-formula=\"2d10\" title=\"poison\"><i class=\"fas fa-dice-d20\"></i> 2d10</a> poison damage (1 round)</p>"
+			"name": "サイテレシュ油",
+			"description": "<p>この濃厚な物質は、精神を奪うサイテレシュ茸から蒸留されているが、その記憶を改変する能力は失われている。</p>\n<hr />\n<p><strong>起動</strong> <span class=\"pf2-icon\">D</span> 使用 (致傷)</p>\n<p><strong>セーヴィング・スロー</strong> <span data-pf2-check=\"fortitude\" data-pf2-dc=\"19\" data-pf2-traits=\"alchemical,consumable,injury,poison\" data-pf2-label=\"Cytillesh Oil DC\" data-pf2-show-dc=\"gm\">頑健</span></p>\n<p><strong>最大持続時間</strong> 4 ラウンド</p>\n<p><strong>ステージ 1</strong> <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor=\"poison\" data-formula=\"1d10\" title=\"poison\"><i class=\"fas fa-dice-d20\"></i> 1d10</a> 点の毒ダメージ (1ラウンド)</p>\n<p><strong>ステージ2</strong> <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor=\"poison\" data-formula=\"1d12\" title=\"poison\"><i class=\"fas fa-dice-d20\"></i> 1d12</a> 点の毒ダメージ (1ラウンド)</p>\n<p><strong>ステージ 3</strong> <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor=\"poison\" data-formula=\"2d10\" title=\"poison\"><i class=\"fas fa-dice-d20\"></i> 2d10</a> 点の毒ダメージ (1ラウンド)</p>"
 		},
 		{
 			"id": "Dagger Pistol",
-			"name": "Dagger Pistol",
-			"description": "<p>This weapon, favored by rangers and other wilderness wanderers, takes the form of a stoutly built pistol with a dagger blade attached beneath the barrel and extending out past the muzzle.</p>"
+			"name": "ダガー・ピストル",
+			"description": "<p>レンジャーやその他の荒野をさまよう者はこの武器を好む。この武器は、堅固に作られたピストルなのだが、その銃身の下に銃口よりも伸びたダガーの刃がついている。</p>"
 		},
 		{
 			"id": "Dagger of Eternal Sleep",
@@ -2058,8 +2058,8 @@
 		},
 		{
 			"id": "Daikyu",
-			"name": "Daikyu",
-			"description": "<p>This asymmetrical bow, made of laminated bamboo, wood, and leather, stands 6 feet or more in height. Using a daikyu while mounted limits its firing range to your left side.</p>"
+			"name": "ダイキュウ",
+			"description": "<p>このアシンメトリーな弓は、竹、木、革の薄い板を貼り合わせて作られており、高さは6フィート以上ある。乗馬している間にダイキュウを使うことによって、その発射射程は君の左側だけに限定される。</p>"
 		},
 		{
 			"id": "Dancing",
@@ -2068,13 +2068,13 @@
 		},
 		{
 			"id": "Dancing Scarf",
-			"name": "Dancing Scarf",
-			"description": "<p>This long and billowing scarf is typically woven of silk or sheer fabric and adorned with bells or other jangling bits of shiny metal. It grants a +1 item bonus to Performance checks to dance.</p>\n<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Interact</p>\n<p><strong>Requirements</strong> On your most recent action, you succeeded at a Performance check to dance</p>\n<p><strong>Effect</strong> You become concealed until the beginning of your next turn.</p>\n<hr />\n<p>Automatically applied effects:</p>\n<ul>\n<li>+1 item bonus to Performance checks to dance</li>\n</ul>"
+			"name": "ダンシング・スカーフ",
+			"description": "<p>この長くて波打つようなスカーフは通常は絹や薄手の生地で織られており、鈴や輝く金属で作られた小さな装飾で飾られている。このスカーフは踊るための〈芸能〉判定に＋1アイテム・ボーナスを与える。</p>\n<p><strong>起動</strong> <span class=\"pf2-icon\">A</span> 使用</p>\n<p><strong>条件</strong> 君が直近のアクションで、踊るための〈芸能〉判定に成功している</p>\n<p><strong>効果</strong> 君は次の手番の開始時まで視認困難になる</p>\n<hr />\n<p>自動的に適用される効果:</p>\n<ul>\n<li>踊るための〈芸能〉判定に+1アイテム・ボーナス</li>\n</ul>"
 		},
 		{
 			"id": "Dancing Scarf (Greater)",
-			"name": "Dancing Scarf (Greater)",
-			"description": "<p>This long and billowing scarf is typically woven of silk or sheer fabric and adorned with bells or other jangling bits of shiny metal. It grants a +2 item bonus to Performance checks to dance.</p>\n<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Interact</p>\n<p><strong>Requirements</strong> On your most recent action, you succeeded at a Performance check to dance</p>\n<p><strong>Effect</strong> You become concealed until the beginning of your next turn. You can also Stride up to half your Speed or Step.</p>\n<hr />\n<p>Automatically applied effects:</p>\n<ul>\n<li>+2 item bonus to Performance checks to dance</li>\n</ul>"
+			"name": "ダンシング・スカーフ (グレーター)",
+			"description": "<p>この長くて波打つようなスカーフは通常は絹や薄手の生地で織られており、鈴や輝く金属で作られた小さな装飾で飾られている。このスカーフは踊るための〈芸能〉判定に＋2アイテム・ボーナスを与える。</p>\n<p><strong>起動</strong> <span class=\"pf2-icon\">A</span> 使用</p>\n<p><strong>条件</strong> 君が直近のアクションで、踊るための〈芸能〉判定に成功している</p>\n<p><strong>効果</strong> 君は次の手番の開始時まで視認困難になる。君は速度の半分まで「歩行」するか、｢ステップ」することが出来る。</p>\n<hr />\n<p>自動的に適用される効果:</p>\n<ul>\n<li>踊るための〈芸能〉判定に+2アイテム・ボーナス</li>\n</ul>"
 		},
 		{
 			"id": "Daredevil Boots",
@@ -2088,18 +2088,18 @@
 		},
 		{
 			"id": "Darkvision Elixir (Greater)",
-			"name": "Darkvision Elixir (Greater)",
-			"description": "<p><strong>Activate</strong><span class=\"pf2-icon\">1</span> Interact</p>\n<p>After you drink this elixir, your sight becomes sharper in darkness. You gain darkvision for 24 hours.</p>\n<p>@Compendium[pf2e.consumable-effects.7vCenP9j6FuHRv5C]{Effect: Darkvision Elixir (Greater)}</p>"
+			"name": "ダークヴィジョン・エリクサー (グレーター)",
+			"description": "<p><strong>起動</strong><span class=\"pf2-icon\">1</span> 使用</p>\n<p>このエリクサーを飲んだ後、君の視界は暗闇に鋭くなる。君は記載された24時間の間、暗視を得る。</p>\n<p>@Compendium[pf2e.consumable-effects.7vCenP9j6FuHRv5C]{効果: ダークヴィジョン・エリクサー (グレーター)}</p>"
 		},
 		{
 			"id": "Darkvision Elixir (Lesser)",
-			"name": "Darkvision Elixir (Lesser)",
-			"description": "<p><strong>Activate</strong><span class=\"pf2-icon\">1</span> Interact</p>\n<p>After you drink this elixir, your sight becomes sharper in darkness. You gain darkvision for 10 minutes.</p>\n<p>@Compendium[pf2e.consumable-effects.7UL8belWmo7U5YGM]{Effect: Darkvision Elixir (Lesser)}</p>"
+			"name": "ダークヴィジョン・エリクサー (レッサー)",
+			"description": "<p><strong>起動</strong><span class=\"pf2-icon\">1</span> 使用</p>\n<p>このエリクサーを飲んだ後、君の視界は暗闇に鋭くなる。君は記載された10分の間、暗視を得る。</p>\n<p>@Compendium[pf2e.consumable-effects.7UL8belWmo7U5YGM]{効果: ダークヴィジョン・エリクサー (レッサー)}</p>"
 		},
 		{
 			"id": "Darkvision Elixir (Moderate)",
-			"name": "Darkvision Elixir (Moderate)",
-			"description": "<p><strong>Activate</strong><strong></strong><span class=\"pf2-icon\">1</span> Interact</p>\n<p>After you drink this elixir, your sight becomes sharper in darkness. You gain darkvision for 1 hour.</p>\n<p>@Compendium[pf2e.consumable-effects.bcxVvIbuZWOvsKcA]{Effect: Darkvision Elixir (Moderate)}</p>"
+			"name": "ダークヴィジョン・エリクサー (モデレート)",
+			"description": "<p><strong>起動</strong><strong></strong><span class=\"pf2-icon\">1</span> 使用</p>\n<p>このエリクサーを飲んだ後、君の視界は暗闇に鋭くなる。君は記載された1時間の間、暗視を得る。</p>\n<p>@Compendium[pf2e.consumable-effects.bcxVvIbuZWOvsKcA]{効果: ダークヴィジョン・エリクサー (モデレート)}</p>"
 		},
 		{
 			"id": "Darkvision Scope",

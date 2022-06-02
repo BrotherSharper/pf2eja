@@ -113,8 +113,8 @@
 		},
 		{
 			"id": "Effect: Bronze Bull Pendant",
-			"name": "Effect: Bronze Bull Pendant",
-			"description": "<p>Granted by @Compendium[pf2e.equipment-srd.nXStoLxPrrP2b6WB]{Bronze Bull Pendant}</p>\n<p>Automatically applied effects:</p>\n<ul>\n<li>+2 status bonus to Athletics check to Shove</li>\n</ul>"
+			"name": "効果: ブロンズ・ブル・ペンダント",
+			"description": "<p>@Compendium[pf2e.equipment-srd.nXStoLxPrrP2b6WB]{ブロンズ・ブル・ペンダント}による効果。</p>\n<p>自動的に適用される効果:</p>\n<ul>\n<li>「押しやり」のための〈運動〉判定に+2ステータス・ボーナス</li>\n</ul>"
 		},
 		{
 			"id": "Effect: Cheetah's Elixir (Greater)",
@@ -133,38 +133,38 @@
 		},
 		{
 			"id": "Effect: Cognitive Mutagen (Greater)",
-			"name": "Effect: Cognitive Mutagen (Greater)",
-			"description": "<p>Granted by @Compendium[pf2e.equipment-srd.ZGojRKG1yYiVWemR]{Cognitive Mutagen (Greater)}</p>\n<p><strong>Implemented effects:</strong></p>\n<ul>\n<li>+3 item bonus to Arcana, Crafting, Occultism and Society checks</li>\n<li>+3 item bonus to all Recall Knowledge checks</li>\n<li>-2 penalty to to Athletics and Acrobatics checks</li>\n<li>-2 penalty to weapon and unarmed attacks</li>\n</ul>\n<p><strong>Unimplemented effects:</strong></p>\n<ul>\n<li>+3 item bonus to Lore checks</li>\n<li>Treat Recall Knowledge critical failures as failures</li>\n<li>You can carry 2 less Bulk than normal before becoming encumbered</li>\n<li>The maximum Bulk you can carry is reduced by 4</li>\n</ul>"
+			"name": "効果: コグニティヴ・ミュタゲン (グレーター)",
+			"description": "<p>@Compendium[pf2e.equipment-srd.ZGojRKG1yYiVWemR]{コグニティヴ・ミュタゲン (グレーター)}による効果。</p>\n<p><strong>実装されている効果:</strong></p>\n<ul>\n<li>〈神秘学〉、〈製作〉、〈霊妙学〉、〈社会〉、「知識を思い出す」判定への+3アイテム・ボーナス</li>\n<li>〈運動〉判定、〈軽業〉判定への－2ペナルティ</li>\n<li>武器と素手打撃ロールへの-2ペナルティ</li>\n</ul>\n<p><strong>未実装の効果:</strong></p>\n<ul>\n<li>〈伝承〉への+3アイテム・ボーナス</li>\n<li>「知識を思い出す」のファンブルを失敗として扱う</li>\n<li>君は過積載状態になるまで、通常よりも2バルク少ない荷物しか運べない</li>\n<li>君が運ぶことが出来る最大バルクは4、減る</li>\n</ul>"
 		},
 		{
 			"id": "Effect: Cognitive Mutagen (Lesser)",
-			"name": "Effect: Cognitive Mutagen (Lesser)",
-			"description": "<p>Granted by @Compendium[pf2e.equipment-srd.wbr6rkyaVYnDhdgV]{Cognitive Mutagen (Lesser)}</p>\n<p><strong>Implemented effects:</strong></p>\n<ul>\n<li>+1 item bonus to Arcana, Crafting, Occultism and Society checks</li>\n<li>+1 item bonus to all Recall Knowledge checks</li>\n<li>-2 penalty to to Athletics and Acrobatics checks</li>\n<li>-2 penalty to weapon and unarmed attacks</li>\n</ul>\n<p><strong>Unimplemented effects:</strong></p>\n<ul>\n<li>+1 item bonus to Lore checks</li>\n<li>Treat Recall Knowledge critical failures as failures</li>\n<li>You can carry 2 less Bulk than normal before becoming encumbered</li>\n<li>The maximum Bulk you can carry is reduced by 4</li>\n</ul>"
+			"name": "効果: コグニティヴ・ミュタゲン (レッサー)",
+			"description": "<p>@Compendium[pf2e.equipment-srd.wbr6rkyaVYnDhdgV]{コグニティヴ・ミュタゲン (レッサー)}による効果。</p>\n<p><strong>実装されている効果:</strong></p>\n<ul>\n<li>〈神秘学〉、〈製作〉、〈霊妙学〉、〈社会〉、「知識を思い出す」判定への+3アイテム・ボーナス</li>\n<li>〈運動〉判定、〈軽業〉判定への－2ペナルティ</li>\n<li>武器と素手打撃ロールへの-2ペナルティ</li>\n</ul>\n<p><strong>未実装の効果:</strong></p>\n<ul>\n<li>〈伝承〉への+3アイテム・ボーナス</li>\n<li>「知識を思い出す」のファンブルを失敗として扱う</li>\n<li>君は過積載状態になるまで、通常よりも2バルク少ない荷物しか運べない</li>\n<li>君が運ぶことが出来る最大バルクは4、減る</li>\n</ul>"
 		},
 		{
 			"id": "Effect: Cognitive Mutagen (Major)",
-			"name": "Effect: Cognitive Mutagen (Major)",
-			"description": "<p>Granted by @Compendium[pf2e.equipment-srd.VBK9i74dry8yf8f0]{Cognitive Mutagen (Major)}</p>\n<p><strong>Implemented effects:</strong></p>\n<ul>\n<li>+4 item bonus to Arcana, Crafting, Occultism and Society checks</li>\n<li>+4 item bonus to all Recall Knowledge checks</li>\n<li>-2 penalty to to Athletics and Acrobatics checks</li>\n<li>-2 penalty to weapon and unarmed attacks</li>\n</ul>\n<p><strong>Unimplemented effects:</strong></p>\n<ul>\n<li>+4 item bonus to Lore checks</li>\n<li>Treat Recall Knowledge critical failures as failures</li>\n<li>You can carry 2 less Bulk than normal before becoming encumbered</li>\n<li>The maximum Bulk you can carry is reduced by 4</li>\n</ul>"
+			"name": "効果: コグニティヴ・ミュタゲン (メジャー)",
+			"description": "<p>@Compendium[pf2e.equipment-srd.VBK9i74dry8yf8f0]{コグニティヴ・ミュタゲン (メジャー)}による効果。</p>\n<p><strong>実装されている効果:</strong></p>\n<ul>\n<li>〈神秘学〉、〈製作〉、〈霊妙学〉、〈社会〉、「知識を思い出す」判定への+3アイテム・ボーナス</li>\n<li>〈運動〉判定、〈軽業〉判定への－2ペナルティ</li>\n<li>武器と素手打撃ロールへの-2ペナルティ</li>\n</ul>\n<p><strong>未実装の効果:</strong></p>\n<ul>\n<li>〈伝承〉への+3アイテム・ボーナス</li>\n<li>「知識を思い出す」のファンブルを失敗として扱う</li>\n<li>君は過積載状態になるまで、通常よりも2バルク少ない荷物しか運べない</li>\n<li>君が運ぶことが出来る最大バルクは4、減る</li>\n</ul>"
 		},
 		{
 			"id": "Effect: Cognitive Mutagen (Moderate)",
-			"name": "Effect: Cognitive Mutagen (Moderate)",
-			"description": "<p>Granted by @Compendium[pf2e.equipment-srd.qpzL9UnTi4cDhy6J]{Cognitive Mutagen (Moderate)}</p>\n<p><strong>Implemented effects:</strong></p>\n<ul>\n<li>+2 item bonus to Arcana, Crafting, Occultism and Society checks</li>\n<li>+2 item bonus to all Recall Knowledge checks</li>\n<li>-2 penalty to to Athletics and Acrobatics checks</li>\n<li>-2 penalty to weapon and unarmed attacks</li>\n</ul>\n<p><strong>Unimplemented effects:</strong></p>\n<ul>\n<li>+2 item bonus to Lore checks</li>\n<li>Treat Recall Knowledge critical failures as failures</li>\n<li>You can carry 2 less Bulk than normal before becoming encumbered</li>\n<li>The maximum Bulk you can carry is reduced by 4</li>\n</ul>"
+			"name": "効果: コグニティヴ・ミュタゲン (モデレート)",
+			"description": "<p>@Compendium[pf2e.equipment-srd.qpzL9UnTi4cDhy6J]{コグニティヴ・ミュタゲン (モデレート)}による効果。</p>\n<p><strong>実装されている効果:</strong></p>\n<ul>\n<li>〈神秘学〉、〈製作〉、〈霊妙学〉、〈社会〉、「知識を思い出す」判定への+3アイテム・ボーナス</li>\n<li>〈運動〉判定、〈軽業〉判定への－2ペナルティ</li>\n<li>武器と素手打撃ロールへの-2ペナルティ</li>\n</ul>\n<p><strong>未実装の効果:</strong></p>\n<ul>\n<li>〈伝承〉への+3アイテム・ボーナス</li>\n<li>「知識を思い出す」のファンブルを失敗として扱う</li>\n<li>君は過積載状態になるまで、通常よりも2バルク少ない荷物しか運べない</li>\n<li>君が運ぶことが出来る最大バルクは4、減る</li>\n</ul>"
 		},
 		{
 			"id": "Effect: Darkvision Elixir (Greater)",
-			"name": "Effect: Darkvision Elixir (Greater)",
-			"description": "<p>Granted by @Compendium[pf2e.equipment-srd.bz8Y8bVUe7QfBk9g]{Darkvision Elixir (Greater)}</p>\n<p>Implemented effects:</p>\n<ul>\n<li>Gain Darkvision</li>\n</ul>"
+			"name": "効果: ダークヴィジョン・エリクサー (グレーター)",
+			"description": "<p>@Compendium[pf2e.equipment-srd.bz8Y8bVUe7QfBk9g]{ダークヴィジョン・エリクサー (グレーター)}による効果。</p>\n<p>実装済みの効果:</p>\n<ul>\n<li>暗視を得る</li>\n</ul>"
 		},
 		{
 			"id": "Effect: Darkvision Elixir (Lesser)",
-			"name": "Effect: Darkvision Elixir (Lesser)",
-			"description": "<p>Granted by @Compendium[pf2e.equipment-srd.88pGCHV0uKMskTVO]{Darkvision Elixir (Lesser)}</p>\n<p>Implemented effects:</p>\n<ul>\n<li>Gain Darkvision</li>\n</ul>"
+			"name": "効果: ダークヴィジョン (レッサー)",
+			"description": "<p>@Compendium[pf2e.equipment-srd.88pGCHV0uKMskTVO]{ダークヴィジョン・エリクサー(レッサー)}</p>\n<p>実装済みの効果:</p>\n<ul>\n<li>暗視を得る</li>\n</ul>"
 		},
 		{
 			"id": "Effect: Darkvision Elixir (Moderate)",
-			"name": "Effect: Darkvision Elixir (Moderate)",
-			"description": "<p>Granted by @Compendium[pf2e.equipment-srd.Y8115p3cmQJBqk5d]{Darkvision Elixir (Moderate)}</p>\n<p>Implemented effects:</p>\n<ul>\n<li>Gain Darkvision</li>\n</ul>"
+			"name": "効果: ダークヴィジョン・エリクサー (モデレート)",
+			"description": "<p>@Compendium[pf2e.equipment-srd.Y8115p3cmQJBqk5d]{ダークヴィジョン・エリクサー (モデレート)}</p>\n<p>実装済みの効果:</p>\n<ul>\n<li>暗視を得る</li>\n</ul>"
 		},
 		{
 			"id": "Effect: Dragon Turtle Scale",

@@ -178,18 +178,18 @@
 		},
 		{
 			"id": "Effect: Clockwork Goggles",
-			"name": "Effect: Clockwork Goggles",
-			"description": "<p>You gain low-light vision for 10 minutes.</p>"
+			"name": "効果: クロックワーク・ゴーグル",
+			"description": "<p>起動した際、君は10分間、夜目を得る</p>"
 		},
 		{
 			"id": "Effect: Clockwork Goggles (Greater)",
-			"name": "Effect: Clockwork Goggles (Greater)",
-			"description": "<p>You gain low-light vision and darkvision for 10 minutes.</p>"
+			"name": "効果: クロックワーク・ゴーグル (グレーター)",
+			"description": "<p>起動した際、君は10分間、夜目と暗視を得る</p>"
 		},
 		{
 			"id": "Effect: Clockwork Goggles (Major)",
-			"name": "Effect: Clockwork Goggles (Major)",
-			"description": "<p>You gain low-light vision, darkvision, and <em>@Compendium[pf2e.spells-srd.jwK43yKsHTkJQvQ9]{See Invisibility}</em> for 10 minutes.</p>"
+			"name": "効果: クロックワーク・ゴーグル (メジャー)",
+			"description": "<p>起動した際、君は10分間、夜目、暗視、<em>@Compendium[pf2e.spells-srd.jwK43yKsHTkJQvQ9]{シー・インヴィジビリティ}</em>の効果を得る</p>"
 		},
 		{
 			"id": "Effect: Crimson Fulcrum Lens",
