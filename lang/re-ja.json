@@ -48,12 +48,19 @@
 				"Tentacle": "触手",
 				"TentacleArm": "触腕",
 				"Tongue": "舌",
+				"Trunk": "鼻",
 				"Tusk": "大牙",
 				"Vine": "つる",
 				"Wave": "波",
 				"WaterSpout": "水の噴出",
 				"Wing": "翼"
-			}
+			},
+			"Note": {
+                "GrabbingTrunk": {
+                    "Title": "鼻によるつかみ",
+                    "Text": "君の鼻による攻撃が命中した、君よりも2サイズ以上小さいクリーチャーは @Compendium[pf2e.conditionitems.Grabbed]{つかまれた状態}になる。君が鼻につかまれたクリーチャーに対する@Compendium[pf2e.actionspf2e.Grapple]{「組みつき」} 判定に成功したなら、君は鼻の間合い内にある別の空間にそのクリーチャーを再配置することが出来る。"
+                }
+            }
 		},
 		"BombNotes": {
 			"AcidFlask": {
@@ -433,9 +440,16 @@
 		},
 		"NPCAbility": {
 			"BarghestFeed": "このバーゲストは何度、食事をしましたか？",
+			"Calikang": {
+                "SixfoldFlurry": "Strikes not taken?",
+                "SuspendedAnimationEnter": "Enter Suspended Animation",
+                "SuspendedAnimationExit": "Exit Suspended Animation"
+            },
 			"Charge": {
                 "AtLeastTen": "少なくとも10フィート移動してください"
             },
+			"ChyzaeduAlienVestment": "Shattered Alien Vestment",
+            "ClockworkWindUp": "スタンバイ状態",
 			"ConstructArmor": {
 				"BrokenArmor": "破壊された人造の鎧",
 				"CriticalHit": "人造の鎧はクリティカル・ヒットによって破壊されました"
@@ -471,6 +485,19 @@
 			},			
             "PunishingStrike": {
                 "Note": "己を顧みない攻撃によって使用者は次の手番の開始時まで@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{立ちすくみ}である。もし命中したなら、その打撃に@Compendium[pf2e.bestiary-ability-glossary-srd.t6cx9FOODmeZQNYl]{「押しだし」}を追加することが出来る"
+            },
+			"SkyDragon": {
+                "DivineLightningGood": "神性の雷撃 - 善ダメージ",
+                "DivineLightningPositive": "神性の雷撃 - 正のエネルギーダメージ"
+            },
+            "SovereignDragon": {
+                "InspireEnvoyDragonChoice": "Dragon Granting the Effect",
+                "InspireEnvoyDragonAdult": "Adult Sovereign Dragon",
+                "InspireEnvoyDragonAncient": "Ancient Sovereign Dragon",
+                "InspireEnvoyEffectChoice": "Granted Effect",
+                "InspireEnvoyEffectAttack": "Bonus to Attack",
+                "InspireEnvoyEffectAC": "Bonus to AC",
+                "InspireEnvoyEffectPercWillCha": "Bonus to Will, Perception and Charisma-based skill checks"
             },
 			"TreerazerPlantAttack": "植物を攻撃する",
 			"Vampire": {
@@ -547,6 +574,10 @@
                 "success": "[[/r {2d4}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}",
                 "criticalSuccess": "[[/r {2*2d4}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}"
             },
+			"Bleed8d4": {
+                "success": "[[/r {8d4}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}",
+                "criticalSuccess": "[[/r {2*8d4}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}"
+            },
 			"Bleed1d6": {
 				"regular": "[[/r {1d6}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}",
 				"critical": "[[/r {2*1d6}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}"
@@ -562,6 +593,10 @@
 			"Bleed4d6": {
                 "success": "[[/r {4d6}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}",
                 "criticalSuccess": "[[/r {2*4d6}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}"
+            },
+			"Bleed6d6": {
+                "success": "[[/r {6d6}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}",
+                "criticalSuccess": "[[/r {2*6d6}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}"
             },
 			"Bleed1d8": {
 				"success": "[[/r {1d8}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}",
@@ -586,6 +621,14 @@
             "Bleed2d10": {
                 "success": "[[/r {2d10}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}",
                 "criticalSuccess": "[[/r {2*2d10}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}"
+            },
+			"Bleed3d10": {
+                "success": "[[/r {3d10}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}",
+                "criticalSuccess": "[[/r {2*3d10}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}"
+            },
+            "Bleed6d10": {
+                "success": "[[/r {6d10}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}",
+                "criticalSuccess": "[[/r {2*6d10}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}"
             },
             "Bleed1d12": {
                 "success": "[[/r {1d12}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}",
@@ -623,6 +666,10 @@
 				"success": "[[/r {2d6}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}",
 				"criticalSuccess": "[[/r {2*2d6}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}"
 			},
+			"Fire3d6": {
+                "success": "[[/r {3d6}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}",
+                "criticalSuccess": "[[/r {2*3d6}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}"
+            },
 			"Fire2d8": {
 				"success": "[[/r {2d8}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}",
 				"criticalSuccess": "[[/r {2*2d8}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}"
@@ -639,6 +686,10 @@
 				"success": "[[/r {2d10}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}",
 				"criticalSuccess": "[[/r {2*2d10}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}"
 			},
+			"Mental1d4": {
+                "success": "[[/r {1d4}[p継続、精神]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続精神ダメージ}",
+                "criticalSuccess": "[[/r {2*1d4}[継続、精神]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続精神ダメージ}"
+            },
 			"Mental1d6": {
                 "success": "[[/r {1d6}[継続、精神]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続精神ダメージ}",
                 "criticalSuccess": "[[/r {2*1d6}[継続、精神]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続精神ダメージ}"
@@ -646,6 +697,14 @@
             "Mental2d6": {
                 "success": "[[/r {2d6}[継続、精神]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続精神ダメージ}",
                 "criticalSuccess": "[[/r {2*2d6}[継続、精神]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続精神ダメージ}"
+            },
+			"Mental3d6": {
+                "success": "[[/r {3d6}[継続、精神]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続精神ダメージ}",
+                "criticalSuccess": "[[/r {2*3d6}[継続、精神]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続精神ダメージ}"
+            },
+			"Mental1d8": {
+                "success": "[[/r {1d8}[継続、精神]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続精神ダメージ}",
+                "criticalSuccess": "[[/r {2*1d8}[継続、精神]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続精神ダメージ}"
             },
             "Piercing2d8+8": {
                 "success": "[[/r {2d8+8}[継続、刺突]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続刺突ダメージ}",
@@ -698,15 +757,16 @@
 			"AdjustDegreeOfSuccess": "成功度の調整",
 			"AdjustModifier": "修正値の調整",
 			"AdjustStrike": "「打撃」の調整",
+			"Aura": "オーラ",
 			"BaseSpeed": "基本速度",
 			"BattleForm": "戦闘形態",
 			"ChoiceSet": "選択セット",
 			"CraftingEntry": "製作の項目",
 			"CraftingFormula": "製作の処方",
 			"CreatureSize": "サイズ",
-			"EffectTarget": "効果の対象",
 			"DamageDice": "ダメージ・ダイス",
 			"DexterityModifierCap": "敏捷修正値上限",
+			"EffectTarget": "効果の対象",
 			"FastHealing": "高速治癒／再生",
 			"FlatModifier": "平目の修正値",
 			"FixedProficiency": "習熟の固定",
@@ -716,20 +776,21 @@
 			"LoseHitPoints": "ヒット・ポイント減少",
 			"MultipleAttackPenalty": "複数回攻撃ペナルティ",
 			"Note": "注釈",
+			"Resistance": "抵抗",
+            "RollOption": "ロール・オプション",
+            "RollTwice": "二度ロールする",
 			"Sense": "感覚",
 			"Strike": "打撃",
 			"Striking": "ストライキング",
 			"RecoveryCheckDC": "回復判定DC",
-			"Resistance": "抵抗",
-			"RollOption": "ロール・オプション",
 			"TempHP": "一時的ヒット・ポイント",
 			"TempHPShortLabel": "一時HP",
 			"TokenEffectIcon": "トークン効果アイコン",
 			"TokenImage": "トークン画像",
 			"TokenLight": "トークンの照明",
+			"TokenName": "トークンの名前",
 			"Weakness": "弱点",
 			"WeaponPotency": "武器発現",
-			"NewRuleElement": "新しいルール要素",
 			"Unrecognized": "非公式のルール要素"
 		},
 		"SkillVariant": {
@@ -740,16 +801,20 @@
 			"Climb": "「登攀」に",
 			"ClimbOrSwim": "「登攀」あるいは「水泳」に",
 			"CommandAnAnimal": "「動物使い」に",
+			"CraftJewelry": "宝飾品作成に",
 			"CraftTrap": "トラップ作成に",
 			"CraftTrapSnare": "トラップと罠作成に",
+			"CreateForgery": "偽造品作成に",
 			"Darkness": "暗闇で",
 			"Demoralize": "「士気をくじく」に",
 			"Deserts": "砂漠で",
 			"Disarm": "「武器落とし」に",
 			"DisarmGrapple": "「武器落とし」あるいは「組みつき」に",
+			"DisarmGrappleAvoidDisarm": "「武器落とし」、「組みつき」あるいは「組みつき」の回避に",
 			"DisarmMetal": "金属製アイテムの「武器落とし」に",
 			"DisarmStoneMetal": "石あるいは金属製アイテムの「武器落とし」に",
 			"Escape": "「脱出」に",
+			"Feint": "「フェイント」に",
 			"Forests": "森林で",
 			"ForestsOrSwamps": "森林あるいは沼地で",
 			"GatherInformation": "「情報収集」に",
@@ -824,6 +889,11 @@
 				"ExplorersClothing": "アニマル・スキン＋探検家の衣類",
 				"MageArmor": "アニマル・スキン＋メイジ・アーマー"
 			},
+			"MarkForDeath": {
+                "TargetMark": "対象は死の予告を受けている",
+                "SeekMark": "君の予告を「捜す」",
+                "DeceiveMark": "予告を「フェイント」するのに〈欺瞞〉を使う"
+            },
             "Automaton": {
                 "ArcaneLomotion": {
                     "Prompt": "移動種別を選んでください"
@@ -1023,6 +1093,9 @@
                     "Accuracy": "攻撃に+1ステータス・ボーナスを得る"
                 }
             },
+			"FollowTheExpert": {
+                "Prompt": "専門家の習熟度を選んでください"
+            },
             "GameHunterDedication": {
                 "TargetHuntedPrey": "対象が君の獲物である(動物、獣、あるいはドラゴンのみ)"
             },
@@ -1036,11 +1109,11 @@
                 }
             },
             "Ghoul": {
-                "FullySatiated": "Fully Satiated",
-                "Satiated": "Satiated",
+                "FullySatiated": "満腹",
+                "Satiated": "満腹状態",
                 "SickeningBite": {
-                    "criticalSuccess": "When you critically hit a creature with your jaws, the creature is @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1}. This is a disease effect.",
-                    "success": "You can end your satiation to make the target @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1}"
+                    "criticalSuccess": "顎でクリーチャーにクリティカル・ヒットした際、そのクリーチャーは@Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{不調 1}になる。これは病気効果である。",
+                    "success": "君は満腹状態を終わらせて対象を@Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{不調1}にすることが出来る"
                 }
             },
             "Gnome": {
@@ -1064,6 +1137,15 @@
                     "Note": "君がエルフに対して「懐柔」のための〈芸能〉判定を試みた際、君がファンブルしたなら、代わりに失敗する。"
                 }
             },
+			"Halfling": {
+                "Innocuous": {
+                    "Note": "「気をそらす」ための〈欺瞞〉判定に失敗した際、人型生物のクリーチャーは君がファンブルしない限り、君が騙そうとしたことに気付かない"
+                },
+                "SureFeet": {
+                    "BalanceNote": "もし、「バランスを取る」ためのロールに成功をロールしたなら、代わりにクリティカルする。君は「バランスを取る」際に立ちすくみにならない。",
+                    "ClimbNote": "もし、君が「登攀」するための〈運動〉に成功をロールしたなら、代わりにクリティカルする。君は「登攀」しようとるする際に立ちすくみにならない。"
+                }
+            },
             "HarrowDeck": {
                 "Prompt": "ハロー・デックのスートを選んでください",
                 "HarrowSuits": {
@@ -1075,10 +1157,51 @@
                     "Stars": "星"
                 }
             },
+			"Hobgoblin": {
+                "AgonizingRebuke": {
+                    "Note": "When you successfully Demoralize a foe, that foe takes [[/r {1d4}[mental]]]{1d4 mental damage} at the start of each of its turns as long as it remains Frightened and continues to engage in combat with you. If you have master proficiency in Intimidation, the damage increases to [[/r {2d4}[mental]]]{2d4}, and if you have legendary proficiency, the damage increases to [[/r {3d4}[mental]]]{3d4}."
+                },
+                "CantorianReinforcement": {
+                    "Note": "When you succeed at a saving throw against a disease or poison, you reduce the stage by 2 (or 1 for a virulent disease or poison), and when you critically succeed, you reduce the stage by 3 (or 2 for a virulent disease or poison)."
+                },
+                "WarConditioning": {
+                    "Prompt": "Select a movement type."
+                }
+            },
+            "Human": {
+                "SaocAstrology": {
+                    "Prompt": "Select the circumstance penalty or bonus you obtained when using the Saoc Astrology action."
+                },
+                "VikingShieldbearer": {
+                    "Prompt": "Select a weapon to become trained in."
+                },
+                "WitchWarden": {
+                    "SaveNote": " If you roll a success on a saving throw against a curse or a spell cast by a witch or hag, you get a critical success instead."
+                }
+            },
             "HuntPrey": {
                 "TargetHuntedPrey": "対象は君の獲物である",
                 "SeekHuntedPrey": "獲物を探すために",
                 "TrackHuntedPrey": "獲物を追跡するために"
+            },
+			"Kobold": {
+                "DragonsPresence": {
+                    "Note": "When you roll a success on a saving throw against a fear effect, you get a critical success instead. When you roll a failure against a fear effect, you get a critical failure instead."
+                },
+                "DragonbloodParagon": {
+                    "Dracomancer": "Dracomancer",
+                    "KoboldBreath": "Kobold Breath",
+                    "StrongjawKobold": "Strongjaw Kobold",
+                    "VenomtailKobold": "Venomtail Kobold"
+                }
+            },
+            "Leshy": {
+                "Seedpod": {
+                    "Note": "On a critical hit, a seedpod bursts, issuing forth a tangle of vegetation that imposes a -10-foot circumstance penalty on the target's Speed for 1 round."
+                },
+                "ThornedSeedpod": {
+                    "Note": "When you critically succeed at a seedpod Strike, vines twist and stab your foe, dealing [[/r {1d4}[persistent,piercing]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Piercing Damage}"
+                }
             },
             "Lich": {
                 "HandOfTheLich": {
@@ -1086,6 +1209,11 @@
                 }
             },
             "LitTorch": "松明をつける",
+			"Lizardfolk": {
+                "ParthenogenicHatchling": {
+                    "Note": "Each of your successful saving throws against a disease reduces its stage by 2, or by 1 for a virulent disease. Each critical success against an ongoing disease reduces its stage by 3, or by 2 for a virulent disease."
+                }
+            },
 			"MartialProficiency": {
 				"AdvancedAzarketiWeapons": "上級アザールケティ武器",
 				"AdvancedCatfolkWeapons": "上級キャットフォーク武器",
@@ -1196,13 +1324,41 @@
 				"Lesson": "教えを選んで下さい",
 				"LevelOneClassFeat": "１レベルのクラス特技を選んでください",
 				"LevelOneOrTwoClassFeat": "1レベルあるいは2レベルのクラス特技を選んでください",
+				"Material": "素材を選んでください",
 				"PathToPerfection": "完全への道を選んでください",
 				"Shillelagh": "クラブがスタッフを選んでください",
 				"Skill": "技能を選んで下さい",
+				"SkillFeat": "技能特技を選んでください",
 				"Weapon": "武器を選んでくださ",
 				"WeaponGroup": "武器グループを選んでください",
 				"UnarmedAttack": "素手打撃を選んでください"
 			},
+			"Orc": {
+                "HoldMark": {
+                    "Axe": "Axe (Axe or Pick).",
+                    "Shield": "Shield (Hammer or Shield).",
+                    "Torch": "Torch (Bomb or Knife).",
+                    "Prompt": "Choose the shape of your hold mark."
+                }
+            },
+            "Poppet": {
+                "WashOut": {
+                    "Note": "Each time you succeed at a Fortitude save against an ongoing poison, you reduce its stage by 2, or by 1 against a virulent poison. Each critical success you achieve against an ongoing poison reduces its stage by 3, or by 2 against a virulent poison."
+                }
+            },
+            "Ratfolk": {
+                "LabRat": {
+                    "Note": "If you roll a success on your saving throw against an elixir or poison, you get a critical success instead."
+                },
+                "WarrenNavigator": {
+                    "Note": "When you Sense Direction, you get a result one degree of success better than you rolled."
+                }
+            },
+            "Shisk": {
+                "PiercingQuills": {
+                    "Note": "Your quills unarmed attack deals @Localize[PF2E.PersistentDamage.Bleed1d4.success] on a critical hit."
+                }
+            },
             "SneakAttack": "急所攻撃",
 			"SpecialtyCrafting": {
 				"Alchemy": "錬金術",
@@ -1219,6 +1375,9 @@
 				"Weaving": "織物",
 				"Woodworking": "木工"
 			},
+			"SpellmastersResilience": {
+                "Prompt": "Select a magical tradition to gain resistence in."
+            },
 			"Stance": {
 				"Attack": {
 					"WolfJaws": "狼の顎"
@@ -1255,6 +1414,7 @@
 				"Cane": "ケーンを両手持ちする",
 				"Katana": "カタナを両手持ちする",
 				"Khakkhara": "カーッカーラを両手持ちする",
+				"ReinforcedStock": "強化ストックを両手持ちする",
 				"RhokaSword": "ローカ・ソードを両手持ちする",
 				"Staff": "スタッフを両手持ちする"
 			},
