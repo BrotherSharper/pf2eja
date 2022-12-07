@@ -47,12 +47,13 @@
 				"Tendril": "巻づる",
 				"Tentacle": "触手",
 				"TentacleArm": "触腕",
+				"Thorn": "いばら",
 				"Tongue": "舌",
 				"Trunk": "鼻",
 				"Tusk": "大牙",
 				"Vine": "つる",
-				"Wave": "波",
 				"WaterSpout": "水の噴出",
+				"Wave": "波",
 				"Wing": "翼"
 			},
 			"Note": {
@@ -449,6 +450,7 @@
                 "AtLeastTen": "少なくとも10フィート移動してください"
             },
 			"ChyzaeduAlienVestment": "Shattered Alien Vestment",
+			"ClockworkLostPlates": "何枚のプレートがなくなっていますか？",
             "ClockworkWindUp": "スタンバイ状態",
 			"ConstructArmor": {
 				"BrokenArmor": "破壊された人造の鎧",
@@ -459,12 +461,20 @@
                 "CriticalHit": "クリティカル・ヒットに破壊されたカスタム装甲"
             },
 			"DemonInfuseWeapons": "悪ダメージの代わりに混沌ダメージを与える",
+			"Dramofir": {
+                "BittersweetDreamsCriticalFailure": "ファンブル",
+                "BittersweetDreamsSuccessFailure": "成功あるいは失敗"
+            },
 			"DuskwalkerHuntPrey": {
 				"AC": "Designated Prey attacks the Duskwalker",
 				"Checks": "Duskwalker rolls checks against his Designated Prey"
 			},
+            "Falrok": {
+                "LazuriteTerrainSwitch": "ラズライトが注入された地形で"
+            },
 			"GiantAnimatedStatueBrazier": "Brazier is alight",
 			"HobgoblinFormationArea": "範囲効果に対する陣形",
+			"KrampusPunishTheNaughty": "Krampus rolls checks against Naughty Target",
 			"LegionArchonFlameOfJustice": "Flame of Justice - Critical Hit",
 			"LemureSubservience": {
 				"Defend": "Subservience - Defend",
@@ -566,6 +576,10 @@
 				"success": "[[/r {2d6+2}[継続、強酸]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続強酸ダメージ}",
 				"criticalSuccess": "[[/r {2*2d6+4}[継続、強酸]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続強酸ダメージ}"
 			},
+			"Bleed1": {
+                "success": "[[/r {1}[継続、出血]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続出血ダメージ}",
+                "criticalSuccess": "[[/r {2}[継続、出血]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続出血ダメージ}"
+            },
 			"Bleed1d4": {
 				"success": "[[/r {1d4}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}",
 				"criticalSuccess": "[[/r {2*1d4}[継続、出血]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}"
@@ -650,18 +664,26 @@
                 "success": "[[/r {1d8}[継続、氷雪]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続氷雪ダメージ}",
                 "criticalSuccess": "[[/r {2*1d8}[継続、氷雪]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続氷雪ダメージ}"
             },
+			"Cold2d8": {
+                "success": "[[/r {2d8}[継続、氷雪]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続氷雪ダメージ}",
+                "criticalSuccess": "[[/r {2*2d8}[継続、氷雪]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続氷雪ダメージ}"
+            },
+            "Fire1": {
+                "success": "[[/r {1}[継続、火炎]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続火炎ダメージ}",
+                "criticalSuccess": "[[/r {2*1}[継続、火炎]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続火炎ダメージ}"
+            },
 			"Fire1d4": {
 				"success": "[[/r {1d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}",
 				"criticalSuccess": "[[/r {2*1d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}"
-			},
-			"Fire2d4": {
-				"success": "[[/r {2d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}",
-				"criticalSuccess": "[[/r {2*2d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}"
 			},
 			"Fire1d6": {
                 "success": "[[/r {1d6}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}",
                 "criticalSuccess": "[[/r {2*1d6}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}"
             },
+			"Fire2d4": {
+				"success": "[[/r {2d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}",
+				"criticalSuccess": "[[/r {2*2d4}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}"
+			},
 			"Fire2d6": {
 				"success": "[[/r {2d6}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}",
 				"criticalSuccess": "[[/r {2*2d6}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}"
@@ -686,8 +708,24 @@
 				"success": "[[/r {2d10}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}",
 				"criticalSuccess": "[[/r {2*2d10}[継続、火炎]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続火炎ダメージ}"
 			},
+			"Fire3d10": {
+                "success": "[[/r {3d10}[継続、火炎]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続火炎ダメージ}",
+                "criticalSuccess": "[[/r {3*2d10}[継続、火炎]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続火炎ダメージ}"
+            },
+            "Fire4d10": {
+                "success": "[[/r {4d10}[継続、火炎]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続火炎ダメージ}",
+                "criticalSuccess": "[[/r {2*4d10}[継続、火炎]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続火炎ダメージ}"
+            },
+            "Force1d12": {
+                "success": "[[/r {1d12}[継続、力場]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続力場ダメージ}",
+                "criticalSuccess": "[[/r {2*1d12}[継続、力場]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続力場ダメージ}"
+            },
+            "Force2d12": {
+                "success": "[[/r {2d12}[継続、力場]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続力場ダメージ}",
+                "criticalSuccess": "[[/r {2*2d12}[継続、力場]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続力場ダメージ}"
+            },
 			"Mental1d4": {
-                "success": "[[/r {1d4}[p継続、精神]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続精神ダメージ}",
+                "success": "[[/r {1d4}[継続、精神]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続精神ダメージ}",
                 "criticalSuccess": "[[/r {2*1d4}[継続、精神]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続精神ダメージ}"
             },
 			"Mental1d6": {
@@ -705,6 +743,22 @@
 			"Mental1d8": {
                 "success": "[[/r {1d8}[継続、精神]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続精神ダメージ}",
                 "criticalSuccess": "[[/r {2*1d8}[継続、精神]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続精神ダメージ}"
+            },
+			"Negative1d6": {
+                "success": "[[/r {1d6}[persistent,negative]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Negative Damage}",
+                "criticalSuccess": "[[/r {2*1d6}[persistent,negative]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Negative Damage}"
+            },
+            "Negative1d8": {
+                "success": "[[/r {1d8}[継続、負のエネルギー]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続負のエネルギーダメージ}",
+                "criticalSuccess": "[[/r {2*1d8}[継続、負のエネルギー]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続負のエネルギーダメージ}"
+            },
+            "Negative1d10": {
+                "success": "[[/r {1d10}[継続、負のエネルギー]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続負のエネルギーダメージ}",
+                "criticalSuccess": "[[/r {2*1d10}[継続、負のエネルギー]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続負のエネルギーダメージ}"
+            },
+            "Negative2d10": {
+                "success": "[[/r {2d10}[継続、負のエネルギー]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続負のエネルギーダメージ}",
+                "criticalSuccess": "[[/r {2*2d10}[継続、負のエネルギー]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{継続負のエネルギーダメージ}"
             },
             "Piercing2d8+8": {
                 "success": "[[/r {2d8+8}[継続、刺突]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続刺突ダメージ}",
@@ -751,6 +805,12 @@
                 "criticalSuccess": "[[/r {2*1d12}[継続、毒]]] @Compendium[pf2e.conditionitems.Persistent Damage]{継続毒ダメージ}"
             }
 		},
+		"ResistanceException": {
+            "Bludgeoning": "殴打を除く",
+            "ForceGhostTouchDoubleNonMagical": "力場、ゴースト・タッチを覗く；非魔法に対して抵抗を2倍にする",
+            "ForceGhostTouchNegativeDoubleNonMagical": "力場、ゴースト・タッチ、負のエネルギーを除く；非魔法に対して抵抗を2倍にする",
+            "ForceGhostTouchPositiveDoubleNonMagical": "力場、ゴースト・タッチ、正のエネルギーを除く；非魔法に対して抵抗を2倍にする"
+        },
 		"RuleElement": {
 			"ActiveEffectLike": "起動中効果の類",
 			"ActorTraits": "アクターの特性",
@@ -764,16 +824,19 @@
 			"CraftingEntry": "製作の項目",
 			"CraftingFormula": "製作の処方",
 			"CreatureSize": "サイズ",
+			"CriticalSpecialization": "クリティカル特化効果",
 			"DamageDice": "ダメージ・ダイス",
 			"DexterityModifierCap": "敏捷修正値上限",
 			"EffectTarget": "効果の対象",
 			"FastHealing": "高速治癒／再生",
 			"FlatModifier": "平目の修正値",
 			"FixedProficiency": "習熟の固定",
-			"GrantItem": "アイテム授受",
+			"GrantItem": "アイテムを与える",
 			"Immunity": "完全耐性",
 			"MartialProficiency": "武具への習熟",
 			"LoseHitPoints": "ヒット・ポイント減少",
+"MarkToken": "マーク・トークン",
+"MartialProficiency": "武具の習熟",
 			"MultipleAttackPenalty": "複数回攻撃ペナルティ",
 			"Note": "注釈",
 			"Resistance": "抵抗",
@@ -782,6 +845,7 @@
 			"Sense": "感覚",
 			"Strike": "打撃",
 			"Striking": "ストライキング",
+"SubstituteRoll": "代替ロール",
 			"RecoveryCheckDC": "回復判定DC",
 			"TempHP": "一時的ヒット・ポイント",
 			"TempHPShortLabel": "一時HP",
@@ -793,26 +857,65 @@
 			"WeaponPotency": "武器発現",
 			"Unrecognized": "非公式のルール要素"
 		},
+		"RuleEditor": {
+            "FlatModifier": {
+                "HideIfDisabled": "隠す (もし無効化されているなら)"
+            },
+            "General": {
+                "Brackets": "ブラケット",
+                "DamageType": "ダメージ種別",
+                "Label": "ラベル",
+                "Predicate": "プレディケート",
+                "Primitive": "プリミティヴ",
+                "Range": "距離",
+                "Selector": "セレクター",
+                "Value": "数値",
+                "CriticalBehavior": {
+                    "null": "クリティカル時にダメージ2倍",
+                    "false": "クリティカル時にダメージ1倍",
+                    "true": "クリティカルのダメージのみ"
+                }
+            },
+            "GrantItem": {
+                "AllowDuplicate": "複製を許可",
+                "ReplaceSelf": "自身を置き換え",
+                "ReevaluateOnUpdate": "アップデート時に見直し"
+            },
+            "Note": {
+                "Hidden": "隠れた状態",
+                "Outcome": "結果",
+                "Title": "タイトル",
+                "Text": "文章"
+            }
+        },
 		"SkillVariant": {
 			"AboutCaves": "洞窟について",
 			"Aid": "「援護」に",
+			"AttemptToFascinateOutdoorsInBrightSun": "明るい太陽の下で「魅惑的な演芸」を使う",
 			"Blacksmithing": "鍛冶に",
+			"BloodOrWater": "血の中で",
+            "BoundHome": "閉ざされた家の中で",
 			"Buried": "埋められている際",
+			"CanClearlyIdentifyTheStars": "星をはっきりと識別できるときに",
 			"Climb": "「登攀」に",
 			"ClimbOrSwim": "「登攀」あるいは「水泳」に",
 			"CommandAnAnimal": "「動物使い」に",
+			"CommandReptile": "爬虫類に「動物使い」をするときに",
+			"CraftBone": "骨を使っている際に",
 			"CraftJewelry": "宝飾品作成に",
 			"CraftTrap": "トラップ作成に",
 			"CraftTrapSnare": "トラップと罠作成に",
 			"CreateForgery": "偽造品作成に",
 			"Darkness": "暗闇で",
 			"Demoralize": "「士気をくじく」に",
+			"DemoralizeThreateningLunge": "「脅威的な間合い」で「士気をくじく」のに",
 			"Deserts": "砂漠で",
 			"Disarm": "「武器落とし」に",
 			"DisarmGrapple": "「武器落とし」あるいは「組みつき」に",
 			"DisarmGrappleAvoidDisarm": "「武器落とし」、「組みつき」あるいは「組みつき」の回避に",
 			"DisarmMetal": "金属製アイテムの「武器落とし」に",
 			"DisarmStoneMetal": "石あるいは金属製アイテムの「武器落とし」に",
+			"DiscernAndPredictWeather": "天候のパターンを見抜き、将来の天気の状態を予測するのに",
 			"Escape": "「脱出」に",
 			"Feint": "「フェイント」に",
 			"Forests": "森林で",
@@ -821,20 +924,32 @@
 			"Grapple": "「組みつき」に",
 			"GrappleShove": "「組みつき」あるいは「押しやり」に",
 			"Hide": "「隠れる」に",
+			"HideSneakInscriptions": "碑文の間に「隠れる」や「忍び歩き」をするのに",
+            "HideSneakTree": "木の中にいる間に「隠れる」や「忍び歩き」をするのに",
+            "HideInDimOrDark": "薄暗い明りや暗闇で「隠れる」のに",
 			"HighJumpOrLongJump": "「高跳び」あるいは「幅跳び」に",
 			"IceAndSnow": "氷か雪の中で",
 			"ImitateStone": "「石の模倣」に",
 			"Impersonate": "「なりすます」に",
-			"ImpersonateCloakSheetRay": "外套、シート、エイに「なりすます」",
+			"ImpersonateCloakSheetRay": "外套、シート、エイに「なりすます」のに",
+			"ImpersonateHumanVersion": "自分達の人間バージョンに「なりすます」のに",
 			"Jungles": "ジャングルで",
+			"JunglesOrFlowerFields": "ジャングルか花畑で",
+			"Lava": "溶岩の中で",
 			"Lair": "ねぐらで",
 			"Lie": "「騙す」に",
+			"LongJump": "「幅跳び」をするのに",
             "MakeAnImpression": "「懐柔する」に",
 			"JunkOrDebris": "ジャンクやがらくたの中で",
 			"ManeuverInFlight": "「飛行機動」に",
 			"Mountains": "山地で",
 			"Navigate": "道案内に",
+			"NearTheOcean": "海の近くで",
+            "NighttimeWithMoonVisible": "月が見える夜に",
+            "OceansForests": "海や森で",
+            "Orate": "朗誦するのに",
 			"Paint": "絵を描くことに",
+			"Rocky": "岩だらけの地形で",
 			"Sand": "砂地で",
 			"SenseMotive": "「真意看破」に",
 			"Sewers": "下水道で",
@@ -858,12 +973,14 @@
 			"TripTangle": "「足払い」と「からみつき」に",
 			"Underground": "地下",
 			"Undergrowth": "下生えで",
+			"UnderwaterVegetation": "水中の草地で",
 			"Vegetation": "草地で",
 			"VsArthropods": "節足動物に対して",
 			"VsControlled": "支配効果に対して",
 			"VsDarknessLightShadow": "暗闇、光、影効果に対して",
 			"VsDiseases": "病気効果に対して",
 			"VsEmotion": "感情効果に対して",
+			"VsPlants": "植物に対して",
 			"VsProne": "伏せ効果に対して",
 			"VsShoveOrTrip": "「押しやり」、「足払い」に対して",
 			"Water": "水中で",
@@ -876,6 +993,13 @@
 				"AllowedDrops": "７レベル以下の一般特技",
 				"Prompt": "７レベル以下の一般特技を選んで下さい"
 			},
+			"AftermathFeats": {
+                "DormantEruptionToggle": "You've Used Thermal Eruption Today",
+                "StoneFistLabel": "石のこぶし"
+            },
+            "AllowedDrops": {
+                "DeityOrPantheon": "神格あるいは神群"
+            },
 			"AncestralParagon": {
 				"AllowedDrops": "1レベルの祖先特技",
 				"Prompt": "1レベルの祖先特技を選んで下さい"
@@ -889,12 +1013,7 @@
 				"ExplorersClothing": "アニマル・スキン＋探検家の衣類",
 				"MageArmor": "アニマル・スキン＋メイジ・アーマー"
 			},
-			"MarkForDeath": {
-                "TargetMark": "対象は死の予告を受けている",
-                "SeekMark": "君の予告を「捜す」",
-                "DeceiveMark": "予告を「フェイント」するのに〈欺瞞〉を使う"
-            },
-            "Automaton": {
+			"Automaton": {
                 "ArcaneLomotion": {
                     "Prompt": "移動種別を選んでください"
                 },
@@ -927,8 +1046,22 @@
             "BountyHunterDedication": {
                 "GatherInfoHuntedPrey": "獲物に関連する「情報収集」をするために"
             },
+			"BrevicNoble": {
+                "Prompt": "ブレヴォイの血統を選んでください",
+                "Garess": "ガレス家",
+                "Lebeda": "レベダ家",
+                "Lodovka": "ロドヴカ家",
+                "Medvyed": "メドヴイェド家",
+                "Orlovsky": "オルロフスキー家",
+                "Surtova": "サートヴァ家"
+            },
             "CelestialResistance": {
                 "Prompt": "血脈に関連したエネルギーの種別を選んでください"
+            },
+			"Chronoskimmer": {
+                "DestabilizeFailureLabel": "時流の不安定化 (失敗)",
+                "DestabilizeSuccessLabel": "時流の不安定化 (Success)",
+                "StabilizeLabel": "時流の安定化"
             },
 			"ClanWeapon": {
 				"Label": "クラン武器",
@@ -942,7 +1075,7 @@
                 "RiteOfPassage": {
                     "Note": "森の中で狭い表面や不均等な地面で「バランスを取る」ための〈軽業〉を使い、成功をロールしたなら、クリティカルする"
                 }
-            }, 
+            },            
 			"Cover": {
 				"Prompt": "遮蔽の段階を選んで下さい。",
 				"Lesser": "劣った遮蔽",
@@ -976,13 +1109,22 @@
                     "Black": "ブラック・ドラゴン",
                     "Blue": "ブルー・ドラゴン",
                     "Brass": "ブラス・ドラゴン",
+					"Brine": "ブライン・ドラゴン",
                     "Bronze": "ブロンズ・ドラゴン",
                     "Cloud": "クラウド・ドラゴン",
                     "Copper": "カッパー・ドラゴン",
+					"Crystal": "クリスタル・ドラゴン",
+                    "Forest": "フォレスト・ドラゴン",
                     "Gold": "ゴールド・ドラゴン",
                     "Green": "グリーン・ドラゴン",
-                    "Silver": "シルヴァー・ドラゴン",
+					"Magma": "マグマ・ドラゴン",
                     "Red": "レッド・ドラゴン",
+					"Sea": "シー・ドラゴン",
+					"Silver": "シルヴァー・ドラゴン",
+					"Sky": "スカイ・ドラゴン",
+                    "Sovereign": "ソヴリン・ドラゴン",
+                    "Umbral": "アンブラル・ドラゴン",
+                    "Underworld": "アンダーワールド・ドラゴン",
                     "White": "ホワイト・ドラゴン"
                 },
                 "ScalesOfTheDragon": {
@@ -1034,6 +1176,37 @@
                 },
                 "Woodcraft": {
                     "Note": "森林やジャングルの環境にいる際、もし君が「方向感覚」、「自活」、「痕跡隠蔽」のための〈生存〉判定にファンブルをロールしたなら、君は代わりに失敗し、成功をロールしたなら、代わりにクリティカルする。"
+                }
+            },
+			"Equipment": {
+                "BravosBrew": {
+                    "Greater": {
+                        "FearLabel": "グレーター・ブラヴォーズ・ブリュー（恐怖に対して）"
+                    },
+                    "Lesser": {
+                        "FearLabel": "レッサー・ブラヴォーズ・ブリュー（恐怖に対して）"
+                    },
+                    "Moderate": {
+                        "FearLabel": "モデレート・ブラヴォーズ・ブリュー（恐怖に対して）"
+                    }
+                },
+                "EagleEyeElixir": {
+                    "Greater": {
+                        "SecretLabel": "グレーター・イーグル・アイ・エリクサー (秘密の扉や罠を見つけるために)"
+                    },
+                    "Lesser": {
+                        "SecretLabel": "レッサー・イーグル・アイ・エリクサー (秘密の扉や罠を見つけるために)"
+                    },
+                    "Moderate": {
+                        "SecretLabel": "モデレート・イーグル・アイ・エリクサー (秘密の扉や罠を見つけるために)"
+                    }
+                },
+                "NosoiCharm": {
+                    "RequestLabel": "ノソイの魅了 (要求)",
+                    "PerformanceLabel": "ノソイの魅了 (楽器の演奏、朗誦、歌唱)"
+                },
+                "PhantomShroud": {
+                    "StrikeLabel": "幽霊の手"
                 }
             },
             "Fetchling": {
@@ -1141,6 +1314,9 @@
                 "Innocuous": {
                     "Note": "「気をそらす」ための〈欺瞞〉判定に失敗した際、人型生物のクリーチャーは君がファンブルしない限り、君が騙そうとしたことに気付かない"
                 },
+				"KeenEyes": {
+                    "Label": "30フィート以内の隠れた状態の、あるいは未探知のクリーチャーを「捜す」"
+                },
                 "SureFeet": {
                     "BalanceNote": "もし、「バランスを取る」ためのロールに成功をロールしたなら、代わりにクリティカルする。君は「バランスを取る」際に立ちすくみにならない。",
                     "ClimbNote": "もし、君が「登攀」するための〈運動〉に成功をロールしたなら、代わりにクリティカルする。君は「登攀」しようとるする際に立ちすくみにならない。"
@@ -1182,7 +1358,31 @@
             "HuntPrey": {
                 "TargetHuntedPrey": "対象は君の獲物である",
                 "SeekHuntedPrey": "獲物を探すために",
-                "TrackHuntedPrey": "獲物を追跡するために"
+                "TrackHuntedPrey": "獲物を追跡するために",
+				"FirstHitDamage": "獲物への最初の命中に",
+                "FirstHitSwitch": "子のラウンドで最初に獲物に命中させたときに"
+            },
+			"Inventor": {
+                "Innovation": {
+                    "Prompt": "発明を選んでください",
+                    "Armor": {
+                        "AllowedDrops": "レベル0のユニークの防具",
+                        "Prompt": "防具の発明を選んでください"
+                    },
+                    "Construct": {
+                        "Prompt": "人造の発明を選んでください"
+                    },
+                    "Weapon": {
+                        "AllowedDrops": "レベル0か1の単純あるいは軍用武器",
+                        "Prompt": "武器の発明を選んでください"
+                    }
+                },
+                "Modification": {
+                    "Initial": {
+                        "AllowedDrops": "1レベルのインヴェンターのクラス特徴",
+                        "Prompt": "初期改造を選んでください"
+                    }
+                }
             },
 			"Kobold": {
                 "DragonsPresence": {
@@ -1214,6 +1414,16 @@
                     "Note": "Each of your successful saving throws against a disease reduces its stage by 2, or by 1 for a virulent disease. Each critical success against an ongoing disease reduces its stage by 3, or by 2 for a virulent disease."
                 }
             },
+			"MagicalExperiment": {
+                "EnhancedSenses": "感覚強化",
+                "ResistantSkin": "丈夫な皮膚",
+                "TouchTelepathy": "接触テレパシー"
+            },
+			"MarkForDeath": {
+                "TargetMark": "対象は死の予告を受けている",
+                "SeekMark": "君の予告を「捜す」",
+                "DeceiveMark": "予告を「フェイント」するのに〈欺瞞〉を使う"
+            }, 
 			"MartialProficiency": {
 				"AdvancedAzarketiWeapons": "上級アザールケティ武器",
 				"AdvancedCatfolkWeapons": "上級キャットフォーク武器",
@@ -1222,6 +1432,7 @@
 				"AdvancedElfWeapons": "上級エルフ武器",
 				"AdvancedFirearmsCrossbows": "上級火器・クロスボウ",
 				"AdvancedGeniekinWeapons": "上級ジーニーキン武器",
+				"AdvancedGhoranWeapons": "上級ゴーラン武器",
 				"AdvancedGnollWeapons": "上級ノール武器",
 				"AdvancedGnomeWeapons": "上級ノーム武器",
 				"AdvancedGoblinWeapons": "上級ゴブリン武器",
@@ -1249,6 +1460,8 @@
 				"AdvancedKoboldWeapons": "上級コボルド武器",
 				"AdvancedOrcWeapons": "上級オーク武器",
 				"AdvancedTenguWeapons": "上級テング武器",
+				"AdvancedVanaraWeapons": "上級ヴァナラ武器",
+                "AdvancedVishkanyaWeapons": "上級ヴィシュカニヤ武器",
 				"MartialAzarketiWeapons": "軍用アザールケティ武器",
 				"MartialBombsFirearms": "軍用爆弾＆火器",
 				"MartialCatfolkWeapons": "軍用キャットフォーク武器",
@@ -1257,6 +1470,7 @@
 				"MartialElfWeapons": "軍用エルフ武器",
 				"MartialFirearmsCrossbows": "軍用火器・クロスボウ",
 				"MartialGeniekinWeapons": "軍用ジーニーキン武器",
+				"MartialGhoranWeapons": "軍用ゴーラン武器",
 				"MartialGnollWeapons": "軍用ノール武器",
 				"MartialGnomeWeapons": "軍用ノーム武器",
 				"MartialGoblinWeapons": "軍用ゴブリン武器",
@@ -1284,6 +1498,8 @@
 				"MartialKoboldWeapons": "軍用コボルド武器",
 				"MartialOrcWeapons": "軍用オーク武器",
 				"MartialTenguWeapons": "軍用テング武器",
+				"MartialVanaraWeapons": "軍用ヴァナラ武器",
+                "MartialVishkanyaWeapons": "軍用ヴィシュカニヤ武器",
 				"MonasticArchery": "寺院の弓術",
 				"SimpleBombsFirearms": "単純爆弾&火器",
 				"SimpleFirearmsCrossbows": "単純火器・クロスボウ",
@@ -1315,22 +1531,41 @@
                     "Swamp": "沼地"
                 }
             },
+			"Nagaji": {
+                "VenomSpit": {
+                    "CriticalNote": "対象は武器のダメージ・ダイスの数に等しい [[/r (1+@weapon.system.runes.striking)[継続、毒]]]{継続毒ダメージ} を受ける",
+                    "HoodedNote": "対象はまた、君の次の手番の開始時まで @UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh]{目が眩んだ状態} である。",
+                    "StrikeLabel": "毒のつば"
+                }
+            },
+            "PackAttack": {
+                "Label": "対象は少なくとも2人の味方の距離内にいる"
+            },
+            "PreciseStrike": {
+                "Finisher": "終撃"
+            },
 			"Prompt": {
 				"AdvancedMulticlassFeat": "キャラクターレベルの半分レベルまでのクラス特技１つを選んでください",
+				"ConsciousMind": "意識領域を選んでください",
 				"CreatureSize": "クリーチャーのサイズを選んでください",
 				"Deity": "神格を選んでください",
 				"DeitysDomain": "神格の領域を選んでください",
 				"EvolutionFeat": "最初の進化特技を選んでください",
+				"FirstImplement": "最初の装具を選んでください",
 				"Lesson": "教えを選んで下さい",
 				"LevelOneClassFeat": "１レベルのクラス特技を選んでください",
 				"LevelOneOrTwoClassFeat": "1レベルあるいは2レベルのクラス特技を選んでください",
 				"Material": "素材を選んでください",
 				"PathToPerfection": "完全への道を選んでください",
+				"SecondImplement": "2番目の装具を選んでください",
 				"Shillelagh": "クラブがスタッフを選んでください",
 				"Skill": "技能を選んで下さい",
 				"SkillFeat": "技能特技を選んでください",
-				"Weapon": "武器を選んでくださ",
+				"SubconsciousMind": "無意識領域を選んでください",
+                "ThirdImplement": "3番目の装具を選んでください",
+				"Weapon": "武器を選んでください",
 				"WeaponGroup": "武器グループを選んでください",
+				"WildShape": "形態変更効果を選んでください",
 				"UnarmedAttack": "素手打撃を選んでください"
 			},
 			"Orc": {
@@ -1346,6 +1581,11 @@
                     "Note": "Each time you succeed at a Fortitude save against an ongoing poison, you reduce its stage by 2, or by 1 against a virulent poison. Each critical success you achieve against an ongoing poison reduces its stage by 3, or by 2 against a virulent poison."
                 }
             },
+			"Psychic": {
+                "UnleashPsyche": {
+                    "DamageLabel": "Casting a spell from Psychic Spellcasting"
+                }
+            },
             "Ratfolk": {
                 "LabRat": {
                     "Note": "If you roll a success on your saving throw against an elixir or poison, you get a critical success instead."
@@ -1359,7 +1599,26 @@
                     "Note": "Your quills unarmed attack deals @Localize[PF2E.PersistentDamage.Bleed1d4.success] on a critical hit."
                 }
             },
+			"Shoony": {
+                "EsteemedVisitor": {
+                    "Note": "While you are in a settlement, when you roll a critical failure on a Diplomacy check to Gather Information or Make an Impression, you get a failure instead."
+                },
+                "FishseekerShoony": {
+                    "Note": "If you roll a success on an attempt to Grab an Edge, you get a critical success instead; if you roll a critical failure, you get a failure instead."
+                }
+            },
+            "SkillMastery": {
+                "AllowedDrops": "Skill Feats",
+                "ExpertPrompt": "Select a skill to become expert in.",
+                "MasterPrompt": "Select a skill to become master in."
+            },
             "SneakAttack": "急所攻撃",
+			"SnipersAim": {
+                "Note": "Ignore the target's Concealed condition."
+            },
+            "SnipingDuoDedication": {
+                "Label": "Sniping Duo partner hit target with a strike this round"
+            },
 			"SpecialtyCrafting": {
 				"Alchemy": "錬金術",
 				"Artistry": "美術品",
@@ -1376,7 +1635,20 @@
 				"Woodworking": "木工"
 			},
 			"SpellmastersResilience": {
-                "Prompt": "Select a magical tradition to gain resistence in."
+                "Prompt": "抵抗を得る魔法体系を選んでください"
+            },
+			"Sprite": {
+                "LuminousSprite": {
+                    "Light": "光を投じる"
+                },
+                "SpritesSpark": {
+                    "Draxie": "Euphoric Spark",
+                    "LuminousSprite": "Luminous Spark",
+                    "Grig": "Dissonant Note",
+                    "Melixie": "Sting Shot",
+                    "Nyktera": "Ultrasonic Pulse",
+                    "Pixie": "Pixie Dust"
+                }
             },
 			"Stance": {
 				"Attack": {
@@ -1395,7 +1667,7 @@
                     "Label": "魂の操作に対する守り"
                 },
                 "SpiralSworn": {
-                    "Label": "Target possesses an imprisoned soul or has created undead"
+                    "Label": "対象が幽閉している魂を所持しているか、アンデッドを作ったことがある"
                 },
                 "UndeadNearby": "近くにいるアンデッド"
             },
@@ -1403,10 +1675,40 @@
                 "Assurance": "確実性",
                 "EffectType": "{type} ({substitution})"
             },
+			"Suli": {
+                "Dualborn": {
+                    "FirstElement": "最初の元素を選んでください",
+                    "SecondElement": "2番目の元素を選んでください"
+                },
+                "ElementalAssault": {
+                    "Prompt": "元素を選んでください"
+                }
+            },
+            "Thaumaturge": {
+                "Implement": {
+                    "Amulet": "アミュレット",
+                    "Bell": "鈴",
+                    "Chalice": "杯",
+                    "Lantern": "ランタン",
+                    "Mirror": "鏡",
+                    "Regalia": "レガリア",
+                    "Tome": "書物",
+                    "Wand": "ワンド",
+                    "Weapon": "武器"
+                },
+                "TalismanEsoterica": "護符のエソテリカ"
+            },
 			"ToggleProperty": {
 				"Triangulate": "観測者が対象を見ることが出来る",
-				"GourdHead": "ヒョウタン頭: 知覚DCを上昇させる"
+				"GourdHead": "ヒョウタン頭: 知覚DCを上昇させる",
+				"TagTeam": "秘密社会の別のメンバーと挟撃している"
 			},
+			"TOTMToggle": {
+                "FirstRangeIncrement": "最初の射程単位内である必要がある能力を有効にする",
+                "FlatFooted": "立ちすくみ状態のターゲットを必要とする能力を有効にする",
+                "Vampire": "ヴァンパイアの対象である必要がある能力を有効にする",
+                "Undead": "アンデッドの対象である必要がある能力を有効にする"
+            },
 			"TwoHanded": {
 				"BastardSword": "バスタード・ソードを両手持ちする",
 				"BattleLute": "バトル・リュートを両手持ちする",
@@ -1435,6 +1737,22 @@
             "VirtuosicPerformer": {
                 "Prompt": "〈芸能〉の種別を選んでください"
             },
+			"Vishkanya": {
+                "VenomResistantVishkanya": {
+                    "PoisonSaveNote": "Each of your successful saving throws against a poison affliction reduces its stage by 2. Each critical success against an ongoing poison reduces its stage by 3.",
+                    "VirulentSaveNote": "Each of your successful saving throws against a virulent poison affliction reduces its stage by 1. Each critical success against an ongoing virulent poison reduces its stage by 2."
+                }
+            },
+            "VitalityManipulationStance": {
+                "StrikeLabel": "Vitality Blast",
+                "Note": "When you use Stunning Fist, instead of saving against being stunned, you can choose to have the target make a @Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)] save against your class DC with the following results. You must choose to do this before the target rolls its save.</p><hr><p><strong>Critical Success</strong> The target is unaffected.</p><p><strong>Success</strong> The target's muscles become temporarily weaker. For 1 round, the target is @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 2}, and any time it attempts to take an action with the manipulate trait, the action is disrupted unless it succeeds at a flat check with a DC equal to 5 + its enfeebled value.</p><p><strong>Failure</strong> As success, but the duration is 1 minute.</p><p><strong>Critical Failure</strong> As success, but the duration is 1 minute, the flat check is DC 11, and the target takes -10-foot status penalty to all Speeds for the duration.</p>"
+            },
+            "WellspringMage": {
+                "CriticalSuccess": "You temporarily recover an expended spell slot of any level of your choice. The temporary spell slot lasts for 1 minute, and if you don't use it by then, you experience an immediate @UUID[Compendium.pf2e.rollable-tables.N0pDFNCffTe2Du39]{Wellspring Surge}.",
+                "Failure": "You generate a @UUID[Compendium.pf2e.rollable-tables.N0pDFNCffTe2Du39]{Wellspring Surge}, with a spell level chosen randomly among your top three levels of spell slots (or all your levels if you have fewer than three)",
+                "Initiative": "When you roll initiative for a non-trivial combat encounter, as well as in other high-stress situations of the GM's choice, magic wells up within you. Attempt a @Check[type:flat|dc:6|traits:wellspring-magic] Check check.",
+                "Success": "You temporarily recover an expended spell slot of a spell level chosen randomly among your top three levels of spell slots (or all your levels if you have fewer than three). The temporary spell slot lasts for 1 minute, and if you don't use it by then, you experience an immediate @UUID[Compendium.pf2e.rollable-tables.N0pDFNCffTe2Du39]{Wellspring Surge}."
+            },
 			"WildMorph": {
 				"Prompt": "ワイルド・モーフの変化箇所を選んで下さい",
 				"WildClaws": "野生の爪",
@@ -1459,6 +1777,10 @@
 				"EffectTarget": {
 					"Prompt": "この効果の対象を選んで下さい"
 				},
+				"MarkTarget": {
+                    "TargetToken": "マウスでホバリングしながらTを押すことによってターゲットを取る。ESCを押してキャンセル",
+                    "Timeout": "対象不足jなので効果の生成をキャンセルします"
+                },
 				"Prompt": {
 					"NoSelectionMade": "選択されていません {item}は起動していません",
 					"NoValidOptions": "{actor}に有効な{item}の選択肢がありません"

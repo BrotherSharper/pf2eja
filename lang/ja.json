@@ -25,9 +25,8 @@
 		"TypeFeat": "特技",
 		"TypeHeritage": "遺産",
 		"TypeKit": "用具",
-		"TypeLore": "NPC技能",
-		"TypeMartial": "防具・武器の習熟",
-		"TypeMelee": "NPCの打撃",
+		"TypeLore": "〈伝承〉技能",
+		"TypeMelee": "NPCの攻撃",
 		"TypeSpell": "呪文",
 		"TypeSpellcastingentry": "呪文エントリ",
 		"TypeTreasure": "宝飾品",
@@ -51,17 +50,17 @@
 		"UnknownCombatant": "未知の参加者"
 	},
 	"COMPENDIUM": {
-		"Filter": "辞典フィルター",
-        "SearchContents": {
-            "Placeholder": "コンテンツを探す",
-            "Hint": "名前で辞典をフィルタリングするのではなく、辞書のコンテンツを検索する"
-        }
-	},
+		"Search": "辞書検索"
+    },
 	"CONTROLS": {
 		"AdjustSceneDarkness": "シーンの暗闇を調整",
 		"EffectPanel": "エフェクト・パネル",
 		"WorldClock": "ワールド・クロック"
 	},
+	"DOCUMENT": {
+        "Combat": "遭遇",
+        "Combats": "遭遇"
+    },
 	"SIDEBAR": {
 		"TabCombat": "遭遇記録"
 	},
@@ -115,6 +114,7 @@
                     "ConditionReduced": "{condition} が1、現象した",
                     "ConditionRemoved": "{condition} ではなくなった",
                     "FocusPoints": "集中点が回復した",
+					"Frequencies": "アクションの頻度がリセットされました",
                     "HitPoints": "{hitPoints} 点のヒット・ポイントを回復した",
                     "InfusedReagents": "注入試薬が回復した",
                     "Resolve": "決意が回復した",
@@ -164,6 +164,7 @@
             },
 			"AvoidNotice": {
 				"Notes": {
+					"criticalSuccess": "<strong>クリティカル</strong> 君は移動の間、そのクリーチャーから @UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{未探知} であり、移動の終了時点で未探知のままである。<br/><br/>詳細は @UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{「忍び歩き」} アクションを参照すること",
 					"success": "<strong>成功</strong> 君は移動の最中にクリーチャーから @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{未探知}のままとなり、移動の終了後にも未探知でいる。 <br/><br/>詳細については@Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{「忍び歩き」} アクションを参照すること"
 				},
 				"Title": "隠密移動"
@@ -234,7 +235,8 @@
 					"DaysForNoCost": "追加コストなしになるまでの日数:",
 					"PayMaterials": "{cost}と素材を支払って「製作」する",
 					"PayFull": "{cost} 完全なコストを支払って「製作」する",
-					"LostMaterials": "{cost}相当の素材を失いました"
+					"LostMaterials": "{cost}相当の素材を失いました",
+					"ReceiveItem": "アイテムを入手しました"
 				},
 				"Information": {
 					"PayAndReceive": "{actorName}が{cost}の製作コストを支払い、{quantity}x {itemName}を受け取りました",
@@ -244,6 +246,7 @@
 			},
 			"CommandAnAnimal": {
                 "Notes": {
+					"criticalSuccess": "<strong>クリティカル</strong> 動物は次の手番に君の命令した通りのことをする",
                     "success": "<strong>成功</strong> 動物はその次の手番に君の命令した通りのことをする",
                     "failure": "<strong>失敗</strong> その動物はためらうか抵抗をしており、何もしない",
                     "criticalFailure": "<strong>ファンブル</strong> その動物は素行を悪くするか誤解をして、GMによって決められた何か他のアクションを取る"
@@ -254,8 +257,10 @@
 				"DistractingWords": "気をそらす - 言葉",
 				"Gesture": "気をそらす - ジェスチャー",
 				"Notes": {
+					"criticalSuccess": "<strong>クリティカル</strong> 君は自分の結果以下の知覚DCであるそれぞれのクリーチャーに対して、@Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{隠れた状態}になる（隠れた状態によって君は@Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{「忍び歩き」}することが出来る）。これは君の次の手番の終了時か、君がステップ、〈隠密〉技能を使って@Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]{「隠れる」} か@Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{「忍び歩き」} 以外の行動をする時まで続く。もし君がクリーチャーを「打撃」したなら、そのクリーチャーはその攻撃に対して@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{立ちすくみ状態} のままで、それから、君は@Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{可視状態}になる。もし君が他のことをするなら、君はGMがそうでないと判断しない限り、行動するちょうど前に可視状態になる。",
 					"success": "<b>成功</b> 君は自分の結果以下の知覚DCであるそれぞれのクリーチャーに対して、@Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{隠れた状態}になる（隠れた状態によって君は@Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{「忍び歩き」}することが出来る）。これは君の次の手番の終了時か、君がステップ、〈隠密〉技能を使って@Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]{「隠れる」} か@Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{「忍び歩き」} 以外の行動をする時まで続く。もし君がクリーチャーを「打撃」したなら、そのクリーチャーはその攻撃に対して@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{立ちすくみ状態} のままで、それから、君は@Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{可視状態}になる。もし君が他のことをするなら、君はGMがそうでないと判断しない限り、行動するちょうど前に可視状態になる。",
-					"failure": "<b>失敗</b> 君は結果を超えた知覚DCを持つ全てのクリーチャーの気をそらすことが出来ず、そういったクリーチャーは君が自分達を騙そうとしていたことに気付いている。"
+					"failure": "<b>失敗</b> 君は結果を超えた知覚DCを持つ全てのクリーチャーの気をそらすことが出来ず、そういったクリーチャーは君が自分達を騙そうとしていたことに気付いている。",
+					"criticalFailure": "<strong>ファンブル</strong> 君は結果を超えた知覚DCを持つ全てのクリーチャーの気をそらすことが出来ず、そういったクリーチャーは君が自分達を騙そうとしていたことに気付いている。"
 				},
 				"Trick": "気をそらす - 小技"
 			},
@@ -309,10 +314,12 @@
 					"success": "<b>成功</b> 君は扉、窓、箱や門をこじあけて、扉、窓、箱や門は破損状態になる。もしそれが特に堅固なものであるなら、GMはダメージを受けさせるが、破壊されないかもしれない",
 					"criticalFailure": "<b>ファンブル</b> 君は扉、窓、箱、あるいは門を閉じて壊してしまい、更にそれを「こじあける」ための未来の判定に-2状況ペナルティを適用する"
 				},
-				"Title": "こじあける"
+				"Title": "こじあける",
+				"NoCrowbarPenalty": "かなてこを持っていない"
 			},
 			"GatherInformation": {
 				"Notes": {
+					"criticalSuccess": "<strong>クリティカル</strong> 君は個人や話題についての情報を集める。GMが詳細を決定する。",
 					"success": "<b>成功</b> 君は個人や話題についての情報を集める。GMが詳細を決定する。",
 					"criticalFailure": "<b>ファンブル</b> 君は個人や話題についての不正確な情報を集める。"
 				},
@@ -329,6 +336,7 @@
 			},
 			"Hide": {
 				"Notes": {
+					"criticalSuccess": "<strong>クリティカル</strong> もし、クリーチャーが君を見ることが出来るなら、君は可視状態ではなくそのクリーチャーから @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{隠れた状態}である。 もし、君が そのクリーチャーから@Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{隠れた状態} あるいは @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{未探知} だったのなら、その状態を保持する",
 					"success": "<b>成功</b> もし、クリーチャーが君を見ることが出来るなら、君は可視状態ではなくそのクリーチャーから @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{隠れた状態}である。 もし、君が そのクリーチャーから@Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{隠れた状態} あるいは @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{未探知} だったのなら、その状態を保持する"
 				},
 				"Title": "隠れる"
@@ -380,6 +388,7 @@
 			},
 			"Impersonate": {
 				"Notes": {
+					"criticalSuccess": "<strong>クリティカル</strong> 君は自分が変装したとおりの人物だと考えるようにクリーチャーを騙す。もし君の行動が変化したのなら、君は新しい判定を試みなくてはならないかもしれない。",
 					"success": "<b>成功</b> 君は自分が変装したとおりの人物だと考えるようにクリーチャーを騙す。もし君の行動が変化したのなら、君は新しい判定を試みなくてはならないかもしれない。",
 					"failure": "<b>失敗</b> そのクリーチャーは君が主張する人物でないことが分かる。",
 					"criticalFailure": "<b>ファンブル</b> そのクリーチャーは君が主張する人物でないことがわかり、もし変装なしの君を知っているなら、君だと悟る。"
@@ -388,13 +397,16 @@
 			},
 			"Lie": {
 				"Notes": {
+					"criticalSuccess": "<strong>クリティカル</strong> 目標は君の嘘を信じる。",
 					"success": "<b>成功</b> 　目標は君の嘘を信じる。",
-					"failure": "<b>失敗</b> 目標は君の嘘を信じず、会話の間、君の「騙す」の試みに対して+4状況ボーナスを得る。この対象はまた、将来的にも君を疑う可能性が高い。"
+					"failure": "<b>失敗</b> 目標は君の嘘を信じず、会話の間、君の「騙す」の試みに対して+4状況ボーナスを得る。この対象はまた、将来的にも君を疑う可能性が高い。",
+                    "criticalFailure": "<strong>ファンブル</strong> 目標は君の嘘を信じず、会話の間、君の「騙す」の試みに対して+4状況ボーナスを得る。この対象はまた、将来的にも君を疑う可能性が高い。"
 				},
 				"Title": "騙す"
 			},
 			"LongJump": {
 				"Notes": {
+					"criticalSuccess": "<strong>クリティカル</strong> 君が@Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{「跳躍」}する最大水平距離を望みの距離まで上昇させる",
 					"success": "<b>成功</b> 君が@Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{「跳躍」}する最大水平距離を望みの距離まで上昇させる",
 					"failure": "<b>失敗</b>君は通常通りに@Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{「跳躍」}する",
 					"criticalFailure": "<b>ファンブル</b> 君は通常通りに@Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{「跳躍」}するが、それから落下して@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{伏せ状態}で着地する"
@@ -411,6 +423,7 @@
 			},
 			"ManeuverInFlight": {
 				"Notes": {
+					"criticalSuccess": "<strong>クリティカル</strong> 君はその機動に成功する",
 					"success": "<b>成功</b> 君はその機動に成功する",
 					"failure": "<b>失敗</b> 君の機動は失敗する。GMは単純に移動出来なかったのか何らかの破滅的な効果が発生するのかを決定する。結果は君が試みた機動に適切なものであるべきである（例えば、君が強風に逆らって飛行しようとしていたのなら、コースを外れて吹き飛ばされるなど）",
 					"criticalFailure": "<b>ファンブル</b> 失敗と同じだが、結果はもっと悲惨である"
@@ -431,17 +444,18 @@
 				"Content": "{actor} は盾を掲げる",
 				"BadArgs": "このアクションは正確に、一人のキャラクターないしＮＰＣによって実行されなければならない",
 				"NoShieldEquipped": "{actor} は盾を装備していなくてはならない",
-				"ShieldIsBroken": "{actor} の {shield} は破損している"
+				"ShieldIsBroken": "{actor} の {shield} は破損している",
+                "ShieldIsDestroyed": "{actor} の {shield} は破壊されている"
 			},
 			"Release": {
-				"Title": "Release",
+				"Title": "R手放す",
 				"Drop": {
-					"Title": "Drop",
-					"Description": "{actor} drops their {weapon} onto the ground."
+					"Title": "落とす",
+					"Description": "{actor} は {weapon} を地面に落とした"
 				},
 				"Grip": {
-					"Title": "Change Grip (1H)",
-					"Description": "{actor} releases a hand from their {weapon}."
+					"Title": "握りを変える (1H)",
+					"Description": "{actor} は {weapon} から片手を放した"
 				}
 			},
 			"Repair": {
@@ -524,6 +538,7 @@
 			},
 			"Sneak": {
 				"Notes": {
+					"criticalSuccess": "<strong>クリティカル</strong> 君は移動の間、クリーチャーから未探知であり、移動の終了時も未探知のままである",
 					"success": "<b>成功</b> 君は移動の間、クリーチャーから未探知であり、移動の終了時も未探知のままである",
 					"failure": "<b>失敗</b> もの言いたげな音あるいは他の兆候によって君の位置の手がかりを与えるが、君はなおも視認されていないままである。君は移動の間中、そのクリーチャーから隠れた状態であり、終わっても隠れた状態のままである。",
 					"criticalFailure": "<b>ファンブル</b>君は見つかってしまった！　君は移動の間中、そのクリーチャーから可視状態であり、終わっても可視状態のままである。もし君が不可視状態で、そのクリーチャーから隠れた状態であるなら、可視状態になる代わりに、君は移動の間中、隠れた状態で、終わっても隠れた状態のままである。"
@@ -564,6 +579,7 @@
             },
 			"Track": {
                 "Notes": {
+					"criticalSuccess": "<strong>クリティカル</strong> 君は痕跡を発見するか、すでに追いかけていた痕跡を追い続ける",
                     "success": "<strong>成功</strong> 君は痕跡を発見するか、すでに追いかけていた痕跡を追い続ける",
                     "failure": "<strong>失敗</strong> 君は痕跡を見失うが、1時間後に再挑戦することが出来る",
                     "criticalFailure": "<strong>ファンブル</strong> 君は痕跡を見失い、24時間再挑戦出来ない"
@@ -586,6 +602,28 @@
                 },
                 "Title": "毒の手当"
             },
+			"TreatWounds": {
+                "Content": "対象のDCを選ぶこと。習熟度より上の治療を試みることは出来ない。試みると、DCと治療されるヒットポイント量が、君が可能な最大量にまでダウングレードされる",
+                "DC": {
+                    "Mod": "DCの修正値:",
+                    "Trained": "修得DC 15",
+                    "Expert": "熟練DC 20, 回復量に+10点",
+                    "Master": "達人DC 30, 回復量に+30点",
+                    "Legendary": "伝説DC 40, 回復量に+50点"
+                },
+                "Error": "トークン {name} は医学の技能を持っていない",
+                "Feats": {
+                    "RiskySurgery": "危険な外科手術",
+                    "MortalHealing": "定命の者の癒し"
+                },
+                "Label": "傷の手当て",
+                "Rolls": {
+                    "RiskySurgery": "ダメージ・ロール: 危険な外科手術",
+                    "TreatWounds": "回復ロール: 傷の手当て",
+                    "TreatWoundsCriticalFailure": "ダメージ・ロール: 傷の手当て"
+                },
+                "SkillSelect": "「傷の手当て」の技能:"
+            },
 			"Trip": {
 				"Notes": {
 					"criticalSuccess": "<b>クリティカル</b> 対象は落下し、@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{伏せ状態}で着地して[[/r 1d6[殴打] # 殴打ダメージ]]{1d6}の殴打ダメージを受ける",
@@ -596,8 +634,10 @@
 			},
 			"TumbleThrough": {
 				"Notes": {
+					"criticalSuccess": "<strong>クリティカル</strong> 君は接敵面にあるマス目を移動困難な地形（5フィートの移動ごとに10フィートのコストを支払う）として扱い、その敵の接敵面を移動することが出来る。もし君がその接敵面全てを移動するのに十分な速度を持っていない場合、君は失敗と同じ効果を得る.",
 					"success": "<b>成功</b> 君は接敵面にあるマス目を移動困難な地形（5フィートの移動ごとに10フィートのコストを支払う）として扱い、その敵の接敵面を移動することが出来る。もし君がその接敵面全てを移動するのに十分な速度を持っていない場合、君は失敗と同じ効果を得る",
-					"failure": "<b>失敗</b> 君の移動は終了し、君が入ろうとするのを開始したマス目から外へ移動したかのように、リアクションのトリガーとなる"
+					"failure": "<b>失敗</b> 君の移動は終了し、君が入ろうとするのを開始したマス目から外へ移動したかのように、リアクションのトリガーとなる",
+                    "criticalFailure": "<strong>ファンブル</strong> 君の移動は終了し、君が入ろうとするのを開始したマス目から外へ移動したかのように、リアクションのトリガーとなる"
 				},
 				"Title": "軽業移動"
 			},
@@ -675,6 +715,10 @@
                     "Complete": "完了"
                 },
 				"AncestryClass": "{ancestry} {class}",
+				"ClassDC": {
+                    "Label": "クラスDC",
+                    "Plural": "クラスDC"
+                },
 				"Configure": {
                     "Title": "キャラクターの設定r",
                     "ShowBasicUnarmed": {
@@ -688,7 +732,7 @@
 			},
 			"Creature": {
                 "Alliance": {
-					"Default": "所有者のデフォルト ({alliance})",
+					"Default": "デフォルトのオーナーシップ ({alliance})",
                     "Opposition": "敵対",
                     "Party": "パーティ",
                     "Neutral": "中立"
@@ -700,16 +744,60 @@
                     }
                 },
                 "CriticalSpecialization": "クリティカル特化効果",
+				"Spellcasting": {
+                    "Cantrips": "キャントリップ",
+                    "InvalidProficiency": "無効",
+                    "MagicItemTypesLabel": "魔法のアイテムの種別",
+                    "ValidItemTypes": {
+                        "All": "全ての魔法のアイテム",
+                        "Scroll": "巻物のみ"
+                    }
+                },
                 "SpellPreparation": {
                     "Title": "{actor}: 呪文準備",
                     "Hint": "呪文を準備するために、このリストから１つの呪文をアクター・シートのスロットにドラッグする",
 					"HintFlexible": "呪文を準備するのにはここを有効化すること。キャントリップを準備するためには、このリストから1つの呪文をアクター・シートのスロットにドラッグする "
+                },
+				"Sense": {
+                    "Acuity": {
+						"Label": "精度",
+						"Precise": "明瞭",
+						"Imprecise": "不明瞭",
+						"Vague": "あいまい"
+					},
+                    "Label": "感覚",
+					"RangeLabel": "距離",
+					"NoRangeLimit": "無制限",
+                    "Type": {
+                        "Darkvision": "暗視",
+                        "Echolocation": "反響定位",
+                        "GreaterDarkvision": "優れた暗視",
+                        "Hearing": "聴覚",
+                        "Lifesense": "生命感知",
+                        "LowLightVision": "夜目",
+                        "Motionsense": "動作感知",
+                        "Scent": "嗅覚",
+                        "SeeInvisibility": "シー・インヴィジビリティ",
+                        "Spiritsense": "霊魂感知",
+                        "Tremorsense": "振動感知",
+                        "Wavesense": "波感知"
+                    },
+                    "WithAcuity": "{sense} ({acuity})",
+					"WithAcuityAndRange": "{sense} ({acuity} {range} フィート)"
                 }
             },
 			"Dead": "死亡",
 			"Hazard": {
 				"TitleEdit": "{name} (Edit Mode)",
-				"Level": "障害 {level}"
+				"Level": "障害 {level}",
+				"EmitsSound": {
+                    "Title": "音を立てる障害ですか?",
+                    "Hint": "この障害が音を立て、聴覚を通じて感知できるかどうか",
+                    "True": "常時",
+                    "False": "音を立てない",
+                    "Encounter": "遭遇の間は立てる"
+                },
+                "Simple": "単純"
 			},
 			"NPC": {
 				"Configure": {
@@ -722,6 +810,14 @@
                         "Lootable": "略奪可能",
                         "NotLootable": "略奪不可"
                     }
+                },
+				"GenerateAttack": {
+                    "Label": "攻撃生成k",
+                    "Confirm": {
+                        "Title": "攻撃生成",
+                        "Content": "この武器の攻撃は既に生成されています。上書きしますか？"
+                    },
+                    "Notification": "生成されたNPCの攻撃: {attack}"
                 }
 			},
 			"Plural": "アクター"
@@ -769,6 +865,7 @@
 		"AreaSize120": "120フィート",
 		"AreaSize15": "15フィート",
 		"AreaSize20": "20フィート",
+		"AreaSize25": "25 フィート",
 		"AreaSize30": "30フィート",
 		"AreaSize360": "360フィート",
 		"AreaSize40": "40フィート",
@@ -786,7 +883,9 @@
 		"AreaTypeBurst": "爆発",
 		"AreaTypeCone": "円錐",
 		"AreaTypeEmanation": "拡散",
+		"AreaTypeCube": "立方体",
 		"AreaTypeLine": "直線",
+		"AreaTypeSquare": "四方",
 		"ArmorArmorLabel": "ACボーナス",
 		"ArmorArmorTypeLabel": "分類",
 		"ArmorBaseLabel": "基本",
@@ -823,6 +922,7 @@
 		"ArmorPropertyRuneGlamered": "グラマード",
 		"ArmorPropertyRuneGreaterAcidResistant": "アシッド＝レジスタント（グレーター）",
 		"ArmorPropertyRuneGreaterColdResistant": "コールド＝レジスタント（グレーター）",
+		"ArmorPropertyRuneGreaterDread": "ドレッド（グレーター）",
 		"ArmorPropertyRuneGreaterElectricityResistant": "エレクトリシティ＝レジスタント（グレーター）",
 		"ArmorPropertyRuneGreaterFireResistant": "ファイア＝レジスタント（グレーター）",
 		"ArmorPropertyRuneGreaterFortification": "フォーティフィケイション（グレーター）",
@@ -837,6 +937,7 @@
 		"ArmorPropertyRuneMajorShadow": "シャドウ（メジャー）",
 		"ArmorPropertyRuneMajorSlick": "スリック（メジャー）",
 		"ArmorPropertyRuneMajorStanching": "スタンチング（メジャー）",
+		"ArmorPropertyRuneModerateDread": "ドレッド（モデレート）",
 		"ArmorPropertyRuneReady": "レディ",
 		"ArmorPropertyRuneRockBraced": "ロック＝ブレイスド",
 		"ArmorPropertyRuneShadow": "シャドウ",
@@ -932,8 +1033,9 @@
 		"BonusSPLabel": "ボーナスSP",
 		"BonusSPperLevel": "レベルごとのボーナスSP",
 		"BonusSPperLevelTitle": "レベルごとに一度ずつ適用（これと別に耐久力修正が加わる）",
+		"BrowseLabel": "ブラウザ",
 		"BrowserClearFilters": "フィルタのクリア",
-		"BrowserClearFilter": "フィルタのクリア",
+		"BrowserClearFilter": "全フィルタのクリア",
 		"BrowserFilterAlignments": "属性",
 		"BrowserFilterAncestries": "祖先",
 		"BrowserFilterArmorFilters": "防具フィルタ",
@@ -954,13 +1056,13 @@
 		"BrowserFilterTraditions": "体系",
 		"BrowserFilterTraits": "特性",
 		"BrowserFilterWeaponFilters": "武器フィルタ",
-		"BrowserFilterWeaponTraits": "武器の特性",
 		"BrowserSearchPlaceholder": "本文から探す",
 		"BrowserSearchTitle": "右クリックでガイド表示",
 		"BrowserSortyByLabel": "ソート",
 		"BrowserSortyByLevelLabel": "レベル",
 		"BrowserSortyByPriceLabel": "価格",
 		"BrowserSortyByNameLabel": "名称",
+		"BrowserWarnPackNotLoaded": "辞典 \"{pack}\" はロードできませんでした",
 		"BulkCapacityLabel": "収納可能バルク",
 		"BulkLabel": "携行バルク",
 		"BulkMaxLabel": "最大バルク",
@@ -974,7 +1076,7 @@
 			"worn": "着用",
 			"worn-in-slot": "着用 (スロット)",
 			"stowed": "保管",
-			"dropped": "下した"
+			"dropped": "落とした"
 		},
 		"CastLabel": "発動",
 		"CharacterDetails": "キャラクター詳細",
@@ -1038,9 +1140,6 @@
 		"CircumstanceBonusShortLabel": "状況",
 		"CircumstanceBonusTitle": "状況ボーナス",
 		"Class": "クラス",
-		"ClassDCBase": "基本クラスDC 10",
-		"ClassDCHeader": "クラスDC",
-		"ClassDCLabel": "クラスDC",
 		"ClassFeatLevels": "クラス特技レベル",
 		"ClassFeatures": "クラス特徴",
 		"ClassHP": "クラスHP",
@@ -1178,7 +1277,9 @@
 				"CharacterLevel": "アイテム・レベルがキャラクター・レベルを超えています",
 				"ItemMissingTraits": "アイテムは製作の特性条件に適合していません。以下のいずれかに一致する必要があります{traits}",
 				"MaxItemLevel": "アイテムのレベルが最大アイテム・レベルを超えています",
-				"MissingReagents": "一日の製作を完了するための注入試薬が不十分です"
+				"MaxSlots": "スロットがいっぱいです",
+				"MissingReagents": "一日の製作を完了するための注入試薬が不十分です",
+				"FormulaExpended": "準備済みの処方は既に製作済みです"
 			},
 			"CraftQuantityTitle": "数量",
 			"ExpendFormula": "処方の消費",
@@ -1340,6 +1441,7 @@
 				"ZeroRoundsExpireTurnStart": "あと0ラウンド、イニシアチブ{initiative}の開始時に無効になる"
 			},
 			"RemoveToolTip": "[右クリック] 効果を取り除く",
+			"Unidentified": "未識別",
 			"Sustained": "維持しますか？",
 			"UnlimitedDuration": "持続時間無制限",
 			"UntilEncounterEnds": "遭遇が終了するまで"
@@ -1360,7 +1462,8 @@
 			"NoUpdatePermission": "君にはこのアクターを更新する権限がありません",
 			"NotEnoughAmmo": "この打撃を行うに十分な矢弾がありません",
 			"NotEnoughCoins": "硬貨が不十分です",
-			"SubV9Module": "{module} はFoundryV9をサポートしておらず、ゲームに安定性上の問題をもたらすかもしれません",
+			"SubV9Module": "{module} はメンテナンスされておらず、ゲームに安定性上の問題をもたらすかもしれません",
+			"WeaponNoDamage": "この武器はダメージを与えません",
 			"WeaponQuantityZero": "君にはその武器をこれ以上、装備していない",
 			"RuleElementSyntax": "ルール要素定義に構文エラーがあります: {message}"
 		},
@@ -1415,7 +1518,8 @@
 			"poolLabel": "蓄積",
 			"poolTitle": "集中蓄積の大きさ",
 			"Outdated": "メモのための古い集中蓄積の値、クリックして消去できる",
-			"Previous": "前回"
+			"Previous": "前回",
+			"Spells": "集中呪文"
 		},
 		"Foot": "フィート",
 		"FormulaKnownTitle": "既知の処方",
@@ -1428,6 +1532,8 @@
 			"NameUnknown": "未知の処方書"
 		},
 		"Frequency": {
+			"Label": "頻度",
+            "AtWill": "無制限",
 			"per": "毎"
 		},
 		"GenderPronoun": "性別/呼称",
@@ -1509,6 +1615,7 @@
 			},
 			"Armor": {
 				"Base": {
+					"armored-coat": "アーマード・コート",
 					"explorers-clothing": "探検家の衣服",
 					"padded-armor": "パデッド・アーマー",
 					"leather-armor": "レザー・アーマー",
@@ -1524,12 +1631,28 @@
 					"hellknight-plate": "ヘルナイト・プレート"
 				}
 			},
+			"Backpack": {
+                "StowingLabel": "収納用具ですか?"
+            },
 			"CannotAddType": "{type}のアイテムはこのアクターに追加できません",
 			"Condition": {
 				"Flanked": "立ちすくみ (挟撃)"
 			},
+			"CreationDialog": {
+                "Categories": {
+                    "Character": "キャラクター作成",
+                    "Physical": "物理的なアイテム",
+                    "Other": "その他"
+                }
+            },
 			"Deity": {
 				"Alignment": "属性",
+				"Category": {
+                    "Label": "分類",
+                    "Hint": "神格の神群やどの神格とも関連がない哲学、スピリチュアルを特定の神格の代わりに信仰することができる。クレリックとチャンピオンは神格あるいは神群を信仰しなければならない。",
+                    "Pantheon": "神群",
+                    "Philosophy": "哲学"
+                },
 				"ClericSpells": {
 					"Label": "クレリック呪文",
 					"Hint": "呪文を追加するには、このシートにドラッグ＆ドロップすること",
@@ -1566,10 +1689,18 @@
 						"Label": "風",
 						"Description": "君は風と天候を制御することができる。"
 					},
+					"AirApocryphal": {
+                        "Label": "風 (外典)",
+                        "Description": "君は風と天候を制御することができる。全ての教義が正統派に語られているわけではない。秘密裏に囁かれ、司祭から信頼のおける待祭に、あるいは散逸した派閥に残された書物に記された教えもある。"
+                    },
 					"Ambition": {
 						"Label": "野心",
 						"Description": "君は他人に追いつき、追い越すために努力をする。"
 					},
+					"AmbitionApocryphal": {
+                        "Label": "野心 (外典)",
+                        "Description": "君は他人に追いつき、追い越すために努力をする。 全ての教義が正統派に語られているわけではない。秘密裏に囁かれ、司祭から信頼のおける待祭に、あるいは散逸した派閥に残された書物に記された教えもある。"
+                    },
 					"Change": {
 						"Label": "変化",
 						"Description": "君は肉体的なものや形而上的なものを再構築することが出来る。"
@@ -1586,6 +1717,10 @@
 						"Label": "自信",
 						"Description": "君は恐怖を克服し、誇りをみなぎらせる。"
 					},
+					"ConfidenceApocryphal": {
+                        "Label": "自信 (外典)",
+                        "Description": "君は恐怖を克服し、誇りをみなぎらせる。全ての教義が正統派に語られているわけではない。秘密裏に囁かれ、司祭から信頼のおける待祭に、あるいは散逸した派閥に残された書物に記された教えもある。 "
+                    },
 					"Creation": {
 						"Label": "創造",
 						"Description": "君は製作と芸術に関連する神聖な能力を持っている。"
@@ -1594,10 +1729,18 @@
 						"Label": "暗闇",
 						"Description": "君は闇の中で活動し、光を奪う。"
 					},
+					"DarknessApocryphal": {
+                        "Label": "暗闇 (外典)",
+                        "Description": "君は闇の中で活動し、光を奪う。全ての教義が正統派に語られているわけではない。秘密裏に囁かれ、司祭から信頼のおける待祭に、あるいは散逸した派閥に残された書物に記された教えもある。"
+                    },
 					"Death": {
 						"Label": "死",
 						"Description": "君は命を終わらせ、アンデッドを破壊する力を持っている。"
 					},
+					"DeathApocryphal": {
+                        "Label": "死 (外典)",
+                        "Description": "君は命を終わらせ、アンデッドを破壊する力を持っている。全ての教義が正統派に語られているわけではない。秘密裏に囁かれ、司祭から信頼のおける待祭に、あるいは散逸した派閥に残された書物に記された教えもある。"
+                    },
 					"Decay": {
 						"Label": "衰退",
 						"Description": "君には、物質を使い物にならなくしたり、劣化させたりする力がある。"
@@ -1634,10 +1777,18 @@
 						"Label": "運命",
 						"Description": "君は隠れた必然性を見抜き、理解する。"
 					},
+					"FateApocryphal": {
+                        "Label": "運命 (外典)",
+                        "Description": "君は隠れた必然性を見抜き、理解する。全ての教義が正統派に語られているわけではない。秘密裏に囁かれ、司祭から信頼のおける待祭に、あるいは散逸した派閥に残された書物に記された教えもある。"
+                    },
 					"Fire": {
 						"Label": "炎",
 						"Description": "君は炎を制御する。"
 					},
+					"FireApocryphal": {
+                        "Label": "炎 (外典)",
+                        "Description": "君は炎を制御する。全ての教義が正統派に語られているわけではない。秘密裏に囁かれ、司祭から信頼のおける待祭に、あるいは散逸した派閥に残された書物に記された教えもある。"
+                    },
 					"Freedom": {
 						"Label": "自由",
 						"Description": "君は自分自身と他人を束縛や束縛から解放する。"
@@ -1654,10 +1805,18 @@
 						"Label": "耽溺",
 						"Description": "君は盛大にごちそうを食べ、食べ過ぎの影響を振り払うことが出来る。"
 					},
+					"IndulgenceApocryphal": {
+                        "Label": "耽溺 (外典)",
+                        "Description": "君は盛大にごちそうを食べ、食べ過ぎの影響を振り払うことが出来る。全ての教義が正統派に語られているわけではない。秘密裏に囁かれ、司祭から信頼のおける待祭に、あるいは散逸した派閥に残された書物に記された教えもある。"
+                    },
 					"Knowledge": {
 						"Label": "知識",
 						"Description": "君は信仰の洞察を得る。"
 					},
+					"KnowledgeApocryphal": {
+                        "Label": "知識 (外典)",
+                        "Description": "君は信仰の洞察を得る。全ての教義が正統派に語られているわけではない。秘密裏に囁かれ、司祭から信頼のおける待祭に、あるいは散逸した派閥に残された書物に記された教えもある。"
+                    },
 					"Lightning": {
 						"Label": "雷光",
 						"Description": "君は、電気や雷、嵐などを制御する。"
@@ -1674,6 +1833,10 @@
 						"Label": "力",
 						"Description": "君の肉体的な力は信仰の強さで強化される。"
 					},
+					"MightApocryphal": {
+                        "Label": "力 (外典)",
+                        "Description": "君の肉体的な力は信仰の強さで強化される。全ての教義が正統派に語られているわけではない。秘密裏に囁かれ、司祭から信頼のおける待祭に、あるいは散逸した派閥に残された書物に記された教えもある。"
+                    },
 					"Moon": {
 						"Label": "月",
 						"Description": "君は月に関連する力に指示をする。"
@@ -1718,6 +1881,10 @@
 						"Label": "秘密",
 						"Description": "君は秘密を守り、それを隠されたままにする。"
 					},
+					"SecrecyApocryphal": {
+                        "Label": "秘密 (外典)",
+                        "Description": "君は秘密を守り、それを隠されたままにする。全ての教義が正統派に語られているわけではない。秘密裏に囁かれ、司祭から信頼のおける待祭に、あるいは散逸した派閥に残された書物に記された教えもある。"
+                    },
 					"Sorrow": {
 						"Label": "嘆き",
 						"Description": "君は憂鬱と寂しさへの痛みの多い繋がりを持つ。"
@@ -1750,6 +1917,10 @@
 						"Label": "旅",
 						"Description": "君は移動と旅に対する力を持つ"
 					},
+					"TravelApocryphal": {
+                        "Label": "旅 (外典)",
+                        "Description": "君は移動と旅に対する力を持つ。全ての教義が正統派に語られているわけではない。秘密裏に囁かれ、司祭から信頼のおける待祭に、あるいは散逸した派閥に残された書物に記された教えもある。"
+                    },
 					"Trickery": {
 						"Label": "欺き",
 						"Description": "君は他者を欺き、いたずらを引き起こす"
@@ -1778,6 +1949,10 @@
 						"Label": "水",
 						"Description": "君は水と流体を支配する"
 					},
+					"WaterApocryphal": {
+                        "Label": "水 (外典)",
+                        "Description": "君は水と流体を支配する。全ての教義が正統派に語られているわけではない。秘密裏に囁かれ、司祭から信頼のおける待祭に、あるいは散逸した派閥に残された書物に記された教えもある。"
+                    },
 					"Wealth": {
 						"Label": "富",
 						"Description": "君は富、取引、宝物に力を及ぼす"
@@ -1799,7 +1974,12 @@
 					"StartOfTurn": "手番の開始時",
 					"EndOfTurn": "手番の終了時"
 				},
-				"ShowTokenIcon": "トークン・アイコンを表示しますか?"
+				"ShowTokenIcon": "トークン・アイコンを表示しますか?",
+				"Unidentified": "未識別にしますか?",
+                "AddBadge": "カウンター追加",
+                "BadgeType": {
+                    "Counter": "カウンター"
+                }
 			},
 			"Feat": {
 				"OnlyLevel1": "1レベルで取得してください",
@@ -1814,8 +1994,13 @@
 				"Warning": {
 					"TakenAfterLevel1": "{item}は1レベルで取得しなければなりませんが、{actor}はレベル{actorLevel}です",
 					"TakenMoreThanOnce": "{item}は1度しか取得できませんが、 {actor}は2度目の選択をしています",
-					"TakenMoreThanMax": "{item}は{maxTaken}しか取得できませんが、{actor}は{timesTaken} 度目の選択をしています"
-				}
+					"TakenMoreThanMax": "{item}は{maxTaken}しか取得できませんが、{actor}は{timesTaken} 度目の選択をしています",
+					"InvalidCategory": "特技 \"{item}\" を{category}に追加できません: 特技の種別が不適切です"
+				},
+				"Info": {
+                    "Added": "{item} が {category} に追加されました"
+                },
+                "LevelLabel": "特技"
 			},
 			"Heritage": {
 				"AncestryNotFound": "参照している祖先アイテムが見つかりません",
@@ -1825,21 +2010,20 @@
 			},
 			"IconLabel": "アイコン",
 			"NameLabel": "名称",
-			"SidebarSummary": "{type} の概要",
-			"Spells": {
-				"PlaceMeasuredTemplate": "場所 {size}-{unit} {shape}",
-				"Variants": {
-                    "DeleteDialogTitle": "呪文バリアントを削除する",
-                    "DeleteDialogText": "本当に '{variantName}'を削除しますか？",
-                    "LabelPlural": "呪文バリアント",
-                    "SelectVariantLabel": "バリアントの選択",
-                    "SelectOtherVariantLabel": "他のバリアントを選択する",
-                    "SheetTitle": "{originalName} (Variant)"
-                }
-			},
 			"Physical": {
 				"LevelLabel": "アイテム {level}",
 				"PriceLabel": "価格: {price}",
+				"OtherTag": {
+                    "Herbal": "ハーブ",
+                    "Improvised": "即席",
+                    "Shoddy": "粗悪品"
+                },
+                "OtherTags": {
+                    "Label": "その他のタグ",
+                    "Hint": "これらは、2版のルールにおいて明示的な地位や定義はないものの、大きく信頼することができる分類を示すタグである。他の属性が存在する場合、自動で追加されるものもある。"
+                },
+                "Broken": "破損",
+                "Destroyed": "破壊",
 				"Usage": {
 					"WornParenthetical": "着用部位 ({where})",
 					"WornSlot": {
@@ -1875,6 +2059,22 @@
 				}
 			},
 			"Plural": "アイテム",
+			"RemovalPrevented": " {item} を取り除くには、  {preventer} がさまたげになっています",
+			"SidebarSummary": "{type} の概要",
+			"Spells": {
+				"PlaceMeasuredTemplate": "場所 {size}-{unit} {shape}",
+				"Variants": {
+                    "DeleteDialogTitle": "呪文バリアントを削除する",
+                    "DeleteDialogText": "本当に '{variantName}'を削除しますか？",
+                    "LabelPlural": "呪文バリアント",
+                    "SelectVariantLabel": "バリアントの選択",
+                    "SelectOtherVariantLabel": "他のバリアントを選択する",
+                    "SheetTitle": "{originalName} (Variant)"
+                },
+				"Warning": {
+                    "InvalidLevel": "呪文 {name} を {targetLevel}　のレベルに追加しようとしましたが、この呪文の基本レベルは {baseLevel} です"
+                }
+			},
 			"Weapon": {
 				"CriticalSpecialization": {
                     "axe": "最初の対象に隣接し、かつ、間合い内にいる1体のクリーチャーを選ぶこと。もしそのACがクリティカル・ヒットの攻撃ロール結果よりも低いなら、君はそのクリーチャーに、君がロールした武器ダメージ・ダイスの結果に等しいダメージを与える（幾つだったとしても、その発現ルーンの追加ダイスを含める）。これは売価されず、このダメージにはその他の追加ダイスは適用されない。",
@@ -1930,7 +2130,6 @@
                     "StrikingMaterial": "{material}製{striking}・{base}"
 				},
 				"HandsLabel": "用法",
-				"Improvised": "即席",
 				"MandatoryMelee": "この武器は近接武器にのみ使用可能な特性を持っています",
 				"MaterialAndRunes": {
 					"MaterialOption": "{type} ({grade})",
@@ -1942,10 +2141,6 @@
 					"Hint": "コンビネーションとは、近接武器と火器の機能を独特な方法で組み合わせる機能のことで、武器の新しい特性である。コンビネーション武器には、火器としての形式・用途と、近接武器の形式・用途がある。武器には火器としてのステータスが最初に、その次に近接武器としてのステータスが、矢弾の上にインデントされて記載されている。近接武器と火器を切り替えるのには、「使用」アクションが必要である。ただし、君の最後のアクションが、コンビネーション武器を使いながらの敵に対する近接「打撃」であり、それが成功しているなら、その敵に対して、コンビネーション武器を使用した火器による「打撃」を、武器を完全に火器に切り替えることなく行うことが可能で、つまり、近接武器を命中させた場合に火器を発射するということが出来る。この場合、コンビネーション武器は火器による「打撃」後に近接武器に戻る。"
 				},
 				"NoRangeMelee": "なし (近接)",
-				"OtherTags": {
-					"Label": "その他のタグ",
-					"Hint": "これらは、第2版ルールにおいて、明確な地位や定義がないものの、未だに多く依拠されているタグである。他の属性が存在する場合、自動的に追加されるものもある。"
-				},
 				"RangeIncrementN": {
                     "Label": "射程単位 {range} フィート",
                     "Hint": "遠隔武器と投擲武器には射程単位がある。こういった武器による攻撃は通常、射程単位までは通常通りに機能する。武器の射程単位を超えた攻撃ロールは、射程単位を超えるごとに-2の追加のペナルティがかかる。6射程単位を超えた攻撃は不可能である。"
@@ -1962,7 +2157,8 @@
             "Rules": {
                 "Apply": "適用",
                 "Close": "閉じる"
-			}
+			},
+			"WorldItemWarning": "これはワールド・アイテムであり、辞典にセーヴしても機能しません"
 		},
 		"ItemBonus0": "0",
 		"ItemBonus1": "+1 武器発現",
@@ -1986,17 +2182,16 @@
 		"ItemTitle": "アイテム",
 		"ItemUUIDLabel": "UUID:",
 		"ItemsLabel": "アイテム",
-		"JournalEntry": {
-			"Plural": "ジャーナル",
-			"FoundryTheme": "Fondry (クラシック) ジャーナル",
-			"PF2ETheme": "PF2e システム・ジャーナル"
-		},
 		"KeyAbility": "主要能力値",
 		"KeyAbilityLabel": "主要能力",
 		"Keybinding": {
             "CycleTokenStack": {
                 "Label": "トークンの山を循環させる",
                 "Hint": "マウスをホバリングさせたトークンの山のZインデックスを循環させ、一番上のものを一番下にする"
+            },
+            "GMVision": {
+                "Label": "GM視点",
+                "Hint": "視認性向上のため、暗いシーンを明るくする"
             }
         },
 		"KitItems": "アイテム",
@@ -2009,6 +2204,7 @@
 		"LanguageAlghollthu": "アルゴールトゥ語",
 		"LanguageAmurrun": "アミュラン語",
 		"LanguageAnadi": "アナディ語",
+		"LanguageAncientOsiriani": "古代オシーリオン語",
 		"LanguageAndroffan": "アンドロファン語",
 		"LanguageAnugobu": "アヌゴブ語",
 		"LanguageAquan": "水界語",
@@ -2023,12 +2219,13 @@
 		"LanguageDestrachan": "デストラカン語",
 		"LanguageCommon": "共通語",
 		"LanguageCyclops": "サイクロプス語",
-		"LanguageDaemonic": "デーモン語",
+		"LanguageDaemonic": "ダイモン語",
 		"LanguageDraconic": "竜語",
 		"LanguageDruidic": "ドルイド語",
+		"LanguageDrooni": "ドルーン語",
 		"LanguageDwarven": "ドワーフ語",
 		"LanguageDziriak": "ド＝ジリラク語",
-		"LanguageFormian": "Formian",
+		"LanguageFormian": "フォーミアン語",
 		"LanguageEkujae": "エクジャエ象形文字",
 		"LanguageElven": "エルフ語",
 		"LanguageErutaki": "エルタキ語",
@@ -2043,14 +2240,16 @@
 		"LanguageHalfling": "ハーフリング語",
 		"LanguageHallit": "ハリト語",
 		"LanguageHwan": "ホワン語",
+		"LanguageIblydan": "イブリドス語",
 		"LanguageIgnan": "火界語",
-		"LanguageIkeshti": "Ikeshti",
+		"LanguageIkeshti": "イケシュティ語",
 		"LanguageInfernal": "地獄語",
 		"LanguageIruxi": "イラクシ語",
 		"LanguageJistkan": "ジストカ語",
 		"LanguageJotun": "ヨトゥン語",
 		"LanguageJyoti": "イヨティ語",
 		"LanguageKaava": "カアヴァ語",
+		"LanguageKashrishi": "カシュリシ語",
 		"LanguageKelish": "ケリシュ語",
 		"LanguageKibwani": "キブワニ語",
 		"LanguageKitsune": "キツネ語",
@@ -2071,6 +2270,7 @@
 		"LanguageOsiriani": "オシーリオン語",
 		"LanguageProtean": "プロティアン語",
 		"LanguageRasu": "ラス語",
+		"LanguageRatajin": "ラタジン語",
 		"LanguageRazatlani": "ラザトラン語",
 		"LanguageRequian": "鎮魂者語",
 		"LanguageRussian": "ロシア語",
@@ -2151,6 +2351,7 @@
 		"MacroActionNoActorError": "このアクターはもう存在しません",
 		"MacroActionNoActionError": "このアクションはもう存在しません",
 		"MagicTraditionLabel": "魔法の体系",
+		"MagicTraditionUseSpellLabel": "呪文体系を用いる",
 		"MAPAbbreviationLabel": "MAP {penalty}",
 		"MartialAdvanced": "上級武器",
 		"MartialHeavy": "重装鎧",
@@ -2259,7 +2460,6 @@
 		"TwoDegreesBetter": "2段階上げる",
 		"TwoDegreesWorse": "2段階下げる",
 		"OpenActionBrowserTitle": "アクションの窓を開く",
-		"OpenFeatBrowserTitle": "特技の窓を開く",
 		"OpenInventoryBrowser": "インベントリの窓を開く",
 		"OpenItemTitle": "収納の中身を表示",
 		"OpenSpellBrowserTitle": "呪文の窓を開く",
@@ -2343,6 +2543,9 @@
 		"PreciousMaterialSiccatiteDescription": "素材の状態では、この銀色の鉱石は、やけどするほどに熱いか、凍てつくほどに冷たいかのどちらかである。シカタイトが2つの関連する物質であるのか、何らかの未知のプロセスを経て出力温度を決定している一つの物質であるのかについては、冶金学者の間でも議論が分かれるところである。理由が何にせよ、この素材は極端な温度であるため、注意深く扱わなければならない。熱いシカタイトは紙や乾いたブラシなどの可燃物に簡単に引火する。冷たいシカタイトを湿潤した環境に置いておくと、分厚い氷の層に包まれてしまう。大量のシカタイトと肉体的に接触したクリーチャーは、接触を続けるラウンドごとに1点のエネルギー・ダメージを受ける（熱いシカタイトなら火炎、冷たいシカタイトなら氷雪ダメージ）。",
 		"PreciousMaterialSilver": "銀",
 		"PreciousMaterialSilverDescription": "銀製の武器はデヴィルからワーウルフまで幅広いクリーチャーにとって致命的である。銀製のアイテムは鋼のアイテムよりも耐久性が低く、低級クラスの銀のアイテムは通常、単に銀メッキである。",
+		"PreciousMaterialSisterstoneDescription": "姉妹石は、乙女の原野で霊魂の流出を受けた縁が深い2つの鉱石である薄明の姉妹石と夕日の姉妹石の呼称である。これらは、色以外の特徴は同じで、薄明の姉妹石は淡いオレンジ色、夕日の姉妹石はオレンジめいた赤い色をしている。もう片方の種別の姉妹石に近接していると、双方がアンデッドを退散させる霊的エネルギーを発し始める。",
+		"PreciousMaterialSisterstoneDusk": "姉妹石 (薄明)",
+        "PreciousMaterialSisterstoneScarlet": "姉妹石 ((夕日)",
 		"PreciousMaterialSovereignSteel": "ソヴリン鋼",
 		"PreciousMaterialSovereignSteelDescription": "黒の君主キーヴォス＝カルによって作られた、この独特な冷たい鉄とスカイメタル・ノークァルとの合金は、魔法の攻撃に対する守りを提供することが出来る。この2つの素材を低温鋳造する工程は非常に複雑で精密さを求めるものである。ソヴリン鋼の武器と防具を求めるキャラクターは、 間違いなく、この稀少な合金で作られた装備を手にするため、スターフォールに行かなければならないだろう。ソヴリン鋼製の盾を作ることが出来るという説もあるが、キーヴォス＝カルは、ある時、そのようなものは必要なないと叫び、そういったものを作ることを何人にも禁じたという。これまでのところ、彼の鍛冶師は恐怖のあまり、それが冗談だったのかどうかを確認できていない。ソヴリン鋼製のアイテムは全て（武器と防具を含む）、そのアイテムが魔法に対するセーヴに+4の状況ボーナスを持ち、所有者がそのアイテムを魔法から守るために特別に行うセーヴ（例えば、ラスティング・グラスプの呪文に対して）にもそのボーナスを与える。",
 		"PreciousMaterialStandardGrade": "標準クラス",
@@ -2351,6 +2554,7 @@
 		"PreparationTypeInnate": "生来",
 		"PreparationTypePrepared": "準備",
 		"PreparationTypeSpontaneous": "任意発動",
+		"PreparationTypeItems": "アイテムのみ",
 		"Prerequisite1": "前提条件 1",
 		"Prerequisite2": "前提条件 2",
 		"Prerequisite3": "前提条件 3",
@@ -2422,6 +2626,8 @@
 		},
 		"ResiliencyRuneLabel": "レジリエント・ルーン",
 		"ResistancesLabel": "抵抗",
+		"ResistancesExceptionLabel": "例外:",
+		"ResistancesExceptionPlaceholder": "例：銀を除く",
 		"ResolvePointsShortLabel": "決意",
 		"ResolveTitle": "君の決意ポイントの量",
 		"RestoreSpellTitle": "呪文の回復",
@@ -2816,29 +3022,6 @@
 		"SellAllTreasureTitle": "全ての宝飾品を売却",
 		"SellAllTreasureQuestion": "全ての宝飾品を硬貨にします",
 		"Senses": "感覚",
-		"SensesDarkvision": "暗視",
-		"SensesGreaterDarkvision": "優れた暗視",
-		"SensesLowLightVision": "夜目",
-		"SensesEcholocation": "反響定位",
-		"SensesLifesense": "生命感知",
-		"SensesMotionsense": "動作感知",
-		"SensesScent": "鋭敏嗅覚",
-		"SensesTitle": "君のキャラクターの感覚",
-		"SensesTremorsense": "振動感知",
-		"SensesWavesense": "波感知",
-		"Sense": {
-			"Acuity": {
-				"Label": "精度",
-				"Precise": "明瞭",
-				"Imprecise": "不明瞭",
-				"Vague": "あいまい"
-			},
-			"Label": "感覚",
-			"RangeLabel": "距離",
-			"NoRangeLimit": "無制限",
-			"WithAcuity": "{sense} ({acuity})",
-			"WithAcuityAndRange": "{sense} ({acuity} {range} フィート)"
-		},
 		"SettingsColorBlue": "ブルーグレー",
 		"SettingsColorLabel": "UIテーマ",
 		"SettingsColorNotes": "UIテーマはサイドバーやチャットカードで表示される",
@@ -2854,7 +3037,6 @@
 		"SheetLabelNew": "{type} シート（プレビュー）",
 		"SheetLabelOld": "{type} シート(レガシー)",
 		"ShieldACBonusTitle": "君の盾のACボーナス（盾を掲げるのアクションを使った際に適用）",
-		"ShieldBTLabel": "破損",
 		"ShieldBrokenThresholdLabel": "破損閾値",
 		"ShieldBTShortLabel": "BT",
 		"ShieldBTTitle": "君の盾の破損閾値",
@@ -2916,7 +3098,6 @@
 		},
 		"SpecialLabel": "特殊",
 		"SpecialSensesLabel": "特殊な感覚",
-		"SpecialSensesTitle": "キャラクターの特殊な感覚",
 		"Speed": "速度",
 		"SpeedFeet": "速度 (フィート)",
 		"SpeedBaseLabel": "基本 {type} 速度",
@@ -2938,6 +3119,11 @@
 		"SpellBrowserSearchHint": "君は名称での検索やアトリビュートのカスタムが出来る。検索可能になりうるアトリビュートは：<br>ソース、レベル、系統、構成要素、素材、対象、距離、時間、持続時間、ダメージ、ダメージ種別、セーヴ、精神集中、儀式、能力値及びクラスである。<br>例：’ファイア、ダメージ：d6’でファイアを名前に含み、ダメージにd6を含む全ての呪文が表示される",
 		"SpellCantripLabel": "キャントリップ",
 		"SpellCastingFormat": "{traditionSpells}{preparationType}呪文",
+		"SpellcastingSettings": {
+            "Title": "呪文発動設定",
+            "AutoHeightenLabel": "自動でレベル増強",
+            "AutoHeightenDefault": "デフォルト (アクターのレベルを使う)"
+        },
 		"SpellComponentF": "焦点具",
 		"SpellComponentM": "物質",
 		"SpellComponentS": "動作",
@@ -3080,7 +3266,6 @@
 		"TabPathfinderSociety": "パスファインダー協会",
 		"TabSkillsLabel": "技能",
 		"TabSpellbookLabel": "呪文発動",
-		"TargetFlatFootedLabel": "対象が立ちすくみであることが条件の能力を有効化",
 		"TempHPTitle": "君の一時ヒット・ポイント",
 		"TempHitPointsShortLabel": "一時HP",
 		"TemplateLabel": "{size}-{unit} {shape}",
@@ -3098,6 +3283,7 @@
 				"UntilEncounterEnds": "遭遇が終了するまで"
 			}
 		},
+		"ToggleEffectUnidentified": "どの効果が未識別であるかを切り替える",
 		"TogglesLabel": "表示切替",
 		"ToggleSignatureSpellTitle": "署名呪文を切替",
 		"ToggleSpellVisibilityTitle": "呪文の準備",
@@ -3118,12 +3304,6 @@
 		"TotalTreasure": "宝飾品の合計",
 		"TotalCoinage": "硬貨の合計",
 		"TotalWealth": "富の合計",
-		"TraditionSpells": {
-			"Arcane": "{tradition} ",
-			"Divine": "{tradition} ",
-			"Occult": "{tradition} ",
-			"Primal": "{tradition} "
-		},
 		"TrainedSkillsLabel": "修得済みの技能",
 		"Traits": "特性",
 		"TraitAasimar": "アアシマール",
@@ -3134,8 +3314,8 @@
 		"TraitAdditive2": "添加 2",
 		"TraitAdditive3": "添加 3",
 		"TraitAdjustment": "調整具",
-		"TraitAesir": "エシル",
 		"TraitAeon": "アイオーン",
+		"TraitAesir": "エシル",
 		"TraitAffixedToArmor": "防具に接着",
 		"TraitAffixedToArmorOrAWeapon": "防具か武器に接着",
 		"TraitAffixedToMediumHeavyArmor": "中装鎧あるいは重装鎧に接着",
@@ -3157,6 +3337,7 @@
 		"TraitAlchemist": "アルケミスト",
 		"TraitAll": "全て",
 		"TraitAmphibious": "水陸両生",
+		"TraitAmp": "アンプ",
 		"TraitAnadi": "アナディ",
 		"TraitAndroid": "アンドロイド",
 		"TraitAngel": "エンジェル",
@@ -3180,6 +3361,8 @@
 		"TraitArtifact": "アーティファクト",
 		"TraitAstral": "アストラル",
 		"TraitAsura": "アスラ",
+		"TraitAttached": "取付",
+        "TraitAttachedToAThrownWeapon": "投擲武器に取付",
 		"TraitAttachedToShield": "盾に取付",
 		"TraitAttachedToCrossbowOrFirearm": "クロスボウあるいは火器に取付",
 		"TraitAttachedToCrossbowOrFirearmFiringMechanism": "クロスボウあるいは火器に取付 (発射機構)",
@@ -3187,7 +3370,6 @@
 		"TraitAttachedToFirearm": "火器に取付",
 		"TraitAttachedToFirearmFiringMechanism": "火器（発射機構）に取付",
 		"TraitAttachedToFirearmScope": "火器（スコープ）に取付",
-		"TraitAttachedToAThrownWeapon": "投擲武器に取付",
 		"TraitAttack": "攻撃",
 		"TraitAuditory": "聴覚",
 		"TraitAutomaton": "オートマトン",
@@ -3285,6 +3467,7 @@
 		"TraitDescriptionAlchemical": "錬金術アイテムは錬金術試薬の反応を動力としている。錬金術アイテムは魔法のアイテムではなく、魔法のオーラを発していない。 ",
 		"TraitDescriptionAlchemist": "これはアルケミストのクラスに由良する能力を示している。",
 		"TraitDescriptionAmphibious": "水陸両棲のクリーチャーは水中でも大気でも、その好む環境の外でも、それぞれ異なるが少なくとも数時間は呼吸することが出来る。これらのクリーチャーは、しばしば水泳速度を持つ。殴打及び斬撃の素手「打撃」は水中でも通常の－2ペナルティを受けない。",
+		"TraitDescriptionAmp": "アンプは君の思念キャントリップの特徴を修正する特殊な思考形態である。思念キャントリップにはそれぞれ独自のアンプがあり、アンプの特性を持つ特技は通常のアンプの代わりに適用できる異なったアンプを君に与える。",
 		"TraitDescriptionAnadi": "ガルーンド出身の蜘蛛に似た隠者であり、人間の姿を取ることが出来る",
 		"TraitDescriptionAndroid": "人工的な手段で作られ合成人間の祖先。ヌーメリアで最も一般的",
 		"TraitDescriptionAphorite": "秩序の次元界であるアクシスの存在の次元界の子孫の一種",
@@ -3333,6 +3516,7 @@
 		"TraitDescriptionContingency": "この特性を持つ呪文は、呪文の効果中に君にアクションを与えるもので、それは、通常は特別なトリガーを使ったリアクションである。通常、24時間などの長い持続時間を持つ。事前準備の特性を持つ呪文は、一度に1つだけが有効である。事前準備の特性を持つ他の呪文を発動した場合、新しい方の呪文が古い方の呪文に優先する。",
 		"TraitDescriptionConstruct": "人造とは、死霊術以外の力で強化された人工的なクリーチャーのことである。人造は心を持たないことが多く、出血ダメージ、即死効果、病気、治癒、死霊術、非致死攻撃、毒、危篤、吸精、疲労、麻痺、病気、気絶状態に耐性があり、体を作るのに使われた素材に応じて硬度を持つことがある。人造は生物でもアンデッドでもない。人造クリーチャーは、ヒット・ポイントが0になると破壊される。",
 		"TraitDescriptionContact": "この毒は皮膚との接触によって運ばれる。",
+		"TraitDescriptionContract": "契約は、複数の勢力間の合意を魔法で形にしたアイテムの種別であり、一般的には魔法の利益をもたらす",
 		"TraitDescriptionCriticalFusion": "クリティカル複合とは、火器を装填中にコンビネーション武器の近接バージョンを使って近接攻撃を行った際に、クリティカル特化効果の選択肢を2つ、追加で与えてくれるコンビネーション武器のための新たな特性である。もし、片方を選べば、その効果はその武器の使用法の通常のクリティカル特化効果を置き換える。まず、君は火器を発射して大きな音と脳しんとうを引き起こすことが出来る。これによって君は近接武器グループのクリティカル特化効果ではなく、火器のクリティカル特化効果を使用することが出来る。次に、君は火器を発射してクリティカル・ヒットに勢いを与えるか、近接攻撃時に敵を撃つことを選び、武器ダメージ・ダイスごとに2点の追加ダメージを与えることが出来る。この双方の選択肢は火器を発射するため、つまり、君は再度、発射するために再装填しなくてはならなくなる",
 		"TraitDescriptionCurse": "呪いはクリーチャーに一定の期間続く効果を与える。呪いは常に魔法のものであり、一般的には呪文か罠の結果である。この特性を持つ効果は、特に呪いを対象にした効果によってのみ取り除くことが出来る",
 		"TraitDescriptionCursed": "この特性を持つアイテムは、持ち主にトラブルを引き起こす呪いをかけられている。呪いはアイテムの識別時には探知されないが、クリティカル時には呪いの存在と正確な性質の両方が明らかになる。呪われたアイテムは、一度発動したり、最初に運用した後は、捨てることができない。呪いが取り除かれた場合にのみ、そのアイテムを取り外すことができる",
@@ -3343,6 +3527,7 @@
 		"TraitDescriptionDeath": "即死の特性を持つ効果は、0ヒットポイントにしたなら君を即座に殺す。即死効果には、0ヒットポイントにすることなく君を死に近づけるか、殺す効果もある。",
 		"TraitDescriptionDedication": "君はキャラクターにアーキタイプを適用するために、この特性を持つ特技を選ばなくてはならない。",
 		"TraitDescriptionDetection": "この特性を持つ効果は人物、物体、あるいはオーラの存在を判断しようと試みる。",
+		"TraitDescriptionDeviant": "懇篤性は奇妙な超常現象を表現している。",
 		"TraitDescriptionDhampir": "この特性を持つクリーチャーはダンピールの祖先を持つ。こういった人型生物はヴァンパイアと他の祖先の定命の子孫である",
 		"TraitDescriptionDisarm": " 君は、もし自由な手がないとしても、〈運動〉技能での「武器落とし」にこの武器を使うことが出来る。これには、武器の間合いを用いて（もし君自身のものと違うなら）、〈運動〉判定にアイテム・ボーナスを加えるように、その武器のアイテム・ボーナスを攻撃ロールに加える。もし君がこの武器を使って「武器落とし」にファンブルしたなら、ファンブルの効果を受ける代わりに失敗効果を受けるため、この武器を落とすことが出来る。クリティカルしたとしても、もし君がそのアイテムを奪いたいなら、君は片手が自由である必要がある。",
 		"TraitDescriptionDisease": "この特性を持つ効果は一つ以上の病気をもたらす。病気は一般的に、苦難である。",
@@ -3360,6 +3545,7 @@
 		"TraitDescriptionEmotion": "この効果はクリーチャーの感情を変える。この特性を持つ功は常に精神の特性をも持つ。特殊な訓練をしたクリーチャーや機械や人工知能を持つクリーチャーは感情効果に完全耐性を持つ。",
 		"TraitDescriptionEnchantment": "この特性を持つ効果と魔法のアイテムは心術の魔法系統に関連し、精神支配、感情強制変更、あるいはその他の精神効果に関わるものである。",
 		"TraitDescriptionEnvironement": "この特性を持つ障害は、流砂や有害な菌類のように自然界にある何らかの危険である。",
+		"TraitDescriptionEsoterica": "エソテリカの特性は、護符や超自然的な装身具など、君が持ち歩く様々なものを取り入れた多くのソーマタージ特技やクラス特徴についている。エソテリカの特性を持つ能力を使用するには、エソテリカを所持していることが必要である。通常、あなたは常にエソテリカを持っているという前提だるが、稀に手元になかったり、装備を剥がされたりすることがある。",
 		"TraitDescriptionEvil": "悪の効果は、しばしば、悪属性の外方次元界由来のエネルギーを操作し、善属性の信仰の僕や善の神格の聖なる僕の倫理に反する行いである。この特性を持つクリーチャーの属性は悪である。",
 		"TraitDescriptionEvocation": "この特性を持つ効果と魔法のアイテムは力術の魔法系統に関連しており、一般的にはエネルギーとエレメンタルの力に関わっている。",
 		"TraitDescriptionExploration": "この特性を持つ連続行動は使うのに1手番以上かかり、大抵の場合、探索モードにのみ使うことが出来る。",
@@ -3371,6 +3557,7 @@
 		"TraitDescriptionFighter": "これはファイター・クラスに由来する能力を示す。",
 		"TraitDescriptionFinesse": "君はこの近接武器を用いた攻撃ロールに【筋力】修正値の代わりに【敏捷力】修正を用いることが出来る。君はなおも、ダメージ計算する際、【筋力】修正値を使う。",
 		"TraitDescriptionFinisher": "終撃は君の心意気を使った劇的な終わりの一打の動きである。君は心意気を持っている場合にのみ終撃を使うことが出来る。そして君は終撃を行った直後に心意気を失う。一度終撃を使ったなら、君はその手番の残りに、攻撃の特性を持つアクションを使うことが出来ない。終撃の特性を持つアクションの中には、失敗時に効果を与えるものもある。失敗時に加えられる効果はファンブル時には加えられない。もし、君の終撃アクションが成功したとしても、代わりに失敗効果の適用を選ぶことが出来る。",
+		"TraitDescriptionFinite": "この特性を持つ次元界は有限の空間で構成されている",
 		"TraitDescriptionFire": "火炎特性を持つ効果は火炎ダメージを与えるか、火炎の操作あるいは召喚を行う。火炎の操作を行う効果は炎のない範囲には何の効果もない。この特性を持つクリーチャーは主に炎で構成され、そのエレメントに魔法的な繋がりを持つ。",
 		"TraitDescriptionFleshwarp": "外なる力によって完全に変質し、今や独特の存在となった人型生物",
 		"TraitDescriptionFlexible": "この防具はほとんどのアクションの邪魔にならないほど柔軟性がある。君は判定ペナルティを〈軽業〉と〈運動〉に適用しない。",
@@ -3385,6 +3572,7 @@
 		"TraitDescriptionGenie": "多様なるジーニーの血族は、エレメンタル界で主要な位置を示している。彼らは強力な魔法の能力を持つ",
 		"TraitDescriptionGeniekin": "An umbrella term for planar scions descended from beings from the Elemental Planes.",
 		"TraitDescriptionGeneral": "前提条件を満たす限り、どのキャラクターでも選ぶことが出来る特技のタイプ。君はクラスによって一般特技を得る際、この特性を持つ特技を選ぶことが出来る。",
+		"TraitDescriptionGhoran": "種子からのよみがえりによって長命を維持する、知性持つ植物の祖先。",
 		"TraitDescriptionGhul": "元々はジーニーであった貪欲で暴食をむさぼるアンデッド",
 		"TraitDescriptionGnoll": "ノールは、ハイエナに似た人型生物である",
 		"TraitDescriptionGnome": "この特性を持つクリーチャーはノームの祖先を持つ。ノームは魔術に長けた小柄な人々で、新しい経験を求め、大抵は夜目を持っている。この特性を持つ能力はノームだけが使うことができ、ノームだけが選ぶことができる。この特性を持つ武器はノームによって作られ、使われる。",
@@ -3398,7 +3586,7 @@
 		"TraitDescriptionHalfElf": "この特性を持つクリーチャーは部分的に人間で、部分的にオークである。この特性を持つ能力はハーフエルフだけが使うことができ、選ぶことができる。",
 		"TraitDescriptionHalfOrc": "この特性を持つクリーチャーは部分的に人間で、部分的にオークである。この特性を持つ能力はハーフエルフだけが使うことができ、選ぶことができる。",
 		"TraitDescriptionHalfling": "この特性を持つクリーチャーはハーフリングの祖先を持つ。この小柄な人々は幸運であると見なされる、友好的な放浪者である。この特性を持つ能力はハーフリングだけが使うことができ、選ぶことができる。この特性を持つ武器はハーフリングによって作られ、使われる。",
-		"TraitDescriptionHampering": "移動阻害の特性を持つ武器には、破壊力のある四肢や鍔がついている。君は「使用」アクションを使って武器の間合い内の1枡に、その武器を打ちつけることが出来る。そのマス目は、君がその武器で攻撃をするか、移動するか、打ちつけるのをやめるか、君の次の手番の開始時まで移動困難な地形になる。",
+		"TraitDescriptionHampering": "移動阻害の特性を持つ武器には、破壊力のある四肢や鍔がついている。君は「使用」アクションを使って武器の間合い内の1マスに、その武器を打ちつけることが出来る。そのマス目は、君がその武器で攻撃をするか、移動するか、打ちつけるのをやめるか、君の次の手番の開始時まで移動困難な地形になる。",
 		"TraitDescriptionHaunt": "この特性を持つ障害は霊魂の反響であり、その主はしばしば悲劇的な死を遂げている。霊障に安息を与えるには、しばしば、その霊障の遂げられなかった使命を果たす必要がある。適切に安息を与えられなかった霊障は常に一定の時間後、戻ってきてしまう。",
 		"TraitDescriptionHealing": "治癒効果はクリーチャーの肉体を回復する。一般的にはこれはヒットポイントの回復であるが、時折、病気やその他のマイナスの効果からの回復でもある。",
 		"TraitDescriptionHobgolin": "ホブゴブリンは堅固で賢明な人々で、軍隊主義的な傾向がある",
@@ -3421,6 +3609,7 @@
 		"TraitDescriptionInvested": "キャラクターは運用の特性を持つ魔法のアイテムを10個までしか着用することが出来ない。もしキャラクターが運用していないなら、そのアイテムの魔法効果はまったく適用されず、起動することも出来ないが、キャラクターはなおも物理的なアイテムを着用する通常の利益を得る（雨から帽子が頭を守ってくれるというような）",
 		"TraitDescriptionInvestigator": "これはインヴェスティゲーター・クラスに由来する能力を示す。",
 		"TraitDescriptionJoustingD6": "この武器は手綱か似たような方法を用いた騎乗戦闘に適している。騎乗している際、もし君が、攻撃する前のアクションで10フィート以上移動しているのなら、その武器のダメージ・ダイスの数に等しい状況ボーナスを、その攻撃のダメージに追加する。加えて、騎乗している間、君は記載された値にダメージ・ダイスを変更し、その武器を片手で使うことが出来る。",
+		"TraitDescriptionKashrishi": "目立つ水晶の角と固有の霊的能力を持つ頑丈な祖先。",
 		"TraitDescriptionKobold": "この特性を持つクリーチャーはコボルドの祖先を持つ。",
 		"TraitDescriptionKickback": "反動武器は強力で、高い反発力のために扱うのが難しい。反動武器は全ての攻撃に1点の追加ダメージを与える。反動武器の発射は攻撃ロールに－2状況ペナルティがかかるが、筋力14以上のキャラクターはペナルティを無視する。反動武器に二脚や三脚、その他の安定用装置をとりつけることによってこのペナルティを低下させるか、無視することが出来る。",
 		"TraitDescriptionKitsune": "本来の姿が狐に似ている、変身人型生物",
@@ -3435,8 +3624,10 @@
 		"TraitDescriptionManipulate": "君はこの特性を持つアクションを使うために、物理的にあるアイテムを操作するか、ジェスチャーを行わなくてはならない。この特性のあるアクションを、適切な器官のないクリーチャーは行うことが出来ない。操作アクションはしばしば、リアクションのトリガーとなる。",
 		"TraitDescriptionMechanical": "この特性を持つ障害は、実体を持つ、組み立てられた物体である。",
 		"TraitDescriptionMental": "精神効果は対象の精神を変えることが出来る。物体や精神なしのクリーチャーには効果を持たない。",
+		"TraitDescriptionMetal": "金属の特性を持つ効果は、金属を操るか、金属を出現させるかのどちらかである。金属を操るものは、金属のない場所では効果がない。この特性を持つクリーチャーは主に金属で構成されているか、その元素と魔法的なつながりがある。",
 		"TraitDescriptionMetamagic": "呪文修正の特性を持つアクションは、大抵の場合、呪文修正特技に由来し、君の呪文の特質を曲げる。君は変更したい「呪文の発動」直前に呪文修正アクションを使わなくてはならない。もし、君がその直後に「呪文の発動」以外のアクション（フリー・アクションとリアクションを含む）を取ったなら、君は呪文修正アクションの利益を失う。呪文修正アクションによって追加されたあらゆる追加効果はその呪文の効果の一部であって、呪文修正アクションそのものの効果ではない。",
 		"TraitDescriptionMindless": "精神なしのクリーチャーはプログラムされているか、原始的な精神しか持たない。全てではないが、そのほとんどの精神能力修正値は－5である。こういったクリーチャーは全ての精神効果に対して耐性を持つ。",
+		"TraitDescriptionMindshift": "この特性を持つアクションは、常に君の精神そのものの力を使うように変更することが出来る。このアクションを取った際、君は与えるダメージを精神ダメージに置き換え、精神の特性を与え、要求するセーヴを意志セーヴに置き換えることが出来る。このアクションは、与えるダメージ種別に適さないあらゆる特性を失う。",
 		"TraitDescriptionMinion": "この特性を持つクリーチャーは手番に2アクションしか使うことが出来ず、リアクションを持つことも、君の手番以外に行動をすることも出来ない。君の手下は戦闘時に君の手番に、命令のためのアクションを1手番に１度、使った際に行動する。動物の相棒については、君は「動物使い」を使う；招来された手下のような、呪文や魔法のアイテムの効果におる手下については、君は「呪文の維持」か「起動の維持」を使う；もし特記なければ、君は音声で命令を行う。これは聴覚と精神集中の特性を持つ単発アクションである。もし命令を与えられなければ、手下は自分を守るか、明白な危害から逃げること以外にアクションを使わない。もし充分に長い間、一般的には1分間、世話をされないままなら、精神なしの手下は大抵の場合、行動をしないが、動物は本能に従い、思考能力のある手下は自分のやりたいようにやる。手下は他のクリーチャーを支配することは出来ない",
 		"TraitDescriptionMisfortune": "不運効果は君がロールしたダイスを不利な方向に変更する。君は一回のロールを変更する不運効果を2つ以上持つことは出来ない。もし、複数の不運効果が適用される場合は、GMが、どれがより不利な効果であるかを判断し、それを適用する。もし、同じロールに幸運効果と不運効果が適用される場合は、お互いに打ち消しあうため、君は通常通りにロールする。",
 		"TraitDescriptionModification": "この特性を持つ特技は発明の人造を変更する。再設定のクラス特徴を持っているなら、君は簡単にこの特技を再訓練することが出来る。",
@@ -3447,6 +3638,7 @@
 		"TraitDescriptionMounted": "据付の攻城兵器はかなりの大きさと接敵面を占有し、一般的に攻撃されたときのためのステータスがある。こういった兵器は大きなスケールの戦争に使われる",
 		"TraitDescriptionMove": "この特性を持つアクションは、あるマス目から別のマス目への移動に関連する",
 		"TraitDescriptionMulticlass": "マルチクラスの特性を持つアーキタイプは、君の訓練を別のクラスの特質へと多様化させることを表現している。君は、同じ名前のクラスの一員であるなら、マルチクラス・アーキタイプの専心特技を選ぶことが出来ない。",
+		"TraitDescriptionNagaji": "は虫類の特徴と蛇の頭を持った伝統主義の祖先。",
 		"TraitDescriptionNecromancy": "この特性を持つ効果と魔法のアイテムや死霊術の魔法系統に関連し、一般的には生と力の力に関わっている。",
 		"TraitDescriptionNegative": "この特性を持つ効果はアンデッド・クリーチャーを負のエネルギーで癒し、生きているクリーチャーに負のエネルギーダメージを与えるか、負のエネルギーを操作する",
 		"TraitDescriptionNoisy": "この防具は音が大きく、君の存在を知らせてしまう可能性が高い。筋力の値を満たしていたとしても〈隠密〉判定への防具の判定ペナルティが適用される",
@@ -3473,6 +3665,8 @@
 		"TraitDescriptionPress": "この特性を持つアクションは前の攻撃の後追いをする。継続の特性を持つアクションは、君が現在、複数回攻撃ペナルティの影響を受けている場合にのみ、使うことが出来る。継続の特性を持つアクションには、失敗時に効果をもたらすものもある。失敗時に効果を付け加えられる効果はファンブルには適用されない。もし継続アクションが成功したなら、代わりに失敗効果を適用することを選べる（例えば、君は抵抗のために攻撃がダメージを与えなかった際にそうしたいと思うかもしれない）。継続アクションは複数回攻撃ペナルティを必要とするが、もし「待機」の連続行動を使っていたとしても、君の手番でない時に使うことは出来ない。",
 		"TraitDescriptionPrimal": "この魔法は、自然世界と本能と密接に繋がっている始原体系のものである。この特性を持つものは全て魔法のものである",
 		"TraitDescriptionPropulsive": "君は投射遠隔武器に【筋力】修正値の半分（もし正なら）を加えることが出来る。もし君が負の【筋力】修正値を持つのなら、君は代わりに完全な【筋力】修正値を加える。",
+		"TraitDescriptionPsyche": "プシケの特性を持つ能力を使うために君はプシケを解き放たなければならず、解き放たれたプシケが落ち着いたなら、自動的に終了する。。",
+		"TraitDescriptionPsychic": "これはサイキックのクラスに由来する能力を示している",
 		"TraitDescriptionRage": "君は激怒の特性を持つ能力を使うのに激怒していなければならず、激怒をやめたなら自動的にその能力は終了する",
 		"TraitDescriptionRange": "こえっらの攻撃は有限の射程か射程単位（射程単位の通常のルールに従う）を持つ",
 		"TraitDescriptionRangedTrip": "この武器は武器の最初の射程単位以内までなら、〈運動〉技能での足払いに使うことが出来る。この技能判定は－2状況ペナルティを受ける。君は武器のアイテムボーナスをこの判定に加えることが出来る。足払いでの近接武器と同じく、遠隔足払い武器は足払いに使われた際、ダメージを与えない",
@@ -3481,6 +3675,7 @@
 		"TraitDescriptionRatfolk": "この特性を持つクリーチャーはラットフォークの祖先を持つ。",
 		"TraitDescriptionReach": "この特性を持つ肉体攻撃は、隣接しているクリーチャーのみではなく、記載された距離までのクリーチャーに攻撃するために使うことが出来る。この特性を持つ武器は長く、隣接したクリーチャーのみではなく、10フィート先のクリーチャーにまで攻撃することが出来る。四肢あるいは武器を使っている四肢が既に間合いを持っているクリーチャーの場合、武器の間合いを5フィート伸ばす。",
 		"TraitDescriptionReckless": "無茶の特性を持つアクションは、操縦者が乗り物の制御を失う危険を冒す。無茶のアクションを行う際、操縦者はまず、乗り物の制御を保つために適切な操縦判定を行う",
+		"TraitDescriptionReflection": "この特性を持つクリーチャーは、「模造」の多様な遺産を持っている。「模造」は生きているもののコピーである。彼らはクローン、次元の複製、あるいはその他のメカニズムによって作り出されたのかもしれない。この特性を持つ能力は、「模造」だけが選択可能である。",
 		"TraitDescriptionReload": "全ての武器が、構えるのに一定の時間が必要であるが、多くの遠隔武器は装填や再装填も必要である。この項目はこのような武器の装填のために何アクション必要かを示している。もし、矢玉を抜いて武器を発射することが同じアクションの一部であるなら、これは0であることもある。もし、あるアイテムを装填するのに2アクション以上がかかるのなら、GMは連続行動として一連で行わなければならないと判断するかもしれず、あるいは、君はこのようなアクションのいくらかを一つの手番で消費し、残りを次の手番で消費することが出来るかもしれない。",
 		"TraitDescriptionRepeating": "リピーティング武器は一般的に、再装填時間が短いクロスボウの種別である。こういった武器はその他のクロスボウのように個々のボルトで装填することが出来ない；代わりに、特殊なスロットに装填するための特化した矢弾のマガジンを必要とするのである。ひとたびマガジンが入ったなら、矢弾は武器が発射されるごとに自動的に装填され、再装填の項目にある数字まで再装填時間が減る（一般的には0）。矢弾が切れたなら、新しいマガジンを再装填しなくてはならず、それには一本の自由な手と3回の使用アクションが必要である（古いマガジンを取り除き、新しいマガジンを取り出し、新しいマガジンをスロットに入れる）。これらのアクションは連続している必要はない。",
 		"TraitDescriptionResonant": "この武器はエネルギー・ダメージを放つことが出来る。君は共鳴武器を使っている間、「エネルギー統制」のフリー・アクションを得る。",
@@ -3508,6 +3703,7 @@
 		"TraitDescriptionSteam": "蒸気機関の特性を持つアイテムは蒸気を作り、構成要素を動かすために水を沸かすエンジンを動力としている。",
 		"TraitDescriptionStrix": "翼を持った人型生物で、そのほとんどがシェリアックス周辺に住んでいる",
 		"TraitDescriptionStructure": "構造物の特性を持つアイテムは、起動することによって,魔法の建物やその他の建造物を作り出す。アイテムは、その他の構造物がない土地区画で起動しなければならない。構造物は自然の地形に適応し、そこに建てるための建造物の用件に適応する。この構造物は、ため池や岩の突起物といった小さな地形には適応するが、水やその他の固形でない表面の上に作り出すことは出来ない。雪や砂丘、その他の、直下に固い面がある柔らかな地表で発動した場合、構造物の基礎部分（もしあれば）は固い面に到達する。もし、この特性を持つアイテムが沼地や振動で揺れやすい範囲など、固体の、不安定な地表の上に起動したなら、毎日、DC3の平目判定を行うこと。失敗すると構造物は沈み始めたり、崩れ始めたりする。構造物は、出現した際にその範囲にいるクリーチャーを傷つけることはないが、人混みの中や人が密集した範囲に作ることは出来ない。アイテムが起動した際に構造物の中に意図せずに入ってしまったクリーチャーは、完全な構造物の中で無傷のままであり、常に明確な脱出経路を持つ。起動終了時に構造物の中に居たクリーチャーには害はなく、構造物の上層に居た場合は害を受けることなく地面に着地する。",
+		"TraitDescriptionSubjectiveGravity": "この特性を持つ次元界では、全ての質量を持つ物体は同じ量の力を持つ重力の中心になることが出来るが、それは精神なし以外のクリーチャーが自ら望んだときのみである。",
 		"TraitDescriptionSummoned": "呪文や効果によって招来されたクリーチャーは招来の特性を持つ。招来されたクリーチャーは他のクリーチャーを召喚すること、価値あるものを作り出すこと、あるいはコストを必要とする呪文を発動することが出来ない。このクリーチャーは手下の特性を持つ。もし、このクリーチャーが招来に使われた呪文以上のレベルの呪文を発動するなら、招来魔法の力をオーバーし、招来されたクリーチャーの呪文は失敗し、招来呪文は終了する。それ以外には、招来されたクリーチャーはその種別のクリーチャーの標準的な能力を使う。一般的には、クリーチャーは最善を尽くして君の敵を攻撃する。もし、そのクリーチャーを意思疎通が出来るなら、君は命令を試みることが出来るが、GMが君の命令にどの程度、従うかを判断する。君が「呪文の発動」を終了した際、即座に、招来されたクリーチャーはその手番の2回のアクションを使う。招来されたクリーチャーから生み出された同族やその他のクリーチャーは、招来されたクリーチャーが去ったなら、変更前の状態（同族の場合は通常、死体にｋなる）に戻る。もし、この状態がどのようなものであるか不明瞭であるなら、GMが決定する。招来されたクリーチャーは様々な呪文や効果によって退散させられる。0ヒットポイントになった際と、自分を呼び寄せていた呪文が終了した際、クリーチャーは自動的に退散する。",
 		"TraitDescriptionSummoner": "これは、サモナーのクラスに由来する能力を示している。",
 		"TraitDescriptionSuli": "スリはジャンの子孫である次元界の末裔である",
@@ -3515,35 +3711,39 @@
 		"TraitDescriptionSweep": "この武器は幅広い薙ぎ払いや回転攻撃をして、複数の敵に攻撃するのが用意である。君がこの武器で攻撃をする際、既にこの手番にこの武器を使って別の対象を攻撃しようとしていたなら、攻撃ロールに+1状況ボーナスを得る。",
 		"TraitDescriptionSylph": "風の次元界の生き物の子孫である、ジーニーキンの一種",
 		"TraitDescriptionTattoo": "タトゥーはクリーチャーの皮膚に描かれるか刻まれるかしたアイテムで、大抵は画像やシンボルの形を取る",
+		"TraitDescriptionTech": "この特性を持つアイテムはヌーメリアのテクノロジーに関連している",
 		"TraitDescriptionTelepathy": "テレパシーを持つクリーチャーは精神でクリーチャーと交流することが出来る。これによって思考に特殊な入手手段を得ることはなく、通常の発話で可能な以上の情報を意思疎通することも出来ない。",
 		"TraitDescriptionTeleportation": "テレポーテーション効果によって、君はある場所から別の場所へと即座に移動することが出来る。テレポーテーションはたいていの場合、移動に基づくリアクションのトリガーとならない。",
 		"TraitDescriptionTengu": "この特性を持つクリーチャーはテングの祖先を持つ。テングは鳥に似た人型生物である。この特性を持つ能力はテングのみが使い、選ぶことが出来る。この特性を持つアイテムはテングのみが作成し、使うことが出来る",
 		"TraitDescriptionTethered": "この武器は一定の長さのロープや鎖がついており、手を離れた後にたぐり寄せることが出来るようになっている。もし、君がこの武器を使っている間に自由な手があるなら、遠隔攻撃として投擲した後や武器落としされた後（別のクリーチャーに持たれてしまった場合を除く）に使用アクションで引っ張って手の中に戻すために使用アクションを使うことが出来る",
+		"TraitDescriptionThaumaturge": "これはソーマタージのクラスに由来する能力であることを示している。",
 		"TraitDescriptionThrown": "君は遠隔攻撃としてこの武器を投擲することが出来る。投擲時にこの武器は遠隔武器である。投擲武器は近接武器と同じように筋力修正をダメージに加える。この特性が近接武器に書かれているなら、射程単位も併記されている。",
-		"TraitDescriptionTransmutation": "この特性を持つ効果と魔法のアイテムは変成術の魔法系統に関連しており、一般的には何かの形を変えることに関わっている。",
-		"TraitDescriptionTiefling": "この特性を持つクリーチャーはテフィーフリングの祖先を持つ。",
+		"TraitDescriptionTiefling": "この特性を持つクリーチャーはティーフリングの祖先の一員である。",
+		"TraitDescriptionTransmutation": "この特性を持つ効果と魔法のアイテムは変成術の魔法系統に関連しており、一般的には何かの形を変えることに関わっている。",	
 		"TraitDescriptionTrap": "この特性を持つ障害やアイテムは侵入者を妨害するために構築されている。",
 		"TraitDescriptionTrip": " 君はたとえ君の片手が自由でなくとも、〈運動〉技能で「足払い」するためにこの武器を用いることが出来る。これには、武器の間合いを用いて（もし君自身のものと違うなら）、〈運動〉判定にアイテム・ボーナスを加えるように、その武器のアイテム・ボーナスを攻撃ロールに加える。もし君がこの武器を使って「足払い」にファンブルしたなら、ファンブルの効果を受ける代わりに失敗効果を受けるため、この武器を落とすことが出来る。",
 		"TraitDescriptionTrueName": "特定の呪文、特技、アイテムは真名の特性を持つ。この特性は、それを用いるのに君はクリーチャーの真名を知っていなければならないということを意味している。",
 		"TraitDescriptionTwin": " 君はたとえ君の片手が自由でなくとも、〈運動〉技能で「足払い」するためにこの武器を用いることが出来る。これには、武器の間合いを用いて（もし君自身のものと違うなら）、〈運動〉判定にアイテム・ボーナスを加えるように、その武器のアイテム・ボーナスを攻撃ロールに加える。もし君がこの武器を使って「足払い」にファンブルしたなら、ファンブルの効果を受ける代わりに失敗効果を受けるため、この武器を落とすことが出来る。",
-		"TraitDescriptionTwoHandD": "この武器は両手で持って使うことが出来る。そうすることによって、示された値に武器のダメージ・ダイスが変更される。この変更は、ストライキング・ルーンによるものなど、全てのこの武器のダメージ・ダイスに適用される。",
+		"TraitDescriptionTwoHand": "この武器は両手で持って使うことが出来る。そうすることによって、示された値に武器のダメージ・ダイスが変更される。この変更は、ストライキング・ルーンによるものなど、全てのこの武器のダメージ・ダイスに適用される。",
 		"TraitDescriptionUnarmed": "素手打撃は人工の武器ではなく君の肉体を使う。素手打撃は武器ではないが、武器グループとしては武器に分類され、武器特性を持つ。君の体の一部であるため、素手打撃は「武器落とし」出来ない。素手打撃は手を占有することはないが、拳や物を掴む器官は、無手武器のように機能する",
 		"TraitDescriptionUncommon": "アンコモンのレアリティのものは、特殊な訓練を必要とするか、特定の文化や世界の一部に由来する。キャラクターの選択には、アンコモンの選択肢を入手可能にするものがあり、GMは誰でも入手してよいことにして良い。コモンのクリーチャーに比べて、アンコモンのクリーチャーについて知られていることは少ない。彼らは一般的に招来することが出来ない。こういったクリーチャーに関連する「知識を思い出す」の判定DCは2上昇する。",
 		"TraitDescriptionUndine": "水の次元界の生き物の子孫である、ジーニーキンの一種",
 		"TraitDescriptionUnique": "この特性を持つルール要素は唯一無二である。この特性を持つクリーチャーに関連する「知識を思い出す」の判定DCは10上昇する。",
 		"TraitDescriptionUnstable": "不安定なアクションは、君ですら完全に予想できない、自分の発明の実験的機能による。不安定なアクションが発明に使われた後、新しいものを使うのは危険である",
+		"TraitDescriptionVanara": "霊長類に似た特徴を持ち、ものをつかむことができる尻尾を持つ好奇心旺盛な祖先。",
 		"TraitDescriptionVersatile": "可変武器はダメージの項目に記されたものではない、違う種別のダメージを与えるために使うことが出来る。この特性には代替ダメージ種別が記される。例えば、可変（斬撃）である刺突武器は、刺突あるいは斬撃ダメージを与えるために使うことが出来る。攻撃をするたびに君はダメージ種別を選択する。",
 		"TraitDescriptionVirulent": "治癒困難の特性を持つ苦難を除くことは難しい。君は治癒困難な苦難のステージを1下げるのに、2回の連続したセーヴに成功しなくてはならない。クリティカルは治癒困難な苦難のステージを2ではなく1減少させる。",
+		"TraitDescriptionVishkanya": "蛇めいた特徴と強力な毒を持つ祖先。",
 		"TraitDescriptionVisual": "視覚効果は目で見ることの出来るクリーチャーだけに影響を与える。これはその効果の視覚的な部分にのみ適用されるが、詳細はGMが判断する。",
 		"TraitDescriptionVolley": "この遠隔武器は近距離では効果が低い。記載された距離以内にいる対象に対する君の攻撃は-2ペナルティを負う。",
 		"TraitDescriptionWater": "水の特性を持つ効果は水を操作するか、作り出す。水を操作する効果は水のない範囲では何の効果もない。この特性を持つクリーチャーは主に水で出来ており、そのエレメントに魔法的なつながりを持つ。",
+		"TraitDescriptionWildHunt": "ワイルド・ハントの特性を持つクリーチャーは14レベル以下になることはない。彼らは優れた暗視、緑の目、次元界順応、野生の凝視、本能的な協力、冷たい鉄への弱点、植物や動物と話す能力、そして彼ら自身の特定のワイルド・ハントの繋がりを持っている。",
 		"TraitDescriptionWitch": "これはウィッチ・クラスの能力を示す。",
 		"TraitDescriptionWizard": "これはウィザード・クラスの能力を示す。",
 		"TraitDescriptionEidolon": "この特性を持つクリーチャーはサモナーの幻獣である。この特性を持つアイテムは、幻獣が着用することが出来る。幻獣は2つまでのアイテムを運用することが出来る",
 		"TraitDescriptionAdjustment": "この特性を持つアイテムは、既存の装備（一般的には防具、盾、武器）を変更することを意図している。所定のアイテムには、どの種別の装備を修正するかが書かれている。1つの装備が同時に受けられる調整は1つだけである。突起ない限り、調整の追加あるいは取り外しは、10分の連続行動と修理用具が必要である。",
 		"TraitDescriptionApex": "極致の特性を持つ「アイテムの運用」をする際、それは君の能力値の1つを強化し、それを2上昇させるか、合計で18にするか、高い方の効果を持つ。運用を終えるまで、これによって君は新しい能力値の全ての利益を得る。極致アイテムは24時間以内に最初に運用された場合にのみこの利益を与える（24時間以内に何度も運用されても利益を与えない）。君は同時に1つの極致アイテムからのみ利益を得る。もし、既にある極致アイテムを運用している際に新しい極致アイテムを運用しようとしたとしても、君は能力値増加の利益を得ず、「アイテムの運用」によるそのた他の利益を得る",
 		"TraitDescriptionCatalyst": "触媒の特性を持つアイテムは、特定の呪文を変更、あるいは強化する、消耗品の物質要素である。触媒の起動は「呪文の発動」の一部である。触媒は、起動の項目にあるとおり、「呪文の発動」に必要なアクション数を増加させる。更に、この呪文は、もし、既に持っていないなら物質要素を得る。あるいは、もし既に物質要素があるなら既存のものに触媒を足す。触媒は物質要素の一部であるため、君は「呪文の発動」の一部として触媒を取り出すことが出来る。 ",
-		"TraitDescriptionContract": "契約は、複数の勢力間の合意を魔法で形にしたアイテムの種別であり、一般的には魔法の利益をもたらす",
 		"TraitDescriptionElixir": "エリクサーは飲むことによって使うことが出来る、錬金術の液体である",
 		"TraitDescriptionFey": "ファースト・ワールドのクリーチャーはフェイと呼ばれる",
 		"TraitDescriptionFulu": "符呪は、防具、盾、武器、クリーチャー、あるいは構造物に取り付け可能な小さな紙のお守りである。符呪の中には、こういった複数のお守りから作られていて、全てを取り付けたときに初めて機能するものもある。通常の符呪は取り付けられた際に即座に効果を発揮するが、符呪の護符は起動しなければ効果を発揮しない。 起動した際、符呪は所定の持続時間、持続し、それから燃え尽きる。特記ない限り、符呪は作られてから1年後に期限切れとなり、通常の紙片に戻る。全ての符呪は、符呪と消耗品の特性を持つ。符呪はまた、その作成者の魔法体系によって決まる体系の特性を持つ（秘術、信仰、霊妙、あるいは始原）。例えば、司祭によって作成された符呪は信仰の特性を持ち、運命に従事するウィッチは霊妙の特性を持つ符呪を作るだろう。符呪の中には、護符と同様に機能する（防具、盾、武器に取付られるなど））ものなど、護符の特性を持つものもある。それぞれの符呪のステータス・ブロックには取り付け可能なアイテムやクリーチャーの種別が記載されている。符呪の取付や取外しには、「符呪の取付」の連続行動か、符呪が護符でもあるなら「護符の取付」が必要となる。",
@@ -3557,6 +3757,7 @@
 		"TraitDescriptionWand": "ワンドには、君が1日に1回、発動することが出来る呪文1つが入っている",
 		"TraitDetection": "探知",
 		"TraitDevil": "デヴィル",
+		"TraitDeviant": "逸脱",
 		"TraitDhampir": "ダンピール",
 		"TraitDinosaur": "恐竜",
 		"TraitDisarm": "武器落とし",
@@ -3585,6 +3786,7 @@
 		"TraitEnchantment": "心術",
 		"TraitEnergy": "エネルギー",
 		"TraitEnvironmental": "環境",
+		"TraitEsoterica": "エソテリカ",
 		"TraitEthereal": "エーテル",
 		"TraitEvil": "悪",
 		"TraitEvocation": "力術",
@@ -3604,6 +3806,7 @@
 		"TraitFighter": "ファイター",
 		"TraitFinesse": "巧技",
 		"TraitFire": "火炎",
+		"TraitFinite": "有限",
 		"TraitFinisher": "終撃",
 		"TraitFleshwarp": "フレッシュワープ",
 		"TraitFlexible": "軽快",
@@ -3673,6 +3876,7 @@
 		"TraitJoustingD6": "騎乗d6",
 		"TraitKaiju": "カイジュウ",
 		"TraitKami": "カミ",
+		"TraitKashrishi": "カシュリシ",
 		"TraitKickback": "反動",
 		"TraitKitsune": "キツネ",
 		"TraitKobold": "コボルド",
@@ -3692,9 +3896,11 @@
 		"TraitMechanical": "機械",
 		"TraitMental": "精神",
 		"TraitMerfolk": "マーフォーク",
+		"TraitMetal": "金属",
 		"TraitMetamagic": "呪文修正",
 		"TraitMindless": "精神なし",
 		"TraitMinion": "手下",
+		"TraitMindshift": "精神遷移",
 		"TraitMisfortune": "不運",
 		"TraitModification": "改造",
 		"TraitModular": "組替 殴打, 刺突, あるいは斬撃",
@@ -3753,6 +3959,8 @@
 		"TraitProtean": "プロテアン",
 		"TraitProteanAnatomy": "プロテアンの解剖学的構造",
 		"TraitPsychopomp": "サイコポンプ",
+		"TraitPsyche": "プシケ",
+        "TraitPsychic": "サイキック",
 		"TraitQlippoth": "クリフォト",
 		"TraitRadiation": "放射能",
 		"TraitRage": "激怒",
@@ -3815,6 +4023,7 @@
 		"TraitRangedTrip": "遠隔足払い",
 		"TraitRanger": "レンジャー",
 		"TraitRare": "レア",
+		"TraitRatajin": "ラタジン",
 		"TraitRatfolk": "ラットフォーク",
 		"TraitReach": "間合い",
 		"TraitReach0": "間合い 0 ft",
@@ -3828,14 +4037,15 @@
 		"TraitReach60": "間合い 60 ft",
 		"TraitReach100": "間合い 100 ft",
 		"TraitReach1000": "間合い 1,000 ft",
-		"TraitResonant": "共鳴",
-		"TraitRevelation": "暴露",
 		"TraitReckless": "無茶",
+		"TraitReflection": "模造",
 		"TraitReload0": "再装填 0",
 		"TraitReload1": "再装填 1",
 		"TraitReload2": "再装填 2",
 		"TraitReload1Min": "再装填 1分",
 		"TraitRepeating": "リピーティング",
+		"TraitResonant": "共鳴",
+		"TraitRevelation": "暴露",
 		"TraitRogue": "ローグ",
 		"TraitSaggorak": "サッゴラク",
 		"TraitSahkil": "サーキル",
@@ -3859,7 +4069,6 @@
 		"TraitShoony": "シューニィ",
 		"TraitShove": "押しやり",
 		"TraitSiktempora": "シクテンポラ",
-		"TraitSimple": "単純",
 		"TraitSkeleton": "スケルトン",
 		"TraitSkelm": "スケルム",
 		"TraitSkill": "技能",
@@ -3902,11 +4111,13 @@
 		"TraitTane": "テイン",
 		"TraitTanggal": "タンガル",
 		"TraitTattoo": "刺青",
-		"TraitTechnological": "テクノロジー",
-		"TraitTeleportation": "テレポーテーション",
+		"TraitTech": "テック",
+		"TraitTechnological": "テクノロジカル",
 		"TraitTelepathy": "テレパシー",
+		"TraitTeleportation": "テレポーテーション",
 		"TraitTengu": "テング",
 		"TraitTethered": "紐付き",
+		"TraitThaumaturge": "ソーマタージ",
 		"TraitThrown": "投擲",
 		"TraitThrown10": "投擲 10 ft.",
 		"TraitThrown15": "投擲 15 ft.",
@@ -3914,6 +4125,7 @@
 		"TraitThrown30": "投擲 30 ft.",
 		"TraitThrown40": "投擲 40 ft.",
 		"TraitThrown60": "投擲 60 ft.",
+		"TraitThrown80": "投擲 80 ft.",
 		"TraitThrown100": "投擲 100 ft.",
 		"TraitTiefling": "ティーフリング",
 		"TraitTime": "時間",
@@ -3973,6 +4185,7 @@
 		"TraitWeapons": "武器",
 		"TraitWerecreature": "ワー・クリーチャー",
 		"TraitWight": "ワイト",
+		"TraitWildHunt": "ワイルド・ハント",
 		"TraitWitch": "ウィッチ",
 		"TraitWizard": "ウィザード",
 		"TraitWraith": "レイス",
@@ -4012,6 +4225,7 @@
 		"TraitWornOnBelt": "ベルト",
 		"TraitWornBeltPouch": "ベルト・ポーチ",
 		"TraitWornSaddle": "サドル",
+		"TraitWornOrOneHand": "着用あるいは1本の手で持つ",
 		"TraitEtchedOntoArmor": "防具に彫刻",
 		"TraitEtchedOntoMedHeavyArmor": "中装鎧あるいは重装鎧に彫刻",
 		"TraitEtchedOntoAWeapon": "武器に彫刻",
@@ -4110,6 +4324,7 @@
 				"big-boom-gun": "ビッグ・ブーム・ガン",
 				"black-powder-knuckle-dusters": "ブラック・パウダー・ナックル・ダスター",
 				"bladed-diabolo": "ブレーデッド・ディアボロ",
+				"bladed-gauntlet": "ブレーデッド・ガントレット",
 				"bladed-hoop": "ブレーデッド・フープ",
 				"bladed-scarf": "ブレーデッド・スカーフ",
 				"blowgun-darts": "ブローガン・ダーツ",
@@ -4119,11 +4334,13 @@
 				"boarding-axe": "ボーディング・アクス",
 				"boarding-pike": "ボーディング・パイク",
 				"bola": "ボーラ",
+				"broadspear": "ブロードスピア",
 				"butchering-axe": "ブッチャリング・アクス",
 				"butterfly-sword": "バタフライ・ソード",
 				"buugeng": "武幻",
 				"cane-pistol": "ケイン・ピストル",
 				"chakram": "チャクラム",
+				"chakri": "チャクリ",
 				"clan-dagger": "クラン・ダガー",
 				"clan-pistol": "クラン・ピストル",
 				"claw": "爪",
@@ -4137,8 +4354,10 @@
 				"dagger": "ダガー",
 				"dagger-pistol": "ダガー・ピストル",
 				"daikyu": "大弓",
+				"dandpatta": "ダンパッタ",
 				"dart": "ダーツ",
 				"dogslicer": "ドッグスライサー",
+				"donchak": "ドンチャク",
 				"double-barreled-musket": "ダブル＝バレルド・マスケット",
 				"double-barreled-pistol": "ダブル＝バレルド・ピストル",
 				"dragon-mouth-pistol": "ドラゴン・マウス・ピストル",
@@ -4164,10 +4383,12 @@
 				"flingflenser": "フリングフレンザー",
 				"flintlock-musket": "フリントロック・マスケット",
 				"flintlock-pistol": "フリントロック・ピストル",
+				"flying-talon": "飛行する鉤爪",
 				"forked-bipod": "フォークト・バイポッド",
 				"hand-cannon": "ハンド・キャノン",
 				"harmona-gun": "ハーモナ・ガン",
 				"hook-sword": "フック・ソード",
+				"gada": "ガダ",
 				"gaff": "ガフ",
 				"gauntlet": "ガントレット",
 				"gill-hook": "ギル・フック",
@@ -4195,6 +4416,7 @@
 				"jaws": "顎",
 				"jezail": "ジェザイル",
 				"juggling-club": "ジャグリング・クラブ",
+				"kalis": "カリス",
 				"kama": "カマ",
 				"karambit": "カランビット",
 				"katana": "カタナ",
@@ -4202,6 +4424,7 @@
 				"khakkara": "カーッカラ",
 				"khopesh": "コペシュ",
 				"knuckle-duster": "ナックル・ダスター",
+				"kris": "クリス",
 				"kukri": "ククリ",
 				"kusarigama": "クサリガマ",
 				"lance": "ランス",
@@ -4231,6 +4454,7 @@
 				"ogre-hook": "オーガ・フック",
 				"orc-knuckle-dagger": "オーク・ナックル・ダガー",
 				"orc-necksplitter": "オーク・ネックスプリッター",
+				"panabas": "パンバス",
 				"pepperbox": "ペッパーボックス",
 				"piercing-wind": "ピアシング・ウィンド",
 				"pick": "ピック",
@@ -4241,6 +4465,7 @@
 				"ranseur": "ランサー",
 				"rapier": "レイピア",
 				"rapier-pistol": "レイピア・ピストル",
+				"reinforced-wheels": "補強された車輪",
 				"repeating-crossbow": "リピーティング・クロスボウ",
 				"repeating-hand-crossbow": "リピーティング・ハンド・クロスボウ",
 				"repeating-heavy-crossbow": "リピーティング・ヘヴィ・クロスボウ",
@@ -4254,11 +4479,11 @@
 				"scourge": "スコージ",
 				"scythe": "サイズ",
 				"shauth-lash": "シャウト・ラッシュ",
-				"shobhad-longrifle": "ショバード・ロングライフル",
 				"shears": "シアーズ",
 				"shield-bash": "シールド・バッシュ",
 				"shield-boss": "シールド・ボス",
 				"shield-spikes": "シールド・スパイク",
+				"shobhad-longrifle": "ショバード・ロングライフル",
 				"shortbow": "ショートボウ",
 				"shortsword": "ショートソード",
 				"shuriken": "シュリケン",
@@ -4278,11 +4503,13 @@
 				"sun-sling": "サン・スリング",
 				"switchscythe": "スイッチサイズ",
 				"sword-cane": "ソ―ド・ケイン",
+				"talwar": "タルワール",
 				"tamchal-chakram": "タムカル・チャクラム",
 				"taw-launcher": "タウ・ランチャー",
 				"tekko-kagi": "テッコーカギ",
 				"temple-sword": "テンプル・ソード",
 				"tengu-gale-blade": "テング・ゲイル・ブレード",
+				"thorn-whip": "ソーン・ウィップ",
 				"three-peaked-tree": "スリー・ピークド・ツリー",
 				"throwing-knife": "スローイング・ナイフ",
 				"thunder-sling": "サンダー・スリング",
@@ -4291,17 +4518,23 @@
 				"tri-bladed-katar": "トライ＝ブレーデッド・カタール",
 				"tricky-pick": "トリッキー・ピック",
 				"trident": "トライデント",
+				"triggerbrand": "トリガーブランド",
 				"urumi": "ウルミ",
+				"visap": "ヴィサップ",
 				"wakizashi": "ワキザシ",
 				"war-flail": "ウォー・フレイル",
+				"war-lance": "ウォー・ランス",
 				"war-razor": "ウォー・レイザー",
 				"warhammer": "ウォーハンマー",
+				"wheel-blades": "車輪の刃",
+                "wheel-spikes": "車輪のスパイク",
 				"whip": "ウィップ",
 				"whip-claw": "ウィップ・クロー",
 				"wind-and-fire-wheel": "フウカリン",
 				"wish-blade": "ウィッシュ・ブレード",
 				"wish-knife": "ウィッシュ・ナイフ",
-				"wooden-taws": "ウッデン・タウ"
+				"wooden-taws": "ウッデン・タウ",
+				"zulfikar": "ザルフィカー"
 			}
 		},
 		"WeaponAbilityLabel": "武器能力",
@@ -4626,62 +4859,6 @@
 				}
 			}
 		},
-		"WeaponPropertyRuneAnarchic": "アナーキック",
-		"WeaponPropertyRuneAnchoring": "アンカリング",
-		"WeaponPropertyRuneAncestralEchoing": "アンセストラル＝エコーイング",
-		"WeaponPropertyRuneAxiomatic": "アクシオマティック",
-		"WeaponPropertyRuneBane": "ベイン",
-		"WeaponPropertyRuneBloodbane": "ブラッドベイン",
-		"WeaponPropertyRuneBloodthirsty": "ブラッドサースティ",
-		"WeaponPropertyRuneBrilliant": "ブリリアント",
-		"WeaponPropertyRuneConducting": "コンダクティング",
-		"WeaponPropertyRuneCorrosive": "コローシヴ",
-		"WeaponPropertyRuneCrushing": "クラッシング",
-		"WeaponPropertyRuneCunning": "カニング",
-		"WeaponPropertyRuneDancing": "ダンシング",
-		"WeaponPropertyRuneDisrupting": "ディスラプティング",
-		"WeaponPropertyRuneEnergizing": "エナジャイジング",
-		"WeaponPropertyRuneExtending": "エクステンディング",
-		"WeaponPropertyRuneFanged": "ファングド",
-		"WeaponPropertyRuneFearsome": "フィアサム",
-		"WeaponPropertyRuneFlaming": "フレイミング",
-		"WeaponPropertyRuneFrost": "フロスト",
-		"WeaponPropertyRuneGhostTouch": "ゴースト＝タッチ",
-		"WeaponPropertyRuneGreaterAnchoring": "アンカリング（グレーター）",
-		"WeaponPropertyRuneGreaterBloodbane": "ブラッドベイン（グレーター）",
-		"WeaponPropertyRuneGreaterBrilliant": "ブリリアント（グレーター）",
-		"WeaponPropertyRuneGreaterCorrosive": "コローシヴ（グレーター）",
-		"WeaponPropertyRuneGreaterCrushing": "クラッシング（グレーター）",
-		"WeaponPropertyRuneGreaterDisrupting": "ディスラプティング（グレーター）",
-		"WeaponPropertyRuneGreaterExtending": "エクステンディング（グレーター）",
-		"WeaponPropertyRuneGreaterFanged": "ファングド（グレーター）",
-		"WeaponPropertyRuneGreaterFearsome": "フィアサム (グレーター)",
-		"WeaponPropertyRuneGreaterFlaming": "フレイミング（グレーター）",
-		"WeaponPropertyRuneGreaterFrost": "フロスト（グレーター）",
-		"WeaponPropertyRuneGreaterHauling": "ホーリング（グレーター）",
-		"WeaponPropertyRuneGreaterImpactful": "インパクトフル（グレーター）",
-		"WeaponPropertyRuneGreaterShock": "ショック（グレーター）",
-		"WeaponPropertyRuneGreaterThundering": "サンダリング（グレーター）",
-		"WeaponPropertyRuneGrievous": "グリーヴァス",
-		"WeaponPropertyRuneHauling": "ホーリング",
-		"WeaponPropertyRuneHoly": "ホーリィ",
-		"WeaponPropertyRuneHopeful": "ホープフル",
-		"WeaponPropertyRuneImpactful": "インパクトフル",
-		"WeaponPropertyRuneKeen": "キーン",
-		"WeaponPropertyRuneKinWarding": "キン＝ワーディング",
-		"WeaponPropertyRuneLabel": "属性ルーン",
-		"WeaponPropertyRuneMajorFanged": "ファングド（メジャー）",
-		"WeaponPropertyRunePacifying": "パシファイング",
-		"WeaponPropertyRuneReturning": "リターニング",
-		"WeaponPropertyRuneSerrating": "セレイティング",
-		"WeaponPropertyRuneShifting": "シフティング",
-		"WeaponPropertyRuneShock": "ショック",
-		"WeaponPropertyRuneSpeed": "スピード",
-		"WeaponPropertyRuneSpellStoring": "スペル＝ストアリング",
-		"WeaponPropertyRuneThundering": "サンダリング",
-		"WeaponPropertyRuneUnholy": "アンホーリィ",
-		"WeaponPropertyRuneVorpal": "ヴォーパル",
-		"WeaponPropertyRuneWounding": "ウーンディング",
 		"WeaponPropertyStrikeDamageLabel": "打撃ダメージ",
 		"WeaponPropertyStrikeEffectLabel": "打撃効果",
 		"WeaponRange10": "10 ft.",
@@ -5068,7 +5245,9 @@
 			"MerchantDescription": "プレイヤーがシートから直接、アイテムを購入出来るようにする",
 			"MerchantLabel": "商人",
 			"MoveLoot": "アイテムの移動",
+			"PurchaseLoot": "アイテム購入",
 			"MoveLootMessage": "いくつのアイテムを移動させますか？",
+			"PurchaseLootMessage": "アイテムを何個、購入したいですか？",
 			"MoveLootPopupTitle": "戦利品の移動",
 			"TakeSubtitle": "アイテムを取る",
 			"DepositSubtitle": "アイテムを廃棄する",
