@@ -2,7 +2,7 @@
 	"name": "pf2eja",
 	"title": "日本語化（Pathfinder2e）",
 	"description": "PF2eを日本語化するためのMod",
-	"version": "1.12",
+	"version": "1.13",
 	"author": "Brother Sharp, kahlua_yohko",
 	"languages": [
 		{
@@ -37,5 +37,5 @@
 	"download" : "https://github.com/BrotherSharper/pf2eja/archive/master.zip",
 	"manifest" : "https://raw.githubusercontent.com/BrotherSharper/pf2eja/master/module.json",
   "minimumCoreVersion": "0.6.0",
-  "compatibleCoreVersion": "9"
+  "compatibleCoreVersion": "10"
 }

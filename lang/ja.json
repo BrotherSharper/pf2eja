@@ -11,6 +11,7 @@
 	},
 	"ITEM": {
 		"TypeAction": "アクション",
+		"TypeAffliction": "苦難",
 		"TypeAncestry": "祖先",
 		"TypeArmor": "防具",
 		"TypeBackpack": "収納",
@@ -50,7 +51,8 @@
 		"UnknownCombatant": "未知の参加者"
 	},
 	"COMPENDIUM": {
-		"Search": "辞書検索"
+		"Search": "辞書検索",
+        "Migrate": "辞書のマイグレーション"
     },
 	"CONTROLS": {
 		"AdjustSceneDarkness": "シーンの暗闇を調整",
@@ -264,6 +266,18 @@
 				},
 				"Trick": "気をそらす - 小技"
 			},
+			"DecipherWriting": {
+                "Notes": {
+                    "criticalSuccess": "<strong>クリティカル</strong> 君は文書の本当の意味を理解する",
+                    "success": "<strong>成功</strong> 君は文書の本当の意味を理解する。もしそれが暗号化された文書であるなら、君は一般的な意味を知るが、逐語訳をすることはない。",
+                    "failure": "<strong>失敗</strong> 君は文書を理解できず、解読をするためのそれ以後の判定に-2状況ペナルティを受ける",
+                    "criticalFailure": "<strong>ファンブル</strong> 君はそのページの文書を理解したと思ったが、実際にはメッセージを組み立て間違えている"
+                },
+                "Title": "暗号の解読",
+                "Warning": {
+                    "NoSkill": "「暗号の解読」アクションは違った技能を使うことがありえる。また、特に指定された技能はない。一般的には、魔法や科学についての書物には〈神秘学〉、神秘と哲学についての難解な文書には〈霊妙学〉、聖典については〈宗教〉、暗号化されたメッセージや古代の文書については〈社会〉が用いられる。"
+                }
+            },
 			"Demoralize": {
 				"Notes": {
 					"criticalSuccess": "<b>クリティカル</b> 対象は @Compendium[pf2e.conditionitems.Frightened]{恐れ 2}になる",
@@ -271,6 +285,14 @@
 				},
 				"Title": "士気をくじく"
 			},
+			"DisableDevice": {
+                "Notes": {
+                    "criticalSuccess": "<strong>クリティカル</strong> 君は装置を無力化するか、複雑な装置の無力化のため2回の成功を達成する。君は自分がいじったことの痕跡を残さず、その装置の種別が再有効化出来るのなら、後でその装置を再有効化することが出来る。",
+                    "success": "<strong>成功</strong> 君は装置を無力化するか、複雑な装置の無力化のため1回の成功を達成する。",
+                    "criticalFailure": "<strong>ファンブル</strong> 君は装置のトリガーを満たす。"
+                },
+                "Title": "装置無力化"
+            },
 			"Disarm": {
 				"EffectLabel": "ゆるい持ち方で武器を使う",
 				"Notes": {
@@ -430,6 +452,28 @@
 				},
 				"Title": "飛行機動"
 			},
+			"Perform": {
+                "Notes": {
+                    "criticalSuccess": "<strong>クリティカル</strong> 君の芸能は観客に心に印象を与える。そして彼らは君の有能さについての話を分かち合う可能性が高い。",
+                    "success": "<strong>成功</strong> 君は自分の価値を証明し、観客は君の芸能の質に感謝する。",
+                    "failure": "<strong>失敗</strong> 君の芸能は平凡な出来である。",
+                    "criticalFailure": "<strong>ファンブル</strong> 君は無能さを示しただけである。"
+                },
+                "Title": {
+                    "Acting": "芸能 - 演技",
+                    "Comedy": "芸能 - 喜劇",
+                    "Dance": "芸能 - 舞踏",
+                    "Keyboards": "芸能 - 鍵盤の演奏",
+                    "Oratory": "芸能 - 朗誦",
+                    "Percussion": "芸能 - 打楽器の演奏",
+                    "Singing": "芸能 - 歌唱",
+                    "Strings": "芸能 - 弦楽器の演奏",
+                    "Winds": "芸能 - 木管楽器の演奏"
+                },
+                "Warning": {
+                    "UnknownVariant": "未知のヴァリアント '{variant}' が芸能に使用されました。演技、喜劇、舞踏、鍵盤、朗誦、打楽器、歌唱、弦楽器、木管楽器のいずれかを用いてください"
+                }
+            },
 			"PickALock": {
 				"Notes": {
 					"criticalSuccess": "<b>クリティカル</b> 君はその錠前を開錠するか、複雑な錠前の開錠のため2回分の成功を達成する。君は自分がいじったことの痕跡を残さない。",
@@ -561,6 +605,19 @@
 				"NoStamina": "{name} は疲労しており、寝る必要がある！ 決意ポイントは残っていない",
 				"RecoverStamina": "{name} は {ratio} SP を所持しており、1決意ポイントを費やしてスタミナ最大値の半分を回復します。"
 			},
+			"Subsist": {
+                "AfterExplorationPenalty": "探索モード後",
+                "Notes": {
+                    "criticalSuccess": "<strong>クリティカル</strong> 君は自分自身の生活と1体の追加のクリーチャーの生計を調達するか、自らの食べ物と寝る場所を良いものにして、快適な生活をする",
+                    "success": "<strong>成功</strong> 君は生計を立てるのに十分な食べ物と、環境からの基本的な防御のある寝る場所を見つける",
+                    "failure": "<strong>失敗</strong> 君は環境にさらされ、十分な食料を得られず、十分な食べ物と寝る場所を得るまで疲労状態になる",
+                    "criticalFailure": "<strong>ファンブル</strong> 食べるべきでないものを食べたか、さもなければ自分の状況を悪化させるなど、トラブルに巻き込まれてしまう。君は1週間、「自活」するための判定にー2状況ペナルティを負う。君は全く、食べ物を見つけられない；もし君に備蓄がないなら、失敗し続ければ君は餓死の危険がある。 @UUID[Compendium.pf2e.other-effects.wHWWHkjDXmJl4Ia6]{効果: 自活による逆効果}"
+                },
+                "Title": "自活",
+                "Warning": {
+                    "NoSkill": "自活のアクションは異なる技能で使うことが出来る。また、特に指定された技能はない。居住地にいるなら通常は〈社会〉、自然にいるなら通常は〈生存〉である。"
+                }
+            },
 			"Swim": {
 				"Notes": {
 					"criticalSuccess": "<b>クリティカル</b> 君は水中を10フィートと、更に地上速度20フィートにつき5フィート移動する（ほとんどのPCにとっては合計15フィート）",
@@ -688,7 +745,8 @@
 				"ShieldDamagedForNBroken": "キャラクターの盾は{shieldDamage}点のダメージを受け、破損した",
 				"ShieldDamagedForNDestroyed": "Tキャラクターの盾は{shieldDamage}点のダメージを受け、破壊された",
 				"ShieldNotRaised": "{actor} は盾を掲げていない",
-				"TakesNoDamage": "{actor} はダメージを受けなかった"
+				"TakesNoDamage": "{actor} はダメージを受けなかった",
+                "TheTarget": "対象"
 			},
 			"Character": {
 				"AbilityBuilder": {
@@ -700,7 +758,8 @@
                     "KeyIcon": "主要能力値",
                     "VoluntaryFlaw": {
                         "Title": "自発的能力ダウン",
-                        "Description": "能力アップ1つを得るために2つの自発的能力ダウンを選んで下さい"
+                        "Description": "能力アップ1つを得るために2つの自発的能力ダウンを選んで下さい",
+                        "LegacyDescription": "これはコア・ルールブックの3版以前に存在していた自発的能力ダウンの特徴である。古いキャラクターや、パスファインダー協会の継続キャラクターのために残してある。"
                     },
                     "BackgroundBoostDescription": "2つの能力アップ: 1つは{a} か {b}でなければならない",
                     "AbilityScoreMethod": {
@@ -717,6 +776,7 @@
 				"AncestryClass": "{ancestry} {class}",
 				"ClassDC": {
                     "Label": "クラスDC",
+					"LabelSpecific": "クラスDC ({class})",
                     "Plural": "クラスDC"
                 },
 				"Configure": {
@@ -746,6 +806,7 @@
                 "CriticalSpecialization": "クリティカル特化効果",
 				"Spellcasting": {
                     "Cantrips": "キャントリップ",
+					"TraditionSpellcasting": "{tradition} の呪文発動",
                     "InvalidProficiency": "無効",
                     "MagicItemTypesLabel": "魔法のアイテムの種別",
                     "ValidItemTypes": {
@@ -820,6 +881,12 @@
                     "Notification": "生成されたNPCの攻撃: {attack}"
                 }
 			},
+			"IWREditor": {
+                "Title": "{actor}: {category}",
+                "Type": "種別",
+                "Exceptions": "以下を除く",
+                "DoubleVs": "以下に対して2倍"
+            },
 			"Plural": "アクター"
 		},
 		"ActorSizeGargantuan": "巨大",
@@ -862,6 +929,7 @@
 		"AreaLabel": "範囲",
 		"AreaSize10": "10フィート",
 		"AreaSize100": "100 フィート",
+		"AreaSize1000": "1000フィート",
 		"AreaSize120": "120フィート",
 		"AreaSize15": "15フィート",
 		"AreaSize20": "20フィート",
@@ -874,10 +942,10 @@
 		"AreaSize50": "50フィート",
 		"AreaSize500": "500フィート",
 		"AreaSize60": "60フィート",
+		"AreaSize65": "65フィート",
 		"AreaSize75": "75フィート",
 		"AreaSize80": "80フィート",
 		"AreaSize90": "90フィート",
-		"AreaSize1000": "1000フィート",
 		"AreaSize1Mile": "1マイル",
 		"AreaSizeQuarterMile": "1/4 マイル",
 		"AreaTypeBurst": "爆発",
@@ -1015,6 +1083,7 @@
 		"BiographyOrganizations": "組織",
 		"BiographyOrganizationsTitle": "キャラクターの組織",
 		"BiographyPersonalityHeader": "パーソナリティ",
+		"Bonus": "ボーナス",
 		"BonusBulk": "ボーナス・バルクの最大値",
 		"BonusBulkTitle": "君のバルク上限から＋－する",
 		"BonusEncumbranceBulkLabel": "過積載のバルクを増やす",
@@ -1078,7 +1147,19 @@
 			"stowed": "保管",
 			"dropped": "落とした"
 		},
+		"CastingItemCreateDialog": {
+            "10thLevelWand": "10レベルのワンドは存在しません",
+            "cantripDeck5": "キャントリップ・デック (5-パック)",
+            "itemTypeLabel": "アイテム種別: ",
+            "label": "ドロップした呪文から呪文発動アイテムを作成する",
+            "scroll": "巻物",
+            "spellLevelLabel": "増強後のレベル: ",
+            "submit": "アイテム作成",
+            "title": "呪文発動アイテムの作成",
+            "wand": "ワンド"
+        },
 		"CastLabel": "発動",
+		"Category": "分類",
 		"CharacterDetails": "キャラクター詳細",
 		"CharacterLevelLabel": "レベル",
 		"CharacterNamePlaceholder": "キャラクターの名前",
@@ -1320,7 +1401,179 @@
 		"CurrentStaminaTitle": "君が持つスタミナの量",
 		"Damage": {
 			"Base": "基本",
-			"NoDamageFormulaLabel": "ダメージなし"
+			"Dialog": {
+                "Bonus": "ボーナス {dice}",
+                "BonusDice": "ボーナス・ダイス",
+                "CriticalDamageRoll": "クリティカル・ダメージ・ロール",
+                "DamageRoll": "ダメージ・ロール",
+                "Label": "ラベル",
+                "None": "なし",
+                "Splash": "{damageType}の飛散"
+            },
+			"IncreasedFrom": " {original}から最小値1として増加させる",
+            "IWR": {
+                "ActorIsImmune": "{actor} は {effect}に耐性を持つ",
+                "ActorIsUnaffected": "{actor} は {effect}に影響を受けない",
+                "ApplicationBreakdown": {
+                    "unaffected": "以下に影響を受けない。 {type}: {adjustment}",
+                    "immunity": "以下に耐性を持つ。 {type}: {adjustment}",
+                    "weakness": "以下に弱点を持つ。 {type}: {adjustment}",
+                    "resistance": "以下に抵抗を持つ。 {type}: {adjustment}",
+                    "ignored": " {type} への抵抗は無視された！"
+                },
+                "CompositeLabel": {
+                    "Exceptions0DoubleVs0": "{type} {value}",
+                    "Exceptions0DoubleVs1": "{type} {value} ( {doubleVs1}に対して抵抗2倍)",
+                    "Exceptions0DoubleVs2": "{type} {value} ( {doubleVs1} あるいは {doubleVs2}に対して抵抗2倍)",
+                    "Exceptions0DoubleVs3": "{type} {value} ( {doubleVs1}、 {doubleVs2}あるいは {doubleVs3}に対して抵抗2倍)",
+                    "Exceptions0DoubleVs4": "{type} {value} ( {doubleVs1}、 {doubleVs2}、 {doubleVs3}あるいは{doubleVs4}に対して抵抗2倍)",
+                    "Exceptions1DoubleVs0": "{type} {value} ( {exception1}を除く)",
+                    "Exceptions1DoubleVs1": "{type} {value} ( {exception1}を除く;  {doubleVs1}に対して抵抗2倍)",
+                    "Exceptions1DoubleVs2": "{type} {value} ({exception1}を除く; {doubleVs1}あるいは{doubleVs2}に対して抵抗2倍)",
+                    "Exceptions1DoubleVs3": "{type} {value} ( {exception1}を除く; {doubleVs1}、 {doubleVs2}あるいは{doubleVs3}に対して抵抗2倍)",
+                    "Exceptions1DoubleVs4": "{type} {value} ( {exception1}を除く; {doubleVs1}、 {doubleVs2}、 {doubleVs3}あるいは{doubleVs4}に対して抵抗2倍)",
+                    "Exceptions2DoubleVs0": "{type} {value} ( {exception1}と {exception2}を除く)",
+                    "Exceptions2DoubleVs1": "{type} {value} ( {exception1}と {exception2}を除く; {doubleVs1}に対して抵抗2倍)",
+                    "Exceptions2DoubleVs2": "{type} {value} ( {exception1}と {exception2}を除く;{doubleVs1}あるいは{doubleVs2}に対して抵抗2倍)",
+                    "Exceptions2DoubleVs3": "{type} {value} ({exception1} と {exception2}を除く;  {doubleVs1}、 {doubleVs2}あるいは{doubleVs3}に対して抵抗2倍)",
+                    "Exceptions2DoubleVs4": "{type} {value} ( {exception1}と {exception2}を除く; {doubleVs1}、 {doubleVs2}、 {doubleVs3}あるいは{doubleVs4}に対して抵抗2倍)",
+                    "Exceptions3DoubleVs0": "{type} {value} ( {exception1}、 {exception2}と {exception3}を除く)",
+                    "Exceptions3DoubleVs1": "{type} {value} ( {exception1}、 {exception2}と {exception3}を除く; {doubleVs1}に対して抵抗2倍)",
+                    "Exceptions3DoubleVs2": "{type} {value} ( {exception1}、 {exception2}と {exception3}を除く; {doubleVs1}あるいは{doubleVs2}に対して抵抗2倍)",
+                    "Exceptions3DoubleVs3": "{type} {value} ( {exception1}、 {exception2}と {exception3}を除く; {doubleVs1}、 {doubleVs2}あるいは {doubleVs3}に対して抵抗2倍)",
+                    "Exceptions3DoubleVs4": "{type} {value} ( {exception1}、 {exception2}と {exception3}を除く; {doubleVs1}、 {doubleVs2}、 {doubleVs3}あるいは{doubleVs4}に対して抵抗2倍)",
+                    "Exceptions4DoubleVs0": "{type} {value} ({exception1}、 {exception2}、 {exception3}と {exception4}を除く)",
+                    "Exceptions4DoubleVs1": "{type} {value} ( {exception1}、 {exception2}、 {exception3}と {exception4}を除く; {doubleVs1}に対して抵抗2倍)",
+                    "Exceptions4DoubleVs2": "{type} {value} ({exception1}、 {exception2}、 {exception3}と {exception4}を除く; {doubleVs1}あるいは{doubleVs2}に対して抵抗2倍))",
+                    "Exceptions4DoubleVs3": "{type} {value} ({exception1}、 {exception2}、 {exception3}と {exception4}を除く; {doubleVs1}、 {doubleVs2}あるいは {doubleVs3}に対して抵抗2倍)",
+                    "Exceptions4DoubleVs4": "{type} {value} ({exception1}、 {exception2}、 {exception3}と {exception4}を除く; {doubleVs1}、 {doubleVs2}、 {doubleVs3}あるいは{doubleVs4}に対して抵抗2倍)"
+                },
+                "Type": {
+                    "abjuration": "防御術",
+                    "adamantine": "アダマンティン",
+                    "all-damage": "全てのダメージ",
+                    "area-damage": "範囲ダメージ",
+                    "arrow-vulnerability": "矢への脆弱性",
+                    "auditory": "聴覚",
+                    "axe-vulnerability": "斧への脆弱性",
+                    "blinded": "盲目",
+                    "broken": "破損",
+                    "clumsy": "もたつき",
+                    "cold-iron": "冷たい鉄",
+                    "confused": "混乱",
+                    "conjuration": "召喚術",
+                    "controlled": "支配状態",
+                    "critical-hits": "クリティカル・ヒット",
+                    "curse": "呪い",
+                    "damage-from-spells": "呪文によるダメージ",
+                    "darkwood": "ダークウッド",
+                    "dazzled": "目がくらんだ状態",
+                    "deafened": "聴覚喪失",
+                    "death-effects": "即死効果",
+                    "disease": "病気",
+                    "divination": "占術",
+                    "doomed": "危篤",
+                    "drained": "吸精",
+                    "emotion": "感情",
+                    "enchantment": "心術",
+                    "energy": "エネルギー",
+                    "enfeebled": "衰弱",
+                    "evocation": "力術",
+                    "fascinated": "恍惚",
+                    "fatigued": "疲労",
+                    "fear-effects": "恐怖効果",
+                    "flat-footed": "立ちすくみ",
+                    "fleeing": "逃亡",
+                    "frightened": "恐れ",
+                    "ghost-touch": "ゴーストタッチ",
+                    "grabbed": "つかまれた状態",
+                    "healing": "治癒",
+                    "hidden": "隠れた状態",
+                    "illusion": "幻術",
+                    "immobilized": "動けない状態",
+                    "inhaled": "吸入毒",
+                    "light": "光",
+                    "magic": "魔法",
+                    "magical": "魔法のもの",
+                    "misfortune-effects": "不運効果",
+                    "mithral": "ミスラル",
+                    "necromancy": "死霊術",
+                    "non-magical": "魔法のアイテムでないもの",
+                    "nonlethal": "非致傷",
+                    "nonlethal-attacks": "非致傷攻撃",
+                    "object-immunities": "物体の耐性",
+                    "olfactory": "嗅覚",
+                    "orichalcum": "オリハルコン",
+                    "paralyzed": "麻痺",
+                    "petrified": "石化",
+                    "physical": "物理",
+                    "plant": "植物",
+                    "polymorph": "ポリモーフ",
+                    "possession": "憑依",
+                    "prone": "伏せ状態",
+                    "protean-anatomy": "プロテアンの解剖学的構造",
+                    "radiation": "放射能",
+                    "restrained": "拘束状態",
+                    "salt": "塩",
+                    "salt-water": "塩水",
+                    "scrying": "念視",
+                    "sickened": "不調",
+                    "silver": "銀",
+                    "sleep": "睡眠",
+                    "slowed": "減速化",
+                    "spell-deflection": "呪文反射",
+                    "splash-damage": "飛散ダメージ",
+                    "stunned": "朦朧",
+                    "stupefied": "知性低下",
+                    "swarm-attacks": "スウォーム攻撃",
+                    "swarm-mind": "スウォームの精神",
+                    "transmutation": "変成術",
+                    "trip": "足払い",
+                    "unarmed-attacks": "素手打撃",
+                    "unconscious": "気絶",
+                    "vampire-weaknesses": "ヴァンパイアの弱点",
+                    "visual": "視覚",
+                    "vorpal": "ヴォーパル",
+                    "vorpal-adamantine": "ヴォーパル・アダマンティン",
+                    "vorpal-fear": "首狩りへの恐怖",
+                    "vulnerable-to-sunlight": "日光への脆弱性",
+                    "warpglass": "ワープグラス",
+                    "water": "水",
+                    "weapons": "武器",
+                    "weapons-shedding-bright-light": "明るい光を照り返す武器"
+                }
+			},
+			"NoDamageFormulaLabel": "ダメージなし",
+			"PersistentTooltip": "精密性 {damageType}",
+            "Precision": "精密性",
+            "RollFlavor": {
+                "acid": "強酸",
+                "air": "風",
+                "bleed": "出血",
+                "bludgeoning": "殴打",
+                "chaotic": "混沌",
+                "cold": "氷雪",
+                "earth": "地",
+                "electricity": "電撃",
+                "evil": "悪",
+                "fire": "火炎",
+                "force": "力場",
+                "good": "善",
+                "lawful": "秩序",
+                "mental": "精神",
+                "metal": "金属",
+                "negative": "負のエネルギー",
+                "persistent": "継続 {damageType}",
+                "piercing": "刺突",
+                "poison": "毒",
+                "positive": "正のエネルギー",
+                "precision": "精密性",
+                "slashing": "斬撃",
+                "sonic": "音波",
+                "splash": "飛散",
+                "untyped": "無種別"
+            },
+            "Scatter": "散布ダメージ"
 		},
 		"DamageCategoriesLabel": "ダメージのカテゴリ",
 		"DamageDieD10": "d10",
@@ -1349,6 +1602,7 @@
 		"DeleteItemQuestion": "本当に削除しますか？",
 		"DeleteItemTitle": "アイテム削除",
 		"DeleteShortLabel": "削除",
+		"DeleteSpellcastEntryTitle": "呪文発動の削除",
 		"DeleteSpellcastEntryQuestion": "本当にこの呪文発動の項目を削除しますか？",
 		"DeleteSpellcastEntryWarning": "警告: この呪文発動の項目の全ての項目も共に削除されます",
 		"DenominationLabel": "デノミネーション",
@@ -1370,8 +1624,14 @@
 					"WasAt": " (前は{oldQuantity}点だった)"
 				},
 				"FastHealing": {
-					"FastHealingLabel": "高速治癒による回復",
-					"RegenerationLabel": "再生による回復",
+					"fast-healing": {
+                        "Name": "高速治癒",
+                        "ReceivedMessage": "高速治癒を受けた"
+                    },
+					"regeneration": {
+                        "Name": "再生",
+                        "ReceivedMessage": "再生を受けた"
+                    },
 					"DeactivatedBy": "{types}によって抑制"
 				}
 			},
@@ -1418,7 +1678,6 @@
 		"EditHazardLabel": "障害の編集",
 		"EditItemTitle": "アイテムの編集",
 		"EditLabel": "編集しますか？",
-		"EditNPCLabel": "NPCの編集をしますか？",
 		"EffectsLabel": "効果",
 		"EffectPanel": {
 			"AppliedBy": "{condition-list}によって適用",
@@ -1631,11 +1890,38 @@
 					"hellknight-plate": "ヘルナイト・プレート"
 				}
 			},
+			"Affliction": {
+                "AddStage": "ステージの追加",
+                "Error": {
+                    "RestrictedStageItem": "苦難に直接、追加可能なのは効果アイテムのみです"
+                },
+                "SaveLabel": "セーヴDC",
+                "StageLabel": "ステージ",
+                "Stage": "ステージ {stage}",
+                "OnsetLabel": "潜伏期間"
+            },
 			"Backpack": {
                 "StowingLabel": "収納用具ですか?"
             },
 			"CannotAddType": "{type}のアイテムはこのアクターに追加できません",
 			"Condition": {
+				"PersistentDamage": {
+                    "Name": "継続ダメージ ({formula} {damageType})",
+                    "NameWithDC": "家族ダメージ ({formula} DC{dc})",
+                    "Chat": {
+                        "Recover": "回復判定をロールする",
+                        "RecoverLabel": "回復: {name}"
+                    },
+                    "Dialog": {
+                        "Title": "継続ダメージ ({actor})",
+                        "Add": "継続ダメージの追加",
+                        "Remove": "継続ダメージの削除"
+                    },
+                    "Error": {
+                        "DoesNotExist": "{damageType}の継続ダメージがアクターに存在していません"
+                    },
+                    "RollDamage": "ダメージをロールする"
+                },
 				"Flanked": "立ちすくみ (挟撃)"
 			},
 			"CreationDialog": {
@@ -1977,8 +2263,15 @@
 				"ShowTokenIcon": "トークン・アイコンを表示しますか?",
 				"Unidentified": "未識別にしますか?",
                 "AddBadge": "カウンター追加",
+				"AddLabel": "ラベル追加",
+                "LabelPlaceholder": "ステージ・ラベル",
                 "BadgeType": {
-                    "Counter": "カウンター"
+                    "Counter": "カウンター",
+                    "formula": "数式",
+                    "value": "固定値"
+                },
+                "ExtraSelections": {
+                    "Labels": "カウンター： (Labeled)"
                 }
 			},
 			"Feat": {
@@ -2000,7 +2293,8 @@
 				"Info": {
                     "Added": "{item} が {category} に追加されました"
                 },
-                "LevelLabel": "特技"
+                "LevelLabel": "特技",
+                "LevelN": "特技 {level}"
 			},
 			"Heritage": {
 				"AncestryNotFound": "参照している祖先アイテムが見つかりません",
@@ -2011,6 +2305,13 @@
 			"IconLabel": "アイコン",
 			"NameLabel": "名称",
 			"Physical": {
+				"Broken": "破損",
+                "Destroyed": "破壊",
+                "FromSpell": {
+                    "CantripDeck5": " {name} (5-パック)のキャントリップ・デック",
+                    "Scroll": "{name}の巻物 (レベル {level})",
+                    "Wand": " {name}のワンド (レベル {level})"
+                },
 				"LevelLabel": "アイテム {level}",
 				"PriceLabel": "価格: {price}",
 				"OtherTag": {
@@ -2022,8 +2323,6 @@
                     "Label": "その他のタグ",
                     "Hint": "これらは、2版のルールにおいて明示的な地位や定義はないものの、大きく信頼することができる分類を示すタグである。他の属性が存在する場合、自動で追加されるものもある。"
                 },
-                "Broken": "破損",
-                "Destroyed": "破壊",
 				"Usage": {
 					"WornParenthetical": "着用部位 ({where})",
 					"WornSlot": {
@@ -2062,6 +2361,7 @@
 			"RemovalPrevented": " {item} を取り除くには、  {preventer} がさまたげになっています",
 			"SidebarSummary": "{type} の概要",
 			"Spells": {
+				"LevelN": "呪文 {level}",
 				"PlaceMeasuredTemplate": "場所 {size}-{unit} {shape}",
 				"Variants": {
                     "DeleteDialogTitle": "呪文バリアントを削除する",
@@ -2072,7 +2372,8 @@
                     "SheetTitle": "{originalName} (Variant)"
                 },
 				"Warning": {
-                    "InvalidLevel": "呪文 {name} を {targetLevel}　のレベルに追加しようとしましたが、この呪文の基本レベルは {baseLevel} です"
+                    "InvalidLevel": "呪文 {name} を {targetLevel}　のレベルに追加しようとしましたが、この呪文の基本レベルは {baseLevel} です",
+                    "WrongSpellType": "この呪文発動項目には {spellType} 呪文を追加することはできません"
                 }
 			},
 			"Weapon": {
@@ -2094,6 +2395,10 @@
                     "spear": "この武器は対象を貫き、その攻撃を弱める。対象は君の次の手番の開始時まで、@Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{もたつき1}となる。",
                     "sword": "対象は君の攻撃によってバランスを崩し、君の次の手番の開始時まで@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{立ちすくみ}となる。"
                 },
+				"Damage": {
+                    "DiceNumber": "ダイス数"
+                },
+                "FromABP": "自動ボース成長はこの武器の {property} を {value}に自動調整する",
 				"FromMaterialAndRunes": "このアイテムの稀少素材とルーンは{property} が {value}へと調整される",
 				"GeneratedName": {
 					"Hint": "これは基本武器の名称である。ほとんどの武器では、この基本は、構成する素材やルーンの名前を入れた完全な名称の生成に使われる。この武器にカスタム名称を与えたり、\"特殊\" なものにすることによって、生成された名称は表示されなくなる",
@@ -2202,7 +2507,7 @@
 		"LanguageAkitonian": "アキトニア語",
 		"LanguageAklo": "アクロ語",
 		"LanguageAlghollthu": "アルゴールトゥ語",
-		"LanguageAmurrun": "アミュラン語",
+		"LanguageAmurrun": "キャットフォーク語",
 		"LanguageAnadi": "アナディ語",
 		"LanguageAncientOsiriani": "古代オシーリオン語",
 		"LanguageAndroffan": "アンドロファン語",
@@ -2243,6 +2548,7 @@
 		"LanguageIblydan": "イブリドス語",
 		"LanguageIgnan": "火界語",
 		"LanguageIkeshti": "イケシュティ語",
+		"LanguageImmolis": "インモリス語",
 		"LanguageInfernal": "地獄語",
 		"LanguageIruxi": "イラクシ語",
 		"LanguageJistkan": "ジストカ語",
@@ -2363,20 +2669,20 @@
 		"MartialUnarmed": "素手",
 		"MartialUnarmored": "生身",
 		"MasterAbility": {
-			"cha": "元の魅力",
-			"con": "元の耐久力",
-			"dex": "元の敏捷力",
-			"int": "元の知力",
-			"str": "元の筋力",
-			"wis": "元の判断力"
+			"cha": "主人の魅力",
+			"con": "主人の耐久力",
+			"dex": "主人の敏捷力",
+			"int": "主人の知力",
+			"str": "主人の筋力",
+			"wis": "主人の判断力"
 		},
-		"MasterArmorClass": "元のAC {base}",
-		"MasterLevel": "元のレベル",
-		"MasterLevelHP": "元のレベル",
+		"MasterArmorClass": "主人のAC {base}",
+		"MasterLevel": "主人のレベル",
+		"MasterLevelHP": "主人のレベル",
 		"MasterSavingThrow": {
-			"fortitude": "元の頑健",
-			"reflex": "元の反応",
-			"will": "元の意志"
+			"fortitude": "主人の頑健",
+			"reflex": "主人の反応",
+			"will": "主人の意志"
 		},
 		"MaxHPTitle": "君の最大ヒットポイント。この欄は自動計算される",
 		"MaxHPTitleNPC": "最大ヒットポイント",
@@ -2430,7 +2736,6 @@
 		"NPCWeaponAttackEffect": "追加の攻撃効果",
 		"NPCWeaponAttackLabel": "攻撃修正",
 		"NPCWeaponDamageLabel": "ダメージ計算式",
-		"NPCWeaponDamageTypeLabel": "ダメージ種別",
 		"NegligibleOption": "取るに足らない（N)",
 		"NewLabel": "新しい",
 		"NewPlaceholders": {
@@ -2455,10 +2760,6 @@
 		"NoAmmoLabel": "弾切れ",
 		"NoStackGroup": "累積しない",
 		"NoneOption": "なし",
-		"OneDegreeBetter": "1段階上げる",
-		"OneDegreeWorse": "1段階下げる",
-		"TwoDegreesBetter": "2段階上げる",
-		"TwoDegreesWorse": "2段階下げる",
 		"OpenActionBrowserTitle": "アクションの窓を開く",
 		"OpenInventoryBrowser": "インベントリの窓を開く",
 		"OpenItemTitle": "収納の中身を表示",
@@ -2658,7 +2959,7 @@
 		"SETTINGS": {
 			"Settings": "設定",
 			"Sidebar": {
-				"Guide": "ガイド",
+				"Wiki": "Wiki",
 				"Changelog": "チェンジログ",
 				"Discord": "ディスコード"
 			},
@@ -2678,10 +2979,10 @@
 				"Name": "Nath Mode",
 				"Hint": "敵味方のトークン・アイコンを使用する"
 			},
-			"statusEffectKeepFoundry": {
-				"hint": "FoundryのアイコンセットをPathfinder2eのアイコンの下に置く。決定後に再起動する",
-				"name": "ステータス・アイコンのFoundryセット"
-			},
+			"TOTMToggles": {
+                "Name": "マインドシアターモードの切替",
+                "Hint": "アクターのシートにマインドシアター用の追加の切替ボタンを設置する。こういしたボタンによって特定の能力をターゲットなしで使用可能になる"
+            },
 			"statusEffectShowCombatMessage": {
 				"hint": "手番ごとに現在の戦闘参加者のステータス効果を表示する",
 				"name": "戦闘時にステータス効果を表示"
@@ -2702,16 +3003,16 @@
 				"EffectPanel": {
 					"Name": "エフェクト・パネルの表示",
 					"Hint": "トークンが選ばれた際にエフェクト・パネルを表示する"
-				}
+				},
+                "MonochromeDarkvision": {
+                    "Name": "暗視のモノクロ化",
+                    "Hint": "もし、ルールに基づいた視覚が有効なら、暗視持ちのトークンが暗闇の範囲を白黒で表示するようになる。フェッチリングのように、フルカラーの暗視を持ち、影響を受けないクリーチャーがいるのに留意すること"
+                }
 			},
 			"WorldSchemaVersion": {
 				"Name": "ワールド・スキーマ・バージョン",
 				"Hint": "PF2eシステムのワールド・データのスキーマ・バージョンを記録する（何をしているか分からない場合は変更しないこと）"
 			},
-			"IgnoreCoinBulk": {
-                "Name": "コインの重さを無視する",
-                "Hint": "オンにすると硬貨の重さを無視する"
-            },
 			"IdentifyMagicNotMatchingTraditionModifier": {
 				"Name": "「魔法の識別」の難易度を修正する",
 				"Hint": "もしそのアイテムの魔法の体系に技能が合致していないなら、「魔法の識別」のDCに修正値を加える",
@@ -2748,6 +3049,10 @@
 					"Hint": "Pathfinder2eのルールに対して一貫性のある視覚のメカニズムを適用する。この設定を有効にすると、制限のないグローバル・ビジョンとトークン・ビジョンの設定が無効化される。",
 					"ManagedBy": "<a>ルールに基づいた視覚</a>によって運用されています"
 				},
+				"IWR": {
+                    "Name": "耐性、弱点、抵抗",
+                    "Hint": "アクターにダメージを適用する際、アクターの耐性、弱点、抵抗に応じて値を調整する"
+                },
 				"EffectExpiration": {
 					"Name": "効果期限の自動適用",
 					"Hint": "持続時間が切れた際、効果に付随するルール要素を自動的にオフにする"
@@ -2778,6 +3083,10 @@
 				"Label": "自家ルールの設定を行う",
 				"Hint": "カスタム特性、言語、そして自家ルールのその他の要素を設定する",
 				"Instructions": "GMが特性、言語、その他の要素を追加することが出来るようになる。要素を追加するには、適切な欄に望む単語をカンマやタブで分けながら入力すること。そうすると、アクターやアイテム・シートの適切な場所に表示されるようになる。単語のアップデートをするには、クリックして望むように変化させること。",
+				"Tabs": {
+                    "Traits": "特性と分類",
+                    "Damage": "ダメージ種別"
+                },
 				"ConfirmDelete": {
 					"Title": "自家ルール要素を削除しますか?",
 					"Message": "自家ルール要素 <strong>{element}</strong>を削除しますか?"
@@ -2821,7 +3130,11 @@
 				"EquipmentTraits": {
 					"Name": "装備特性",
 					"Hint": "武器以外の装備に適用可能な特性"
-				}
+				},
+                "DamageTypes": {
+                    "name": "カスタムのダメージ種別",
+                    "Hint": "システムに認識させる追加のダメージ種別"
+                }
 			},
 			"Metagame": {
 				"Name": "ゲーム外情報",
@@ -2845,19 +3158,11 @@
 				},
 				"ShowDC": {
 					"Name": "攻撃とセーヴのDCを表示する",
-					"Hint": "判定を誰が見ることが出来るかを決定する",
-					"None": "表示しない",
-					"Gm": "GM",
-					"Owner": "トークンの所有者",
-					"All": "全員"
+					"Hint": "有効にすると、プレイヤーがNPCやその他のPCが所有していないものによる判定のDCを見ることができるようになる"
 				},
 				"ShowResults": {
 					"Name": "攻撃とセーヴの結果を表示する",
-					"Hint": "チャット・カードからロールされた判定の結果を誰が見ることが出来るかを決定する",
-					"None": "表示しない",
-					"Gm": "GM",
-					"Owner": "トークンの所有者",
-					"All": "全員"
+					"Hint": "有効にすると、プレイヤーがNPCやその他のPCが所有していないものによる判定の成功度を見ることができるようになる"
 				}
 			},
 			"Tokens": {
@@ -3007,17 +3312,6 @@
 		"SavesWillShort": "意志",
 		"SavingThrowWithName": "セーヴィング・スロー: {saveName}",
 		"ScoreTitle": "値",
-		"ScrollFromSpell": "{name}の巻物 (レベル{level})",
-		"ScrollWandPopup": {
-			"10thLevelWand": "10レベルのワンドは存在しません",
-			"itemTypeLabel": "消耗品の種別: ",
-			"label": "ドロップされた呪文から巻物やワンドを作成する",
-			"scroll": "巻物",
-			"spellLevelLabel": "増強されたレベル: ",
-			"submit": "アイテム作成",
-			"title": "巻物やワンドを作成する",
-			"wand": "ワンド"
-		},
 		"SelectLabel": "選択",
 		"SellAllTreasureTitle": "全ての宝飾品を売却",
 		"SellAllTreasureQuestion": "全ての宝飾品を硬貨にします",
@@ -3165,6 +3459,7 @@
 		"SpellLevelLabel": "呪文レベル",
 		"SpellLevelBase": "基本: {level}",
 		"SpellLevelHeightened": "増強: +{heightened}",
+		"SpellNonCantripLabel": "非キャントリップ",
 		"SpellPreparedLabel": "準備済",
 		"SpellRangeLabel": "距離",
 		"SpellRequirementsLabel": "条件",
@@ -3374,7 +3669,6 @@
 		"TraitAuditory": "聴覚",
 		"TraitAutomaton": "オートマトン",
 		"TraitAura": "オーラ",
-		"TraitAxeVulnerability": "アクスの脆弱性",
 		"TraitAzarketi": "アザーケティ",
 		"TraitAzata": "アザータ",
 		"TraitBackstabber": "急所打ち",
@@ -3391,6 +3685,7 @@
 		"TraitBulwark": "堅牢",
 		"TraitCaligni": "カリグニ",
 		"TraitCantrip": "キャントリップ",
+		"TraitCapacity": "容量",
 		"TraitCapacity3": "容量 3",
 		"TraitCapacity4": "容量 4",
 		"TraitCapacity5": "容量 5",
@@ -3406,7 +3701,6 @@
 		"TraitClimbing": "クライミング",
 		"TraitClockwork": "クロックワーク",
 		"TraitCobbled": "がらくた",
-		"TraitCleric": "クレリック",
 		"TraitCold": "氷雪",
 		"TraitColdiron": "冷たい鉄",
 		"TraitCombination": "コンビネーション",
@@ -3429,13 +3723,13 @@
 		"TraitContract": "契約",
 		"TraitCouatl": "コアトル",
 		"TraitCriticalFusion": "クリティカル複合",
-		"TraitCriticalHits": "クリティカル・ヒット",
 		"TraitCurse": "呪い",
 		"TraitCursed": "呪われた品",
 		"TraitCursebound": "カースボンド",
 		"TraitDaemon": "ダイモン",
 		"TraitDarkness": "闇",
 		"TraitDarvakka": "ダーヴァッカ",
+		"TraitDeadly": "致命的",
 		"TraitDeadlyD10": "致命的 d10",
 		"TraitDeadlyD12": "致命的 d12",
 		"TraitDeadlyD6": "致命的 d6",
@@ -3450,7 +3744,6 @@
 		"TraitDeadly4D10": "致命的 4d10",
 		"TraitDeadly4D12": "致命的 4d12",
 		"TraitDeath": "即死",
-		"TraitDeathEffects": "即死効果",
 		"TraitDedication": "専心",
 		"TraitDemon": "デーモン",
 		"TraitDero": "デロ",
@@ -3493,7 +3786,6 @@
 		"TraitDescriptionChampion": "これはチャンピオンのクラスに由来する能力を示している。",
 		"TraitDescriptionChangeling": "この特性を持つクリーチャーはチェンジリングの祖先を持つ。",
 		"TraitDescriptionChaotic": "混沌効果はしばしば、混沌属性の外方次元界由来のエネルギーを操作するものであり、秩序属性の信仰を持った従僕や、秩序の神格の神聖なる従僕にとっては破門に相当する。この特性を持つクリーチャーは混沌の属性である。",
-		"TraitDescriptionCharm": "魔法の力で態度に影響を与える能力",
 		"TraitDescriptionClass": "クラスの特性を持つアーキタイプは、君のクラスの専門性を離れてはいるが、君のクラスの文脈の中に存在しているような基礎的な多様性を表現している。君は、同じ名前のクラスの一員である場合にのみ、クラス・アーキタイプを選択することが出来る。クラス・アーキタイプは常にあるクラスの定められたクラス特徴の幾つかを変更、あるいは置き換え、更に、新しい特技を提供する。初期クラス特徴を変更、あるいは置き換えするようなものであれば、1レベル時点でクラス・アーキタイプを取るということも有り得る。その場合、君は2レベル時点でそのアーキタイプの専心特技を取らなくてはならず、その後は通常通りに成長していく。君は2つ以上のクラス・アーキタイプを持つことが出来ない。",
 		"TraitDescriptionCleric": "これはクレリックのクラスに由来する能力を示している。",
 		"TraitDescriptionClockwork": "クロックワークは生まれつきの複雑な人造で、特定の機能を果たすようにログラムすることが可能である",
@@ -3597,7 +3889,6 @@
 		"TraitDescriptionIfrit": "炎の次元界の生き物の子孫である、ジーニーキンの一種",
 		"TraitDescriptionIncarnate": "具現化の特性を持つ呪文は、クリーチャーを招来する呪文とテーマが似ているが、招来の特性を持つ手下を召喚するわけではない。代わりに、招来時、具現化クリーチャーは「呪文の発動」が終わった際に、「到着」のアクションを使う。君の次の手番の終了時に、具現化クリーチャーは「ステップ」、「打撃」あるいはそのクリーチャーが持つ別の移動種別のアクション（「登攀」あるいは「掘り進み」のような）を使い、それから、「出発」アクションを使う。この呪文はそれから、終了する。特定の「到着」及び「出発」アクションは、「到着」あるいは「出発」それぞれの単語の次に、特性と共に斜体で記載されている。具現化呪文で招来されたクリーチャーは君の利益のために行動し、その効果を可能な限り、君と君の味方から遠ざけ、君の要求に耳を貸すかもしれないが、最終的には自分の判断を行う。もし、呪文によって、具現化クリーチャーが判断をすることが示されているなら、GMが、クリーチャーが何をするかを判断する。クリーチャーは。何度も召喚しているうちに、君の望みにより正確に答えるようになるかもしれない。具現化クリーチャーは完全なクリーチャーではない。他のアクションを取ることは出来ず、特に具現化クリーチャーを対象にすることが出来るか、具現化を終わらせる呪文効果（ディスペル・マジックのような）以外で、「打撃」や呪文、その他の効果の対象になることも、危害を及ぼされることもない。効果の場所を決定するために大きさを持っているが、具現化クリーチャーは移動を阻害しない。もし適用可能なら、その効果には君の呪文DCと呪文攻撃ロール修正値を使う。",
 		"TraitDescriptionIncapacitation": "この特性を持つ能力はキャラクターを完全に戦闘から除外するか、殺すことすら出来る。もし、呪文が無力化の特性を持つなら、呪文レベルの2倍よりレベルの高いクリーチャーは、無力化されないための判定の結果を1段階、良いものとして扱うか、術者が相手を無力化するために行うあらゆる判定の結果を1段階悪いものとして扱う。もし、呪文以外の効果が無力化の特性を持つなら、そのアイテムやクリーチャー、障害よりもレベルの高いクリーチャーも上記の効果を受ける。",
-		"TraitDescriptionIncapacitationShort": "もし、対象のレベルがこの能力のレベルよりも高い（あるいは呪文レベルの2倍以上）なら、結果を1段階、良いものとして扱う",
 		"TraitDescriptionIncorporeal": "非実体のクリーチャーあるいは物体には物理的な形態がない。壁を含む固体の物体を通り抜けることが出来る。物体の中にいる際、非実体のクリーチャーはその物体の外にある全ての物体を知覚、攻撃、干渉することが出来ない。そして、ある物体の中で手番の開始するなら、減速化1になる。実体のあるクリーチャーは非実体のクリーチャーを通り抜けることが出来るが、その競って鬼面で移動を終えることは出来ない。非実体のクリーチャーは実体のあるクリーチャーや物質に足して筋力に基づいた判定をすることが出来ない。こういった判定をすることが出来るのは非実体の相手に対してだけであるが、そういった物体にゴースト・タッチの属性ルーンがあれば筋力に基づいた判定をすることが出来る。同じように、実体のあるクリーチャーは非実体のクリーチャーや物体に対して筋力に基づいた判定をすることが出来ない。非実体のクリーチャーは病気、毒、精密性ダメージといった物質としての肉体を必要とする効果や状態に完全耐性を持つ。大抵の場合、非実体のクリーチャーは全てのダメージに対する抵抗を持ち（力場ダメージとゴースト・タッチの属性ルーンを持つ武器での「打撃」ダメージを除く）、魔法のものでないダメージに対して抵抗は2倍になる。",
 		"TraitDescriptionInfused": "君は注入試薬を用いて注入の特性を持つ錬金術アイテムを作る。そして、それらは不活性化するまでの時間が限られている。注入の錬金術アイテムから受ける、恒久でないあらゆる効果は、遅効性の毒といった苦難のような例外を除き、君が再び一日の準備をする時に終わる。",
 		"TraitDescriptionIngested": "この毒は飲むか食べるかした時に運ばれる。",
@@ -3752,6 +4043,7 @@
 		"TraitDescriptionPotion": "ポーションは君が飲んだ際に起動する魔法の液体である。",
 		"TraitDescriptionScroll": "巻物には、君が呪文スロットなしに発動することが出来る1本の呪文が入っている",
 		"TraitDescriptionSnare": "トラップはレンジャーによって一般的に作られるものだが、罠は素早く構築し、戦場で使うことの出来るもので、特殊なルールに従う",
+		"TraitDescriptionSpellgun": "This trait lacks a published description",
 		"TraitDescriptionSpellheart": "スペルハートは護符と同じように機能する恒久的アイテムである。君はスペルハートを、「スペルハートの取付」の連続行動で取り付けることが出来る。これは、それ以外については「護符の取付」と同じである。アイテムごとに1つの護符の制限は残っており、1つのアイテムは1つのスペルハートか1つの護符のみを取り付けることが出来る。両方は無理である。スペルハートからキャントリップを発動する際、君は、自分の呪文攻撃ロールあるいは呪文DCの方が高いなら、それを使うことが出来る。スペルハートの製作には、スペルハートが発動することが出来る呪文が必要である。例えば、メジャー・ファイヴ＝フェザー・リースにはエア・ウォーク、ゲイル・ブラスト、ウォール・オヴ・ウィンドが必要である。 ",
 		"TraitDescriptionTalisman": "護符は防具、盾、武器に取り付けることが出来る小さな物体（取付アイテムと呼ばれる）である。君は取り付けられた護符を起動するために、そのアイテムを使っているか、着用していなければならない。起動したら、護符は永久に焼け落ちる。",
 		"TraitDescriptionWand": "ワンドには、君が1日に1回、発動することが出来る呪文1つが入っている",
@@ -3793,13 +4085,14 @@
 		"TraitEvolution": "進化",
 		"TraitExploration": "探索",
 		"TraitExtradimensional": "他次元界",
-		"TraitFatalAimD10": "大殺傷 d10",
-		"TraitFatalAimD12": "大殺傷 d12",
+		"TraitFatalAim": "狙い撃ち",
+		"TraitFatalAimD10": "狙い撃ち d10",
+		"TraitFatalAimD12": "狙い撃ち d12",
+		"TraitFatal": "大殺傷",
 		"TraitFatalD10": "大殺傷 d10",
 		"TraitFatalD12": "大殺傷 d12",
 		"TraitFatalD8": "大殺傷 d8",
 		"TraitFear": "恐怖",
-		"TraitFearEffects": "恐怖効果",
 		"TraitFetchling": "フェッチリング",
 		"TraitFey": "フェイ",
 		"TraitFiend": "フィーンド",
@@ -3873,6 +4166,7 @@
 		"TraitInventor": "インヴェンター",
 		"TraitInvested": "運用",
 		"TraitInvestigator": "インヴェスティゲーター",
+		"TraitJousting": "騎乗",
 		"TraitJoustingD6": "騎乗d6",
 		"TraitKaiju": "カイジュウ",
 		"TraitKami": "カミ",
@@ -3921,11 +4215,8 @@
 		"TraitNegative": "負のエネルギー",
 		"TraitNoisy": "騒音",
 		"TraitNonlethal": "非致傷",
-		"TraitNonlethalAttacks": "非致傷攻撃",
-		"TraitNonmagicalAttacks": "非魔法の攻撃",
 		"TraitNymph": "ニンフ",
 		"TraitOath": "誓約",
-		"TraitObjectImmunities": "物体の完全耐性",
 		"TraitOccult": "霊妙",
 		"TraitOil": "オイル",
 		"TraitOlfactory": "嗅覚",
@@ -3951,13 +4242,11 @@
 		"TraitPossession": "憑依",
 		"TraitPotion": "ポーション",
 		"TraitPrecious": "稀少",
-		"TraitPrecision": "精密",
 		"TraitPrediction": "予知",
 		"TraitPress": "継続",
 		"TraitPrimal": "始原",
 		"TraitPropulsive": "投射",
 		"TraitProtean": "プロテアン",
-		"TraitProteanAnatomy": "プロテアンの解剖学的構造",
 		"TraitPsychopomp": "サイコポンプ",
 		"TraitPsyche": "プシケ",
         "TraitPsychic": "サイキック",
@@ -3965,6 +4254,7 @@
 		"TraitRadiation": "放射能",
 		"TraitRage": "激怒",
 		"TraitRakshasa": "ラクシャーサ",
+		"TraitRange": "距離",
 		"TraitRange5": "距離 5 ft",
 		"TraitRange10": "距離 10 ft",
 		"TraitRange15": "距離 15 ft",
@@ -3978,12 +4268,28 @@
 		"TraitRange80": "距離 80 ft",
 		"TraitRange90": "距離 90 ft",
 		"TraitRange100": "距離 100 ft",
+		"TraitRange110": "距離 110 ft",
+        "TraitRange120": "距離 120 ft",
+        "TraitRange130": "距離 130 ft",
+        "TraitRange140": "距離 140 ft",
+        "TraitRange150": "距離 150 ft",
+        "TraitRange160": "距離 160 ft",
+        "TraitRange170": "距離 170 ft",
+        "TraitRange180": "距離 180 ft",
+        "TraitRange190": "距離 190 ft",
 		"TraitRange200": "距離 200 ft",
-		"TraitRange120": "距離 120 ft",
-		"TraitRange150": "距離 150 ft",
-		"TraitRange180": "距離 180 ft",
+		"TraitRange210": "距離 210 ft",
+        "TraitRange220": "距離 220 ft",
+        "TraitRange230": "距離 230 ft",
 		"TraitRange240": "距離 240 ft",
+		"TraitRange250": "距離 250 ft",
+        "TraitRange260": "距離 260 ft",
+        "TraitRange270": "距離 270 ft",
+        "TraitRange280": "距離 280 ft",
+        "TraitRange290": "距離 290 ft",
 		"TraitRange300": "距離 300 ft",
+		"TraitRange310": "距離 310 ft",
+        "TraitRange320": "距離 320 ft",
 		"TraitRange500": "距離 500 ft",
 		"TraitRangeIncrement10": "射程単位 10 ft",
 		"TraitRangeIncrement100": "射程単位 100 ft",
@@ -3998,6 +4304,7 @@
 		"TraitRangeIncrement180": "射程単位 180 ft",
 		"TraitRangeIncrement190": "射程単位 190 ft",
 		"TraitRangeIncrement20": "射程単位 20 ft",
+		"TraitRangeIncrement25": "射程単位 25 ft",
 		"TraitRangeIncrement200": "射程単位 200 ft",
 		"TraitRangeIncrement210": "射程単位 210 ft",
 		"TraitRangeIncrement220": "射程単位 220 ft",
@@ -4085,7 +4392,6 @@
 		"TraitSpellshot": "スペルショット",
 		"TraitSpirit": "霊魂",
 		"TraitSplash": "飛散",
-		"TraitSplashDamage": "飛散ダメージ",
 		"TraitSplash10": "飛散 10 ft",
 		"TraitSpriggan": "スプリガン",
 		"TraitSprite": "スプライト",
@@ -4100,8 +4406,6 @@
 		"TraitSummon": "招来",
 		"TraitSummoned": "招来された",
 		"TraitSummoner": "サモナー",
-		"TraitSwarmAttacks": "群がり攻撃",
-		"TraitSwarmMind": "スウォームの精神",
 		"TraitSwashbuckler": "スワッシュバックラー",
 		"TraitSwarm": "スウォーム",
 		"TraitSweep": "一掃",
@@ -4127,6 +4431,7 @@
 		"TraitThrown60": "投擲 60 ft.",
 		"TraitThrown80": "投擲 80 ft.",
 		"TraitThrown100": "投擲 100 ft.",
+		"TraitThrown200": "投擲 200 ft.",
 		"TraitTiefling": "ティーフリング",
 		"TraitTime": "時間",
 		"TraitTitan": "タイタン",
@@ -4137,11 +4442,11 @@
 		"TraitTroop": "トループ",
 		"TraitTrueName": "真名",
 		"TraitTwin": "双刀",
+		"TraitTwoHand": "両手",
 		"TraitTwoHandD10": "両手 d10",
 		"TraitTwoHandD12": "両手 d12",
 		"TraitTwoHandD6": "両手 d6",
 		"TraitTwoHandD8": "両手 d8",
-		"TraitTwoHandedHelp": "このアイテムは両手で使うことが出来る。両手打撃を切り替えるには、打撃タブの両手の特性をクリックすること。",
 		"TraitUnarmed": "素手",
 		"TraitUncommon": "アンコモン",
 		"TraitUndead": "アンデッド",
@@ -4151,9 +4456,9 @@
 		"TraitUntyped": "無名",
 		"TraitUrdefhan": "ウルデファン",
 		"TraitVampire": "ヴァンパイア",
-		"TraitVampireWeaknesses": "ヴァンパイアの弱点",
 		"TraitVanara": "ヴァナラ",
 		"TraitVelstrac": "ヴェルストラク",
+		"TraitVersatile": "可変",
 		"TraitVersatileAcid": "可変　強酸",
 		"TraitVersatileB": "可変　殴打",
 		"TraitVersatileChaotic": "可変　混沌",
@@ -4174,11 +4479,11 @@
 		"TraitVirulent": "治癒困難",
 		"TraitVishkanya": "ヴィシュカニャ",
 		"TraitVisual": "視覚",
+		"TraitVolley": "強弓",
 		"TraitVolley20": "強弓 20 ft.",
 		"TraitVolley30": "強弓 30 ft.",
 		"TraitVolley40": "強弓 40 ft.",
-		"TraitVorpalFear": "首切りへの恐怖",
-		"TraitVulnerableToSunlight": "太陽光への脆弱性",
+		"TraitVorpalFear": "首狩りへの恐怖",
 		"TraitWand": "ワンド",
 		"TraitWater": "水",
 		"TraitWayang": "ワヤン",
@@ -4227,12 +4532,19 @@
 		"TraitWornSaddle": "サドル",
 		"TraitWornOrOneHand": "着用あるいは1本の手で持つ",
 		"TraitEtchedOntoArmor": "防具に彫刻",
+		"TraitEtchedOntoLightArmor": "軽装鎧に彫刻",
 		"TraitEtchedOntoMedHeavyArmor": "中装鎧あるいは重装鎧に彫刻",
+		"TraitEtchedOntoLightMedNMArmor": "非金属の中装鎧あるいは重装鎧に彫刻",
 		"TraitEtchedOntoAWeapon": "武器に彫刻",
 		"TraitEtchedOntoAThrownWeapon": "投擲武器に彫刻",
 		"TraitEtchedOntoAMeleeWeapon": "近接武器に彫刻",
+		"TraitEtchedOntoASlashingMeleeWeapon": "斬撃近接武器に彫刻",
+        "TraitEtchedOntoAPiercingOrSlashingMeleeWeapon": "斬撃あるいは刺突近接武器に彫刻",
+        "TraitEtchedOntoAWeaponWOAxiomaticRune": "アクシアマティック・ルーンのない武器に彫刻",
+        "TraitEtchedOntoAWeaponWOAnarchicRune": "アナーキック・ルーンのない武器に彫刻",
+        "TraitEtchedOntoAWeaponWOHolyRune": "ホーリィ・ルーンのない武器に彫刻",
+        "TraitEtchedOntoAWeaponWOUnholyRune": "アンホーリィ・ルーンのない武器に彫刻",
 		"TraitEtchedOntoAClanDagger": "クラン・ダガーに彫刻",
-		"TraitEtchedOntoLightMedNMArmor": "中装鎧あるいは重装鎧に彫刻",
 		"TraitBonded": "絆の品",
 		"TraitsLabel": "特性",
 		"Trap": "トラップ",
@@ -4305,7 +4617,6 @@
 			}
 		},
 		"ValueLabel": "値",
-		"WandFromSpell": "{name} のワンド (レベル {level})",
 		"WeaknessesLabel": "弱点",
 		"Weapon": {
 			"Base": {
@@ -4412,6 +4723,7 @@
 				"heavy-crossbow": "ヘヴィ・クロスボウ",
 				"hongali-hornbow": "ホンガリ・ホーンボウ",
 				"horsechopper": "ホースチョッパー",
+				"injection-spear": "インジェクション・スピア",
 				"javelin": "ジャヴェリン",
 				"jaws": "顎",
 				"jezail": "ジェザイル",
@@ -4541,7 +4853,6 @@
 		"WeaponBaseLabel": "基本",
 		"WeaponBonusAttackLabel": "ボーナス（攻撃）",
 		"WeaponBonusDamageLabel": "ボーナス（ダメージ）",
-		"WeaponBaseDamageLabel": "基本武器ダメージ",
 		"WeaponBaseDamageTitle": "この項目で武器の基礎ダメージを設定する。ストライキング・ルーン由来の追加ダイスはここに追加せず、代わりに上記の武器ルーンに設定すること。",
 		"WeaponCustomDamageLabel": "追加のカスタムダメージ",
 		"WeaponCustomDamageTitle": "この項目にルーン・システムでカバーされないあらゆるカスタム・ダメージを追加する。ストライク効果とクリティカル効果は現在、システムに反映されておらず、情報表示のみである。",
@@ -4852,11 +5163,7 @@
 				}
 			},
 			"wounding": {
-				"Name": "ウーンディング・ルーン",
-				"Note": {
-					"criticalSuccess": "<b>ウーンディング・ルーン</b> ウーンディング武器でクリーチャーにクリティカル・ヒットしたなら、君は追加で[[/r {1d12}[継続、出血]]]点の @Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}を与える",
-					"success": "<b>ウーンディング・ルーン</b> 君がウーンディング武器で命中させたなら、追加で[[/r {1d6}[継続、出血]]]点の@Compendium[pf2e.conditionitems.Persistent Damage]{継続出血ダメージ}を与える"
-				}
+				"Name": "ウーンディング・ルーン"
 			}
 		},
 		"WeaponPropertyStrikeDamageLabel": "打撃ダメージ",
@@ -5234,7 +5541,6 @@
 		},
 		"loot": {
 			"EditLootLabel": "戦利品の設定をしますか?",
-			"GMSettings": "GMの設定",
 			"PermissionError": "GMはアイテムを分配するにもアイテムを入れるにもオンラインでなくてはなりません。",
 			"InsufficientCurrencyError": "{buyer}から購入するにはお金が足りません",
 			"LootDescription": "硬貨をプレイヤーに分配許可する",
@@ -5280,6 +5586,7 @@
 			"VehicleString": "乗り物",
 			"NamePlaceholder": "乗り物",
 			"VehicleLevelLabel": "乗り物",
+			"LevelN": "乗り物 {level}",
 			"DescriptionHeading": "描写",
 			"PilotingCheckLabel": "操縦判定",
 			"CrewLabel": "乗務員",
@@ -5449,24 +5756,25 @@
 			}
 		},
 		"DamageButton": {
-			"Full": "選んだトークンに全てのダメージを適用する",
+			"Full": "[Click]選んだトークンに全てのダメージを適用する",
 			"FullContext": "全ダメージ",
 			"FullShort": "全",
-			"Half": "選んだトークンに半分のダメージを適用する",
+			"Half": "[Click]選んだトークンに半分のダメージを適用する",
 			"HalfContext": "半ダメージ",
 			"HalfShort": "半",
-			"Double": "選んだトークンに2倍のダメージを適用する",
+			"Double": "[Click]選んだトークンに2倍のダメージを適用する",
 			"DoubleContext": "倍ダメージ",
 			"DoubleShort": "×2",
-			"Triple": "選んだトークンに3倍のダメージを適用する",
+			"Triple": "[Click]選んだトークンに3倍のダメージを適用する",
 			"TripleContext": "3倍ダメージ",
 			"TripleShort": "×3",
 			"ShieldBlock": "選んだトークンの盾防御の状態を切り替える",
 			"ShieldBlockContext": "盾防御",
 			"ShieldBlockShort": "盾",
-			"Healing": "選んだトークンに全ての治癒を適用する",
+			"Healing": "[Click]選んだトークンに全ての治癒を適用する",
 			"HealingContext": "治癒",
-			"HealingShort": "癒"
+			"HealingShort": "癒",
+            "Adjust": "[Shift-Click] 適用前に数値を修正する"
 		}
 	}
 }
